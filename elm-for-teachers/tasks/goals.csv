@@ -1,0 +1,9 @@
+order_in_table,goal,want,indifferent,not_want,rank,provenance,n
+1,Save time on lesson planning,9,1,0,3,seeded,10
+2,"Generate activities, resources and assessments",8,2,0,1,derived,10
+3,Meet institutional expectations,8,1,1,4,derived,10
+4,Improve the quality of my lessons,8,2,0,5,seeded,10
+5,Remember key information about students,8,1,1,6,derived,10
+6,Increase lesson variety,8,2,0,7,derived,10
+7,Differentiate for learners in my class,7,2,1,2,derived,10
+8,Prepare for teaching the lesson itself (week/morning of),4,4,2,8,derived,10

@@ -1,0 +1,15 @@
+# ELM for Teachers: Example Documents Bundle
+
+**Version 0.4, 16 October 2026.** Example documents to link from the [ELM for Teachers planning document](../PLANNING-README.md). Each file is a worked example of one Research Output, using differentiation and adaptive teaching as the first domain. They are meant to be argued with and replaced, not adopted as they stand.
+
+## Map to the planning document
+
+| Research Output (planning doc) | Example file | What it shows |
+|---|---|---|
+| TASK LIST | `tasks/TASKS-README.md` + `tasks/tasks.csv` + `tasks/goals.csv` | Real empirical data (not a placeholder): the fifteen-task delegation positioning and eight-goal sort from Green & Robertson's TOCHI submission (Phase 2 card sort, n=10 experienced teachers), showing which planning sub-tasks teachers reserved, delegated, or made conditional, and which goals they wanted from an agentic system. |
+| PROMPTS | `prompts/PROMPTS-README.md` + `prompts/prompts.jsonl` | Prompts mapped to tasks, each with `must_contain` / `must_not` fields that double as the ablation rubric (currently flagged subjective, see `prompts/PROMPTS-README.md`), plus negative controls, slots for donated Gemini Pilot prompts, and real literature examples (section H). |
+| SKILLS | `skills/SKILLS-README.md` + `skills/*/SKILL.md` | Five skill files in a common schema (frontmatter, invariants, inputs, steps, checks, output, refusals, sources). `differentiate-for-dyslexia` is the full worked example named in the plan. |
+| DATA CURATION | `context/CONTEXT-README.md` + `context/data_curation_map.xlsx` | Excel map with Documents (29 rows: task, document, usage, reference, strength, jurisdiction, licence, review date), Task-Doc Map (which documents each task loads, in what order) and a formula-driven Coverage sheet. |
+| DATA CURATION (the documents themselves) | `context/summaries/*.md` | Six example reference documents written for agents to read: evidence summary, negative evidence register, jurisdiction terminology, accessibility standards, two need-group profiles. `context/raw/` is reserved for the downloaded primary sources these are built from (currently empty — see "What is still missing"). |
+| USER INTERFACE DESIGN | `user_stories.md` | **Currently missing from this directory** (see "What is still missing"). Was to hold user stories from the three workshops (Agent Harness Canvas, Task and Data Delegation, Differentiation), each decomposed into research (R) and software (S) sub-tasks, with a traceability matrix to the Research Outputs. |
+| ABLATION STUDY | `ablation_study_design.md` | **Currently missing from this directory** (see "What is still missing"). Was to hold a five-condition ablation (basic, skills only, data only, skills plus data, agentic with checks) across models, blind teacher rating rubric, cost per quality point, analysis plan and threats to validity. |
