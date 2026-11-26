@@ -1,5 +1,5 @@
 import { useEffect, useState, type Ref } from 'react';
-import { BookOpen, Folder, FolderPlus, PanelLeftClose, Puzzle, SlidersHorizontal, SquarePen, type LucideIcon } from 'lucide-react';
+import { BookOpen, Folder, FolderPlus, Layers, PanelLeftClose, Puzzle, SlidersHorizontal, SquarePen, type LucideIcon } from 'lucide-react';
 import type { Project, Thread } from '@edw/shared';
 import { IconButton } from '../editor/Toolbar.js';
 import { MakeSlot } from './slots/slots';
@@ -56,6 +56,9 @@ export interface ThreadSidebarProps {
   pluginsOpen?: boolean;
   /** Year groups and classes, with their chats under the open one; with none given, the section is not shown. */
   classes?: Pick<ClassesSectionProps, 'list' | 'activeClassId' | 'activeYearGroupId' | 'screenOpen' | 'onOpen'>;
+  /** Opens the Needs groups screen; with none given, the entry is not shown. */
+  onNeedsGroups?: () => void;
+  needsGroupsOpen?: boolean;
   /** Opens the Pedagogy screen; with none given, the entry is not shown. */
   onPedagogy?: () => void;
   pedagogyOpen?: boolean;
@@ -97,6 +100,8 @@ export function ThreadSidebar({
   onPlugins,
   pluginsOpen,
   classes,
+  onNeedsGroups,
+  needsGroupsOpen,
   onPedagogy,
   pedagogyOpen,
   curriculum,
@@ -142,10 +147,11 @@ export function ThreadSidebar({
         <IconButton icon={PanelLeftClose} label="Close sidebar" tipAlign="start" onClick={onToggle} />
       </div>
       <div className={scrollClass}>
-        {(onPreferences || onPlugins || onPedagogy) && (
+        {(onPreferences || onPlugins || onNeedsGroups || onPedagogy) && (
           <ul className={listClass}>
             {onPreferences && <ScreenEntry icon={SlidersHorizontal} label="Preferences" open={!!preferencesOpen} onClick={onPreferences} />}
             {onPlugins && <ScreenEntry icon={Puzzle} label="Plugins" open={!!pluginsOpen} onClick={onPlugins} />}
+            {onNeedsGroups && <ScreenEntry icon={Layers} label="Needs groups" open={!!needsGroupsOpen} onClick={onNeedsGroups} />}
             {onPedagogy && <ScreenEntry icon={BookOpen} label="Pedagogy" open={!!pedagogyOpen} onClick={onPedagogy} />}
           </ul>
         )}

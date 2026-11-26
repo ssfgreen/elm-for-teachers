@@ -67,7 +67,7 @@ describe('useAdminSessions: feature switches', () => {
     expect(hook.result.current.sessions[0]?.features?.spyglass).toBe(false);
     expect(api.setFeatures).toHaveBeenCalledWith('S1', { spyglass: false });
     await act(async () => {
-      resolve(row({ updated_at: '2026-11-23T10:00:00Z', features: { classes: true, curriculum: true, pedagogy: true, preferences: true, spyglass: false, plugins: true, pupils: false } }));
+      resolve(row({ updated_at: '2026-11-23T10:00:00Z', features: { classes: true, needs_groups: true, curriculum: true, pedagogy: true, preferences: true, spyglass: false, plugins: true, pupils: false } }));
       expect(await done).toBeNull();
     });
     expect(hook.result.current.sessions[0]?.updated_at).toBe('2026-11-23T10:00:00Z');
@@ -105,7 +105,7 @@ describe('useAdminSessions: two saves on one workspace', () => {
     };
     const hook = renderHook(() => useAdminSessions(api));
     await waitFor(() => expect(hook.result.current.sessions).toHaveLength(1));
-    const on = { classes: true, curriculum: true, pedagogy: true, preferences: true, spyglass: true, plugins: true, pupils: false };
+    const on = { classes: true, needs_groups: true, curriculum: true, pedagogy: true, preferences: true, spyglass: true, plugins: true, pupils: false };
     let a: Promise<string | null> = Promise.resolve(null);
     let b: Promise<string | null> = Promise.resolve(null);
     act(() => {

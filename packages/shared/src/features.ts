@@ -10,11 +10,13 @@ import { z } from "zod";
  * `PUPILS=on` setting opens pupil sign-in at all: unset or off, it is shut everywhere whatever the
  * switch says (server/src/pupils/).
  */
-export const FEATURE_NAMES = ["classes", "curriculum", "pedagogy", "preferences", "spyglass", "plugins", "pupils"] as const;
+export const FEATURE_NAMES = ["classes", "needs_groups", "curriculum", "pedagogy", "preferences", "spyglass", "plugins", "pupils"] as const;
 export type FeatureName = (typeof FEATURE_NAMES)[number];
 
 export const Features = z.object({
   classes: z.boolean(),
+  /** Missing (a stored event or bundle from before T1) reads as on, its default. */
+  needs_groups: z.boolean().default(true),
   curriculum: z.boolean(),
   pedagogy: z.boolean(),
   preferences: z.boolean(),
@@ -31,6 +33,7 @@ export type FeaturesPatch = z.infer<typeof FeaturesPatch>;
 
 export const DEFAULT_FEATURES: Readonly<Features> = Object.freeze({
   classes: true,
+  needs_groups: true,
   curriculum: true,
   pedagogy: true,
   preferences: true,

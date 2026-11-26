@@ -308,6 +308,8 @@ export function WorkspaceScreen({ session, api, logger, focusState, context, int
         preferencesOpen={view.kind === 'preferences'}
         onPlugins={api.listPlugins ? fromSidebar(() => setView({ kind: 'plugins' })) : undefined}
         pluginsOpen={view.kind === 'plugins'}
+        onNeedsGroups={api.listNeedsGroups ? fromSidebar(() => setView({ kind: 'needs-groups' })) : undefined}
+        needsGroupsOpen={view.kind === 'needs-groups'}
         onPedagogy={api.pedagogyInfo ? fromSidebar(() => setView({ kind: 'pedagogy' })) : undefined}
         pedagogyOpen={view.kind === 'pedagogy' && !view.alignsTo}
         curriculum={sidebar.curriculum}

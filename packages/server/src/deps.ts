@@ -99,7 +99,7 @@ export interface ThreadService {
    * project id, or a project, class or year group, at most one) must be this session's and not
    * archived; the chat belongs to it.
    */
-  create(sessionId: string, envelope: ServerEnvelope, tx?: Transaction, place?: string | null | { project_id?: string | null; class_id?: string | null; year_group_id?: string | null }): Promise<{ thread: Thread; doc: Doc }>;
+  create(sessionId: string, envelope: ServerEnvelope, tx?: Transaction, place?: string | null | { project_id?: string | null; class_id?: string | null; year_group_id?: string | null; needs_group_id?: string | null }): Promise<{ thread: Thread; doc: Doc }>;
   setTitle(threadId: string, title: string, tx: Transaction): Promise<void>;
   /** The teacher names a thread; logged as `thread_rename`. Null when the thread is not this session's. */
   /** `auto`: named by the model (the wand), not typed. */

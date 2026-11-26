@@ -76,6 +76,9 @@ describe('migrate', () => {
       'gateway_calls',
       'jobs',
       'make_boards',
+      'needs_group_adaptations',
+      'needs_group_classes',
+      'needs_groups',
       'plugin_drafts',
       'plugin_grants',
       'plugin_settings',
@@ -203,7 +206,7 @@ describe('sessions.features (0034)', () => {
   it('reads a workspace with no stored switches as the defaults (all on but pupils), and stored ones as stored', async () => {
     const all = (await db.execute('SELECT * FROM sessions WHERE session_id = ?', [S])).rows[0]!;
     expect(all.features).toBeNull();
-    expect(rowToSession(all).features).toEqual({ classes: true, curriculum: true, pedagogy: true, preferences: true, spyglass: true, plugins: true, pupils: false });
+    expect(rowToSession(all).features).toEqual({ classes: true, needs_groups: true, curriculum: true, pedagogy: true, preferences: true, spyglass: true, plugins: true, pupils: false });
     await db.execute('UPDATE sessions SET features = ? WHERE session_id = ?', ['{"spyglass":false,"classes":false}', S]);
     const some = (await db.execute('SELECT * FROM sessions WHERE session_id = ?', [S])).rows[0]!;
     expect(rowToSession(some).features).toMatchObject({ spyglass: false, classes: false, curriculum: true });

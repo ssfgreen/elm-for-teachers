@@ -79,19 +79,22 @@ export function useThreadActions({ api, logger, getEnvelope, open, openRef, snap
     }
   }, [open, api, getEnvelope, logger, setThreads, setNotice]);
 
-  const newThread = useCallback(async () => {
-    setCreatingThread(true);
-    try {
-      const { thread, doc } = await api.createThread(getEnvelope());
-      setThreads((ts) => [...ts, thread]);
-      setSnap((s) => (s ? mergeChanges(s, { docs: [doc] }) : s));
-      openDoc(thread.id, doc.id, { log: false });
-    } catch (err) {
-      logger.log('error', { source: 'client', message: `new chat failed: ${err instanceof Error ? err.message : String(err)}` });
-    } finally {
-      setCreatingThread(false);
-    }
-  }, [api, getEnvelope, logger, openDoc, setThreads, setSnap]);
+  const newThread = useCallback(
+    async (place?: ThreadPlace) => {
+      setCreatingThread(true);
+      try {
+        const { thread, doc } = await api.createThread(getEnvelope(), place);
+        setThreads((ts) => [...ts, thread]);
+        setSnap((s) => (s ? mergeChanges(s, { docs: [doc] }) : s));
+        openDoc(thread.id, doc.id, { log: false });
+      } catch (err) {
+        logger.log('error', { source: 'client', message: `new chat failed: ${err instanceof Error ? err.message : String(err)}` });
+      } finally {
+        setCreatingThread(false);
+      }
+    },
+    [api, getEnvelope, logger, openDoc, setThreads, setSnap],
+  );
 
   const selectThread = useCallback(
     (threadId: string) => {

@@ -47,6 +47,8 @@ export const Thread = z.object({
   class_id: Ulid.nullable().optional(),
   /** The year group the chat is for. */
   year_group_id: Ulid.nullable().optional(),
+  /** The needs group the chat is for (standalone or alongside class_id). */
+  needs_group_id: Ulid.nullable().optional(),
   created_at: Timestamp,
 });
 export type Thread = z.infer<typeof Thread>;

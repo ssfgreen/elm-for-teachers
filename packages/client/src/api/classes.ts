@@ -5,11 +5,12 @@ import type { Envelope } from './types';
 
 const e = encodeURIComponent;
 
-/** Where a new chat goes: a project, a class or a year group (at most one). */
+/** Where a new chat goes: a project, a class, a year group, or a needs group. */
 export interface ThreadPlace {
   project_id?: string;
   class_id?: string;
   year_group_id?: string;
+  needs_group_id?: string;
 }
 
 export interface ClassDetail {

@@ -82,7 +82,15 @@ export async function agentTurn(deps: TurnDeps, a: PreparedTurn, references: Ref
   // full or only its shape, as config `pupil_rows_in_gateway_log` says. With the workspace's
   // classes switch off, a class chat runs as a plain chat (#64); adaptations go only with pedagogy on.
   const { features } = a;
-  const about = features.classes ? await loadClassContext(db, sessionId, thread, loaded.config.provider.zero_retention, { curriculum: features.curriculum, adaptations: features.pedagogy }) : null;
+  const about =
+    features.classes || features.needs_groups
+      ? await loadClassContext(db, sessionId, thread, loaded.config.provider.zero_retention, {
+          classes: features.classes,
+          curriculum: features.curriculum,
+          adaptations: features.pedagogy,
+          needsGroups: features.needs_groups,
+        })
+      : null;
   // A class or year group chat with the pedagogy library on offer starts from what fits the class.
   const source = about ? a.plugins.pedagogy : null;
   const grounding = source && about ? await loadPedagogyGrounding(source, about.focus) : null;

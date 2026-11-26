@@ -16,7 +16,7 @@ describe("resolveFeatures", () => {
 
   it("reads a stored set from before the pupils switch as pupils off", () => {
     const before = { classes: true, curriculum: true, pedagogy: true, preferences: true, spyglass: false, plugins: true };
-    expect(Features.parse(before)).toEqual({ ...before, pupils: false });
+    expect(Features.parse(before)).toEqual({ ...before, pupils: false, needs_groups: true });
   });
 
   it("turns off only the switches stored as false, from text or an object", () => {

@@ -44,3 +44,4 @@ export * from "./layout/index.js";
 export { changeIndexes, diffWords, type Part as WordDiffPart } from "./wordDiff.js";
 export { mergeText } from "./textMerge.js";
 export * from "./contentPackV1.js";
+export * from "./needsGroups.js";

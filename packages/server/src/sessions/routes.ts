@@ -48,7 +48,13 @@ import { seedStudyWorkspace } from '../study/seed.js';
 const Label = z.string().trim().min(1).max(120);
 const CreateBody = z.object({ label: Label, study: z.boolean().optional(), features: FeaturesPatch.optional() });
 const RenameSessionBody = z.object({ label: Label });
-const ThreadBody = z.object({ envelope: Envelope, project_id: Ulid.nullable().optional(), class_id: Ulid.nullable().optional(), year_group_id: Ulid.nullable().optional() });
+const ThreadBody = z.object({
+  envelope: Envelope,
+  project_id: Ulid.nullable().optional(),
+  class_id: Ulid.nullable().optional(),
+  year_group_id: Ulid.nullable().optional(),
+  needs_group_id: Ulid.nullable().optional(),
+});
 const InteractionsBody = z.object({ on: z.boolean(), hours: z.number().int().min(1).max(MAX_HOURS).nullable().optional() });
 const RenameBody = z.object({ title: z.string().trim().min(1).max(120), envelope: Envelope });
 

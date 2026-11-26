@@ -16,6 +16,7 @@ import type { Classes } from './classes/useClasses';
 import { CurriculumScreen } from './curriculum/CurriculumScreen';
 import { classForCurriculum } from './curriculum/groupOutcomes';
 import type { MainView } from './mainView';
+import { NeedsGroupsScreen } from './needs-groups/NeedsGroupsScreen';
 import { PedagogyScreen } from './pedagogy/PedagogyScreen';
 import { PluginsScreen } from './plugins/PluginsScreen';
 import { PreferencesScreen } from './preferences/PreferencesScreen';
@@ -39,7 +40,7 @@ export interface MainViewsProps {
   threads: Thread[];
   setThreads: Dispatch<SetStateAction<Thread[]>>;
   openRef: MutableRefObject<{ threadId: string; docId: string } | null>;
-  newThread: () => Promise<unknown>;
+  newThread: (place?: ThreadPlace) => Promise<unknown>;
   selectThread: (threadId: string) => void;
   startProjectChat: (place: string | ThreadPlace, text: string, attached: AttachedFile[]) => Promise<void>;
   addProjectChatFile: (place: string | ThreadPlace, file: File) => Promise<AttachedFile>;
@@ -60,6 +61,9 @@ export function MainViews({ view, setView, pageProject, api, getEnvelope, logger
     <>
       {view.kind === 'plugins' && <PluginsScreen api={api} getEnvelope={getEnvelope} />}
       {view.kind === 'preferences' && <PreferencesScreen api={api} getEnvelope={getEnvelope} />}
+      {view.kind === 'needs-groups' && (
+        <NeedsGroupsScreen api={api} getEnvelope={getEnvelope} classes={classes.list.classes} onStartChat={(place) => void newThread(place)} />
+      )}
       {view.kind === 'pedagogy' && <PedagogyScreen api={api} logger={logger} alignsTo={view.alignsTo} alignsLabel={view.code} />}
       {view.kind === 'curriculum' && <CurriculumScreen api={api} cls={classForCurriculum(classes.list, view.classId)} code={view.code} onIdeas={showIdeas} />}
       {classView && (

@@ -65,7 +65,16 @@ export function docToRow(d: Doc): Record<string, string | null> {
 }
 
 export function rowToThread(row: Row): Thread {
-  return Thread.parse({ id: row.id, session_id: row.session_id, title: row.title, project_id: str(row.project_id), class_id: str(row.class_id), year_group_id: str(row.year_group_id), created_at: row.created_at });
+  return Thread.parse({
+    id: row.id,
+    session_id: row.session_id,
+    title: row.title,
+    project_id: str(row.project_id),
+    class_id: str(row.class_id),
+    year_group_id: str(row.year_group_id),
+    needs_group_id: str(row.needs_group_id),
+    created_at: row.created_at,
+  });
 }
 
 export function rowToProject(row: Row): Project {

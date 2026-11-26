@@ -179,7 +179,7 @@ describe('participant routes', () => {
         uploads: 'inline',
         interactions: false,
         spyglass: 'shown_and_model',
-        features: { classes: true, curriculum: true, pedagogy: true, preferences: true, spyglass: true, plugins: true, pupils: false },
+        features: { classes: true, needs_groups: true, curriculum: true, pedagogy: true, preferences: true, spyglass: true, plugins: true, pupils: false },
         models: modelChoices(testLoaded().config.provider),
         default_model: testLoaded().config.provider.model,
         default_effort: testLoaded().config.agent.reasoning_effort,

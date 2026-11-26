@@ -6,5 +6,6 @@ export type MainView =
   | { kind: 'plugins' }
   | { kind: 'preferences' }
   | { kind: 'classes'; classId?: string; yearGroupId?: string }
+  | { kind: 'needs-groups' }
   | { kind: 'pedagogy'; alignsTo?: string[]; code?: string }
   | { kind: 'curriculum'; classId: string; code?: string };

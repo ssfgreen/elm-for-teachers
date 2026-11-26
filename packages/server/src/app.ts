@@ -23,6 +23,7 @@ import { registerUsageRoutes } from './usage/routes.js';
 import { registerBudgetRoutes } from './budget/routes.js';
 import { registerProjectRoutes } from './projects/routes.js';
 import { registerClassRoutes } from './classes/routes.js';
+import { registerNeedsGroupRoutes } from './needs-groups/routes.js';
 import { registerAdaptationRoutes } from './classes/adaptation-routes.js';
 import { registerCurriculumRoutes } from './classes/curriculum-routes.js';
 import { registerPedagogyRoutes } from './pedagogy/routes.js';
@@ -130,6 +131,7 @@ export async function buildApp(given: AppDeps, opts: BuildAppOptions = {}): Prom
   registerCommentRoutes(app, deps);
   registerProjectRoutes(app, deps);
   registerClassRoutes(app, deps);
+  registerNeedsGroupRoutes(app, deps);
   registerCurriculumRoutes(app, deps);
   registerAdaptationRoutes(app, deps);
   registerPedagogyRoutes(app, deps);

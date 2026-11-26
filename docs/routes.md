@@ -87,6 +87,15 @@ Rows marked "none" or "access code" are not called.
 | POST | `/api/sessions/:sessionId/year-groups` | workspace token | `requireParticipant` |  |
 | POST | `/api/sessions/:sessionId/year-groups/:id/update` | workspace token | `requireParticipant` |  |
 | POST | `/api/sessions/:sessionId/year-groups/:id/archive` | workspace token | `requireParticipant` |  |
+| GET | `/api/sessions/:sessionId/needs-groups` | workspace token | `requireParticipant` | Refuses with 403 `feature_off` when `needs_groups` is off. |
+| POST | `/api/sessions/:sessionId/needs-groups` | workspace token | `requireParticipant` |  |
+| POST | `/api/sessions/:sessionId/needs-groups/:id/update` | workspace token | `requireParticipant` |  |
+| POST | `/api/sessions/:sessionId/needs-groups/:id/archive` | workspace token | `requireParticipant` |  |
+| POST | `/api/sessions/:sessionId/needs-groups/:id/classes` | workspace token | `requireParticipant` |  |
+| DELETE | `/api/sessions/:sessionId/needs-groups/:id/classes/:classId` | workspace token | `requireParticipant` |  |
+| POST | `/api/sessions/:sessionId/needs-groups/:id/adaptations` | workspace token | `requireParticipant` |  |
+| POST | `/api/sessions/:sessionId/needs-groups/:id/adaptations/:adaptationId/update` | workspace token | `requireParticipant` |  |
+| POST | `/api/sessions/:sessionId/needs-groups/:id/adaptations/:adaptationId/remove` | workspace token | `requireParticipant` |  |
 | GET | `/api/sessions/:sessionId/curriculum` | workspace token | `requireParticipant` | Passed through to the library server. |
 | POST | `/api/sessions/:sessionId/curriculum/search` | workspace token | `requireParticipant` | Library server. |
 | POST | `/api/sessions/:sessionId/curriculum/benchmarks` | workspace token | `requireParticipant` | Library server. |

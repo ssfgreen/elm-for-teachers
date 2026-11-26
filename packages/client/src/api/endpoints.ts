@@ -41,6 +41,14 @@ export const endpoints = {
   plugin: (sessionId: string, pluginId: string, action: 'trust' | 'allow') => `/sessions/${e(sessionId)}/plugins/${e(pluginId)}/${action}`,
   /** GET lists the workspace's studio drafts, POST {address} adds one; with an id, DELETE removes it. */
   pluginDrafts: (sessionId: string, draftId?: string) => `/sessions/${e(sessionId)}/plugin-drafts${draftId ? `/${e(draftId)}` : ''}`,
+  /** Needs groups: GET lists them, POST creates one. */
+  needsGroups: (sessionId: string) => `/sessions/${e(sessionId)}/needs-groups`,
+  needsGroupAction: (sessionId: string, groupId: string, action: 'update' | 'archive') => `/sessions/${e(sessionId)}/needs-groups/${e(groupId)}/${action}`,
+  needsGroupClasses: (sessionId: string, groupId: string) => `/sessions/${e(sessionId)}/needs-groups/${e(groupId)}/classes`,
+  needsGroupClass: (sessionId: string, groupId: string, classId: string) => `/sessions/${e(sessionId)}/needs-groups/${e(groupId)}/classes/${e(classId)}`,
+  needsGroupAdaptations: (sessionId: string, groupId: string) => `/sessions/${e(sessionId)}/needs-groups/${e(groupId)}/adaptations`,
+  needsGroupAdaptationAction: (sessionId: string, groupId: string, adaptationId: string, action: 'update' | 'remove') =>
+    `/sessions/${e(sessionId)}/needs-groups/${e(groupId)}/adaptations/${e(adaptationId)}/${action}`,
   /** POST {name} renames, POST /archive archives. */
   project: (sessionId: string, projectId: string, action: 'rename' | 'update' | 'archive' | 'delete') => `/sessions/${e(sessionId)}/projects/${e(projectId)}/${action}`,
   /** GET lists a project's reference files (with the limits); POST adds one (its text). */
