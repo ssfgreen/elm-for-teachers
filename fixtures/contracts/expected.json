@@ -1,0 +1,42 @@
+{
+  "format_version": "1.0",
+  "fixtures": {
+    "reading-with-image.zip": {
+      "pack_id": "01JCPACKG01DEN000000000001",
+      "kind": "reading",
+      "content_hash": "sha256:ff0b5e3719c47d8a0ca540fd9cffe3aa6485a5a8a80257193a3fae05da445414",
+      "zip_sha256": "7811816cd64f07475fbb5eb3002c8849b1a3e7f612723dcace38c7f3828bd7b6",
+      "files": [
+        {
+          "path": "assets/water_diagram.png",
+          "sha256": "ebf4f635a17d10d6eb46ba680b70142419aa3220f228001a036d311a22ee9d2a",
+          "bytes": 67,
+          "mime": "image/png"
+        },
+        {
+          "path": "blocks.json",
+          "sha256": "73aff62eb3c07b0775442ce4b78be2c25a1d418e80b0f83f35216e93afe578c6",
+          "bytes": 713
+        }
+      ]
+    },
+    "worksheet-with-prompts.zip": {
+      "pack_id": "01JCPACKG01DEN000000000002",
+      "kind": "worksheet",
+      "content_hash": "sha256:96a1b4e75bbf421a1af20c47b86813e0e6afd11959344f6a19c329dc8b54d182",
+      "zip_sha256": "70e028a721222d1219b4e25010db6acdb8300d84ed35cb396d2a4785f2b517c5",
+      "files": [
+        {
+          "path": "blocks.json",
+          "sha256": "a9a5102ea9f937e38d1706941beb3e1ff4a8c3c1d488665913c0cbd54fb2ee5c",
+          "bytes": 664
+        },
+        {
+          "path": "prompts.json",
+          "sha256": "4f16f83c6e1a7b35949b24145838455b09c1538fecc262a27ab687e537ba640d",
+          "bytes": 392
+        }
+      ]
+    }
+  }
+}
