@@ -1,0 +1,118 @@
+# The way in: Gateway API, served by Envoy Gateway through GatewayClass `edw`
+# (cluster/gatewayclass.yaml, applied once with Envoy Gateway itself: DEPLOY.md, section 13).
+# - Streaming: Envoy passes responses on as they come (it never buffers them), so the chat streams.
+# - 300 s: HTTPRoute `app` (timeouts) and BackendTrafficPolicy `app` (timeout), FUNCTION_LIMIT_MS.
+# - 16 MB bodies: BackendTrafficPolicy `app` (requestBuffer); a bigger request gets 413.
+# - Access log: EnvoyProxy `edw-proxy` logs no path, query or address, so workspace links
+#   (/s/<token>), join codes (/join/<code>) and sign-in callbacks (/api/auth/...?code=) never
+#   reach a log.
+apiVersion: gateway.envoyproxy.io/v1alpha1
+kind: EnvoyProxy
+metadata:
+  name: edw-proxy
+spec:
+  provider:
+    type: Kubernetes
+    kubernetes:
+      envoyService:
+        # Keep the visitor's address: Oracle's network load balancer passes it through, and
+        # Local stops Kubernetes swapping it for a node's (DEPLOY.md, "The visitor's address").
+        externalTrafficPolicy: Local
+        annotations:
+          oci.oraclecloud.com/load-balancer-type: nlb
+  telemetry:
+    accessLog:
+      settings:
+        - format:
+            type: Text
+            text: |
+              [%START_TIME%] %REQ(:METHOD)% %RESPONSE_CODE% %RESPONSE_FLAGS% %BYTES_RECEIVED% %BYTES_SENT% %DURATION%ms route=%ROUTE_NAME%
+          sinks:
+            - type: File
+              file:
+                path: /dev/stdout
+---
+apiVersion: gateway.networking.k8s.io/v1
+kind: Gateway
+metadata:
+  name: edw
+spec:
+  gatewayClassName: edw
+  listeners:
+    - name: https
+      protocol: HTTPS
+      port: 443
+      hostname: elm.example.org
+      tls:
+        mode: Terminate
+        certificateRefs:
+          - name: edw-tls
+    - name: http
+      protocol: HTTP
+      port: 80
+      hostname: elm.example.org
+---
+# Plain HTTP only ever redirects: a workspace link must not travel unencrypted (section 2).
+apiVersion: gateway.networking.k8s.io/v1
+kind: HTTPRoute
+metadata:
+  name: https-redirect
+spec:
+  parentRefs:
+    - name: edw
+      sectionName: http
+  rules:
+    - filters:
+        - type: RequestRedirect
+          requestRedirect:
+            scheme: https
+            statusCode: 301
+---
+apiVersion: gateway.networking.k8s.io/v1
+kind: HTTPRoute
+metadata:
+  name: app
+spec:
+  parentRefs:
+    - name: edw
+      sectionName: https
+  hostnames: [elm.example.org]
+  rules:
+    - backendRefs:
+        - name: app
+          port: 80
+      timeouts:
+        request: 300s
+        backendRequest: 300s
+---
+apiVersion: gateway.envoyproxy.io/v1alpha1
+kind: BackendTrafficPolicy
+metadata:
+  name: app
+spec:
+  targetRefs:
+    - group: gateway.networking.k8s.io
+      kind: HTTPRoute
+      name: app
+  timeout:
+    http:
+      requestTimeout: 300s
+  # Envoy takes in the whole request (never the response) before passing it on, up to 16 MB.
+  requestBuffer:
+    limit: 16Mi
+    mode: BufferAndLimit
+---
+# X-Forwarded-For as the visitor sent it is dropped before Envoy adds the address it saw, so the
+# header holds one entry the app can trust once TRUST_PROXY=true (DEPLOY.md).
+apiVersion: gateway.envoyproxy.io/v1alpha1
+kind: ClientTrafficPolicy
+metadata:
+  name: edw
+spec:
+  targetRefs:
+    - group: gateway.networking.k8s.io
+      kind: Gateway
+      name: edw
+  headers:
+    earlyRequestHeaders:
+      remove: [X-Forwarded-For]

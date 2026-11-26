@@ -1,0 +1,100 @@
+{
+  "about": "Cases for the plugin manifest, format 1. Each case is the base manifest with its top-level fields in `change` replaced (null removes the field). An `accept` case must parse; a `refuse` case must be refused with a message containing `error`. Copy this file to check another reader agrees.",
+  "base": {
+    "format": 1,
+    "id": "someone/my-plugin",
+    "version": "1.0.0",
+    "name": "My plugin",
+    "description": "For the cases",
+    "collections": [
+      { "id": "docs", "kind": "documents", "path": "collections/docs" },
+      { "id": "ped", "kind": "pedagogy", "path": "collections/ped" }
+    ],
+    "tools": [{ "tool": "search" }, { "tool": "entries", "collection": "ped", "settings": ["hide"] }],
+    "settings": {
+      "hide": { "type": "entries", "label": "Entries I hide", "default": [], "effect": "hide_ids" }
+    }
+  },
+  "accept": [
+    { "name": "the base", "change": {} },
+    { "name": "a pre-release version", "change": { "version": "0.1.0-draft.2" } },
+    { "name": "every reuse value", "change": { "reuse": "adapt_freely", "reuse_note": "Go ahead" } },
+    { "name": "no collections, tools or settings", "change": { "collections": null, "tools": null, "settings": null } },
+    {
+      "name": "a choice whose default is an option",
+      "change": {
+        "settings": {
+          "hide": { "type": "entries", "label": "Entries I hide", "default": [], "effect": "hide_ids" },
+          "min_rating": { "type": "choice", "label": "At least", "default": "any", "options": [{ "value": "any", "label": "Any" }, { "value": "strong", "label": "Strong" }], "effect": "min_rating" }
+        }
+      }
+    },
+    { "name": "a browse view of its own kind", "change": { "browse": { "view": "documents", "collection": "docs" } } }
+  ],
+  "refuse": [
+    { "name": "an id with no owner", "change": { "id": "my-plugin" }, "error": "id must be owner/name" },
+    { "name": "an id with capitals", "change": { "id": "Someone/My-Plugin" }, "error": "id must be owner/name" },
+    { "name": "an id with three parts", "change": { "id": "a/b/c" }, "error": "id must be owner/name" },
+    { "name": "a version with two numbers", "change": { "version": "1.0" }, "error": "version must be semver" },
+    { "name": "a version starting with v", "change": { "version": "v1.0.0" }, "error": "version must be semver" },
+    { "name": "a version with a leading zero", "change": { "version": "01.0.0" }, "error": "version must be semver" },
+    { "name": "another format", "change": { "format": 2 }, "error": "format must be 1" },
+    { "name": "a field not in the format", "change": { "colour": "red" }, "error": "colour" },
+    { "name": "a reuse value not on the list", "change": { "reuse": "anything" }, "error": "reuse must be one of" },
+    { "name": "a tool not on the list", "change": { "tools": [{ "tool": "delete" }] }, "error": "tool must be one of" },
+    { "name": "a tool on the wrong kind of collection", "change": { "tools": [{ "tool": "grep", "collection": "ped" }] }, "error": "grep works on a documents collection, and ped is pedagogy" },
+    { "name": "a tool with no collection of its kind", "change": { "tools": [{ "tool": "outcomes" }] }, "error": "outcomes works on a curriculum collection, and the plugin has none" },
+    { "name": "a tool on a collection that is not there", "change": { "tools": [{ "tool": "entries", "collection": "nope" }] }, "error": "no collection called nope" },
+    { "name": "a tool naming a setting that is not there", "change": { "tools": [{ "tool": "entries", "collection": "ped", "settings": ["nope"] }] }, "error": "no setting called nope" },
+    {
+      "name": "two collections with the same id",
+      "change": { "collections": [{ "id": "docs", "kind": "documents", "path": "collections/a" }, { "id": "docs", "kind": "documents", "path": "collections/b" }], "tools": null, "settings": null },
+      "error": "two collections are called docs"
+    },
+    {
+      "name": "a collection inside another's folder",
+      "change": { "collections": [{ "id": "a", "kind": "documents", "path": "c" }, { "id": "b", "kind": "documents", "path": "c/inner" }], "tools": null, "settings": null },
+      "error": "collections.1.path: c/inner is inside c, the folder of a"
+    },
+    {
+      "name": "a collection holding another's folder",
+      "change": { "collections": [{ "id": "b", "kind": "documents", "path": "c/inner" }, { "id": "a", "kind": "documents", "path": "c" }], "tools": null, "settings": null },
+      "error": "collections.1.path: c/inner, the folder of b, is inside c"
+    },
+    {
+      "name": "the same tool twice on one collection",
+      "change": { "tools": [{ "tool": "entries", "collection": "ped" }, { "tool": "entries", "collection": "ped" }], "settings": null },
+      "error": "entries is declared twice for ped"
+    },
+    {
+      "name": "a tool using a setting of another collection",
+      "change": {
+        "collections": [{ "id": "ped", "kind": "pedagogy", "path": "collections/ped" }, { "id": "ped2", "kind": "pedagogy", "path": "collections/ped2" }],
+        "tools": [{ "tool": "entries", "collection": "ped", "settings": ["hide"] }],
+        "settings": { "hide": { "type": "entries", "label": "Hide", "default": [], "effect": "hide_ids", "collection": "ped2" } }
+      },
+      "error": "hide is for ped2, and this tool is on ped"
+    },
+    { "name": "a collection path with ..", "change": { "collections": [{ "id": "docs", "kind": "documents", "path": "collections/../../etc" }], "tools": null, "settings": null }, "error": "must be a relative path inside the plugin" },
+    { "name": "an absolute collection path", "change": { "collections": [{ "id": "docs", "kind": "documents", "path": "/etc/docs" }], "tools": null, "settings": null }, "error": "must be a relative path inside the plugin" },
+    { "name": "a Windows collection path", "change": { "collections": [{ "id": "docs", "kind": "documents", "path": "C:\\docs" }], "tools": null, "settings": null }, "error": "must be a relative path inside the plugin" },
+    { "name": "an unknown kind of collection", "change": { "collections": [{ "id": "t", "kind": "table", "path": "collections/t" }], "tools": null, "settings": null }, "error": "kind must be one of" },
+    { "name": "a skill path with ..", "change": { "skills": ["../skills/x"] }, "error": "must be a relative path inside the plugin" },
+    { "name": "an unknown setting type", "change": { "settings": { "x": { "type": "colour", "label": "X", "default": "red", "effect": "facet" } } }, "error": "type must be one of" },
+    { "name": "an unknown setting effect", "change": { "settings": { "x": { "type": "entries", "label": "X", "default": [], "effect": "delete_ids" } } }, "error": "effect must be one of" },
+    { "name": "an effect on the wrong type of setting", "change": { "settings": { "x": { "type": "boolean", "label": "X", "default": true, "effect": "hide_ids" } } }, "error": "hide_ids needs a setting of type entries" },
+    {
+      "name": "a choice default that is not an option",
+      "change": { "settings": { "x": { "type": "choice", "label": "X", "default": "weak", "options": [{ "value": "strong", "label": "Strong" }], "effect": "min_rating" } } },
+      "error": "the default must be one of the options"
+    },
+    {
+      "name": "a choices default that is not among the options",
+      "change": { "settings": { "x": { "type": "choices", "label": "X", "default": ["a", "z"], "options": [{ "value": "a", "label": "A" }], "effect": "facet" } } },
+      "error": "the default must be a list of the options"
+    },
+    { "name": "a choice with no options", "change": { "settings": { "x": { "type": "choice", "label": "X", "default": "a", "effect": "min_rating" } } }, "error": "a choice setting needs options" },
+    { "name": "an entries default that is not a list", "change": { "settings": { "hide": { "type": "entries", "label": "X", "default": "all", "effect": "hide_ids" } } }, "error": "the default must be a list of ids" },
+    { "name": "a browse view of another kind", "change": { "browse": { "view": "pedagogy", "collection": "docs" } }, "error": "the pedagogy view cannot show docs" }
+  ]
+}

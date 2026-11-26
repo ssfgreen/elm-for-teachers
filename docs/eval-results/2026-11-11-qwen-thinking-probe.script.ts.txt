@@ -1,0 +1,45 @@
+// Throwaway probe (scratchpad worktree only): how Qwen on ELM behaves with tools and thinking switches.
+import { readFileSync } from 'node:fs';
+import { findingsOf, JUDGE_SYSTEM_PROMPT, JUDGE_TOOL, judgeMessage } from '../../server/src/gateway/judge-prompt.js';
+for (const l of readFileSync('../../.env', 'utf8').split('\n')) { const m = l.match(/^([A-Z_]+)=(.*)$/); if (m) process.env[m[1]!] ??= m[2]!.replace(/^["']|["']$/g, ''); }
+const base = process.env.ELM_PROXY_BASE_URL!, key = process.env.ELM_PROXY_API_KEY!;
+const MODEL = 'Qwen/Qwen3.5-397B-A17B-FP8';
+const cases = JSON.parse(readFileSync('../../fixtures/sessions/3PD.json', 'utf8')).cases.filter((c: any) => c.judged);
+const c = cases.find((x: any) => x.id === '3PD #3') ?? cases[0];
+const judgeMsg = judgeMessage(c, findingsOf(c.effect));
+const tool = JUDGE_TOOL;
+const editTool = { name: 'edit_document', description: 'Change the worksheet.', parameters: { type: 'object', properties: { operations: { type: 'array', items: { type: 'object', properties: { op: { type: 'string', enum: ['replace', 'insert'] }, id: { type: 'string' }, content: { type: 'string' } }, required: ['op', 'id', 'content'] } } }, required: ['operations'] } };
+const editMsg = 'The worksheet has block B1: "Task 1: Read the source." and block B2: "Answer: 1314". Change B1 to say "Task 1: Read the source carefully." using edit_document.';
+
+async function post(path: string, body: any) {
+  const t = performance.now();
+  const r = await fetch(base + path, { method: 'POST', headers: { 'content-type': 'application/json', authorization: `Bearer ${key}` }, body: JSON.stringify(body), signal: AbortSignal.timeout(60_000) });
+  const ms = Math.round(performance.now() - t);
+  const j: any = await r.json().catch(() => ({}));
+  return { status: r.status, ms, j };
+}
+const resp = (instr: string, msg: string, t: any, forced: boolean, extra: any = {}) => post('/responses', { model: MODEL, store: false, instructions: instr, input: [{ role: 'user', content: msg }], tools: [{ type: 'function', ...t }], tool_choice: forced ? { type: 'function', name: t.name } : 'auto', max_output_tokens: 2000, ...extra });
+const chat = (instr: string, msg: string, t: any, forced: boolean, extra: any = {}) => post('/chat/completions', { model: MODEL, messages: [{ role: 'system', content: instr }, { role: 'user', content: msg }], tools: [{ type: 'function', function: t }], tool_choice: forced ? { type: 'function', function: { name: t.name } } : 'auto', max_tokens: 2000, ...extra });
+function sumR(r: any) { const o = r.j.output ?? []; const call = o.find((x: any) => x.type === 'function_call'); const u = r.j.usage ?? {}; return `${r.status} ${r.ms}ms out=${u.output_tokens} reason=${u.output_tokens_details?.reasoning_tokens} status=${r.j.status ?? ''} call=${call ? call.arguments.slice(0, 90) : 'none'} ${r.j.error ? JSON.stringify(r.j.error).slice(0, 150) : ''} text=${JSON.stringify(o.filter((x: any) => x.type === 'message').map((x: any) => x.content?.[0]?.text).join('')).slice(0, 80)}`; }
+function sumC(r: any) { const m = r.j.choices?.[0]?.message ?? {}; const u = r.j.usage ?? {}; const call = m.tool_calls?.[0]?.function; return `${r.status} ${r.ms}ms out=${u.completion_tokens} reason=${u.completion_tokens_details?.reasoning_tokens} finish=${r.j.choices?.[0]?.finish_reason} call=${call ? call.arguments.slice(0, 90) : 'none'} reasoning_content=${(m.reasoning_content ?? m.reasoning ?? '').length} ${r.j.error ? JSON.stringify(r.j.error).slice(0, 150) : r.j.detail ? JSON.stringify(r.j).slice(0, 150) : ''} text=${JSON.stringify(m.content ?? '').slice(0, 80)}`; }
+const noThink = { chat_template_kwargs: { enable_thinking: false } };
+const variants: [string, () => Promise<string>][] = [
+  ['judge  /responses forced', async () => sumR(await resp(JUDGE_SYSTEM_PROMPT, judgeMsg, tool, true))],
+  ['judge  /responses auto', async () => sumR(await resp(JUDGE_SYSTEM_PROMPT, judgeMsg, tool, false))],
+  ['judge  /responses forced +enable_thinking:false', async () => sumR(await resp(JUDGE_SYSTEM_PROMPT, judgeMsg, tool, true, noThink))],
+  ['judge  /responses forced +/no_think', async () => sumR(await resp(JUDGE_SYSTEM_PROMPT + '\n/no_think', judgeMsg + '\n/no_think', tool, true))],
+  ['judge  /chat forced', async () => sumC(await chat(JUDGE_SYSTEM_PROMPT, judgeMsg, tool, true))],
+  ['judge  /chat forced +enable_thinking:false', async () => sumC(await chat(JUDGE_SYSTEM_PROMPT, judgeMsg, tool, true, noThink))],
+  ['judge  /chat auto +enable_thinking:false', async () => sumC(await chat(JUDGE_SYSTEM_PROMPT, judgeMsg, tool, false, noThink))],
+  ['edit   /responses auto', async () => sumR(await resp('You edit worksheets with tools.', editMsg, editTool, false))],
+  ['edit   /responses auto +enable_thinking:false', async () => sumR(await resp('You edit worksheets with tools.', editMsg, editTool, false, noThink))],
+  ['edit   /chat auto +enable_thinking:false', async () => sumC(await chat('You edit worksheets with tools.', editMsg, editTool, false, noThink))],
+];
+import { it } from "vitest";
+const only = process.env.ONLY;
+it("probe", async () => {
+for (const [name, fn] of variants) {
+  if (only && !name.includes(only)) continue;
+  for (let i = 0; i < 2; i++) { try { console.log(name.padEnd(48), await fn()); } catch (e: any) { console.log(name.padEnd(48), 'ERR', e.message); } }
+}
+}, 600_000);

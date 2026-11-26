@@ -1,0 +1,20 @@
+/*
+ * The Word preview (WordPreview.tsx). docx-preview draws the pages and adds its own styles,
+ * outside any layer, so these are outside a layer too, and more specific.
+ *
+ * The pages stay white in dark mode: they are paper.
+ */
+.word-preview .docx-wrapper {
+  background: transparent;
+  padding: 24px 16px 0;
+}
+.word-preview .docx-wrapper > section.docx {
+  box-shadow: var(--shadow-card);
+  margin-bottom: 24px;
+}
+/* Word's default cell margins (0.19 cm either side); docx-preview only adds them for a table with a named style. */
+.word-preview section.docx td {
+  padding: 0 5.4pt;
+}
+
+/* The Word fonts, standing in their free twins where the machine lacks them: wordPreviewFonts.css. */

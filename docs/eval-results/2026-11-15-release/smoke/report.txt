@@ -1,0 +1,10 @@
+Evals: 1 cases, 1 runs (1 per case) on gpt-6-sol, agent mode
+Behaviour: 100% of runs passed every check. Budget: 100% within every budget.
+Cost: 1 model calls; input 5182 tokens (0 cached, 5182 uncached); output 61 (0 thinking); 5 s.
+One run per case: pass rates show what happened once, not how stable it is (EVAL_RUNS=5 for that).
+
+ok   behaviour > a question gets an answer in chat, with no edits
+     pass 100%, budget 100% | calls 1, uncached 5182, cached 0, out 61, 4579 ms
+
+Worse than the baseline:
+  - behaviour > a question gets an answer in chat, with no edits: uncachedInput 196 → 5182

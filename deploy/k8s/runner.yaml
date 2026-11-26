@@ -1,0 +1,52 @@
+# The library runner (library/): curriculum, pedagogy, E&Os, TRAILS. Reachable only from the app
+# (network-policies.yaml); it checks no token yet. Set by env only: PORT, LIBRARY_COLLECTIONS, LIBRARY_PLUGINS.
+apiVersion: v1
+kind: Service
+metadata:
+  name: runner
+spec:
+  selector:
+    app.kubernetes.io/name: runner
+  ports:
+    - name: http
+      port: 8787
+      targetPort: http
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: runner
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app.kubernetes.io/name: runner
+  template:
+    metadata:
+      labels:
+        app.kubernetes.io/name: runner
+    spec:
+      securityContext:
+        runAsNonRoot: true
+        runAsUser: 1000
+        runAsGroup: 1000
+      containers:
+        - name: runner
+          image: edw-runner
+          env:
+            - { name: PORT, value: '8787' }
+          ports:
+            - { name: http, containerPort: 8787 }
+          readinessProbe:
+            httpGet: { path: /health, port: http }
+            periodSeconds: 10
+          livenessProbe:
+            httpGet: { path: /health, port: http }
+            initialDelaySeconds: 10
+            periodSeconds: 30
+          resources:
+            requests: { cpu: 100m, memory: 256Mi }
+            limits: { memory: 512Mi }
+          securityContext:
+            allowPrivilegeEscalation: false
+            capabilities: { drop: [ALL] }

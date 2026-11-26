@@ -1,0 +1,19 @@
+{
+  "started_at": "2026-11-11T22:45:32.878Z",
+  "provider": "elm",
+  "model": "mistralai/Mistral-Small-4-119B-2603",
+  "mode": "agent",
+  "tools": [
+    "read_document",
+    "edit_document",
+    "add_comment",
+    "reply_to_comment",
+    "search_pictures"
+  ],
+  "max_steps": 12,
+  "reasoning_effort": "medium",
+  "config_hash": "de60eb83e3f9faaa90b7cecaa1198b6f78612bf813db350219ef0c1654ad5a44",
+  "system_prompt_hash": "3b4c222906ba673a1ceac1a88e22142248b8a1ebf4a0a3349524900503ae1c2a",
+  "runs": 2,
+  "commit": "9c353cc"
+}

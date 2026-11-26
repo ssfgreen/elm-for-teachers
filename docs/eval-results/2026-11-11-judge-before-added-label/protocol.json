@@ -1,0 +1,36 @@
+{
+  "models": [
+    "gpt-6-luna",
+    "mistralai/Mistral-Small-4-119B-2603"
+  ],
+  "runs": 1,
+  "cases": [
+    "1KC #1",
+    "1KC #4",
+    "1KC #9",
+    "1KC #10",
+    "1KC #11",
+    "1KC #12",
+    "2SH #1",
+    "2SH #2",
+    "2SH #2 as copy",
+    "2SH #3",
+    "2SH #4",
+    "2SH #5",
+    "2SH #6",
+    "2SH #6 as copy",
+    "2SH #7",
+    "3PD #0",
+    "3PD #1",
+    "3PD #2",
+    "3PD #3",
+    "3PD #4",
+    "3PD #4 as copy"
+  ],
+  "prompt_hash": "1067a8c27cbe68d1f0a8dcc684a9545bf2d4b95f4d9c08d599bd6131b1efdb6f",
+  "effort": {
+    "gpt-6-luna": "low",
+    "mistralai/Mistral-Small-4-119B-2603": "none"
+  },
+  "provider": "elm"
+}

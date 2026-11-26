@@ -1,0 +1,267 @@
+{
+  "protocol": {
+    "started_at": "2026-11-11T22:45:32.878Z",
+    "provider": "elm",
+    "model": "mistralai/Mistral-Small-4-119B-2603",
+    "mode": "agent",
+    "tools": [
+      "read_document",
+      "edit_document",
+      "add_comment",
+      "reply_to_comment",
+      "search_pictures"
+    ],
+    "max_steps": 12,
+    "reasoning_effort": "medium",
+    "config_hash": "de60eb83e3f9faaa90b7cecaa1198b6f78612bf813db350219ef0c1654ad5a44",
+    "system_prompt_hash": "3b4c222906ba673a1ceac1a88e22142248b8a1ebf4a0a3349524900503ae1c2a",
+    "runs": 2,
+    "commit": "9c353cc"
+  },
+  "cases": [
+    {
+      "case": "copies > create_doc copy_of: a duplicated version with an extension task keeps every block",
+      "runs": 2,
+      "passRate": 0,
+      "budgetRate": 0.5,
+      "failed": {
+        "no edits rejected": 2,
+        "uncached input tokens ≤ 6000": 1,
+        "used create_doc with copy_of": 1,
+        "a new doc keeps every block": 1
+      },
+      "mean": {
+        "steps": 3,
+        "uncachedInput": 6659,
+        "cachedInput": 9840,
+        "output": 368,
+        "latencyMs": 6231
+      },
+      "errors": 0
+    },
+    {
+      "case": "tools > read_document: fills an answer key from the worksheet in another document",
+      "runs": 2,
+      "passRate": 1,
+      "budgetRate": 1,
+      "failed": {},
+      "mean": {
+        "steps": 3,
+        "uncachedInput": 1018,
+        "cachedInput": 14000,
+        "output": 245,
+        "latencyMs": 4352
+      },
+      "errors": 0
+    },
+    {
+      "case": "tools > insert: drafts a worksheet into an empty document, title first",
+      "runs": 2,
+      "passRate": 0,
+      "budgetRate": 1,
+      "failed": {
+        "made edits": 2,
+        "“Untitled” starts with /^# /": 2,
+        "“Untitled” matches /metaphor/i": 2,
+        "“Untitled” matches /^5\\. /m": 2
+      },
+      "mean": {
+        "steps": 1,
+        "uncachedInput": 85,
+        "cachedInput": 4608,
+        "output": 14,
+        "latencyMs": 581
+      },
+      "errors": 0
+    },
+    {
+      "case": "tools > replace: a comment on one sentence changes that sentence only",
+      "runs": 2,
+      "passRate": 1,
+      "budgetRate": 1,
+      "failed": {},
+      "mean": {
+        "steps": 2,
+        "uncachedInput": 297,
+        "cachedInput": 9552,
+        "output": 77,
+        "latencyMs": 2451
+      },
+      "errors": 0
+    },
+    {
+      "case": "tools > delete: removes the question the teacher names, and only that",
+      "runs": 2,
+      "passRate": 0.5,
+      "budgetRate": 1,
+      "failed": {
+        "“Metaphors” has no /moon/i": 1,
+        "“Metaphors” keeps its text": 1
+      },
+      "mean": {
+        "steps": 2,
+        "uncachedInput": 250,
+        "cachedInput": 9488,
+        "output": 53,
+        "latencyMs": 2819
+      },
+      "errors": 0
+    },
+    {
+      "case": "tools > create_doc: makes an answer sheet as a separate document",
+      "runs": 2,
+      "passRate": 1,
+      "budgetRate": 1,
+      "failed": {},
+      "mean": {
+        "steps": 2,
+        "uncachedInput": 506,
+        "cachedInput": 9464,
+        "output": 185,
+        "latencyMs": 3051
+      },
+      "errors": 0
+    },
+    {
+      "case": "behaviour > a question gets an answer in chat, with no edits",
+      "runs": 2,
+      "passRate": 1,
+      "budgetRate": 1,
+      "failed": {},
+      "mean": {
+        "steps": 1,
+        "uncachedInput": 270,
+        "cachedInput": 4624,
+        "output": 68,
+        "latencyMs": 931
+      },
+      "errors": 0
+    },
+    {
+      "case": "behaviour > a long document: one targeted fix, without rewriting the rest",
+      "runs": 2,
+      "passRate": 0.5,
+      "budgetRate": 1,
+      "failed": {
+        "at most 1 operation(s)": 1
+      },
+      "mean": {
+        "steps": 2,
+        "uncachedInput": 9212,
+        "cachedInput": 12416,
+        "output": 199,
+        "latencyMs": 3709
+      },
+      "errors": 0
+    },
+    {
+      "case": "editing > a direct request to make the suggested change puts it straight in",
+      "runs": 2,
+      "passRate": 0.5,
+      "budgetRate": 1,
+      "failed": {
+        "“Primary 7 lesson plan” does not have /Exit ticket \\(5/ in it at once": 1,
+        "0 suggestion(s) still waiting": 1
+      },
+      "mean": {
+        "steps": 2.5,
+        "uncachedInput": 1123,
+        "cachedInput": 13408,
+        "output": 364,
+        "latencyMs": 5338
+      },
+      "errors": 0
+    },
+    {
+      "case": "look > asked to turn a list into a table, it keeps the content and makes a table block",
+      "runs": 2,
+      "passRate": 0,
+      "budgetRate": 1,
+      "failed": {
+        "“Persuasive letter” has a table matching /three reasons/i, /call to action/i": 2,
+        "“Persuasive letter” table has a header row and 2+ columns": 2,
+        "no edits rejected": 2
+      },
+      "mean": {
+        "steps": 2,
+        "uncachedInput": 1601,
+        "cachedInput": 9232,
+        "output": 237,
+        "latencyMs": 3860
+      },
+      "errors": 0
+    },
+    {
+      "case": "comments > a request in a comment changes the commented block and replies in the thread",
+      "runs": 2,
+      "passRate": 1,
+      "budgetRate": 1,
+      "failed": {},
+      "mean": {
+        "steps": 2,
+        "uncachedInput": 833,
+        "cachedInput": 9536,
+        "output": 96,
+        "latencyMs": 4412
+      },
+      "errors": 0
+    },
+    {
+      "case": "adversarial > an invented block id changes nothing and does not break the turn",
+      "runs": 2,
+      "passRate": 1,
+      "budgetRate": 1,
+      "failed": {},
+      "mean": {
+        "steps": 1,
+        "uncachedInput": 169,
+        "cachedInput": 4616,
+        "output": 40,
+        "latencyMs": 889
+      },
+      "errors": 0
+    },
+    {
+      "case": "lists > a request about one item changes that item only",
+      "runs": 2,
+      "passRate": 1,
+      "budgetRate": 1,
+      "failed": {},
+      "mean": {
+        "steps": 2.5,
+        "uncachedInput": 1063,
+        "cachedInput": 11736,
+        "output": 122,
+        "latencyMs": 4742
+      },
+      "errors": 0
+    }
+  ],
+  "totals": {
+    "cases": 13,
+    "runs": 26,
+    "passRate": 0.65,
+    "budgetRate": 0.96,
+    "steps": 52,
+    "input": 291205,
+    "cachedInput": 245040,
+    "uncachedInput": 46165,
+    "output": 4132,
+    "reasoning": 0,
+    "latencyMs": 86727
+  },
+  "regressions": [
+    "tools > insert: drafts a worksheet into an empty document, title first: pass rate 1 → 0",
+    "tools > delete: removes the question the teacher names, and only that: pass rate 1 → 0.5",
+    "behaviour > a question gets an answer in chat, with no edits: uncachedInput 196 → 270",
+    "behaviour > a long document: one targeted fix, without rewriting the rest: pass rate 1 → 0.5",
+    "behaviour > a long document: one targeted fix, without rewriting the rest: uncachedInput 5218 → 9212",
+    "behaviour > a long document: one targeted fix, without rewriting the rest: output 77 → 199"
+  ],
+  "newCases": [
+    "copies > create_doc copy_of: a duplicated version with an extension task keeps every block",
+    "editing > a direct request to make the suggested change puts it straight in",
+    "look > asked to turn a list into a table, it keeps the content and makes a table block",
+    "lists > a request about one item changes that item only"
+  ]
+}

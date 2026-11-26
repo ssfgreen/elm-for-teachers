@@ -1,0 +1,109 @@
+# The database: libSQL's server (sqld), one copy with its own disk, reachable only from the app
+# and the migration Job (network-policies.yaml). Litestream copies every change to the backup
+# bucket (litestream.yml) and, when the disk is new or lost, puts the database back first.
+apiVersion: v1
+kind: Service
+metadata:
+  name: sqld
+spec:
+  selector:
+    app.kubernetes.io/name: sqld
+  ports:
+    - name: http
+      port: 8080
+      targetPort: http
+---
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: sqld
+spec:
+  serviceName: sqld
+  replicas: 1
+  selector:
+    matchLabels:
+      app.kubernetes.io/name: sqld
+  template:
+    metadata:
+      labels:
+        app.kubernetes.io/name: sqld
+    spec:
+      # The sqld image runs as user and group 666; the disk is shared with Litestream.
+      securityContext:
+        runAsNonRoot: true
+        runAsUser: 666
+        runAsGroup: 666
+        fsGroup: 666
+      terminationGracePeriodSeconds: 30
+      initContainers:
+        # Does nothing unless the database is missing and a backup exists (litestream-start.sh).
+        - name: restore
+          image: litestream/litestream:0.3.13
+          command: ['/etc/litestream/litestream-start.sh', 'restore']
+          envFrom:
+            - configMapRef: { name: edw-backup-settings }
+            - configMapRef: { name: edw-settings }
+            - secretRef: { name: edw-backup }
+          volumeMounts:
+            - { name: data, mountPath: /var/lib/sqld }
+            - { name: litestream, mountPath: /etc/litestream }
+          resources:
+            requests: { cpu: 50m, memory: 64Mi }
+            limits: { memory: 256Mi }
+          securityContext:
+            allowPrivilegeEscalation: false
+            capabilities: { drop: [ALL] }
+      containers:
+        - name: sqld
+          image: ghcr.io/tursodatabase/libsql-server:v0.24.33
+          env:
+            - { name: SQLD_NODE, value: primary }
+            - { name: SQLD_DB_PATH, value: /var/lib/sqld/iku.db }
+            - { name: SQLD_HTTP_LISTEN_ADDR, value: '0.0.0.0:8080' }
+          ports:
+            - { name: http, containerPort: 8080 }
+          readinessProbe:
+            httpGet: { path: /health, port: http }
+            periodSeconds: 5
+          livenessProbe:
+            httpGet: { path: /health, port: http }
+            initialDelaySeconds: 10
+            periodSeconds: 20
+          volumeMounts:
+            - { name: data, mountPath: /var/lib/sqld }
+          resources:
+            requests: { cpu: 200m, memory: 512Mi }
+            limits: { memory: 1Gi }
+          securityContext:
+            allowPrivilegeEscalation: false
+            capabilities: { drop: [ALL] }
+        - name: litestream
+          image: litestream/litestream:0.3.13
+          command: ['/etc/litestream/litestream-start.sh', 'replicate']
+          envFrom:
+            - configMapRef: { name: edw-backup-settings }
+            - configMapRef: { name: edw-settings }
+            - secretRef: { name: edw-backup }
+          volumeMounts:
+            - { name: data, mountPath: /var/lib/sqld }
+            - { name: litestream, mountPath: /etc/litestream }
+          resources:
+            requests: { cpu: 50m, memory: 64Mi }
+            limits: { memory: 256Mi }
+          securityContext:
+            allowPrivilegeEscalation: false
+            capabilities: { drop: [ALL] }
+      volumes:
+        - name: litestream
+          configMap:
+            name: litestream
+            defaultMode: 0555
+  volumeClaimTemplates:
+    - metadata:
+        name: data
+      spec:
+        accessModes: [ReadWriteOnce]
+        # 50 GB is the smallest block volume Oracle makes; the free tier allows 200 GB in all.
+        resources:
+          requests:
+            storage: 50Gi

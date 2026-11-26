@@ -1,0 +1,164 @@
+{
+  "sources": [
+    {
+      "url": "https://education.gov.scot/media/0e5pagsr/classical-languages-eo.pdf",
+      "etag": "W/\"1dcd62374739065\"",
+      "last_modified": "Mon, 27 Apr 2026 08:54:28 GMT",
+      "sha256": "8543f2753e10236b3e0293206d1c4ce64388ed2675cd44a71c534d2c60c3e6d1",
+      "fetched_at": "2026-11-08T11:07:36.798Z",
+      "docs": [
+        "classical-languages.md"
+      ]
+    },
+    {
+      "url": "https://education.gov.scot/media/2enpmnrb/literacy-gaidhlig-eo.pdf",
+      "etag": "W/\"1dcd62374786c54\"",
+      "last_modified": "Mon, 27 Apr 2026 08:54:28 GMT",
+      "sha256": "eb990635f76f6b6e8e534f0c93914eb86044edbd253bd7d37d58b78ab302656e",
+      "fetched_at": "2026-11-08T11:07:36.798Z",
+      "docs": [
+        "literacy-and-gaidhlig.md"
+      ]
+    },
+    {
+      "url": "https://education.gov.scot/media/5p4dvqvm/health-and-wellbeing-eo.pdf",
+      "etag": "W/\"1dcd623747808a0\"",
+      "last_modified": "Mon, 27 Apr 2026 08:54:28 GMT",
+      "sha256": "17108f9b17d2d639e3b08ed3a303039c9f8bb0de0a518ce9e1a43e9dd9b3742d",
+      "fetched_at": "2026-11-08T11:07:36.798Z",
+      "docs": [
+        "health-and-wellbeing.md"
+      ]
+    },
+    {
+      "url": "https://education.gov.scot/media/hg0nltic/rme-eo.pdf",
+      "etag": "W/\"1dcd623747668f7\"",
+      "last_modified": "Mon, 27 Apr 2026 08:54:28 GMT",
+      "sha256": "e31afd9b5f56c0614c813e9c0dc56a7b6875a69d26d4c4fe869f5f7c7ab44df2",
+      "fetched_at": "2026-11-08T11:07:36.798Z",
+      "docs": [
+        "religious-and-moral-education.md"
+      ]
+    },
+    {
+      "url": "https://education.gov.scot/media/hpidflxa/sciences-eo.pdf",
+      "etag": "W/\"1dcd6237476de02\"",
+      "last_modified": "Mon, 27 Apr 2026 08:54:28 GMT",
+      "sha256": "6e3f2f55ac3b53fcf1f53d738697bbb3221caf250403b903f45c792ecd7c0d8f",
+      "fetched_at": "2026-11-08T11:07:36.798Z",
+      "docs": [
+        "sciences.md"
+      ]
+    },
+    {
+      "url": "https://education.gov.scot/media/i32j1wu0/hwb-across-learning-eo.pdf",
+      "etag": "W/\"1dcd623750cff77\"",
+      "last_modified": "Mon, 27 Apr 2026 08:54:29 GMT",
+      "sha256": "b447f68e994ea7854a2baf3c54af8fe75078df5523e0548687375ad2207b68c8",
+      "fetched_at": "2026-11-08T11:07:36.798Z",
+      "docs": [
+        "health-and-wellbeing-across-learning.md"
+      ]
+    },
+    {
+      "url": "https://education.gov.scot/media/jsufydsc/numeracy-across-learning-eo.pdf",
+      "etag": "W/\"1dcd623750cc39e\"",
+      "last_modified": "Mon, 27 Apr 2026 08:54:29 GMT",
+      "sha256": "ca5f09a83c8fbd5305c40fe0d0588e99b53086ec0ab301bb57009cf5e343bd1e",
+      "fetched_at": "2026-11-08T11:07:36.798Z",
+      "docs": [
+        "numeracy-across-learning.md"
+      ]
+    },
+    {
+      "url": "https://education.gov.scot/media/lbtg5lpl/rerc-eo.pdf",
+      "etag": "W/\"1dcd623750f15bc\"",
+      "last_modified": "Mon, 27 Apr 2026 08:54:29 GMT",
+      "sha256": "a05836374047dea5cd05dcab5edd252c5ec534d9e86381162c677ad9ad32575a",
+      "fetched_at": "2026-11-08T11:07:36.798Z",
+      "docs": [
+        "religious-education-in-roman-catholic-schools.md"
+      ]
+    },
+    {
+      "url": "https://education.gov.scot/media/nqgj0egw/technologies-es-os.pdf",
+      "etag": "W/\"1dcd623750f5252\"",
+      "last_modified": "Mon, 27 Apr 2026 08:54:29 GMT",
+      "sha256": "d93fc1c3011a1d9b257a8b91dfa35d445c335500fbe0eb068fbbc037fd1bc057",
+      "fetched_at": "2026-11-08T11:07:36.798Z",
+      "docs": [
+        "technologies.md"
+      ]
+    },
+    {
+      "url": "https://education.gov.scot/media/ogyjyehk/expressive-arts-eo.pdf",
+      "etag": "W/\"1dcd623750f1a66\"",
+      "last_modified": "Mon, 27 Apr 2026 08:54:29 GMT",
+      "sha256": "c84cb7ca1ae79093003004d5eace1e58de113c2807135c22e525800d7eddfc3b",
+      "fetched_at": "2026-11-08T11:07:36.798Z",
+      "docs": [
+        "expressive-arts.md"
+      ]
+    },
+    {
+      "url": "https://education.gov.scot/media/qhxmxnfq/literacy-english-eo.pdf",
+      "etag": "W/\"1dcd623750e9532\"",
+      "last_modified": "Mon, 27 Apr 2026 08:54:29 GMT",
+      "sha256": "18ab523c8fb3e4389b004397f86e8ac31a013093c2b052743df5dbd364456281",
+      "fetched_at": "2026-11-08T11:07:36.798Z",
+      "docs": [
+        "literacy-and-english.md"
+      ]
+    },
+    {
+      "url": "https://education.gov.scot/media/rh3fq1gi/social-studies-eo.pdf",
+      "etag": "W/\"1dcd623750fde1f\"",
+      "last_modified": "Mon, 27 Apr 2026 08:54:29 GMT",
+      "sha256": "15d410e83d8632c65c4dfec4c300d1239ebb16ce69991c69893b027f02f9ffa4",
+      "fetched_at": "2026-11-08T11:07:36.798Z",
+      "docs": [
+        "social-studies.md"
+      ]
+    },
+    {
+      "url": "https://education.gov.scot/media/rmjns011/literacy-across-learning-eo.pdf",
+      "etag": "W/\"1dcd623750cbe16\"",
+      "last_modified": "Mon, 27 Apr 2026 08:54:29 GMT",
+      "sha256": "b4981b0bf63c4a39ca3b6d84bc0961ddb5e23ac8c835c5bf3f4e02626c6ea910",
+      "fetched_at": "2026-11-08T11:07:36.798Z",
+      "docs": [
+        "literacy-across-learning.md"
+      ]
+    },
+    {
+      "url": "https://education.gov.scot/media/sz2lnh1g/numeracy-maths-eo.pdf",
+      "etag": "W/\"1dcd623750e313a\"",
+      "last_modified": "Mon, 27 Apr 2026 08:54:29 GMT",
+      "sha256": "2976f73347215d3f97fe7eb50b9724b4738418e734c7d36845e022bf2aef9f55",
+      "fetched_at": "2026-11-08T11:07:36.798Z",
+      "docs": [
+        "numeracy-and-mathematics.md"
+      ]
+    },
+    {
+      "url": "https://education.gov.scot/media/wr4pokgb/modern-languages-eo.pdf",
+      "etag": "W/\"1dcd623750e6057\"",
+      "last_modified": "Mon, 27 Apr 2026 08:54:29 GMT",
+      "sha256": "da036f6c5a2427d9da26dde12de55c29aa80cb73abf2f2c183615b0582b68e40",
+      "fetched_at": "2026-11-08T11:07:36.798Z",
+      "docs": [
+        "modern-languages.md"
+      ]
+    },
+    {
+      "url": "https://education.gov.scot/media/ysyfazzx/gaelic-learners-eo.pdf",
+      "etag": "W/\"1dcd623750c76a8\"",
+      "last_modified": "Mon, 27 Apr 2026 08:54:29 GMT",
+      "sha256": "2c522fa26a15bd48b5a15c45673a8c3960adec1939ef8fd12f5d7ff493f90694",
+      "fetched_at": "2026-11-08T11:07:36.798Z",
+      "docs": [
+        "gaelic-learners.md"
+      ]
+    }
+  ]
+}

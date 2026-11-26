@@ -1,0 +1,36 @@
+# Only the app and the migration Job may reach the database; only the app may reach the runner.
+# Needs a network plugin that enforces policies (on Oracle's OKE: Calico, or the OCI VCN-native
+# plugin with network policies on); without one these are ignored (DEPLOY.md, section 13).
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: sqld
+spec:
+  podSelector:
+    matchLabels:
+      app.kubernetes.io/name: sqld
+  policyTypes: [Ingress]
+  ingress:
+    - from:
+        - podSelector:
+            matchExpressions:
+              - { key: app.kubernetes.io/name, operator: In, values: [app, migrate] }
+      ports:
+        - { port: 8080 }
+---
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: runner
+spec:
+  podSelector:
+    matchLabels:
+      app.kubernetes.io/name: runner
+  policyTypes: [Ingress]
+  ingress:
+    - from:
+        - podSelector:
+            matchLabels:
+              app.kubernetes.io/name: app
+      ports:
+        - { port: 8787 }

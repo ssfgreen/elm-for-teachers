@@ -1,0 +1,15 @@
+{
+  "id": "education-scotland-eo",
+  "name": "Curriculum for Excellence: experiences and outcomes",
+  "publisher": "Education Scotland",
+  "description": "The experiences and outcomes for each curriculum area, Early to Fourth level, one per line with its code (such as MNU 2-03a), under headings for area, organiser and level. English versions.",
+  "licence": "OGL-UK-3.0",
+  "licence_url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+  "homepage": "https://education.gov.scot/curriculum-for-excellence/experiences-and-outcomes/",
+  "sources": [
+    {
+      "url": "https://education.gov.scot/curriculum-for-excellence/experiences-and-outcomes/",
+      "description": "The page that links a PDF for each curriculum area; the English ones are read."
+    }
+  ]
+}

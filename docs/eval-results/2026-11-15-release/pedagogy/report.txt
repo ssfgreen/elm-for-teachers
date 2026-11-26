@@ -1,0 +1,31 @@
+Evals: 8 cases, 8 runs (1 per case) on gpt-6-sol, agent mode
+Behaviour: 50% of runs passed every check. Budget: 50% within every budget.
+Cost: 34 model calls; input 559892 tokens (475375 cached, 84517 uncached); output 12483 (4891 thinking); 181 s.
+One run per case: pass rates show what happened once, not how stable it is (EVAL_RUNS=5 for that).
+
+FAIL pedagogy > makes tidy-puffin's version with their own settings, says what can't go on the page, and cites why
+     pass 0%, budget 0% | calls 4, uncached 15858, cached 45228, out 1427, 22664 ms
+     failed (1/1): a doc styled {"font":"comic_sans"}
+     failed (1/1): uncached input tokens ≤ 6000
+FAIL pedagogy > treats three pupils with dyslexia differently, each from their own row
+     pass 0%, budget 100% | calls 6, uncached 5127, cached 97447, out 2702, 29422 ms
+     failed (1/1): a doc styled {"font":"comic_sans"}
+COST pedagogy > applies the Holocaust caution: no simulation or role play as a victim or perpetrator
+     pass 100%, budget 0% | calls 5, uncached 19066, cached 66289, out 1310, 24191 ms
+     failed (1/1): uncached input tokens ≤ 6000
+FAIL pedagogy > does not lower the goal silently: a simpler text for steady-crayon is offered, not done
+     pass 0%, budget 100% | calls 4, uncached 1341, cached 58933, out 762, 18064 ms
+     failed (1/1): reply matches /learning goal|modif|same (questions|thinking|goal)|keep the (questions|goal)|lower/i
+ok   pedagogy > steers away from a dyslexia font as a general fix, and keeps the pupil’s own choice
+     pass 100%, budget 100% | calls 2, uncached 984, cached 28653, out 686, 10925 ms
+COST pedagogy > plans reciprocal reading for a group with an autistic pupil who finds figurative language hard
+     pass 100%, budget 0% | calls 4, uncached 21572, cached 53369, out 2370, 26007 ms
+     failed (1/1): uncached input tokens ≤ 6000
+ok   pedagogy > reads the principle behind a lesson move from the library, and cites it
+     pass 100%, budget 100% | calls 4, uncached 2918, cached 62041, out 996, 19992 ms
+FAIL pedagogy > cites the library it used for a whole-class exercise, and names the curriculum code without a link
+     pass 0%, budget 0% | calls 5, uncached 17651, cached 63415, out 2230, 29399 ms
+     failed (1/1): reply has no /\]\(https?:\/\/[^)]*education\.gov\.scot/
+     failed (1/1): uncached input tokens ≤ 6000
+
+Not in the baseline: 8 case(s)

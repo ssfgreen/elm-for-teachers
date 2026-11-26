@@ -1,0 +1,30 @@
+{
+  "id": 28,
+  "slug": "how-ai-influences-you",
+  "link": "https://trails.scot/resource/how-ai-influences-you/",
+  "modified_gmt": "2026-09-11T13:39:39",
+  "title": {
+    "rendered": "How AI influences you"
+  },
+  "content": {
+    "rendered": "\n<div style=\"height:30px\" aria-hidden=\"true\" class=\"wp-block-spacer\"></div>\n\n\n\n<p class=\"wp-block-paragraph\">This unit is split into three lessons. They can be delivered all together (~2hrs) or one at a time over multiple sessions, or you may pick-and-choose from the activities. The lessons cover a particular type of AI system—a recommender system—which is used by streaming and social media services to recommend content, online shopping platforms to recommend products, and so on. These lessons will give learners a conceptual overview of how such systems work, as well as make them aware of the ethical implications of using them. <strong>There are cross-curricular links to CfE Level 3/4 Literacy, Numeracy, Science, Social Studies, and Technology.</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">This lesson was developed by the <a href=\"https://dataschools.education/\">Data Education in Schools</a> team.</p>\n\n\n\n<p class=\"wp-block-paragraph\">For the Social Media Feed section of the lesson, there is an online tool that has been developed to help students with the calculation aspect. This can be accessed via this link: <a href=\"https://dataed.in/social-media-calculator\">https://dataed.in/social-media-calculator</a></p>\n\n\n\n<p class=\"wp-block-paragraph\">We have secondary and primary versions of this lesson.</p>\n\n\n\n<h2 class=\"wp-block-heading\">For Secondary</h2>\n\n\n\n<div class=\"wp-block-file\"><a id=\"wp-block-file--media-60f071d8-6918-4ce5-9eb4-7a3efed92359\" href=\"https://trails.scot/wp-content/uploads/2026/08/1.-How-AI-influences-you.zip\">1. How AI influences you &#8211; WHOLE LESSON</a><a href=\"https://trails.scot/wp-content/uploads/2026/08/1.-How-AI-influences-you.zip\" class=\"wp-block-file__button wp-element-button\" download aria-describedby=\"wp-block-file--media-60f071d8-6918-4ce5-9eb4-7a3efed92359\">Download</a></div>\n\n\n\n<h2 class=\"wp-block-heading\">For Primary</h2>\n\n\n\n<p class=\"wp-block-paragraph\">Our Secondary lesson has recently been adapted by one of our Teacher Associates, Samantha Hatton, for primary. You can find the resources below.</p>\n\n\n\n<div data-wp-interactive=\"core/file\" class=\"wp-block-file\"><object data-wp-bind--hidden=\"!state.hasPdfPreview\" hidden class=\"wp-block-file__embed\" data=\"https://trails.scot/wp-content/uploads/2025/01/How-AI-Influences-You-Topic-1.pdf\" type=\"application/pdf\" style=\"width:100%;height:600px\" aria-label=\"Embed of How AI Influences You - Primary WHOLE LESSON PDF Slides.\"></object><a id=\"wp-block-file--media-8b343355-832b-4fc4-815a-5241f7790ae9\" href=\"https://trails.scot/wp-content/uploads/2025/01/How-AI-Influences-You-Topic-1.pdf\">How AI Influences You &#8211; Primary WHOLE LESSON PDF Slides</a><a href=\"https://trails.scot/wp-content/uploads/2025/01/How-AI-Influences-You-Topic-1.pdf\" class=\"wp-block-file__button wp-element-button\" download aria-describedby=\"wp-block-file--media-8b343355-832b-4fc4-815a-5241f7790ae9\">Download</a></div>\n\n\n\n<div class=\"wp-block-file\"><a id=\"wp-block-file--media-e6c0adec-438a-487a-9fcd-12bcf259f4fa\" href=\"https://trails.scot/wp-content/uploads/2026/09/How-AI-Influences-You-Primary.zip\">How AI Influences You &#8211; WHOLE LESSON ZIP &#8211; Primary</a><a href=\"https://trails.scot/wp-content/uploads/2026/09/How-AI-Influences-You-Primary.zip\" class=\"wp-block-file__button wp-element-button\" download aria-describedby=\"wp-block-file--media-e6c0adec-438a-487a-9fcd-12bcf259f4fa\">Download</a></div>\n\n\n\n<h2 class=\"wp-block-heading\">Sub-activities</h2>\n\n\n\n<p class=\"wp-block-paragraph\">If you are interested in downloading the files associated with specific activities which are a part of this lesson, you can have a look at their individual resource pages:</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li><a href=\"https://trails.scot/resource/movie-night-2/\">Movie Night</a></li>\n\n\n\n<li><a href=\"https://trails.scot/resource/social-media-algorithm-simulator/\" data-type=\"link\" data-id=\"https://trails.scot/resource/social-media-algorithm-simulator/\">Social Media Algorithm Simulator</a></li>\n</ul>\n",
+    "protected": false
+  },
+  "excerpt": {
+    "rendered": "<p>This unit is split into three lessons. They can be delivered all together (~2hrs) or one at a time over multiple sessions, or you may pick-and-choose from the activities. The lessons cover a particular type of AI system—a recommender system—which is used by streaming and social media services to recommend content, online shopping platforms to&hellip; <a class=\"more-link\" href=\"https://trails.scot/resource/how-ai-influences-you/\">Continue reading <span class=\"screen-reader-text\">How AI influences you</span></a></p>\n",
+    "protected": false
+  },
+  "curriculum_area": [
+    63,
+    64,
+    15,
+    33
+  ],
+  "curriculum_level": [
+    19
+  ],
+  "topics_and_themes": [
+    52,
+    56
+  ]
+}

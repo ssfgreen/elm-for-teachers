@@ -1,0 +1,17 @@
+# Litestream: copies every change to the database to the backup bucket, about once a second.
+# The same file is used by compose.yaml and by Kubernetes (sqld.yaml). Values come from the
+# environment: BACKUP_S3_* (DEPLOY.md, section 13), never the S3_* file bucket.
+dbs:
+  # sqld keeps its database here: --db-path /var/lib/sqld/iku.db, namespace "default".
+  - path: /var/lib/sqld/iku.db/dbs/default/data
+    replicas:
+      - type: s3
+        endpoint: ${BACKUP_S3_ENDPOINT}
+        bucket: ${BACKUP_S3_BUCKET}
+        path: ${BACKUP_S3_PATH}
+        region: ${BACKUP_S3_REGION}
+        force-path-style: true
+        sync-interval: 1s
+        # A full copy each day; changes kept for 14 days, so a restore can go back that far.
+        snapshot-interval: 24h
+        retention: 336h

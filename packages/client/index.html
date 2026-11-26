@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, interactive-widget=resizes-content" />
+    <!-- Workspace links are secrets: keep them out of search engines and other sites' logs. -->
+    <meta name="robots" content="noindex, nofollow" />
+    <meta name="referrer" content="no-referrer" />
+    <title>Epistemic differentiation workshop</title>
+    <!-- Light or dark before the first paint, so the page never flashes the wrong one. Kept in step with src/theme.ts. -->
+    <script>
+      (function () {
+        var c = 'system';
+        try { c = localStorage.getItem('edw-theme') || 'system'; } catch (e) {}
+        var dark = c === 'dark' || (c !== 'light' && window.matchMedia('(prefers-color-scheme: dark)').matches);
+        document.documentElement.dataset.theme = dark ? 'dark' : 'light';
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

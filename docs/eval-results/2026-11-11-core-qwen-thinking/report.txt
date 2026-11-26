@@ -1,0 +1,61 @@
+Evals: 13 cases, 26 runs (2 per case) on Qwen/Qwen3.5-397B-A17B-FP8, agent mode
+Behaviour: 88% of runs passed every check. Budget: 96% within every budget.
+Cost: 52 model calls; input 307781 tokens (222176 cached, 85605 uncached); output 12548 (6711 thinking); 366 s.
+
+FAIL copies > create_doc copy_of: a duplicated version with an extension task keeps every block
+     pass 50%, budget 50% | calls 3, uncached 6567, cached 11528, out 637, 20587 ms
+     failed (1/2): uncached input tokens ≤ 6000
+     failed (1/2): no edits rejected
+ok   tools > read_document: fills an answer key from the worksheet in another document
+     pass 100%, budget 100% | calls 3, uncached 3328, cached 12576, out 455, 8326 ms
+FAIL tools > insert: drafts a worksheet into an empty document, title first
+     pass 50%, budget 100% | calls 2, uncached 1793, cached 8384, out 461, 32917 ms
+     failed (1/2): “Untitled” starts with /^# /
+     failed (1/2): “Untitled” matches /metaphor/i
+     failed (1/2): “Untitled” matches /^5\. /m
+     failed (1/2): created no doc
+FAIL tools > replace: a comment on one sentence changes that sentence only
+     pass 50%, budget 100% | calls 2, uncached 2065, cached 8384, out 330, 12139 ms
+     failed (1/2): rewrote “Write a simile about the weather.”
+ok   tools > delete: removes the question the teacher names, and only that
+     pass 100%, budget 100% | calls 2, uncached 2130, cached 8384, out 433, 10251 ms
+ok   tools > create_doc: makes an answer sheet as a separate document
+     pass 100%, budget 100% | calls 2, uncached 2287, cached 8384, out 507, 17208 ms
+ok   behaviour > a question gets an answer in chat, with no edits
+     pass 100%, budget 100% | calls 1, uncached 919, cached 4192, out 282, 9626 ms
+ok   behaviour > a long document: one targeted fix, without rewriting the rest
+     pass 100%, budget 100% | calls 2, uncached 10494, cached 11528, out 245, 7617 ms
+ok   editing > a direct request to make the suggested change puts it straight in
+     pass 100%, budget 100% | calls 2, uncached 3969, cached 8384, out 630, 12012 ms
+ok   look > asked to turn a list into a table, it keeps the content and makes a table block
+     pass 100%, budget 100% | calls 2, uncached 3476, cached 8384, out 962, 23352 ms
+ok   comments > a request in a comment changes the commented block and replies in the thread
+     pass 100%, budget 100% | calls 2, uncached 2679, cached 8384, out 388, 9698 ms
+ok   adversarial > an invented block id changes nothing and does not break the turn
+     pass 100%, budget 100% | calls 1, uncached 808, cached 4192, out 438, 7361 ms
+ok   lists > a request about one item changes that item only
+     pass 100%, budget 100% | calls 2, uncached 2291, cached 8384, out 508, 12123 ms
+
+Worse than the baseline:
+  - tools > read_document: fills an answer key from the worksheet in another document: uncachedInput 2046 → 3328
+  - tools > read_document: fills an answer key from the worksheet in another document: output 216 → 455
+  - tools > insert: drafts a worksheet into an empty document, title first: pass rate 1 → 0.5
+  - tools > insert: drafts a worksheet into an empty document, title first: uncachedInput 314 → 1793
+  - tools > insert: drafts a worksheet into an empty document, title first: output 233 → 461
+  - tools > replace: a comment on one sentence changes that sentence only: pass rate 1 → 0.5
+  - tools > replace: a comment on one sentence changes that sentence only: uncachedInput 376 → 2065
+  - tools > replace: a comment on one sentence changes that sentence only: output 169 → 330
+  - tools > delete: removes the question the teacher names, and only that: uncachedInput 254 → 2130
+  - tools > delete: removes the question the teacher names, and only that: output 93 → 433
+  - tools > create_doc: makes an answer sheet as a separate document: uncachedInput 475 → 2287
+  - tools > create_doc: makes an answer sheet as a separate document: output 270 → 507
+  - behaviour > a question gets an answer in chat, with no edits: uncachedInput 196 → 919
+  - behaviour > a question gets an answer in chat, with no edits: output 68 → 282
+  - behaviour > a long document: one targeted fix, without rewriting the rest: uncachedInput 5218 → 10494
+  - behaviour > a long document: one targeted fix, without rewriting the rest: output 77 → 245
+  - comments > a request in a comment changes the commented block and replies in the thread: uncachedInput 679 → 2679
+  - comments > a request in a comment changes the commented block and replies in the thread: output 248 → 388
+  - adversarial > an invented block id changes nothing and does not break the turn: uncachedInput 148 → 808
+  - adversarial > an invented block id changes nothing and does not break the turn: output 62 → 438
+
+Not in the baseline: 4 case(s)

@@ -1,0 +1,15 @@
+/* A writing line (extensions/writingLine.ts): a rule along the text's baseline, sized by the
+   extension to reach the right margin. Before it is sized it is a short line. */
+.canvas-pm span[data-writing-line] {
+  display: inline-block;
+  width: 40px;
+  height: 1.1em;
+  vertical-align: baseline;
+  border-bottom: 1px solid currentColor;
+  box-sizing: border-box;
+}
+
+.canvas-pm span[data-writing-line].ProseMirror-selectednode {
+  outline: 2px solid var(--ring, #4c8bf5);
+  outline-offset: 1px;
+}

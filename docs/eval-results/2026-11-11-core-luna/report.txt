@@ -1,0 +1,45 @@
+Evals: 13 cases, 26 runs (2 per case) on gpt-6-luna, agent mode
+Behaviour: 88% of runs passed every check. Budget: 100% within every budget.
+Cost: 51 model calls; input 257782 tokens (223547 cached, 34235 uncached); output 6581 (2766 thinking); 180 s.
+
+FAIL copies > create_doc copy_of: a duplicated version with an extension task keeps every block
+     pass 0%, budget 100% | calls 2.5, uncached 3267, cached 9398, out 437, 8327 ms
+     failed (1/2): used create_doc with copy_of
+     failed (1/2): no edits rejected
+ok   tools > read_document: fills an answer key from the worksheet in another document
+     pass 100%, budget 100% | calls 3, uncached 516, cached 12972, out 148, 6914 ms
+ok   tools > insert: drafts a worksheet into an empty document, title first
+     pass 100%, budget 100% | calls 2, uncached 432, cached 8383, out 346, 9043 ms
+ok   tools > replace: a comment on one sentence changes that sentence only
+     pass 100%, budget 100% | calls 2, uncached 2517, cached 6474, out 196, 6736 ms
+ok   tools > delete: removes the question the teacher names, and only that
+     pass 100%, budget 100% | calls 2, uncached 284, cached 8512, out 60, 3640 ms
+ok   tools > create_doc: makes an answer sheet as a separate document
+     pass 100%, budget 100% | calls 2, uncached 464, cached 8559, out 200, 7076 ms
+ok   behaviour > a question gets an answer in chat, with no edits
+     pass 100%, budget 100% | calls 1, uncached 256, cached 4151, out 130, 3675 ms
+ok   behaviour > a long document: one targeted fix, without rewriting the rest
+     pass 100%, budget 100% | calls 2, uncached 5309, cached 13529, out 73, 4810 ms
+FAIL editing > a direct request to make the suggested change puts it straight in
+     pass 50%, budget 100% | calls 2, uncached 1442, cached 9324, out 431, 9255 ms
+     failed (1/2): 0 suggestion(s) still waiting
+ok   look > asked to turn a list into a table, it keeps the content and makes a table block
+     pass 100%, budget 100% | calls 2, uncached 1045, cached 8918, out 508, 8818 ms
+ok   comments > a request in a comment changes the commented block and replies in the thread
+     pass 100%, budget 100% | calls 2, uncached 864, cached 8795, out 369, 9529 ms
+ok   adversarial > an invented block id changes nothing and does not break the turn
+     pass 100%, budget 100% | calls 1, uncached 151, cached 4151, out 132, 4505 ms
+ok   lists > a request about one item changes that item only
+     pass 100%, budget 100% | calls 2, uncached 575, cached 8611, out 263, 7841 ms
+
+Worse than the baseline:
+  - tools > insert: drafts a worksheet into an empty document, title first: uncachedInput 314 → 432
+  - tools > insert: drafts a worksheet into an empty document, title first: output 233 → 346
+  - tools > replace: a comment on one sentence changes that sentence only: uncachedInput 376 → 2517
+  - behaviour > a question gets an answer in chat, with no edits: uncachedInput 196 → 256
+  - behaviour > a question gets an answer in chat, with no edits: output 68 → 130
+  - comments > a request in a comment changes the commented block and replies in the thread: uncachedInput 679 → 864
+  - comments > a request in a comment changes the commented block and replies in the thread: output 248 → 369
+  - adversarial > an invented block id changes nothing and does not break the turn: output 62 → 132
+
+Not in the baseline: 4 case(s)

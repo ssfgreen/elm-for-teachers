@@ -1,0 +1,11 @@
+{
+  "id": "pedagogy-scotland",
+  "kind": "pedagogy",
+  "name": "Pedagogy library (Scotland, draft sample)",
+  "publisher": "Draft curation for this project (not yet reviewed by educators)",
+  "description": "Principles, activities, subject pedagogies, adaptations, format rules, cautions and curriculum links for P7 Literacy and English and S1 history, each split into citable claims backed by passages from named sources. Every entry is a draft: nothing has been reviewed by a teacher or specialist yet.",
+  "licence": "Mixed: each source has its own licence (most not yet confirmed); passages are paraphrases or quotes of 15 words or fewer",
+  "licence_url": null,
+  "homepage": "https://education.gov.scot/",
+  "sources": [{ "url": "library/pedagogy-sample/HANDOFF.md", "description": "The sample v0.1 as delivered on 12 Nov 2026, merged by validate.py" }]
+}

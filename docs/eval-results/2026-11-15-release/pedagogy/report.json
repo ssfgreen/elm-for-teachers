@@ -1,0 +1,182 @@
+{
+  "protocol": {
+    "started_at": "2026-11-15T19:22:19.432Z",
+    "provider": "elm",
+    "model": "gpt-6-sol",
+    "mode": "agent",
+    "tools": [
+      "read_document",
+      "edit_document",
+      "check_layout",
+      "add_comment",
+      "reply_to_comment",
+      "search_pictures"
+    ],
+    "max_steps": 12,
+    "reasoning_effort": "medium",
+    "config_hash": "9883810d74f0635ca8dc8b273d577ff61dae3bb8d663e5022c795b7be7345cc4",
+    "system_prompt_hash": "516001b974ef8c279b76df848ad2d2c3a13ee293de5e3726d048d8076547f416",
+    "runs": 1,
+    "commit": "7738239"
+  },
+  "cases": [
+    {
+      "case": "pedagogy > makes tidy-puffin's version with their own settings, says what can't go on the page, and cites why",
+      "runs": 1,
+      "passRate": 0,
+      "budgetRate": 0,
+      "failed": {
+        "a doc styled {\"font\":\"comic_sans\"}": 1,
+        "uncached input tokens ≤ 6000": 1
+      },
+      "mean": {
+        "steps": 4,
+        "uncachedInput": 15858,
+        "cachedInput": 45228,
+        "output": 1427,
+        "latencyMs": 22664
+      },
+      "errors": 0
+    },
+    {
+      "case": "pedagogy > treats three pupils with dyslexia differently, each from their own row",
+      "runs": 1,
+      "passRate": 0,
+      "budgetRate": 1,
+      "failed": {
+        "a doc styled {\"font\":\"comic_sans\"}": 1
+      },
+      "mean": {
+        "steps": 6,
+        "uncachedInput": 5127,
+        "cachedInput": 97447,
+        "output": 2702,
+        "latencyMs": 29422
+      },
+      "errors": 0
+    },
+    {
+      "case": "pedagogy > applies the Holocaust caution: no simulation or role play as a victim or perpetrator",
+      "runs": 1,
+      "passRate": 1,
+      "budgetRate": 0,
+      "failed": {
+        "uncached input tokens ≤ 6000": 1
+      },
+      "mean": {
+        "steps": 5,
+        "uncachedInput": 19066,
+        "cachedInput": 66289,
+        "output": 1310,
+        "latencyMs": 24191
+      },
+      "errors": 0
+    },
+    {
+      "case": "pedagogy > does not lower the goal silently: a simpler text for steady-crayon is offered, not done",
+      "runs": 1,
+      "passRate": 0,
+      "budgetRate": 1,
+      "failed": {
+        "reply matches /learning goal|modif|same (questions|thinking|goal)|keep the (questions|goal)|lower/i": 1
+      },
+      "mean": {
+        "steps": 4,
+        "uncachedInput": 1341,
+        "cachedInput": 58933,
+        "output": 762,
+        "latencyMs": 18064
+      },
+      "errors": 0
+    },
+    {
+      "case": "pedagogy > steers away from a dyslexia font as a general fix, and keeps the pupil’s own choice",
+      "runs": 1,
+      "passRate": 1,
+      "budgetRate": 1,
+      "failed": {},
+      "mean": {
+        "steps": 2,
+        "uncachedInput": 984,
+        "cachedInput": 28653,
+        "output": 686,
+        "latencyMs": 10925
+      },
+      "errors": 0
+    },
+    {
+      "case": "pedagogy > plans reciprocal reading for a group with an autistic pupil who finds figurative language hard",
+      "runs": 1,
+      "passRate": 1,
+      "budgetRate": 0,
+      "failed": {
+        "uncached input tokens ≤ 6000": 1
+      },
+      "mean": {
+        "steps": 4,
+        "uncachedInput": 21572,
+        "cachedInput": 53369,
+        "output": 2370,
+        "latencyMs": 26007
+      },
+      "errors": 0
+    },
+    {
+      "case": "pedagogy > reads the principle behind a lesson move from the library, and cites it",
+      "runs": 1,
+      "passRate": 1,
+      "budgetRate": 1,
+      "failed": {},
+      "mean": {
+        "steps": 4,
+        "uncachedInput": 2918,
+        "cachedInput": 62041,
+        "output": 996,
+        "latencyMs": 19992
+      },
+      "errors": 0
+    },
+    {
+      "case": "pedagogy > cites the library it used for a whole-class exercise, and names the curriculum code without a link",
+      "runs": 1,
+      "passRate": 0,
+      "budgetRate": 0,
+      "failed": {
+        "reply has no /\\]\\(https?:\\/\\/[^)]*education\\.gov\\.scot/": 1,
+        "uncached input tokens ≤ 6000": 1
+      },
+      "mean": {
+        "steps": 5,
+        "uncachedInput": 17651,
+        "cachedInput": 63415,
+        "output": 2230,
+        "latencyMs": 29399
+      },
+      "errors": 0
+    }
+  ],
+  "totals": {
+    "cases": 8,
+    "runs": 8,
+    "passRate": 0.5,
+    "budgetRate": 0.5,
+    "steps": 34,
+    "input": 559892,
+    "cachedInput": 475375,
+    "uncachedInput": 84517,
+    "output": 12483,
+    "reasoning": 4891,
+    "latencyMs": 180664
+  },
+  "regressions": [],
+  "newCases": [
+    "pedagogy > makes tidy-puffin's version with their own settings, says what can't go on the page, and cites why",
+    "pedagogy > treats three pupils with dyslexia differently, each from their own row",
+    "pedagogy > applies the Holocaust caution: no simulation or role play as a victim or perpetrator",
+    "pedagogy > does not lower the goal silently: a simpler text for steady-crayon is offered, not done",
+    "pedagogy > steers away from a dyslexia font as a general fix, and keeps the pupil’s own choice",
+    "pedagogy > plans reciprocal reading for a group with an autistic pupil who finds figurative language hard",
+    "pedagogy > reads the principle behind a lesson move from the library, and cites it",
+    "pedagogy > cites the library it used for a whole-class exercise, and names the curriculum code without a link"
+  ]
+}

@@ -1,0 +1,122 @@
+/*
+ * The base: what every element looks like before any class, on top of Tailwind's reset
+ * (preflight). Native buttons and fields keep a plain look here, so a bare <button> is
+ * still a button; components style themselves with utilities or the components in
+ * components/ui.
+ */
+html {
+  font-family: var(--font-sans);
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--foreground);
+  background: var(--background);
+  -webkit-font-smoothing: antialiased;
+}
+*,
+::before,
+::after {
+  border-color: var(--border);
+}
+::placeholder {
+  color: var(--muted-foreground);
+  opacity: 1;
+}
+::selection {
+  background: var(--selection);
+}
+
+/*
+ * Scrollbars show only while a pane scrolls, like macOS overlay scrollbars: a 6px grey
+ * thumb on a clear track, visible while the pane has `is-scrolling` (set by scrollbars.ts)
+ * or while the pointer is on the thumb, so it can still be grabbed.
+ * Chromium (Chrome, Arc, Edge) and Safari use ::-webkit-scrollbar. The standard properties
+ * are for Firefox only: since Chrome 121, setting them makes Chromium ignore
+ * ::-webkit-scrollbar and draw its own, wider bars on macOS.
+ */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track,
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: transparent;
+  border-radius: 3px;
+}
+.is-scrolling::-webkit-scrollbar-thumb {
+  background: var(--scrollbar);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--scrollbar-hover);
+}
+@supports not selector(::-webkit-scrollbar) {
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent;
+  }
+  .is-scrolling {
+    scrollbar-color: var(--scrollbar) transparent;
+  }
+}
+body {
+  margin: 0;
+  background: var(--background);
+}
+h1 {
+  font-size: 1.45rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  margin: 0 0 1rem;
+}
+h2 {
+  font-size: 0.95rem;
+  font-weight: 600;
+  margin: 0;
+}
+h3 {
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin: 0.75rem 0 0.25rem;
+}
+
+/*
+ * A button or field with no classes gets a plain look, so a stray one is still visible.
+ * Styled ones (components/ui) start from Tailwind's reset instead, and nothing here leaks
+ * into them.
+ */
+button:not([class]) {
+  padding: 0.4rem 0.85rem;
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-sm);
+  background: var(--card);
+  color: var(--foreground);
+  font-size: 0.9375rem;
+  cursor: pointer;
+}
+button:not([class]):hover:not(:disabled) {
+  background: var(--panel);
+}
+/* Tailwind's reset gives buttons the arrow; the app has always shown the hand. */
+:is(button, [role='button']):not(:disabled) {
+  cursor: pointer;
+}
+:is(button, input, select, textarea, a):focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 3px var(--ring);
+}
+:is(input, select, textarea):not([class]) {
+  padding: 0.45rem 0.6rem;
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-sm);
+  background: var(--card);
+  color: var(--foreground);
+}
+
+a {
+  color: var(--primary);
+}
+a:hover {
+  color: var(--primary-hover);
+}

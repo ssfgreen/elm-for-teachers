@@ -1,51 +1,48 @@
-# ELM for Teachers: Planning Document
+# Elm for Teachers
 
-The example documents in [`elm-for-teachers/`](./elm-for-teachers/README.md) are worked examples linked from this planning document, using differentiation and adaptive teaching as the first domain.
+A research-instrumented AI worksheet and lesson-material assistant for consenting teachers, part of the three-system ELM architecture (University of Edinburgh).
 
-## Aims of the project
+**Zero pupil personal data:** Elm for Teachers holds no pupil names, pupil accounts, or pupil transcripts. Teachers work with generic or class-assigned **Needs Groups**, pre-save PII moderation guards free-text notes and group descriptions, and classroom materials flow strictly **one way** to Elm for Students as frozen **Content Pack (v1)** bundles.
 
-- To have a well scoped specification for a potential pilot deployment of ELM within schools for teachers.
-- To have built an interface for teachers using ELM to support specific "high-value tasks".
-- To have curated best practice (as skills), important reference documents (as data context) and common prompts.
-- To have tested the agentic version using a standard set of prompts against ELM standard across the suite of available models.
-- To have assessed the cost of different agentic behaviour patterns for key tasks.
+## Architecture & specifications
 
-## What are high-value tasks
+- [ARCHITECTURE.md](ARCHITECTURE.md) — system map, packages, server modules, and rules.
+- [docs/specs/](docs/specs/) — target specifications for the three-system split (`01-three-system-split.md`, `02-elm-for-teachers-spec.md`, `03-elm-for-students-spec.md`, `04-education-plugin-studio-spec.md`).
+- [docs/planning/](docs/planning/) — earlier Elm for Teachers planning notes and worked examples preserved from the repository root.
+- [docs/routes.md](docs/routes.md) — every HTTP route and its guard (verified in CI by `packages/server/src/routes.test.ts`).
+- `config/` — `app.config.json` (provider, history, thresholds) and `system_prompt.md`, hashed into every research bundle.
 
-- Tasks that teachers are commonly using language models for right now.
-- Tasks that have the potential to:
-  - Save teachers time.
-  - Increase teachers' output quality.
-  - Enable teacher professional development.
-- Tasks that can plausibly be improved through the curation of skills and data from research and from experts. This means tasks that can be improved with "knowledge" rather than changes in model "capability", and that teachers are "normatively" happy to delegate.
+## Running locally
 
-See [`elm-for-teachers/tasks/TASKS-README.md`](./elm-for-teachers/tasks/TASKS-README.md) for how this definition is reflected (and currently only partly covered) in the task list.
+Requirements: Node 20+, pnpm 9, Python 3.12 (analysis only).
 
-## Research Outputs
+```bash
+pnpm install
+cp .env.example .env                 # set DATABASE_URL, PROVIDER, ELM_PROXY_*, ADMIN_PASSWORD
+pnpm build                           # builds shared, server, and the client bundle
+node packages/server/dist/index.js   # serves the API and client on PORT (3000)
+```
 
-**TASK LIST** — A prioritised list of high-value tasks.
+For development with hot reload, run `pnpm dev:server` and `pnpm dev:client` in two terminals and open `http://localhost:5173`.
 
-**PROMPTS** — A suite of real, or realistic, prompts mapped to tasks from documented teacher usage or donated by teachers themselves.
+Key environment variables:
 
-**SKILLS** — A set of skills files that captures "best practice". Example: "How to do differentiation for dyslexia".
+| Variable | Meaning |
+| --- | --- |
+| `DATABASE_URL` | `file:./data/edw.db` for local SQLite, or a Turso `libsql://...` URL |
+| `DATABASE_AUTH_TOKEN` | Turso auth token (remote databases only) |
+| `PROVIDER` | `elm` for the ELM proxy, `mock` for an offline deterministic assistant |
+| `ELM_PROXY_BASE_URL`, `ELM_PROXY_API_KEY`, `ELM_PROXY_CHAT_PATH` | ELM proxy settings |
+| `ADMIN_PASSWORD` | Password for `/admin` outside production; production requires an admin account |
+| `PUBLIC_BASE_URL` | Optional origin for workspace links and Content Pack download URLs |
+| `STUDENTS_URL` | Optional origin of Elm for Students, used to build Content Pack import links |
 
-**DATA CURATION** — An excel file (task, document, usage, reference, ++?) that is a map to key files a system might use to support teachers with a task.
+## Checks
 
-**USER INTERFACE DESIGN** — A series of user stories and interface designs to enable the deployment of a teacher-first ELM.
+```bash
+pnpm check                # typecheck, lint (--max-warnings 0), unit tests, file sizes
+pnpm build && pnpm e2e    # Playwright e2e suite (requires Chromium)
+bash scripts/ci.sh        # full CI script locally
+```
 
-**ABLATION STUDY** — A comparison of ELM-basic vs. Education-Agentic-ELM for key tasks with evaluated outputs, ablated across various ELM model options.
-
-## First steps
-
-Go through the data from the first three workshops and create user stories decomposing research and software sub-tasks:
-
-- Agent Harness Canvas
-- Task and Data Delegation
-- Differentiation Workshop
-
-## Potential workstreams
-
-- Sourcing high-value tasks from literature.
-- Sourcing high-value tasks from participants in the Gemini Pilot.
-- Sourcing prompts from teachers via the Gemini Pilot.
-- Creating an interface for ELM to iterate upon that handles skills and data objects.
+`CLAUDE.md` (also `AGENTS.md`) holds the rules for coding agents working in this repository.

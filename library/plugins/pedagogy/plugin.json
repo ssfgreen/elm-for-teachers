@@ -1,0 +1,40 @@
+{
+  "format": 1,
+  "id": "elm/pedagogy",
+  "version": "0.1.0",
+  "name": "Pedagogy library (draft)",
+  "description": "Principles, activities, subject pedagogies, adaptations, format rules and cautions for P7 Literacy and English and S1 history, each split into claims backed by named sources. In a class chat the assistant grounds its choices in it and cites each claim. Every entry is a draft.",
+  "tags": ["pedagogy", "adaptations", "additional support needs", "evidence", "classes"],
+  "publisher": "Draft curation, not yet reviewed by educators",
+  "reuse": "use_only",
+  "reuse_note": "Each source keeps its own licence, and most are not yet confirmed, so the entries are not offered for adapting until they are. Passages are paraphrases, or quotes of 15 words or fewer.",
+  "collections": [{ "id": "pedagogy-scotland", "kind": "pedagogy", "path": "collections/pedagogy-scotland" }],
+  "skills": [],
+  "tools": [
+    { "tool": "entries", "collection": "pedagogy-scotland", "settings": ["hide", "favour", "min_rating"] },
+    { "tool": "entry", "collection": "pedagogy-scotland" },
+    { "tool": "claims", "collection": "pedagogy-scotland" },
+    { "tool": "facets", "collection": "pedagogy-scotland" }
+  ],
+  "settings": {
+    "hide": { "type": "entries", "label": "Entries I hide", "default": [], "effect": "hide_ids", "collection": "pedagogy-scotland" },
+    "favour": { "type": "entries", "label": "Entries I favour", "default": [], "effect": "favour_ids", "collection": "pedagogy-scotland" },
+    "min_rating": {
+      "type": "choice",
+      "label": "Suggest only entries rated at least",
+      "default": "any",
+      "options": [
+        { "value": "any", "label": "Any rating" },
+        { "value": "practitioner_wisdom", "label": "Practitioner wisdom" },
+        { "value": "emerging", "label": "Emerging" },
+        { "value": "moderate", "label": "Moderate" },
+        { "value": "strong", "label": "Strong" }
+      ],
+      "effect": "min_rating",
+      "collection": "pedagogy-scotland"
+    }
+  },
+  "browse": { "view": "pedagogy", "collection": "pedagogy-scotland" },
+  "use_in": ["class", "year_group"],
+  "tests": "tests/*.yaml"
+}

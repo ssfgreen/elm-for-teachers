@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "edw_analysis"
+version = "0.0.0"
+description = "Analysis package for the epistemic differentiation workshop"
+requires-python = ">=3.12"
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[tool.setuptools]
+packages = ["edw_analysis"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

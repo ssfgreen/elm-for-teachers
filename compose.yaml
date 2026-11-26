@@ -1,0 +1,122 @@
+# The Kubernetes pieces (deploy/k8s/), run locally: the app, the library runner, the database
+# (sqld) with its continuous backup (Litestream), and a local S3 bucket standing in for University
+# storage. Migrations run as their own step before the app starts, as the Kubernetes Job does.
+#
+#   docker compose up --build        then open http://localhost:3000
+#   docker compose down              stops it; add -v to delete the database and the backups too
+#
+# Settings come from .env where it sets them (PROVIDER, ELM_PROXY_*, ADMIN_PASSWORD, ...); the
+# database, runner and backup settings below are fixed for this local setup. DEPLOY.md, section 13.
+name: edw
+
+x-backup-env: &backup-env
+  BACKUP_S3_ENDPOINT: http://storage:8333
+  BACKUP_S3_BUCKET: edw-db-backups
+  BACKUP_S3_PATH: edw
+  BACKUP_S3_REGION: us-east-1
+  LITESTREAM_ACCESS_KEY_ID: local-backup-key
+  LITESTREAM_SECRET_ACCESS_KEY: local-backup-secret-not-for-real-use
+
+x-app-env: &app-env
+  DATABASE_URL: http://sqld:8080
+  DATABASE_AUTH_TOKEN: ''
+  LIBRARY_URL: http://runner:8787
+  MIGRATE_ON_START: 'false'
+  PROVIDER: ${PROVIDER:-mock}
+  ELM_PROXY_BASE_URL: ${ELM_PROXY_BASE_URL:-}
+  ELM_PROXY_API_KEY: ${ELM_PROXY_API_KEY:-}
+  ADMIN_PASSWORD: ${ADMIN_PASSWORD:-}
+  PUBLIC_BASE_URL: ${PUBLIC_BASE_URL:-http://localhost:3000}
+
+services:
+  # Stands in for University storage (S3-compatible). SeaweedFS, as MinIO no longer publishes images.
+  storage:
+    image: chrislusf/seaweedfs:4.54
+    command: server -dir=/data -s3 -s3.port=8333 -s3.config=/etc/seaweedfs/s3.json
+    volumes:
+      - storage:/data
+      - ./deploy/compose/s3.json:/etc/seaweedfs/s3.json:ro
+    healthcheck:
+      test: ['CMD-SHELL', 'wget -q -O /dev/null http://127.0.0.1:8333/healthz']
+      interval: 3s
+      retries: 40
+
+  storage-init:
+    image: chrislusf/seaweedfs:4.54
+    entrypoint:
+      ['sh', '-c', "echo 's3.bucket.create -name edw-db-backups' | weed shell -master=storage:9333"]
+    depends_on:
+      storage: { condition: service_healthy }
+    restart: 'no'
+
+  # Puts the database back from the backup when its volume is new or lost; does nothing otherwise.
+  db-restore:
+    image: litestream/litestream:0.3.13
+    entrypoint: ['sh', '-c', '/etc/litestream/start.sh restore && chown -R 666:666 /var/lib/sqld']
+    environment: *backup-env
+    volumes:
+      - db:/var/lib/sqld
+      - ./deploy/k8s/litestream.yml:/etc/litestream/litestream.yml:ro
+      - ./deploy/k8s/litestream-start.sh:/etc/litestream/start.sh:ro
+    depends_on:
+      storage-init: { condition: service_completed_successfully }
+    restart: 'no'
+
+  sqld:
+    image: ghcr.io/tursodatabase/libsql-server:v0.24.33
+    environment:
+      SQLD_NODE: primary
+      SQLD_DB_PATH: /var/lib/sqld/iku.db
+      SQLD_HTTP_LISTEN_ADDR: 0.0.0.0:8080
+    volumes:
+      - db:/var/lib/sqld
+    healthcheck:
+      test: ['CMD', 'bash', '-c', 'exec 3<>/dev/tcp/127.0.0.1/8080']
+      interval: 2s
+      retries: 30
+    depends_on:
+      db-restore: { condition: service_completed_successfully }
+
+  # Copies every change to the backup bucket, as the sidecar in deploy/k8s/sqld.yaml does.
+  litestream:
+    image: litestream/litestream:0.3.13
+    user: '666:666'
+    entrypoint: ['/etc/litestream/start.sh', 'replicate']
+    environment: *backup-env
+    volumes:
+      - db:/var/lib/sqld
+      - ./deploy/k8s/litestream.yml:/etc/litestream/litestream.yml:ro
+      - ./deploy/k8s/litestream-start.sh:/etc/litestream/start.sh:ro
+    depends_on:
+      sqld: { condition: service_healthy }
+
+  migrate:
+    image: edw-app:local
+    build: { context: ., target: app }
+    command: ['node', 'packages/server/dist/migrate.js']
+    environment: *app-env
+    depends_on:
+      sqld: { condition: service_healthy }
+    restart: 'no'
+
+  runner:
+    image: edw-runner:local
+    build: { context: ., target: runner }
+    environment:
+      PORT: '8787'
+
+  app:
+    image: edw-app:local
+    build: { context: ., target: app }
+    environment:
+      <<: *app-env
+      DEPLOY_ENV: ${DEPLOY_ENV:-local}
+    ports:
+      - '3000:3000'
+    depends_on:
+      migrate: { condition: service_completed_successfully }
+      runner: { condition: service_healthy }
+
+volumes:
+  db:
+  storage:

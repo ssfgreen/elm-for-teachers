@@ -1,0 +1,15 @@
+# Never in the image: secrets, local data, installs and builds (rebuilt inside), analysis.
+.env
+.env.*
+!.env.example
+data
+**/node_modules
+**/dist
+.pnpm-store
+analysis
+fixtures
+.git
+**/.DS_Store
+**/*.db
+**/*.db-shm
+**/*.db-wal

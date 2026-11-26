@@ -1,0 +1,57 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "installCommand": "pnpm install --frozen-lockfile",
+  "buildCommand": "pnpm build",
+  "outputDirectory": "packages/client/dist",
+  "regions": [
+    "dub1"
+  ],
+  "git": {
+    "deploymentEnabled": {
+      "main": true,
+      "development": true,
+      "*": false
+    }
+  },
+  "functions": {
+    "api/index.mjs": {
+      "maxDuration": 300,
+      "includeFiles": "{config/**,packages/server/dist/db/migrations/**,pnpm-workspace.yaml}"
+    },
+    "api/library.mjs": {
+      "maxDuration": 30,
+      "includeFiles": "{library/collections/**,library/plugins/**}"
+    }
+  },
+  "crons": [
+    { "path": "/api/jobs/run", "schedule": "17 3 * * *" }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "X-Robots-Tag", "value": "noindex, nofollow" },
+        { "key": "Referrer-Policy", "value": "no-referrer" }
+      ]
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/library",
+      "destination": "/api/library?__path="
+    },
+    {
+      "source": "/library/:path*",
+      "destination": "/api/library?__path=:path*"
+    },
+    {
+      "source": "/api/:path*",
+      "destination": "/api?__path=:path*"
+    },
+    {
+      "source": "/((?!api/|assets/|library/).*)",
+      "destination": "/index.html"
+    }
+  ]
+}

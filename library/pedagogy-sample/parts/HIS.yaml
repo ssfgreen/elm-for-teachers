@@ -1,0 +1,1637 @@
+# HIS part: S1 history (CfE Third Level, Social Studies: People, past events and societies)
+# Curated by research agent HIS. Status: draft. Retrieved 2026-11-12.
+
+sources:
+  - id: src-HIS-ofsted-history-review-2021
+    title: "Research review series: history"
+    publisher: Ofsted
+    authors: [Ofsted]
+    year: 2021
+    url: https://www.gov.uk/government/publications/research-review-series-history/research-review-series-history
+    source_type: review
+    jurisdiction: [england]
+    evidence_weight: moderate
+    licence: "OGL v3 (except third-party material)"
+    reuse_rule: short_quote_only
+    version: "Published 14 July 2021; page metadata shows a later update"
+    retrieved_at: 2026-11-12
+    notes: "English inspectorate review; used as an evidence synthesis, not as a Scottish requirement."
+
+  - id: src-HIS-edscot-socstudies-eo
+    title: "Curriculum for Excellence: Social studies experiences and outcomes"
+    publisher: Education Scotland
+    authors: [Education Scotland]
+    year: 2009
+    url: https://education.gov.scot/media/rh3fq1gi/social-studies-eo.pdf
+    source_type: curriculum_document
+    jurisdiction: [scotland]
+    evidence_weight: high
+    licence: "TODO_check (Crown copyright, probably OGL v3)"
+    reuse_rule: short_quote_only
+    version: "UNCONFIRMED: year is the original CfE publication year, not shown in fetched text"
+    retrieved_at: 2026-11-12
+
+  - id: src-HIS-edscot-socstudies-benchmarks-2017
+    title: "Benchmarks: Social Studies"
+    publisher: Education Scotland
+    authors: [Education Scotland]
+    year: 2017
+    url: https://dera.ioe.ac.uk/28595/1/Social%20StudiesBenchmarksPDF.pdf
+    source_type: curriculum_document
+    jurisdiction: [scotland]
+    evidence_weight: high
+    licence: "TODO_check (Crown copyright)"
+    reuse_rule: short_quote_only
+    version: "March 2017 (archived copy on DERA)"
+    retrieved_at: 2026-11-12
+
+  - id: src-HIS-riley-2000-enquiry
+    title: "Into the Key Stage 3 history garden: choosing and planting your enquiry questions"
+    publisher: Historical Association (Teaching History 99)
+    authors: [Michael Riley]
+    year: 2000
+    url: https://www.history.org.uk/secondary/resource/1550/into-the-key-stage-3-history-garden-choosing-and
+    source_type: practitioner_resource
+    jurisdiction: [england]
+    evidence_weight: practitioner_wisdom
+    licence: "all rights reserved (HA members)"
+    reuse_rule: locator_only
+    version: "Teaching History 99, May 2000 (issue contents confirmed at https://history.org.uk/publications/resource/882/teaching-history-99-curriculum-planning); only the abstract was read"
+    retrieved_at: 2026-11-12
+
+  - id: src-HIS-ha-wisdom-enquiry-2020
+    title: "What's the wisdom on... enquiry questions"
+    publisher: Historical Association (Teaching History)
+    authors: [Historical Association]
+    year: 2020
+    url: https://history.org.uk/secondary/resource/9778/whats-the-wisdom-on-enquiry-questions
+    source_type: practitioner_resource
+    jurisdiction: [england]
+    evidence_weight: practitioner_wisdom
+    licence: "all rights reserved"
+    reuse_rule: short_quote_only
+    version: "Published 27 March 2020; preview only read"
+    retrieved_at: 2026-11-12
+
+  - id: src-HIS-seixas-2017-model
+    title: "A Model of Historical Thinking"
+    publisher: "Educational Philosophy and Theory 49(6), 593-605 (Routledge)"
+    authors: [Peter Seixas]
+    year: 2017
+    url: https://doi.org/10.1080/00131857.2015.1101363
+    source_type: review
+    jurisdiction: [international]
+    evidence_weight: moderate
+    licence: "all rights reserved"
+    reuse_rule: locator_only
+    version: "Abstract and bibliographic record read via library catalogue record, not full text"
+    retrieved_at: 2026-11-12
+
+  - id: src-HIS-canenc-historical-thinking-2020
+    title: "Historical Thinking Concepts"
+    publisher: The Canadian Encyclopedia (Historica Canada)
+    authors: [Samantha Clarke]
+    year: 2020
+    url: https://www.thecanadianencyclopedia.ca/en/article/historical-thinking-concepts
+    source_type: practitioner_resource
+    jurisdiction: [international]
+    evidence_weight: low
+    licence: "all rights reserved"
+    reuse_rule: short_quote_only
+    version: "Published 23 July 2020"
+    retrieved_at: 2026-11-12
+
+  - id: src-HIS-dig-historical-thinking-chart
+    title: "Historical Thinking Chart"
+    publisher: Digital Inquiry Group (formerly Stanford History Education Group)
+    authors: [Digital Inquiry Group]
+    year: null
+    url: https://www.inquirygroup.org/history-lessons/historical-thinking-chart
+    source_type: practitioner_resource
+    jurisdiction: [us]
+    evidence_weight: practitioner_wisdom
+    licence: "copyright Digital Inquiry Group; free with registration"
+    reuse_rule: locator_only
+    version: "Landing page read; chart itself requires login"
+    retrieved_at: 2026-11-12
+
+  - id: src-HIS-purdin-ncss-ch4
+    title: "How Do We Teach Elementary Students to Think Like Historians? (Chapter 4 in Using Inquiry to Prepare Students for College, Career, and Civic Life: Elementary Grades)"
+    publisher: National Council for the Social Studies
+    authors: [Tammara Purdin]
+    year: null
+    url: https://www.socialstudies.org/sites/default/files/publications/inquiry-ebook/Chapter4.pdf
+    source_type: book
+    jurisdiction: [us]
+    evidence_weight: practitioner_wisdom
+    licence: "all rights reserved"
+    reuse_rule: short_quote_only
+    version: "Chapter 4, pp. 97-136; publication year not shown in fetched text"
+    retrieved_at: 2026-11-12
+
+  - id: src-HIS-gibson-mclelland-1998-cause-boxes
+    title: "Minimalist cause boxes for maximal learning: one approach to the Civil War in Year 8"
+    publisher: Historical Association (Teaching History)
+    authors: [Ian Gibson, Susan McLelland]
+    year: 1998
+    url: https://www.history.org.uk/publications/resource/1642/minimalist-cause-boxes-for-maximal-learning-one-a
+    source_type: practitioner_resource
+    jurisdiction: [england]
+    evidence_weight: practitioner_wisdom
+    licence: "all rights reserved"
+    reuse_rule: locator_only
+    version: "Abstract page only; issue number not shown"
+    retrieved_at: 2026-11-12
+
+  - id: src-HIS-mccrory-2015-knowledge-illusion
+    title: "The Knowledge Illusion: who is doing what thinking?"
+    publisher: Historical Association (Teaching History 161)
+    authors: [Catherine McCrory]
+    year: 2015
+    url: https://discovery-pp.ucl.ac.uk/1542255/1/McCrory%20%282015%29%20Knowledge%20Illusion.pdf
+    source_type: practitioner_resource
+    jurisdiction: [england]
+    evidence_weight: practitioner_wisdom
+    licence: "TODO_check (author repository copy)"
+    reuse_rule: short_quote_only
+    version: "Teaching History 161, December 2015, pp. 37-47 (UCL repository copy)"
+    retrieved_at: 2026-11-12
+
+  - id: src-HIS-ha-extended-writing-module
+    title: "Extended Writing in History (Part 1)"
+    publisher: Historical Association
+    authors: [Historical Association]
+    year: null
+    url: https://www.history.org.uk/primary/module/4124/extended-writing-in-history/4125/extended-writing-in-history-part-1
+    source_type: practitioner_resource
+    jurisdiction: [england]
+    evidence_weight: practitioner_wisdom
+    licence: "all rights reserved"
+    reuse_rule: locator_only
+    version: "Online CPD module reporting sessions led by Christine Counsell; undated"
+    retrieved_at: 2026-11-12
+
+  - id: src-HIS-counsell-1997-analytic-writing
+    title: "Analytic and Discursive Writing at Key Stage 3"
+    publisher: Historical Association
+    authors: [Christine Counsell]
+    year: 1997
+    url: https://www.history.org.uk/secondary/resource/1948
+    source_type: practitioner_resource
+    jurisdiction: [england]
+    evidence_weight: practitioner_wisdom
+    licence: "all rights reserved"
+    reuse_rule: locator_only
+    version: "HA pamphlet; abstract page only read"
+    retrieved_at: 2026-11-12
+
+  - id: src-HIS-ha-transition-report
+    title: "Final Report: Historical Association's Key Stage 2-3 History Transition Project"
+    publisher: Historical Association
+    authors: [Historical Association]
+    year: null
+    url: https://www.history.org.uk/files/download/7001/1290007804/HA_Transitions_Project_Final_Report.pdf
+    source_type: practitioner_resource
+    jurisdiction: [england]
+    evidence_weight: practitioner_wisdom
+    licence: "all rights reserved"
+    reuse_rule: short_quote_only
+    version: "UNCONFIRMED: year and authors not stated in fetched text (file upload id suggests c.2010)"
+    retrieved_at: 2026-11-12
+
+  - id: src-HIS-cooper-2014-chronology
+    title: "Chronology (Primary History 67)"
+    publisher: Historical Association (Primary History 67, Summer 2014)
+    authors: [Hilary Cooper]
+    year: 2014
+    url: https://history.org.uk/files/download/14500/1405600316/PH_67.pdf
+    source_type: practitioner_resource
+    jurisdiction: [england]
+    evidence_weight: practitioner_wisdom
+    licence: "all rights reserved"
+    reuse_rule: locator_only
+    version: "Primary History 67, pp. 8-15"
+    retrieved_at: 2026-11-12
+
+  - id: src-HIS-ucl-obl-schools
+    title: "Teaching & Object-Based Learning (UCL Culture, schools)"
+    publisher: University College London (UCL Culture)
+    authors: [UCL Culture]
+    year: null
+    url: https://www.ucl.ac.uk/culture/schools/teaching-object-based-learning
+    source_type: practitioner_resource
+    jurisdiction: [england]
+    evidence_weight: practitioner_wisdom
+    licence: "all rights reserved"
+    reuse_rule: short_quote_only
+    version: "Web page; cites Chatterjee and Hannan (2015) and a 2010-2012 UCL study"
+    retrieved_at: 2026-11-12
+
+  - id: src-HIS-hes-go-auld-reekie
+    title: "Go Auld Reekie loan box"
+    publisher: Historic Environment Scotland
+    authors: [Historic Environment Scotland]
+    year: null
+    url: https://www.historicenvironment.scot/learn/learning-resources-and-visits/go-auld-reekie-loan-box/
+    source_type: practitioner_resource
+    jurisdiction: [scotland]
+    evidence_weight: practitioner_wisdom
+    licence: "all rights reserved"
+    reuse_rule: short_quote_only
+    version: "Web page, undated"
+    retrieved_at: 2026-11-12
+
+  - id: src-HIS-nms-secondary-resources
+    title: "For teachers: secondary resources"
+    publisher: National Museums Scotland
+    authors: [National Museums Scotland]
+    year: null
+    url: https://nms.ac.uk/explore-our-collections/resources/for-teachers-secondary-resources
+    source_type: practitioner_resource
+    jurisdiction: [scotland]
+    evidence_weight: practitioner_wisdom
+    licence: "all rights reserved"
+    reuse_rule: locator_only
+    version: "Web page, undated"
+    retrieved_at: 2026-11-12
+
+  - id: src-HIS-nrs-services-for-schools
+    title: "Services for schools"
+    publisher: National Records of Scotland
+    authors: [National Records of Scotland]
+    year: 2026
+    url: https://nrscotland.gov.uk/learning-and-events/services-for-schools
+    source_type: practitioner_resource
+    jurisdiction: [scotland]
+    evidence_weight: practitioner_wisdom
+    licence: "TODO_check (Crown copyright)"
+    reuse_rule: short_quote_only
+    version: "Last updated 8 April 2026"
+    retrieved_at: 2026-11-12
+
+  - id: src-HIS-safs-home
+    title: "Scottish Archives for Schools"
+    publisher: National Records of Scotland
+    authors: [National Records of Scotland]
+    year: null
+    url: https://scottisharchivesforschools.org/
+    source_type: practitioner_resource
+    jurisdiction: [scotland]
+    evidence_weight: practitioner_wisdom
+    licence: "TODO_check (Crown copyright)"
+    reuse_rule: locator_only
+    version: "Legacy site; states it is no longer updated"
+    retrieved_at: 2026-11-12
+
+  - id: src-HIS-karn-2023-empathy
+    title: "Historical Empathy: A Cognitive-Affective Theory for History Education in Canada"
+    publisher: "Canadian Journal of Education 46(1), 80-110"
+    authors: ["S. Karn"]
+    year: 2023
+    url: https://cje-rce.ca/index.php/cje-rce/article/view/5483
+    source_type: review
+    jurisdiction: [international]
+    evidence_weight: moderate
+    licence: "TODO_check (open access journal)"
+    reuse_rule: locator_only
+    version: "Abstract and references read; author given name not confirmed (initial S. only)"
+    retrieved_at: 2026-11-12
+
+  - id: src-HIS-ihra-recommendations
+    title: "IHRA Recommendations for Teaching and Learning about the Holocaust"
+    publisher: International Holocaust Remembrance Alliance
+    authors: [International Holocaust Remembrance Alliance]
+    year: 2019
+    url: https://thgaac.texas.gov/assets/uploads/docs/IHRA-Recommendations-Teaching-and-Learning-about-Holocaust.pdf
+    source_type: guidance
+    jurisdiction: [international]
+    evidence_weight: high
+    licence: "TODO_check"
+    reuse_rule: short_quote_only
+    version: "UNCONFIRMED: year 2019 from curator knowledge, not shown in fetched text. Copy hosted by Texas Holocaust, Genocide, and Antisemitism Advisory Commission; IHRA landing page https://www.holocaustremembrance.com/resources/educational-materials/ihra-recommendations-teaching-and-learning-about-holocaust"
+    retrieved_at: 2026-11-12
+
+  - id: src-HIS-ushmm-guidelines
+    title: "Guidelines for Teaching About the Holocaust"
+    publisher: United States Holocaust Memorial Museum
+    authors: [United States Holocaust Memorial Museum]
+    year: null
+    url: https://www.ushmm.org/teach/fundamentals/guidelines-for-teaching-the-holocaust
+    source_type: guidance
+    jurisdiction: [us]
+    evidence_weight: high
+    licence: "TODO_check"
+    reuse_rule: short_quote_only
+    version: "Web page, undated"
+    retrieved_at: 2026-11-12
+
+passages:
+  # ---------------- Ofsted ----------------
+  - id: psg-HIS-ofsted-subst-disc-interplay
+    source_id: src-HIS-ofsted-history-review-2021
+    locator: "Securing progression in disciplinary knowledge > Complexities in developing pupils' disciplinary knowledge > The interplay between substantive and disciplinary knowledge"
+    text: "each is meaningless without the other"
+    excerpt_type: quote
+    fetched_url: https://www.gov.uk/government/publications/research-review-series-history/research-review-series-history
+    verified_by_fetch: true
+
+  - id: psg-HIS-ofsted-second-order-list
+    source_id: src-HIS-ofsted-history-review-2021
+    locator: "Securing progression in disciplinary knowledge > Developing disciplinary thinking through disciplinary concepts"
+    text: "Lists the disciplinary (second-order) concepts as cause, consequence, change and continuity, similarity and difference, historical significance, sources and evidence, and historical interpretations."
+    excerpt_type: paraphrase
+    fetched_url: https://www.gov.uk/government/publications/research-review-series-history/research-review-series-history
+    verified_by_fetch: true
+
+  - id: psg-HIS-ofsted-one-argument
+    source_id: src-HIS-ofsted-history-review-2021
+    locator: "Developing disciplinary thinking through disciplinary concepts > Consequence"
+    text: "Advises keeping an enquiry focused on one type of historical argument at a time (for example causation or consequence) rather than mixing them."
+    excerpt_type: paraphrase
+    fetched_url: https://www.gov.uk/government/publications/research-review-series-history/research-review-series-history
+    verified_by_fetch: true
+
+  - id: psg-HIS-ofsted-sources-question
+    source_id: src-HIS-ofsted-history-review-2021
+    locator: "Developing disciplinary thinking through disciplinary concepts > Sources and evidence"
+    text: "Argues that bias is not automatically a weakness: a source can only be judged useful or reliable in relation to a particular historical question."
+    excerpt_type: paraphrase
+    fetched_url: https://www.gov.uk/government/publications/research-review-series-history/research-review-series-history
+    verified_by_fetch: true
+
+  - id: psg-HIS-ofsted-sources-generic
+    source_id: src-HIS-ofsted-history-review-2021
+    locator: "Developing disciplinary thinking through disciplinary concepts > Sources and evidence"
+    text: "Recommends that pupils meet varied types of source and longer extracts rather than short snippets, and that generic exam-style source questions are avoided at key stage 3 and earlier."
+    excerpt_type: paraphrase
+    fetched_url: https://www.gov.uk/government/publications/research-review-series-history/research-review-series-history
+    verified_by_fetch: true
+
+  - id: psg-HIS-ofsted-avoid-generic
+    source_id: src-HIS-ofsted-history-review-2021
+    locator: "Some principles for developing pupils' disciplinary knowledge > Avoiding generic approaches"
+    text: "Warns that generic heuristics such as the '5Ws' can create misconceptions about how historians work with the past."
+    excerpt_type: paraphrase
+    fetched_url: https://www.gov.uk/government/publications/research-review-series-history/research-review-series-history
+    verified_by_fetch: true
+
+  - id: psg-HIS-ofsted-enquiry-questions
+    source_id: src-HIS-ofsted-history-review-2021
+    locator: "Securing progression in disciplinary knowledge > Enquiry questions"
+    text: "Describes enquiry questions as a way to organise content and build pupils' knowledge across a series of lessons, with enquiry meaning the tools and methods historians use."
+    excerpt_type: paraphrase
+    fetched_url: https://www.gov.uk/government/publications/research-review-series-history/research-review-series-history
+    verified_by_fetch: true
+
+  - id: psg-HIS-ofsted-narrative-hinterland
+    source_id: src-HIS-ofsted-history-review-2021
+    locator: "The importance of context and repetition when learning new concepts > The role of background content > Hinterland information can connect and organise information into coherent narratives"
+    text: "Explains that stories, with agents, causes and conflict, help organise complex content, and that rich background ('hinterland') detail often supports learning of the core content."
+    excerpt_type: paraphrase
+    fetched_url: https://www.gov.uk/government/publications/research-review-series-history/research-review-series-history
+    verified_by_fetch: true
+
+  - id: psg-HIS-ofsted-fingertip
+    source_id: src-HIS-ofsted-history-review-2021
+    locator: "Prioritising content in the curriculum > Fingertip and residue knowledge"
+    text: "Notes that the quality of pupils' written historical arguments depends on secure, readily available ('fingertip') knowledge of the topic at the time of writing."
+    excerpt_type: paraphrase
+    fetched_url: https://www.gov.uk/government/publications/research-review-series-history/research-review-series-history
+    verified_by_fetch: true
+
+  - id: psg-HIS-ofsted-chronology
+    source_id: src-HIS-ofsted-history-review-2021
+    locator: "Chronological knowledge > Developing pupils' mental timeline"
+    text: "Describes chronological knowledge as highly generative, supporting a secure mental timeline; overview and depth study reinforce each other."
+    excerpt_type: paraphrase
+    fetched_url: https://www.gov.uk/government/publications/research-review-series-history/research-review-series-history
+    verified_by_fetch: true
+
+  - id: psg-HIS-ofsted-timelines-assess
+    source_id: src-HIS-ofsted-history-review-2021
+    locator: "Effective teaching in history > Teaching chronological knowledge; Assessment in history > Formative assessment"
+    text: "Discusses timelines as a way to organise chronological knowledge and notes they can be used formatively to check pupils' chronological knowledge."
+    excerpt_type: paraphrase
+    fetched_url: https://www.gov.uk/government/publications/research-review-series-history/research-review-series-history
+    verified_by_fetch: true
+
+  - id: psg-HIS-ofsted-reading
+    source_id: src-HIS-ofsted-history-review-2021
+    locator: "Effective teaching in history > Reading extended texts"
+    text: "Explains that background knowledge shapes reading comprehension in history, and that pupils benefit from reading appropriately challenging texts, including the work of academic historians."
+    excerpt_type: paraphrase
+    fetched_url: https://www.gov.uk/government/publications/research-review-series-history/research-review-series-history
+    verified_by_fetch: true
+
+  - id: psg-HIS-ofsted-essay-outcome
+    source_id: src-HIS-ofsted-history-review-2021
+    locator: "Assessment in history > Assessing disciplinary knowledge"
+    text: "Notes that essay-style outcome tasks help build knowledge and argument but are complex to use as assessment instruments."
+    excerpt_type: paraphrase
+    fetched_url: https://www.gov.uk/government/publications/research-review-series-history/research-review-series-history
+    verified_by_fetch: true
+
+  - id: psg-HIS-ofsted-local-history
+    source_id: src-HIS-ofsted-history-review-2021
+    locator: "Developing early historical knowledge; Diversity and representativeness"
+    text: "Suggests family and local history can connect new concepts to familiar contexts and help pupils consider similarity and difference."
+    excerpt_type: paraphrase
+    fetched_url: https://www.gov.uk/government/publications/research-review-series-history/research-review-series-history
+    verified_by_fetch: true
+
+  - id: psg-HIS-ofsted-perspective
+    source_id: src-HIS-ofsted-history-review-2021
+    locator: "UNCONFIRMED: section preceding 'Methodological approaches and schools of historical thought' (cultural history discussion; footnote citing Benger on recasting empathy as historical perspective)"
+    text: "Treats reconstructing the attitudes and values of past societies as something pupils do by following historians' methods, with a footnote pointing to work that recasts empathy as historical perspective."
+    excerpt_type: paraphrase
+    fetched_url: https://www.gov.uk/government/publications/research-review-series-history/research-review-series-history
+    verified_by_fetch: true
+
+  # ---------------- Education Scotland ----------------
+  - id: psg-HIS-eo-principles
+    source_id: src-HIS-edscot-socstudies-eo
+    locator: "p.1, principles and practice statement (what learning in social studies enables)"
+    text: "Learning in social studies should build understanding of Scotland's history, heritage and culture, help learners explore and assess different kinds of sources and evidence, and place people, periods and events in time and place."
+    excerpt_type: paraphrase
+    fetched_url: https://education.gov.scot/media/rh3fq1gi/social-studies-eo.pdf
+    verified_by_fetch: true
+
+  - id: psg-HIS-eo-soc301a
+    source_id: src-HIS-edscot-socstudies-eo
+    locator: "p.2, People, past events and societies, SOC 3-01a"
+    text: "SOC 3-01a: the learner uses knowledge of a historical period to interpret evidence and present an informed view."
+    excerpt_type: paraphrase
+    fetched_url: https://education.gov.scot/media/rh3fq1gi/social-studies-eo.pdf
+    verified_by_fetch: true
+
+  - id: psg-HIS-eo-soc302a
+    source_id: src-HIS-edscot-socstudies-eo
+    locator: "p.2, People, past events and societies, SOC 3-02a"
+    text: "SOC 3-02a: the learner links current and previous studies and shows how people and events contributed to the development of the Scottish nation."
+    excerpt_type: paraphrase
+    fetched_url: https://education.gov.scot/media/rh3fq1gi/social-studies-eo.pdf
+    verified_by_fetch: true
+
+  - id: psg-HIS-eo-soc305a-306a
+    source_id: src-HIS-edscot-socstudies-eo
+    locator: "pp.4-5, People, past events and societies, SOC 3-05a and SOC 3-06a"
+    text: "SOC 3-05a asks learners to describe factors behind a major social, political or economic change and assess its impact; SOC 3-06a asks them to discuss motives in a significant turning point and assess its consequences then and since."
+    excerpt_type: paraphrase
+    fetched_url: https://education.gov.scot/media/rh3fq1gi/social-studies-eo.pdf
+    verified_by_fetch: true
+
+  - id: psg-HIS-eo-soc304a
+    source_id: src-HIS-edscot-socstudies-eo
+    locator: "p.3, People, past events and societies, SOC 3-04a"
+    text: "SOC 3-04a: the learner explains similarities and differences in the lifestyles, values and attitudes of people in the past by comparing Scotland with another society."
+    excerpt_type: paraphrase
+    fetched_url: https://education.gov.scot/media/rh3fq1gi/social-studies-eo.pdf
+    verified_by_fetch: true
+
+  - id: psg-HIS-bench-301a
+    source_id: src-HIS-edscot-socstudies-benchmarks-2017
+    locator: "p.14, Third Level, People, past events and societies, SOC 3-01a"
+    text: "Benchmark for SOC 3-01a: the learner compares a range of primary and secondary sources and draws at least three valid conclusions about a historical period."
+    excerpt_type: paraphrase
+    fetched_url: https://dera.ioe.ac.uk/28595/1/Social%20StudiesBenchmarksPDF.pdf
+    verified_by_fetch: true
+
+  - id: psg-HIS-bench-305a-306a
+    source_id: src-HIS-edscot-socstudies-benchmarks-2017
+    locator: "p.14, Third Level, SOC 3-05a and SOC 3-06a"
+    text: "Benchmarks: identify at least three factors behind a change and give at least two valid opinions on its effect; give at least two valid opinions on motives in a turning point and a valid opinion on its impact."
+    excerpt_type: paraphrase
+    fetched_url: https://dera.ioe.ac.uk/28595/1/Social%20StudiesBenchmarksPDF.pdf
+    verified_by_fetch: true
+
+  - id: psg-HIS-bench-purpose
+    source_id: src-HIS-edscot-socstudies-benchmarks-2017
+    locator: "p.2, introduction"
+    text: "States that benchmarks support professional judgement and moderation and are not intended to be ticked off individually as assessment checklists."
+    excerpt_type: paraphrase
+    fetched_url: https://dera.ioe.ac.uk/28595/1/Social%20StudiesBenchmarksPDF.pdf
+    verified_by_fetch: true
+
+  # ---------------- Enquiry ----------------
+  - id: psg-HIS-riley-abstract
+    source_id: src-HIS-riley-2000-enquiry
+    locator: "HA abstract page"
+    text: "Abstract: carefully worded enquiry questions let teachers weave content into a purposeful sequence of lessons without distorting it, and questions should be positioned across the key stage to allow revisiting, knowledge growth and rigorous historical thinking."
+    excerpt_type: paraphrase
+    fetched_url: https://www.history.org.uk/secondary/resource/1550/into-the-key-stage-3-history-garden-choosing-and
+    verified_by_fetch: true
+
+  - id: psg-HIS-ha-wisdom-not-discovery
+    source_id: src-HIS-ha-wisdom-enquiry-2020
+    locator: "Preview, opening paragraphs"
+    text: "in direct opposition to the principles of 'discovery learning'"
+    excerpt_type: quote
+    fetched_url: https://history.org.uk/secondary/resource/9778/whats-the-wisdom-on-enquiry-questions
+    verified_by_fetch: true
+
+  - id: psg-HIS-ha-wisdom-knowledge-rich
+    source_id: src-HIS-ha-wisdom-enquiry-2020
+    locator: "Preview, opening paragraphs"
+    text: "The HA states that a well-crafted enquiry supports a knowledge-rich approach and belongs to a tradition of structured enquiry, distinct from independent discovery learning."
+    excerpt_type: paraphrase
+    fetched_url: https://history.org.uk/secondary/resource/9778/whats-the-wisdom-on-enquiry-questions
+    verified_by_fetch: true
+
+  # ---------------- Seixas / concepts ----------------
+  - id: psg-HIS-seixas-abstract
+    source_id: src-HIS-seixas-2017-model
+    locator: "Abstract (Educational Philosophy and Theory 49(6), p.593)"
+    text: "Abstract: argues educators need a model of historical thinking to plan progression; Canadian practice uses a hybrid of six historical thinking concepts drawing on British (Schools Council History Project), German and US traditions."
+    excerpt_type: paraphrase
+    fetched_url: https://vufind-test.katalog.k.utb.cz/SummonRecord/FETCH-LOGICAL-c388t-956bf5f6ea29bde9e42ae0014e7719085dc621a28035c6d9f00c54d0a05618ec3
+    verified_by_fetch: true
+
+  - id: psg-HIS-canenc-six
+    source_id: src-HIS-canenc-historical-thinking-2020
+    locator: "Introduction and section headings 1-6"
+    text: "The Historical Thinking Project led by Peter Seixas identified six concepts: historical significance, primary source evidence, continuity and change, cause and consequence, historical perspectives and the ethical dimension."
+    excerpt_type: paraphrase
+    fetched_url: https://www.thecanadianencyclopedia.ca/en/article/historical-thinking-concepts
+    verified_by_fetch: true
+
+  # ---------------- Source analysis ----------------
+  - id: psg-HIS-dig-chart
+    source_id: src-HIS-dig-historical-thinking-chart
+    locator: "Landing page description"
+    text: "The chart sets out four historical reading skills (sourcing, contextualisation, corroboration, close reading) with guiding questions, examples of what students might do, and sentence frames."
+    excerpt_type: paraphrase
+    fetched_url: https://www.inquirygroup.org/history-lessons/historical-thinking-chart
+    verified_by_fetch: true
+
+  - id: psg-HIS-purdin-heuristics
+    source_id: src-HIS-purdin-ncss-ch4
+    locator: "pp.100-101 (overview); sourcing pp.108-109; contextualisation pp.114-115; corroboration pp.121-122; close reading pp.128-129"
+    text: "Sourcing asks who made a document, when, why and from what perspective; contextualisation considers how time and place shaped it; corroboration checks it against other documents; close reading examines claims, evidence and word choice."
+    excerpt_type: paraphrase
+    fetched_url: https://www.socialstudies.org/sites/default/files/publications/inquiry-ebook/Chapter4.pdf
+    verified_by_fetch: true
+
+  - id: psg-HIS-purdin-taught
+    source_id: src-HIS-purdin-ncss-ch4
+    locator: "pp.101-102, 104"
+    text: "Drawing on Wineburg's research, the chapter argues that historians read with a specific purpose and that students must be taught these reading moves explicitly rather than acquiring them unaided."
+    excerpt_type: paraphrase
+    fetched_url: https://www.socialstudies.org/sites/default/files/publications/inquiry-ebook/Chapter4.pdf
+    verified_by_fetch: true
+
+  # ---------------- Causation card sort ----------------
+  - id: psg-HIS-gibson-cause-boxes
+    source_id: src-HIS-gibson-mclelland-1998-cause-boxes
+    locator: "HA abstract page"
+    text: "Describes a causation card sort into 'cause boxes' where cards carry only names or substantive concepts rather than full sentences, so pupils must do the explaining; pairings are chosen to promote focused talk within a planned sequence."
+    excerpt_type: paraphrase
+    fetched_url: https://www.history.org.uk/publications/resource/1642/minimalist-cause-boxes-for-maximal-learning-one-a
+    verified_by_fetch: true
+
+  - id: psg-HIS-mccrory-starting-points
+    source_id: src-HIS-mccrory-2015-knowledge-illusion
+    locator: "p.38"
+    text: "misjudged the students' starting points"
+    excerpt_type: quote
+    fetched_url: https://discovery-pp.ucl.ac.uk/1542255/1/McCrory%20%282015%29%20Knowledge%20Illusion.pdf
+    verified_by_fetch: true
+
+  - id: psg-HIS-mccrory-sorting-not-weighing
+    source_id: src-HIS-mccrory-2015-knowledge-illusion
+    locator: "pp.38-41"
+    text: "A Venn card sort let students sort details into categories and recite facts, but did not make them weigh how factors combined or which mattered most."
+    excerpt_type: paraphrase
+    fetched_url: https://discovery-pp.ucl.ac.uk/1542255/1/McCrory%20%282015%29%20Knowledge%20Illusion.pdf
+    verified_by_fetch: true
+
+  - id: psg-HIS-mccrory-fixes
+    source_id: src-HIS-mccrory-2015-knowledge-illusion
+    locator: "pp.42-46"
+    text: "Revisions included drawing factor circles of different sizes to show relative importance, 'why that size?' justification boxes, and prompts directing attention to cards linking factors, reflecting a web-like rather than linear view of causation."
+    excerpt_type: paraphrase
+    fetched_url: https://discovery-pp.ucl.ac.uk/1542255/1/McCrory%20%282015%29%20Knowledge%20Illusion.pdf
+    verified_by_fetch: true
+
+  - id: psg-HIS-mccrory-who-thinks
+    source_id: src-HIS-mccrory-2015-knowledge-illusion
+    locator: "pp.46-47"
+    text: "Concludes that teachers should ask who is doing the thinking, balancing insights they give pupils with designed chances for pupils to reach insights themselves."
+    excerpt_type: paraphrase
+    fetched_url: https://discovery-pp.ucl.ac.uk/1542255/1/McCrory%20%282015%29%20Knowledge%20Illusion.pdf
+    verified_by_fetch: true
+
+  # ---------------- Extended writing ----------------
+  - id: psg-HIS-ha-ew-knowledge-first
+    source_id: src-HIS-ha-extended-writing-module
+    locator: "Part 1, section on preparing to write"
+    text: "Pupils need contextual knowledge of the events before attempting an essay, and need help to stay focused on the actual question rather than an easier proxy question."
+    excerpt_type: paraphrase
+    fetched_url: https://www.history.org.uk/primary/module/4124/extended-writing-in-history/4125/extended-writing-in-history-part-1
+    verified_by_fetch: true
+
+  - id: psg-HIS-ha-ew-zone-relevance
+    source_id: src-HIS-ha-extended-writing-module
+    locator: "Part 1, card sort activities ('Zone of Relevance', short/medium/long-term causes, 'Test the Line')"
+    text: "Describes card sorts that place cause cards nearer or further from the question card, arrange them by timescale, and ask groups to defend their ranked line orally before writing."
+    excerpt_type: paraphrase
+    fetched_url: https://www.history.org.uk/primary/module/4124/extended-writing-in-history/4125/extended-writing-in-history-part-1
+    verified_by_fetch: true
+
+  - id: psg-HIS-ha-ew-big-points
+    source_id: src-HIS-ha-extended-writing-module
+    locator: "Part 1, 'Big Points and Little Points'"
+    text: "Analytical essays need a thematic rather than chronological structure; each paragraph opens with a 'big point' that answers the question, supported by 'little points'."
+    excerpt_type: paraphrase
+    fetched_url: https://www.history.org.uk/primary/module/4124/extended-writing-in-history/4125/extended-writing-in-history-part-1
+    verified_by_fetch: true
+
+  - id: psg-HIS-counsell-abstract
+    source_id: src-HIS-counsell-1997-analytic-writing
+    locator: "HA abstract page"
+    text: "Argues that analytical and discursive writing is often wrongly treated as beyond pupils, and that teachers should analyse pupils' difficulties so as to help them overcome rather than avoid them."
+    excerpt_type: paraphrase
+    fetched_url: https://www.history.org.uk/secondary/resource/1948
+    verified_by_fetch: true
+
+  # ---------------- Transition ----------------
+  - id: psg-HIS-ha-trans-quote
+    source_id: src-HIS-ha-transition-report
+    locator: "p.8, Finding 6"
+    text: "if Year 6 pupils can do this, what am I doing with my Year 8s?"
+    excerpt_type: quote
+    fetched_url: https://www.history.org.uk/files/download/7001/1290007804/HA_Transitions_Project_Final_Report.pdf
+    verified_by_fetch: true
+
+  - id: psg-HIS-ha-trans-joint-planning
+    source_id: src-HIS-ha-transition-report
+    locator: "pp.1-3 (Findings 1 and 2) and p.9 (Finding 8)"
+    text: "Clusters of primary and secondary teachers jointly devised enquiry questions and stepped sequences that built on content already taught in the final primary year; shared planning and team teaching benefited both phases."
+    excerpt_type: paraphrase
+    fetched_url: https://www.history.org.uk/files/download/7001/1290007804/HA_Transitions_Project_Final_Report.pdf
+    verified_by_fetch: true
+
+  - id: psg-HIS-ha-trans-scaffolds
+    source_id: src-HIS-ha-transition-report
+    locator: "p.8, Finding 6"
+    text: "Raising challenge alone mainly helped the highest attainers; scaffolds such as writing frames, card sorts and living graphs helped more pupils access demanding ideas."
+    excerpt_type: paraphrase
+    fetched_url: https://www.history.org.uk/files/download/7001/1290007804/HA_Transitions_Project_Final_Report.pdf
+    verified_by_fetch: true
+
+  # ---------------- Chronology ----------------
+  - id: psg-HIS-cooper-human-timeline
+    source_id: src-HIS-cooper-2014-chronology
+    locator: "Primary History 67, p.15"
+    text: "Describes a human timeline in which children wear numbered paper tabards representing centuries and physically order themselves to build a sense of time scale."
+    excerpt_type: paraphrase
+    fetched_url: https://history.org.uk/files/download/14500/1405600316/PH_67.pdf
+    verified_by_fetch: true
+
+  # ---------------- Objects ----------------
+  - id: psg-HIS-ucl-obl-schools
+    source_id: src-HIS-ucl-obl-schools
+    locator: "Section on school learners"
+    text: "For school learners, object-based learning is described as making topics tangible, engaging the senses, helping learners weigh evidence and its reliability, and supporting group discussion."
+    excerpt_type: paraphrase
+    fetched_url: https://www.ucl.ac.uk/culture/schools/teaching-object-based-learning
+    verified_by_fetch: true
+
+  - id: psg-HIS-ucl-obl-study
+    source_id: src-HIS-ucl-obl-schools
+    locator: "Research section"
+    text: "Reports a 2010-2012 UCL study (surveys, interviews, focus groups, observation) in which most higher education students rated object-based learning more effective than lectures; school-age evidence is not reported."
+    excerpt_type: paraphrase
+    fetched_url: https://www.ucl.ac.uk/culture/schools/teaching-object-based-learning
+    verified_by_fetch: true
+
+  - id: psg-HIS-hes-see-feel
+    source_id: src-HIS-hes-go-auld-reekie
+    locator: "Object handling resource description"
+    text: "see, feel, think and wonder"
+    excerpt_type: quote
+    fetched_url: https://www.historicenvironment.scot/learn/learning-resources-and-visits/go-auld-reekie-loan-box/
+    verified_by_fetch: true
+
+  - id: psg-HIS-hes-box-contents
+    source_id: src-HIS-hes-go-auld-reekie
+    locator: "Loan box description and CfE links"
+    text: "A free three-week loan box on 18th-century Edinburgh (12 objects, 3 original and 9 replica) with a teaching pack and pupil object cards; it raises Scotland's links with empire and slavery and is pitched at Second Level, adaptable to other levels."
+    excerpt_type: paraphrase
+    fetched_url: https://www.historicenvironment.scot/learn/learning-resources-and-visits/go-auld-reekie-loan-box/
+    verified_by_fetch: true
+
+  - id: psg-HIS-nms-ww-resources
+    source_id: src-HIS-nms-secondary-resources
+    locator: "Resource list: 'First World War: Scottish stories'; 'Second World War: Scotland's stories'"
+    text: "Lists secondary resources for BGE and senior history in which pupils investigate primary and secondary sources from the national collections, including oral testimony, letters, images and artwork."
+    excerpt_type: paraphrase
+    fetched_url: https://nms.ac.uk/explore-our-collections/resources/for-teachers-secondary-resources
+    verified_by_fetch: true
+
+  # ---------------- Archives ----------------
+  - id: psg-HIS-nrs-services
+    source_id: src-HIS-nrs-services-for-schools
+    locator: "Services for schools page (updated 8 April 2026)"
+    text: "NRS offers schools workshops at General Register House, Scottish Archives for Schools online resources, SCAN education modules (including Using Sources), and Declaration of Arbroath resources including an investigation task for P7/S1 pupils."
+    excerpt_type: paraphrase
+    fetched_url: https://nrscotland.gov.uk/learning-and-events/services-for-schools
+    verified_by_fetch: true
+
+  - id: psg-HIS-nrs-cfe
+    source_id: src-HIS-nrs-services-for-schools
+    locator: "Services for schools page"
+    text: "designed to support Curriculum for Excellence and National Qualifications"
+    excerpt_type: quote
+    fetched_url: https://nrscotland.gov.uk/learning-and-events/services-for-schools
+    verified_by_fetch: true
+
+  - id: psg-HIS-safs-scope
+    source_id: src-HIS-safs-home
+    locator: "Home page"
+    text: "Scottish Archives for Schools provides primary source documents from the 12th to 21st centuries, made by people ranging from monarchs to children, to introduce pupils to research and analytical skills; the site notes it is no longer updated."
+    excerpt_type: paraphrase
+    fetched_url: https://scottisharchivesforschools.org/
+    verified_by_fetch: true
+
+  # ---------------- Empathy / perspective ----------------
+  - id: psg-HIS-karn-elements
+    source_id: src-HIS-karn-2023-empathy
+    locator: "Abstract"
+    text: "Proposes a cognitive-affective theory of historical empathy with five elements: evidence and contextualisation, informed historical imagination, historical perspectives, ethical judgements, and caring."
+    excerpt_type: paraphrase
+    fetched_url: https://cje-rce.ca/index.php/cje-rce/article/view/5483
+    verified_by_fetch: true
+
+  # ---------------- Holocaust ----------------
+  - id: psg-HIS-ihra-beware
+    source_id: src-HIS-ihra-recommendations
+    locator: "Section 3.2.7, p.29 (page per PDF text markers)"
+    text: "Beware of simulation, creative writing or role play exercises"
+    excerpt_type: quote
+    fetched_url: https://thgaac.texas.gov/assets/uploads/docs/IHRA-Recommendations-Teaching-and-Learning-about-Holocaust.pdf
+    verified_by_fetch: true
+
+  - id: psg-HIS-ihra-observer
+    source_id: src-HIS-ihra-recommendations
+    locator: "Section 3.2.7, pp.29-30"
+    text: "Where imaginative work is used, it suggests observer positions (for example a journalist from a neutral country) rather than imagining direct involvement, and says debriefing afterwards is essential; it warns of over-identification, including attraction to the Nazis or morbid fascination with suffering."
+    excerpt_type: paraphrase
+    fetched_url: https://thgaac.texas.gov/assets/uploads/docs/IHRA-Recommendations-Teaching-and-Learning-about-Holocaust.pdf
+    verified_by_fetch: true
+
+  - id: psg-HIS-ihra-images
+    source_id: src-HIS-ihra-recommendations
+    locator: "Section 3.2.3, p.28; Section 3.4.3, p.37"
+    text: "Images used to shock can degrade victims and reinforce stereotypes; the Holocaust can be taught effectively without graphic photographs or film, and perpetrator-made material needs its propaganda context made explicit."
+    excerpt_type: paraphrase
+    fetched_url: https://thgaac.texas.gov/assets/uploads/docs/IHRA-Recommendations-Teaching-and-Learning-about-Holocaust.pdf
+    verified_by_fetch: true
+
+  - id: psg-HIS-ihra-agency-age
+    source_id: src-HIS-ihra-recommendations
+    locator: "Section 2.4.2, p.20; Section 3.1.1, p.24; Section 3.2.6, p.29"
+    text: "Victims should be presented as people with agency; perpetrators should be studied rather than dismissed as monsters; younger learners can begin with individual stories of victims, escape and rescue, with attention to emotional development and time for reflection."
+    excerpt_type: paraphrase
+    fetched_url: https://thgaac.texas.gov/assets/uploads/docs/IHRA-Recommendations-Teaching-and-Learning-about-Holocaust.pdf
+    verified_by_fetch: true
+
+  - id: psg-HIS-ushmm-simulation
+    source_id: src-HIS-ushmm-guidelines
+    locator: "Guideline 10, 'Make Responsible Methodological Choices'"
+    text: "simulating experiences from the Holocaust remains pedagogically unsound."
+    excerpt_type: quote
+    fetched_url: https://www.ushmm.org/teach/fundamentals/guidelines-for-teaching-the-holocaust
+    verified_by_fetch: true
+
+  - id: psg-HIS-ushmm-gimmicks
+    source_id: src-HIS-ushmm-guidelines
+    locator: "Guideline 10, 'Make Responsible Methodological Choices'"
+    text: "Simulations risk students believing they know what victims or perpetrators experienced; the guidelines recommend primary sources and survivor testimony instead, and advise against word puzzles, model building and similar activities that trivialise the history."
+    excerpt_type: paraphrase
+    fetched_url: https://www.ushmm.org/teach/fundamentals/guidelines-for-teaching-the-holocaust
+    verified_by_fetch: true
+
+  - id: psg-HIS-ushmm-people
+    source_id: src-HIS-ushmm-guidelines
+    locator: "Guideline 9, 'Translate Statistics Into People'; Guideline 3, 'Avoid Simple Answers to Complex Questions'"
+    text: "Recommends first-person accounts and memoirs to show victims as whole people behind the statistics, and warns against oversimplifying the many factors behind decisions."
+    excerpt_type: paraphrase
+    fetched_url: https://www.ushmm.org/teach/fundamentals/guidelines-for-teaching-the-holocaust
+    verified_by_fetch: true
+
+entries:
+  # =====================================================================
+  - id: sig-HIS-enquiry-question-sequence
+    type: signature_pedagogy
+    title: "Historical enquiry questions and enquiry sequences"
+    summary: "Organise a block of S1 history lessons around one carefully worded, answerable historical question that pupils build knowledge towards and answer in an outcome task."
+    body: |
+      An enquiry question (for example "Why did Scottish nobles write to the Pope in 1320?") frames 4 to 8 lessons. Each lesson adds substantive knowledge that pupils need to answer it, and the sequence ends in an outcome task (often extended writing). This is structured, teacher-led enquiry, not discovery learning: the teacher selects content and sources and teaches the knowledge explicitly.
+      Good questions are tied to one second-order concept at a time (cause, consequence, change, significance, evidence, interpretation), use precise historical content and invite an argued answer. Plan questions across S1 to S3 so that concepts and periods are revisited.
+    status: draft
+    version: "0.1"
+    curated_by: [agent-HIS]
+    facets:
+      jurisdiction: [scotland]
+      cfe_level: [third]
+      stage: [s1]
+      curriculum_area: [social_studies]
+      subject: [history]
+      lesson_purpose: [introduce, guided_practice, apply_transfer]
+      knowledge_type: [disciplinary, declarative, conceptual]
+      expertise: [novice, developing]
+      artefact_type: [lesson_plan, slides, worksheet]
+    evidence:
+      rating: practitioner_wisdom
+      rationale: "Long-standing subject community practice (HA, Riley) endorsed in the Ofsted review; not trial-tested as a package (clm-HIS-enquiry-organises)."
+    prerequisites: ["Teacher has mapped the substantive content needed to answer the question"]
+    risks:
+      - "Treating enquiry as open discovery with pupils left to find knowledge unaided"
+      - "Questions that mix several second-order concepts and blur the argument"
+    relations:
+      uses_principle: [prn-EVD-guided-inquiry, prn-EVD-explicit-instruction, prn-EVD-spaced-practice]
+      demonstrated_by: [exm-HIS-arbroath-enquiry]
+      aligns_to: [cur-CUR-soc-3-01a, cur-CUR-soc-3-05a, cur-CUR-soc-3-06a]
+    artefact_recipes:
+      slides: "Enquiry question on every slide header; a 'where are we in the enquiry?' tracker slide at the start of each lesson showing which part of the answer today's knowledge builds."
+      worksheet: "Enquiry question in a box at the top; knowledge-gathering grid with one row per lesson; final box 'My answer so far' updated at the end of each lesson."
+      form: "Exit ticket: 'What did today add to our answer to the enquiry question?' plus one retrieval question from a previous lesson."
+      lesson_plan: "Lesson 1 hook and question; lessons 2 to 5 knowledge and sources each tied to the question; lesson 6 planning; lesson 7 outcome task. Note the single second-order concept in focus."
+      interaction: "Start each lesson with pairs restating the enquiry question and their current provisional answer; teacher cold-calls two pairs."
+    claims: [clm-HIS-enquiry-organises, clm-HIS-enquiry-not-discovery, clm-HIS-enquiry-one-concept, clm-HIS-enquiry-sequence-ks]
+
+  # =====================================================================
+  - id: sig-HIS-second-order-concepts
+    type: signature_pedagogy
+    title: "Teaching second-order (disciplinary) concepts explicitly"
+    summary: "Make the disciplinary concepts historians use (cause and consequence, change and continuity, similarity and difference, significance, evidence, interpretations, perspective) explicit objects of teaching, always through specific content."
+    body: |
+      Second-order concepts shape the kind of argument pupils make about substantive content. In S1, introduce them by name, model what an answer in that concept sounds like, and give repeated practice across different topics. Seixas's six historical thinking concepts (significance, evidence, continuity and change, cause and consequence, historical perspectives, ethical dimension) and the Ofsted list overlap closely; choose one vocabulary for the department and use it consistently.
+      These concepts are never taught as free-floating skills: substantive and disciplinary knowledge depend on each other.
+    status: draft
+    version: "0.1"
+    curated_by: [agent-HIS]
+    facets:
+      jurisdiction: [scotland]
+      cfe_level: [third]
+      stage: [s1]
+      curriculum_area: [social_studies]
+      subject: [history]
+      lesson_purpose: [introduce, guided_practice]
+      knowledge_type: [disciplinary, conceptual]
+      expertise: [novice, developing]
+      artefact_type: [slides, worksheet, lesson_plan]
+    evidence:
+      rating: moderate
+      rationale: "Grounded in research traditions synthesised by Seixas and in the Ofsted review (clm-HIS-soc-list, clm-HIS-soc-model)."
+    risks: ["Teaching concepts as generic skills detached from content"]
+    relations:
+      uses_principle: [prn-EVD-explicit-instruction, prn-EVD-worked-examples, prn-EVD-scaffolding]
+      aligns_to: [cur-CUR-soc-3-01a, cur-CUR-soc-3-04a, cur-CUR-soc-3-05a, cur-CUR-soc-3-06a]
+    artefact_recipes:
+      slides: "One concept icon per enquiry (e.g. a chain for cause); slide with a model sentence for the concept, such as 'X mattered more than Y because...'."
+      worksheet: "Concept box: definition in plain words, two model sentences, then pupils write their own sentence about today's content."
+      form: "Multiple-choice: which question is a change question and which is a cause question?"
+      lesson_plan: "Name the concept, model it on known content, guided practice in pairs, independent sentence, revisit next week on new content."
+      interaction: "Sentence stems on the board for discussion: 'One thing that stayed the same was...', 'This was significant because...'."
+    claims: [clm-HIS-soc-list, clm-HIS-soc-model, clm-HIS-soc-interplay]
+
+  # =====================================================================
+  - id: sig-HIS-knowledge-rich-narrative
+    type: signature_pedagogy
+    title: "Substantive knowledge first: knowledge-rich narrative and storytelling"
+    summary: "Secure pupils' knowledge of the period through vivid teacher narrative and rich background before asking them to interpret sources or write arguments."
+    body: |
+      Pupils can only interpret evidence and argue if they know enough about the period. Tell the story of the period with people, motives, causes and conflict; include memorable 'hinterland' detail that helps pupils hold the core content. Check and retrieve the key knowledge before source work and before extended writing.
+    status: draft
+    version: "0.1"
+    curated_by: [agent-HIS]
+    facets:
+      jurisdiction: [scotland]
+      cfe_level: [third]
+      stage: [s1]
+      curriculum_area: [social_studies]
+      subject: [history]
+      lesson_purpose: [introduce]
+      knowledge_type: [declarative]
+      expertise: [novice]
+      artefact_type: [slides, lesson_plan, worksheet]
+    evidence:
+      rating: moderate
+      rationale: "Ofsted research review synthesis on narrative, hinterland and fingertip knowledge (clm-HIS-narrative-organises, clm-HIS-fingertip)."
+    risks: ["Narrative presented as the single true account without signalling that historians construct accounts"]
+    relations:
+      uses_principle: [prn-EVD-explicit-instruction, prn-EVD-retrieval-practice, prn-EVD-dual-coding]
+      aligns_to: [cur-CUR-soc-3-01a]
+    artefact_recipes:
+      slides: "Story told in 5 to 8 slides, each with one image and a short caption; named people and a clear 'problem' they faced."
+      worksheet: "Knowledge organiser: timeline strip, 6 to 8 key people and terms with one-line definitions, a short narrative paragraph."
+      form: "Five-question retrieval quiz on the narrative before the source lesson."
+      lesson_plan: "Teacher narrative (10 to 15 minutes) with pauses for prediction questions; retrieval quiz next lesson before sources."
+      interaction: "Pause the story: 'What do you think she did next, and why?' Pupils discuss in pairs for 30 seconds."
+    claims: [clm-HIS-narrative-organises, clm-HIS-fingertip, clm-HIS-soc-interplay-2]
+
+  # =====================================================================
+  - id: act-HIS-source-analysis-scaffold
+    type: activity_type
+    title: "Scaffolded source analysis: provenance, content, context, for a question"
+    summary: "Teach pupils to read a source as evidence for a specific question, using a short routine (who made it, when and why; what it says; what we know about the time; how it compares with other sources)."
+    body: |
+      Give a source with its provenance visible. Pupils work through: provenance (author, date, purpose, audience); content (what it says or shows, key words); context (what we already know about the period that helps us read it); corroboration (does another source agree?). Always frame this around the enquiry question: "How useful is this for finding out why...?" rather than a generic "Is it biased?".
+      Use varied source types and, as pupils grow in confidence, longer extracts. Avoid exam-style generic source question formats in S1.
+    status: draft
+    version: "0.1"
+    curated_by: [agent-HIS]
+    facets:
+      jurisdiction: [scotland]
+      cfe_level: [third]
+      stage: [s1]
+      curriculum_area: [social_studies]
+      subject: [history]
+      lesson_purpose: [guided_practice, independent_practice]
+      knowledge_type: [disciplinary, procedural]
+      expertise: [novice, developing]
+      artefact_type: [worksheet, slides, interaction]
+    evidence:
+      rating: moderate
+      rationale: "Reading moves derived from Wineburg's research as operationalised by SHEG/DIG; Ofsted review on question-specific evaluation (clm-HIS-src-question, clm-HIS-src-heuristics)."
+    prerequisites: ["Pupils know the narrative of the period (sig-HIS-knowledge-rich-narrative)"]
+    risks: ["Turning the routine into a generic checklist; equating bias with uselessness"]
+    relations:
+      uses_principle: [prn-EVD-scaffolding, prn-EVD-worked-examples, prn-EVD-reading-comprehension-strategies]
+      aligns_to: [cur-CUR-soc-3-01a]
+      caution_from: [cau-HIS-generic-source-questions]
+    artefact_recipes:
+      slides: "Source on the left; four labelled boxes on the right (Who/when/why; What it says; What we know; Does another source agree?). Teacher models the first source thinking aloud."
+      worksheet: "Source with provenance line in bold above it; four-box scaffold with sentence stems; final box 'For our question, this source is useful because... but...'."
+      form: "Two short-answer items: 'Who made this source and why?' and 'Give one thing from your own knowledge that helps explain it.'"
+      lesson_plan: "Model one source (I do), pairs analyse a second (we do), individuals a third (you do), then compare the three for the enquiry question."
+      interaction: "Pairs annotate a printed source with coloured pens, one colour per box; teacher circulates and asks 'how do you know that from the source?'."
+    claims: [clm-HIS-src-heuristics, clm-HIS-src-taught, clm-HIS-src-question, clm-HIS-src-varied, clm-HIS-src-benchmark]
+
+  # =====================================================================
+  - id: act-HIS-causation-card-sort
+    type: activity_type
+    title: "Causation card sorts and diamond or relevance rankings"
+    summary: "Pupils sort, rank and link cards naming causes of an event, then justify the arrangement aloud and in writing; design matters so pupils do the reasoning."
+    body: |
+      Cards carry short names or concepts (not ready-made explanations) so pupils must explain each cause. Variants: sort by type (political, economic, religious); arrange by timescale (long, medium, short term); place nearer or further from the question card by relevance; size circles by importance and justify the size; draw links between cards.
+      Sorting into categories alone is not enough: build in a weighing step ("which mattered most and how did they combine?") and a justification step, then feed the arrangement into a paragraph plan. Living graphs (plotting events against a criterion such as success over time) are a related scaffold.
+    status: draft
+    version: "0.1"
+    curated_by: [agent-HIS]
+    facets:
+      jurisdiction: [scotland]
+      cfe_level: [third]
+      stage: [s1]
+      curriculum_area: [social_studies]
+      subject: [history]
+      lesson_purpose: [guided_practice, apply_transfer]
+      knowledge_type: [disciplinary, conceptual]
+      expertise: [developing]
+      artefact_type: [worksheet, interaction, lesson_plan]
+    evidence:
+      rating: practitioner_wisdom
+      rationale: "HA practitioner research and reflective accounts (clm-HIS-card-names, clm-HIS-card-weigh)."
+    prerequisites: ["Pupils already know the content on the cards"]
+    risks: ["Pupils can complete the sort without understanding causation (sorting is not reasoning)"]
+    relations:
+      uses_principle: [prn-EVD-collaborative-learning, prn-EVD-oral-language-dialogic, prn-EVD-metacognition]
+      aligns_to: [cur-CUR-soc-3-05a, cur-CUR-soc-3-06a]
+    artefact_recipes:
+      slides: "Photo of a completed example arrangement with arrows and a justification bubble; slide with the weighing question."
+      worksheet: "A3 sheet with the question card in the top-left corner and concentric 'relevance' zones; 8 to 10 cut-out cards naming causes; box 'Why I put the top card closest'."
+      form: "Drag-and-drop ranking of five causes plus a required 'because' text box for the top choice."
+      lesson_plan: "Retrieve content; groups sort; groups 'test the line' by defending order to another group; individual paragraph using the top two cards and a link."
+      interaction: "Groups of three; each pupil must justify one card placement aloud before it is glued; teacher asks 'what would change if this card were removed?'."
+    claims: [clm-HIS-card-names, clm-HIS-card-weigh, clm-HIS-card-fixes, clm-HIS-card-relevance, clm-HIS-card-who-thinks]
+
+  # =====================================================================
+  - id: act-HIS-chronology-timeline
+    type: activity_type
+    title: "Chronology: timelines, human timelines and dual-coded overviews"
+    summary: "Build a secure mental timeline with a recurring visual timeline (images plus dates and labels), physical human timelines and regular timeline retrieval."
+    body: |
+      Keep one class timeline (wall or slide) that every new topic is placed onto, with a small image and label for each event, so pupils see where S1 topics sit relative to each other and to what they studied in primary. Use a human timeline (pupils holding dated cards or century tabards) to make scale physical. Use blank or partly completed timelines as quick retrieval and formative checks.
+    status: draft
+    version: "0.1"
+    curated_by: [agent-HIS]
+    facets:
+      jurisdiction: [scotland]
+      cfe_level: [second, third]
+      stage: [p7, s1]
+      curriculum_area: [social_studies]
+      subject: [history]
+      lesson_purpose: [introduce, guided_practice, assess_feedback]
+      knowledge_type: [declarative, conceptual]
+      expertise: [novice]
+      artefact_type: [slides, worksheet, interaction, form]
+    evidence:
+      rating: moderate
+      rationale: "Ofsted review on chronological knowledge as generative; practitioner human timeline (clm-HIS-chron-generative, clm-HIS-chron-human)."
+    risks: ["Timelines as decoration rather than retrieved and used"]
+    relations:
+      uses_principle: [prn-EVD-dual-coding, prn-EVD-retrieval-practice, prn-EVD-spaced-practice]
+      aligns_to: [cur-CUR-soc-3-02a]
+    artefact_recipes:
+      slides: "Recurring horizontal timeline banner with icons; today's event highlighted; previous topics greyed but visible."
+      worksheet: "Partly completed timeline: pupils add five dated events from memory, then check against the knowledge organiser."
+      form: "Ordering question: put four events in chronological order; one item asks which century an event belongs to."
+      lesson_plan: "Opening 5 minutes: human timeline with 8 pupils holding event cards; class corrects order; link to today's enquiry."
+      interaction: "Pupils stand in a line holding cards and must explain to a neighbour why they are before or after them."
+    claims: [clm-HIS-chron-generative, clm-HIS-chron-assess, clm-HIS-chron-human, clm-HIS-chron-eo]
+
+  # =====================================================================
+  - id: act-HIS-object-handling
+    type: activity_type
+    title: "Object-based learning: handling and questioning objects as evidence"
+    summary: "Pupils examine real or replica objects (from a museum loan box or visit) using structured see, feel, think, wonder prompts and then use them as evidence for an enquiry question."
+    body: |
+      Give small groups an object (or replica) with a prompt card. Stage 1: observe and describe (see, feel). Stage 2: infer (what was it for, who used it, what does it suggest about their lives?). Stage 3: wonder (what questions would we need other sources to answer?). Then connect inferences to the enquiry question and note limits of the object as evidence. Scottish loan boxes and museum resources (Historic Environment Scotland, National Museums Scotland) support this.
+    status: draft
+    version: "0.1"
+    curated_by: [agent-HIS]
+    facets:
+      jurisdiction: [scotland]
+      cfe_level: [second, third]
+      stage: [p7, s1]
+      curriculum_area: [social_studies]
+      subject: [history]
+      lesson_purpose: [introduce, guided_practice]
+      knowledge_type: [disciplinary]
+      expertise: [novice]
+      artefact_type: [worksheet, interaction, lesson_plan]
+    evidence:
+      rating: practitioner_wisdom
+      rationale: "Museum education practice; UCL evidence is from higher education students' perceptions (clm-HIS-obl-study)."
+    risks: ["Handling becomes an enjoyable activity with no link to an historical question", "Fragile originals need museum handling guidance"]
+    relations:
+      uses_principle: [prn-EVD-oral-language-dialogic, prn-EVD-guided-inquiry, prn-EVD-collaborative-learning]
+      aligns_to: [cur-CUR-soc-3-01a, cur-CUR-soc-3-04a]
+    artefact_recipes:
+      slides: "Large photo of the object with four quadrant prompts: See, Feel, Think, Wonder."
+      worksheet: "Object investigation card: sketch box, three observation lines, inference sentence stem 'This suggests... because...', and 'What it cannot tell us'."
+      form: "Short response: one inference about the past from the object and one question it cannot answer."
+      lesson_plan: "Carousel of 4 to 6 objects (5 minutes each) with prompt cards; plenary links inferences to enquiry question."
+      interaction: "One pupil handles while partners describe without naming the object; group agrees one inference to share."
+    claims: [clm-HIS-obl-schools, clm-HIS-obl-prompts, clm-HIS-obl-loan, clm-HIS-obl-study, clm-HIS-obl-nms]
+
+  # =====================================================================
+  - id: act-HIS-scottish-archives
+    type: activity_type
+    title: "Local and Scottish history through archive documents"
+    summary: "Use digitised Scottish archive documents (National Records of Scotland, Scottish Archives for Schools, SCAN modules) to study Scottish and local history with real primary sources."
+    body: |
+      Select one or two archive documents tied to the enquiry question (for example the Declaration of Arbroath, a census return, or a letter). Provide a transcription and glossary alongside the original image, then use the source analysis routine. Local documents connect new concepts to familiar places. NRS workshops at General Register House and online resources support this.
+    status: draft
+    version: "0.1"
+    curated_by: [agent-HIS]
+    facets:
+      jurisdiction: [scotland]
+      cfe_level: [third]
+      stage: [s1]
+      curriculum_area: [social_studies]
+      subject: [history]
+      lesson_purpose: [guided_practice, apply_transfer]
+      knowledge_type: [disciplinary, declarative]
+      expertise: [novice, developing]
+      artefact_type: [worksheet, lesson_plan]
+    evidence:
+      rating: practitioner_wisdom
+      rationale: "Scottish curriculum intent plus national archive provision (clm-HIS-arch-eo, clm-HIS-arch-nrs)."
+    risks: ["Original handwriting and older Scots or Latin may block access without transcription"]
+    relations:
+      uses_principle: [prn-EVD-scaffolding, prn-EVD-guided-inquiry]
+      aligns_to: [cur-CUR-soc-3-01a, cur-CUR-soc-3-02a]
+    artefact_recipes:
+      slides: "Image of the original document beside a transcription of the key lines, with 3 glossed words highlighted."
+      worksheet: "Original image, plain-English transcription, glossary, then the four-box source routine."
+      form: "Quick check: what type of document is this, who created it and when?"
+      lesson_plan: "Context narrative; examine original image; read transcription together; pairs complete source routine; link to Scottish nation theme."
+      interaction: "Pairs 'detective' task: find three clues in the document about who wrote it and why."
+    claims: [clm-HIS-arch-eo, clm-HIS-arch-nrs, clm-HIS-arch-safs, clm-HIS-arch-local]
+
+  # =====================================================================
+  - id: sig-HIS-disciplinary-reading-writing
+    type: signature_pedagogy
+    title: "Disciplinary reading and extended analytical writing in history"
+    summary: "Teach pupils to read challenging historical texts and to write structured, argued answers to enquiry questions, with knowledge, oral rehearsal and paragraph models in place first."
+    body: |
+      Reading: give S1 pupils appropriately challenging history texts (including short extracts of historians' writing), pre-teaching the context they need to comprehend them.
+      Writing: secure knowledge, keep pupils on the actual question, plan through card sorts and oral rehearsal, and teach a thematic (not chronological) structure: each paragraph opens with a 'big point' answering the question, supported by 'little points' of evidence. Analyse what makes the writing hard and teach that, rather than avoiding extended writing.
+    status: draft
+    version: "0.1"
+    curated_by: [agent-HIS]
+    facets:
+      jurisdiction: [scotland]
+      cfe_level: [third]
+      stage: [s1]
+      curriculum_area: [social_studies]
+      subject: [history]
+      lesson_purpose: [guided_practice, independent_practice, assess_feedback]
+      knowledge_type: [disciplinary, procedural]
+      expertise: [developing]
+      artefact_type: [worksheet, lesson_plan, slides]
+    evidence:
+      rating: practitioner_wisdom
+      rationale: "HA practitioner guidance (Counsell) supported by Ofsted synthesis on reading and fingertip knowledge (clm-HIS-rw-reading, clm-HIS-rw-big-points)."
+    prerequisites: ["Enquiry content taught and retrieved", "Causes or factors organised via card sort"]
+    risks: ["Writing as narrative retelling rather than argument"]
+    relations:
+      uses_principle: [prn-EVD-worked-examples, prn-EVD-scaffolding, prn-EVD-oral-language-dialogic, prn-EVD-reading-comprehension-strategies]
+      aligns_to: [cur-CUR-soc-3-01a, cur-CUR-soc-3-05a, cur-CUR-soc-3-06a]
+    artefact_recipes:
+      slides: "Model paragraph with the 'big point' sentence in bold and supporting 'little points' labelled; question restated at the top."
+      worksheet: "Paragraph planner: big point box (must answer the question), two to three evidence boxes, 'so this shows...' link box."
+      form: "Self-check: 'Does my first sentence answer the question? Yes/No' for each paragraph."
+      lesson_plan: "Retrieve knowledge; pairs discuss a model answer; oral rehearsal of big points; write one paragraph; feedback; then full answer."
+      interaction: "Pupils read their opening sentences aloud to a partner, who answers 'Does that answer the question?'."
+    claims: [clm-HIS-rw-reading, clm-HIS-rw-knowledge-first, clm-HIS-rw-big-points, clm-HIS-rw-not-avoid, clm-HIS-rw-fingertip, clm-HIS-rw-essay-complex]
+
+  # =====================================================================
+  - id: act-HIS-historical-perspective-in-role
+    type: activity_type
+    title: "Historical perspective and writing in role: evidence-grounded, used selectively"
+    summary: "Help pupils understand how people in the past saw their world, using evidence and context; writing in role is acceptable only when grounded in evidence and never for atrocity topics."
+    body: |
+      Treat historical empathy as a disciplinary task: pupils reconstruct attitudes and values from evidence and context, and recognise how they differ from our own. Writing in role (a letter or diary of a contemporary) can be appropriate for everyday life topics (for example an 18th-century Edinburgh resident) if pupils must cite evidence and a debrief separates historical reconstruction from imagination.
+      Do not use it where pupils would identify with victims or perpetrators of atrocity or genocide; for such topics prefer an observer position and follow cau-HIS-holocaust-no-simulation.
+    status: draft
+    version: "0.1"
+    curated_by: [agent-HIS]
+    facets:
+      jurisdiction: [scotland]
+      cfe_level: [third]
+      stage: [s1]
+      curriculum_area: [social_studies]
+      subject: [history]
+      lesson_purpose: [apply_transfer]
+      knowledge_type: [disciplinary, conceptual]
+      expertise: [developing]
+      artefact_type: [worksheet, lesson_plan]
+    evidence:
+      rating: emerging
+      rationale: "Theory-based models of historical empathy; limited trial evidence (clm-HIS-emp-elements)."
+    prerequisites: ["Pupils know the context and have worked with relevant sources"]
+    risks: ["Presentism or sentimental invention", "Over-identification with victims or perpetrators"]
+    relations:
+      uses_principle: [prn-EVD-explicit-instruction, prn-EVD-scaffolding]
+      aligns_to: [cur-CUR-soc-3-04a, cur-CUR-soc-3-06a]
+      caution_from: [cau-HIS-holocaust-no-simulation]
+    artefact_recipes:
+      slides: "Two columns: 'What they believed then (evidence)' and 'What we might assume now'."
+      worksheet: "In-role letter frame with margin column 'Evidence for this sentence' that must be filled for each claim."
+      form: "Reflection: one thing your character believed that people today would not, and the source that shows it."
+      lesson_plan: "Sources on attitudes; class list of evidence-backed beliefs; in-role writing; debrief separating evidence from imagination."
+      interaction: "Hot-seat only for non-atrocity topics; questioners must ask 'how do you know?' and the pupil cites a source."
+    claims: [clm-HIS-emp-elements, clm-HIS-emp-perspective, clm-HIS-emp-observer, clm-HIS-emp-eo]
+
+  # =====================================================================
+  - id: act-HIS-p7-s1-transition
+    type: activity_type
+    title: "P7 to S1 transition in history: shared enquiry and building on primary learning"
+    summary: "Plan S1 history with primary colleagues, find out what pupils studied in P7, and pitch S1 enquiries to build on it with scaffolds rather than restart or repeat."
+    body: |
+      Ask feeder primaries what history topics and skills P7 pupils covered; share an enquiry question across P7 and S1 (for example a bridging enquiry on the Wars of Independence using NRS Declaration of Arbroath resources, offered for P7/S1). Expect more of S1 pupils than secondary teachers often assume, and use scaffolds (card sorts, writing frames, living graphs) so all pupils can reach demanding ideas.
+    status: draft
+    version: "0.1"
+    curated_by: [agent-HIS]
+    facets:
+      jurisdiction: [scotland]
+      cfe_level: [second, third]
+      stage: [p7, s1]
+      curriculum_area: [social_studies]
+      subject: [history]
+      lesson_purpose: [introduce]
+      knowledge_type: [declarative, disciplinary]
+      expertise: [novice]
+      artefact_type: [lesson_plan, form]
+    evidence:
+      rating: practitioner_wisdom
+      rationale: "HA KS2-3 transition project findings (England), consistent with CfE SOC 3-02a (clm-HIS-trans-joint, clm-HIS-trans-expect)."
+    risks: ["Repeating P7 content without progression"]
+    relations:
+      uses_principle: [prn-EVD-formative-assessment, prn-EVD-retrieval-practice, prn-EVD-scaffolding]
+      aligns_to: [cur-CUR-soc-3-02a]
+      demonstrated_by: [exm-HIS-arbroath-enquiry]
+    artefact_recipes:
+      slides: "First S1 lesson: 'What do you already know about Scotland's past?' timeline slide for pupils to populate."
+      worksheet: "Transition passport: P7 topics studied, one thing remembered, one source type used."
+      form: "Baseline form in week 1: chronology ordering, one source question, one 'why' question."
+      lesson_plan: "Joint P7/S1 enquiry: P7 teaches knowledge lessons in June; S1 completes source and writing lessons in August."
+      interaction: "Pairs from different primaries teach each other one thing from their P7 topic."
+    claims: [clm-HIS-trans-joint, clm-HIS-trans-expect, clm-HIS-trans-scaffolds, clm-HIS-trans-eo, clm-HIS-trans-nrs]
+
+  # =====================================================================
+  - id: exm-HIS-arbroath-enquiry
+    type: exemplar
+    title: "Exemplar S1 enquiry: Why did Scotland's leaders send the Declaration of Arbroath in 1320?"
+    summary: "A worked six-lesson S1 enquiry on the Wars of Independence combining narrative, archive source work, a causation card sort and an extended written answer."
+    body: |
+      Enquiry question: Why did Scotland's leaders send the Declaration of Arbroath to the Pope in 1320? (focus concept: cause and motive)
+      1. Narrative: the Wars of Independence to 1320, with timeline retrieval (act-HIS-chronology-timeline).
+      2. Knowledge: Robert I, excommunication and papal recognition; quiz.
+      3. Archive source: image and transcription of the Declaration from National Records of Scotland resources (act-HIS-scottish-archives, act-HIS-source-analysis-scaffold).
+      4. Corroboration: a second source on the papal dispute; usefulness for our question.
+      5. Card sort of motives (independence, recognition of Robert, papal pressure, nobles' self-interest) with relevance zones and justification (act-HIS-causation-card-sort).
+      6. Extended answer using big point paragraphs (sig-HIS-disciplinary-reading-writing).
+      Assessment links: SOC 3-06a (motives and consequences of a turning point) and SOC 3-01a (interpreting evidence). The NRS offers a Declaration of Arbroath investigation for P7/S1, so this can serve as a transition enquiry.
+    status: draft
+    version: "0.1"
+    curated_by: [agent-HIS]
+    facets:
+      jurisdiction: [scotland]
+      cfe_level: [third]
+      stage: [s1]
+      curriculum_area: [social_studies]
+      subject: [history]
+      lesson_purpose: [introduce, guided_practice, apply_transfer, assess_feedback]
+      knowledge_type: [declarative, disciplinary]
+      expertise: [novice, developing]
+      artefact_type: [lesson_plan, worksheet, slides]
+    evidence:
+      rating: practitioner_wisdom
+      rationale: "Curator-designed exemplar assembling the cited entries; not itself evaluated (clm-HIS-exm-nrs)."
+    relations:
+      uses_principle: [prn-EVD-guided-inquiry, prn-EVD-explicit-instruction, prn-EVD-retrieval-practice]
+      aligns_to: [cur-CUR-soc-3-01a, cur-CUR-soc-3-02a, cur-CUR-soc-3-06a]
+    artefact_recipes:
+      lesson_plan: "Six lessons as listed in the body; outcome task in lesson 6 assessed against the SOC 3-06a benchmark wording (motives and impact)."
+      worksheet: "Lesson 3 sheet: Declaration image, transcription of three key lines, glossary, four-box source routine."
+      slides: "Enquiry tracker slide opening each lesson; motive cards shown as icons."
+    claims: [clm-HIS-exm-nrs, clm-HIS-exm-benchmark]
+
+  # =====================================================================
+  - id: cau-HIS-holocaust-no-simulation
+    type: caution
+    title: "Teaching the Holocaust: no simulations or role play identifying with victims or perpetrators"
+    summary: "Do not use simulations, role play or 'imagine you are' writing that puts pupils in the place of victims or perpetrators; avoid shock imagery and gimmicky tasks; use testimony, individual stories and full historical context."
+    body: |
+      - No simulation games or role play recreating Holocaust experiences, and no creative writing asking pupils to imagine being a victim or perpetrator.
+      - If imaginative work is used at all, use an observer position (for example a journalist from a neutral country) and always debrief.
+      - Do not use graphic atrocity images to shock; the history can be taught without them. Contextualise perpetrator-produced material as propaganda.
+      - Avoid trivialising tasks (word searches, crosswords, model building, counting objects).
+      - Present victims as individuals with agency, using first-person testimony and stories of life before and after; study perpetrators as people who made choices.
+      - Prepare pupils emotionally, keep to age-appropriate material (for S1, individual stories of victims, escape and rescue are a suitable entry point) and allow time for reflection.
+    status: draft
+    version: "0.1"
+    curated_by: [agent-HIS]
+    facets:
+      jurisdiction: [scotland]
+      cfe_level: [third, fourth, senior]
+      stage: [s1, s2, s3]
+      curriculum_area: [social_studies, rme]
+      subject: [history]
+      artefact_type: [slides, worksheet, lesson_plan, interaction]
+    evidence:
+      rating: not_recommended
+      rationale: "Simulation and role play are advised against by IHRA and USHMM guidance (clm-HIS-hol-ihra, clm-HIS-hol-ushmm)."
+    risks: ["Pupils believe they understand what victims experienced", "Over-identification or fascination with perpetrators", "Distress"]
+    relations:
+      conflicts_with: [act-HIS-historical-perspective-in-role]
+    claims: [clm-HIS-hol-ihra, clm-HIS-hol-ushmm, clm-HIS-hol-observer, clm-HIS-hol-images, clm-HIS-hol-gimmicks, clm-HIS-hol-people, clm-HIS-hol-age]
+
+  # =====================================================================
+  - id: cau-HIS-generic-source-questions
+    type: caution
+    title: "Avoid generic source questions and 'bias = bad' in S1"
+    summary: "Do not drill exam-style generic source questions or teach that biased sources are useless; evaluate sources for a specific historical question and avoid generic 5Ws heuristics."
+    body: |
+      In S1, source work should serve the enquiry question. Teaching a one-size routine ("Who wrote it? Is it biased?") or the generic 5Ws can create misconceptions. A biased source can be very useful for some questions (for example about attitudes). Use varied sources and build towards longer extracts.
+    status: draft
+    version: "0.1"
+    curated_by: [agent-HIS]
+    facets:
+      jurisdiction: [scotland]
+      cfe_level: [third]
+      stage: [s1]
+      curriculum_area: [social_studies]
+      subject: [history]
+      artefact_type: [worksheet, form, slides]
+    evidence:
+      rating: moderate
+      rationale: "Ofsted research review synthesis (clm-HIS-gen-bias, clm-HIS-gen-5ws)."
+    relations:
+      conflicts_with: []
+    claims: [clm-HIS-gen-bias, clm-HIS-gen-5ws, clm-HIS-gen-exam, clm-HIS-gen-benchmarks]
+
+claims:
+  # enquiry
+  - id: clm-HIS-enquiry-organises
+    entry_id: sig-HIS-enquiry-question-sequence
+    text: "Enquiry questions organise historical content and build pupils' knowledge across a series of lessons."
+    supported_by: [psg-HIS-ofsted-enquiry-questions, psg-HIS-riley-abstract]
+    support_type: paraphrase
+  - id: clm-HIS-enquiry-not-discovery
+    entry_id: sig-HIS-enquiry-question-sequence
+    text: "Enquiry in school history is a structured, knowledge-rich approach and was developed in opposition to discovery learning."
+    supported_by: [psg-HIS-ha-wisdom-not-discovery, psg-HIS-ha-wisdom-knowledge-rich]
+    support_type: direct_quote
+  - id: clm-HIS-enquiry-one-concept
+    entry_id: sig-HIS-enquiry-question-sequence
+    text: "An enquiry works best when it focuses on one type of historical argument, such as causation or consequence."
+    supported_by: [psg-HIS-ofsted-one-argument]
+    support_type: paraphrase
+  - id: clm-HIS-enquiry-sequence-ks
+    entry_id: sig-HIS-enquiry-question-sequence
+    text: "Enquiry questions should be planned across the whole stage so that knowledge and historical thinking are revisited and built up."
+    supported_by: [psg-HIS-riley-abstract]
+    support_type: paraphrase
+  # second order
+  - id: clm-HIS-soc-list
+    entry_id: sig-HIS-second-order-concepts
+    text: "Second-order concepts in history include cause, consequence, change and continuity, similarity and difference, significance, sources and evidence, and interpretations."
+    supported_by: [psg-HIS-ofsted-second-order-list]
+    support_type: paraphrase
+  - id: clm-HIS-soc-model
+    entry_id: sig-HIS-second-order-concepts
+    text: "Seixas's six historical thinking concepts give teachers a model for planning progression in historical thinking."
+    supported_by: [psg-HIS-seixas-abstract, psg-HIS-canenc-six]
+    support_type: paraphrase
+  - id: clm-HIS-soc-interplay
+    entry_id: sig-HIS-second-order-concepts
+    text: "Disciplinary concepts should be taught through substantive content, because each kind of knowledge depends on the other."
+    supported_by: [psg-HIS-ofsted-subst-disc-interplay]
+    support_type: direct_quote
+  # narrative
+  - id: clm-HIS-narrative-organises
+    entry_id: sig-HIS-knowledge-rich-narrative
+    text: "Stories and rich background detail help pupils organise and remember the core content of a period."
+    supported_by: [psg-HIS-ofsted-narrative-hinterland]
+    support_type: paraphrase
+  - id: clm-HIS-fingertip
+    entry_id: sig-HIS-knowledge-rich-narrative
+    text: "Pupils' historical arguments depend on secure knowledge of the topic being readily available when they write."
+    supported_by: [psg-HIS-ofsted-fingertip]
+    support_type: paraphrase
+  - id: clm-HIS-soc-interplay-2
+    entry_id: sig-HIS-knowledge-rich-narrative
+    text: "Interpreting evidence at Third Level explicitly draws on pupils' knowledge of the historical period."
+    supported_by: [psg-HIS-eo-soc301a]
+    support_type: paraphrase
+  # sources
+  - id: clm-HIS-src-heuristics
+    entry_id: act-HIS-source-analysis-scaffold
+    text: "Four reading moves structure source analysis: sourcing, contextualisation, corroboration and close reading."
+    supported_by: [psg-HIS-dig-chart, psg-HIS-purdin-heuristics]
+    support_type: paraphrase
+  - id: clm-HIS-src-taught
+    entry_id: act-HIS-source-analysis-scaffold
+    text: "Pupils need these historical reading moves taught explicitly, as they do not develop them unaided."
+    supported_by: [psg-HIS-purdin-taught]
+    support_type: paraphrase
+  - id: clm-HIS-src-question
+    entry_id: act-HIS-source-analysis-scaffold
+    text: "A source's usefulness or reliability should be judged against a particular historical question."
+    supported_by: [psg-HIS-ofsted-sources-question]
+    support_type: paraphrase
+  - id: clm-HIS-src-varied
+    entry_id: act-HIS-source-analysis-scaffold
+    text: "Pupils should meet varied types of source and longer extracts, not only short snippets."
+    supported_by: [psg-HIS-ofsted-sources-generic]
+    support_type: paraphrase
+  - id: clm-HIS-src-benchmark
+    entry_id: act-HIS-source-analysis-scaffold
+    text: "At Third Level, pupils are expected to compare a range of primary and secondary sources and draw valid conclusions about a period."
+    supported_by: [psg-HIS-bench-301a]
+    support_type: paraphrase
+  # card sort
+  - id: clm-HIS-card-names
+    entry_id: act-HIS-causation-card-sort
+    text: "Writing causation cards as bare names or concepts, rather than full explanations, shifts the reasoning work onto pupils."
+    supported_by: [psg-HIS-gibson-cause-boxes]
+    support_type: paraphrase
+  - id: clm-HIS-card-weigh
+    entry_id: act-HIS-causation-card-sort
+    text: "A card sort that only asks pupils to categorise may let them recite facts without weighing how causes combined or which mattered most."
+    supported_by: [psg-HIS-mccrory-sorting-not-weighing, psg-HIS-mccrory-starting-points]
+    support_type: paraphrase
+  - id: clm-HIS-card-fixes
+    entry_id: act-HIS-causation-card-sort
+    text: "Sizing factors by importance, requiring written justification and prompting pupils to link factors helps card sorts develop causal reasoning."
+    supported_by: [psg-HIS-mccrory-fixes]
+    support_type: paraphrase
+  - id: clm-HIS-card-relevance
+    entry_id: act-HIS-causation-card-sort
+    text: "Relevance zones, timescale arrangements and orally defending a ranking can prepare pupils for causal essay writing."
+    supported_by: [psg-HIS-ha-ew-zone-relevance]
+    support_type: paraphrase
+  - id: clm-HIS-card-who-thinks
+    entry_id: act-HIS-causation-card-sort
+    text: "Teachers should check who is doing the thinking in an activity and balance telling pupils with designed chances for them to reason."
+    supported_by: [psg-HIS-mccrory-who-thinks]
+    support_type: paraphrase
+  # chronology
+  - id: clm-HIS-chron-generative
+    entry_id: act-HIS-chronology-timeline
+    text: "Secure chronological knowledge is generative, giving pupils a mental timeline on which new learning can be placed."
+    supported_by: [psg-HIS-ofsted-chronology]
+    support_type: paraphrase
+  - id: clm-HIS-chron-assess
+    entry_id: act-HIS-chronology-timeline
+    text: "Timelines can be used both to organise chronological knowledge and to check it formatively."
+    supported_by: [psg-HIS-ofsted-timelines-assess]
+    support_type: paraphrase
+  - id: clm-HIS-chron-human
+    entry_id: act-HIS-chronology-timeline
+    text: "A human timeline, with pupils physically ordering themselves as dates or centuries, can make historical time scale concrete."
+    supported_by: [psg-HIS-cooper-human-timeline]
+    support_type: paraphrase
+  - id: clm-HIS-chron-eo
+    entry_id: act-HIS-chronology-timeline
+    text: "Placing people, periods and events in time is an intended outcome of CfE social studies."
+    supported_by: [psg-HIS-eo-principles]
+    support_type: paraphrase
+  # objects
+  - id: clm-HIS-obl-schools
+    entry_id: act-HIS-object-handling
+    text: "Object-based learning can make topics tangible and help learners weigh evidence and its reliability through group discussion."
+    supported_by: [psg-HIS-ucl-obl-schools]
+    support_type: paraphrase
+  - id: clm-HIS-obl-prompts
+    entry_id: act-HIS-object-handling
+    text: "Structured prompts based on seeing, feeling, thinking and wondering support enquiry-based object handling."
+    supported_by: [psg-HIS-hes-see-feel]
+    support_type: direct_quote
+  - id: clm-HIS-obl-loan
+    entry_id: act-HIS-object-handling
+    text: "Historic Environment Scotland lends schools a free object box on 18th-century Edinburgh, including links to empire and slavery, with pupil object cards."
+    supported_by: [psg-HIS-hes-box-contents]
+    support_type: paraphrase
+  - id: clm-HIS-obl-study
+    entry_id: act-HIS-object-handling
+    text: "Evidence for object-based learning comes mainly from higher education students' perceptions rather than from school trials."
+    supported_by: [psg-HIS-ucl-obl-study]
+    support_type: inference_by_curator
+  - id: clm-HIS-obl-nms
+    entry_id: act-HIS-object-handling
+    text: "National Museums Scotland provides BGE history resources built on collection sources such as oral testimony, letters and images."
+    supported_by: [psg-HIS-nms-ww-resources]
+    support_type: paraphrase
+  # archives
+  - id: clm-HIS-arch-eo
+    entry_id: act-HIS-scottish-archives
+    text: "CfE social studies aims to build understanding of Scotland's history and heritage and to have learners explore and assess sources."
+    supported_by: [psg-HIS-eo-principles, psg-HIS-eo-soc302a]
+    support_type: paraphrase
+  - id: clm-HIS-arch-nrs
+    entry_id: act-HIS-scottish-archives
+    text: "National Records of Scotland provides school workshops and online archive resources designed for CfE."
+    supported_by: [psg-HIS-nrs-services, psg-HIS-nrs-cfe]
+    support_type: direct_quote
+  - id: clm-HIS-arch-safs
+    entry_id: act-HIS-scottish-archives
+    text: "Scottish Archives for Schools offers primary documents spanning the 12th to 21st centuries, though the legacy site is no longer updated."
+    supported_by: [psg-HIS-safs-scope]
+    support_type: paraphrase
+  - id: clm-HIS-arch-local
+    entry_id: act-HIS-scottish-archives
+    text: "Local and family history can connect new historical concepts to familiar contexts."
+    supported_by: [psg-HIS-ofsted-local-history]
+    support_type: paraphrase
+  # reading and writing
+  - id: clm-HIS-rw-reading
+    entry_id: sig-HIS-disciplinary-reading-writing
+    text: "Background knowledge shapes comprehension of history texts, and pupils benefit from reading appropriately challenging texts including historians' work."
+    supported_by: [psg-HIS-ofsted-reading]
+    support_type: paraphrase
+  - id: clm-HIS-rw-knowledge-first
+    entry_id: sig-HIS-disciplinary-reading-writing
+    text: "Before extended writing, pupils need contextual knowledge and support to stay focused on the actual question."
+    supported_by: [psg-HIS-ha-ew-knowledge-first]
+    support_type: paraphrase
+  - id: clm-HIS-rw-big-points
+    entry_id: sig-HIS-disciplinary-reading-writing
+    text: "Analytical history writing needs a thematic structure, with each paragraph opening on a point that answers the question."
+    supported_by: [psg-HIS-ha-ew-big-points]
+    support_type: paraphrase
+  - id: clm-HIS-rw-not-avoid
+    entry_id: sig-HIS-disciplinary-reading-writing
+    text: "Teachers should analyse and teach the difficulties of analytical writing rather than treat it as beyond pupils."
+    supported_by: [psg-HIS-counsell-abstract]
+    support_type: paraphrase
+  - id: clm-HIS-rw-fingertip
+    entry_id: sig-HIS-disciplinary-reading-writing
+    text: "The quality of written arguments depends on secure knowledge available at the time of writing."
+    supported_by: [psg-HIS-ofsted-fingertip]
+    support_type: paraphrase
+  - id: clm-HIS-rw-essay-complex
+    entry_id: sig-HIS-disciplinary-reading-writing
+    text: "Essay-style outcome tasks build knowledge and argument but are complex to use as assessments."
+    supported_by: [psg-HIS-ofsted-essay-outcome]
+    support_type: paraphrase
+  # empathy
+  - id: clm-HIS-emp-elements
+    entry_id: act-HIS-historical-perspective-in-role
+    text: "Historical empathy can be understood as evidence-based contextualisation and informed imagination, alongside perspective, ethical judgement and care."
+    supported_by: [psg-HIS-karn-elements]
+    support_type: paraphrase
+  - id: clm-HIS-emp-perspective
+    entry_id: act-HIS-historical-perspective-in-role
+    text: "Reconstructing past attitudes and values is a disciplinary task that follows historians' methods, often framed as historical perspective rather than empathy."
+    supported_by: [psg-HIS-ofsted-perspective]
+    support_type: paraphrase
+  - id: clm-HIS-emp-observer
+    entry_id: act-HIS-historical-perspective-in-role
+    text: "For sensitive topics, imaginative tasks should use observer positions and be followed by a debrief."
+    supported_by: [psg-HIS-ihra-observer]
+    support_type: paraphrase
+  - id: clm-HIS-emp-eo
+    entry_id: act-HIS-historical-perspective-in-role
+    text: "At Third Level, pupils compare the lifestyles, values and attitudes of people in the past."
+    supported_by: [psg-HIS-eo-soc304a]
+    support_type: paraphrase
+  # transition
+  - id: clm-HIS-trans-joint
+    entry_id: act-HIS-p7-s1-transition
+    text: "Primary and secondary teachers jointly planning enquiries that build on final-year primary content benefited both phases."
+    supported_by: [psg-HIS-ha-trans-joint-planning]
+    support_type: paraphrase
+  - id: clm-HIS-trans-expect
+    entry_id: act-HIS-p7-s1-transition
+    text: "Secondary teachers in a transition project were surprised by the quality of upper-primary history work, prompting higher expectations."
+    supported_by: [psg-HIS-ha-trans-quote]
+    support_type: direct_quote
+  - id: clm-HIS-trans-scaffolds
+    entry_id: act-HIS-p7-s1-transition
+    text: "Scaffolds such as writing frames, card sorts and living graphs help more pupils access demanding historical ideas than raising challenge alone."
+    supported_by: [psg-HIS-ha-trans-scaffolds]
+    support_type: paraphrase
+  - id: clm-HIS-trans-eo
+    entry_id: act-HIS-p7-s1-transition
+    text: "Third Level history expects pupils to link current and previous studies."
+    supported_by: [psg-HIS-eo-soc302a]
+    support_type: paraphrase
+  - id: clm-HIS-trans-nrs
+    entry_id: act-HIS-p7-s1-transition
+    text: "National Records of Scotland offers a Declaration of Arbroath investigation task aimed at P7/S1 pupils."
+    supported_by: [psg-HIS-nrs-services]
+    support_type: paraphrase
+  # exemplar
+  - id: clm-HIS-exm-nrs
+    entry_id: exm-HIS-arbroath-enquiry
+    text: "Declaration of Arbroath resources from National Records of Scotland can anchor an S1 Wars of Independence enquiry."
+    supported_by: [psg-HIS-nrs-services]
+    support_type: inference_by_curator
+  - id: clm-HIS-exm-benchmark
+    entry_id: exm-HIS-arbroath-enquiry
+    text: "An outcome task on a turning point can be judged against the Third Level benchmark of giving reasoned opinions on motives and impact."
+    supported_by: [psg-HIS-bench-305a-306a, psg-HIS-eo-soc305a-306a]
+    support_type: paraphrase
+  # holocaust
+  - id: clm-HIS-hol-ihra
+    entry_id: cau-HIS-holocaust-no-simulation
+    text: "IHRA advises caution against simulation, creative writing or role play that asks learners to imagine direct involvement in the Holocaust."
+    supported_by: [psg-HIS-ihra-beware]
+    support_type: direct_quote
+  - id: clm-HIS-hol-ushmm
+    entry_id: cau-HIS-holocaust-no-simulation
+    text: "USHMM regards simulating Holocaust experiences as pedagogically unsound, because pupils may think they understand what victims or perpetrators went through."
+    supported_by: [psg-HIS-ushmm-simulation, psg-HIS-ushmm-gimmicks]
+    support_type: direct_quote
+  - id: clm-HIS-hol-observer
+    entry_id: cau-HIS-holocaust-no-simulation
+    text: "If imaginative tasks are used, learners should take an observer position, be debriefed, and be guarded against over-identification."
+    supported_by: [psg-HIS-ihra-observer]
+    support_type: paraphrase
+  - id: clm-HIS-hol-images
+    entry_id: cau-HIS-holocaust-no-simulation
+    text: "Graphic atrocity images should not be used to shock; the Holocaust can be taught without them and perpetrator material needs context."
+    supported_by: [psg-HIS-ihra-images]
+    support_type: paraphrase
+  - id: clm-HIS-hol-gimmicks
+    entry_id: cau-HIS-holocaust-no-simulation
+    text: "Puzzles, model building and similar gimmicky tasks trivialise the Holocaust and should be avoided."
+    supported_by: [psg-HIS-ushmm-gimmicks]
+    support_type: paraphrase
+  - id: clm-HIS-hol-people
+    entry_id: cau-HIS-holocaust-no-simulation
+    text: "Testimony and individual stories present victims as whole people with agency, and perpetrators should be studied rather than dismissed as monsters."
+    supported_by: [psg-HIS-ushmm-people, psg-HIS-ihra-agency-age]
+    support_type: paraphrase
+  - id: clm-HIS-hol-age
+    entry_id: cau-HIS-holocaust-no-simulation
+    text: "Younger learners can begin with individual stories of victims, escape and rescue, with emotional preparation and time for reflection."
+    supported_by: [psg-HIS-ihra-agency-age]
+    support_type: paraphrase
+  # generic sources caution
+  - id: clm-HIS-gen-bias
+    entry_id: cau-HIS-generic-source-questions
+    text: "Bias does not automatically make a source less useful; usefulness depends on the question asked."
+    supported_by: [psg-HIS-ofsted-sources-question]
+    support_type: paraphrase
+  - id: clm-HIS-gen-5ws
+    entry_id: cau-HIS-generic-source-questions
+    text: "Generic heuristics such as the 5Ws can create misconceptions about historical method."
+    supported_by: [psg-HIS-ofsted-avoid-generic]
+    support_type: paraphrase
+  - id: clm-HIS-gen-exam
+    entry_id: cau-HIS-generic-source-questions
+    text: "Generic exam-style source questions should be avoided in the early secondary years."
+    supported_by: [psg-HIS-ofsted-sources-generic]
+    support_type: paraphrase
+  - id: clm-HIS-gen-benchmarks
+    entry_id: cau-HIS-generic-source-questions
+    text: "CfE benchmarks support professional judgement and are not meant to be ticked off as a checklist."
+    supported_by: [psg-HIS-bench-purpose]
+    support_type: paraphrase

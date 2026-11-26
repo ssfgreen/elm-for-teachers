@@ -1,0 +1,36 @@
+# Applies pending migrations before the new app copies take traffic: they report not ready
+# (/api/health/ready) until the schema is current. A Job cannot be changed once made, so delete
+# it before each rollout: kubectl -n edw delete job migrate --ignore-not-found (DEPLOY.md).
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: migrate
+spec:
+  # Retries while sqld is still starting.
+  backoffLimit: 6
+  template:
+    metadata:
+      labels:
+        app.kubernetes.io/name: migrate
+    spec:
+      restartPolicy: OnFailure
+      # The image's user "node" is 1000; a number lets Kubernetes check it is not root.
+      securityContext:
+        runAsNonRoot: true
+        runAsUser: 1000
+        runAsGroup: 1000
+      containers:
+        - name: migrate
+          image: edw-app
+          command: ['node', 'packages/server/dist/migrate.js']
+          envFrom:
+            - configMapRef: { name: edw-settings }
+            - secretRef: { name: edw-app }
+          env:
+            - { name: DEPLOY_ENV, value: production }
+          resources:
+            requests: { cpu: 100m, memory: 256Mi }
+            limits: { memory: 512Mi }
+          securityContext:
+            allowPrivilegeEscalation: false
+            capabilities: { drop: [ALL] }
