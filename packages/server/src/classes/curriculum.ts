@@ -18,6 +18,7 @@ export function rowToCurriculum(r: Row): CurriculumItem {
     kind: r.kind,
     text: r.text,
     source_version: r.source_version ?? null,
+    ...(r.standard_uri != null ? { standard_uri: String(r.standard_uri) } : {}),
     status: r.status,
     created_at: r.created_at,
     updated_at: r.updated_at,
@@ -57,10 +58,23 @@ export function createCurriculumService(db: Db, events: EventStore): CurriculumS
         const at = nowIso();
         const added: CurriculumItem[] = [];
         for (const p of fresh) {
-          const item: CurriculumItem = { id: newUlid(), class_id: classId, framework: p.framework, code: p.code, kind: p.kind, text: p.text, source_version: p.source_version ?? null, status, created_at: at, updated_at: at };
+          const standardUri = p.standard_uri?.trim() ? p.standard_uri.trim() : null;
+          const item: CurriculumItem = {
+            id: newUlid(),
+            class_id: classId,
+            framework: p.framework,
+            code: p.code,
+            kind: p.kind,
+            text: p.text,
+            source_version: p.source_version ?? null,
+            ...(standardUri ? { standard_uri: standardUri } : {}),
+            status,
+            created_at: at,
+            updated_at: at,
+          };
           await tx.execute({
-            sql: "INSERT INTO class_curriculum (id, session_id, owner_kind, owner_id, framework, code, kind, text, source_version, status, created_at, updated_at) VALUES (?, ?, 'class', ?, ?, ?, ?, ?, ?, ?, ?, ?)",
-            args: [item.id, sessionId, classId, item.framework, item.code, item.kind, item.text, item.source_version, status, at, at],
+            sql: "INSERT INTO class_curriculum (id, session_id, owner_kind, owner_id, framework, code, kind, text, source_version, standard_uri, status, created_at, updated_at) VALUES (?, ?, 'class', ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
+            args: [item.id, sessionId, classId, item.framework, item.code, item.kind, item.text, item.source_version, standardUri, status, at, at],
           });
           added.push(item);
         }

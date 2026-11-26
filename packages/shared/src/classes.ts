@@ -44,6 +44,15 @@ export const YearGroup = z.object({
 });
 export type YearGroup = z.infer<typeof YearGroup>;
 
+/** Federated curriculum configuration for a class (jurisdiction, framework, level, MCP endpoint). */
+export const CurriculumProfile = z.object({
+  jurisdiction: z.string().trim().min(1).max(60).optional(),
+  framework: z.string().trim().min(1).max(80).optional(),
+  level: z.string().trim().min(1).max(60).optional(),
+  mcp_endpoint: z.string().url().max(300).optional(),
+});
+export type CurriculumProfile = z.infer<typeof CurriculumProfile>;
+
 export const SchoolClass = z.object({
   id: Ulid,
   session_id: z.string(),
@@ -56,6 +65,8 @@ export const SchoolClass = z.object({
   subject: z.string().max(CLASS_FIELD_MAX).nullable(),
   /** About the class, for the assistant: the teacher's own words, needs in summary too. */
   note: z.string().max(CLASS_NOTE_MAX).nullable(),
+  /** Optional federated curriculum profile (T4 prep). */
+  curriculum_profile: CurriculumProfile.nullable().optional(),
   /** The teacher's own class: shown in the sidebar. Per teacher (the workspace is one, for now). */
   starred_at: Timestamp.nullable(),
   /** The class it was copied from, the year before. */

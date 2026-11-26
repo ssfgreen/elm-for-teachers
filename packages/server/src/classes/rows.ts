@@ -13,6 +13,7 @@ export function rowToYearGroup(r: Row): YearGroup {
 }
 
 export function rowToClass(r: Row): SchoolClass {
+  const rawProfile = str(r.curriculum_profile);
   return SchoolClass.parse({
     id: r.id,
     session_id: r.session_id,
@@ -23,6 +24,7 @@ export function rowToClass(r: Row): SchoolClass {
     stage: str(r.stage),
     subject: str(r.subject),
     note: str(r.note),
+    ...(rawProfile ? { curriculum_profile: JSON.parse(rawProfile) as unknown } : {}),
     starred_at: str(r.starred_at),
     copied_from: str(r.copied_from),
     created_at: r.created_at,

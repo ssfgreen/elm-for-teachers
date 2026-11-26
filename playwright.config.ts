@@ -71,8 +71,6 @@ export default defineConfig({
         NODE_ENV: "test",
         AUTH_SECRET: "e2e-only-auth-secret-not-for-any-real-site",
         AUTH_TEST_ISSUER: `http://127.0.0.1:${ISSUER_PORT}`,
-        // Pupil sign-in on /r (#179) is off unless set.
-        PUPILS: "on",
         PLUGIN_STUDIO_URL: `http://127.0.0.1:${STUDIO_PORT}`,
       },
     },

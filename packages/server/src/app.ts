@@ -20,6 +20,7 @@ import { registerPluginRoutes } from './plugins/routes.js';
 import { registerDraftRoutes } from './plugins/drafts/routes.js';
 import { draftChatFor } from './plugins/drafts/chat.js';
 import { registerPreferenceRoutes } from './preferences/routes.js';
+import { registerLessonRoutes } from './lessons/routes.js';
 import { registerUsageRoutes } from './usage/routes.js';
 import { registerBudgetRoutes } from './budget/routes.js';
 import { registerProjectRoutes } from './projects/routes.js';
@@ -141,6 +142,7 @@ export async function buildApp(given: AppDeps, opts: BuildAppOptions = {}): Prom
   registerPluginRoutes(app, deps, drafts);
   registerDraftRoutes(app, deps);
   registerPreferenceRoutes(app, deps);
+  registerLessonRoutes(app, deps);
   registerUsageRoutes(app, deps);
   registerBudgetRoutes(app, deps);
   registerReferenceRoutes(app, deps);

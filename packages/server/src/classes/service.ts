@@ -5,7 +5,7 @@
  * name is not: schools.ts). Pupils are in pupils.ts; copying a class to next year in copy.ts.
  */
 import type { Transaction } from '../db/types.js';
-import { newUlid, nowIso, schoolYearOf, type ClassesList, type SchoolClass, type YearGroup } from '@edw/shared';
+import { newUlid, nowIso, schoolYearOf, type ClassesList, type CurriculumProfile, type SchoolClass, type YearGroup } from '@edw/shared';
 import type { Db } from '../db/client.js';
 import type { EventStore, ServerEnvelope } from '../deps.js';
 import { conflict, notFound } from '../http-error.js';
@@ -18,6 +18,7 @@ export interface ClassFields {
   subject?: string | null;
   note?: string | null;
   note_check_id?: string | null;
+  curriculum_profile?: CurriculumProfile | null;
   year_group_id?: string;
   /** One of the teacher's own classes (the sidebar), or not. */
   starred?: boolean;
@@ -38,6 +39,7 @@ export interface NewClass {
   subject?: string | null;
   note?: string | null;
   note_check_id?: string | null;
+  curriculum_profile?: CurriculumProfile | null;
   starred?: boolean;
   copied_from?: string;
   demo?: boolean;
@@ -158,6 +160,7 @@ export function createClassService(db: Db, events: EventStore): ClassService {
       return inTx(outer, async (tx) => {
         const y = await openYearGroup(tx, sessionId, fields.year_group_id);
         const at = nowIso();
+        const profileJson = fields.curriculum_profile ? JSON.stringify(fields.curriculum_profile) : null;
         const c: SchoolClass = {
           id: newUlid(),
           session_id: sessionId,
@@ -168,14 +171,15 @@ export function createClassService(db: Db, events: EventStore): ClassService {
           stage: orNull(fields.stage),
           subject: orNull(fields.subject),
           note: orNull(fields.note),
+          ...(fields.curriculum_profile ? { curriculum_profile: fields.curriculum_profile } : {}),
           starred_at: fields.starred ? at : null,
           copied_from: fields.copied_from ?? null,
           created_at: at,
           archived_at: null,
         };
         await tx.execute({
-          sql: 'INSERT INTO classes (id, session_id, school_id, school_year, year_group_id, name, stage, subject, note, note_check_id, starred_at, copied_from, created_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)',
-          args: [c.id, sessionId, c.school_id, c.school_year, c.year_group_id, c.name, c.stage, c.subject, c.note, fields.note_check_id ?? null, c.starred_at, c.copied_from, c.created_at],
+          sql: 'INSERT INTO classes (id, session_id, school_id, school_year, year_group_id, name, stage, subject, note, note_check_id, curriculum_profile, starred_at, copied_from, created_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)',
+          args: [c.id, sessionId, c.school_id, c.school_year, c.year_group_id, c.name, c.stage, c.subject, c.note, fields.note_check_id ?? null, profileJson, c.starred_at, c.copied_from, c.created_at],
         });
         await events.appendServer(
           sessionId,
@@ -203,7 +207,7 @@ export function createClassService(db: Db, events: EventStore): ClassService {
       return db.transaction(async (tx) => {
         const c = await get(sessionId, id, tx);
         if (!c) return null;
-        const changed: Omit<ClassFields, 'note_check_id'> = {};
+        const changed: Omit<ClassFields, 'note_check_id' | 'curriculum_profile'> = {};
         if (fields.name !== undefined && fields.name.trim() && fields.name.trim() !== c.name) changed.name = fields.name.trim();
         for (const k of ['stage', 'subject', 'note'] as const) {
           if (fields[k] !== undefined && orNull(fields[k]) !== c[k]) changed[k] = orNull(fields[k]);
@@ -216,18 +220,27 @@ export function createClassService(db: Db, events: EventStore): ClassService {
           place = { school_id: y.school_id, school_year: y.school_year };
         }
         if (fields.starred !== undefined && fields.starred !== !!c.starred_at) changed.starred = fields.starred;
-        if (Object.keys(changed).length === 0 && fields.note_check_id === undefined) return c;
+        const profileChanged = fields.curriculum_profile !== undefined;
+        if (Object.keys(changed).length === 0 && fields.note_check_id === undefined && !profileChanged) return c;
         const { starred, ...rest } = changed;
-        const next: SchoolClass = { ...c, ...rest, ...place, starred_at: starred === undefined ? c.starred_at : starred ? nowIso() : null };
+        const nextProfile = profileChanged ? (fields.curriculum_profile ?? null) : (c.curriculum_profile ?? null);
+        const next: SchoolClass = {
+          ...c,
+          ...rest,
+          ...place,
+          ...(nextProfile ? { curriculum_profile: nextProfile } : { curriculum_profile: null }),
+          starred_at: starred === undefined ? c.starred_at : starred ? nowIso() : null,
+        };
+        const profileJson = nextProfile ? JSON.stringify(nextProfile) : null;
         if (fields.note_check_id !== undefined) {
           await tx.execute({
-            sql: 'UPDATE classes SET name = ?, stage = ?, subject = ?, note = ?, note_check_id = ?, year_group_id = ?, school_id = ?, school_year = ?, starred_at = ? WHERE id = ?',
-            args: [next.name, next.stage, next.subject, next.note, fields.note_check_id, next.year_group_id, next.school_id, next.school_year, next.starred_at, id],
+            sql: 'UPDATE classes SET name = ?, stage = ?, subject = ?, note = ?, note_check_id = ?, curriculum_profile = ?, year_group_id = ?, school_id = ?, school_year = ?, starred_at = ? WHERE id = ?',
+            args: [next.name, next.stage, next.subject, next.note, fields.note_check_id, profileJson, next.year_group_id, next.school_id, next.school_year, next.starred_at, id],
           });
         } else {
           await tx.execute({
-            sql: 'UPDATE classes SET name = ?, stage = ?, subject = ?, note = ?, year_group_id = ?, school_id = ?, school_year = ?, starred_at = ? WHERE id = ?',
-            args: [next.name, next.stage, next.subject, next.note, next.year_group_id, next.school_id, next.school_year, next.starred_at, id],
+            sql: 'UPDATE classes SET name = ?, stage = ?, subject = ?, note = ?, curriculum_profile = ?, year_group_id = ?, school_id = ?, school_year = ?, starred_at = ? WHERE id = ?',
+            args: [next.name, next.stage, next.subject, next.note, profileJson, next.year_group_id, next.school_id, next.school_year, next.starred_at, id],
           });
         }
         if (Object.keys(changed).length > 0) {

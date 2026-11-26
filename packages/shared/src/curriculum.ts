@@ -26,6 +26,8 @@ export const CurriculumItem = z.object({
   text: z.string().min(1).max(CURRICULUM_TEXT_MAX),
   /** The library collection's version when it was picked. */
   source_version: z.string().max(40).nullable(),
+  /** Optional CASE / JSON-LD standard URI for federated Curriculum MCP binding (T4). */
+  standard_uri: z.string().max(240).nullable().optional(),
   status: CurriculumStatus,
   created_at: Timestamp,
   updated_at: Timestamp,
@@ -37,6 +39,7 @@ export const CurriculumPick = z.object({
   code: z.string().trim().min(1).max(60),
   text: z.string().trim().min(1).max(CURRICULUM_TEXT_MAX),
   source_version: z.string().max(40).nullable().optional(),
+  standard_uri: z.string().trim().max(240).nullable().optional(),
   framework: CurriculumFramework.default("cfe-eo"),
   kind: CurriculumKind.default("eo"),
 });

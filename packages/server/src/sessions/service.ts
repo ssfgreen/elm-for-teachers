@@ -41,6 +41,7 @@ export const SESSION_TABLES = [
   'accounts',
   'account_invites',
   'preferences',
+  'lesson_progress',
   'plugin_drafts',
   'plugin_grants',
   'plugin_settings',

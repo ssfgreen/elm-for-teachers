@@ -22,7 +22,7 @@
  */
 import type { FastifyInstance } from 'fastify';
 import { z } from 'zod';
-import { CLASS_FIELD_MAX, CLASS_NAME_MAX, CLASS_NOTE_MAX, PupilFields, PUPILS_PER_CLASS, SchoolYear, Ulid } from '@edw/shared';
+import { CLASS_FIELD_MAX, CLASS_NAME_MAX, CLASS_NOTE_MAX, CurriculumProfile, PupilFields, PUPILS_PER_CLASS, SchoolYear, Ulid } from '@edw/shared';
 import { requireParticipant } from '../auth.js';
 import { Envelope, parseOr400 } from '../http/request.js';
 import type { AppDeps } from '../deps.js';
@@ -39,13 +39,14 @@ import { attachModerationTarget, checkTeacherTextPii } from '../moderation/pii.j
 const Name = z.string().trim().min(1).max(CLASS_NAME_MAX);
 const Field = z.string().max(CLASS_FIELD_MAX).nullable().optional();
 const Note = z.string().max(CLASS_NOTE_MAX).nullable().optional();
+const Profile = CurriculumProfile.nullable().optional();
 const Only = z.object({ envelope: Envelope });
 const NameBody = z.object({ name: Name, envelope: Envelope });
 const YearGroupBody = z.object({ name: Name, school_id: Ulid.optional(), school_year: SchoolYear.optional(), envelope: Envelope });
 const CopyBody = z.object({ year_group_name: Name.optional(), name: Name.optional(), envelope: Envelope });
 const YearGroupUpdate = z.object({ name: Name.optional(), note: Note, envelope: Envelope });
-const ClassBody = z.object({ year_group_id: Ulid, name: Name, stage: Field, subject: Field, note: Note, envelope: Envelope });
-const ClassUpdate = z.object({ year_group_id: Ulid.optional(), name: Name.optional(), stage: Field, subject: Field, note: Note, starred: z.boolean().optional(), envelope: Envelope });
+const ClassBody = z.object({ year_group_id: Ulid, name: Name, stage: Field, subject: Field, note: Note, curriculum_profile: Profile, envelope: Envelope });
+const ClassUpdate = z.object({ year_group_id: Ulid.optional(), name: Name.optional(), stage: Field, subject: Field, note: Note, curriculum_profile: Profile, starred: z.boolean().optional(), envelope: Envelope });
 const PupilsBody = z.object({ pupils: z.array(PupilFields).min(1).max(PUPILS_PER_CLASS), envelope: Envelope });
 const PupilUpdate = PupilFields.extend({ envelope: Envelope });
 const MoveBody = z.object({ to_class_id: Ulid, envelope: Envelope });

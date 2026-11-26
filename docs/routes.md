@@ -124,6 +124,8 @@ Rows marked "none" or "access code" are not called.
 | GET | `/api/sessions/:sessionId/budget` | workspace token | `requireParticipant` | Spend and budget (with top-ups) for "£N left" in the chat (#51). Reads only. |
 | GET | `/api/sessions/:sessionId/preferences` | workspace token | `requireParticipant` |  |
 | POST | `/api/sessions/:sessionId/preferences` | workspace token | `requireParticipant` |  |
+| GET | `/api/sessions/:sessionId/lessons` | workspace token | `requireParticipant` | Onboarding lesson progress keyed on `session_id`. |
+| PUT | `/api/sessions/:sessionId/lessons/:lessonId` | workspace token | `requireParticipant` | Updates onboarding lesson progress for this workspace. |
 | GET | `/api/sessions/:sessionId/pedagogy` | workspace token | `requireParticipant` | Library server. |
 | POST | `/api/sessions/:sessionId/pedagogy/entries` | workspace token | `requireParticipant` | Library server. |
 | POST | `/api/sessions/:sessionId/pedagogy/entry` | workspace token | `requireParticipant` | Library server. |
