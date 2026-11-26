@@ -60,6 +60,7 @@ export const SESSION_TABLES = [
   'budget_topups',
   'assets',
   'events',
+  'content_packs',
   'docs',
   'threads',
   'needs_group_adaptations',

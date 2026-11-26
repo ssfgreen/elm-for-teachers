@@ -5,8 +5,11 @@
  */
 import { useState, type Dispatch, type MutableRefObject, type ReactNode, type RefObject, type SetStateAction } from 'react';
 import type { Doc } from '@edw/shared';
+import type { SessionApi } from '../api/participant';
+import type { Envelope } from '../api/types';
 import { CommentsPanel, type CommentsPanelProps } from '../components/CommentsPanel';
 import { DocHeader } from '../components/DocHeader';
+import { SendToStudentsDialog } from '../components/SendToStudentsDialog';
 import { WordPreview } from '../components/WordPreview';
 import { Splitter } from '../components/Splitter';
 import { Drawer } from '../components/Drawer';
@@ -44,6 +47,8 @@ export interface DocColumnProps {
   exportDoc: (format: ExportFormat) => Promise<void>;
   previewFile: () => Promise<Blob>;
   uploadDocx: (file: File) => Promise<void>;
+  api?: SessionApi;
+  getEnvelope?: () => Envelope;
   notice: Notice;
   setNotice: Dispatch<SetStateAction<Notice>>;
   proposals: boolean;
@@ -67,9 +72,11 @@ export interface DocColumnProps {
 }
 
 export function DocColumn(props: DocColumnProps) {
-  const { canvasRef, layout, inEditor, opener, doc, snap, preview, epoch, loadError, logger, scrollMs, renameDoc, newDoc, duplicateDoc, exportDoc, previewFile, uploadDocx, notice, setNotice, proposals, onDecision } = props;
+  const { canvasRef, layout, inEditor, opener, doc, snap, preview, epoch, loadError, logger, scrollMs, renameDoc, newDoc, duplicateDoc, exportDoc, previewFile, uploadDocx, api, getEnvelope, notice, setNotice, proposals, onDecision } = props;
   const { comments, suggestions, showComments, setCommentsColumn, styleSuggestion, decideStyle, teacherName, structural, onLocalEdit, onSyncError, uploadImage, resolveAssetUrl, setDocStyle, setComment, sendChat, flushEditor } = props;
   const [previewing, setPreviewing] = useState(false);
+  const [sendingPack, setSendingPack] = useState(false);
+  const canSendPack = Boolean(api?.createContentPack && getEnvelope);
 
   return (
     /* `doc-panel` is a hook (canvas.css and the editor's frame look for it). It grows into the
@@ -101,6 +108,7 @@ export function DocColumn(props: DocColumnProps) {
               })
             }
             onPreview={() => setPreviewing(true)}
+            onSendToStudents={canSendPack ? () => setSendingPack(true) : undefined}
             onUpload={(file) => void uploadDocx(file)}
             notice={notice}
             proposals={proposals}
@@ -110,6 +118,9 @@ export function DocColumn(props: DocColumnProps) {
           />
         )}
       </header>
+      {sendingPack && doc && api && getEnvelope && (
+        <SendToStudentsDialog doc={doc} api={api} getEnvelope={getEnvelope} onClose={() => setSendingPack(false)} />
+      )}
       {previewing && doc && (
         <WordPreview
           key={doc.id}

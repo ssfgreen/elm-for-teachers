@@ -62,6 +62,10 @@ Rows marked "none" or "access code" are not called.
 | GET | `/api/sessions/:sessionId/canvas` | workspace token | `requireParticipant` |  |
 | POST | `/api/sessions/:sessionId/blocks/:command` | workspace token | `requireParticipant` |  |
 | GET | `/api/sessions/:sessionId/docs/:docId/comments` | workspace token | `requireParticipant` |  |
+| POST | `/api/sessions/:sessionId/docs/:docId/content-packs` | workspace token | `requireParticipant` | Freezes live blocks and assets into a one-way Content Pack v1 zip (7-day expiry). |
+| GET | `/api/sessions/:sessionId/content-packs` | workspace token | `requireParticipant` | Lists exported packs for this workspace (metadata only, no link codes). |
+| DELETE | `/api/sessions/:sessionId/content-packs/:packId` | workspace token | `requireParticipant` | Revokes a content pack and deletes its stored zip bytes. |
+| GET | `/api/packs/:code` | capability link | `link_code_hash` in the handler | Read-only capability download for Elm for Students; 302 presigned GET (60 s) or zip stream, never burns the code, 410 once expired or revoked. |
 | POST | `/api/sessions/:sessionId/comments` | workspace token | `requireParticipant` |  |
 | POST | `/api/sessions/:sessionId/comments/:commentId/edit` | workspace token | `requireParticipant` |  |
 | POST | `/api/sessions/:sessionId/comments/:commentId/resolve` | workspace token | `requireParticipant` |  |

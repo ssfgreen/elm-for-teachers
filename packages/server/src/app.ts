@@ -15,6 +15,7 @@ import { registerPictureRoutes } from './pictures/routes.js';
 import { registerEventRoutes } from './events/routes.js';
 import { registerCommentRoutes } from './comments/routes.js';
 import { registerExportRoutes } from './export/routes.js';
+import { registerContentPackRoutes } from './content-packs/routes.js';
 import { registerPluginRoutes } from './plugins/routes.js';
 import { registerDraftRoutes } from './plugins/drafts/routes.js';
 import { draftChatFor } from './plugins/drafts/chat.js';
@@ -127,6 +128,7 @@ export async function buildApp(given: AppDeps, opts: BuildAppOptions = {}): Prom
   registerAssetRoutes(app, deps);
   registerPictureRoutes(app, deps);
   registerExportRoutes(app, deps);
+  registerContentPackRoutes(app, deps);
   // registerScrubRoutes (gateway/scrub-routes.ts): off until Sam decides what removal should do (#16).
   registerCommentRoutes(app, deps);
   registerProjectRoutes(app, deps);

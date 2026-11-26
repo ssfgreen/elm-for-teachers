@@ -1,5 +1,5 @@
 import { useRef, type ReactNode } from 'react';
-import { Copy, Eye, MessageSquare, Plus, Upload } from 'lucide-react';
+import { Copy, Eye, MessageSquare, Plus, Send, Upload } from 'lucide-react';
 import type { Doc } from '@edw/shared';
 import { IconButton } from '../editor/Toolbar.js';
 import type { ExportFormat } from '../state/exportDoc';
@@ -19,6 +19,8 @@ export interface DocHeaderProps {
   onExport: (format: ExportFormat) => void;
   /** Show this doc as its Word file, in pages. */
   onPreview?: () => void;
+  /** Export a frozen one-way Content Pack v1 link for Elm for Students. */
+  onSendToStudents?: () => void;
   /** A Word file chosen with "Upload .docx": it becomes a new doc in this chat. */
   onUpload: (file: File) => void;
   /** A line under the title: an import in progress, or what went wrong. */
@@ -40,7 +42,7 @@ const badgeLabel = (threads: number, suggestions: number) =>
   [threads && plural(threads, 'comment thread'), suggestions && plural(suggestions, 'suggestion')].filter(Boolean).join(' and ');
 
 /** The document's name (double-click to rename), a new blank doc, a copy of this one, downloads and Word uploads. */
-export function DocHeader({ doc, onRename, onNew, onDuplicate, onExport, onPreview, onUpload, notice, proposals, onAcceptAll, onRejectAll, comments, lead }: DocHeaderProps) {
+export function DocHeader({ doc, onRename, onNew, onDuplicate, onExport, onPreview, onSendToStudents, onUpload, notice, proposals, onAcceptAll, onRejectAll, comments, lead }: DocHeaderProps) {
   const inKit = useInMakeKit();
   const fileRef = useRef<HTMLInputElement>(null);
 
@@ -89,6 +91,7 @@ export function DocHeader({ doc, onRename, onNew, onDuplicate, onExport, onPrevi
         <IconButton icon={Plus} label="Create new" tipAlign="end" onClick={onNew} />
         <IconButton icon={Copy} label="Duplicate" tipAlign="end" onClick={onDuplicate} />
         {onPreview && <IconButton icon={Eye} label="Preview in Word" tipAlign="end" onClick={onPreview} />}
+        {onSendToStudents && <IconButton icon={Send} label="Send to Elm for Students" tipAlign="end" onClick={onSendToStudents} />}
         <ExportMenu onExport={onExport} />
         <IconButton icon={Upload} label="Upload .docx" tipAlign="end" onClick={() => fileRef.current?.click()} />
         <input

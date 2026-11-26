@@ -10,6 +10,8 @@ export const siteVars = {
   CONFIG_DIR: optional(z.string()),
   TOOL_VERSION: z.preprocess(emptyToUndefined, z.string().default('0.1.0')),
   PUBLIC_BASE_URL: z.preprocess(emptyToUndefined, z.string().url().optional()),
+  /** Optional origin of Elm for Students, used to build Content Pack import links. */
+  STUDENTS_URL: z.preprocess(emptyToUndefined, z.string().url().optional()),
   /**
    * Trust the first X-Forwarded-For entry as the visitor's address: only behind a proxy that
    * replaces any X-Forwarded-For the visitor sent. One that appends to it or passes it through lets
@@ -28,6 +30,8 @@ export interface SiteEnv {
   TOOL_VERSION: string;
   /** Origin for participant links; when unset, links follow the origin the admin request came from. */
   PUBLIC_BASE_URL: string | undefined;
+  /** Optional origin for Elm for Students import links. */
+  STUDENTS_URL?: string;
   /** Whether X-Forwarded-For names the visitor (http/wrong-codes.ts). */
   TRUST_PROXY?: boolean;
   /** How long a request may run; the turn's checks keep inside it (gateway/turn-checks.ts). */
@@ -39,6 +43,7 @@ export interface SiteEnv {
 export function siteSettings(v: Vars<typeof siteVars> & VercelVars, root: string) {
   return {
     PUBLIC_BASE_URL: v.PUBLIC_BASE_URL,
+    STUDENTS_URL: v.STUDENTS_URL ? v.STUDENTS_URL.replace(/\/+$/, '') : undefined,
     TRUST_PROXY: v.TRUST_PROXY === undefined ? vercelTrustsProxy(v) : v.TRUST_PROXY === 'true' || v.TRUST_PROXY === '1',
     CONFIG_DIR: v.CONFIG_DIR ? path.resolve(root, v.CONFIG_DIR) : path.join(root, 'config'),
   };

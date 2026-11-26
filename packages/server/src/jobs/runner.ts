@@ -2,6 +2,7 @@
  * Run due jobs: one at a time with `runOne`, or for as long as a time budget allows with
  * `runFor` (the cron route). The worker (worker.ts, loop.ts) calls `runOne` in a loop.
  */
+import type { Bucket } from '../assets/bucket.js';
 import type { Db } from '../db/client.js';
 import { maxAttemptsFor, type JobKinds } from './kinds.js';
 import { claim, fail, finish } from './store.js';
@@ -13,6 +14,7 @@ export type Outcome = 'done' | 'retry' | 'failed' | 'lost';
 
 export interface RunOptions {
   kinds: JobKinds;
+  bucket?: Bucket | null;
   lockMs?: number;
   /** The clock (tests). */
   now?: () => Date;
@@ -31,7 +33,7 @@ export async function runOne(db: Db, opts: RunOptions): Promise<{ id: string; ki
     return { id: job.id, kind: job.kind, outcome };
   }
   try {
-    await kind.run(job.payload, { db, attempt: job.attempts });
+    await kind.run(job.payload, { db, attempt: job.attempts, bucket: opts.bucket });
   } catch (err) {
     const message = err instanceof Error ? err.message : String(err);
     return { id: job.id, kind: job.kind, outcome: await fail(db, job, message, { maxAttempts, now: now() }) };

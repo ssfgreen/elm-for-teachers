@@ -71,6 +71,7 @@ describe('migrate', () => {
       'classes',
       'comments',
       'config_versions',
+      'content_packs',
       'docs',
       'events',
       'gateway_calls',

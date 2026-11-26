@@ -333,6 +333,7 @@ export function WorkspaceScreen({ session, api, logger, focusState, context, int
       <DocColumn
         canvasRef={canvasRef} layout={layout} inEditor={inEditor} opener={opener} doc={doc} snap={snap} preview={preview} epoch={epoch} loadError={loadError}
         logger={logger} scrollMs={scrollMs} renameDoc={renameDoc} newDoc={newDoc} duplicateDoc={duplicateDoc} exportDoc={exportDoc} previewFile={previewFile} uploadDocx={uploadDocx}
+        api={api} getEnvelope={getEnvelope}
         notice={notice} setNotice={setNotice} proposals={proposals} onDecision={onDecision} comments={comments} suggestions={suggestions} showComments={showComments}
         setCommentsColumn={setCommentsColumn} styleSuggestion={styleSuggestion} decideStyle={decideStyle} teacherName={guestName(session)} structural={structural}
         onLocalEdit={onLocalEdit} onSyncError={onSyncError} uploadImage={uploadImage} resolveAssetUrl={resolveAssetUrl} setDocStyle={setDocStyle}

@@ -2,6 +2,7 @@ import type { ChatUsage, Comment, CommentAnchor, Doc, EditMode, PluginDraft, Plu
 import { convertReference } from '../import/reference.js';
 import type { CanvasChanges, CanvasSnapshot, StructuralCommand, StructuralResponse } from '../editor/types.js';
 import { classesApi, type ClassesApi, type ThreadPlace } from './classes';
+import { contentPacksApi, type ContentPacksApi } from './contentPacks';
 import { needsGroupsApi, type NeedsGroupsApi } from './needsGroups';
 import { pedagogyApi, type PedagogyApi } from './pedagogy';
 import { endpoints } from './endpoints';
@@ -21,7 +22,7 @@ export function fetchSession(token: string, sessionId: string): Promise<SessionI
 export type { PluginDraft } from '@edw/shared';
 
 /** Calls the workspace makes; an interface so tests can supply a mock. Classes are optional (the make kit has none). */
-export interface SessionApi extends Partial<ClassesApi>, Partial<NeedsGroupsApi>, Partial<PedagogyApi> {
+export interface SessionApi extends Partial<ClassesApi>, Partial<ContentPacksApi>, Partial<NeedsGroupsApi>, Partial<PedagogyApi> {
   readonly sessionId: string;
   getCanvas(): Promise<CanvasSnapshot>;
   structural(cmd: StructuralCommand, envelope: Envelope): Promise<StructuralResponse>;
@@ -226,6 +227,7 @@ export function createSessionApi(token: string, sessionId: string, options: Sess
     createThread: (envelope, place) =>
       api<{ thread: Thread; doc: Doc }>('POST', endpoints.threads(sessionId), { envelope, ...(typeof place === 'string' ? { project_id: place } : (place ?? {})) }, opts),
     ...classesApi(sessionId, opts),
+    ...contentPacksApi(sessionId, opts),
     ...needsGroupsApi(sessionId, opts),
     ...pedagogyApi(sessionId, opts),
     listProjects: () => api<{ projects: Project[] }>('GET', endpoints.projects(sessionId), undefined, opts).then((r) => r.projects),
