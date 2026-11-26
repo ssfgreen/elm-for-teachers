@@ -192,6 +192,8 @@ export interface AppDeps {
   libraryClient?: (url: string) => LibraryClient;
   /** How the plugin studio is reached to read a draft's name (tests give a fake); default fetch. */
   studioFetch?: typeof fetch;
+  /** Optional zero-retention model PII classifier (moderation/pii.ts). */
+  piiClassifier?: import('./moderation/pii.js').PiiClassifier | null;
 }
 
 export const PARTICIPANT_TOKEN_QUERY = "token";

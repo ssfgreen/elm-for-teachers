@@ -17,6 +17,7 @@ export interface ClassFields {
   stage?: string | null;
   subject?: string | null;
   note?: string | null;
+  note_check_id?: string | null;
   year_group_id?: string;
   /** One of the teacher's own classes (the sidebar), or not. */
   starred?: boolean;
@@ -36,6 +37,7 @@ export interface NewClass {
   stage?: string | null;
   subject?: string | null;
   note?: string | null;
+  note_check_id?: string | null;
   starred?: boolean;
   copied_from?: string;
   demo?: boolean;
@@ -172,8 +174,8 @@ export function createClassService(db: Db, events: EventStore): ClassService {
           archived_at: null,
         };
         await tx.execute({
-          sql: 'INSERT INTO classes (id, session_id, school_id, school_year, year_group_id, name, stage, subject, note, starred_at, copied_from, created_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)',
-          args: [c.id, sessionId, c.school_id, c.school_year, c.year_group_id, c.name, c.stage, c.subject, c.note, c.starred_at, c.copied_from, c.created_at],
+          sql: 'INSERT INTO classes (id, session_id, school_id, school_year, year_group_id, name, stage, subject, note, note_check_id, starred_at, copied_from, created_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)',
+          args: [c.id, sessionId, c.school_id, c.school_year, c.year_group_id, c.name, c.stage, c.subject, c.note, fields.note_check_id ?? null, c.starred_at, c.copied_from, c.created_at],
         });
         await events.appendServer(
           sessionId,
@@ -201,7 +203,7 @@ export function createClassService(db: Db, events: EventStore): ClassService {
       return db.transaction(async (tx) => {
         const c = await get(sessionId, id, tx);
         if (!c) return null;
-        const changed: ClassFields = {};
+        const changed: Omit<ClassFields, 'note_check_id'> = {};
         if (fields.name !== undefined && fields.name.trim() && fields.name.trim() !== c.name) changed.name = fields.name.trim();
         for (const k of ['stage', 'subject', 'note'] as const) {
           if (fields[k] !== undefined && orNull(fields[k]) !== c[k]) changed[k] = orNull(fields[k]);
@@ -214,14 +216,23 @@ export function createClassService(db: Db, events: EventStore): ClassService {
           place = { school_id: y.school_id, school_year: y.school_year };
         }
         if (fields.starred !== undefined && fields.starred !== !!c.starred_at) changed.starred = fields.starred;
-        if (Object.keys(changed).length === 0) return c;
+        if (Object.keys(changed).length === 0 && fields.note_check_id === undefined) return c;
         const { starred, ...rest } = changed;
         const next: SchoolClass = { ...c, ...rest, ...place, starred_at: starred === undefined ? c.starred_at : starred ? nowIso() : null };
-        await tx.execute({
-          sql: 'UPDATE classes SET name = ?, stage = ?, subject = ?, note = ?, year_group_id = ?, school_id = ?, school_year = ?, starred_at = ? WHERE id = ?',
-          args: [next.name, next.stage, next.subject, next.note, next.year_group_id, next.school_id, next.school_year, next.starred_at, id],
-        });
-        await events.appendServer(sessionId, 'class_update', { class_id: id, ...changed }, envelope, tx);
+        if (fields.note_check_id !== undefined) {
+          await tx.execute({
+            sql: 'UPDATE classes SET name = ?, stage = ?, subject = ?, note = ?, note_check_id = ?, year_group_id = ?, school_id = ?, school_year = ?, starred_at = ? WHERE id = ?',
+            args: [next.name, next.stage, next.subject, next.note, fields.note_check_id, next.year_group_id, next.school_id, next.school_year, next.starred_at, id],
+          });
+        } else {
+          await tx.execute({
+            sql: 'UPDATE classes SET name = ?, stage = ?, subject = ?, note = ?, year_group_id = ?, school_id = ?, school_year = ?, starred_at = ? WHERE id = ?',
+            args: [next.name, next.stage, next.subject, next.note, next.year_group_id, next.school_id, next.school_year, next.starred_at, id],
+          });
+        }
+        if (Object.keys(changed).length > 0) {
+          await events.appendServer(sessionId, 'class_update', { class_id: id, ...changed }, envelope, tx);
+        }
         return next;
       });
     },

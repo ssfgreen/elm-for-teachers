@@ -17,6 +17,7 @@ import { requireParticipant } from '../auth.js';
 import type { AppDeps } from '../deps.js';
 import { HttpError, notFound } from '../http-error.js';
 import { Envelope, parseOr400 } from '../http/request.js';
+import { attachModerationTarget, checkTeacherTextPii } from '../moderation/pii.js';
 import { createNeedsGroupStore } from './store.js';
 
 const CreateBody = NeedsGroupInput.extend({ envelope: Envelope });
@@ -33,6 +34,8 @@ const UpdateAdaptationBody = z.object({
 type GroupId = { Params: { sessionId: string; id: string } };
 type GroupClassId = { Params: { sessionId: string; id: string; classId: string } };
 type GroupAdaptationId = { Params: { sessionId: string; id: string; adaptationId: string } };
+
+const joinText = (...parts: (string | null | undefined)[]) => parts.filter((p) => p && p.trim()).join('\n');
 
 export function registerNeedsGroupRoutes(app: FastifyInstance, deps: AppDeps): void {
   const store = createNeedsGroupStore(deps.db);
@@ -54,12 +57,38 @@ export function registerNeedsGroupRoutes(app: FastifyInstance, deps: AppDeps): v
 
   app.post(base, guard, async (req, reply) => {
     const { name, description, what_helps, class_ids } = parseOr400(CreateBody, req.body);
-    return reply.code(201).send({ group: await store.create(req.session!.session_id, { name, description, what_helps, class_ids }) });
+    const sid = req.session!.session_id;
+    const { checkId } = await checkTeacherTextPii({
+      db: deps.db,
+      sessionId: sid,
+      targetKind: 'needs_group',
+      text: joinText(name, description, what_helps),
+      zeroRetention: deps.loaded.config.provider.zero_retention,
+      classifier: deps.piiClassifier,
+    });
+    const group = await store.create(sid, { name, description, what_helps, class_ids }, checkId);
+    if (checkId) await attachModerationTarget(deps.db, checkId, group.id);
+    return reply.code(201).send({ group });
   });
 
   app.post<GroupId>(`${base}/:id/update`, guard, async (req) => {
     const { name, description, what_helps, position } = parseOr400(UpdateBody, req.body);
-    return { group: found(await store.update(req.session!.session_id, req.params.id, { name, description, what_helps, position }), 'needs group') };
+    const sid = req.session!.session_id;
+    const hasText = name !== undefined || description !== undefined || what_helps !== undefined;
+    let checkId: string | null | undefined;
+    if (hasText) {
+      const checked = await checkTeacherTextPii({
+        db: deps.db,
+        sessionId: sid,
+        targetKind: 'needs_group',
+        targetId: req.params.id,
+        text: joinText(name, description, what_helps),
+        zeroRetention: deps.loaded.config.provider.zero_retention,
+        classifier: deps.piiClassifier,
+      });
+      checkId = checked.checkId;
+    }
+    return { group: found(await store.update(sid, req.params.id, { name, description, what_helps, position }, checkId), 'needs group') };
   });
 
   app.post<GroupId>(`${base}/:id/archive`, guard, async (req) => {

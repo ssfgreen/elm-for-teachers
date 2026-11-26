@@ -34,6 +34,7 @@ import { addDemoClass } from './demo-seed.js';
 import { createPupilService } from './pupils.js';
 import { createSchoolStore } from './schools.js';
 import { createClassService } from './service.js';
+import { attachModerationTarget, checkTeacherTextPii } from '../moderation/pii.js';
 
 const Name = z.string().trim().min(1).max(CLASS_NAME_MAX);
 const Field = z.string().max(CLASS_FIELD_MAX).nullable().optional();
@@ -106,7 +107,20 @@ export function registerClassRoutes(app: FastifyInstance, deps: AppDeps): void {
 
   app.post(`${base}/classes`, guard, async (req, reply) => {
     const { envelope, ...fields } = parseOr400(ClassBody, req.body);
-    return reply.code(201).send({ class: await classes.create(req.session!.session_id, fields, envelope) });
+    const sid = req.session!.session_id;
+    const { checkId } = fields.note
+      ? await checkTeacherTextPii({
+          db: deps.db,
+          sessionId: sid,
+          targetKind: 'class_note',
+          text: fields.note,
+          zeroRetention: deps.loaded.config.provider.zero_retention,
+          classifier: deps.piiClassifier,
+        })
+      : { checkId: null };
+    const created = await classes.create(sid, { ...fields, ...(checkId ? { note_check_id: checkId } : {}) }, envelope);
+    if (checkId) await attachModerationTarget(deps.db, checkId, created.id);
+    return reply.code(201).send({ class: created });
   });
 
   // The demo class goes into its own fictional school (made once), in this school year, starred.
@@ -118,7 +132,30 @@ export function registerClassRoutes(app: FastifyInstance, deps: AppDeps): void {
 
   app.post<Id>(`${base}/classes/:id/update`, guard, async (req) => {
     const { envelope, ...fields } = parseOr400(ClassUpdate, req.body);
-    return { class: found(await classes.update(req.session!.session_id, req.params.id, fields, envelope), 'class') };
+    const sid = req.session!.session_id;
+    let note_check_id: string | null | undefined;
+    if (fields.note !== undefined) {
+      if (fields.note && fields.note.trim()) {
+        const { checkId } = await checkTeacherTextPii({
+          db: deps.db,
+          sessionId: sid,
+          targetKind: 'class_note',
+          targetId: req.params.id,
+          text: fields.note,
+          zeroRetention: deps.loaded.config.provider.zero_retention,
+          classifier: deps.piiClassifier,
+        });
+        note_check_id = checkId;
+      } else {
+        note_check_id = null;
+      }
+    }
+    return {
+      class: found(
+        await classes.update(sid, req.params.id, { ...fields, ...(note_check_id !== undefined ? { note_check_id } : {}) }, envelope),
+        'class',
+      ),
+    };
   });
 
   app.post<Id>(`${base}/classes/:id/copy`, guard, async (req, reply) => {

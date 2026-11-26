@@ -76,6 +76,7 @@ describe('migrate', () => {
       'gateway_calls',
       'jobs',
       'make_boards',
+      'moderation_checks',
       'needs_group_adaptations',
       'needs_group_classes',
       'needs_groups',

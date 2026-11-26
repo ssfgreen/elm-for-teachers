@@ -103,8 +103,8 @@ export async function getNeedsGroup(db: Db, sessionId: string, groupId: string):
 export interface NeedsGroupStore {
   list(sessionId: string): Promise<NeedsGroupSummary[]>;
   get(sessionId: string, groupId: string): Promise<NeedsGroupSummary | null>;
-  create(sessionId: string, input: NeedsGroupInput): Promise<NeedsGroupSummary>;
-  update(sessionId: string, groupId: string, patch: NeedsGroupUpdate): Promise<NeedsGroupSummary | null>;
+  create(sessionId: string, input: NeedsGroupInput, checkId?: string | null): Promise<NeedsGroupSummary>;
+  update(sessionId: string, groupId: string, patch: NeedsGroupUpdate, checkId?: string | null): Promise<NeedsGroupSummary | null>;
   archive(sessionId: string, groupId: string): Promise<NeedsGroupSummary | null>;
   attachClass(sessionId: string, groupId: string, classId: string): Promise<NeedsGroupSummary | null>;
   detachClass(sessionId: string, groupId: string, classId: string): Promise<NeedsGroupSummary | null>;
@@ -133,7 +133,7 @@ export function createNeedsGroupStore(db: Db): NeedsGroupStore {
 
     get: (sessionId, groupId) => getNeedsGroup(db, sessionId, groupId),
 
-    create(sessionId, input) {
+    create(sessionId, input, checkId = null) {
       return db.transaction(async (tx) => {
         const count = await tx.execute({ sql: 'SELECT COUNT(*) AS n FROM needs_groups WHERE session_id = ? AND archived_at IS NULL', args: [sessionId] });
         if (Number(count.rows[0]?.n ?? 0) >= NEEDS_GROUPS_PER_SESSION) {
@@ -155,8 +155,8 @@ export function createNeedsGroupStore(db: Db): NeedsGroupStore {
           archived_at: null,
         };
         await tx.execute({
-          sql: 'INSERT INTO needs_groups (id, session_id, name, description, what_helps, position, created_at, updated_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?)',
-          args: [g.id, sessionId, g.name, g.description, g.what_helps, g.position, at, at],
+          sql: 'INSERT INTO needs_groups (id, session_id, name, description, what_helps, position, check_id, created_at, updated_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)',
+          args: [g.id, sessionId, g.name, g.description, g.what_helps, g.position, checkId, at, at],
         });
         const uniqueClasses = [...new Set(input.class_ids ?? [])];
         for (const classId of uniqueClasses) {
@@ -170,7 +170,7 @@ export function createNeedsGroupStore(db: Db): NeedsGroupStore {
       });
     },
 
-    update(sessionId, groupId, patch) {
+    update(sessionId, groupId, patch, checkId) {
       return db.transaction(async (tx) => {
         const g = await loadOne(tx, sessionId, groupId);
         if (!g) return null;
@@ -182,10 +182,17 @@ export function createNeedsGroupStore(db: Db): NeedsGroupStore {
           position: patch.position !== undefined ? patch.position : g.position,
           updated_at: nowIso(),
         };
-        await tx.execute({
-          sql: 'UPDATE needs_groups SET name = ?, description = ?, what_helps = ?, position = ?, updated_at = ? WHERE id = ?',
-          args: [next.name, next.description, next.what_helps, next.position, next.updated_at, groupId],
-        });
+        if (checkId !== undefined) {
+          await tx.execute({
+            sql: 'UPDATE needs_groups SET name = ?, description = ?, what_helps = ?, position = ?, check_id = ?, updated_at = ? WHERE id = ?',
+            args: [next.name, next.description, next.what_helps, next.position, checkId, next.updated_at, groupId],
+          });
+        } else {
+          await tx.execute({
+            sql: 'UPDATE needs_groups SET name = ?, description = ?, what_helps = ?, position = ?, updated_at = ? WHERE id = ?',
+            args: [next.name, next.description, next.what_helps, next.position, next.updated_at, groupId],
+          });
+        }
         const [hydrated] = await hydrate(tx, sessionId, [next]);
         return hydrated ?? null;
       });

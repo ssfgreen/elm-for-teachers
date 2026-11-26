@@ -73,6 +73,7 @@ export const SESSION_TABLES = [
   'removed_pupils',
   'class_pupils',
   'classes',
+  'moderation_checks',
   'year_groups',
   'schools',
   'projects',
