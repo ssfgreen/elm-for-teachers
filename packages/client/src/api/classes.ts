@@ -1,6 +1,5 @@
 /** The workspace's classes (docs/classes.md): year groups, classes and their pupils' needs. */
-import type { AdaptationPick, AdaptationStatus, ClassReaderSettings, ClassReaderSettingsPatch, ClassesList, CurriculumBenchmark, CurriculumItem, CurriculumOption, CurriculumPick, CurriculumStatus, Pupil, PupilAdaptation, PupilFields, School, SchoolClass, YearGroup } from '@edw/shared';
-import { endpoints } from './endpoints';
+import type { AdaptationPick, AdaptationStatus, ClassesList, CurriculumBenchmark, CurriculumItem, CurriculumOption, CurriculumPick, CurriculumStatus, Pupil, PupilAdaptation, PupilFields, School, SchoolClass, YearGroup } from '@edw/shared';
 import { api, type ApiOptions } from './http';
 import type { Envelope } from './types';
 
@@ -74,10 +73,6 @@ export interface ClassesApi {
   addAdaptation(classId: string, pupilId: string, pick: AdaptationPick, envelope: Envelope): Promise<PupilAdaptation>;
   updateAdaptation(classId: string, id: string, fields: { status?: AdaptationStatus; overrides?: string | null }, envelope: Envelope): Promise<PupilAdaptation>;
   removeAdaptation(classId: string, id: string, envelope: Envelope): Promise<PupilAdaptation>;
-  /** The pupil reader's settings: values in force, config's defaults, which the teacher set. */
-  getReaderSettings(classId: string): Promise<ClassReaderSettings>;
-  /** A number sets a field, null goes back to the default, a field left out stays. */
-  setReaderSettings(classId: string, patch: ClassReaderSettingsPatch, envelope: Envelope): Promise<ClassReaderSettings>;
 }
 
 export function classesApi(sessionId: string, opts: ApiOptions): ClassesApi {
@@ -110,7 +105,5 @@ export function classesApi(sessionId: string, opts: ApiOptions): ClassesApi {
     addAdaptation: (classId, pupilId, pick, envelope) => post<{ adaptation: PupilAdaptation }>(`${cls(classId)}/pupils/${e(pupilId)}/adaptations`, { ...pick, envelope }).then((r) => r.adaptation),
     updateAdaptation: (classId, id, fields, envelope) => post<{ adaptation: PupilAdaptation }>(`${cls(classId)}/adaptations/${e(id)}/update`, { ...fields, envelope }).then((r) => r.adaptation),
     removeAdaptation: (classId, id, envelope) => post<{ adaptation: PupilAdaptation }>(`${cls(classId)}/adaptations/${e(id)}/remove`, { envelope }).then((r) => r.adaptation),
-    getReaderSettings: (classId) => api<{ settings: ClassReaderSettings }>('GET', endpoints.classReaderSettings(sessionId, classId), undefined, opts).then((r) => r.settings),
-    setReaderSettings: (classId, patch, envelope) => post<{ settings: ClassReaderSettings }>(endpoints.classReaderSettings(sessionId, classId), { ...patch, envelope }).then((r) => r.settings),
   };
 }

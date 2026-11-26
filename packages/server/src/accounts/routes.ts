@@ -23,7 +23,6 @@ import { createAdminStore } from './admins.js';
 import { admit, type Refusal } from './policy.js';
 import { providersFromEnv, publicProvider, type ProviderSettings } from './providers.js';
 import { createAccountStore, SIGN_IN_DAYS, type AccountStore } from './store.js';
-import { createPupilStore } from '../pupils/store.js';
 
 /** Why /signin was sent back to: the client shows a message for each. */
 export type SignInError = Refusal | 'cancelled' | 'provider_error' | 'failed';
@@ -35,8 +34,6 @@ const NoticeBody = z.object({ version: z.string().trim().min(1).max(40) });
 export function registerSignInRoutes(app: FastifyInstance, deps: AppDeps): void {
   const accounts: AccountStore = deps.accounts ?? createAccountStore(deps.db, deps.sessions);
   const admins = createAdminStore(deps.db);
-  // Someone known as a pupil is refused here (policy.ts).
-  const pupils = deps.pupils ?? createPupilStore(deps.db);
   const { AUTH_SECRET: secret, AUTH_BASE_URL: base } = deps.env;
   const settings: ProviderSettings[] = secret && base ? (deps.signIn?.providers ?? providersFromEnv(deps.env)) : [];
   const providers = new Map<string, OidcProvider>(settings.map((s) => [s.id, createOidcProvider(s, { fetch: deps.signIn?.fetch })]));
@@ -96,7 +93,7 @@ export function registerSignInRoutes(app: FastifyInstance, deps: AppDeps): void 
     } catch (err) {
       return refuse(req, reply, 'failed', err);
     }
-    const result = await admit(accounts, provider.settings, who, state.invite, doors, pupils);
+    const result = await admit(accounts, provider.settings, who, state.invite, doors);
     if (!result.ok) return refuse(req, reply, result.reason);
 
     // A sign-in this browser already had is ended, not left working beside the new one.

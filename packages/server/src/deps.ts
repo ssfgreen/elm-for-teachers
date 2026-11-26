@@ -13,9 +13,6 @@ import type { Env } from "./env.js";
 import type { LibraryClient } from "./plugins/library-client.js";
 import type { AccountStore } from "./accounts/store.js";
 import type { ProviderSettings } from "./accounts/providers.js";
-import type { PupilStore } from "./pupils/store.js";
-import type { ClassJoinStore } from "./class-joins/store.js";
-import type { PupilLoginStore } from "./pupil-logins/store.js";
 
 /* -------------------------------------------------------------- sessions */
 
@@ -182,12 +179,6 @@ export interface AppDeps {
   sessions: SessionService;
   /** Teacher accounts and invites (accounts/store.ts); built from `db` and `sessions` when not given. */
   accounts?: AccountStore;
-  /** Pupils who sign in on the pupil page (pupils/store.ts); built from `db` when not given. */
-  pupils?: PupilStore;
-  /** Class codes and class members (class-joins/store.ts); built from `db` and `events` when not given. */
-  classJoins?: ClassJoinStore;
-  /** Pupil logins the teacher makes (pupil-logins/store.ts); built from `db` and `events` when not given. */
-  pupilLogins?: PupilLoginStore;
   /** Sign-in providers (accounts/providers.ts); from the environment when not given. `fetch` replaces fetch to the issuers (tests). */
   signIn?: { providers?: ProviderSettings[]; fetch?: typeof fetch };
   threads: ThreadService;

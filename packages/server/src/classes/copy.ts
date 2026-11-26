@@ -12,7 +12,6 @@ import type { Db } from '../db/client.js';
 import type { EventStore, ServerEnvelope } from '../deps.js';
 import { notFound } from '../http-error.js';
 import { createPupilService } from './pupils.js';
-import { copyReaderSettings, type ReaderDefaults } from './reader-settings.js';
 import { createClassService } from './service.js';
 
 export interface CopyFields {
@@ -21,7 +20,7 @@ export interface CopyFields {
   name?: string;
 }
 
-export function copyToNextYear(db: Db, events: EventStore, reader: ReaderDefaults, sessionId: string, classId: string, fields: CopyFields, envelope: ServerEnvelope): Promise<SchoolClass> {
+export function copyToNextYear(db: Db, events: EventStore, sessionId: string, classId: string, fields: CopyFields, envelope: ServerEnvelope): Promise<SchoolClass> {
   const classes = createClassService(db, events);
   const pupils = createPupilService(db, events);
   return db.transaction(async (tx) => {
@@ -39,7 +38,6 @@ export function copyToNextYear(db: Db, events: EventStore, reader: ReaderDefault
     );
     const rows = await pupils.list(sessionId, from.id, tx);
     if (rows.length) await pupils.add(sessionId, made.id, rows.map(({ label, helps, note }) => ({ label, helps, note })), envelope, tx);
-    await copyReaderSettings(tx, events, reader, sessionId, from.id, made.id, envelope);
     return made;
   });
 }

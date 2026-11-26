@@ -13,9 +13,8 @@ import { HttpError } from '../http-error.js';
 import type { SignedInIdentity } from './oidc.js';
 import type { ProviderSettings } from './providers.js';
 import type { Account, AccountStore } from './store.js';
-import type { PupilStore } from '../pupils/store.js';
 
-export type Refusal = 'not_allowed' | 'invite_unknown' | 'invite_used' | 'invite_expired' | 'pupil_account';
+export type Refusal = 'not_allowed' | 'invite_unknown' | 'invite_used' | 'invite_expired';
 
 export interface OpenDoors {
   microsoftTenants: readonly string[];
@@ -39,9 +38,7 @@ export async function admit(
   who: SignedInIdentity,
   invite: string | null,
   doors: OpenDoors,
-  pupils: Pick<PupilStore, 'findPupil'>,
 ): Promise<Admission> {
-  if (await pupils.findPupil(who.provider, who.subject)) return { ok: false, reason: 'pupil_account' };
   const identity = { provider: who.provider, subject: who.subject, email: who.email, displayName: who.displayName };
   // First: claimInvite hands back an existing account without looking at the code, so its 404
   // would not mean "bad code" for someone who already has one.

@@ -19,7 +19,6 @@ import { ClassLists } from './ClassLists';
 import { StarButton } from './ClassesTable';
 import { ClassSidebar } from './ClassSidebar';
 import { CopyToNextYear } from './CopyToNextYear';
-import { ViewAsPupilButton } from './view-as-pupil/ViewAsPupilButton';
 import { cn } from '../../lib/utils';
 import { screenClass } from './styles';
 import type { Classes } from './useClasses';
@@ -105,7 +104,6 @@ export function ClassPage({
             toYear={nextSchoolYear(cls.school_year)}
             onCopy={(fields) => classes.copyClass(cls.id, fields)}
           />
-          <ViewAsPupilButton classId={cls.id} archived={!!cls.archived_at} api={api} getEnvelope={getEnvelope} />
           <ArchiveButton what="class" onArchive={() => classes.archiveClass(cls.id)} />
         </header>
         <div className="flex items-start gap-8 @max-[62rem]:flex-col @max-[62rem]:items-stretch">

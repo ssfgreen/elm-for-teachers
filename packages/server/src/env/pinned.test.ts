@@ -62,7 +62,6 @@ const ALL: Record<string, string> = {
   AUTH_TEST_ISSUER: 'http://127.0.0.1:9999',
   AUTH_TEST_CLIENT_ID: 'tid',
   AUTH_TEST_CLIENT_SECRET: 'tsecret',
-  PUPILS: 'off',
 };
 
 function setAll(except: string[] = []) {
@@ -115,7 +114,6 @@ describe('env settings, pinned', () => {
         PORT: 4000,
         PROVIDER: 'elm',
         PUBLIC_BASE_URL: 'https://study.example.org/x',
-        PUPILS: 'off',
         REPO_ROOT: root,
         S3_ACCESS_KEY_ID: 's3-id',
         S3_BUCKET: 'bucket',

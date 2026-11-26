@@ -17,7 +17,6 @@ import { PARTICIPANT_TOKEN_QUERY, type AppDeps, type SessionRow } from './deps.j
 import { cookieNames, readCookie } from './accounts/cookies.js';
 import { createAdminStore } from './accounts/admins.js';
 import type { Account, AccountStore } from './accounts/store.js';
-import type { Pupil, PupilStore } from './pupils/store.js';
 import type { DeployEnv } from './env.js';
 import { vercelDeployEnv } from './env/vercel.js';
 
@@ -36,10 +35,6 @@ declare module 'fastify' {
     signInId?: string;
     /** Set by `requireAdmin`. */
     admin?: AdminCaller;
-    /** Set by `requirePupil`: the signed-in pupil. */
-    pupil?: Pupil;
-    /** Set by `requirePupil`: the pupil sign-in cookie's id (sign-out ends it). */
-    pupilSignInId?: string;
   }
 }
 
@@ -169,24 +164,9 @@ export function requireAccount(accounts: Pick<AccountStore, 'accountForSignIn'>,
 }
 
 /**
- * Pupil guard: the pupil sign-in cookie (named `cookie`, pupils/cookies.ts) must name a pupil
- * sign-in that has not ended or expired. A teacher's sign-in is not one. Sets `request.pupil`.
- */
-export function requirePupil(pupils: Pick<PupilStore, 'pupilForSignIn'>, cookie: string): preHandlerAsyncHookHandler {
-  return async function (req, reply) {
-    const id = readCookie(req, cookie);
-    if (!id) return deny(reply, 401, 'pupil sign-in required');
-    const pupil = await pupils.pupilForSignIn(id);
-    if (!pupil) return deny(reply, 401, 'pupil sign-in required');
-    req.pupil = pupil;
-    req.pupilSignInId = id;
-  };
-}
-
-/**
  * The URL as the request log shows it. Sign-in addresses lose their query string: it carries an
  * invite code, the provider's code and state, and the provider's own error text.
  */
 export function logUrl(url: string): string {
-  return url.startsWith('/api/auth/') || url.startsWith('/api/pupil/auth/') ? (url.split('?')[0] ?? url) : url;
+  return url.startsWith('/api/auth/') ? (url.split('?')[0] ?? url) : url;
 }

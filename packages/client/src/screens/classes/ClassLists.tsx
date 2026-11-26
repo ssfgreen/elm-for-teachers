@@ -4,11 +4,9 @@
  */
 import type { ClassSummary, Thread } from '@edw/shared';
 import type { SessionApi } from '../../api/participant';
-import { hasReadings } from '../../api/readings';
 import type { Envelope } from '../../api/types';
 import { ChatList } from './ChatList';
 import { PupilTable } from './PupilTable';
-import { ReadingsSection } from './readings/ReadingsSection';
 import type { Classes } from './useClasses';
 
 export interface ClassListsProps {
@@ -37,7 +35,6 @@ export function ClassLists({
         onOpenChat={onOpenChat}
         empty={`No chats yet. Start one with the chat box: the assistant will know it is for ${cls.name}.`}
       />
-      {hasReadings(api) && <ReadingsSection classId={cls.id} api={api} getEnvelope={getEnvelope} />}
       <PupilTable
         classId={cls.id}
         otherClasses={otherClasses}

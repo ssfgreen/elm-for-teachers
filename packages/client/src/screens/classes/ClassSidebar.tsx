@@ -1,7 +1,7 @@
 /**
  * The sidebar on the right of a class's page (under the lists on a narrow screen): the class's
  * details, the box that starts a chat for it (high up, so it is on the first screen), the note about
- * it, its curriculum, the class code for pupils, the pupil logins, the pupils who joined, the pupil reader's settings, and what is kept.
+ * it, its curriculum, and what is kept.
  */
 import type { ReactNode } from 'react';
 import type { ClassSummary, YearGroup } from '@edw/shared';
@@ -10,10 +10,6 @@ import type { SessionApi } from '../../api/participant';
 import type { Envelope } from '../../api/types';
 import { SavedText } from '../../components/SavedText';
 import { CurriculumCard } from './CurriculumCard';
-import { ReaderSettingsCard } from './ReaderSettingsCard';
-import { ClassCodeCard } from './pupil-sign-in/ClassCodeCard';
-import { JoinedPupilsCard } from './pupil-sign-in/JoinedPupilsCard';
-import { PupilLoginsCard } from './pupil-sign-in/PupilLoginsCard';
 import { startLevel } from './curriculumView';
 import { cardClass, cardTitleClass, fieldClass, hintClass } from './styles';
 import type { Classes } from './useClasses';
@@ -133,10 +129,6 @@ export function ClassSidebar({
         onChanged={() => void classes.refresh()}
         onIdeas={onIdeas}
       />
-      <ClassCodeCard key={`cc-${cls.id}`} classId={cls.id} archived={!!cls.archived_at} api={api} getEnvelope={getEnvelope} />
-      <PupilLoginsCard key={`pl-${cls.id}`} classId={cls.id} name={cls.name} archived={!!cls.archived_at} api={api} getEnvelope={getEnvelope} />
-      <JoinedPupilsCard key={`jp-${cls.id}`} classId={cls.id} archived={!!cls.archived_at} api={api} getEnvelope={getEnvelope} />
-      <ReaderSettingsCard key={`rs-${cls.id}`} classId={cls.id} api={api} getEnvelope={getEnvelope} />
       <section className={cardClass} aria-label="What is kept">
         <h2 className={cardTitleClass}>What is kept</h2>
         <p className={hintClass}>

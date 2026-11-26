@@ -18,7 +18,6 @@ import { checkAuth, signInSettings, signInVars, type SignInEnv } from './env/sig
 import { siteSettings, siteVars, type SiteEnv } from './env/site.js';
 import { studioVars, type StudioEnv } from './env/studio.js';
 import { vercelVars, type VercelEnv } from './env/vercel.js';
-import { pupilsVars, type PupilsEnv } from './pupils/env.js';
 
 export { findRepoRoot };
 export type { DeployEnv } from './env/admin.js';
@@ -34,13 +33,12 @@ const EnvSchema = z.object({
   ...jobsVars,
   ...vercelVars,
   ...signInVars,
-  ...pupilsVars,
 });
 
 /** Every variable loadEnv reads, so tests can empty them all. */
 export const ENV_KEYS: readonly string[] = Object.keys(EnvSchema.shape);
 
-export interface Env extends DatabaseEnv, ModelEnv, AdminEnv, SiteEnv, BucketEnv, LibraryEnv, StudioEnv, JobsEnv, VercelEnv, SignInEnv, PupilsEnv {
+export interface Env extends DatabaseEnv, ModelEnv, AdminEnv, SiteEnv, BucketEnv, LibraryEnv, StudioEnv, JobsEnv, VercelEnv, SignInEnv {
   REPO_ROOT: string;
 }
 

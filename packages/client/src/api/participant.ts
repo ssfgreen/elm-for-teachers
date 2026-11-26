@@ -2,12 +2,7 @@ import type { ChatUsage, Comment, CommentAnchor, Doc, EditMode, PluginDraft, Plu
 import { convertReference } from '../import/reference.js';
 import type { CanvasChanges, CanvasSnapshot, StructuralCommand, StructuralResponse } from '../editor/types.js';
 import { classesApi, type ClassesApi, type ThreadPlace } from './classes';
-import { classCodeApi, type ClassCodeApi } from './classCode';
-import { viewAsPupilApi, type ViewAsPupilApi } from './viewAsPupil';
-import { classMembersApi, type ClassMembersApi } from './classMembers';
-import { pupilLoginsApi, type PupilLoginsApi } from './pupilLogins';
 import { pedagogyApi, type PedagogyApi } from './pedagogy';
-import { readingsApi, type ReadingsApi } from './readings';
 import { endpoints } from './endpoints';
 import { api, apiLines } from './http';
 import type { SpyglassResult } from '@edw/shared';
@@ -25,7 +20,7 @@ export function fetchSession(token: string, sessionId: string): Promise<SessionI
 export type { PluginDraft } from '@edw/shared';
 
 /** Calls the workspace makes; an interface so tests can supply a mock. Classes are optional (the make kit has none). */
-export interface SessionApi extends Partial<ClassesApi>, Partial<PedagogyApi>, Partial<ReadingsApi>, Partial<ClassCodeApi>, Partial<ClassMembersApi>, Partial<PupilLoginsApi>, Partial<ViewAsPupilApi> {
+export interface SessionApi extends Partial<ClassesApi>, Partial<PedagogyApi> {
   readonly sessionId: string;
   getCanvas(): Promise<CanvasSnapshot>;
   structural(cmd: StructuralCommand, envelope: Envelope): Promise<StructuralResponse>;
@@ -231,11 +226,6 @@ export function createSessionApi(token: string, sessionId: string, options: Sess
       api<{ thread: Thread; doc: Doc }>('POST', endpoints.threads(sessionId), { envelope, ...(typeof place === 'string' ? { project_id: place } : (place ?? {})) }, opts),
     ...classesApi(sessionId, opts),
     ...pedagogyApi(sessionId, opts),
-    ...readingsApi(sessionId, opts),
-    ...classCodeApi(sessionId, opts),
-    ...classMembersApi(sessionId, opts),
-    ...pupilLoginsApi(sessionId, opts),
-    ...viewAsPupilApi(sessionId, opts),
     listProjects: () => api<{ projects: Project[] }>('GET', endpoints.projects(sessionId), undefined, opts).then((r) => r.projects),
     createProject: (fields, envelope) => api<{ project: Project }>('POST', endpoints.projects(sessionId), { ...fields, envelope }, opts).then((r) => r.project),
     updateProject: (projectId, fields, envelope) => api<{ project: Project }>('POST', endpoints.project(sessionId, projectId, 'update'), { ...fields, envelope }, opts).then((r) => r.project),

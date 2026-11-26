@@ -41,30 +41,6 @@ export const endpoints = {
   plugin: (sessionId: string, pluginId: string, action: 'trust' | 'allow') => `/sessions/${e(sessionId)}/plugins/${e(pluginId)}/${action}`,
   /** GET lists the workspace's studio drafts, POST {address} adds one; with an id, DELETE removes it. */
   pluginDrafts: (sessionId: string, draftId?: string) => `/sessions/${e(sessionId)}/plugin-drafts${draftId ? `/${e(draftId)}` : ''}`,
-  /** The reader's prompt library: GET lists it, POST adds one; with an id, PATCH changes it, DELETE removes it. */
-  readerPrompts: (sessionId: string, promptId?: string) => `/sessions/${e(sessionId)}/reader-prompts${promptId ? `/${e(promptId)}` : ''}`,
-  /** A class's readings: GET lists them, POST sets one; with an id, PATCH changes it, DELETE removes it. */
-  readings: (sessionId: string, classId: string, readingId?: string) => `/sessions/${e(sessionId)}/classes/${e(classId)}/readings${readingId ? `/${e(readingId)}` : ''}`,
-  /** GET: the docs a reading can be set from (name and chat title, newest first). */
-  readingSources: (sessionId: string) => `/sessions/${e(sessionId)}/reading-sources`,
-  /** PUT {prompt_ids}: the library in a new order (every id once). */
-  readerPromptOrder: (sessionId: string) => `/sessions/${e(sessionId)}/reader-prompts/order`,
-  /** A class's pupil reader settings (#186): GET reads them, POST {follow_ups_max?, pupil_budget_gbp?} changes them. */
-  classReaderSettings: (sessionId: string, classId: string) => `/sessions/${e(sessionId)}/classes/${e(classId)}/reader-settings`,
-  /** A class's code for pupils (#209): GET reads it ({code}), POST {action: make | renew | close, envelope} changes it. */
-  classCode: (sessionId: string, classId: string) => `/sessions/${e(sessionId)}/classes/${e(classId)}/code`,
-  /** GET: the pupils who joined the class with its code (#209): id, label, provider, joined_on. */
-  classMembers: (sessionId: string, classId: string) => `/sessions/${e(sessionId)}/classes/${e(classId)}/members`,
-  /** POST {envelope}: signs this browser in as the class's test pupil (#215), for /r. */
-  viewAsPupil: (sessionId: string, classId: string) => `/sessions/${e(sessionId)}/classes/${e(classId)}/view-as-pupil`,
-  /** DELETE {envelope}: removes the pupil from the class (#220); 409 test_pupil for the teacher's test member. */
-  classMember: (sessionId: string, classId: string, memberId: string) => `/sessions/${e(sessionId)}/classes/${e(classId)}/members/${e(memberId)}`,
-  /** A class's pupil logins (#223): GET lists them, POST {count, envelope} makes 1 to 40 (the only answer with passwords). */
-  pupilLogins: (sessionId: string, classId: string) => `/sessions/${e(sessionId)}/classes/${e(classId)}/logins`,
-  /** DELETE: a login never used (409 login_used once used). */
-  pupilLogin: (sessionId: string, classId: string, loginId: string) => `/sessions/${e(sessionId)}/classes/${e(classId)}/logins/${e(loginId)}`,
-  /** POST {envelope}: a new password for one login (#246), the answer holds it; unlocks and signs the pupil out. */
-  pupilLoginPassword: (sessionId: string, classId: string, loginId: string) => `/sessions/${e(sessionId)}/classes/${e(classId)}/logins/${e(loginId)}/password`,
   /** POST {name} renames, POST /archive archives. */
   project: (sessionId: string, projectId: string, action: 'rename' | 'update' | 'archive' | 'delete') => `/sessions/${e(sessionId)}/projects/${e(projectId)}/${action}`,
   /** GET lists a project's reference files (with the limits); POST adds one (its text). */
@@ -96,18 +72,6 @@ export const endpoints = {
   /** POST {version}: the "Before you start" notice was ticked. */
   accountNotice: () => `/account/notice`,
   signOut: () => `/auth/sign-out`,
-
-  /* pupil's reader (#213), with the pupil sign-in cookie: never a workspace path */
-  /** GET: `{ readings }` of the pupil's open classes, newest first. */
-  pupilReadings: () => `/pupil/readings`,
-  /** GET: `{ reading }`: the frozen copy, its prompts (labels only) and the follow-up limit. */
-  pupilReading: (readingId: string) => `/pupil/readings/${e(readingId)}`,
-  /** GET lists the pupil's highlights, POST {block_id, start, end, category} adds one; with an id, DELETE removes it. */
-  pupilHighlights: (readingId: string, highlightId?: string) => `/pupil/readings/${e(readingId)}/highlights${highlightId ? `/${e(highlightId)}` : ''}`,
-  /** POST {prompt_id, highlighted_text, parent_ask_id?}: a pupil's ask (#214), answered `{ ask: { id, reply, follow_ups_left } }`. */
-  pupilAsks: (readingId: string) => `/pupil/readings/${e(readingId)}/asks`,
-  /** Absolute, for an <img>: a picture the reading names. */
-  pupilReadingAsset: (readingId: string, assetId: string) => `/api/pupil/readings/${e(readingId)}/assets/${e(assetId)}`,
 
   /* admin: the sign-in cookie of an admin, or Authorization: Bearer <admin password> outside production */
   adminSessions: () => `/admin/sessions`,

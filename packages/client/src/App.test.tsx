@@ -6,12 +6,15 @@ import { AppRoutes } from './App';
 afterEach(cleanup);
 
 describe('AppRoutes', () => {
-  it('has no make kit any more: /make/:token is an unknown page', () => {
-    render(
-      <MemoryRouter initialEntries={['/make/tok123']}>
-        <AppRoutes />
-      </MemoryRouter>,
-    );
-    expect(screen.getByText('Please use the link you were given.')).toBeTruthy();
+  it('has no make kit or pupil routes: /make/:token and /r/* are unknown pages', () => {
+    for (const route of ['/make/tok123', '/r', '/r/join', '/r/login', '/r/readings/abc']) {
+      render(
+        <MemoryRouter initialEntries={[route]} future={{ v7_startTransition: true, v7_relativeSplatPath: true }}>
+          <AppRoutes />
+        </MemoryRouter>,
+      );
+      expect(screen.getByText('Please use the link you were given.')).toBeTruthy();
+      cleanup();
+    }
   });
 });

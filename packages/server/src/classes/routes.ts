@@ -123,7 +123,7 @@ export function registerClassRoutes(app: FastifyInstance, deps: AppDeps): void {
 
   app.post<Id>(`${base}/classes/:id/copy`, guard, async (req, reply) => {
     const { envelope, ...fields } = parseOr400(CopyBody, req.body);
-    return reply.code(201).send({ class: await copyToNextYear(deps.db, deps.events, deps.loaded.config.reader, req.session!.session_id, req.params.id, fields, envelope) });
+    return reply.code(201).send({ class: await copyToNextYear(deps.db, deps.events, req.session!.session_id, req.params.id, fields, envelope) });
   });
 
   app.post<Id>(`${base}/classes/:id/archive`, guard, async (req) => {

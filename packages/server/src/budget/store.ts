@@ -19,13 +19,13 @@ export interface Budget {
   budget_gbp: number;
 }
 
-/** The workspace's spend as one SQL value, for `sid` (an expression naming its session id): the teacher's calls and pupils' asks. */
+/** The workspace's spend as one SQL value, for `sid` (an expression naming its session id). */
 const SPEND_SQL = (sid: string) =>
-  `(SELECT COALESCE(SUM(g.cost_gbp), 0) FROM gateway_calls g WHERE g.session_id = ${sid}) + (SELECT COALESCE(SUM(a.cost_gbp), 0) FROM reader_asks a WHERE a.session_id = ${sid})`;
+  `(SELECT COALESCE(SUM(g.cost_gbp), 0) FROM gateway_calls g WHERE g.session_id = ${sid})`;
 
 /** What the workspace's model calls have cost in pounds, as stored when each was made (an unpriced call counts as nothing). */
 export async function spendGbp(x: DbOrTx, sessionId: string): Promise<number> {
-  const r = await run(x, { sql: `SELECT ${SPEND_SQL('?')} AS gbp`, args: [sessionId, sessionId] });
+  const r = await run(x, { sql: `SELECT ${SPEND_SQL('?')} AS gbp`, args: [sessionId] });
   return Number(r.rows[0]?.gbp ?? 0);
 }
 
