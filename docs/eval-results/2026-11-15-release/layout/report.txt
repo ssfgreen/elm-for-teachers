@@ -1,0 +1,36 @@
+Evals: 14 cases, 14 runs (1 per case) on gpt-6-sol, agent mode
+Behaviour: 93% of runs passed every check. Budget: 100% within every budget.
+Cost: 49 model calls; input 296203 tokens (277945 cached, 18258 uncached); output 5647 (1332 thinking); 128 s.
+One run per case: pass rates show what happened once, not how stable it is (EVAL_RUNS=5 for that).
+
+ok   layout > “Improve the spacing for the table” (P01, P02): columns fit their content
+     pass 100%, budget 100% | calls 5, uncached 1804, cached 29780, out 636, 13611 ms
+ok   layout > “Tidy up the columns” (P01, P02): columns fit their content
+     pass 100%, budget 100% | calls 5, uncached 1769, cached 29639, out 644, 11130 ms
+ok   layout > “Improve the spacing of the table” (P03): a long source column gets the room
+     pass 100%, budget 100% | calls 4, uncached 994, cached 21501, out 368, 8155 ms
+ok   layout > “Extend this line to the end of the page” (P04): the line reaches the margin and no further
+     pass 100%, budget 100% | calls 3, uncached 699, cached 15781, out 139, 5747 ms
+ok   layout > “remove the ... and replace with lines” (P04): full-width lines in place of the ellipsis
+     pass 100%, budget 100% | calls 3, uncached 765, cached 15807, out 178, 6842 ms
+ok   layout > “Make this section write on” (P04): every question gets full-width lines, kept on its page
+     pass 100%, budget 100% | calls 3, uncached 925, cached 16003, out 375, 7757 ms
+ok   layout > a new worksheet with writing lines comes out with full-width lines and tidy spacing
+     pass 100%, budget 100% | calls 3, uncached 663, cached 15419, out 439, 8152 ms
+FAIL layout > “space the instructions” (P01): space without runs of empty paragraphs
+     pass 0%, budget 100% | calls 1, uncached 905, cached 4911, out 190, 5050 ms
+     failed (1/1): “Similes and Metaphors Homework” changed
+ok   layout > “Add space between the definitions” (P01): no paragraph of only a space
+     pass 100%, budget 100% | calls 5, uncached 1800, cached 29625, out 484, 11625 ms
+ok   layout > uneven gaps made with empty paragraphs (P01, P04): made even, content kept
+     pass 100%, budget 100% | calls 5, uncached 2267, cached 31389, out 822, 13966 ms
+ok   layout > a sheet a few lines over a page (P04): brought onto one page without losing a question
+     pass 100%, budget 100% | calls 3, uncached 1820, cached 17494, out 691, 11290 ms
+ok   layout > “start task 2 on a new page” (P01): a page break before it, and no page left near empty
+     pass 100%, budget 100% | calls 3, uncached 1225, cached 16652, out 233, 8063 ms
+ok   layout > a table that leaves its last row alone on page 2: rows kept together
+     pass 100%, budget 100% | calls 4, uncached 1551, cached 23158, out 352, 12116 ms
+ok   layout > a one-word change (P01, P02, P04) does not set off a layout check
+     pass 100%, budget 100% | calls 2, uncached 1071, cached 10786, out 96, 4691 ms
+
+Not in the baseline: 14 case(s)

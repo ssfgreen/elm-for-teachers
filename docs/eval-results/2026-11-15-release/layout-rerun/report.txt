@@ -1,0 +1,9 @@
+Evals: 1 cases, 1 runs (1 per case) on gpt-6-sol, agent mode
+Behaviour: 100% of runs passed every check. Budget: 100% within every budget.
+Cost: 5 model calls; input 32297 tokens (30133 cached, 2164 uncached); output 899 (330 thinking); 16 s.
+One run per case: pass rates show what happened once, not how stable it is (EVAL_RUNS=5 for that).
+
+ok   layout > “space the instructions” (P01): space without runs of empty paragraphs
+     pass 100%, budget 100% | calls 5, uncached 2164, cached 30133, out 899, 15639 ms
+
+Not in the baseline: 1 case(s)

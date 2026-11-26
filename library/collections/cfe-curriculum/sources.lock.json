@@ -1,0 +1,86 @@
+[
+  {
+    "url": "https://education.gov.scot/media/giljynmw/literacyenglishbenchmarks.pdf",
+    "sha256": "e4090323b381a68b70faec740bb38e1c91fb09efe2e59c8d59e933c5d5cd1d16",
+    "bytes": 630239,
+    "fetched_at": "2026-11-12"
+  },
+  {
+    "url": "https://education.gov.scot/media/s5edgtvx/numeracyandmathematicsbenchmarks.pdf",
+    "sha256": "c3923b667bda5642592d4610d1be8e5cb8495798beac27484e179afaadcc2a90",
+    "bytes": 762870,
+    "fetched_at": "2026-11-12"
+  },
+  {
+    "url": "https://education.gov.scot/media/kosdrlaj/sciencesbenchmarkspdf.pdf",
+    "sha256": "62db2cdc1681d0cb24423ad008dec2676b08c1041fcc0c0e210655d57dca3c4c",
+    "bytes": 740867,
+    "fetched_at": "2026-11-12"
+  },
+  {
+    "url": "https://education.gov.scot/media/eprjaqf0/social-studiesbenchmarkspdf.pdf",
+    "sha256": "e3b9860f253e28569b54259a0a89c62a5e986e684f5ac57ecb9f66ba9c23eb45",
+    "bytes": 300553,
+    "fetched_at": "2026-11-12"
+  },
+  {
+    "url": "https://education.gov.scot/media/irimoozl/technologiesbenchmarkspdf.pdf",
+    "sha256": "401a95836f3efa10aa001f4e4c242c240baefd29ab194349bda2a8bbaa36d3a3",
+    "bytes": 471682,
+    "fetched_at": "2026-11-12"
+  },
+  {
+    "url": "https://education.gov.scot/media/vv3l2kp2/expressive-arts-benchmarks-0825.pdf",
+    "sha256": "38a44c41a7656c98715665d63e33356a7e52cf1ae81441351756c4d06c460562",
+    "bytes": 280708,
+    "fetched_at": "2026-11-12"
+  },
+  {
+    "url": "https://education.gov.scot/media/tbhpydja/hwbpersonalsocial-educationbenchmarkspdf.pdf",
+    "sha256": "d037d4d57309316fc2700e0bc6566637db6c30597e2947f811bbbcb0e68e68b1",
+    "bytes": 316948,
+    "fetched_at": "2026-11-12"
+  },
+  {
+    "url": "https://education.gov.scot/media/xybdxqqm/hwbphysicaleducationbenchmarkspdf.pdf",
+    "sha256": "15c1170e48c6dd9486548118075e1f24eb4526d749cf4b436b3e148504474182",
+    "bytes": 520691,
+    "fetched_at": "2026-11-12"
+  },
+  {
+    "url": "https://education.gov.scot/media/ryukm55b/hwbfoodhealthbenchmarkspdf.pdf",
+    "sha256": "6234de5cb37bfb8d405993ddac3d671dba2fccb86fedefd4bb5212ea5dcce833",
+    "bytes": 422943,
+    "fetched_at": "2026-11-12"
+  },
+  {
+    "url": "https://education.gov.scot/media/1z0ejtwp/rmebenchmarkspdf.pdf",
+    "sha256": "ef00b454084719fee9f87b71853cd18793a2cf4219216f8fe40a9ba1e242ca9b",
+    "bytes": 138766,
+    "fetched_at": "2026-11-12"
+  },
+  {
+    "url": "https://education.gov.scot/media/sjjfw5oj/rerc_benchmarkspdf.pdf",
+    "sha256": "5b249a680dfcf3a88bde23bcfc0a65cfac191e454f332dcd716d4ded6566634c",
+    "bytes": 312583,
+    "fetched_at": "2026-11-12"
+  },
+  {
+    "url": "https://education.gov.scot/media/fr0bhzlu/modernlanguagesbenchmarkspdf.pdf",
+    "sha256": "0a39970421719b7fa747525af10abbc67f9ab19dadf45fbcf02c4a529115cd84",
+    "bytes": 293497,
+    "fetched_at": "2026-11-12"
+  },
+  {
+    "url": "https://education.gov.scot/media/s1dnp0ek/gaeliclearnersbenchmarkspdf.pdf",
+    "sha256": "73b032a02bb2dc92678b91c86ec51fe5e5a8835a8f45f8c0f8da95b26d100db0",
+    "bytes": 424515,
+    "fetched_at": "2026-11-12"
+  },
+  {
+    "url": "https://education.gov.scot/media/0noishwy/classicallanguagesbenchmarks.pdf",
+    "sha256": "6de4c8682455b564d5fe2a2a672702bb9f530c01d828ec77c38ad0bf5968396a",
+    "bytes": 86052,
+    "fetched_at": "2026-11-12"
+  }
+]

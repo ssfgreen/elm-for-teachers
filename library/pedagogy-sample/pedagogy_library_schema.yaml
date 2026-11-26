@@ -1,0 +1,267 @@
+# Pedagogy Library: data structure (v0.1)
+# Purpose: a curated, citable library that a language model can search,
+# retrieve from and cite (NotebookLM-style "i" hover citations),
+# starting with Scotland (Curriculum for Excellence).
+#
+# Four record types, kept in separate collections:
+#   1. sources   - the documents themselves (EEF guidance, BDA style guide...)
+#   2. passages  - exact, citable excerpts or locators inside a source
+#   3. entries   - curated library cards (principles, activities, adaptations...)
+#   4. claims    - single statements on a card, each backed by passages
+#
+# The model cites CLAIMS. The UI hover shows: claim text -> passage -> source.
+# Student profiles are NOT stored here (see bottom): they live in the school's
+# own system and only reference entry IDs.
+
+# ---------------------------------------------------------------------------
+# 1. SOURCE
+# ---------------------------------------------------------------------------
+source:
+  id: string              # stable, e.g. "src-bda-style-guide-2023"
+  title: string
+  publisher: string       # "British Dyslexia Association"
+  authors: [string]
+  year: integer
+  url: string
+  source_type: enum       # guidance | meta_analysis | trial | review | policy |
+                          # curriculum_document | practitioner_resource | book
+  jurisdiction: [enum]    # scotland | england | wales | ni | us | international
+  evidence_weight: enum   # high | moderate | low | practitioner_wisdom
+  licence: string         # e.g. "OGL v3", "CC BY-NC", "all rights reserved"
+  reuse_rule: enum        # full_text_ok | short_quote_only | locator_only
+  version: string
+  retrieved_at: date
+  superseded_by: string   # source id, if a newer edition exists
+
+# ---------------------------------------------------------------------------
+# 2. PASSAGE  (the thing the hover actually shows)
+# ---------------------------------------------------------------------------
+passage:
+  id: string              # "psg-dysscot-formats-spacing"
+  source_id: string
+  locator: string         # page / section / paragraph, e.g. "p.3, 'Spacing'"
+  text: string            # verbatim excerpt; keep short unless licence allows
+  embedding: vector       # computed at build time, not hand-written
+
+# ---------------------------------------------------------------------------
+# 3. ENTRY  (one library card)
+# ---------------------------------------------------------------------------
+entry:
+  id: string              # "adp-layout-increased-spacing"
+  type: enum
+    # principle           - why learning happens (retrieval, worked examples)
+    # activity_type       - a reusable move (object exploration, letter to a figure)
+    # signature_pedagogy  - subject-specific mechanism (PRIMM, Parsons problems)
+    # adaptation          - an access option chosen per student
+    # format_rule         - baseline design rule for all artefacts
+    # exemplar            - a worked example artefact (worksheet, slides...)
+    # curriculum_ref      - CfE Experience & Outcome / Benchmark
+    # caution             - topic-specific guidance (e.g. Holocaust: no simulation)
+  title: string
+  summary: string         # 1-2 sentences, written by curator
+  body: markdown          # how to do it; split into claims for citation
+  status: enum            # draft | reviewed | published | retired
+  version: string
+  curated_by: [string]
+  reviewed_by: [string]   # e.g. a practising teacher + a subject specialist
+  last_reviewed: date
+
+  # --- facets: used for hard filtering BEFORE semantic search -------------
+  facets:
+    jurisdiction: [enum]          # scotland first; others later
+    cfe_level: [enum]             # early | first | second | third | fourth | senior
+    stage: [enum]                 # p1..p7 | s1..s6 (derived from level, overridable)
+    curriculum_area: [enum]       # expressive_arts | health_wellbeing | languages |
+                                  # mathematics | rme | sciences | social_studies |
+                                  # technologies | interdisciplinary | all
+    subject: [string]             # finer grain: "history", "computing science"
+    lesson_purpose: [enum]        # introduce | guided_practice | independent_practice |
+                                  # apply_transfer | assess_feedback
+    knowledge_type: [enum]        # declarative | procedural | conceptual |
+                                  # disciplinary | metacognitive
+    expertise: [enum]             # novice | developing | secure | expert
+    artefact_type: [enum]         # slides | worksheet | form | lesson_plan | interaction
+    # adaptation / format_rule only:
+    barrier: [enum]               # decoding | reading_fluency | working_memory |
+                                  # processing_speed | language_comprehension |
+                                  # figurative_language | attention | fine_motor |
+                                  # sensory_load | anxiety | predictability | ...
+    access_dimension: enum        # representation | language | layout | structure |
+                                  # instructions | response_mode | interaction |
+                                  # sensory | time
+    changes_goal: boolean         # false = access only; true = modification
+    often_relevant_to: [string]   # labels as HINTS only: "dyslexia", "autism"...
+
+  # --- evidence ----------------------------------------------------------
+  evidence:
+    rating: enum                  # strong | moderate | emerging | contested |
+                                  # practitioner_wisdom | not_recommended
+    rationale: string             # one line, itself backed by a claim
+  prerequisites: [string]         # "pupils know the basic WW1 timeline"
+  risks: [string]
+  # --- relationships (graph edges) ----------------------------------------
+  relations:
+    uses_principle: [entry_id]    # activity -> principle
+    addresses: [entry_id]         # adaptation -> barrier or need
+    demonstrated_by: [entry_id]   # principle/activity -> exemplar
+    aligns_to: [entry_id]         # -> curriculum_ref
+    caution_from: [entry_id]      # -> caution
+    conflicts_with: [entry_id]
+  # --- artefact recipes: how this shows up in each artefact type -----------
+  artefact_recipes:
+    slides: markdown
+    worksheet: markdown
+    form: markdown
+    lesson_plan: markdown
+    interaction: markdown
+  # --- for format_rule / adaptation: machine-applicable settings -----------
+  render_settings: map            # e.g. { line_spacing: 1.5, italics: false }
+  claims: [claim_id]
+
+# ---------------------------------------------------------------------------
+# 4. CLAIM  (the unit the model cites)
+# ---------------------------------------------------------------------------
+claim:
+  id: string              # "clm-spacing-30-35"
+  entry_id: string
+  text: string            # one statement, curator's words
+  supported_by: [passage_id]
+  support_type: enum      # direct_quote | paraphrase | inference_by_curator
+  embedding: vector
+
+# ===========================================================================
+# EXAMPLE RECORDS
+# ===========================================================================
+examples:
+
+  sources:
+    - id: src-dysscot-formats-2025
+      title: "Formats (dyslexia-friendly formatting)"
+      publisher: Dyslexia Scotland
+      year: 2025
+      url: https://dyslexiascotland.org.uk/wp-content/uploads/2025/10/formats.pdf
+      source_type: practitioner_resource
+      jurisdiction: [scotland]
+      evidence_weight: practitioner_wisdom
+      licence: TODO_check
+      reuse_rule: short_quote_only
+
+    - id: src-bda-style-guide-2023
+      title: "Dyslexia Style Guide 2023"
+      publisher: British Dyslexia Association
+      year: 2023
+      url: https://www.bdadyslexia.org.uk/advice/employers/creating-a-dyslexia-friendly-workplace/dyslexia-friendly-style-guide
+      source_type: guidance
+      jurisdiction: [international]
+      evidence_weight: practitioner_wisdom
+      licence: TODO_check
+      reuse_rule: short_quote_only
+
+  passages:
+    - id: psg-dysscot-spacing
+      source_id: src-dysscot-formats-2025
+      locator: TODO_page
+      text: >-
+        Increase default letter and word spacing by 30% to 35% of the font
+        size (or customised to the reader's preference). Use 1.5x line spacing.
+
+    - id: psg-bda-no-italics
+      source_id: src-bda-style-guide-2023
+      locator: TODO_section
+      text: >-
+        Avoid underlining and italics: these tend to make the text appear to
+        run together. Use bold instead.
+
+  entries:
+    - id: fmt-emphasis-bold-not-italic
+      type: format_rule
+      title: "Emphasise with bold, never italics or underlining"
+      summary: "Baseline rule for every artefact."
+      status: reviewed
+      facets:
+        jurisdiction: [scotland]
+        cfe_level: [early, first, second, third, fourth, senior]
+        artefact_type: [slides, worksheet, form]
+        barrier: [decoding, reading_fluency]
+        access_dimension: layout
+        changes_goal: false
+      evidence: { rating: practitioner_wisdom, rationale: "BDA guidance" }
+      render_settings: { italics: false, underline: false, emphasis: bold }
+      claims: [clm-bold-not-italic]
+
+    - id: adp-layout-increased-spacing
+      type: adaptation
+      title: "Increased letter, word and line spacing"
+      summary: "Widen spacing; tune to the individual reader."
+      status: reviewed
+      facets:
+        jurisdiction: [scotland]
+        cfe_level: [first, second, third, fourth, senior]
+        artefact_type: [worksheet, slides, form]
+        barrier: [decoding, reading_fluency, sensory_load]
+        access_dimension: layout
+        changes_goal: false
+        often_relevant_to: [dyslexia]
+      evidence: { rating: moderate, rationale: "see clm-spacing-30-35" }
+      render_settings: { letter_spacing: 0.3em, word_spacing: 0.35em, line_spacing: 1.5 }
+      artefact_recipes:
+        worksheet: "Apply settings; keep one question per block with clear white space."
+      claims: [clm-spacing-30-35]
+
+    - id: sig-primm
+      type: signature_pedagogy
+      title: "PRIMM (Predict, Run, Investigate, Modify, Make)"
+      summary: "Structured route from reading code to writing it."
+      status: draft
+      facets:
+        jurisdiction: [scotland]
+        cfe_level: [second, third, fourth]
+        curriculum_area: [technologies]
+        subject: [computing science]
+        lesson_purpose: [introduce, guided_practice]
+        expertise: [novice, developing]
+      evidence: { rating: moderate, rationale: "TODO: add claim backed by Sentance et al. 2019" }
+      relations:
+        uses_principle: [prn-worked-examples, prn-faded-guidance]
+      artefact_recipes:
+        worksheet: "Code snippet; 'What will it output?' box; run; investigate questions; modify task; make task."
+        interaction: "Pairs predict aloud before running; teacher collects predictions on a mini-whiteboard."
+
+  claims:
+    - id: clm-spacing-30-35
+      entry_id: adp-layout-increased-spacing
+      text: "Letter and word spacing of around 30 to 35% of font size, with 1.5 line spacing, is recommended, adjusted to the reader's preference."
+      supported_by: [psg-dysscot-spacing]
+      support_type: direct_quote
+
+    - id: clm-bold-not-italic
+      entry_id: fmt-emphasis-bold-not-italic
+      text: "Use bold for emphasis; italics and underlining make text appear to run together."
+      supported_by: [psg-bda-no-italics]
+      support_type: direct_quote
+
+# ===========================================================================
+# STUDENT PROFILE (lives in the school's system, NOT in the library)
+# ===========================================================================
+student_profile:
+  pupil_ref: string           # pseudonymous id only
+  stage: p5
+  selected_adaptations:
+    - entry_id: adp-layout-increased-spacing
+      overrides: { background: cream, font_size: 14pt }
+      works_for_pupil: confirmed   # confirmed | trialling | stopped
+      reviewed: 2026-11-01
+  notes: string               # pupil/parent voice; never sent to the library
+
+# ===========================================================================
+# RETRIEVAL FLOW (example: "differentiate this P5 history worksheet for Sam")
+# ===========================================================================
+retrieval:
+  1_parse_request: "stage=p5 -> cfe_level=second; subject=history; artefact=worksheet"
+  2_load_profile: "Sam's selected_adaptations (entry ids + overrides)"
+  3_filter: "facets: jurisdiction, cfe_level, curriculum_area, artefact_type, status=published"
+  4_search: "hybrid: keyword (BM25) + vector over claims and passages, within the filtered set"
+  5_expand: "follow relations: uses_principle, caution_from, demonstrated_by"
+  6_generate: "model must cite claim ids inline, e.g. [[clm-spacing-30-35]]"
+  7_render: "UI turns each [[claim]] into an 'i' hover: claim -> passage -> source link"
+  8_validate: "reject any output citing an id not in the retrieved set"

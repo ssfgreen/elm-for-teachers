@@ -1,0 +1,56 @@
+Evals: 13 cases, 26 runs (2 per case) on mistralai/Mistral-Small-4-119B-2603, agent mode
+Behaviour: 65% of runs passed every check. Budget: 96% within every budget.
+Cost: 52 model calls; input 291205 tokens (245040 cached, 46165 uncached); output 4132 (0 thinking); 87 s.
+
+FAIL copies > create_doc copy_of: a duplicated version with an extension task keeps every block
+     pass 0%, budget 50% | calls 3, uncached 6659, cached 9840, out 368, 6231 ms
+     failed (2/2): no edits rejected
+     failed (1/2): uncached input tokens ≤ 6000
+     failed (1/2): used create_doc with copy_of
+     failed (1/2): a new doc keeps every block
+ok   tools > read_document: fills an answer key from the worksheet in another document
+     pass 100%, budget 100% | calls 3, uncached 1018, cached 14000, out 245, 4352 ms
+FAIL tools > insert: drafts a worksheet into an empty document, title first
+     pass 0%, budget 100% | calls 1, uncached 85, cached 4608, out 14, 581 ms
+     failed (2/2): made edits
+     failed (2/2): “Untitled” starts with /^# /
+     failed (2/2): “Untitled” matches /metaphor/i
+     failed (2/2): “Untitled” matches /^5\. /m
+ok   tools > replace: a comment on one sentence changes that sentence only
+     pass 100%, budget 100% | calls 2, uncached 297, cached 9552, out 77, 2451 ms
+FAIL tools > delete: removes the question the teacher names, and only that
+     pass 50%, budget 100% | calls 2, uncached 250, cached 9488, out 53, 2819 ms
+     failed (1/2): “Metaphors” has no /moon/i
+     failed (1/2): “Metaphors” keeps its text
+ok   tools > create_doc: makes an answer sheet as a separate document
+     pass 100%, budget 100% | calls 2, uncached 506, cached 9464, out 185, 3051 ms
+ok   behaviour > a question gets an answer in chat, with no edits
+     pass 100%, budget 100% | calls 1, uncached 270, cached 4624, out 68, 931 ms
+FAIL behaviour > a long document: one targeted fix, without rewriting the rest
+     pass 50%, budget 100% | calls 2, uncached 9212, cached 12416, out 199, 3709 ms
+     failed (1/2): at most 1 operation(s)
+FAIL editing > a direct request to make the suggested change puts it straight in
+     pass 50%, budget 100% | calls 2.5, uncached 1123, cached 13408, out 364, 5338 ms
+     failed (1/2): “Primary 7 lesson plan” does not have /Exit ticket \(5/ in it at once
+     failed (1/2): 0 suggestion(s) still waiting
+FAIL look > asked to turn a list into a table, it keeps the content and makes a table block
+     pass 0%, budget 100% | calls 2, uncached 1601, cached 9232, out 237, 3860 ms
+     failed (2/2): “Persuasive letter” has a table matching /three reasons/i, /call to action/i
+     failed (2/2): “Persuasive letter” table has a header row and 2+ columns
+     failed (2/2): no edits rejected
+ok   comments > a request in a comment changes the commented block and replies in the thread
+     pass 100%, budget 100% | calls 2, uncached 833, cached 9536, out 96, 4412 ms
+ok   adversarial > an invented block id changes nothing and does not break the turn
+     pass 100%, budget 100% | calls 1, uncached 169, cached 4616, out 40, 889 ms
+ok   lists > a request about one item changes that item only
+     pass 100%, budget 100% | calls 2.5, uncached 1063, cached 11736, out 122, 4742 ms
+
+Worse than the baseline:
+  - tools > insert: drafts a worksheet into an empty document, title first: pass rate 1 → 0
+  - tools > delete: removes the question the teacher names, and only that: pass rate 1 → 0.5
+  - behaviour > a question gets an answer in chat, with no edits: uncachedInput 196 → 270
+  - behaviour > a long document: one targeted fix, without rewriting the rest: pass rate 1 → 0.5
+  - behaviour > a long document: one targeted fix, without rewriting the rest: uncachedInput 5218 → 9212
+  - behaviour > a long document: one targeted fix, without rewriting the rest: output 77 → 199
+
+Not in the baseline: 4 case(s)

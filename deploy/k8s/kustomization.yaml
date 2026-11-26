@@ -1,0 +1,30 @@
+# The worksheet editor on Kubernetes: kubectl apply -k deploy/k8s (DEPLOY.md, section 13).
+# Secrets are referred to by name only; create them first (DEPLOY.md, section 13).
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+namespace: edw
+labels:
+  - pairs:
+      app.kubernetes.io/part-of: edw
+resources:
+  - namespace.yaml
+  - settings.yaml
+  - sqld.yaml
+  - migrate-job.yaml
+  - app.yaml
+  - runner.yaml
+  - gateway.yaml
+  - network-policies.yaml
+configMapGenerator:
+  - name: litestream
+    files:
+      - litestream.yml
+      - litestream-start.sh
+# Set these to the images you pushed (docker buildx build --platform linux/amd64,linux/arm64 ...).
+images:
+  - name: edw-app
+    newName: registry.example.org/edw/app
+    newTag: latest
+  - name: edw-runner
+    newName: registry.example.org/edw/runner
+    newTag: latest

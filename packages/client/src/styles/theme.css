@@ -1,0 +1,344 @@
+/*
+ * The theme: every colour, radius and shadow the app uses, in one place.
+ *
+ * Neutral greys (modelled on ChatGPT's surfaces, text tiers and hairlines) with one navy
+ * accent for highlights, focus and primary actions. Suggestions use a pale navy so they
+ * read as the assistant's without a loud colour.
+ *
+ * Light and dark follow the system setting, unless the person has chosen one in the
+ * account menu (see theme.ts).
+ *
+ * The names follow shadcn/ui, so its components take this look without changes:
+ * `bg-background`, `text-foreground`, `bg-primary`, `border-border`, `ring-ring` and so on.
+ * Tailwind's own palette is switched off (below), so only these colours can be used.
+ */
+
+:root {
+  color-scheme: light;
+
+  /* surfaces, from the page back to the raised card */
+  --background: #fcfcfc; /* the page */
+  --panel: #f3f3f3; /* sidebars and side panels */
+  --card: #ffffff; /* cards, the document, menus */
+  --composer: #ffffff; /* the chat box */
+  --popover: #ffffff;
+
+  /* text, in three tiers */
+  --foreground: #0d0d0d;
+  --foreground-2: #5d5d5d; /* secondary text */
+  --muted-foreground: #8f8f8f; /* hints and labels */
+
+  /* lines and fills */
+  --border: rgba(0, 0, 0, 0.1);
+  --border-strong: rgba(0, 0, 0, 0.15);
+  --hover: rgba(0, 0, 0, 0.05);
+  --pressed: rgba(0, 0, 0, 0.1);
+  --scrollbar: rgba(0, 0, 0, 0.22);
+  --scrollbar-hover: rgba(0, 0, 0, 0.35);
+  --overlay: rgba(0, 0, 0, 0.35);
+
+  /* the accent: navy blue */
+  --primary: #1f4f96;
+  --primary-hover: #183f7a;
+  --primary-soft: #e8eef8;
+  --primary-foreground: #ffffff;
+  --ring: rgba(31, 79, 150, 0.35);
+  --selection: rgba(31, 79, 150, 0.2);
+
+  /* the teacher's chat messages */
+  --user-msg: #e8eef8;
+  --user-msg-foreground: #0c274a;
+
+  /* the assistant's suggestions in the document */
+  --proposal: #eef3fb;
+  --proposal-hover: #e2eaf7;
+  --proposal-border: #b9cbe8;
+  --proposal-foreground: #1d3f73;
+  --suggest: #17663a; /* tracked changes: words added (dark green, Sam 7 Nov 2026) */
+  --suggest-soft: rgba(23, 102, 58, 0.1);
+  --suggest-del: #a3472e; /* tracked changes: words taken out (orange) */
+  --track: #b42318; /* Track changes mode: words added and taken out (red, Sam 12 Nov 2026) */
+  --track-soft: rgba(180, 35, 24, 0.1);
+
+  /* states */
+  --destructive: #9b1c1c;
+  --destructive-soft: #fbeceb;
+  --destructive-border: #eec3c0;
+  --success: #1f6b33;
+  --success-solid: #3f8f52;
+  --success-soft: #e6f2e8;
+  --success-border: #9cc5a4;
+  --warning: #5c3d0a;
+  --warning-solid: #b7791f;
+  --warning-soft: #fdf3e1;
+  --warning-border: #ecd3a5;
+  --danger-solid: #b5483a; /* reject, in the document */
+
+  /* tracked changes: deleted and inserted text */
+  --del: #f9d8d8;
+  --ins: #d3f0dc;
+
+  /* comments: the highlight on the passage, and the model's avatar */
+  --mark: #f2c94c;
+  --mark-soft: rgba(242, 201, 76, 0.28);
+  --mark-strong: rgba(242, 201, 76, 0.55);
+  --model: #785ee8;
+  /* Text colours and highlight a teacher can give text in a document (editor/textColors.ts). */
+  --text-red: #c00000;
+  --text-yellow: #a37800;
+  --text-green: #008a3e;
+  --text-blue: #0063aa;
+  --text-teal: #007373;
+  --text-purple: #7030a0;
+  --text-highlight: #fff176;
+  /* Page colours a teacher can give a document (editor/docStyle.ts; Word gets these). */
+  --paper-cream: #fbf3db;
+  --paper-yellow: #fff9c4;
+  --paper-blue: #ddebf7;
+  --paper-green: #e2f0d9;
+  --paper-pink: #fbe4ec;
+  --paper-lilac: #ece6f5;
+
+  /* shadows */
+  --shadow-color: rgba(0, 0, 0, 0.06);
+  --shadow-strong-color: rgba(0, 0, 0, 0.16);
+
+  /* the front page (screens/landing): warm paper, a soft stage behind the editor, and an ink band */
+  --landing-page: #fbf8f3;
+  --landing-stage: #f7ecdc;
+  --landing-glow-warm: #fde2a6;
+  --landing-glow-rose: #f6d2bf;
+  --landing-glow-cool: #d9e6f5;
+  --landing-ink: #17181c;
+  --landing-ink-foreground: #f5f3ef;
+  --landing-ink-muted: #b3b0aa;
+  --landing-ink-line: rgba(255, 255, 255, 0.16);
+  --landing-button: #17181c;
+  --landing-button-hover: #393b42;
+  --landing-button-foreground: #ffffff;
+}
+
+/* Dark: the same roles, a step darker for surfaces and lighter for the accent.
+   `data-theme` is always set on <html>, to light or dark, before the page is drawn: from the
+   person's choice, or from the system setting when they have not chosen (see theme.ts). */
+:root[data-theme='dark'] {
+  color-scheme: dark;
+  --background: #212121;
+  --panel: #181818;
+  --card: #2a2a2a;
+  --composer: #303030;
+  --popover: #2f2f2f;
+  --foreground: #ececec;
+  --foreground-2: #b4b4b4;
+  --muted-foreground: #8f8f8f;
+  --border: rgba(255, 255, 255, 0.1);
+  --border-strong: rgba(255, 255, 255, 0.16);
+  --hover: rgba(255, 255, 255, 0.06);
+  --pressed: rgba(255, 255, 255, 0.11);
+  --scrollbar: rgba(255, 255, 255, 0.22);
+  --scrollbar-hover: rgba(255, 255, 255, 0.35);
+  --overlay: rgba(0, 0, 0, 0.55);
+  --primary: #7aa2e3;
+  --primary-hover: #93b4ea;
+  --primary-soft: #23324a;
+  --primary-foreground: #0b1a33;
+  --ring: rgba(122, 162, 227, 0.45);
+  --selection: rgba(122, 162, 227, 0.35);
+  --user-msg: #263247;
+  --user-msg-foreground: #dbe6f7;
+  --proposal: #1d2738;
+  --proposal-hover: #243149;
+  --proposal-border: #3b5784;
+  --proposal-foreground: #a9c3ec;
+  --suggest: #7cc99a;
+  --suggest-soft: rgba(124, 201, 154, 0.16);
+  --suggest-del: #e8957c;
+  --track: #f28b82;
+  --track-soft: rgba(242, 139, 130, 0.16);
+  --destructive: #f2a7a1;
+  --destructive-soft: #3a1f1d;
+  --destructive-border: #6b2f2c;
+  --success: #9fd8ae;
+  --success-solid: #4fa565;
+  --success-soft: #1d3324;
+  --success-border: #36603f;
+  --warning: #f0d29a;
+  --warning-solid: #d39a3a;
+  --warning-soft: #3a2e17;
+  --warning-border: #6b5428;
+  --danger-solid: #d0685a;
+  --del: #4a2424;
+  --ins: #1f4029;
+  --mark: #c9a634;
+  --mark-soft: rgba(201, 166, 52, 0.28);
+  --mark-strong: rgba(201, 166, 52, 0.5);
+  --model: #9a85f0;
+  --text-red: #ff7a7a;
+  --text-yellow: #f0c94a;
+  --text-green: #5fd38d;
+  --text-blue: #6cb4ff;
+  --text-teal: #4fd1c5;
+  --text-purple: #c49bf2;
+  --text-highlight: rgba(255, 228, 92, 0.38);
+  --paper-cream: #2e2a1f;
+  --paper-yellow: #2f2d1b;
+  --paper-blue: #1d2735;
+  --paper-green: #1f2b21;
+  --paper-pink: #33232a;
+  --paper-lilac: #29243a;
+  --shadow-color: rgba(0, 0, 0, 0.35);
+  --shadow-strong-color: rgba(0, 0, 0, 0.6);
+  --landing-page: #1b1a18;
+  --landing-stage: #24211d;
+  --landing-glow-warm: #3a3020;
+  --landing-glow-rose: #382721;
+  --landing-glow-cool: #1e2938;
+  --landing-ink: #262522;
+  --landing-ink-foreground: #ece9e4;
+  --landing-ink-muted: #a8a59f;
+  --landing-ink-line: rgba(255, 255, 255, 0.12);
+  --landing-button: #f1eee8;
+  --landing-button-hover: #ffffff;
+  --landing-button-foreground: #17181c;
+}
+
+/* `dark:` in a class follows the same switch. Prefer a token to `dark:`. */
+@custom-variant dark (&:where([data-theme='dark'], [data-theme='dark'] *));
+
+/* `touch:` for devices without hover, where hover-only controls must always show. */
+@custom-variant touch (@media (hover: none));
+
+/* The tokens as Tailwind names: `bg-panel`, `text-foreground-2`, `border-border-strong`… */
+@theme inline {
+  --color-*: initial;
+
+  --color-background: var(--background);
+  --color-panel: var(--panel);
+  --color-card: var(--card);
+  --color-card-foreground: var(--foreground);
+  --color-composer: var(--composer);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--foreground);
+
+  --color-foreground: var(--foreground);
+  --color-foreground-2: var(--foreground-2);
+  --color-muted: var(--panel);
+  --color-muted-foreground: var(--muted-foreground);
+
+  --color-border: var(--border);
+  --color-border-strong: var(--border-strong);
+  --color-input: var(--border-strong);
+  --color-hover: var(--hover);
+  --color-pressed: var(--pressed);
+  --color-overlay: var(--overlay);
+
+  --color-primary: var(--primary);
+  --color-primary-hover: var(--primary-hover);
+  --color-primary-soft: var(--primary-soft);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-ring: var(--ring);
+  /* shadcn's names for a hovered menu item and a quiet button */
+  --color-accent: var(--hover);
+  --color-accent-foreground: var(--foreground);
+  --color-secondary: var(--panel);
+  --color-secondary-foreground: var(--foreground);
+
+  --color-user-msg: var(--user-msg);
+  --color-user-msg-foreground: var(--user-msg-foreground);
+  --color-proposal: var(--proposal);
+  --color-proposal-hover: var(--proposal-hover);
+  --color-proposal-border: var(--proposal-border);
+  --color-proposal-foreground: var(--proposal-foreground);
+  --color-suggest: var(--suggest);
+  --color-suggest-soft: var(--suggest-soft);
+
+  --color-destructive: var(--destructive);
+  --color-destructive-soft: var(--destructive-soft);
+  --color-destructive-border: var(--destructive-border);
+  --color-success: var(--success);
+  --color-success-solid: var(--success-solid);
+  --color-success-soft: var(--success-soft);
+  --color-success-border: var(--success-border);
+  --color-warning: var(--warning);
+  --color-warning-solid: var(--warning-solid);
+  --color-warning-soft: var(--warning-soft);
+  --color-warning-border: var(--warning-border);
+  --color-danger-solid: var(--danger-solid);
+  --color-del: var(--del);
+  --color-ins: var(--ins);
+  --color-mark: var(--mark);
+  --color-mark-soft: var(--mark-soft);
+  --color-mark-strong: var(--mark-strong);
+  --color-model: var(--model);
+  --color-text-red: var(--text-red);
+  --color-text-yellow: var(--text-yellow);
+  --color-text-green: var(--text-green);
+  --color-text-blue: var(--text-blue);
+  --color-text-teal: var(--text-teal);
+  --color-text-purple: var(--text-purple);
+  --color-text-highlight: var(--text-highlight);
+  --color-paper-cream: var(--paper-cream);
+  --color-paper-yellow: var(--paper-yellow);
+  --color-paper-blue: var(--paper-blue);
+  --color-paper-green: var(--paper-green);
+  --color-paper-pink: var(--paper-pink);
+  --color-paper-lilac: var(--paper-lilac);
+
+  --color-landing-page: var(--landing-page);
+  --color-landing-stage: var(--landing-stage);
+  --color-landing-ink: var(--landing-ink);
+  --color-landing-ink-foreground: var(--landing-ink-foreground);
+  --color-landing-ink-muted: var(--landing-ink-muted);
+  --color-landing-ink-line: var(--landing-ink-line);
+  --color-landing-button: var(--landing-button);
+  --color-landing-button-hover: var(--landing-button-hover);
+  --color-landing-button-foreground: var(--landing-button-foreground);
+}
+
+/* Shape and type. These are plain values, so they are also CSS variables as written. */
+@theme {
+  --font-sans: system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
+  --font-mono: ui-monospace, 'SF Mono', Menlo, Consolas, monospace;
+
+  /* Type: the app's sizes as Tailwind's names, so classes say `text-sm`, never `text-[13px]`.
+     Every step keeps the page's 1.5 line height, except the large ones. */
+  --text-2xs: 0.6875rem; /* 11px: tiny labels, counts */
+  --text-2xs--line-height: 1.5;
+  --text-xs: 0.75rem; /* 12px: hints, meta, tooltips */
+  --text-xs--line-height: 1.5;
+  --text-sm: 0.8125rem; /* 13px: compact controls, cards in the kit */
+  --text-sm--line-height: 1.5;
+  --text-md: 0.875rem; /* 14px: secondary text, menus */
+  --text-md--line-height: 1.5;
+  --text-base: 0.9375rem; /* 15px: buttons, fields, most of the interface */
+  --text-base--line-height: 1.5;
+  --text-lg: 1rem; /* 16px: reading text, the chat */
+  --text-lg--line-height: 1.5;
+  --text-xl: 1.125rem; /* 18px: small titles */
+  --text-xl--line-height: 1.35;
+  --text-2xl: 1.375rem; /* 22px: big numbers */
+  --text-2xl--line-height: 1.25;
+  --text-3xl: 1.625rem; /* 26px: page titles */
+  --text-3xl--line-height: 1.2;
+
+  /* Breakpoints: `max-md:` is the narrow, one-column layout; `max-lg:` drops side columns. */
+  --breakpoint-md: 45rem; /* 720px */
+  --breakpoint-lg: 56.25rem; /* 900px */
+  /* The workspace: below `split` the editor sits over the chat; below `dock` the sidebar and
+     comments open as drawers over the panes instead of taking room beside them. */
+  --breakpoint-split: 51.25rem; /* 820px */
+  --breakpoint-dock: 62.5rem; /* 1000px */
+
+  --radius-xs: 4px; /* checkboxes, small marks */
+  --radius-sm: 6px; /* buttons, inputs, chips */
+  --radius-md: 10px; /* cards, menus */
+  --radius-lg: 16px; /* the chat box, large cards */
+
+  --shadow-card: 0 1px 2px var(--shadow-color);
+  --shadow-float: 0 1px 2px var(--shadow-color), 0 6px 20px var(--shadow-color);
+  --shadow-pop: 0 6px 24px var(--shadow-color);
+  /* The selected card in the comments column: clearly lifted off the others. */
+  --shadow-lift: 0 2px 4px var(--shadow-color), 0 10px 28px var(--shadow-strong-color);
+  /* A card lifted off the panel, with a hairline round it. */
+  --shadow-raised: var(--shadow-card), 0 0 0 1px var(--border);
+}

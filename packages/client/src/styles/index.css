@@ -1,0 +1,71 @@
+/*
+ * The app's stylesheet. Read in this order:
+ *
+ *   theme.css    every colour, radius and shadow, in light and dark (start here)
+ *   base.css     what elements look like before any class
+ *   components   the editor's document (editor/canvas.css, editor/suggestions.css, editor/table.css, editor/writingLine.css),
+ *                the chat's Markdown replies (components/chat.css) and the splitter's drag
+ *                state (components/splitter.css): only what cannot be utilities
+ *   last, outside any layer: the Word preview (components/wordPreview.css), which has to win
+ *                over the styles docx-preview adds
+ *
+ * Components are styled with Tailwind utilities in their own files, using the theme's
+ * names (`bg-panel`, `text-foreground-2`, `rounded-md`…). Shared pieces live in
+ * components/ui, in shadcn/ui's form.
+ */
+@import 'tailwindcss';
+/* The fonts a document can be set in (editor/docStyle.ts): Lexend, and the free twins of the
+   Word fonts (the same letter widths), used where the device lacks the Word font. A browser
+   only downloads one when a page uses it. */
+@import '@fontsource/lexend/latin-400.css';
+@import '@fontsource/lexend/latin-700.css';
+@import '@fontsource/carlito/latin-400.css';
+@import '@fontsource/carlito/latin-400-italic.css';
+@import '@fontsource/carlito/latin-700.css';
+@import '@fontsource/carlito/latin-700-italic.css';
+@import '@fontsource/arimo/latin-400.css';
+@import '@fontsource/arimo/latin-400-italic.css';
+@import '@fontsource/arimo/latin-700.css';
+@import '@fontsource/arimo/latin-700-italic.css';
+@import '@fontsource/gelasio/latin-400.css';
+@import '@fontsource/gelasio/latin-400-italic.css';
+@import '@fontsource/gelasio/latin-700.css';
+@import '@fontsource/gelasio/latin-700-italic.css';
+@import '@fontsource/caladea/latin-400.css';
+@import '@fontsource/caladea/latin-400-italic.css';
+@import '@fontsource/caladea/latin-700.css';
+@import '@fontsource/caladea/latin-700-italic.css';
+@import '@fontsource/tinos/latin-400.css';
+@import '@fontsource/tinos/latin-400-italic.css';
+@import '@fontsource/tinos/latin-700.css';
+@import '@fontsource/tinos/latin-700-italic.css';
+/* Comic Sans has no free twin with its letter widths; Comic Neue is the closest look. */
+@import '@fontsource/comic-neue/latin-400.css';
+@import '@fontsource/comic-neue/latin-400-italic.css';
+@import '@fontsource/comic-neue/latin-700.css';
+@import '@fontsource/comic-neue/latin-700-italic.css';
+/* OpenDyslexic is not a Word font: the app bundles it, and a reader of the Word file installs it. */
+@import '@fontsource/opendyslexic/latin-400.css';
+@import '@fontsource/opendyslexic/latin-400-italic.css';
+@import '@fontsource/opendyslexic/latin-700.css';
+@import '@fontsource/opendyslexic/latin-700-italic.css';
+@import './theme.css';
+@import './base.css' layer(base);
+
+/* Two old helper classes, as utilities so they win over a component's own text colour. */
+@utility muted {
+  color: var(--muted-foreground);
+}
+@utility error-text {
+  color: var(--destructive);
+}
+
+@import '../editor/canvas.css' layer(components);
+@import '../editor/suggestions.css' layer(components);
+@import '../editor/table.css' layer(components);
+@import '../editor/writingLine.css' layer(components);
+@import '../components/chat.css' layer(components);
+@import '../components/splitter.css' layer(components);
+@import '../screens/landing/landing.css';
+@import '../components/wordPreview.css';
+@import '../components/wordPreviewFonts.css';

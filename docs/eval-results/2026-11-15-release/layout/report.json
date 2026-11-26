@@ -1,0 +1,266 @@
+{
+  "protocol": {
+    "started_at": "2026-11-15T19:19:30.126Z",
+    "provider": "elm",
+    "model": "gpt-6-sol",
+    "mode": "agent",
+    "tools": [
+      "read_document",
+      "edit_document",
+      "check_layout",
+      "add_comment",
+      "reply_to_comment",
+      "search_pictures"
+    ],
+    "max_steps": 12,
+    "reasoning_effort": "medium",
+    "config_hash": "9883810d74f0635ca8dc8b273d577ff61dae3bb8d663e5022c795b7be7345cc4",
+    "system_prompt_hash": "516001b974ef8c279b76df848ad2d2c3a13ee293de5e3726d048d8076547f416",
+    "runs": 1,
+    "commit": "7738239"
+  },
+  "cases": [
+    {
+      "case": "layout > “Improve the spacing for the table” (P01, P02): columns fit their content",
+      "runs": 1,
+      "passRate": 1,
+      "budgetRate": 1,
+      "failed": {},
+      "mean": {
+        "steps": 5,
+        "uncachedInput": 1804,
+        "cachedInput": 29780,
+        "output": 636,
+        "latencyMs": 13611
+      },
+      "errors": 0
+    },
+    {
+      "case": "layout > “Tidy up the columns” (P01, P02): columns fit their content",
+      "runs": 1,
+      "passRate": 1,
+      "budgetRate": 1,
+      "failed": {},
+      "mean": {
+        "steps": 5,
+        "uncachedInput": 1769,
+        "cachedInput": 29639,
+        "output": 644,
+        "latencyMs": 11130
+      },
+      "errors": 0
+    },
+    {
+      "case": "layout > “Improve the spacing of the table” (P03): a long source column gets the room",
+      "runs": 1,
+      "passRate": 1,
+      "budgetRate": 1,
+      "failed": {},
+      "mean": {
+        "steps": 4,
+        "uncachedInput": 994,
+        "cachedInput": 21501,
+        "output": 368,
+        "latencyMs": 8155
+      },
+      "errors": 0
+    },
+    {
+      "case": "layout > “Extend this line to the end of the page” (P04): the line reaches the margin and no further",
+      "runs": 1,
+      "passRate": 1,
+      "budgetRate": 1,
+      "failed": {},
+      "mean": {
+        "steps": 3,
+        "uncachedInput": 699,
+        "cachedInput": 15781,
+        "output": 139,
+        "latencyMs": 5747
+      },
+      "errors": 0
+    },
+    {
+      "case": "layout > “remove the ... and replace with lines” (P04): full-width lines in place of the ellipsis",
+      "runs": 1,
+      "passRate": 1,
+      "budgetRate": 1,
+      "failed": {},
+      "mean": {
+        "steps": 3,
+        "uncachedInput": 765,
+        "cachedInput": 15807,
+        "output": 178,
+        "latencyMs": 6842
+      },
+      "errors": 0
+    },
+    {
+      "case": "layout > “Make this section write on” (P04): every question gets full-width lines, kept on its page",
+      "runs": 1,
+      "passRate": 1,
+      "budgetRate": 1,
+      "failed": {},
+      "mean": {
+        "steps": 3,
+        "uncachedInput": 925,
+        "cachedInput": 16003,
+        "output": 375,
+        "latencyMs": 7757
+      },
+      "errors": 0
+    },
+    {
+      "case": "layout > a new worksheet with writing lines comes out with full-width lines and tidy spacing",
+      "runs": 1,
+      "passRate": 1,
+      "budgetRate": 1,
+      "failed": {},
+      "mean": {
+        "steps": 3,
+        "uncachedInput": 663,
+        "cachedInput": 15419,
+        "output": 439,
+        "latencyMs": 8152
+      },
+      "errors": 0
+    },
+    {
+      "case": "layout > “space the instructions” (P01): space without runs of empty paragraphs",
+      "runs": 1,
+      "passRate": 0,
+      "budgetRate": 1,
+      "failed": {
+        "“Similes and Metaphors Homework” changed": 1
+      },
+      "mean": {
+        "steps": 1,
+        "uncachedInput": 905,
+        "cachedInput": 4911,
+        "output": 190,
+        "latencyMs": 5050
+      },
+      "errors": 0
+    },
+    {
+      "case": "layout > “Add space between the definitions” (P01): no paragraph of only a space",
+      "runs": 1,
+      "passRate": 1,
+      "budgetRate": 1,
+      "failed": {},
+      "mean": {
+        "steps": 5,
+        "uncachedInput": 1800,
+        "cachedInput": 29625,
+        "output": 484,
+        "latencyMs": 11625
+      },
+      "errors": 0
+    },
+    {
+      "case": "layout > uneven gaps made with empty paragraphs (P01, P04): made even, content kept",
+      "runs": 1,
+      "passRate": 1,
+      "budgetRate": 1,
+      "failed": {},
+      "mean": {
+        "steps": 5,
+        "uncachedInput": 2267,
+        "cachedInput": 31389,
+        "output": 822,
+        "latencyMs": 13966
+      },
+      "errors": 0
+    },
+    {
+      "case": "layout > a sheet a few lines over a page (P04): brought onto one page without losing a question",
+      "runs": 1,
+      "passRate": 1,
+      "budgetRate": 1,
+      "failed": {},
+      "mean": {
+        "steps": 3,
+        "uncachedInput": 1820,
+        "cachedInput": 17494,
+        "output": 691,
+        "latencyMs": 11290
+      },
+      "errors": 0
+    },
+    {
+      "case": "layout > “start task 2 on a new page” (P01): a page break before it, and no page left near empty",
+      "runs": 1,
+      "passRate": 1,
+      "budgetRate": 1,
+      "failed": {},
+      "mean": {
+        "steps": 3,
+        "uncachedInput": 1225,
+        "cachedInput": 16652,
+        "output": 233,
+        "latencyMs": 8063
+      },
+      "errors": 0
+    },
+    {
+      "case": "layout > a table that leaves its last row alone on page 2: rows kept together",
+      "runs": 1,
+      "passRate": 1,
+      "budgetRate": 1,
+      "failed": {},
+      "mean": {
+        "steps": 4,
+        "uncachedInput": 1551,
+        "cachedInput": 23158,
+        "output": 352,
+        "latencyMs": 12116
+      },
+      "errors": 0
+    },
+    {
+      "case": "layout > a one-word change (P01, P02, P04) does not set off a layout check",
+      "runs": 1,
+      "passRate": 1,
+      "budgetRate": 1,
+      "failed": {},
+      "mean": {
+        "steps": 2,
+        "uncachedInput": 1071,
+        "cachedInput": 10786,
+        "output": 96,
+        "latencyMs": 4691
+      },
+      "errors": 0
+    }
+  ],
+  "totals": {
+    "cases": 14,
+    "runs": 14,
+    "passRate": 0.93,
+    "budgetRate": 1,
+    "steps": 49,
+    "input": 296203,
+    "cachedInput": 277945,
+    "uncachedInput": 18258,
+    "output": 5647,
+    "reasoning": 1332,
+    "latencyMs": 128195
+  },
+  "regressions": [],
+  "newCases": [
+    "layout > “Improve the spacing for the table” (P01, P02): columns fit their content",
+    "layout > “Tidy up the columns” (P01, P02): columns fit their content",
+    "layout > “Improve the spacing of the table” (P03): a long source column gets the room",
+    "layout > “Extend this line to the end of the page” (P04): the line reaches the margin and no further",
+    "layout > “remove the ... and replace with lines” (P04): full-width lines in place of the ellipsis",
+    "layout > “Make this section write on” (P04): every question gets full-width lines, kept on its page",
+    "layout > a new worksheet with writing lines comes out with full-width lines and tidy spacing",
+    "layout > “space the instructions” (P01): space without runs of empty paragraphs",
+    "layout > “Add space between the definitions” (P01): no paragraph of only a space",
+    "layout > uneven gaps made with empty paragraphs (P01, P04): made even, content kept",
+    "layout > a sheet a few lines over a page (P04): brought onto one page without losing a question",
+    "layout > “start task 2 on a new page” (P01): a page break before it, and no page left near empty",
+    "layout > a table that leaves its last row alone on page 2: rows kept together",
+    "layout > a one-word change (P01, P02, P04) does not set off a layout check"
+  ]
+}

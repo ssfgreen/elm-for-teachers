@@ -1,0 +1,15 @@
+# Applied once per cluster, after installing Envoy Gateway (DEPLOY.md, section 13):
+#   kubectl apply -f deploy/k8s/cluster/gatewayclass.yaml
+# It belongs to the whole cluster, so it is not in kustomization.yaml (which puts everything in edw).
+# Its settings (access log, load balancer) are EnvoyProxy `edw-proxy` in gateway.yaml.
+apiVersion: gateway.networking.k8s.io/v1
+kind: GatewayClass
+metadata:
+  name: edw
+spec:
+  controllerName: gateway.envoyproxy.io/gatewayclass-controller
+  parametersRef:
+    group: gateway.envoyproxy.io
+    kind: EnvoyProxy
+    name: edw-proxy
+    namespace: edw

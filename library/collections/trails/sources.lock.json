@@ -1,0 +1,998 @@
+{
+  "sources": [
+    {
+      "url": "https://trails.scot/resource/ai-and-music/",
+      "etag": null,
+      "last_modified": "2026-07-21T09:34:43",
+      "sha256": "a70ecedb27c721b7a7c435571832b2e1a1bac07f062897f3f2d3ad6507bb7b35",
+      "fetched_at": "2026-11-08T11:12:23.195Z",
+      "docs": [
+        "ai-and-music.md"
+      ]
+    },
+    {
+      "url": "https://trails.scot/resource/ai-futures-toolkit/",
+      "etag": null,
+      "last_modified": "2025-08-20T13:29:14",
+      "sha256": "cd61e6e92467a7e774f2368e993d942fdd0b59aa0be57eec52ac88b884961929",
+      "fetched_at": "2026-11-08T11:12:23.195Z",
+      "docs": [
+        "ai-futures-toolkit.md"
+      ]
+    },
+    {
+      "url": "https://trails.scot/resource/ai-in-social-sciences/",
+      "etag": null,
+      "last_modified": "2025-12-11T16:14:54",
+      "sha256": "94da22e454e1f472049f56e77b124d810dbf547fc7c3e12f410db3f40c3956f2",
+      "fetched_at": "2026-11-08T11:12:23.195Z",
+      "docs": [
+        "ai-in-social-sciences.md"
+      ]
+    },
+    {
+      "url": "https://trails.scot/resource/ai-learning-research/",
+      "etag": null,
+      "last_modified": "2026-09-03T15:01:12",
+      "sha256": "bdb3b739f4c8764374de4714599a8289797e923b280cd9c78da9a14fb4e85896",
+      "fetched_at": "2026-11-08T11:12:23.195Z",
+      "docs": [
+        "ai-learning-research.md"
+      ]
+    },
+    {
+      "url": "https://trails.scot/resource/ai-midge-project/",
+      "etag": null,
+      "last_modified": "2025-11-19T12:46:38",
+      "sha256": "6f9cf0d607d2b2d0bf258a07500e6eda069590c6b632a1b1ccbab273507f1c03",
+      "fetched_at": "2026-11-08T11:12:23.195Z",
+      "docs": [
+        "ai-midge-project.md"
+      ]
+    },
+    {
+      "url": "https://trails.scot/resource/ai-morality/",
+      "etag": null,
+      "last_modified": "2025-11-19T13:04:03",
+      "sha256": "9de8b8c6b5f2fe20eb0173f866dffb5dda1732f92ca4e29771ff4e36a2b124d3",
+      "fetched_at": "2026-11-08T11:12:23.195Z",
+      "docs": [
+        "ai-morality.md"
+      ]
+    },
+    {
+      "url": "https://trails.scot/resource/ai-philosophy/",
+      "etag": null,
+      "last_modified": "2025-11-19T13:09:12",
+      "sha256": "1a17f51eca43a0c80daed93ab15fe27796e674f5dcb9a7c3c7e9a9161e6c346e",
+      "fetched_at": "2026-11-08T11:12:23.195Z",
+      "docs": [
+        "ai-philosophy.md"
+      ]
+    },
+    {
+      "url": "https://trails.scot/resource/ai-religion/",
+      "etag": null,
+      "last_modified": "2025-11-19T12:53:26",
+      "sha256": "2af87f4b71ebb5d65c817ef13068750feb02402965015db9238ccaedf445611d",
+      "fetched_at": "2026-11-08T11:12:23.195Z",
+      "docs": [
+        "ai-religion.md"
+      ]
+    },
+    {
+      "url": "https://trails.scot/resource/ai-safety-statement/",
+      "etag": null,
+      "last_modified": "2026-09-25T10:01:47",
+      "sha256": "9781278f10a28fea2fdf88b69c1f977d76e0185955011487eae28f9c0370204a",
+      "fetched_at": "2026-11-08T11:12:23.195Z",
+      "docs": [
+        "ai-safety-statement.md"
+      ]
+    },
+    {
+      "url": "https://trails.scot/resource/atlantis/",
+      "etag": null,
+      "last_modified": "2026-11-04T11:24:42",
+      "sha256": "d65e337f8a2565b2a1a0165d35c5c07f529fba7c9093cedc333497403269d89f",
+      "fetched_at": "2026-11-08T11:12:23.195Z",
+      "docs": [
+        "atlantis.md"
+      ]
+    },
+    {
+      "url": "https://trails.scot/resource/blackwood-creek-a-history-report/",
+      "etag": null,
+      "last_modified": "2025-08-20T12:46:15",
+      "sha256": "ab0540fbe1b0ae9250fd87232b94a3070cdadc447573956b5520c9cc641467d0",
+      "fetched_at": "2026-11-08T11:12:23.195Z",
+      "docs": [
+        "blackwood-creek-a-history-report.md"
+      ]
+    },
+    {
+      "url": "https://trails.scot/resource/blorps-and-glixers/",
+      "etag": null,
+      "last_modified": "2026-07-23T12:06:10",
+      "sha256": "29cfac75d50250e539c3284b66923cde2694dc16d2a99d5f5179220d7f49b792",
+      "fetched_at": "2026-11-08T11:12:23.195Z",
+      "docs": [
+        "blorps-and-glixers.md"
+      ]
+    },
+    {
+      "url": "https://trails.scot/resource/child-rights-and-ai-poster/",
+      "etag": null,
+      "last_modified": "2025-08-20T13:31:34",
+      "sha256": "d64beb795686fa8ca3c90f949566b20ca4253856f5eedf8a8c455a71459edb19",
+      "fetched_at": "2026-11-08T11:12:23.195Z",
+      "docs": [
+        "child-rights-and-ai-poster.md"
+      ]
+    },
+    {
+      "url": "https://trails.scot/resource/childrens-rights-ai-teaching-pack/",
+      "etag": null,
+      "last_modified": "2025-07-15T14:20:58",
+      "sha256": "0edb9ec02e33dea1d13d4da3fdf1b0267a168cedc9740f794939f59e2906f63c",
+      "fetched_at": "2026-11-08T11:12:23.195Z",
+      "docs": [
+        "childrens-rights-ai-teaching-pack.md"
+      ]
+    },
+    {
+      "url": "https://trails.scot/resource/core-ai-literacy-lessons/",
+      "etag": null,
+      "last_modified": "2026-08-26T14:38:13",
+      "sha256": "50c64f8cb0a0dee7a495ca7635ca196bbc6553f557270fbf3691471d9515c215",
+      "fetched_at": "2026-11-08T11:12:23.195Z",
+      "docs": [
+        "core-ai-literacy-lessons.md"
+      ]
+    },
+    {
+      "url": "https://trails.scot/resource/exploring-the-ai-jungle/",
+      "etag": null,
+      "last_modified": "2026-01-26T10:16:08",
+      "sha256": "7d29da6ddc3db2f804396ff92f11e43dd83dadb5e19c4dc28bad293893133435",
+      "fetched_at": "2026-11-08T11:12:23.195Z",
+      "docs": [
+        "exploring-the-ai-jungle.md"
+      ]
+    },
+    {
+      "url": "https://trails.scot/resource/guide-to-ai-young-womens-movement-external/",
+      "etag": null,
+      "last_modified": "2026-07-24T14:09:11",
+      "sha256": "5a60f4ea81f699a1612c0487e8b5c6f4a3df106951fdfddf1a72adbe01aff7c4",
+      "fetched_at": "2026-11-08T11:12:23.195Z",
+      "docs": [
+        "guide-to-ai-young-womens-movement-external.md"
+      ]
+    },
+    {
+      "url": "https://trails.scot/resource/how-ai-creates-content/",
+      "etag": null,
+      "last_modified": "2026-07-23T13:52:20",
+      "sha256": "fb4cf96fedc26b3ebf28ef179068987f81cc2aaea32a9558fa24dbf36a63eab2",
+      "fetched_at": "2026-11-08T11:12:23.195Z",
+      "docs": [
+        "how-ai-creates-content.md"
+      ]
+    },
+    {
+      "url": "https://trails.scot/resource/how-ai-influences-you/",
+      "etag": null,
+      "last_modified": "2026-09-11T13:39:39",
+      "sha256": "a5abf16e54f34757c95629f4ea80bc7a92068c65b83a3fc8a9f9006e80f02375",
+      "fetched_at": "2026-11-08T11:12:23.195Z",
+      "docs": [
+        "how-ai-influences-you.md"
+      ]
+    },
+    {
+      "url": "https://trails.scot/resource/how-ai-labels-the-world/",
+      "etag": null,
+      "last_modified": "2026-07-23T12:53:51",
+      "sha256": "d7fb3ce9893c662a15171a1e94a670e4dad38b4f128c00c59d085d3f850461e8",
+      "fetched_at": "2026-11-08T11:12:23.195Z",
+      "docs": [
+        "how-ai-labels-the-world.md"
+      ]
+    },
+    {
+      "url": "https://trails.scot/resource/inclusive-design/",
+      "etag": null,
+      "last_modified": "2026-09-22T12:43:09",
+      "sha256": "d8307c83b80b5c58cd51be4d6d66e23f3f49882331f402104c2acae656e8d9b6",
+      "fetched_at": "2026-11-08T11:12:23.195Z",
+      "docs": [
+        "inclusive-design.md"
+      ]
+    },
+    {
+      "url": "https://trails.scot/resource/lets-generate-a-sentence-or-story/",
+      "etag": null,
+      "last_modified": "2026-07-23T13:34:07",
+      "sha256": "b401717600804b79f88757752cbbf17c198c7ba4f0a3ca68f3cd1a5b5cf1ee87",
+      "fetched_at": "2026-11-08T11:12:23.195Z",
+      "docs": [
+        "lets-generate-a-sentence-or-story.md"
+      ]
+    },
+    {
+      "url": "https://trails.scot/resource/midge-by-numbers/",
+      "etag": null,
+      "last_modified": "2025-11-19T13:16:08",
+      "sha256": "3704755af610752ef1731530657888bbfaee57690c9bfc8fdabc4d5b95cfa777",
+      "fetched_at": "2026-11-08T11:12:23.195Z",
+      "docs": [
+        "midge-by-numbers.md"
+      ]
+    },
+    {
+      "url": "https://trails.scot/resource/midge-season-the-game/",
+      "etag": null,
+      "last_modified": "2025-11-19T13:21:11",
+      "sha256": "8bc5520251353d5fffc24f7b9df25c2795c20cd9a7d2b0afadd5f012df209686",
+      "fetched_at": "2026-11-08T11:12:23.195Z",
+      "docs": [
+        "midge-season-the-game.md"
+      ]
+    },
+    {
+      "url": "https://trails.scot/resource/movie-night-2/",
+      "etag": null,
+      "last_modified": "2026-07-22T12:23:40",
+      "sha256": "8dec88869f3a9772f71ebd2f227e46e1f1cffc3fdd8ac3811aba5b135e1979f2",
+      "fetched_at": "2026-11-08T11:12:23.195Z",
+      "docs": [
+        "movie-night-2.md"
+      ]
+    },
+    {
+      "url": "https://trails.scot/resource/our-futures-and-ai-a-youth-work-toolkit-external/",
+      "etag": null,
+      "last_modified": "2026-07-24T14:13:11",
+      "sha256": "f9dc36c52df38f5ee8f1dbd97a568d28338d9a4948a775c2bc260e6625f6fcfd",
+      "fetched_at": "2026-11-08T11:12:23.195Z",
+      "docs": [
+        "our-futures-and-ai-a-youth-work-toolkit-external.md"
+      ]
+    },
+    {
+      "url": "https://trails.scot/resource/reading-between-the-lines/",
+      "etag": null,
+      "last_modified": "2026-01-26T14:33:27",
+      "sha256": "66c09e9d5e3a008b089c3aeb9527b1e7ced67e24b629bc9730e196942c94960e",
+      "fetched_at": "2026-11-08T11:12:23.195Z",
+      "docs": [
+        "reading-between-the-lines.md"
+      ]
+    },
+    {
+      "url": "https://trails.scot/resource/research-briefs/",
+      "etag": null,
+      "last_modified": "2026-10-02T11:07:27",
+      "sha256": "2218398c29bfd1da5650d9059d5ef588a38c3327e9a5fc2c0c3c6af199192b24",
+      "fetched_at": "2026-11-08T11:12:23.195Z",
+      "docs": [
+        "research-briefs.md"
+      ]
+    },
+    {
+      "url": "https://trails.scot/resource/responsible-genai-in-schools-cards/",
+      "etag": null,
+      "last_modified": "2025-10-02T08:34:28",
+      "sha256": "b29bba433ebd89efeedc4cc76b85be8f698f0ffbf61b2e779d0284cbd976eda5",
+      "fetched_at": "2026-11-08T11:12:23.195Z",
+      "docs": [
+        "responsible-genai-in-schools-cards.md"
+      ]
+    },
+    {
+      "url": "https://trails.scot/resource/seeing-and-hearing/",
+      "etag": null,
+      "last_modified": "2026-01-26T14:33:13",
+      "sha256": "e8eb1a5004efbb1c67115109066ef576a73f694788dd858eb0dc1ffa34acb867",
+      "fetched_at": "2026-11-08T11:12:23.195Z",
+      "docs": [
+        "seeing-and-hearing.md"
+      ]
+    },
+    {
+      "url": "https://trails.scot/resource/seeing-is-not-always-believing/",
+      "etag": null,
+      "last_modified": "2026-01-26T14:32:44",
+      "sha256": "6b5a08699ccd04f4e5858d1afa67899e251b4cf51220c9d536d5abfdfbfd1b3e",
+      "fetched_at": "2026-11-08T11:12:23.195Z",
+      "docs": [
+        "seeing-is-not-always-believing.md"
+      ]
+    },
+    {
+      "url": "https://trails.scot/resource/social-media-algorithm-simulator/",
+      "etag": null,
+      "last_modified": "2026-08-14T10:39:09",
+      "sha256": "80a4a2da15a3afa96c3e55e4e791804ba9c0f9ec1949d7f7bc2113bcf315a01d",
+      "fetched_at": "2026-11-08T11:12:23.195Z",
+      "docs": [
+        "social-media-algorithm-simulator.md"
+      ]
+    },
+    {
+      "url": "https://trails.scot/resource/somekone-social-media-machine-external/",
+      "etag": null,
+      "last_modified": "2026-08-14T14:43:07",
+      "sha256": "81b199385ed9448e1c9b1df735ca68927307082e70d2c7555d84cb6203ed5f9a",
+      "fetched_at": "2026-11-08T11:12:23.195Z",
+      "docs": [
+        "somekone-social-media-machine-external.md"
+      ]
+    },
+    {
+      "url": "https://trails.scot/resource/teach-ai-literacy-handbook/",
+      "etag": null,
+      "last_modified": "2026-01-26T14:50:44",
+      "sha256": "7af93750765316cef83ae4d1fa211a82711bbba4a8ab69e3b70276133c7f23c7",
+      "fetched_at": "2026-11-08T11:12:23.195Z",
+      "docs": [
+        "teach-ai-literacy-handbook.md"
+      ]
+    },
+    {
+      "url": "https://trails.scot/resource/ways-of-machine-seeing-external/",
+      "etag": null,
+      "last_modified": "2026-07-24T14:19:51",
+      "sha256": "d991e620faecaa7c1972e0305912d0c0ba251be199a3f21ad9f801a07d5a9d41",
+      "fetched_at": "2026-11-08T11:12:23.195Z",
+      "docs": [
+        "ways-of-machine-seeing-external.md"
+      ]
+    },
+    {
+      "url": "https://trails.scot/resource/young-peoples-perspectives-on-ai-in-schools-personas-and-resources/",
+      "etag": null,
+      "last_modified": "2026-08-31T11:40:33",
+      "sha256": "808c8346ddd4053d626572b90e1b69c41d754a53d49378482ba2f1ca76dcd3b2",
+      "fetched_at": "2026-11-08T11:12:23.195Z",
+      "docs": [
+        "young-peoples-perspectives-on-ai-in-schools-personas-and-resources.md"
+      ]
+    },
+    {
+      "url": "https://trails.scot/wp-content/uploads/2025/01/AI-01-My-Thinking-vs-AIs-Thinking.docx",
+      "etag": "\"68343b2d-b32c\"",
+      "last_modified": "Mon, 26 May 2025 09:58:05 GMT",
+      "sha256": "6e4fe6d684c9cc0604188db4ccf54a0ff62830ec8d53ff4bff11e2ada1759e59",
+      "fetched_at": "2026-11-08T17:16:33.885Z",
+      "docs": [
+        "files/reading-between-the-lines/ai-01-my-thinking-vs-ais-thinking.docx.md"
+      ]
+    },
+    {
+      "url": "https://trails.scot/wp-content/uploads/2025/01/AI-01-Reading-Between-and-Behind-the-Lines.docx",
+      "etag": "\"682dd258-2f9f30\"",
+      "last_modified": "Wed, 21 May 2025 13:17:12 GMT",
+      "sha256": "ac4f96b15975c3d42eb0bfe7a959367c13a3579a3e8fca49e1c73f1d16e71fcd",
+      "fetched_at": "2026-11-08T17:16:33.885Z",
+      "docs": [
+        "files/reading-between-the-lines/ai-01-reading-between-and-behind-the-lines.docx.md"
+      ]
+    },
+    {
+      "url": "https://trails.scot/wp-content/uploads/2025/01/AI-01-Reading-Between-and-Behind-the-Lines.pptx",
+      "etag": "\"68343aac-1a92e40\"",
+      "last_modified": "Mon, 26 May 2025 09:55:56 GMT",
+      "sha256": "199a66bbdfbf26dd166d30332f264679602a65f071387ef973a9ef98474a9f6a",
+      "fetched_at": "2026-11-08T17:19:54.962Z",
+      "docs": [
+        "files/reading-between-the-lines/ai-01-reading-between-and-behind-the-lines.pptx.md"
+      ]
+    },
+    {
+      "url": "https://trails.scot/wp-content/uploads/2025/01/How-AI-Influences-You-Topic-1.pdf",
+      "etag": "\"6aa3ff4e-2ca290\"",
+      "last_modified": "Fri, 11 Sep 2026 13:17:02 GMT",
+      "sha256": "42624b4ab46131191a986adccfcca6db0d36e115551b4196d9941433787905d8",
+      "fetched_at": "2026-11-08T17:16:33.885Z",
+      "docs": [
+        "files/how-ai-influences-you/how-ai-influences-you-topic-1.pdf.md"
+      ]
+    },
+    {
+      "url": "https://trails.scot/wp-content/uploads/2025/02/01-AI-and-Religion-slides.pptx",
+      "etag": "\"682da4a7-1b0ef7\"",
+      "last_modified": "Wed, 21 May 2025 10:02:15 GMT",
+      "sha256": "0b000cd79d94c17570c9e9accbae7e9fc994308cb90a572f959c9146341828d1",
+      "fetched_at": "2026-11-08T17:16:33.885Z",
+      "docs": [
+        "files/ai-religion/01-ai-and-religion-slides.pptx.md"
+      ]
+    },
+    {
+      "url": "https://trails.scot/wp-content/uploads/2025/02/AI-Midge-Project-slides.pptx",
+      "etag": "\"682dcdb1-4521624\"",
+      "last_modified": "Wed, 21 May 2025 12:57:21 GMT",
+      "sha256": "f117709733f49a9a6b5fb4619732be0db90c855fa50dbb14c03fe873c3a189dc",
+      "fetched_at": "2026-11-08T17:19:54.962Z",
+      "docs": [
+        "files/ai-midge-project/ai-midge-project-slides.pptx.md"
+      ]
+    },
+    {
+      "url": "https://trails.scot/wp-content/uploads/2025/02/Articles-for-Lesson-1-Task-1.docx",
+      "etag": "\"682caa21-9c56\"",
+      "last_modified": "Tue, 20 May 2025 16:13:21 GMT",
+      "sha256": "28c9a0ff419ea8bf2a91c73a4411e09ce0a03efb3ccb68584cbb482069520a8f",
+      "fetched_at": "2026-11-08T17:16:33.885Z",
+      "docs": [
+        "files/ai-religion/articles-for-lesson-1-task-1.docx.md"
+      ]
+    },
+    {
+      "url": "https://trails.scot/wp-content/uploads/2025/02/Lesson-1-Guide-AI-Midge-Image-Recognition-Model.docx",
+      "etag": "\"682caa1a-aad8\"",
+      "last_modified": "Tue, 20 May 2025 16:13:14 GMT",
+      "sha256": "691ee98158359fcdfae7507d3d47d3753b8b4aeaf5b8d3488dc28c3df3203d9f",
+      "fetched_at": "2026-11-08T17:16:33.885Z",
+      "docs": [
+        "files/ai-midge-project/lesson-1-guide-ai-midge-image-recognition-model.docx.md"
+      ]
+    },
+    {
+      "url": "https://trails.scot/wp-content/uploads/2025/02/Lesson-plan-AI-and-Religion.docx",
+      "etag": "\"682caa1a-737b\"",
+      "last_modified": "Tue, 20 May 2025 16:13:14 GMT",
+      "sha256": "9d74936c43b9fe4f6653d76896a197fa5098490a3bba6ca738096643072a8331",
+      "fetched_at": "2026-11-08T17:16:33.885Z",
+      "docs": [
+        "files/ai-religion/lesson-plan-ai-and-religion.docx.md"
+      ]
+    },
+    {
+      "url": "https://trails.scot/wp-content/uploads/2025/05/01-Lesson-2-AI-and-Morality-Slides.pptx",
+      "etag": "\"682dd0fe-76a44a\"",
+      "last_modified": "Wed, 21 May 2025 13:11:26 GMT",
+      "sha256": "0081bb62f6d522f363782fe978125d020924dddc972c0ec8dbe2c4289363cb9a",
+      "fetched_at": "2026-11-08T17:16:33.885Z",
+      "docs": [
+        "files/ai-morality/01-lesson-2-ai-and-morality-slides.pptx.md"
+      ]
+    },
+    {
+      "url": "https://trails.scot/wp-content/uploads/2025/05/01-Lesson-3-AI-and-Philosophy.pptx",
+      "etag": "\"682dd1a6-217375\"",
+      "last_modified": "Wed, 21 May 2025 13:14:14 GMT",
+      "sha256": "7cd334f31842bfeb3113344daa2a34a2511a31d92821e40f4a262444a267c942",
+      "fetched_at": "2026-11-08T17:16:33.885Z",
+      "docs": [
+        "files/ai-philosophy/01-lesson-3-ai-and-philosophy.pptx.md"
+      ]
+    },
+    {
+      "url": "https://trails.scot/wp-content/uploads/2025/05/AI-02-AI-Image-Bias-Reflection-worksheet.docx",
+      "etag": "\"68343648-ba9e\"",
+      "last_modified": "Mon, 26 May 2025 09:37:12 GMT",
+      "sha256": "6a4818ff1dee4afcaf9fba35127f06916a0986755052c2ef4e3a799aeaad5e3b",
+      "fetched_at": "2026-11-08T17:16:33.885Z",
+      "docs": [
+        "files/seeing-is-not-always-believing/ai-02-ai-image-bias-reflection-worksheet.docx.md"
+      ]
+    },
+    {
+      "url": "https://trails.scot/wp-content/uploads/2025/05/AI-02-Seeing-is-Not-Always-Believing-Using-AI-to-Explore-Stereotypes-1.pptx",
+      "etag": "\"68343bb2-2c243b0\"",
+      "last_modified": "Mon, 26 May 2025 10:00:18 GMT",
+      "sha256": "a3688d63cf247aa2eb3b00f9e9813642a1c7ee9e35be0060241bdcf02199e118",
+      "fetched_at": "2026-11-08T17:16:33.885Z",
+      "docs": [
+        "files/seeing-is-not-always-believing/ai-02-seeing-is-not-always-believing-using-ai-to-explore-stereotypes-1.pptx.md"
+      ]
+    },
+    {
+      "url": "https://trails.scot/wp-content/uploads/2025/05/AI-02-Seeing-is-Not-Always-Believing.docx",
+      "etag": "\"682dd196-1551d6\"",
+      "last_modified": "Wed, 21 May 2025 13:13:58 GMT",
+      "sha256": "242d9269950797360ea0c518ca4fd2a9bf64dcf77a32f34010df59e1ad13a464",
+      "fetched_at": "2026-11-08T17:16:33.885Z",
+      "docs": [
+        "files/seeing-is-not-always-believing/ai-02-seeing-is-not-always-believing.docx.md"
+      ]
+    },
+    {
+      "url": "https://trails.scot/wp-content/uploads/2025/05/AI-03-Seeing-and-Hearing-2.pptx",
+      "etag": "\"682f4534-17aeed\"",
+      "last_modified": "Thu, 22 May 2025 15:39:32 GMT",
+      "sha256": "4995314ddec223a0da6643b055de337452e9f65b530c0a82c0f73f3a0f9e9f07",
+      "fetched_at": "2026-11-08T17:16:33.885Z",
+      "docs": [
+        "files/seeing-and-hearing/ai-03-seeing-and-hearing-2.pptx.md"
+      ]
+    },
+    {
+      "url": "https://trails.scot/wp-content/uploads/2025/05/AI-03-Seeing-and-Hearing.docx",
+      "etag": "\"682dd11c-a14e2\"",
+      "last_modified": "Wed, 21 May 2025 13:11:56 GMT",
+      "sha256": "f0e2d9b9f1d37f0a3615737a4646dda4ecdbb66b2c521521b93adf3bbae9f163",
+      "fetched_at": "2026-11-08T17:16:33.885Z",
+      "docs": [
+        "files/seeing-and-hearing/ai-03-seeing-and-hearing.docx.md"
+      ]
+    },
+    {
+      "url": "https://trails.scot/wp-content/uploads/2025/05/AI-adventure-character-sheet.pdf",
+      "etag": "\"682dd10a-77c65\"",
+      "last_modified": "Wed, 21 May 2025 13:11:38 GMT",
+      "sha256": "72151e2eddb043feea68bda5b4aa5fe45ced5809075b253e594387882c5df84c",
+      "fetched_at": "2026-11-08T17:16:33.885Z",
+      "docs": [
+        "files/ai-morality/ai-adventure-character-sheet.pdf.md"
+      ]
+    },
+    {
+      "url": "https://trails.scot/wp-content/uploads/2025/05/Choose-your-own-AI-adventure-Chatbot-prompt.docx",
+      "etag": "\"682dd118-69a4\"",
+      "last_modified": "Wed, 21 May 2025 13:11:52 GMT",
+      "sha256": "cee73ad6e062b1937c6c5115737b25d0d2d895404c5244d59521f415a0ad9420",
+      "fetched_at": "2026-11-08T17:16:33.885Z",
+      "docs": [
+        "files/ai-morality/choose-your-own-ai-adventure-chatbot-prompt.docx.md"
+      ]
+    },
+    {
+      "url": "https://trails.scot/wp-content/uploads/2025/05/Create-your-own-Turing-Test-worksheet-1.pdf",
+      "etag": "\"682dd1ac-1e3d1\"",
+      "last_modified": "Wed, 21 May 2025 13:14:20 GMT",
+      "sha256": "0ef14a5535ed48b5571ddbce9ef42514acf6afb0d9a50ee7c1037a0c7e2e8a13",
+      "fetched_at": "2026-11-08T17:16:33.885Z",
+      "docs": [
+        "files/ai-philosophy/create-your-own-turing-test-worksheet-1.pdf.md"
+      ]
+    },
+    {
+      "url": "https://trails.scot/wp-content/uploads/2025/05/DES25_01_AI_Rights_Teachers_Poster.pdf",
+      "etag": "\"682d9f2d-ef77a\"",
+      "last_modified": "Wed, 21 May 2025 09:38:53 GMT",
+      "sha256": "4947a5c52bfb6c222bab2813cb8be1523a0f8b937f78f364254cfbb0a0769778",
+      "fetched_at": "2026-11-08T17:16:33.885Z",
+      "docs": [
+        "files/child-rights-and-ai-poster/des25-01-ai-rights-teachers-poster.pdf.md"
+      ]
+    },
+    {
+      "url": "https://trails.scot/wp-content/uploads/2025/05/DES25_03_Imagining_AI_Futures_03.00.pptx.zip",
+      "etag": "\"682ddf69-78c137\"",
+      "last_modified": "Wed, 21 May 2025 14:12:57 GMT",
+      "sha256": "eb350cc26dd2952fd2336d4ddd4fb13e9189980b7ccfda6dd385826e89d0034e",
+      "fetched_at": "2026-11-08T17:16:33.885Z",
+      "docs": [
+        "files/ai-futures-toolkit/des25-03-imagining-ai-futures-03-00-pptx/des25-03-imagining-ai-futures-03-00.pptx.md"
+      ]
+    },
+    {
+      "url": "https://trails.scot/wp-content/uploads/2025/05/DES25_03_Imagining_AI_Futures_Lesson_Guide_03.00.pdf",
+      "etag": "\"682ddb6c-2c4b0a\"",
+      "last_modified": "Wed, 21 May 2025 13:55:56 GMT",
+      "sha256": "cfa55de5838a4738d20af07799b2fbafe42b2d5209b999e362a747a305d46987",
+      "fetched_at": "2026-11-08T17:16:33.885Z",
+      "docs": [
+        "files/ai-futures-toolkit/des25-03-imagining-ai-futures-lesson-guide-03-00.pdf.md"
+      ]
+    },
+    {
+      "url": "https://trails.scot/wp-content/uploads/2025/05/DES25_03_Imagining_AI_Futures_Slides.pdf",
+      "etag": "\"682ddf45-4bb6b6\"",
+      "last_modified": "Wed, 21 May 2025 14:12:21 GMT",
+      "sha256": "e23fe49e0cad72588c64375e118bd6361892a0a343e93be30ae7e06a913f94e7",
+      "fetched_at": "2026-11-08T17:16:33.885Z",
+      "docs": [
+        "files/ai-futures-toolkit/des25-03-imagining-ai-futures-slides.pdf.md"
+      ]
+    },
+    {
+      "url": "https://trails.scot/wp-content/uploads/2025/05/Lesson-2-Guide-Midge-by-Numbers.docx",
+      "etag": "\"682caa00-a3a6\"",
+      "last_modified": "Tue, 20 May 2025 16:12:48 GMT",
+      "sha256": "aa8e3cebeb738ac6f2be701374aef3402c36645cde6a9e0433313f5ce29f7ecc",
+      "fetched_at": "2026-11-08T17:16:33.885Z",
+      "docs": [
+        "files/midge-by-numbers/lesson-2-guide-midge-by-numbers.docx.md"
+      ]
+    },
+    {
+      "url": "https://trails.scot/wp-content/uploads/2025/05/Lesson-3-Guide-Midge-Season-Game.docx",
+      "etag": "\"682db590-9c4a\"",
+      "last_modified": "Wed, 21 May 2025 11:14:24 GMT",
+      "sha256": "b699abf39f410f968c61fe86ed245c44389267d12491ff6a094d77975528cf62",
+      "fetched_at": "2026-11-08T17:16:33.885Z",
+      "docs": [
+        "files/midge-season-the-game/lesson-3-guide-midge-season-game.docx.md"
+      ]
+    },
+    {
+      "url": "https://trails.scot/wp-content/uploads/2025/05/Lesson-plan-AI-and-Morality-1.docx",
+      "etag": "\"682caa00-8016\"",
+      "last_modified": "Tue, 20 May 2025 16:12:48 GMT",
+      "sha256": "c880ace261df10f30952b92103b815829add74cf361ca5164b6fe38879b0ad9d",
+      "fetched_at": "2026-11-08T17:16:33.885Z",
+      "docs": [
+        "files/ai-morality/lesson-plan-ai-and-morality-1.docx.md"
+      ]
+    },
+    {
+      "url": "https://trails.scot/wp-content/uploads/2025/05/Midge-Project-Materials.zip",
+      "etag": "\"682dcece-632892\"",
+      "last_modified": "Wed, 21 May 2025 13:02:06 GMT",
+      "sha256": "941fc058cbcb295f6534961fb48a8a3ab76ea311ca9342a49a6a0dbccce6429a",
+      "fetched_at": "2026-11-08T17:16:33.885Z",
+      "docs": [
+        "files/ai-midge-project/midge-project-materials/ml-for-kids-midge-project-tutorial.docx.md",
+        "files/ai-midge-project/midge-project-materials/ml-for-kids-midge-project-tutorial.pdf.md",
+        "files/ai-midge-project/midge-project-materials/test-plan-for-ai-model-template-for-students.docx.md",
+        "files/ai-midge-project/midge-project-materials/test-plan-for-ai-model-template-for-students.pdf.md",
+        "files/ai-midge-project/midge-project-materials/test-plan-for-an-ai-model-exemplar.docx.md",
+        "files/ai-midge-project/midge-project-materials/test-plan-for-an-ai-model-exemplar.pdf.md",
+        "files/ai-midge-project/midge-project-materials/biting-midge.pdf.md",
+        "files/ai-midge-project/midge-project-materials/non-biting-midge.pdf.md",
+        "files/ai-midge-project/midge-project-materials/test-midge-large.pdf.md"
+      ]
+    },
+    {
+      "url": "https://trails.scot/wp-content/uploads/2025/05/Midge-Project-–-Recognising-Patterns-Template.docx",
+      "etag": "\"682dcb95-5ff4\"",
+      "last_modified": "Wed, 21 May 2025 12:48:21 GMT",
+      "sha256": "62cad030312ebb0b3823e8a1739a0d10824cde9f6be9600fa2898aaf97f450b1",
+      "fetched_at": "2026-11-08T17:19:54.962Z",
+      "docs": [
+        "files/midge-by-numbers/midge-project-recognising-patterns-template.docx.md"
+      ]
+    },
+    {
+      "url": "https://trails.scot/wp-content/uploads/2025/05/Midge-Project-–-Recognising-Patterns-Template.pdf",
+      "etag": "\"682dcb7c-fd4c\"",
+      "last_modified": "Wed, 21 May 2025 12:47:56 GMT",
+      "sha256": "09e059472a24a0eb7826d86765aff9a86b5232077bf62b263ff61e7d8b175ea3",
+      "fetched_at": "2026-11-08T17:16:33.885Z",
+      "docs": [
+        "files/midge-by-numbers/midge-project-recognising-patterns-template.pdf.md"
+      ]
+    },
+    {
+      "url": "https://trails.scot/wp-content/uploads/2025/05/Midge-Season-Starter-slides.pptx",
+      "etag": "\"682dbc0a-2a3c45\"",
+      "last_modified": "Wed, 21 May 2025 11:42:02 GMT",
+      "sha256": "534d91984c1c117332550219ef3cf835d9281c53c9fd67236775a677aae4b467",
+      "fetched_at": "2026-11-08T17:16:33.885Z",
+      "docs": [
+        "files/midge-season-the-game/midge-season-starter-slides.pptx.md"
+      ]
+    },
+    {
+      "url": "https://trails.scot/wp-content/uploads/2025/05/Midge-Season-Tutorial-1.pdf",
+      "etag": "\"682db623-e5d12\"",
+      "last_modified": "Wed, 21 May 2025 11:16:51 GMT",
+      "sha256": "6b38938f981e722190140792655c8645dd25ddddbb1fb7e530b55f0ddf1ced7b",
+      "fetched_at": "2026-11-08T17:16:33.885Z",
+      "docs": [
+        "files/midge-season-the-game/midge-season-tutorial-1.pdf.md"
+      ]
+    },
+    {
+      "url": "https://trails.scot/wp-content/uploads/2025/05/Midge-Season-Tutorial.docx",
+      "etag": "\"682dbd3c-369d19\"",
+      "last_modified": "Wed, 21 May 2025 11:47:08 GMT",
+      "sha256": "153cf2abee7e7559422fe9f998c1a726d1d7cde4f5a91ce73e09cf301fe5587a",
+      "fetched_at": "2026-11-08T17:16:33.885Z",
+      "docs": [
+        "files/midge-season-the-game/midge-season-tutorial.docx.md"
+      ]
+    },
+    {
+      "url": "https://trails.scot/wp-content/uploads/2025/05/Midge-by-Numbers-slides.pptx",
+      "etag": "\"682ca9ff-c49c10\"",
+      "last_modified": "Tue, 20 May 2025 16:12:47 GMT",
+      "sha256": "f72f843069e0df345d9855409c0832a4659b4732c1a001fc6de5e62a93b9c740",
+      "fetched_at": "2026-11-08T17:16:33.885Z",
+      "docs": [
+        "files/midge-by-numbers/midge-by-numbers-slides.pptx.md"
+      ]
+    },
+    {
+      "url": "https://trails.scot/wp-content/uploads/2025/05/Moral-dilemmas-to-ask-AI.docx",
+      "etag": "\"682dd124-79a0\"",
+      "last_modified": "Wed, 21 May 2025 13:12:04 GMT",
+      "sha256": "9d25378c3722f505d24d3da71ad910c4a00f05843764a5331c318dc58aad702e",
+      "fetched_at": "2026-11-08T17:16:33.885Z",
+      "docs": [
+        "files/ai-morality/moral-dilemmas-to-ask-ai.docx.md"
+      ]
+    },
+    {
+      "url": "https://trails.scot/wp-content/uploads/2025/05/Recognising-Numbers-Tutorial.docx",
+      "etag": "\"682dcbc5-578e86\"",
+      "last_modified": "Wed, 21 May 2025 12:49:09 GMT",
+      "sha256": "1960dd956074cb65e1a3b55401f992ba64d9e24db92cfa8becca0e5251e55218",
+      "fetched_at": "2026-11-08T17:19:54.962Z",
+      "docs": [
+        "files/midge-by-numbers/recognising-numbers-tutorial.docx.md"
+      ]
+    },
+    {
+      "url": "https://trails.scot/wp-content/uploads/2025/05/Recognising-Numbers-Tutorial.pdf",
+      "etag": "\"682dcba9-fa0cb\"",
+      "last_modified": "Wed, 21 May 2025 12:48:41 GMT",
+      "sha256": "b86783f98d077b29e3f0721a1cfc6526d43a9345b05af11d4f5ed5804ae4cc8a",
+      "fetched_at": "2026-11-08T17:16:33.885Z",
+      "docs": [
+        "files/midge-by-numbers/recognising-numbers-tutorial.pdf.md"
+      ]
+    },
+    {
+      "url": "https://trails.scot/wp-content/uploads/2025/05/Research-Poster-Template.pdf",
+      "etag": "\"682dd127-480ce\"",
+      "last_modified": "Wed, 21 May 2025 13:12:07 GMT",
+      "sha256": "76f2e53228ae9d44a0d3b315208aec0a2e911b9c21156ee9b155a0518fedd457",
+      "fetched_at": "2026-11-08T17:16:33.885Z",
+      "docs": [
+        "files/ai-morality/research-poster-template.pdf.md"
+      ]
+    },
+    {
+      "url": "https://trails.scot/wp-content/uploads/2025/05/The-Parable-of-the-Good-AI-Storybook-template-1.pdf",
+      "etag": "\"682dd274-12b72c\"",
+      "last_modified": "Wed, 21 May 2025 13:17:40 GMT",
+      "sha256": "db3085856aef6e11f88ce33e57f85d2df6ac5982bd436709051086f97ef06c6f",
+      "fetched_at": "2026-11-08T17:16:33.885Z",
+      "docs": [
+        "files/ai-morality/the-parable-of-the-good-ai-storybook-template-1.pdf.md"
+      ]
+    },
+    {
+      "url": "https://trails.scot/wp-content/uploads/2025/06/Scratch-Program.zip",
+      "etag": "\"684aa987-4966a6\"",
+      "last_modified": "Thu, 12 Jun 2025 10:18:47 GMT",
+      "sha256": "2df07833669db364e26dc96c2ea844bd5dd620a7122183c72cffa5dd45ccb109",
+      "fetched_at": "2026-11-08T17:16:33.885Z",
+      "docs": []
+    },
+    {
+      "url": "https://trails.scot/wp-content/uploads/2025/10/Responsible_GenAI_in_Schools_Cards_Printables.zip",
+      "etag": "\"68de3515-5ccbe\"",
+      "last_modified": "Thu, 02 Oct 2025 08:17:25 GMT",
+      "sha256": "1109926b585ce452e8d6ef5846343860a7f42814afa6046e94f77f136e34b84f",
+      "fetched_at": "2026-11-08T17:16:33.885Z",
+      "docs": [
+        "files/responsible-genai-in-schools-cards/responsible-genai-in-schools-cards-printables/des-responsible-genai-in-schools-cards-printables/1-braid24-02-cards-print-out.pdf.md",
+        "files/responsible-genai-in-schools-cards/responsible-genai-in-schools-cards-printables/des-responsible-genai-in-schools-cards-printables/2-braid24-02-cards-print-out.pdf.md",
+        "files/responsible-genai-in-schools-cards/responsible-genai-in-schools-cards-printables/des-responsible-genai-in-schools-cards-printables/3-braid24-02-cards-print-out.pdf.md",
+        "files/responsible-genai-in-schools-cards/responsible-genai-in-schools-cards-printables/des-responsible-genai-in-schools-cards-printables/4-braid24-02-cards-print-out.pdf.md"
+      ]
+    },
+    {
+      "url": "https://trails.scot/wp-content/uploads/2025/11/AI-in-Music-1.pptx",
+      "etag": "\"6a5f3d1f-9b9608\"",
+      "last_modified": "Tue, 21 Jul 2026 09:34:23 GMT",
+      "sha256": "c804145d14aee0a3de2d6783ab10a0b7d2d40aa9284659d2fb2130ad6e55832a",
+      "fetched_at": "2026-11-08T17:16:33.885Z",
+      "docs": [
+        "files/ai-and-music/ai-in-music-1.pptx.md"
+      ]
+    },
+    {
+      "url": "https://trails.scot/wp-content/uploads/2025/12/AI-in-Social-Sciences-1.pptx",
+      "etag": "\"693aecf1-675e86\"",
+      "last_modified": "Thu, 11 Dec 2025 16:10:25 GMT",
+      "sha256": "b026e3ffa95d9dace094874e52926ef51472abf898efdb3b5305b558f8ce0666",
+      "fetched_at": "2026-11-08T17:16:33.885Z",
+      "docs": [
+        "files/ai-in-social-sciences/ai-in-social-sciences-1.pptx.md"
+      ]
+    },
+    {
+      "url": "https://trails.scot/wp-content/uploads/2025/12/AI-in-Social-Sciences-2.pptx",
+      "etag": "\"693aed02-23c3b0\"",
+      "last_modified": "Thu, 11 Dec 2025 16:10:42 GMT",
+      "sha256": "c134c02ac4226a28e8603c818147a7a5476e792264df3aab0ab650b2a4836985",
+      "fetched_at": "2026-11-08T17:16:33.885Z",
+      "docs": [
+        "files/ai-in-social-sciences/ai-in-social-sciences-2.pptx.md"
+      ]
+    },
+    {
+      "url": "https://trails.scot/wp-content/uploads/2025/12/AI-in-Social-Sciences-3.pptx",
+      "etag": "\"693aed1c-290858\"",
+      "last_modified": "Thu, 11 Dec 2025 16:11:08 GMT",
+      "sha256": "b6b08d32e15542d7827aa8dc9b4e3758306a7626dd267d60cbb015afa8b54fa9",
+      "fetched_at": "2026-11-08T17:16:33.885Z",
+      "docs": [
+        "files/ai-in-social-sciences/ai-in-social-sciences-3.pptx.md"
+      ]
+    },
+    {
+      "url": "https://trails.scot/wp-content/uploads/2026/01/A4_Island_Sheet.pdf",
+      "etag": "\"6aa9627e-1a72bad\"",
+      "last_modified": "Tue, 15 Sep 2026 15:21:34 GMT",
+      "sha256": "832de73281f8075f211c312a77c74e2573d9fffb2a5db96647b2c9d0af2b643a",
+      "fetched_at": "2026-11-08T17:16:33.885Z",
+      "docs": [
+        "files/atlantis/a4-island-sheet.pdf.md"
+      ]
+    },
+    {
+      "url": "https://trails.scot/wp-content/uploads/2026/01/A4_Player_Sheets.pdf",
+      "etag": "\"6aa9628c-1dd8048\"",
+      "last_modified": "Tue, 15 Sep 2026 15:21:48 GMT",
+      "sha256": "674b86670f77dc686f8493cedaed63847b15d09642602fa890384e8c1363469a",
+      "fetched_at": "2026-11-08T17:16:33.885Z",
+      "docs": [
+        "files/atlantis/a4-player-sheets.pdf.md"
+      ]
+    },
+    {
+      "url": "https://trails.scot/wp-content/uploads/2026/01/AI-Choose-Your-Own-follow-up-discussions.pptx",
+      "etag": "\"69e74ff9-3c3f4f\"",
+      "last_modified": "Tue, 21 Apr 2026 10:22:49 GMT",
+      "sha256": "757d2a5dad6dea8e38760703d1f5a8bc0ea833fcd2e10bb02dcbd27a2481c034",
+      "fetched_at": "2026-11-08T17:16:33.885Z",
+      "docs": [
+        "files/atlantis/ai-choose-your-own-follow-up-discussions.pptx.md"
+      ]
+    },
+    {
+      "url": "https://trails.scot/wp-content/uploads/2026/01/AI-Sustainability-Game-tutorial-final-print-ver2.pptx",
+      "etag": "\"6aeb155c-2c5a431\"",
+      "last_modified": "Wed, 04 Nov 2026 11:22:04 GMT",
+      "sha256": "15a3db7c09ffd51811699521b0b4421d3f18963725a7ef11a91a206b1154ddcc",
+      "fetched_at": "2026-11-08T17:16:33.885Z",
+      "docs": [
+        "files/atlantis/ai-sustainability-game-tutorial-final-print-ver2.pptx.md"
+      ]
+    },
+    {
+      "url": "https://trails.scot/wp-content/uploads/2026/01/Poseidons_Chance.pdf",
+      "etag": "\"6aa961d2-4e3525\"",
+      "last_modified": "Tue, 15 Sep 2026 15:18:42 GMT",
+      "sha256": "506521028af03d8f31f17a3370322c45c3a929eb9d9d4d13b85404da72c477b5",
+      "fetched_at": "2026-11-08T17:16:33.885Z",
+      "docs": [
+        "files/atlantis/poseidons-chance.pdf.md"
+      ]
+    },
+    {
+      "url": "https://trails.scot/wp-content/uploads/2026/01/Water_gauge_printable.pptx",
+      "etag": "\"6aa96428-480341\"",
+      "last_modified": "Tue, 15 Sep 2026 15:28:40 GMT",
+      "sha256": "278054ae5d29fbeda38f1a127c040a222ce7eac736a0a24fafb46861e994293b",
+      "fetched_at": "2026-11-08T17:16:33.885Z",
+      "docs": [
+        "files/atlantis/water-gauge-printable.pptx.md"
+      ]
+    },
+    {
+      "url": "https://trails.scot/wp-content/uploads/2026/07/2.-How-AI-labels-the-world.zip",
+      "etag": "\"6a62020a-c4b3a5\"",
+      "last_modified": "Thu, 23 Jul 2026 11:59:06 GMT",
+      "sha256": "ef50465c3a5718a10489c885ce6571fe8ab4313e4b0f4cd6eccf1d8cc69c3a92",
+      "fetched_at": "2026-11-08T17:16:33.885Z",
+      "docs": [
+        "files/how-ai-labels-the-world/2-how-ai-labels-the-world/01-how-ai-labels-the-world-teachers-guide.docx.md",
+        "files/how-ai-labels-the-world/2-how-ai-labels-the-world/02-how-ai-labels-the-world.pptx.md"
+      ]
+    },
+    {
+      "url": "https://trails.scot/wp-content/uploads/2026/07/3.-How-AI-creates-content.zip",
+      "etag": "\"6a621c1a-abcc69\"",
+      "last_modified": "Thu, 23 Jul 2026 13:50:18 GMT",
+      "sha256": "5f24e41b905d740243fcdf68d8fdbafe6ae8e69171c0fbf87c126ef622702a76",
+      "fetched_at": "2026-11-08T17:16:33.885Z",
+      "docs": [
+        "files/how-ai-creates-content/3-how-ai-creates-content/01-how-ai-creates-content-teachers-guide-overview.docx.md",
+        "files/how-ai-creates-content/3-how-ai-creates-content/02-how-ai-creates-content-slides.pptx.md",
+        "files/how-ai-creates-content/3-how-ai-creates-content/03-prompt-crafting-worksheet.docx.md",
+        "files/how-ai-creates-content/3-how-ai-creates-content/04-generative-ai-teachers-guide-detailed.docx.md"
+      ]
+    },
+    {
+      "url": "https://trails.scot/wp-content/uploads/2026/07/Blorps-and-Glixers.zip",
+      "etag": "\"6a62021d-7ef46f\"",
+      "last_modified": "Thu, 23 Jul 2026 11:59:25 GMT",
+      "sha256": "ed07bf41ef54c2ae37b112f59071df0e5554694305d6588f6a61a62369359876",
+      "fetched_at": "2026-11-08T17:16:33.885Z",
+      "docs": [
+        "files/blorps-and-glixers/blorps-and-glixers/01-how-ai-labels-the-world-teachers-guide.docx.md",
+        "files/blorps-and-glixers/blorps-and-glixers/blorps-and-glixers-slides.pptx.md"
+      ]
+    },
+    {
+      "url": "https://trails.scot/wp-content/uploads/2026/07/Lets-generate-a-sentence-and-story.zip",
+      "etag": "\"6a6217d6-107874\"",
+      "last_modified": "Thu, 23 Jul 2026 13:32:06 GMT",
+      "sha256": "7e9feff228ae72af4cd989d8736f391183b8c7adafb38011fb5520ea4a8b1435",
+      "fetched_at": "2026-11-08T17:16:33.885Z",
+      "docs": [
+        "files/lets-generate-a-sentence-or-story/lets-generate-a-sentence-and-story/let-s-generate-a-sentence-and-story/let-s-generate-a-sentence-and-story.pptx.md",
+        "files/lets-generate-a-sentence-or-story/lets-generate-a-sentence-and-story/let-s-generate-a-sentence-and-story/sentence-story-teacher-s-guide.docx.md"
+      ]
+    },
+    {
+      "url": "https://trails.scot/wp-content/uploads/2026/07/Movie-Night.zip",
+      "etag": "\"6a60ad85-48a2dc\"",
+      "last_modified": "Wed, 22 Jul 2026 11:46:13 GMT",
+      "sha256": "1197582dd109432d0a42b06be486c15ef1409dc422198b878a4eb38d23f56a7f",
+      "fetched_at": "2026-11-08T17:16:33.885Z",
+      "docs": [
+        "files/movie-night-2/movie-night/03-lots-of-films.pdf.md",
+        "files/movie-night-2/movie-night/03a-movie-night-worksheet.docx.md",
+        "files/movie-night-2/movie-night/03b-movie-night-worksheet-tv.docx.md",
+        "files/movie-night-2/movie-night/03c-movie-night-worksheet-music.docx.md",
+        "files/movie-night-2/movie-night/03d-movie-night-worksheet-games.docx.md"
+      ]
+    },
+    {
+      "url": "https://trails.scot/wp-content/uploads/2026/07/Somekone-user-guide-and-suggested-lesson-plan.docx-5.pdf",
+      "etag": "\"6a7f2965-127285\"",
+      "last_modified": "Fri, 14 Aug 2026 14:42:45 GMT",
+      "sha256": "154a3d6f0c977e924d96b6a13a153591f4fe1fa7e17988c70e5fe71aff7df23c",
+      "fetched_at": "2026-11-08T17:16:33.885Z",
+      "docs": [
+        "files/somekone-social-media-machine-external/somekone-user-guide-and-suggested-lesson-plan-docx-5.pdf.md"
+      ]
+    },
+    {
+      "url": "https://trails.scot/wp-content/uploads/2026/08/1.-How-AI-influences-you.zip",
+      "etag": "\"6a7eee91-417b4ce\"",
+      "last_modified": "Fri, 14 Aug 2026 10:31:45 GMT",
+      "sha256": "fea3d9d9d228accecb53fccc6ea391e2b1839d9129d2115b255f3edc65655f6a",
+      "fetched_at": "2026-11-08T17:19:54.962Z",
+      "docs": [
+        "files/how-ai-influences-you/1-how-ai-influences-you/01-how-ai-influences-you-teachers-guide.docx.md",
+        "files/how-ai-influences-you/1-how-ai-influences-you/02-how-ai-influences-you-slides.pptx.md",
+        "files/how-ai-influences-you/1-how-ai-influences-you/03-lots-of-films.pdf.md",
+        "files/how-ai-influences-you/1-how-ai-influences-you/03a-movie-night-worksheet.docx.md",
+        "files/how-ai-influences-you/1-how-ai-influences-you/03b-movie-night-worksheet-tv.docx.md",
+        "files/how-ai-influences-you/1-how-ai-influences-you/03c-movie-night-worksheet-music.docx.md",
+        "files/how-ai-influences-you/1-how-ai-influences-you/03d-movie-night-worksheet-games.docx.md",
+        "files/how-ai-influences-you/1-how-ai-influences-you/04-algorithm-worksheet.docx.md",
+        "files/how-ai-influences-you/1-how-ai-influences-you/05-social-media-game/social-media-posts/printable-posts.pdf.md",
+        "files/how-ai-influences-you/1-how-ai-influences-you/05-social-media-game/user-profiles.pptx.md"
+      ]
+    },
+    {
+      "url": "https://trails.scot/wp-content/uploads/2026/08/Social-Media-Simulator.zip",
+      "etag": "\"6a7eefe9-3988d37\"",
+      "last_modified": "Fri, 14 Aug 2026 10:37:29 GMT",
+      "sha256": "2a7cc0ce61cfab18a906ed99b95e09c02001c3fec93f365b7ff7a942c15b4b59",
+      "fetched_at": "2026-11-08T17:19:54.962Z",
+      "docs": [
+        "files/social-media-algorithm-simulator/social-media-simulator/04-algorithm-worksheet.docx.md",
+        "files/social-media-algorithm-simulator/social-media-simulator/social-media-posts/printable-posts.pdf.md",
+        "files/social-media-algorithm-simulator/social-media-simulator/social-media-simulator-slides.pptx.md",
+        "files/social-media-algorithm-simulator/social-media-simulator/user-profiles.pptx.md"
+      ]
+    },
+    {
+      "url": "https://trails.scot/wp-content/uploads/2026/09/How-AI-Influences-You-Primary.zip",
+      "etag": "\"6aa4013b-4a002a\"",
+      "last_modified": "Fri, 11 Sep 2026 13:25:15 GMT",
+      "sha256": "16297e6279019f65b7974d4ca32d97f861bb70e88030fd52f922bc47053fa066",
+      "fetched_at": "2026-11-08T17:16:33.885Z",
+      "docs": [
+        "files/how-ai-influences-you/how-ai-influences-you-primary/how-ai-influences-you-topic-1.pdf.md",
+        "files/how-ai-influences-you/how-ai-influences-you-primary/lesson-1-exploring-influence-worksheet.docx.md",
+        "files/how-ai-influences-you/how-ai-influences-you-primary/lesson-2-movie-night-worksheet.docx.md",
+        "files/how-ai-influences-you/how-ai-influences-you-primary/lesson-2-film-genres-poster.docx.md"
+      ]
+    },
+    {
+      "url": "https://trails.scot/wp-content/uploads/2026/09/Inclusive-Resource-Guide.pdf",
+      "etag": "\"6aa969e4-2da6f7\"",
+      "last_modified": "Tue, 15 Sep 2026 15:53:08 GMT",
+      "sha256": "b5dc2f92972ca454f8324024380c4a0b3b9965b24606825abc46113ebc65fbcb",
+      "fetched_at": "2026-11-08T17:16:33.885Z",
+      "docs": [
+        "files/inclusive-design/inclusive-resource-guide.pdf.md"
+      ]
+    }
+  ]
+}

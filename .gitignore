@@ -1,0 +1,28 @@
+node_modules
+dist
+.env
+*.db
+*.db-shm
+*.db-wal
+.venv
+__pycache__
+.pytest_cache
+# uv writes one in analysis/ when the tests run; the package has no dependencies to pin.
+analysis/uv.lock
+*.egg-info
+coverage
+.pnpm-store/
+data/
+
+# macOS Finder files
+.DS_Store
+
+# Playwright
+test-results/
+playwright-report/
+
+# Agent worktrees (a second copy of the repo)
+.claude/worktrees/
+
+# Participant data (workspace downloads) belongs in ../edw-data, never here.
+edw-data/

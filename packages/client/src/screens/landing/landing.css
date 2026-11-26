@@ -1,0 +1,90 @@
+/*
+ * The front page's own sizes, radii and motion (`/` and `/start`), so they live here, not in
+ * theme.css. Its colours are tokens in theme.css (`--landing-*`), with a light and a dark value.
+ */
+@theme {
+  --text-display: clamp(2.75rem, 5.4vw + 0.5rem, 4.75rem); /* the front page's title */
+  --text-display--line-height: 1.02;
+  --text-display--letter-spacing: -0.035em;
+  --text-title: clamp(1.875rem, 3.8vw, 3rem); /* section titles */
+  --text-title--line-height: 1.08;
+  --text-title--letter-spacing: -0.03em;
+  --text-lead: clamp(1.0625rem, 1.4vw, 1.1875rem); /* the line under a title */
+  --text-lead--line-height: 1.55;
+  --font-display: 'Lexend', system-ui, sans-serif;
+  /* The italic half of a title. Gelasio is already bundled for documents. */
+  --font-accent: 'Gelasio', Georgia, serif;
+  --radius-2xl: 1.5rem;
+  --radius-3xl: 2.5rem;
+  --shadow-soft: 0 24px 60px var(--shadow-color);
+  --shadow-dot: 0 6px 20px var(--shadow-color);
+}
+
+/* Faces in the who screen's pictures (WhoIcons.tsx): the light theme's rose in both themes, as
+   the dark theme's --landing-glow-rose is a brown that reads as shadow. */
+:root {
+  --landing-face: #f6d2bf;
+}
+
+/* Lines like an exercise book's, in the theme's border colour, so both themes get them. */
+@utility ruled {
+  background-image: repeating-linear-gradient(to bottom, transparent 0 calc(1.625rem - 1px), var(--border) calc(1.625rem - 1px) 1.625rem);
+}
+
+/* The stage behind the editor and the closing call: soft light from three sides on warm sand. */
+@utility landing-stage {
+  background:
+    radial-gradient(ellipse 45% 55% at 12% 100%, var(--landing-glow-warm), transparent),
+    radial-gradient(ellipse 45% 55% at 90% 96%, var(--landing-glow-rose), transparent),
+    radial-gradient(ellipse 70% 50% at 50% -8%, var(--landing-glow-cool), transparent),
+    var(--landing-stage);
+}
+
+@layer components {
+  /* The second half of a title, in italic serif. */
+  .landing-title em {
+    font-family: var(--font-accent);
+    font-style: italic;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+  }
+
+  /* Safari still draws the summary's triangle without this; the questions show a + instead. */
+  .landing-faq summary::-webkit-details-marker {
+    display: none;
+  }
+
+  /* The hero comes in once as the page loads: the title word by word, then the line under it,
+     the button and the editor. Under reduced motion it is simply there. */
+  .landing-word {
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: top;
+    padding: 0 0.08em 0.14em 0;
+    margin: 0 -0.08em -0.14em 0;
+  }
+  .landing-word > span {
+    display: inline-block;
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    .landing-word > span {
+      animation: landing-word 0.9s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+      animation-delay: calc(0.15s + var(--i, 0) * 0.08s);
+    }
+    .landing-rise {
+      animation: landing-rise 0.8s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+      animation-delay: var(--delay, 0.45s);
+    }
+  }
+  @keyframes landing-word {
+    from {
+      transform: translateY(110%);
+    }
+  }
+  @keyframes landing-rise {
+    from {
+      opacity: 0;
+      transform: translateY(1.5rem);
+    }
+  }
+}

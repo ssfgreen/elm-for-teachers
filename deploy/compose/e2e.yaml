@@ -1,0 +1,29 @@
+# The browser tests against the compose setup. The app shares the host's network so the browser
+# and the app reach the test sign-in issuer at the same address, as in playwright.config.ts.
+#   docker compose -f compose.yaml -f deploy/compose/e2e.yaml down -v
+#   docker compose -f compose.yaml -f deploy/compose/e2e.yaml up -d --build --wait
+#   pnpm e2e --config deploy/compose/playwright.config.ts
+services:
+  sqld:
+    ports: ['127.0.0.1:8080:8080']
+  runner:
+    ports: ['127.0.0.1:3951:8787']
+  migrate:
+    environment:
+      ADMIN_PASSWORD: e2e-password
+  app:
+    network_mode: host
+    ports: !reset []
+    environment:
+      DATABASE_URL: http://127.0.0.1:8080
+      LIBRARY_URL: http://127.0.0.1:3951
+      PORT: '3950'
+      HOST: 127.0.0.1
+      PUBLIC_BASE_URL: http://127.0.0.1:3950
+      ADMIN_PASSWORD: e2e-password
+      # The test sign-in provider loads only with NODE_ENV test or development.
+      NODE_ENV: test
+      AUTH_SECRET: e2e-only-auth-secret-not-for-any-real-site
+      AUTH_TEST_ISSUER: http://127.0.0.1:3952
+      # Pupil sign-in on /r (#179) is off unless set.
+      PUPILS: 'on'

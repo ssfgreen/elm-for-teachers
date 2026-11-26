@@ -1,0 +1,1345 @@
+{
+ "session": "3PD",
+ "cases": [
+  {
+   "id": "3PD #0",
+   "session": "3PD",
+   "turn": 0,
+   "variant": "recorded",
+   "prompt": "Improve the spacing of the table",
+   "reply": "I’ve suggested a narrower number column and wider source column, with more room for the tick boxes.",
+   "docs": [
+    {
+     "id": "01M6RGCVCK0C6QVAYPK4JGK5EA",
+     "name": "S1 Bannockburn Sources Homework"
+    }
+   ],
+   "operations": [
+    {
+     "op": "replace",
+     "id": "01M6RGCVG4X9GG16JZXYY65TVY",
+     "content": "| No. | Source | Primary | Secondary |\n| --- | --- | --- | --- |\n| 1 | The Declaration of Arbroath, a letter to the Pope written by Scottish nobles in 1320 | ☐ | ☐ |\n| 2 | A website article about Bannockburn written in 2019 | ☐ | ☐ |\n| 3 | A silver penny made during Robert the Bruce's reign | ☐ | ☐ |\n| 4 | A painting of the battle by a Victorian artist, painted in the 1880s | ☐ | ☐ |\n| 5 | A modern map showing where the two armies stood | ☐ | ☐ |\n| 6 | A chronicle written by an English monk a few years after the battle | ☐ | ☐ |\n<!-- colwidths: 45 0 90 105 -->"
+    }
+   ],
+   "effect": {
+    "items": [
+     {
+      "kind": "changed",
+      "block_id": "01M6RGCVG4X9GG16JZXYY65TVY",
+      "to": "01M6RGCVG4X9GG16JZXYY65TVY",
+      "doc_id": "01M6RGCVCK0C6QVAYPK4JGK5EA",
+      "before": "|  | Source | Primary | Secondary |\n| --- | --- | --- | --- |\n| 1 | The Declaration of Arbroath, a letter to the Pope written by Scottish nobles in 1320 | ☐ | ☐ |\n| 2 | A website article about Bannockburn written in 2019 | ☐ | ☐ |\n| 3 | A silver penny made during Robert the Bruce's reign | ☐ | ☐ |\n| 4 | A painting of the battle by a Victorian artist, painted in the 1880s | ☐ | ☐ |\n| 5 | A modern map showing where the two armies stood | ☐ | ☐ |\n| 6 | A chronicle written by an English monk a few years after the battle | ☐ | ☐ |",
+      "after": "| No. | Source | Primary | Secondary |\n| --- | --- | --- | --- |\n| 1 | The Declaration of Arbroath, a letter to the Pope written by Scottish nobles in 1320 | ☐ | ☐ |\n| 2 | A website article about Bannockburn written in 2019 | ☐ | ☐ |\n| 3 | A silver penny made during Robert the Bruce's reign | ☐ | ☐ |\n| 4 | A painting of the battle by a Victorian artist, painted in the 1880s | ☐ | ☐ |\n| 5 | A modern map showing where the two armies stood | ☐ | ☐ |\n| 6 | A chronicle written by an English monk a few years after the battle | ☐ | ☐ |\n<!-- colwidths: 45 0 90 105 -->",
+      "rows": [
+       {
+        "change": "removed",
+        "number": null,
+        "before": "|  | Source | Primary | Secondary |"
+       },
+       {
+        "change": "added",
+        "number": null,
+        "after": "| No. | Source | Primary | Secondary |"
+       }
+      ]
+     }
+    ],
+    "created_doc_ids": []
+   },
+   "judged": true
+  },
+  {
+   "id": "3PD #1",
+   "session": "3PD",
+   "turn": 1,
+   "variant": "recorded",
+   "prompt": "Update this to 15 minutes",
+   "reply": "Updated the estimated time to 15 minutes.",
+   "docs": [
+    {
+     "id": "01M6RGCVCK0C6QVAYPK4JGK5EA",
+     "name": "S1 Bannockburn Sources Homework"
+    }
+   ],
+   "operations": [
+    {
+     "op": "replace",
+     "id": "01M6RGCVG41YHDB9J5GJD41W2E",
+     "content": "*S1/S2 History Homework | About 15 minutes*"
+    }
+   ],
+   "effect": {
+    "items": [
+     {
+      "kind": "changed",
+      "block_id": "01M6RGCVG41YHDB9J5GJD41W2E",
+      "to": "01M6RGCVG41YHDB9J5GJD41W2E",
+      "doc_id": "01M6RGCVCK0C6QVAYPK4JGK5EA",
+      "before": "*S1/S2 History Homework | About 10 minutes*",
+      "after": "*S1/S2 History Homework | About 15 minutes*"
+     }
+    ],
+    "created_doc_ids": []
+   },
+   "judged": true
+  },
+  {
+   "id": "3PD #2",
+   "session": "3PD",
+   "turn": 2,
+   "variant": "recorded",
+   "prompt": "Create another copy of the worksheet, formatted to Comic Sans 14 point",
+   "reply": "I’ve created a copy of the worksheet in Comic Sans. The available formatting controls don’t include point size, so you’ll need to set it to 14 pt in the editor.",
+   "docs": [
+    {
+     "id": "01M6RGCVCK0C6QVAYPK4JGK5EA",
+     "name": "S1 Bannockburn Sources Homework"
+    },
+    {
+     "id": "EFFECT00000000000000000116",
+     "name": "S1 Bannockburn Sources Homework – Comic Sans copy"
+    }
+   ],
+   "operations": [
+    {
+     "op": "create_doc",
+     "temp_id": "copy",
+     "name": "S1 Bannockburn Sources Homework – Comic Sans copy"
+    },
+    {
+     "op": "set_style",
+     "doc": "copy",
+     "font": "comic_sans"
+    },
+    {
+     "op": "insert",
+     "doc": "copy",
+     "after": "start",
+     "type": "heading",
+     "content": "# Bannockburn: What Can the Sources Tell Us?"
+    },
+    {
+     "op": "insert",
+     "doc": "copy",
+     "after": "start",
+     "type": "paragraph",
+     "content": "**Name:** ______________ **Date:** __________ **Class:** S1"
+    },
+    {
+     "op": "insert",
+     "doc": "copy",
+     "after": "start",
+     "type": "paragraph",
+     "content": "*S1/S2 History Homework | About 15 minutes*"
+    },
+    {
+     "op": "insert",
+     "doc": "copy",
+     "after": "start",
+     "type": "paragraph",
+     "content": "**Learning intention:** I am learning to tell the difference between primary and secondary sources and to explain how useful a source is."
+    },
+    {
+     "op": "insert",
+     "doc": "copy",
+     "after": "start",
+     "type": "quote",
+     "content": "> **Background**\n> In June 1314 Robert the Bruce led the Scots against the army of King Edward I of England at the Battle of Bannockburn, near Stirling. The Scots won, and the battle became one of the most famous events in Scottish history.\n> **Remember!**\n> A **primary source** was made at the time of the event, by someone who was there or lived then.\n> A **secondary source** was made later, by someone looking back."
+    },
+    {
+     "op": "insert",
+     "doc": "copy",
+     "after": "start",
+     "type": "heading",
+     "content": "## Task 1: Primary or secondary? *(5 minutes)*"
+    },
+    {
+     "op": "insert",
+     "doc": "copy",
+     "after": "start",
+     "type": "paragraph",
+     "content": "Tick the box to show whether each source is primary or secondary."
+    },
+    {
+     "op": "insert",
+     "doc": "copy",
+     "after": "start",
+     "type": "table",
+     "content": "| No. | Source | Primary | Secondary |\n| --- | --- | --- | --- |\n| 1 | The Declaration of Arbroath, a letter to the Pope written by Scottish nobles in 1320 | ☐ | ☐ |\n| 2 | A website article about Bannockburn written in 2019 | ☐ | ☐ |\n| 3 | A silver penny made during Robert the Bruce's reign | ☐ | ☐ |\n| 4 | A painting of the battle by a Victorian artist, painted in the 1880s | ☐ | ☐ |\n| 5 | A modern map showing where the two armies stood | ☐ | ☐ |\n| 6 | A chronicle written by an English monk a few years after the battle | ☐ | ☐ |\n<!-- colwidths: 45 0 90 105 -->"
+    },
+    {
+     "op": "insert",
+     "doc": "copy",
+     "after": "start",
+     "type": "heading",
+     "content": "## Task 2: Explain *(5 minutes)*"
+    },
+    {
+     "op": "insert",
+     "doc": "copy",
+     "after": "start",
+     "type": "numbered_list",
+     "content": "1. Why might the Declaration of Arbroath be useful for finding out what Scottish nobles believed in 1320?"
+    },
+    {
+     "op": "insert",
+     "doc": "copy",
+     "after": "start",
+     "type": "paragraph",
+     "content": ""
+    },
+    {
+     "op": "insert",
+     "doc": "copy",
+     "after": "start",
+     "type": "paragraph",
+     "content": ""
+    },
+    {
+     "op": "insert",
+     "doc": "copy",
+     "after": "start",
+     "type": "numbered_list",
+     "content": "2. Give one reason the Scots won at Bannockburn."
+    },
+    {
+     "op": "insert",
+     "doc": "copy",
+     "after": "start",
+     "type": "paragraph",
+     "content": ""
+    },
+    {
+     "op": "insert",
+     "doc": "copy",
+     "after": "start",
+     "type": "paragraph",
+     "content": ""
+    },
+    {
+     "op": "insert",
+     "doc": "copy",
+     "after": "start",
+     "type": "heading",
+     "content": "## Answers for Teachers"
+    },
+    {
+     "op": "insert",
+     "doc": "copy",
+     "after": "start",
+     "type": "paragraph",
+     "content": "**Task 1**"
+    },
+    {
+     "op": "insert",
+     "doc": "copy",
+     "after": "start",
+     "type": "numbered_list",
+     "content": "1. Primary\n2. Secondary\n3. Primary\n4. Primary\n5. Secondary\n6. Primary"
+    },
+    {
+     "op": "insert",
+     "doc": "copy",
+     "after": "start",
+     "type": "paragraph",
+     "content": "**Task 2**"
+    },
+    {
+     "op": "insert",
+     "doc": "copy",
+     "after": "start",
+     "type": "paragraph",
+     "content": "Answers will vary. (1) It was written at the time by the nobles themselves, so it shows their own views, for example that Scotland should be independent. Stronger answers note it was written to persuade the Pope. (2) For example: Bruce chose ground that suited his army; the boggy land and burns made it hard for English cavalry; the Scots fought in tight schiltrons; the English army was disorganised."
+    }
+   ],
+   "effect": {
+    "items": [
+     {
+      "kind": "added",
+      "block_id": "EFFECT00000000000000000117",
+      "doc_id": "EFFECT00000000000000000116",
+      "text": "# Bannockburn: What Can the Sources Tell Us?"
+     },
+     {
+      "kind": "added",
+      "block_id": "EFFECT00000000000000000118",
+      "doc_id": "EFFECT00000000000000000116",
+      "text": "**Name:** ______________ **Date:** __________ **Class:** S1"
+     },
+     {
+      "kind": "added",
+      "block_id": "EFFECT00000000000000000119",
+      "doc_id": "EFFECT00000000000000000116",
+      "text": "*S1/S2 History Homework | About 15 minutes*"
+     },
+     {
+      "kind": "added",
+      "block_id": "EFFECT00000000000000000120",
+      "doc_id": "EFFECT00000000000000000116",
+      "text": "**Learning intention:** I am learning to tell the difference between primary and secondary sources and to explain how useful a source is."
+     },
+     {
+      "kind": "added",
+      "block_id": "EFFECT00000000000000000121",
+      "doc_id": "EFFECT00000000000000000116",
+      "text": "> **Background**\n> In June 1314 Robert the Bruce led the Scots against the army of King Edward I of England at the Battle of Bannockburn, near Stirling. The Scots won, and the battle became one of the most famous events in Scottish history.\n> **Remember!**\n> A **primary source** was made at the time of the event, by someone who was there or lived then.\n> A **secondary source** was made later, by someone looking back."
+     },
+     {
+      "kind": "added",
+      "block_id": "EFFECT00000000000000000122",
+      "doc_id": "EFFECT00000000000000000116",
+      "text": "## Task 1: Primary or secondary? *(5 minutes)*"
+     },
+     {
+      "kind": "added",
+      "block_id": "EFFECT00000000000000000123",
+      "doc_id": "EFFECT00000000000000000116",
+      "text": "Tick the box to show whether each source is primary or secondary."
+     },
+     {
+      "kind": "added",
+      "block_id": "EFFECT00000000000000000124",
+      "doc_id": "EFFECT00000000000000000116",
+      "text": "| No. | Source | Primary | Secondary |\n| --- | --- | --- | --- |\n| 1 | The Declaration of Arbroath, a letter to the Pope written by Scottish nobles in 1320 | ☐ | ☐ |\n| 2 | A website article about Bannockburn written in 2019 | ☐ | ☐ |\n| 3 | A silver penny made during Robert the Bruce's reign | ☐ | ☐ |\n| 4 | A painting of the battle by a Victorian artist, painted in the 1880s | ☐ | ☐ |\n| 5 | A modern map showing where the two armies stood | ☐ | ☐ |\n| 6 | A chronicle written by an English monk a few years after the battle | ☐ | ☐ |\n<!-- colwidths: 45 0 90 105 -->"
+     },
+     {
+      "kind": "added",
+      "block_id": "EFFECT00000000000000000125",
+      "doc_id": "EFFECT00000000000000000116",
+      "text": "## Task 2: Explain *(5 minutes)*"
+     },
+     {
+      "kind": "added",
+      "block_id": "EFFECT00000000000000000126",
+      "doc_id": "EFFECT00000000000000000116",
+      "text": "1. Why might the Declaration of Arbroath be useful for finding out what Scottish nobles believed in 1320?"
+     },
+     {
+      "kind": "formatting",
+      "block_id": "EFFECT00000000000000000127",
+      "to": "EFFECT00000000000000000127",
+      "doc_id": "EFFECT00000000000000000116"
+     },
+     {
+      "kind": "formatting",
+      "block_id": "EFFECT00000000000000000128",
+      "to": "EFFECT00000000000000000128",
+      "doc_id": "EFFECT00000000000000000116"
+     },
+     {
+      "kind": "added",
+      "block_id": "EFFECT00000000000000000129",
+      "doc_id": "EFFECT00000000000000000116",
+      "text": "2. Give one reason the Scots won at Bannockburn."
+     },
+     {
+      "kind": "formatting",
+      "block_id": "EFFECT00000000000000000130",
+      "to": "EFFECT00000000000000000130",
+      "doc_id": "EFFECT00000000000000000116"
+     },
+     {
+      "kind": "formatting",
+      "block_id": "EFFECT00000000000000000131",
+      "to": "EFFECT00000000000000000131",
+      "doc_id": "EFFECT00000000000000000116"
+     },
+     {
+      "kind": "added",
+      "block_id": "EFFECT00000000000000000132",
+      "doc_id": "EFFECT00000000000000000116",
+      "text": "## Answers for Teachers"
+     },
+     {
+      "kind": "added",
+      "block_id": "EFFECT00000000000000000133",
+      "doc_id": "EFFECT00000000000000000116",
+      "text": "**Task 1**"
+     },
+     {
+      "kind": "added",
+      "block_id": "EFFECT00000000000000000134",
+      "doc_id": "EFFECT00000000000000000116",
+      "text": "1. Primary\n2. Secondary\n3. Primary\n4. Primary\n5. Secondary\n6. Primary"
+     },
+     {
+      "kind": "added",
+      "block_id": "EFFECT00000000000000000135",
+      "doc_id": "EFFECT00000000000000000116",
+      "text": "**Task 2**"
+     },
+     {
+      "kind": "added",
+      "block_id": "EFFECT00000000000000000136",
+      "doc_id": "EFFECT00000000000000000116",
+      "text": "Answers will vary. (1) It was written at the time by the nobles themselves, so it shows their own views, for example that Scotland should be independent. Stronger answers note it was written to persuade the Pope. (2) For example: Bruce chose ground that suited his army; the boggy land and burns made it hard for English cavalry; the Scots fought in tight schiltrons; the English army was disorganised."
+     }
+    ],
+    "created_doc_ids": [
+     "EFFECT00000000000000000116"
+    ]
+   },
+   "judged": true
+  },
+  {
+   "id": "3PD #2 as copy",
+   "session": "3PD",
+   "turn": 2,
+   "variant": "as_copy",
+   "prompt": "Create another copy of the worksheet, formatted to Comic Sans 14 point",
+   "reply": "I’ve created a copy of the worksheet in Comic Sans. The available formatting controls don’t include point size, so you’ll need to set it to 14 pt in the editor.",
+   "docs": [
+    {
+     "id": "01M6RGCVCK0C6QVAYPK4JGK5EA",
+     "name": "S1 Bannockburn Sources Homework"
+    },
+    {
+     "id": "EFFECT00000000000000000137",
+     "name": "S1 Bannockburn Sources Homework – Comic Sans copy",
+     "copy_of": "01M6RGCVCK0C6QVAYPK4JGK5EA"
+    }
+   ],
+   "operations": [
+    {
+     "op": "create_doc",
+     "temp_id": "copy",
+     "name": "S1 Bannockburn Sources Homework – Comic Sans copy",
+     "copy_of": "01M6RGCVCK0C6QVAYPK4JGK5EA"
+    },
+    {
+     "op": "set_style",
+     "doc": "copy",
+     "font": "comic_sans"
+    }
+   ],
+   "effect": {
+    "items": [
+     {
+      "kind": "moved",
+      "block_id": "01M6RGCVG3F08E04BQ2821TMQ0",
+      "to": "EFFECT00000000000000000138",
+      "doc_id": "EFFECT00000000000000000137",
+      "copy": true
+     },
+     {
+      "kind": "moved",
+      "block_id": "01M6RGCVG34BAB5WYCZ50V6RVB",
+      "to": "EFFECT00000000000000000139",
+      "doc_id": "EFFECT00000000000000000137",
+      "copy": true
+     },
+     {
+      "kind": "moved",
+      "block_id": "01M6RGCVG41YHDB9J5GJD41W2E",
+      "to": "EFFECT00000000000000000140",
+      "doc_id": "EFFECT00000000000000000137",
+      "copy": true
+     },
+     {
+      "kind": "moved",
+      "block_id": "01M6RGCVG437R9CR0SCM7W8AD9",
+      "to": "EFFECT00000000000000000141",
+      "doc_id": "EFFECT00000000000000000137",
+      "copy": true
+     },
+     {
+      "kind": "moved",
+      "block_id": "01M6RGCVG45673MQYX9895J2D7",
+      "to": "EFFECT00000000000000000142",
+      "doc_id": "EFFECT00000000000000000137",
+      "copy": true
+     },
+     {
+      "kind": "moved",
+      "block_id": "01M6RGCVG4GWV9YZWT2S3M2Y8J",
+      "to": "EFFECT00000000000000000143",
+      "doc_id": "EFFECT00000000000000000137",
+      "copy": true
+     },
+     {
+      "kind": "moved",
+      "block_id": "01M6RGCVG4DB2PVDMJVX579VW0",
+      "to": "EFFECT00000000000000000144",
+      "doc_id": "EFFECT00000000000000000137",
+      "copy": true
+     },
+     {
+      "kind": "moved",
+      "block_id": "01M6RGCVG4X9GG16JZXYY65TVY",
+      "to": "EFFECT00000000000000000145",
+      "doc_id": "EFFECT00000000000000000137",
+      "copy": true
+     },
+     {
+      "kind": "moved",
+      "block_id": "01M6RGCVG410BG9TVBWRWGDH7F",
+      "to": "EFFECT00000000000000000146",
+      "doc_id": "EFFECT00000000000000000137",
+      "copy": true
+     },
+     {
+      "kind": "moved",
+      "block_id": "01M6RGCVG5GKAVV3VH87C99Y5D",
+      "to": "EFFECT00000000000000000147",
+      "doc_id": "EFFECT00000000000000000137",
+      "copy": true
+     },
+     {
+      "kind": "moved",
+      "block_id": "01M6RGCVG5R482MR4DMRYWSAJW",
+      "to": "EFFECT00000000000000000148",
+      "doc_id": "EFFECT00000000000000000137",
+      "copy": true
+     },
+     {
+      "kind": "moved",
+      "block_id": "01M6RGCVG51ZSBYJ7P95GP5E3W",
+      "to": "EFFECT00000000000000000149",
+      "doc_id": "EFFECT00000000000000000137",
+      "copy": true
+     },
+     {
+      "kind": "moved",
+      "block_id": "01M6RGCVG50TGC81AHZRNWXYM0",
+      "to": "EFFECT00000000000000000150",
+      "doc_id": "EFFECT00000000000000000137",
+      "copy": true
+     },
+     {
+      "kind": "moved",
+      "block_id": "01M6RGCVG58XM6APF6HPN93FRP",
+      "to": "EFFECT00000000000000000151",
+      "doc_id": "EFFECT00000000000000000137",
+      "copy": true
+     },
+     {
+      "kind": "moved",
+      "block_id": "01M6RGCVG5SMHFDP1XRSKBYM2X",
+      "to": "EFFECT00000000000000000152",
+      "doc_id": "EFFECT00000000000000000137",
+      "copy": true
+     },
+     {
+      "kind": "moved",
+      "block_id": "01M6RGCVG5BHYZ7GD5BA9Q0CW7",
+      "to": "EFFECT00000000000000000153",
+      "doc_id": "EFFECT00000000000000000137",
+      "copy": true
+     },
+     {
+      "kind": "moved",
+      "block_id": "01M6RGCVG53A8T8D6DBQW081C5",
+      "to": "EFFECT00000000000000000154",
+      "doc_id": "EFFECT00000000000000000137",
+      "copy": true
+     },
+     {
+      "kind": "moved",
+      "block_id": "01M6RGCVG5MJD24J5Z6PZPYGNZ",
+      "to": "EFFECT00000000000000000155",
+      "doc_id": "EFFECT00000000000000000137",
+      "copy": true
+     },
+     {
+      "kind": "moved",
+      "block_id": "01M6RGCVG5MAF0NF5S78WHCJVN",
+      "to": "EFFECT00000000000000000156",
+      "doc_id": "EFFECT00000000000000000137",
+      "copy": true
+     },
+     {
+      "kind": "moved",
+      "block_id": "01M6RGCVG5ZQA44D1A8YCA447E",
+      "to": "EFFECT00000000000000000157",
+      "doc_id": "EFFECT00000000000000000137",
+      "copy": true
+     }
+    ],
+    "created_doc_ids": [
+     "EFFECT00000000000000000137"
+    ]
+   },
+   "judged": false
+  },
+  {
+   "id": "3PD #3",
+   "session": "3PD",
+   "turn": 3,
+   "variant": "recorded",
+   "prompt": "Add an extension task for more able learners",
+   "reply": "I’ve added a source-evaluation extension task and a suggested answer for teachers.",
+   "docs": [
+    {
+     "id": "01M6RGZRDT19P25JC97NJYY1KG",
+     "name": "S1 Bannockburn Sources Homework – Comic Sans copy"
+    },
+    {
+     "id": "01M6RGCVCK0C6QVAYPK4JGK5EA",
+     "name": "S1 Bannockburn Sources Homework"
+    }
+   ],
+   "operations": [
+    {
+     "op": "insert",
+     "after": "01M6RGZRDXGM0DXQCCT84GEEV1",
+     "type": "heading",
+     "content": "## Extension: How useful is a source?"
+    },
+    {
+     "op": "insert",
+     "after": "01M6RGZRDXGM0DXQCCT84GEEV1",
+     "type": "paragraph",
+     "content": "The Declaration of Arbroath was written in 1320, six years after Bannockburn, to persuade the Pope to support Scottish independence."
+    },
+    {
+     "op": "insert",
+     "after": "01M6RGZRDXGM0DXQCCT84GEEV1",
+     "type": "numbered_list",
+     "content": "1. How useful is the Declaration for finding out what happened at Bannockburn? Explain one strength, one limitation and one other source you would check.\n   Strength: __________________________________________________________\n   Limitation: _________________________________________________________\n   Another source to check: _____________________________________________"
+    },
+    {
+     "op": "insert",
+     "after": "01M6RGZRE2VY2JKP2EN41D9N44",
+     "type": "paragraph",
+     "content": "**Extension (possible answer):** The Declaration is useful for understanding how Scottish nobles presented their cause soon after the battle. It is less useful for establishing exactly what happened in the fighting: it was written six years later to persuade the Pope, not as a battle report. Pupils might check a near-contemporary chronicle or archaeological evidence, noting the limitations of that source too."
+    }
+   ],
+   "effect": {
+    "items": [
+     {
+      "kind": "added",
+      "block_id": "EFFECT00000000000000000158",
+      "doc_id": "01M6RGZRDT19P25JC97NJYY1KG",
+      "text": "## Extension: How useful is a source?"
+     },
+     {
+      "kind": "added",
+      "block_id": "EFFECT00000000000000000159",
+      "doc_id": "01M6RGZRDT19P25JC97NJYY1KG",
+      "text": "The Declaration of Arbroath was written in 1320, six years after Bannockburn, to persuade the Pope to support Scottish independence."
+     },
+     {
+      "kind": "added",
+      "block_id": "EFFECT00000000000000000160",
+      "doc_id": "01M6RGZRDT19P25JC97NJYY1KG",
+      "text": "1. How useful is the Declaration for finding out what happened at Bannockburn? Explain one strength, one limitation and one other source you would check.\n   Strength: __________________________________________________________\n   Limitation: _________________________________________________________\n   Another source to check: _____________________________________________"
+     },
+     {
+      "kind": "added",
+      "block_id": "EFFECT00000000000000000161",
+      "doc_id": "01M6RGZRDT19P25JC97NJYY1KG",
+      "text": "**Extension (possible answer):** The Declaration is useful for understanding how Scottish nobles presented their cause soon after the battle. It is less useful for establishing exactly what happened in the fighting: it was written six years later to persuade the Pope, not as a battle report. Pupils might check a near-contemporary chronicle or archaeological evidence, noting the limitations of that source too."
+     }
+    ],
+    "created_doc_ids": []
+   },
+   "judged": true
+  },
+  {
+   "id": "3PD #4",
+   "session": "3PD",
+   "turn": 4,
+   "variant": "recorded",
+   "prompt": "Create another worksheet with Task 1 and Task 2 separated out. Also Split Task 2 into two parts, making 3 parts in total.",
+   "reply": "I’ve created a new worksheet with three clearly separated parts: classifying sources, explaining the Declaration, and explaining why the Scots won. I kept the extension and teacher answers, and corrected two historical inaccuracies in the new copy.",
+   "docs": [
+    {
+     "id": "01M6RGZRDT19P25JC97NJYY1KG",
+     "name": "S1 Bannockburn Sources Homework – Comic Sans copy"
+    },
+    {
+     "id": "01M6RGCVCK0C6QVAYPK4JGK5EA",
+     "name": "S1 Bannockburn Sources Homework"
+    },
+    {
+     "id": "EFFECT00000000000000000162",
+     "name": "Bannockburn Sources Homework – Three Parts"
+    }
+   ],
+   "operations": [
+    {
+     "op": "create_doc",
+     "temp_id": "threeparts",
+     "name": "Bannockburn Sources Homework – Three Parts"
+    },
+    {
+     "op": "set_style",
+     "doc": "threeparts",
+     "font": "comic_sans"
+    },
+    {
+     "op": "insert",
+     "doc": "threeparts",
+     "after": "start",
+     "type": "heading",
+     "content": "# Bannockburn: What Can the Sources Tell Us?"
+    },
+    {
+     "op": "insert",
+     "doc": "threeparts",
+     "after": "start",
+     "type": "paragraph",
+     "content": "**Name:** ______________  **Date:** __________  **Class:** S1"
+    },
+    {
+     "op": "insert",
+     "doc": "threeparts",
+     "after": "start",
+     "type": "paragraph",
+     "content": "*S1/S2 History Homework | About 15 minutes*"
+    },
+    {
+     "op": "insert",
+     "doc": "threeparts",
+     "after": "start",
+     "type": "paragraph",
+     "content": "**Learning intention:** I am learning to tell the difference between primary and secondary sources and to explain how useful a source is."
+    },
+    {
+     "op": "insert",
+     "doc": "threeparts",
+     "after": "start",
+     "type": "quote",
+     "content": "> **Background**\n> In June 1314 Robert the Bruce led the Scots against the army of King Edward II of England at the Battle of Bannockburn, near Stirling. The Scots won, and the battle became one of the most famous events in Scottish history.\n> **Remember!**\n> A **primary source** was made at or around the time of the event being studied.\n> A **secondary source** was made later, by someone looking back."
+    },
+    {
+     "op": "insert",
+     "doc": "threeparts",
+     "after": "start",
+     "type": "heading",
+     "content": "## Part 1: Primary or secondary? *(5 minutes)*"
+    },
+    {
+     "op": "insert",
+     "doc": "threeparts",
+     "after": "start",
+     "type": "paragraph",
+     "content": "Tick the box to show whether each source is primary or secondary for studying Bannockburn and its period."
+    },
+    {
+     "op": "insert",
+     "doc": "threeparts",
+     "after": "start",
+     "type": "table",
+     "content": "| No. | Source | Primary | Secondary |\n| --- | --- | --- | --- |\n| 1 | The Declaration of Arbroath, a letter to the Pope written by Scottish nobles in 1320 | ☐ | ☐ |\n| 2 | A website article about Bannockburn written in 2019 | ☐ | ☐ |\n| 3 | A silver penny made during Robert the Bruce’s reign | ☐ | ☐ |\n| 4 | A painting of the battle by a Victorian artist, painted in the 1880s | ☐ | ☐ |\n| 5 | A modern map showing where the two armies stood | ☐ | ☐ |\n| 6 | A chronicle written by an English monk a few years after the battle | ☐ | ☐ |\n<!-- colwidths: 45 0 90 105 -->"
+    },
+    {
+     "op": "insert",
+     "doc": "threeparts",
+     "after": "start",
+     "type": "heading",
+     "content": "## Part 2: Explain a source *(5 minutes)*"
+    },
+    {
+     "op": "insert",
+     "doc": "threeparts",
+     "after": "start",
+     "type": "numbered_list",
+     "content": "1. Why might the Declaration of Arbroath be useful for finding out what Scottish nobles believed in 1320? ________________________________\n   ____________________________________________________________________\n   ____________________________________________________________________"
+    },
+    {
+     "op": "insert",
+     "doc": "threeparts",
+     "after": "start",
+     "type": "heading",
+     "content": "## Part 3: Explain the battle *(5 minutes)*"
+    },
+    {
+     "op": "insert",
+     "doc": "threeparts",
+     "after": "start",
+     "type": "numbered_list",
+     "content": "1. Give one reason the Scots won at Bannockburn. __________________________\n   ____________________________________________________________________\n   ____________________________________________________________________"
+    },
+    {
+     "op": "insert",
+     "doc": "threeparts",
+     "after": "start",
+     "type": "heading",
+     "content": "## Extension: How useful is a source?"
+    },
+    {
+     "op": "insert",
+     "doc": "threeparts",
+     "after": "start",
+     "type": "paragraph",
+     "content": "The Declaration of Arbroath was written in 1320, six years after Bannockburn, to persuade the Pope to support Scottish independence."
+    },
+    {
+     "op": "insert",
+     "doc": "threeparts",
+     "after": "start",
+     "type": "numbered_list",
+     "content": "1. How useful is the Declaration for finding out what happened at Bannockburn? Explain one strength, one limitation and one other source you would check.\n   Strength: __________________________________________________________\n   Limitation: _________________________________________________________\n   Another source to check: _____________________________________________"
+    },
+    {
+     "op": "insert",
+     "doc": "threeparts",
+     "after": "start",
+     "type": "heading",
+     "content": "## Answers for Teachers"
+    },
+    {
+     "op": "insert",
+     "doc": "threeparts",
+     "after": "start",
+     "type": "paragraph",
+     "content": "**Part 1**"
+    },
+    {
+     "op": "insert",
+     "doc": "threeparts",
+     "after": "start",
+     "type": "numbered_list",
+     "content": "1. Primary (for Scottish views in 1320, not an eyewitness account of the battle)\n2. Secondary\n3. Primary\n4. Secondary (for the battle; primary evidence of Victorian views)\n5. Secondary\n6. Primary (a near-contemporary account, though not necessarily eyewitness)"
+    },
+    {
+     "op": "insert",
+     "doc": "threeparts",
+     "after": "start",
+     "type": "paragraph",
+     "content": "**Part 2:** It was written by Scottish nobles in 1320, so it shows how they presented their views, including support for Scottish independence. It was written to persuade the Pope, which may affect what they chose to say."
+    },
+    {
+     "op": "insert",
+     "doc": "threeparts",
+     "after": "start",
+     "type": "paragraph",
+     "content": "**Part 3:** For example, Bruce chose ground that suited his army; the boggy land and burns made it hard for English cavalry; the Scots fought in tight schiltrons; the English army was disorganised."
+    },
+    {
+     "op": "insert",
+     "doc": "threeparts",
+     "after": "start",
+     "type": "paragraph",
+     "content": "**Extension (possible answer):** The Declaration is useful for understanding how Scottish nobles presented their cause soon after the battle. It is less useful for establishing exactly what happened in the fighting: it was written six years later to persuade the Pope, not as a battle report. Pupils might check a near-contemporary chronicle or archaeological evidence, noting the limitations of that source too."
+    }
+   ],
+   "effect": {
+    "items": [
+     {
+      "kind": "added",
+      "block_id": "EFFECT00000000000000000163",
+      "doc_id": "EFFECT00000000000000000162",
+      "text": "# Bannockburn: What Can the Sources Tell Us?"
+     },
+     {
+      "kind": "added",
+      "block_id": "EFFECT00000000000000000164",
+      "doc_id": "EFFECT00000000000000000162",
+      "text": "**Name:** ______________  **Date:** __________  **Class:** S1"
+     },
+     {
+      "kind": "added",
+      "block_id": "EFFECT00000000000000000165",
+      "doc_id": "EFFECT00000000000000000162",
+      "text": "*S1/S2 History Homework | About 15 minutes*"
+     },
+     {
+      "kind": "added",
+      "block_id": "EFFECT00000000000000000166",
+      "doc_id": "EFFECT00000000000000000162",
+      "text": "**Learning intention:** I am learning to tell the difference between primary and secondary sources and to explain how useful a source is."
+     },
+     {
+      "kind": "added",
+      "block_id": "EFFECT00000000000000000167",
+      "doc_id": "EFFECT00000000000000000162",
+      "text": "> **Background**\n> In June 1314 Robert the Bruce led the Scots against the army of King Edward II of England at the Battle of Bannockburn, near Stirling. The Scots won, and the battle became one of the most famous events in Scottish history.\n> **Remember!**\n> A **primary source** was made at or around the time of the event being studied.\n> A **secondary source** was made later, by someone looking back."
+     },
+     {
+      "kind": "added",
+      "block_id": "EFFECT00000000000000000168",
+      "doc_id": "EFFECT00000000000000000162",
+      "text": "## Part 1: Primary or secondary? *(5 minutes)*"
+     },
+     {
+      "kind": "added",
+      "block_id": "EFFECT00000000000000000169",
+      "doc_id": "EFFECT00000000000000000162",
+      "text": "Tick the box to show whether each source is primary or secondary for studying Bannockburn and its period."
+     },
+     {
+      "kind": "added",
+      "block_id": "EFFECT00000000000000000170",
+      "doc_id": "EFFECT00000000000000000162",
+      "text": "| No. | Source | Primary | Secondary |\n| --- | --- | --- | --- |\n| 1 | The Declaration of Arbroath, a letter to the Pope written by Scottish nobles in 1320 | ☐ | ☐ |\n| 2 | A website article about Bannockburn written in 2019 | ☐ | ☐ |\n| 3 | A silver penny made during Robert the Bruce’s reign | ☐ | ☐ |\n| 4 | A painting of the battle by a Victorian artist, painted in the 1880s | ☐ | ☐ |\n| 5 | A modern map showing where the two armies stood | ☐ | ☐ |\n| 6 | A chronicle written by an English monk a few years after the battle | ☐ | ☐ |\n<!-- colwidths: 45 0 90 105 -->"
+     },
+     {
+      "kind": "added",
+      "block_id": "EFFECT00000000000000000171",
+      "doc_id": "EFFECT00000000000000000162",
+      "text": "## Part 2: Explain a source *(5 minutes)*"
+     },
+     {
+      "kind": "added",
+      "block_id": "EFFECT00000000000000000172",
+      "doc_id": "EFFECT00000000000000000162",
+      "text": "1. Why might the Declaration of Arbroath be useful for finding out what Scottish nobles believed in 1320? ________________________________\n   ____________________________________________________________________\n   ____________________________________________________________________"
+     },
+     {
+      "kind": "added",
+      "block_id": "EFFECT00000000000000000173",
+      "doc_id": "EFFECT00000000000000000162",
+      "text": "## Part 3: Explain the battle *(5 minutes)*"
+     },
+     {
+      "kind": "added",
+      "block_id": "EFFECT00000000000000000174",
+      "doc_id": "EFFECT00000000000000000162",
+      "text": "1. Give one reason the Scots won at Bannockburn. __________________________\n   ____________________________________________________________________\n   ____________________________________________________________________"
+     },
+     {
+      "kind": "added",
+      "block_id": "EFFECT00000000000000000175",
+      "doc_id": "EFFECT00000000000000000162",
+      "text": "## Extension: How useful is a source?"
+     },
+     {
+      "kind": "added",
+      "block_id": "EFFECT00000000000000000176",
+      "doc_id": "EFFECT00000000000000000162",
+      "text": "The Declaration of Arbroath was written in 1320, six years after Bannockburn, to persuade the Pope to support Scottish independence."
+     },
+     {
+      "kind": "added",
+      "block_id": "EFFECT00000000000000000177",
+      "doc_id": "EFFECT00000000000000000162",
+      "text": "1. How useful is the Declaration for finding out what happened at Bannockburn? Explain one strength, one limitation and one other source you would check.\n   Strength: __________________________________________________________\n   Limitation: _________________________________________________________\n   Another source to check: _____________________________________________"
+     },
+     {
+      "kind": "added",
+      "block_id": "EFFECT00000000000000000178",
+      "doc_id": "EFFECT00000000000000000162",
+      "text": "## Answers for Teachers"
+     },
+     {
+      "kind": "added",
+      "block_id": "EFFECT00000000000000000179",
+      "doc_id": "EFFECT00000000000000000162",
+      "text": "**Part 1**"
+     },
+     {
+      "kind": "added",
+      "block_id": "EFFECT00000000000000000180",
+      "doc_id": "EFFECT00000000000000000162",
+      "text": "1. Primary (for Scottish views in 1320, not an eyewitness account of the battle)\n2. Secondary\n3. Primary\n4. Secondary (for the battle; primary evidence of Victorian views)\n5. Secondary\n6. Primary (a near-contemporary account, though not necessarily eyewitness)"
+     },
+     {
+      "kind": "added",
+      "block_id": "EFFECT00000000000000000181",
+      "doc_id": "EFFECT00000000000000000162",
+      "text": "**Part 2:** It was written by Scottish nobles in 1320, so it shows how they presented their views, including support for Scottish independence. It was written to persuade the Pope, which may affect what they chose to say."
+     },
+     {
+      "kind": "added",
+      "block_id": "EFFECT00000000000000000182",
+      "doc_id": "EFFECT00000000000000000162",
+      "text": "**Part 3:** For example, Bruce chose ground that suited his army; the boggy land and burns made it hard for English cavalry; the Scots fought in tight schiltrons; the English army was disorganised."
+     },
+     {
+      "kind": "added",
+      "block_id": "EFFECT00000000000000000183",
+      "doc_id": "EFFECT00000000000000000162",
+      "text": "**Extension (possible answer):** The Declaration is useful for understanding how Scottish nobles presented their cause soon after the battle. It is less useful for establishing exactly what happened in the fighting: it was written six years later to persuade the Pope, not as a battle report. Pupils might check a near-contemporary chronicle or archaeological evidence, noting the limitations of that source too."
+     }
+    ],
+    "created_doc_ids": [
+     "EFFECT00000000000000000162"
+    ]
+   },
+   "judged": true
+  },
+  {
+   "id": "3PD #4 as copy",
+   "session": "3PD",
+   "turn": 4,
+   "variant": "as_copy",
+   "prompt": "Create another worksheet with Task 1 and Task 2 separated out. Also Split Task 2 into two parts, making 3 parts in total.",
+   "reply": "I’ve created a new worksheet with three clearly separated parts: classifying sources, explaining the Declaration, and explaining why the Scots won. I kept the extension and teacher answers, and corrected two historical inaccuracies in the new copy.",
+   "docs": [
+    {
+     "id": "01M6RGZRDT19P25JC97NJYY1KG",
+     "name": "S1 Bannockburn Sources Homework – Comic Sans copy"
+    },
+    {
+     "id": "01M6RGCVCK0C6QVAYPK4JGK5EA",
+     "name": "S1 Bannockburn Sources Homework"
+    },
+    {
+     "id": "EFFECT00000000000000000184",
+     "name": "Bannockburn Sources Homework – Three Parts",
+     "copy_of": "01M6RGZRDT19P25JC97NJYY1KG"
+    }
+   ],
+   "operations": [
+    {
+     "op": "create_doc",
+     "temp_id": "threeparts",
+     "name": "Bannockburn Sources Homework – Three Parts",
+     "copy_of": "01M6RGZRDT19P25JC97NJYY1KG"
+    },
+    {
+     "op": "delete",
+     "id": "threeparts/01M6RGZRDW24FZT20C8RATPQ76"
+    },
+    {
+     "op": "delete",
+     "id": "threeparts/01M6RGZRDX0BJVGSX5GE4AXFQF"
+    },
+    {
+     "op": "delete",
+     "id": "threeparts/01M6RGZRDX1P36AVC19M2W3R0W"
+    },
+    {
+     "op": "delete",
+     "id": "threeparts/01M6RGZRDXGM0DXQCCT84GEEV1"
+    },
+    {
+     "op": "delete",
+     "id": "threeparts/01M6RGZRDXR3X9K38EW9M9S172"
+    },
+    {
+     "op": "delete",
+     "id": "threeparts/01M6RGZRDX04FP52NZ3NM87CNY"
+    },
+    {
+     "op": "delete",
+     "id": "threeparts/01M6RGZRDX5W17H2FXD0XN4B6Q"
+    },
+    {
+     "op": "delete",
+     "id": "threeparts/01M6RGZRE2VY2JKP2EN41D9N44"
+    },
+    {
+     "op": "replace",
+     "id": "threeparts/01M6RGZRDVGK8CFWDV8ED3B5XK",
+     "content": "> **Background**\n> In June 1314 Robert the Bruce led the Scots against the army of King Edward II of England at the Battle of Bannockburn, near Stirling. The Scots won, and the battle became one of the most famous events in Scottish history.\n> **Remember!**\n> A **primary source** was made at or around the time of the event being studied.\n> A **secondary source** was made later, by someone looking back."
+    },
+    {
+     "op": "replace",
+     "id": "threeparts/01M6RGZRDVFTBXAGB522H0ME1E",
+     "content": "## Part 1: Primary or secondary? *(5 minutes)*"
+    },
+    {
+     "op": "replace",
+     "id": "threeparts/01M6RGZRDVZC6V375PM309E5D8",
+     "content": "Tick the box to show whether each source is primary or secondary for studying Bannockburn and its period."
+    },
+    {
+     "op": "replace",
+     "id": "threeparts/01M6RGZRDWH5X3T16Y972ST66X",
+     "content": "## Part 2: Explain a source *(5 minutes)*"
+    },
+    {
+     "op": "replace",
+     "id": "threeparts/01M6RGZRDWA7PEFXHBKWZTWAPY",
+     "content": "1. Why might the Declaration of Arbroath be useful for finding out what Scottish nobles believed in 1320? ________________________________\n   ____________________________________________________________________\n   ____________________________________________________________________"
+    },
+    {
+     "op": "insert",
+     "doc": "threeparts",
+     "after": "threeparts/01M6RGZRDWA7PEFXHBKWZTWAPY",
+     "type": "heading",
+     "content": "## Part 3: Explain the battle *(5 minutes)*",
+     "temp_id": "threeparts_new10"
+    },
+    {
+     "op": "replace",
+     "id": "threeparts/01M6RGZRDX41B5C9H5T4FB1MMP",
+     "content": "1. Give one reason the Scots won at Bannockburn. __________________________\n   ____________________________________________________________________\n   ____________________________________________________________________"
+    },
+    {
+     "op": "insert",
+     "doc": "threeparts",
+     "after": "threeparts/01M6RGZRDXHD8SR0SAHW2XHA7Y",
+     "type": "paragraph",
+     "content": "**Part 1**",
+     "temp_id": "threeparts_new16"
+    },
+    {
+     "op": "insert",
+     "doc": "threeparts",
+     "after": "threeparts_new16",
+     "type": "numbered_list",
+     "content": "1. Primary (for Scottish views in 1320, not an eyewitness account of the battle)\n2. Secondary\n3. Primary\n4. Secondary (for the battle; primary evidence of Victorian views)\n5. Secondary\n6. Primary (a near-contemporary account, though not necessarily eyewitness)",
+     "temp_id": "threeparts_new17"
+    },
+    {
+     "op": "insert",
+     "doc": "threeparts",
+     "after": "threeparts_new17",
+     "type": "paragraph",
+     "content": "**Part 2:** It was written by Scottish nobles in 1320, so it shows how they presented their views, including support for Scottish independence. It was written to persuade the Pope, which may affect what they chose to say.",
+     "temp_id": "threeparts_new18"
+    },
+    {
+     "op": "insert",
+     "doc": "threeparts",
+     "after": "threeparts_new18",
+     "type": "paragraph",
+     "content": "**Part 3:** For example, Bruce chose ground that suited his army; the boggy land and burns made it hard for English cavalry; the Scots fought in tight schiltrons; the English army was disorganised.",
+     "temp_id": "threeparts_new19"
+    },
+    {
+     "op": "set_style",
+     "doc": "threeparts",
+     "font": "comic_sans"
+    }
+   ],
+   "copy_choices": {
+    "01M6RGZRDT19P25JC97NJYY1KG": "all_and_leave"
+   },
+   "effect": {
+    "items": [
+     {
+      "kind": "moved",
+      "block_id": "01M6RGZRDTTBPH3P9A9A3Q35NV",
+      "to": "EFFECT00000000000000000185",
+      "doc_id": "EFFECT00000000000000000184",
+      "copy": true
+     },
+     {
+      "kind": "moved",
+      "block_id": "01M6RGZRDTSZ9V30MF63DYA91Y",
+      "to": "EFFECT00000000000000000186",
+      "doc_id": "EFFECT00000000000000000184",
+      "copy": true
+     },
+     {
+      "kind": "moved",
+      "block_id": "01M6RGZRDVK0MZM16GEQ2VK6Q8",
+      "to": "EFFECT00000000000000000187",
+      "doc_id": "EFFECT00000000000000000184",
+      "copy": true
+     },
+     {
+      "kind": "moved",
+      "block_id": "01M6RGZRDV4J3Y17H44ZPQYWRS",
+      "to": "EFFECT00000000000000000188",
+      "doc_id": "EFFECT00000000000000000184",
+      "copy": true
+     },
+     {
+      "kind": "moved",
+      "block_id": "01M6RGZRDVGK8CFWDV8ED3B5XK",
+      "to": "EFFECT00000000000000000189",
+      "doc_id": "EFFECT00000000000000000184",
+      "copy": true
+     },
+     {
+      "kind": "changed",
+      "block_id": "01M6RGZRDVGK8CFWDV8ED3B5XK",
+      "to": "EFFECT00000000000000000189",
+      "doc_id": "EFFECT00000000000000000184",
+      "before": "> **Background**\n> In June 1314 Robert the Bruce led the Scots against the army of King Edward I of England at the Battle of Bannockburn, near Stirling. The Scots won, and the battle became one of the most famous events in Scottish history.\n> **Remember!**\n> A **primary source** was made at the time of the event, by someone who was there or lived then.\n> A **secondary source** was made later, by someone looking back.",
+      "after": "> **Background**\n> In June 1314 Robert the Bruce led the Scots against the army of King Edward II of England at the Battle of Bannockburn, near Stirling. The Scots won, and the battle became one of the most famous events in Scottish history.\n> **Remember!**\n> A **primary source** was made at or around the time of the event being studied.\n> A **secondary source** was made later, by someone looking back."
+     },
+     {
+      "kind": "moved",
+      "block_id": "01M6RGZRDVFTBXAGB522H0ME1E",
+      "to": "EFFECT00000000000000000190",
+      "doc_id": "EFFECT00000000000000000184",
+      "copy": true
+     },
+     {
+      "kind": "changed",
+      "block_id": "01M6RGZRDVFTBXAGB522H0ME1E",
+      "to": "EFFECT00000000000000000190",
+      "doc_id": "EFFECT00000000000000000184",
+      "before": "## Task 1: Primary or secondary? *(5 minutes)*",
+      "after": "## Part 1: Primary or secondary? *(5 minutes)*"
+     },
+     {
+      "kind": "moved",
+      "block_id": "01M6RGZRDVZC6V375PM309E5D8",
+      "to": "EFFECT00000000000000000191",
+      "doc_id": "EFFECT00000000000000000184",
+      "copy": true
+     },
+     {
+      "kind": "changed",
+      "block_id": "01M6RGZRDVZC6V375PM309E5D8",
+      "to": "EFFECT00000000000000000191",
+      "doc_id": "EFFECT00000000000000000184",
+      "before": "Tick the box to show whether each source is primary or secondary.",
+      "after": "Tick the box to show whether each source is primary or secondary for studying Bannockburn and its period."
+     },
+     {
+      "kind": "moved",
+      "block_id": "01M6RGZRDWN89VWVT96AQWX9SM",
+      "to": "EFFECT00000000000000000192",
+      "doc_id": "EFFECT00000000000000000184",
+      "copy": true
+     },
+     {
+      "kind": "moved",
+      "block_id": "01M6RGZRDWH5X3T16Y972ST66X",
+      "to": "EFFECT00000000000000000193",
+      "doc_id": "EFFECT00000000000000000184",
+      "copy": true
+     },
+     {
+      "kind": "changed",
+      "block_id": "01M6RGZRDWH5X3T16Y972ST66X",
+      "to": "EFFECT00000000000000000193",
+      "doc_id": "EFFECT00000000000000000184",
+      "before": "## Task 2: Explain *(5 minutes)*",
+      "after": "## Part 2: Explain a source *(5 minutes)*"
+     },
+     {
+      "kind": "moved",
+      "block_id": "01M6RGZRDWA7PEFXHBKWZTWAPY",
+      "to": "EFFECT00000000000000000194",
+      "doc_id": "EFFECT00000000000000000184",
+      "copy": true
+     },
+     {
+      "kind": "changed",
+      "block_id": "01M6RGZRDWA7PEFXHBKWZTWAPY",
+      "to": "EFFECT00000000000000000194",
+      "doc_id": "EFFECT00000000000000000184",
+      "before": "1. Why might the Declaration of Arbroath be useful for finding out what Scottish nobles believed in 1320?",
+      "after": "1. Why might the Declaration of Arbroath be useful for finding out what Scottish nobles believed in 1320? ________________________________\n   ____________________________________________________________________\n   ____________________________________________________________________"
+     },
+     {
+      "kind": "formatting",
+      "block_id": "01M6RGZRDW24FZT20C8RATPQ76",
+      "to": "EFFECT00000000000000000195",
+      "doc_id": "EFFECT00000000000000000184"
+     },
+     {
+      "kind": "added",
+      "block_id": "EFFECT00000000000000000209",
+      "doc_id": "EFFECT00000000000000000184",
+      "text": "## Part 3: Explain the battle *(5 minutes)*"
+     },
+     {
+      "kind": "moved",
+      "block_id": "01M6RGZRDX41B5C9H5T4FB1MMP",
+      "to": "EFFECT00000000000000000197",
+      "doc_id": "EFFECT00000000000000000184",
+      "copy": true
+     },
+     {
+      "kind": "changed",
+      "block_id": "01M6RGZRDX41B5C9H5T4FB1MMP",
+      "to": "EFFECT00000000000000000197",
+      "doc_id": "EFFECT00000000000000000184",
+      "before": "2. Give one reason the Scots won at Bannockburn.",
+      "after": "1. Give one reason the Scots won at Bannockburn. __________________________\n   ____________________________________________________________________\n   ____________________________________________________________________"
+     },
+     {
+      "kind": "formatting",
+      "block_id": "01M6RGZRDX0BJVGSX5GE4AXFQF",
+      "to": "EFFECT00000000000000000196",
+      "doc_id": "EFFECT00000000000000000184"
+     },
+     {
+      "kind": "moved",
+      "block_id": "01M6RH3MKWZBXXV4G0NNPCEBWP",
+      "to": "EFFECT00000000000000000200",
+      "doc_id": "EFFECT00000000000000000184",
+      "copy": true
+     },
+     {
+      "kind": "moved",
+      "block_id": "01M6RH3MKW38ADJG2VWM9XBTYN",
+      "to": "EFFECT00000000000000000201",
+      "doc_id": "EFFECT00000000000000000184",
+      "copy": true
+     },
+     {
+      "kind": "formatting",
+      "block_id": "01M6RGZRDX1P36AVC19M2W3R0W",
+      "to": "EFFECT00000000000000000198",
+      "doc_id": "EFFECT00000000000000000184"
+     },
+     {
+      "kind": "moved",
+      "block_id": "01M6RH3MKWYQANGNMXS7F79YEQ",
+      "to": "EFFECT00000000000000000202",
+      "doc_id": "EFFECT00000000000000000184",
+      "copy": true
+     },
+     {
+      "kind": "formatting",
+      "block_id": "01M6RGZRDXGM0DXQCCT84GEEV1",
+      "to": "EFFECT00000000000000000199",
+      "doc_id": "EFFECT00000000000000000184"
+     },
+     {
+      "kind": "moved",
+      "block_id": "01M6RGZRDXHD8SR0SAHW2XHA7Y",
+      "to": "EFFECT00000000000000000203",
+      "doc_id": "EFFECT00000000000000000184",
+      "copy": true
+     },
+     {
+      "kind": "added",
+      "block_id": "EFFECT00000000000000000210",
+      "doc_id": "EFFECT00000000000000000184",
+      "text": "**Part 1**"
+     },
+     {
+      "kind": "added",
+      "block_id": "EFFECT00000000000000000211",
+      "doc_id": "EFFECT00000000000000000184",
+      "text": "1. Primary (for Scottish views in 1320, not an eyewitness account of the battle)\n2. Secondary\n3. Primary\n4. Secondary (for the battle; primary evidence of Victorian views)\n5. Secondary\n6. Primary (a near-contemporary account, though not necessarily eyewitness)"
+     },
+     {
+      "kind": "added",
+      "block_id": "EFFECT00000000000000000212",
+      "doc_id": "EFFECT00000000000000000184",
+      "text": "**Part 2:** It was written by Scottish nobles in 1320, so it shows how they presented their views, including support for Scottish independence. It was written to persuade the Pope, which may affect what they chose to say."
+     },
+     {
+      "kind": "removed",
+      "block_id": "01M6RGZRDXR3X9K38EW9M9S172",
+      "doc_id": "EFFECT00000000000000000184",
+      "text": "**Task 1**",
+      "from_copy": true
+     },
+     {
+      "kind": "added",
+      "block_id": "EFFECT00000000000000000213",
+      "doc_id": "EFFECT00000000000000000184",
+      "text": "**Part 3:** For example, Bruce chose ground that suited his army; the boggy land and burns made it hard for English cavalry; the Scots fought in tight schiltrons; the English army was disorganised."
+     },
+     {
+      "kind": "moved",
+      "block_id": "01M6RH3MKWRSRCCWWQ8G4V4RSZ",
+      "to": "EFFECT00000000000000000208",
+      "doc_id": "EFFECT00000000000000000184",
+      "copy": true
+     },
+     {
+      "kind": "removed",
+      "block_id": "01M6RGZRDX04FP52NZ3NM87CNY",
+      "doc_id": "EFFECT00000000000000000184",
+      "text": "1. Primary\n2. Secondary\n3. Primary\n4. Primary\n5. Secondary\n6. Primary",
+      "from_copy": true
+     },
+     {
+      "kind": "removed",
+      "block_id": "01M6RGZRDX5W17H2FXD0XN4B6Q",
+      "doc_id": "EFFECT00000000000000000184",
+      "text": "**Task 2**",
+      "from_copy": true
+     },
+     {
+      "kind": "removed",
+      "block_id": "01M6RGZRE2VY2JKP2EN41D9N44",
+      "doc_id": "EFFECT00000000000000000184",
+      "text": "Answers will vary. (1) It was written at the time by the nobles themselves, so it shows their own views, for example that Scotland should be independent. Stronger answers note it was written to persuade the Pope. (2) For example: Bruce chose ground that suited his army; the boggy land and burns made it hard for English cavalry; the Scots fought in tight schiltrons; the English army was disorganised.",
+      "from_copy": true
+     }
+    ],
+    "created_doc_ids": [
+     "EFFECT00000000000000000184"
+    ]
+   },
+   "judged": true
+  }
+ ]
+}

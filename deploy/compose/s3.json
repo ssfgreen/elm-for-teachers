@@ -1,0 +1,11 @@
+{
+  "identities": [
+    {
+      "name": "backup",
+      "credentials": [
+        { "accessKey": "local-backup-key", "secretKey": "local-backup-secret-not-for-real-use" }
+      ],
+      "actions": ["Admin", "Read", "Write", "List", "Tagging"]
+    }
+  ]
+}

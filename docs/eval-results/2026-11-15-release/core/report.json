@@ -1,0 +1,245 @@
+{
+  "protocol": {
+    "started_at": "2026-11-15T19:17:54.975Z",
+    "provider": "elm",
+    "model": "gpt-6-sol",
+    "mode": "agent",
+    "tools": [
+      "read_document",
+      "edit_document",
+      "check_layout",
+      "add_comment",
+      "reply_to_comment",
+      "search_pictures"
+    ],
+    "max_steps": 12,
+    "reasoning_effort": "medium",
+    "config_hash": "9883810d74f0635ca8dc8b273d577ff61dae3bb8d663e5022c795b7be7345cc4",
+    "system_prompt_hash": "516001b974ef8c279b76df848ad2d2c3a13ee293de5e3726d048d8076547f416",
+    "runs": 1,
+    "commit": "7738239"
+  },
+  "cases": [
+    {
+      "case": "copies > create_doc copy_of: a duplicated version with an extension task keeps every block",
+      "runs": 1,
+      "passRate": 1,
+      "budgetRate": 1,
+      "failed": {},
+      "mean": {
+        "steps": 4,
+        "uncachedInput": 1488,
+        "cachedInput": 22639,
+        "output": 401,
+        "latencyMs": 12176
+      },
+      "errors": 0
+    },
+    {
+      "case": "tools > read_document: fills an answer key from the worksheet in another document",
+      "runs": 1,
+      "passRate": 1,
+      "budgetRate": 1,
+      "failed": {},
+      "mean": {
+        "steps": 3,
+        "uncachedInput": 526,
+        "cachedInput": 15269,
+        "output": 148,
+        "latencyMs": 5943
+      },
+      "errors": 0
+    },
+    {
+      "case": "tools > insert: drafts a worksheet into an empty document, title first",
+      "runs": 1,
+      "passRate": 1,
+      "budgetRate": 1,
+      "failed": {},
+      "mean": {
+        "steps": 3,
+        "uncachedInput": 605,
+        "cachedInput": 15352,
+        "output": 384,
+        "latencyMs": 7164
+      },
+      "errors": 0
+    },
+    {
+      "case": "tools > replace: a comment on one sentence changes that sentence only",
+      "runs": 1,
+      "passRate": 1,
+      "budgetRate": 1,
+      "failed": {},
+      "mean": {
+        "steps": 2,
+        "uncachedInput": 435,
+        "cachedInput": 10070,
+        "output": 192,
+        "latencyMs": 5858
+      },
+      "errors": 0
+    },
+    {
+      "case": "tools > delete: removes the question the teacher names, and only that",
+      "runs": 1,
+      "passRate": 1,
+      "budgetRate": 1,
+      "failed": {},
+      "mean": {
+        "steps": 2,
+        "uncachedInput": 327,
+        "cachedInput": 10043,
+        "output": 98,
+        "latencyMs": 3928
+      },
+      "errors": 0
+    },
+    {
+      "case": "tools > create_doc: makes an answer sheet as a separate document",
+      "runs": 1,
+      "passRate": 1,
+      "budgetRate": 1,
+      "failed": {},
+      "mean": {
+        "steps": 2,
+        "uncachedInput": 538,
+        "cachedInput": 10090,
+        "output": 265,
+        "latencyMs": 6571
+      },
+      "errors": 0
+    },
+    {
+      "case": "behaviour > a question gets an answer in chat, with no edits",
+      "runs": 1,
+      "passRate": 1,
+      "budgetRate": 1,
+      "failed": {},
+      "mean": {
+        "steps": 1,
+        "uncachedInput": 269,
+        "cachedInput": 4911,
+        "output": 53,
+        "latencyMs": 1527
+      },
+      "errors": 0
+    },
+    {
+      "case": "behaviour > a long document: one targeted fix, without rewriting the rest",
+      "runs": 1,
+      "passRate": 1,
+      "budgetRate": 1,
+      "failed": {},
+      "mean": {
+        "steps": 2,
+        "uncachedInput": 5518,
+        "cachedInput": 15254,
+        "output": 80,
+        "latencyMs": 4158
+      },
+      "errors": 0
+    },
+    {
+      "case": "editing > a direct request to make the suggested change puts it straight in",
+      "runs": 1,
+      "passRate": 1,
+      "budgetRate": 1,
+      "failed": {},
+      "mean": {
+        "steps": 2,
+        "uncachedInput": 1295,
+        "cachedInput": 10856,
+        "output": 271,
+        "latencyMs": 5839
+      },
+      "errors": 0
+    },
+    {
+      "case": "look > asked to turn a list into a table, it keeps the content and makes a table block",
+      "runs": 1,
+      "passRate": 1,
+      "budgetRate": 1,
+      "failed": {},
+      "mean": {
+        "steps": 3,
+        "uncachedInput": 1115,
+        "cachedInput": 16360,
+        "output": 402,
+        "latencyMs": 8386
+      },
+      "errors": 0
+    },
+    {
+      "case": "comments > a request in a comment changes the commented block and replies in the thread",
+      "runs": 1,
+      "passRate": 1,
+      "budgetRate": 1,
+      "failed": {},
+      "mean": {
+        "steps": 2,
+        "uncachedInput": 680,
+        "cachedInput": 10324,
+        "output": 176,
+        "latencyMs": 6255
+      },
+      "errors": 0
+    },
+    {
+      "case": "adversarial > an invented block id changes nothing and does not break the turn",
+      "runs": 1,
+      "passRate": 1,
+      "budgetRate": 1,
+      "failed": {},
+      "mean": {
+        "steps": 1,
+        "uncachedInput": 152,
+        "cachedInput": 4911,
+        "output": 76,
+        "latencyMs": 3498
+      },
+      "errors": 0
+    },
+    {
+      "case": "lists > a request about one item changes that item only",
+      "runs": 1,
+      "passRate": 1,
+      "budgetRate": 1,
+      "failed": {},
+      "mean": {
+        "steps": 2,
+        "uncachedInput": 581,
+        "cachedInput": 10125,
+        "output": 278,
+        "latencyMs": 5987
+      },
+      "errors": 0
+    }
+  ],
+  "totals": {
+    "cases": 13,
+    "runs": 13,
+    "passRate": 1,
+    "budgetRate": 1,
+    "steps": 29,
+    "input": 169733,
+    "cachedInput": 156204,
+    "uncachedInput": 13529,
+    "output": 2824,
+    "reasoning": 833,
+    "latencyMs": 77290
+  },
+  "regressions": [
+    "tools > insert: drafts a worksheet into an empty document, title first: steps 2 → 3",
+    "tools > insert: drafts a worksheet into an empty document, title first: uncachedInput 314 → 605",
+    "tools > insert: drafts a worksheet into an empty document, title first: output 233 → 384",
+    "tools > delete: removes the question the teacher names, and only that: uncachedInput 254 → 327",
+    "behaviour > a question gets an answer in chat, with no edits: uncachedInput 196 → 269"
+  ],
+  "newCases": [
+    "copies > create_doc copy_of: a duplicated version with an extension task keeps every block",
+    "editing > a direct request to make the suggested change puts it straight in",
+    "look > asked to turn a list into a table, it keeps the content and makes a table block",
+    "lists > a request about one item changes that item only"
+  ]
+}

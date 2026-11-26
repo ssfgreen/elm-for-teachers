@@ -1,0 +1,28 @@
+{
+  "version": "2026-11-15",
+  "title": "Before you start",
+  "paragraphs": [
+    [
+      "This is a research tool. What you type, your chats with the assistant and the files you add are saved and may be read by the research team. Please do not upload identifiable pupil data into the system."
+    ],
+    [
+      "Please read the Participant Information Sheet (PIS) as it explains what the study is about, what will be asked of you, how your data will be used, and your rights as a participant."
+    ],
+    [
+      "You can find a pdf copy of the PIS here: ",
+      {
+        "text": "https://drive.google.com/file/d/1wtLh4oIcRYEghw1TuBOuNkNp1lQH0lvV/view?usp=sharing",
+        "href": "https://drive.google.com/file/d/1wtLh4oIcRYEghw1TuBOuNkNp1lQH0lvV/view?usp=sharing"
+      }
+    ],
+    [
+      "If you have any questions about the study, please contact one of the investigators: Judy Robertson (PI) - ",
+      { "text": "judy.robertson@ed.ac.uk", "href": "mailto:judy.robertson@ed.ac.uk" },
+      ", Sam Green (Teachers use of GenAI in Schools) ",
+      { "text": "samuel.green@ed.ac.uk", "href": "mailto:samuel.green@ed.ac.uk" }
+    ],
+    ["This study was certified according to the Informatics Research Ethics Process, reference number 541809."]
+  ],
+  "accept_label": "I have read this.",
+  "continue_label": "Continue"
+}

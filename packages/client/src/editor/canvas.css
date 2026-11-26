@@ -1,0 +1,397 @@
+/*
+ * The document's content: the HTML the editor (ProseMirror) draws, which React does not.
+ * The card, toolbar and menus around it are styled in their components (Canvas.tsx,
+ * Toolbar.tsx and the menus beside them). Tokens come from styles/theme.css.
+ * Every top-level node carries .blk plus status classes (blockChrome.ts).
+ */
+.canvas {
+  display: flex;
+  flex-direction: column;
+  cursor: text;
+  padding: 24px 40px 28px 40px;
+  min-height: 360px;
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--foreground);
+}
+.canvas.read-only {
+  cursor: default;
+}
+/* In the workspace's document panel (WorkspaceScreen), the page scrolls inside the panel and
+   its content keeps to a readable measure; in the narrow layout the panel keeps most of the
+   window's height and the page has smaller margins. */
+.doc-panel .canvas-frame > .canvas {
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  padding: 2rem 48px 3rem 48px;
+}
+.doc-panel .canvas-pm {
+  width: 100%;
+  max-width: 50rem;
+  margin: 0 auto;
+}
+@media (max-width: 720px) {
+  /* The panel keeps most of the window's height (a size the spacing scale has no step for;
+     WorkspaceScreen sets its min-height only from md up, so this applies). */
+  .doc-panel {
+    min-height: 70vh;
+  }
+  .doc-panel .canvas-frame > .canvas {
+    padding: 1.25rem 20px 2rem 20px;
+  }
+}
+/* The editable area fills the card, so a click anywhere in it reaches the editor. */
+.canvas-pm {
+  flex: 1;
+  outline: none;
+  white-space: pre-wrap;
+  counter-reset: ws;
+}
+.canvas-pm:focus {
+  outline: none;
+}
+
+/* ---- blocks ---- */
+.canvas-pm > .blk {
+  position: relative;
+  margin: 0 -10px 8px;
+  padding: 3px 10px;
+  border-radius: var(--radius-sm);
+  border-left: 3px solid transparent;
+}
+.canvas-pm > p.blk:empty::before {
+  content: "\00a0";
+}
+.canvas-pm > .has-placeholder::before {
+  content: attr(data-placeholder);
+  float: left;
+  height: 0;
+  color: var(--muted-foreground);
+  pointer-events: none;
+}
+
+.canvas-pm h1.blk { font-size: 1.65em; font-weight: 650; letter-spacing: -0.015em; line-height: 1.25; margin-top: 10px; margin-bottom: 4px; }
+.canvas-pm h2.blk { font-size: 1.3em; font-weight: 650; letter-spacing: -0.01em; line-height: 1.3; margin-top: 8px; margin-bottom: 2px; }
+.canvas-pm h3.blk { font-size: 1.1em; font-weight: 600; line-height: 1.35; margin-top: 6px; margin-bottom: 2px; }
+
+.canvas-pm ul.blk,
+.canvas-pm ol.blk {
+  padding-left: 1.6em;
+}
+/* Bullets and numbers, as browsers draw them (Tailwind's reset removes them). */
+.canvas-pm ul {
+  list-style: disc;
+}
+.canvas-pm ul ul {
+  list-style: circle;
+}
+.canvas-pm ul ul ul {
+  list-style: square;
+}
+.canvas-pm ol {
+  list-style: decimal;
+}
+.canvas-pm li {
+  margin: 2px 0;
+}
+.canvas-pm li > p {
+  margin: 0;
+}
+.canvas-pm ul[data-type="taskList"] {
+  list-style: none;
+  padding-left: 4px;
+}
+.canvas-pm ul[data-type="taskList"] li {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+}
+.canvas-pm ul[data-type="taskList"] li > label {
+  flex: 0 0 auto;
+  user-select: none;
+}
+.canvas-pm ul[data-type="taskList"] li > label input[type="checkbox"] {
+  margin: 0;
+  position: relative;
+  top: 2px;
+  accent-color: var(--primary);
+}
+.canvas-pm ul[data-type="taskList"] li > div {
+  flex: 1 1 auto;
+  min-width: 1ch;
+}
+.canvas-pm ul[data-type="taskList"] li[data-checked="true"] > div {
+  text-decoration: line-through;
+  color: var(--muted-foreground);
+}
+
+/* List items: one block each (extensions/listItems.ts), class list-blk (not list-item: Tailwind has a
+   utility of that name, display: list-item, which outranks these rules). A run reads as one list: about 4pt between
+   items as in Word (export/docx.ts), the usual gap after the last (list-end). As in Notion, the
+   marker sits centred in a 24px column at the block's text edge, never wrapping (so 10. and 11.
+   keep their stop), with 6px before the text; the number comes from blockChrome.ts (data-n). */
+.canvas-pm > .list-blk {
+  --marker-column: 24px;
+  --marker-gap: 6px;
+  padding-left: calc(10px + var(--marker-column) + var(--marker-gap));
+  margin-bottom: 5px;
+}
+.canvas-pm > .list-blk.list-end {
+  margin-bottom: 8px;
+}
+.canvas-pm > .list-blk[data-list="bullet"]::before,
+.canvas-pm > .list-blk[data-list="numbered"]::before {
+  position: absolute;
+  top: 3px;
+  left: 10px;
+  width: var(--marker-column);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  pointer-events: none;
+  user-select: none;
+}
+/* The bullet is drawn larger, in a box one text line high, so it stays centred on the first line. */
+.canvas-pm > .list-blk[data-list="bullet"]::before {
+  content: "•";
+  font-size: 1.5em;
+  height: calc(1.6em / 1.5);
+  line-height: 1;
+}
+.canvas-pm > .list-blk[data-list="numbered"]::before {
+  content: attr(data-n) ".";
+  height: 1.6em;
+  font-variant-numeric: tabular-nums;
+}
+.canvas-pm > .list-blk[data-list="check"] {
+  display: flex;
+  align-items: baseline;
+  gap: var(--marker-gap);
+  padding-left: 10px;
+}
+.canvas-pm > .list-blk[data-list="check"] > label {
+  flex: 0 0 var(--marker-column);
+  display: flex;
+  justify-content: center;
+  user-select: none;
+}
+.canvas-pm > .list-blk[data-list="check"] > label input[type="checkbox"] {
+  margin: 0;
+  position: relative;
+  top: 2px;
+  accent-color: var(--primary);
+}
+.canvas-pm > .list-blk[data-list="check"] > div {
+  flex: 1 1 auto;
+  min-width: 1ch;
+}
+.canvas-pm > .list-blk[data-list="check"][data-checked="true"] > div {
+  text-decoration: line-through;
+  color: var(--muted-foreground);
+}
+
+/* A straight bar: quotes do not take the rounded corners other blocks have. */
+.canvas-pm blockquote.blk {
+  border-radius: 0;
+  padding-left: 14px;
+  border-left: 3px solid var(--border-strong);
+  color: var(--foreground-2);
+}
+.canvas-pm blockquote.blk p {
+  margin: 0;
+}
+.canvas-pm pre.blk {
+  padding: 10px 12px;
+  background: var(--background);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  font-family: var(--font-mono);
+  font-size: 0.88em;
+  line-height: 1.5;
+  white-space: pre-wrap;
+}
+.canvas-pm pre.blk code {
+  background: none;
+  padding: 0;
+  font-size: inherit;
+}
+.canvas-pm hr.blk {
+  border: none;
+  border-top: 1px solid var(--border-strong);
+  padding: 0;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+/* A forced page break: a dashed line with its name in the middle. */
+.canvas-pm .blk-pageBreak {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 14px;
+  margin-bottom: 14px;
+  color: var(--muted-foreground);
+  font-size: var(--text-xs);
+  user-select: none;
+}
+.canvas-pm .blk-pageBreak::before,
+.canvas-pm .blk-pageBreak::after {
+  content: "";
+  flex: 1;
+  border-top: 1px dashed var(--border-strong);
+}
+.canvas-pm .blk-pageBreak.ProseMirror-selectednode {
+  outline: 2px solid var(--ring);
+  outline-offset: 3px;
+  border-radius: var(--radius-sm);
+}
+.canvas-pm hr.blk.ProseMirror-selectednode,
+.canvas-pm .blk-image.is-selected img {
+  outline: 2px solid var(--ring);
+  outline-offset: 3px;
+  border-radius: var(--radius-sm);
+}
+
+.canvas-pm .blk-image {
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+.canvas-pm .blk-image img {
+  max-width: 100%;
+  max-height: 360px;
+  display: block;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border);
+}
+.canvas-pm .blk-image figcaption {
+  font-size: 12px;
+  color: var(--muted-foreground);
+  margin-top: 4px;
+}
+.canvas-pm .img-placeholder img {
+  opacity: 0.4;
+}
+
+/* ---- worksheet item: a numbered question line ---- */
+.canvas-pm .ws-item {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  counter-increment: ws;
+}
+.canvas-pm .ws-num {
+  flex: 0 0 auto;
+  min-width: 1.6em;
+  color: var(--foreground-2);
+  user-select: none;
+}
+.canvas-pm .ws-num::before {
+  content: counter(ws) ".";
+}
+.canvas-pm .ws-text {
+  flex: 1 1 auto;
+  min-width: 2ch;
+}
+.canvas-pm .ws-label {
+  flex: 0 0 auto;
+  font: inherit;
+  min-width: 7em;
+  padding: 0 4px;
+  background: none;
+  border: none;
+  border-bottom: 1px solid var(--foreground);
+  text-align: center;
+  color: var(--foreground);
+  cursor: pointer;
+  user-select: none;
+}
+.canvas-pm .ws-label[data-label="blank"] {
+  color: transparent;
+}
+.canvas-pm .ws-label:hover:not(:disabled) {
+  background: var(--hover);
+}
+.canvas-pm .ws-key,
+.canvas-pm .ws-key-input {
+  flex: 0 0 auto;
+  font: inherit;
+  font-size: 12px;
+  line-height: 1.4;
+  padding: 1px 9px;
+  border-radius: 999px;
+  border: 1px solid var(--border-strong);
+  background: var(--panel);
+  color: var(--foreground-2);
+  cursor: pointer;
+  user-select: none;
+}
+.canvas-pm .ws-key.empty {
+  border-style: dashed;
+  color: var(--muted-foreground);
+}
+.canvas-pm .ws-key:hover:not(:disabled) {
+  background: var(--hover);
+}
+.canvas-pm .ws-key-input {
+  width: 10em;
+  cursor: text;
+  background: var(--card);
+}
+
+/* ---- inline marks ---- */
+.canvas-pm strong { font-weight: 700; }
+.canvas-pm em { font-style: italic; }
+.canvas-pm u { text-decoration: underline; text-underline-offset: 2px; }
+.canvas-pm code {
+  font-family: var(--font-mono);
+  font-size: 0.88em;
+  background: var(--panel);
+  padding: 1px 5px;
+  border-radius: 4px;
+}
+.canvas-pm .drop-cursor {
+  background: var(--primary);
+}
+
+/* ---- the assistant is writing into the doc (live preview): locked, no marks ---- */
+.canvas-frame.busy .canvas-pm {
+  cursor: progress;
+}
+
+/* ---- comments: the quoted text of a thread, or its whole block when there is no quote ---- */
+.canvas-pm .comment-mark {
+  background: var(--mark-soft);
+  border-bottom: 2px solid var(--mark);
+  cursor: pointer;
+}
+.canvas-pm .comment-mark.active {
+  background: var(--mark-strong);
+}
+.canvas-pm .comment-block {
+  box-shadow: inset 3px 0 0 var(--mark);
+}
+.canvas-pm .comment-block.active {
+  background: var(--mark-soft);
+}
+
+/* Text colour, highlight and links a teacher gave text (editor/extensions/textStyle.ts). */
+.canvas-pm [data-color='red'] { color: var(--text-red); }
+.canvas-pm [data-color='yellow'] { color: var(--text-yellow); }
+.canvas-pm [data-color='green'] { color: var(--text-green); }
+.canvas-pm [data-color='blue'] { color: var(--text-blue); }
+.canvas-pm [data-color='teal'] { color: var(--text-teal); }
+.canvas-pm [data-color='purple'] { color: var(--text-purple); }
+.canvas-pm mark {
+  background: var(--text-highlight);
+  color: inherit;
+  border-radius: 2px;
+  padding: 0 1px;
+}
+.canvas-pm a[href] {
+  color: var(--primary);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  cursor: text;
+}

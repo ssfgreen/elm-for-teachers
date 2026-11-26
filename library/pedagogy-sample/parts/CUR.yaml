@@ -1,0 +1,3249 @@
+sources:
+- id: src-CUR-lit-eng-eo
+  title: 'Literacy and English: experiences and outcomes'
+  publisher: Education Scotland
+  authors:
+  - Education Scotland
+  year: null
+  url: https://education.gov.scot/media/qhxmxnfq/literacy-english-eo.pdf
+  source_type: curriculum_document
+  jurisdiction:
+  - scotland
+  evidence_weight: high
+  licence: OGL v3 (Education Scotland terms of use state site material is Crown copyright, reusable under OGL v3,
+    logos excluded; no licence notice inside the PDF itself)
+  reuse_rule: short_quote_only
+  version: Curriculum for Excellence E&Os as hosted on education.gov.scot, retrieved 2026-11-12; original publication
+    year not printed in the fetched text (UNCONFIRMED, CfE E&Os date from 2009); under review in the Curriculum
+    Improvement Cycle
+  retrieved_at: '2026-11-12'
+  superseded_by: null
+- id: src-CUR-lit-eng-pp
+  title: 'Literacy and English: principles and practice'
+  publisher: Education Scotland
+  authors:
+  - Education Scotland
+  year: null
+  url: https://education.gov.scot/Documents/literacy-english-pp.pdf
+  source_type: curriculum_document
+  jurisdiction:
+  - scotland
+  evidence_weight: high
+  licence: OGL v3 (Education Scotland terms of use state site material is Crown copyright, reusable under OGL v3,
+    logos excluded; no licence notice inside the PDF itself)
+  reuse_rule: short_quote_only
+  version: As hosted on education.gov.scot, retrieved 2026-11-12; publication year not printed in fetched text (UNCONFIRMED)
+  retrieved_at: '2026-11-12'
+  superseded_by: null
+- id: src-CUR-lit-eng-benchmarks
+  title: 'Benchmarks: Literacy and English'
+  publisher: Education Scotland
+  authors:
+  - Education Scotland
+  year: 2017
+  url: https://education.gov.scot/media/giljynmw/literacyenglishbenchmarks.pdf
+  source_type: curriculum_document
+  jurisdiction:
+  - scotland
+  evidence_weight: high
+  licence: OGL v3 (Education Scotland terms of use state site material is Crown copyright, reusable under OGL v3,
+    logos excluded; no licence notice inside the PDF itself)
+  reuse_rule: short_quote_only
+  version: June 2017 (final form per Education Scotland benchmarks page); under review in the Curriculum Improvement
+    Cycle
+  retrieved_at: '2026-11-12'
+  superseded_by: null
+- id: src-CUR-soc-eo
+  title: 'Social studies: experiences and outcomes'
+  publisher: Education Scotland
+  authors:
+  - Education Scotland
+  year: null
+  url: https://education.gov.scot/media/rh3fq1gi/social-studies-eo.pdf
+  source_type: curriculum_document
+  jurisdiction:
+  - scotland
+  evidence_weight: high
+  licence: OGL v3 (Education Scotland terms of use state site material is Crown copyright, reusable under OGL v3,
+    logos excluded; no licence notice inside the PDF itself)
+  reuse_rule: short_quote_only
+  version: Curriculum for Excellence E&Os as hosted on education.gov.scot, retrieved 2026-11-12; publication year
+    not printed in fetched text (UNCONFIRMED); under review in the Curriculum Improvement Cycle
+  retrieved_at: '2026-11-12'
+  superseded_by: null
+- id: src-CUR-soc-pp
+  title: 'Social studies: principles and practice'
+  publisher: Education Scotland
+  authors:
+  - Education Scotland
+  year: null
+  url: https://education.gov.scot/Documents/social-studies-pp.pdf
+  source_type: curriculum_document
+  jurisdiction:
+  - scotland
+  evidence_weight: high
+  licence: OGL v3 (Education Scotland terms of use state site material is Crown copyright, reusable under OGL v3,
+    logos excluded; no licence notice inside the PDF itself)
+  reuse_rule: short_quote_only
+  version: As hosted on education.gov.scot, retrieved 2026-11-12; publication year not printed in fetched text (UNCONFIRMED)
+  retrieved_at: '2026-11-12'
+  superseded_by: null
+- id: src-CUR-soc-benchmarks
+  title: 'Benchmarks: Social Studies'
+  publisher: Education Scotland
+  authors:
+  - Education Scotland
+  year: 2017
+  url: https://education.gov.scot/media/eprjaqf0/social-studiesbenchmarkspdf.pdf
+  source_type: curriculum_document
+  jurisdiction:
+  - scotland
+  evidence_weight: high
+  licence: OGL v3 (Education Scotland terms of use state site material is Crown copyright, reusable under OGL v3,
+    logos excluded; no licence notice inside the PDF itself)
+  reuse_rule: short_quote_only
+  version: March 2017; under review in the Curriculum Improvement Cycle
+  retrieved_at: '2026-11-12'
+  superseded_by: null
+- id: src-CUR-es-terms-of-use
+  title: Terms of use (education.gov.scot)
+  publisher: Education Scotland
+  authors:
+  - Education Scotland
+  year: 2022
+  url: https://education.gov.scot/terms-of-use
+  source_type: policy
+  jurisdiction:
+  - scotland
+  evidence_weight: high
+  licence: OGL v3 (stated on the page itself)
+  reuse_rule: short_quote_only
+  version: Page states Crown copyright 2022; retrieved 2026-11-12
+  retrieved_at: '2026-11-12'
+  superseded_by: null
+- id: src-CUR-es-eo-page
+  title: Experiences and outcomes (Curriculum for Excellence documents)
+  publisher: Education Scotland
+  authors:
+  - Education Scotland
+  year: 2017
+  url: https://education.gov.scot/curriculum-for-excellence/curriculum-for-excellence-documents/experiences-and-outcomes/
+  source_type: curriculum_document
+  jurisdiction:
+  - scotland
+  evidence_weight: high
+  licence: OGL v3 (Education Scotland terms of use state site material is Crown copyright, reusable under OGL v3,
+    logos excluded; no licence notice inside the PDF itself)
+  reuse_rule: short_quote_only
+  version: Web page published 01/01/2017, last updated 27/04/2026
+  retrieved_at: '2026-11-12'
+  superseded_by: null
+- id: src-CUR-es-benchmarks-page
+  title: Benchmarks (Curriculum for Excellence)
+  publisher: Education Scotland
+  authors:
+  - Education Scotland
+  year: 2017
+  url: https://education.gov.scot/curriculum-for-excellence/benchmarks
+  source_type: curriculum_document
+  jurisdiction:
+  - scotland
+  evidence_weight: high
+  licence: OGL v3 (Education Scotland terms of use state site material is Crown copyright, reusable under OGL v3,
+    logos excluded; no licence notice inside the PDF itself)
+  reuse_rule: short_quote_only
+  version: Web page published 01/01/2017, last updated 10/02/2026
+  retrieved_at: '2026-11-12'
+  superseded_by: null
+- id: src-CUR-es-cic-page
+  title: The Curriculum Improvement Cycle (CIC)
+  publisher: Education Scotland
+  authors:
+  - Education Scotland
+  year: 2024
+  url: https://education.gov.scot/curriculum-for-excellence/about-curriculum-for-excellence/the-curriculum-improvement-cycle-cic
+  source_type: policy
+  jurisdiction:
+  - scotland
+  evidence_weight: high
+  licence: OGL v3 (Education Scotland terms of use state site material is Crown copyright, reusable under OGL v3,
+    logos excluded; no licence notice inside the PDF itself)
+  reuse_rule: short_quote_only
+  version: Web page published 10/09/2024, last updated 31/10/2025
+  retrieved_at: '2026-11-12'
+  superseded_by: null
+- id: src-CUR-es-cic-news-2024
+  title: Education Scotland begins work on the Curriculum Improvement Cycle
+  publisher: Education Scotland
+  authors:
+  - Education Scotland
+  year: 2024
+  url: https://education.gov.scot/news/education-scotland-begins-work-on-the-curriculum-improvement-cycle
+  source_type: policy
+  jurisdiction:
+  - scotland
+  evidence_weight: high
+  licence: OGL v3 (Education Scotland terms of use state site material is Crown copyright, reusable under OGL v3,
+    logos excluded; no licence notice inside the PDF itself)
+  reuse_rule: short_quote_only
+  version: News item published 03/10/2024
+  retrieved_at: '2026-11-12'
+  superseded_by: null
+- id: src-CUR-es-cic-evidence-papers
+  title: CIC Evidence Papers (Curriculum Improvement Cycle Glow blog)
+  publisher: Education Scotland
+  authors:
+  - Education Scotland
+  year: 2026
+  url: https://blogs.glowscotland.org.uk/glowblogs/cices/?p=2735
+  source_type: policy
+  jurisdiction:
+  - scotland
+  evidence_weight: high
+  licence: TODO_check (Glow blog hosted by Education Scotland; no licence notice seen in fetched text)
+  reuse_rule: short_quote_only
+  version: Blog page published 3 November 2026, modified 6 November 2026
+  retrieved_at: '2026-11-12'
+  superseded_by: null
+- id: src-CUR-sg-nif-2026
+  title: 'National Improvement Framework 2026: Delivering improvement'
+  publisher: Scottish Government
+  authors:
+  - Scottish Government
+  year: 2025
+  url: https://www.gov.scot/publications/national-improvement-framework-2026/pages/3/
+  source_type: policy
+  jurisdiction:
+  - scotland
+  evidence_weight: high
+  licence: 'OGL v3 (stated on the page: all content available under OGL v3 except graphic assets and where otherwise
+    stated)'
+  reuse_rule: short_quote_only
+  version: Published 9 December 2025
+  retrieved_at: '2026-11-12'
+  superseded_by: null
+- id: src-CUR-es-inspection-cic
+  title: 'Inspection approaches to support the Curriculum Improvement Cycle: Background'
+  publisher: Education Scotland
+  authors:
+  - Education Scotland
+  year: null
+  url: https://education.gov.scot/inspection-and-review/our-engagement-work-final/inspection-approaches-to-support-the-curriculum-improvement-cycle/background
+  source_type: policy
+  jurisdiction:
+  - scotland
+  evidence_weight: high
+  licence: OGL v3 (Education Scotland terms of use state site material is Crown copyright, reusable under OGL v3,
+    logos excluded; no licence notice inside the PDF itself)
+  reuse_rule: short_quote_only
+  version: Web page; publication date not stated on page (UNCONFIRMED)
+  retrieved_at: '2026-11-12'
+  superseded_by: null
+- id: src-CUR-parentzone-levels
+  title: Curriculum levels (Parentzone Scotland)
+  publisher: Education Scotland
+  authors:
+  - Education Scotland
+  year: 2017
+  url: https://education.gov.scot/parentzone/curriculum-in-scotland/curriculum-levels/
+  source_type: guidance
+  jurisdiction:
+  - scotland
+  evidence_weight: high
+  licence: OGL v3 (Education Scotland terms of use state site material is Crown copyright, reusable under OGL v3,
+    logos excluded; no licence notice inside the PDF itself)
+  reuse_rule: short_quote_only
+  version: Web page published 01/01/2017, last updated 16/06/2023
+  retrieved_at: '2026-11-12'
+  superseded_by: null
+passages:
+- id: psg-CUR-lit-2-02a-eo
+  source_id: src-CUR-lit-eng-eo
+  locator: p.3, 'Listening and talking, Tools for listening and talking', LIT 2-02a
+  text: Learners respond to others in ways that suit their role in the discussion, show that they value other people's
+    contributions and use them to take their own thinking further.
+  excerpt_type: paraphrase
+  fetched_url: https://education.gov.scot/media/qhxmxnfq/literacy-english-eo.pdf
+  verified_by_fetch: true
+- id: psg-CUR-lit-2-02a-bm
+  source_id: src-CUR-lit-eng-benchmarks
+  locator: Section 'Second level, Listening and talking' (printed heading uses a dash), benchmarks column beside
+    LIT 2-02a; no printed page numbers in the PDF
+  text: At second level the benchmarks look for several relevant ideas offered in discussion, respect for other
+    views, building on what others say, use of verbal and non-verbal techniques, and some recognition of techniques
+    used to influence a listener.
+  excerpt_type: paraphrase
+  fetched_url: https://education.gov.scot/media/giljynmw/literacyenglishbenchmarks.pdf
+  verified_by_fetch: true
+- id: psg-CUR-lit-2-04a-eo
+  source_id: src-CUR-lit-eng-eo
+  locator: p.4, 'Listening and talking, Finding and using information', LIT 2-04a
+  text: Learners identify and talk about the purpose, main ideas and supporting detail in spoken or visual texts,
+    and put that information to use for different purposes.
+  excerpt_type: paraphrase
+  fetched_url: https://education.gov.scot/media/qhxmxnfq/literacy-english-eo.pdf
+  verified_by_fetch: true
+- id: psg-CUR-lit-2-04a-bm
+  source_id: src-CUR-lit-eng-benchmarks
+  locator: Section 'Second level, Listening and talking' (printed heading uses a dash), benchmarks column beside
+    LIT 2-04a; no printed page numbers in the PDF
+  text: The benchmarks expect learners to identify the purpose of a spoken text and its main ideas with supporting
+    detail, and to make relevant notes that are mostly in their own words.
+  excerpt_type: paraphrase
+  fetched_url: https://education.gov.scot/media/giljynmw/literacyenglishbenchmarks.pdf
+  verified_by_fetch: true
+- id: psg-CUR-lit-2-07a-eo
+  source_id: src-CUR-lit-eng-eo
+  locator: p.5, 'Listening and talking, Understanding, analysing and evaluating', LIT 2-07a
+  text: Learners show understanding of what they hear by answering literal, inferential and evaluative questions
+    and by asking questions of their own.
+  excerpt_type: paraphrase
+  fetched_url: https://education.gov.scot/media/qhxmxnfq/literacy-english-eo.pdf
+  verified_by_fetch: true
+- id: psg-CUR-lit-2-07a-bm
+  source_id: src-CUR-lit-eng-benchmarks
+  locator: Section 'Second level, Listening and talking' (printed heading uses a dash), benchmarks column beside
+    LIT 2-07a; no printed page numbers in the PDF
+  text: The benchmarks expect responses to literal, inferential and evaluative questions about spoken texts, learner-generated
+    questions, and distinguishing fact from opinion.
+  excerpt_type: paraphrase
+  fetched_url: https://education.gov.scot/media/giljynmw/literacyenglishbenchmarks.pdf
+  verified_by_fetch: true
+- id: psg-CUR-lit-2-09a-eo
+  source_id: src-CUR-lit-eng-eo
+  locator: p.6, 'Listening and talking, Creating texts', LIT 2-09a
+  text: When talking, learners share information and opinions, explain processes, identify issues, summarise what
+    they have found, and ask questions to clarify meaning.
+  excerpt_type: paraphrase
+  fetched_url: https://education.gov.scot/media/qhxmxnfq/literacy-english-eo.pdf
+  verified_by_fetch: true
+- id: psg-CUR-lit-2-09a-bm-note
+  source_id: src-CUR-lit-eng-benchmarks
+  locator: Section 'Second level, Listening and talking', benchmarks column; no printed page numbers in the PDF
+  text: No benchmark bullets are tagged specifically to LIT 2-09a; the talking and presentation bullets (communicating
+    clearly, organising a talk, choosing suitable vocabulary and resources) are tagged to LIT 2-10a and LIT 3-10a.
+  excerpt_type: paraphrase
+  fetched_url: https://education.gov.scot/media/giljynmw/literacyenglishbenchmarks.pdf
+  verified_by_fetch: true
+- id: psg-CUR-eng-2-12a-eo
+  source_id: src-CUR-lit-eng-eo
+  locator: p.8, 'Reading, Tools for reading', ENG 2-12a
+  text: Learners read unfamiliar texts aloud with increasing fluency, understanding and expression, drawing on context
+    clues, punctuation, grammar and layout.
+  excerpt_type: paraphrase
+  fetched_url: https://education.gov.scot/media/qhxmxnfq/literacy-english-eo.pdf
+  verified_by_fetch: true
+- id: psg-CUR-eng-2-12a-bm
+  source_id: src-CUR-lit-eng-benchmarks
+  locator: Section 'Second level, Reading' (printed heading uses a dash), benchmarks column beside ENG 2-12a; no
+    printed page numbers in the PDF
+  text: The benchmarks look for fluent, expressive reading using context clues, punctuation, grammar and layout,
+    together with strategies such as skimming, scanning, predicting and summarising (bullets shared with LIT 2-13a
+    and with third and fourth level ENG 12a).
+  excerpt_type: paraphrase
+  fetched_url: https://education.gov.scot/media/giljynmw/literacyenglishbenchmarks.pdf
+  verified_by_fetch: true
+- id: psg-CUR-lit-2-16a-eo
+  source_id: src-CUR-lit-eng-eo
+  locator: p.10, 'Reading, Understanding, analysing and evaluating', LIT 2-16a
+  text: Across different areas of learning, learners show understanding of a text by identifying its purpose and
+    main ideas and by using supporting detail.
+  excerpt_type: paraphrase
+  fetched_url: https://education.gov.scot/media/qhxmxnfq/literacy-english-eo.pdf
+  verified_by_fetch: true
+- id: psg-CUR-lit-2-16a-bm
+  source_id: src-CUR-lit-eng-benchmarks
+  locator: Section 'Second level, Reading' (printed heading uses a dash), benchmarks column beside LIT 2-16a; no
+    printed page numbers in the PDF
+  text: Benchmark bullets grouped with ENG 2-17a expect learners to identify purpose and main ideas with detail,
+    comment on language features, answer literal, inferential and evaluative questions, create their own questions,
+    distinguish fact from opinion and recognise persuasive techniques.
+  excerpt_type: paraphrase
+  fetched_url: https://education.gov.scot/media/giljynmw/literacyenglishbenchmarks.pdf
+  verified_by_fetch: true
+- id: psg-CUR-eng-2-17a-eo
+  source_id: src-CUR-lit-eng-eo
+  locator: p.10, 'Reading, Understanding, analysing and evaluating', ENG 2-17a
+  text: Learners show understanding of texts by answering literal, inferential and evaluative questions and close
+    reading tasks, and begin to create their own questions.
+  excerpt_type: paraphrase
+  fetched_url: https://education.gov.scot/media/qhxmxnfq/literacy-english-eo.pdf
+  verified_by_fetch: true
+- id: psg-CUR-eng-2-17a-bm
+  source_id: src-CUR-lit-eng-benchmarks
+  locator: Section 'Second level, Reading' (printed heading uses a dash), benchmarks column beside ENG 2-17a; no
+    printed page numbers in the PDF
+  text: Benchmark bullets grouped with LIT 2-16a expect answers to literal, inferential and evaluative questions,
+    learner-created questions, and comment on the writer's use of language features.
+  excerpt_type: paraphrase
+  fetched_url: https://education.gov.scot/media/giljynmw/literacyenglishbenchmarks.pdf
+  verified_by_fetch: true
+- id: psg-CUR-lit-2-18a-eo
+  source_id: src-CUR-lit-eng-eo
+  locator: p.11, 'Reading, Understanding, analysing and evaluating', LIT 2-18a
+  text: Learners tell fact from opinion, recognise when a writer is trying to influence them, and judge how useful
+    and believable different sources are.
+  excerpt_type: paraphrase
+  fetched_url: https://education.gov.scot/media/qhxmxnfq/literacy-english-eo.pdf
+  verified_by_fetch: true
+- id: psg-CUR-lit-2-18a-bm
+  source_id: src-CUR-lit-eng-benchmarks
+  locator: Section 'Second level, Reading' (printed heading uses a dash), benchmarks column beside LIT 2-18a; no
+    printed page numbers in the PDF
+  text: The benchmarks expect learners to explain how they decide which sources are most useful and reliable, and
+    to recognise when a source is trying to influence the reader.
+  excerpt_type: paraphrase
+  fetched_url: https://education.gov.scot/media/giljynmw/literacyenglishbenchmarks.pdf
+  verified_by_fetch: true
+- id: psg-CUR-eng-2-19a-eo
+  source_id: src-CUR-lit-eng-eo
+  locator: p.11, 'Reading, Understanding, analysing and evaluating', ENG 2-19a
+  text: Learners discuss a text's structure, characters and setting, relate its themes to their own experience,
+    and comment on the writer's style and use of language.
+  excerpt_type: paraphrase
+  fetched_url: https://education.gov.scot/media/qhxmxnfq/literacy-english-eo.pdf
+  verified_by_fetch: true
+- id: psg-CUR-eng-2-19a-bm
+  source_id: src-CUR-lit-eng-benchmarks
+  locator: Section 'Second level, Reading' (printed heading uses a dash), benchmarks column beside ENG 2-19a; no
+    printed page numbers in the PDF
+  text: The benchmarks look for comment on structure, characterisation and setting, links between the writer's theme
+    and the learner's experience, and comment on style and genre features.
+  excerpt_type: paraphrase
+  fetched_url: https://education.gov.scot/media/giljynmw/literacyenglishbenchmarks.pdf
+  verified_by_fetch: true
+- id: psg-CUR-lit-2-21a-eo
+  source_id: src-CUR-lit-eng-eo
+  locator: p.13, 'Writing, Tools for writing', LIT 2-21a
+  text: Learners spell most of the words they need correctly, using spelling rules, specialist vocabulary, self-correction
+    and resources.
+  excerpt_type: paraphrase
+  fetched_url: https://education.gov.scot/media/qhxmxnfq/literacy-english-eo.pdf
+  verified_by_fetch: true
+- id: psg-CUR-lit-2-21a-bm
+  source_id: src-CUR-lit-eng-benchmarks
+  locator: Section 'Second level, Writing' (printed heading uses a dash), benchmarks column beside LIT 2-21a; no
+    printed page numbers in the PDF
+  text: The writing tools benchmarks (shared across LIT 2-21a, 2-22a and 2-23a) look for most words spelled correctly,
+    mainly accurate punctuation, grammatically accurate sentences of varied length and opening, linked sentences
+    in paragraphs, and fluent, legible handwriting.
+  excerpt_type: paraphrase
+  fetched_url: https://education.gov.scot/media/giljynmw/literacyenglishbenchmarks.pdf
+  verified_by_fetch: true
+- id: psg-CUR-lit-2-22a-eo
+  source_id: src-CUR-lit-eng-eo
+  locator: p.13, 'Writing, Tools for writing', LIT 2-22a
+  text: Learners use appropriate punctuation, vary sentence structures, and organise their writing into paragraphs
+    so that it makes sense to the reader.
+  excerpt_type: paraphrase
+  fetched_url: https://education.gov.scot/media/qhxmxnfq/literacy-english-eo.pdf
+  verified_by_fetch: true
+- id: psg-CUR-lit-2-22a-bm
+  source_id: src-CUR-lit-eng-benchmarks
+  locator: Section 'Second level, Writing' (printed heading uses a dash), benchmarks column beside LIT 2-22a; no
+    printed page numbers in the PDF
+  text: The shared writing tools benchmarks expect punctuation and paragraphing to be used in both short and extended
+    texts.
+  excerpt_type: paraphrase
+  fetched_url: https://education.gov.scot/media/giljynmw/literacyenglishbenchmarks.pdf
+  verified_by_fetch: true
+- id: psg-CUR-lit-2-23a-eo
+  source_id: src-CUR-lit-eng-eo
+  locator: p.13, 'Writing, Tools for writing', LIT 2-23a
+  text: Throughout the writing process, learners check that their writing makes sense and meets its purpose.
+  excerpt_type: paraphrase
+  fetched_url: https://education.gov.scot/media/qhxmxnfq/literacy-english-eo.pdf
+  verified_by_fetch: true
+- id: psg-CUR-lit-2-23a-bm
+  source_id: src-CUR-lit-eng-benchmarks
+  locator: Section 'Second level, Writing' (printed heading uses a dash), benchmarks column beside LIT 2-23a; no
+    printed page numbers in the PDF
+  text: The shared writing tools benchmarks expect learners to review and correct their work so that it makes sense,
+    is accurate and meets its purpose, and to make suitable layout choices for print and digital texts.
+  excerpt_type: paraphrase
+  fetched_url: https://education.gov.scot/media/giljynmw/literacyenglishbenchmarks.pdf
+  verified_by_fetch: true
+- id: psg-CUR-lit-2-26a-eo
+  source_id: src-CUR-lit-eng-eo
+  locator: p.15, 'Writing, Organising and using information', LIT 2-26a
+  text: Learners select ideas and information and organise them in a way that suits the type of text and its purpose,
+    using suitable vocabulary.
+  excerpt_type: paraphrase
+  fetched_url: https://education.gov.scot/media/qhxmxnfq/literacy-english-eo.pdf
+  verified_by_fetch: true
+- id: psg-CUR-lit-2-26a-bm
+  source_id: src-CUR-lit-eng-benchmarks
+  locator: Section 'Second level, Writing' (printed heading uses a dash), benchmarks column beside LIT 2-26a; no
+    printed page numbers in the PDF
+  text: The benchmarks look for notes and sources used to develop ideas, sources acknowledged, information organised
+    logically and selected for relevance, and vocabulary suited to purpose and audience.
+  excerpt_type: paraphrase
+  fetched_url: https://education.gov.scot/media/giljynmw/literacyenglishbenchmarks.pdf
+  verified_by_fetch: true
+- id: psg-CUR-lit-2-29a-eo
+  source_id: src-CUR-lit-eng-eo
+  locator: p.16, 'Writing, Creating texts', LIT 2-29a
+  text: Learners write to persuade, argue, explore issues or express an opinion, backing up their points with relevant
+    detail or evidence.
+  excerpt_type: paraphrase
+  fetched_url: https://education.gov.scot/media/qhxmxnfq/literacy-english-eo.pdf
+  verified_by_fetch: true
+- id: psg-CUR-lit-2-29a-bm
+  source_id: src-CUR-lit-eng-benchmarks
+  locator: Section 'Second level, Writing' (printed heading uses a dash), benchmarks column beside LIT 2-29a; no
+    printed page numbers in the PDF
+  text: When writing to persuade or argue, the benchmarks look for relevant ideas with supporting detail, logical
+    organisation, an introduction and conclusion, and an attempt to influence the reader.
+  excerpt_type: paraphrase
+  fetched_url: https://education.gov.scot/media/giljynmw/literacyenglishbenchmarks.pdf
+  verified_by_fetch: true
+- id: psg-CUR-eng-2-31a-eo
+  source_id: src-CUR-lit-eng-eo
+  locator: p.17, 'Writing, Creating texts', ENG 2-31a
+  text: Learners create stories, poems and plays with interesting structures, characters and settings.
+  excerpt_type: paraphrase
+  fetched_url: https://education.gov.scot/media/qhxmxnfq/literacy-english-eo.pdf
+  verified_by_fetch: true
+- id: psg-CUR-eng-2-31a-bm
+  source_id: src-CUR-lit-eng-benchmarks
+  locator: Section 'Second level, Writing' (printed heading uses a dash), benchmarks column beside ENG 2-31a; no
+    printed page numbers in the PDF
+  text: In imaginative writing the benchmarks look for some genre features, developed characters and settings, attempts
+    at figurative language, and plots with a clear structure.
+  excerpt_type: paraphrase
+  fetched_url: https://education.gov.scot/media/giljynmw/literacyenglishbenchmarks.pdf
+  verified_by_fetch: true
+- id: psg-CUR-soc-3-01a-eo
+  source_id: src-CUR-soc-eo
+  locator: p.2, 'People, past events and societies', SOC 3-01a
+  text: Learners draw on their knowledge of a historical period to interpret evidence and present an informed, reasoned
+    view.
+  excerpt_type: paraphrase
+  fetched_url: https://education.gov.scot/media/rh3fq1gi/social-studies-eo.pdf
+  verified_by_fetch: true
+- id: psg-CUR-soc-3-01a-bm
+  source_id: src-CUR-soc-benchmarks
+  locator: p.14, 'Third Level Social Studies', People, past events and societies, benchmarks column (11 uncoded
+    bullets for SOC 3-01a to 3-06a; alignment to SOC 3-01a made by curator from order and content)
+  text: 'Benchmark bullet paraphrase: Compare a range of primary and secondary sources about a period and reach
+    at least three valid conclusions.'
+  excerpt_type: paraphrase
+  fetched_url: https://education.gov.scot/media/eprjaqf0/social-studiesbenchmarkspdf.pdf
+  verified_by_fetch: true
+- id: psg-CUR-soc-3-02a-eo
+  source_id: src-CUR-soc-eo
+  locator: p.2, 'People, past events and societies', SOC 3-02a
+  text: Learners link what they are learning now with earlier learning to explain how people and events have shaped
+    the Scottish nation.
+  excerpt_type: paraphrase
+  fetched_url: https://education.gov.scot/media/rh3fq1gi/social-studies-eo.pdf
+  verified_by_fetch: true
+- id: psg-CUR-soc-3-02a-bm
+  source_id: src-CUR-soc-benchmarks
+  locator: p.14, 'Third Level Social Studies', People, past events and societies, benchmarks column (11 uncoded
+    bullets for SOC 3-01a to 3-06a; alignment to SOC 3-02a made by curator from order and content)
+  text: 'Benchmark bullet paraphrase: Drawing on earlier work, give a simple account of how the Scottish nation
+    was shaped, with at least two reasoned conclusions.'
+  excerpt_type: paraphrase
+  fetched_url: https://education.gov.scot/media/eprjaqf0/social-studiesbenchmarkspdf.pdf
+  verified_by_fetch: true
+- id: psg-CUR-soc-3-03a-eo
+  source_id: src-CUR-soc-eo
+  locator: p.2, 'People, past events and societies', SOC 3-03a
+  text: Learners explain why a group of people from beyond Scotland settled here and evaluate the effect they had
+    on Scottish life and culture.
+  excerpt_type: paraphrase
+  fetched_url: https://education.gov.scot/media/rh3fq1gi/social-studies-eo.pdf
+  verified_by_fetch: true
+- id: psg-CUR-soc-3-03a-bm
+  source_id: src-CUR-soc-benchmarks
+  locator: p.14, 'Third Level Social Studies', People, past events and societies, benchmarks column (11 uncoded
+    bullets for SOC 3-01a to 3-06a; alignment to SOC 3-03a made by curator from order and content)
+  text: 'Benchmark bullet paraphrase: Give at least two simple reasons why the group settled and describe at least
+    two impacts on Scottish life and culture.'
+  excerpt_type: paraphrase
+  fetched_url: https://education.gov.scot/media/eprjaqf0/social-studiesbenchmarkspdf.pdf
+  verified_by_fetch: true
+- id: psg-CUR-soc-3-04a-eo
+  source_id: src-CUR-soc-eo
+  locator: p.3, 'People, past events and societies', SOC 3-04a
+  text: Learners compare Scotland with a European or non-European society in the past to explain similarities and
+    differences in lifestyles, values and attitudes.
+  excerpt_type: paraphrase
+  fetched_url: https://education.gov.scot/media/rh3fq1gi/social-studies-eo.pdf
+  verified_by_fetch: true
+- id: psg-CUR-soc-3-04a-bm
+  source_id: src-CUR-soc-benchmarks
+  locator: p.14, 'Third Level Social Studies', People, past events and societies, benchmarks column (11 uncoded
+    bullets for SOC 3-01a to 3-06a; alignment to SOC 3-04a made by curator from order and content)
+  text: 'Benchmark bullet paraphrase: Give an account with at least two simple explanations of how and why the two
+    societies developed differently.'
+  excerpt_type: paraphrase
+  fetched_url: https://education.gov.scot/media/eprjaqf0/social-studiesbenchmarkspdf.pdf
+  verified_by_fetch: true
+- id: psg-CUR-soc-3-05a-eo
+  source_id: src-CUR-soc-eo
+  locator: p.4, 'People, past events and societies', SOC 3-05a
+  text: Learners explain the factors that contributed to a major social, political or economic change in the past
+    and assess its effect on people's lives.
+  excerpt_type: paraphrase
+  fetched_url: https://education.gov.scot/media/rh3fq1gi/social-studies-eo.pdf
+  verified_by_fetch: true
+- id: psg-CUR-soc-3-05a-bm
+  source_id: src-CUR-soc-benchmarks
+  locator: p.14, 'Third Level Social Studies', People, past events and societies, benchmarks column (11 uncoded
+    bullets for SOC 3-01a to 3-06a; alignment to SOC 3-05a made by curator from order and content)
+  text: 'Benchmark bullet paraphrase: Identify at least three contributing factors and offer at least two valid
+    opinions on the change''s impact on people''s lives.'
+  excerpt_type: paraphrase
+  fetched_url: https://education.gov.scot/media/eprjaqf0/social-studiesbenchmarkspdf.pdf
+  verified_by_fetch: true
+- id: psg-CUR-soc-3-06a-eo
+  source_id: src-CUR-soc-eo
+  locator: p.5, 'People, past events and societies', SOC 3-06a
+  text: Learners discuss the motives of people involved in a significant turning point in the past and assess its
+    consequences then and since.
+  excerpt_type: paraphrase
+  fetched_url: https://education.gov.scot/media/rh3fq1gi/social-studies-eo.pdf
+  verified_by_fetch: true
+- id: psg-CUR-soc-3-06a-bm
+  source_id: src-CUR-soc-benchmarks
+  locator: p.14, 'Third Level Social Studies', People, past events and societies, benchmarks column (11 uncoded
+    bullets for SOC 3-01a to 3-06a; alignment to SOC 3-06a made by curator from order and content)
+  text: 'Benchmark bullet paraphrase: Give at least two valid opinions about the likely motives of those involved
+    and a valid view of the event''s impact.'
+  excerpt_type: paraphrase
+  fetched_url: https://education.gov.scot/media/eprjaqf0/social-studiesbenchmarkspdf.pdf
+  verified_by_fetch: true
+- id: psg-CUR-cic-technical-framework
+  source_id: src-CUR-es-cic-page
+  locator: Main text, section on what the curriculum review involves
+  text: the technical framework of the BGE (including the Experiences and Outcomes) needs to be re-visited
+  excerpt_type: quote
+  fetched_url: https://education.gov.scot/curriculum-for-excellence/about-curriculum-for-excellence/the-curriculum-improvement-cycle-cic
+  verified_by_fetch: true
+- id: psg-CUR-cic-origin
+  source_id: src-CUR-es-cic-page
+  locator: Opening sections
+  text: The CIC is a planned, systematic review cycle responding to the 2021 OECD review; announced by the Cabinet
+    Secretary in December 2023, with Education Scotland commissioned to lead it from April 2024.
+  excerpt_type: paraphrase
+  fetched_url: https://education.gov.scot/curriculum-for-excellence/about-curriculum-for-excellence/the-curriculum-improvement-cycle-cic
+  verified_by_fetch: true
+- id: psg-CUR-cic-news-definition
+  source_id: src-CUR-es-cic-news-2024
+  locator: Opening paragraph
+  text: a systematic review of the Scottish curriculum
+  excerpt_type: quote
+  fetched_url: https://education.gov.scot/news/education-scotland-begins-work-on-the-curriculum-improvement-cycle
+  verified_by_fetch: true
+- id: psg-CUR-nif-phase-out-2028
+  source_id: src-CUR-sg-nif-2026
+  locator: Section 'Delivering improvement', Curriculum Improvement Cycle paragraphs
+  text: The CIC is described as a ten-year cycle whose current phase concentrates on the technical framework; existing
+    technical framework documents and guidance are to be phased out from August 2028 and replaced by a new framework.
+  excerpt_type: paraphrase
+  fetched_url: https://www.gov.scot/publications/national-improvement-framework-2026/pages/3/
+  verified_by_fetch: true
+- id: psg-CUR-nif-cic-scope
+  source_id: src-CUR-sg-nif-2026
+  locator: Section 'Delivering improvement', Curriculum Improvement Cycle paragraphs
+  text: The revision covers curriculum content and the role of knowledge, clearer progression, transitions across
+    early years, primary and secondary, and alignment of the Broad General Education with the Senior Phase.
+  excerpt_type: paraphrase
+  fetched_url: https://www.gov.scot/publications/national-improvement-framework-2026/pages/3/
+  verified_by_fetch: true
+- id: psg-CUR-cic-evidence-papers
+  source_id: src-CUR-es-cic-evidence-papers
+  locator: List of background and evidence papers (Phase 1)
+  text: Phase 1 background and evidence papers are listed for Literacy and English, Languages and Social Studies
+    among other areas, each marked as updated in November 2026.
+  excerpt_type: paraphrase
+  fetched_url: https://blogs.glowscotland.org.uk/glowblogs/cices/?p=2735
+  verified_by_fetch: true
+- id: psg-CUR-inspection-phases
+  source_id: src-CUR-es-inspection-cic
+  locator: Paragraph 2
+  text: The first phase of the CIC covers numeracy and mathematics and the second covers literacy and English.
+  excerpt_type: paraphrase
+  fetched_url: https://education.gov.scot/inspection-and-review/our-engagement-work-final/inspection-approaches-to-support-the-curriculum-improvement-cycle/background
+  verified_by_fetch: true
+- id: psg-CUR-bm-page-final
+  source_id: src-CUR-es-benchmarks-page
+  locator: Main text and document list
+  text: The benchmarks page lists Literacy and English and Social Studies benchmark PDFs and states that the benchmarks
+    shown are in their final form; the page was last updated in February 2026.
+  excerpt_type: paraphrase
+  fetched_url: https://education.gov.scot/curriculum-for-excellence/benchmarks
+  verified_by_fetch: true
+- id: psg-CUR-lit-bm-holistic
+  source_id: src-CUR-lit-eng-benchmarks
+  locator: Introductory guidance on using benchmarks for assessment; no printed page numbers
+  text: Benchmarks set out national standards for each level and support professional dialogue and moderation; achievement
+    of a level rests on teacher professional judgement drawing on a wide range of evidence.
+  excerpt_type: paraphrase
+  fetched_url: https://education.gov.scot/media/giljynmw/literacyenglishbenchmarks.pdf
+  verified_by_fetch: true
+- id: psg-CUR-soc-bm-not-tick
+  source_id: src-CUR-soc-benchmarks
+  locator: Guidance on using Benchmarks for Assessment (introductory section)
+  text: should not be ticked off individually for assessment purposes
+  excerpt_type: quote
+  fetched_url: https://education.gov.scot/media/eprjaqf0/social-studiesbenchmarkspdf.pdf
+  verified_by_fetch: true
+- id: psg-CUR-soc-bm-holistic
+  source_id: src-CUR-soc-benchmarks
+  locator: Guidance on using Benchmarks for Assessment (introductory section)
+  text: Practitioners are advised against undue focus on individual benchmarks and excessive evidence gathering,
+    and to plan periodic, holistic assessment.
+  excerpt_type: paraphrase
+  fetched_url: https://education.gov.scot/media/eprjaqf0/social-studiesbenchmarkspdf.pdf
+  verified_by_fetch: true
+- id: psg-CUR-levels-table
+  source_id: src-CUR-parentzone-levels
+  locator: Levels table
+  text: Second level is shown as P5 to P7 and third/fourth level as S1 to S3, all within the Broad General Education
+    which runs to the end of S3.
+  excerpt_type: paraphrase
+  fetched_url: https://education.gov.scot/parentzone/curriculum-in-scotland/curriculum-levels/
+  verified_by_fetch: true
+- id: psg-CUR-levels-flex
+  source_id: src-CUR-parentzone-levels
+  locator: Text beneath the levels table
+  text: The stages are a general guide only; learners progress at their own pace, and planning should allow for
+    learners with additional support needs and for highly able learners.
+  excerpt_type: paraphrase
+  fetched_url: https://education.gov.scot/parentzone/curriculum-in-scotland/curriculum-levels/
+  verified_by_fetch: true
+- id: psg-CUR-lit-pp-ceiling
+  source_id: src-CUR-lit-eng-pp
+  locator: p.2, 'The experiences and outcomes seem very broad...'
+  text: do not place a ceiling on achievement.
+  excerpt_type: quote
+  fetched_url: https://education.gov.scot/Documents/literacy-english-pp.pdf
+  verified_by_fetch: true
+- id: psg-CUR-lit-pp-progression
+  source_id: src-CUR-lit-eng-pp
+  locator: p.2, 'The experiences and outcomes seem very broad...'
+  text: Progression is shown through growing skill and independence, reduced support, longer and more complex texts,
+    and more accurate talk and writing.
+  excerpt_type: paraphrase
+  fetched_url: https://education.gov.scot/Documents/literacy-english-pp.pdf
+  verified_by_fetch: true
+- id: psg-CUR-lit-pp-transitions
+  source_id: src-CUR-lit-eng-pp
+  locator: p.4, 'What are broad features of assessment...'
+  text: Specific assessment tasks are useful for gathering evidence of progress, especially at transition points.
+  excerpt_type: paraphrase
+  fetched_url: https://education.gov.scot/Documents/literacy-english-pp.pdf
+  verified_by_fetch: true
+- id: psg-CUR-lit-pp-continuity
+  source_id: src-CUR-lit-eng-pp
+  locator: p.2, 'Effective learning and teaching in literacy and English'
+  text: Continuing professional dialogue about teaching approaches, within and across sectors, supports continuity
+    and progression.
+  excerpt_type: paraphrase
+  fetched_url: https://education.gov.scot/Documents/literacy-english-pp.pdf
+  verified_by_fetch: true
+- id: psg-CUR-lit-pp-all-staff
+  source_id: src-CUR-lit-eng-pp
+  locator: p.1, introductory section; p.3, 'What about literacy across the curriculum?'
+  text: Although English departments have traditionally led this framework in secondary schools, all practitioners
+    share responsibility for developing literacy through planned learning and everyday interaction.
+  excerpt_type: paraphrase
+  fetched_url: https://education.gov.scot/Documents/literacy-english-pp.pdf
+  verified_by_fetch: true
+- id: psg-CUR-soc-pp-literacy
+  source_id: src-CUR-soc-pp
+  locator: p.2, 'How are skills developed in social studies?'
+  text: Social studies is presented as an important context for developing literacy and numeracy, with discussion,
+    debate and oral, written and multimedia presentation as core skills.
+  excerpt_type: paraphrase
+  fetched_url: https://education.gov.scot/Documents/social-studies-pp.pdf
+  verified_by_fetch: true
+- id: psg-CUR-soc-pp-history-aims
+  source_id: src-CUR-soc-pp
+  locator: p.1, 'What will learning in social studies enable children and young people to do?'; p.2 skills list
+  text: Learners develop understanding of Scotland's history and heritage, place periods, people and events in time
+    and place, evaluate different kinds of sources and evidence, and build a sense of sequence and chronology.
+  excerpt_type: paraphrase
+  fetched_url: https://education.gov.scot/Documents/social-studies-pp.pdf
+  verified_by_fetch: true
+- id: psg-CUR-soc-pp-continuum
+  source_id: src-CUR-soc-pp
+  locator: p.2, 'How are skills developed in social studies?'
+  text: Skills develop along a continuum and should not be capped at a level; teachers judge the appropriate challenge
+    for each learner.
+  excerpt_type: paraphrase
+  fetched_url: https://education.gov.scot/Documents/social-studies-pp.pdf
+  verified_by_fetch: true
+- id: psg-CUR-tou-ogl
+  source_id: src-CUR-es-terms-of-use
+  locator: Section 'Copyright'
+  text: Education Scotland site material is Crown copyright and may be reused free of charge under the Open Government
+    Licence v3, excluding logos and third-party credited images or videos.
+  excerpt_type: paraphrase
+  fetched_url: https://education.gov.scot/terms-of-use
+  verified_by_fetch: true
+- id: psg-CUR-eo-page-def
+  source_id: src-CUR-es-eo-page
+  locator: Main text under 'Experiences and outcomes'
+  text: Experiences and outcomes are short statements describing learning and progression in each curriculum area,
+    used to plan learning and assess progress; literacy, numeracy and health and wellbeing are the responsibility
+    of all staff.
+  excerpt_type: paraphrase
+  fetched_url: https://education.gov.scot/curriculum-for-excellence/curriculum-for-excellence-documents/experiences-and-outcomes/
+  verified_by_fetch: true
+- id: psg-CUR-lit-2-01a-eo
+  source_id: src-CUR-lit-eng-eo
+  locator: p.2, 'Listening and talking, Enjoyment and choice', LIT 2-01a
+  text: Learners regularly choose spoken and other texts they enjoy, explain their preferences, and choose the subject,
+    purpose, format and resources for texts they create.
+  excerpt_type: paraphrase
+  fetched_url: https://education.gov.scot/media/qhxmxnfq/literacy-english-eo.pdf
+  verified_by_fetch: true
+- id: psg-CUR-lit-2-01a-bm
+  source_id: src-CUR-lit-eng-benchmarks
+  locator: Section 'Second level, Listening and talking' (printed heading uses a dash), benchmarks column beside
+    LIT 2-01a; no printed page numbers in the PDF
+  text: 'One bullet, shared with LIT 1-01a: the learner regularly chooses spoken texts for enjoyment or to find
+    information for a purpose, and can explain their preferences.'
+  excerpt_type: paraphrase
+  fetched_url: https://education.gov.scot/media/giljynmw/literacyenglishbenchmarks.pdf
+  verified_by_fetch: true
+- id: psg-CUR-lit-2-10a-eo
+  source_id: src-CUR-lit-eng-eo
+  locator: p.6, 'Listening and talking, Creating texts', LIT 2-10a
+  text: Learners communicate clearly, audibly and with growing confidence, choosing and organising resources independently
+    to support what they say.
+  excerpt_type: paraphrase
+  fetched_url: https://education.gov.scot/media/qhxmxnfq/literacy-english-eo.pdf
+  verified_by_fetch: true
+- id: psg-CUR-lit-2-10a-bm
+  source_id: src-CUR-lit-eng-benchmarks
+  locator: Section 'Second level, Listening and talking' (printed heading uses a dash), benchmarks column beside
+    LIT 2-10a; no printed page numbers in the PDF
+  text: 'Four bullets, shared with LIT 3-10a: speaking clearly and expressively in a range of settings, giving a
+    well-organised talk with suitable structure, choosing vocabulary for purpose and audience, and selecting resources
+    to support communication.'
+  excerpt_type: paraphrase
+  fetched_url: https://education.gov.scot/media/giljynmw/literacyenglishbenchmarks.pdf
+  verified_by_fetch: true
+- id: psg-CUR-lit-2-11a-eo
+  source_id: src-CUR-lit-eng-eo
+  locator: p.7, 'Reading, Enjoyment and choice', LIT 2-11a
+  text: Learners regularly choose texts they enjoy and can explain why they prefer particular texts and authors.
+  excerpt_type: paraphrase
+  fetched_url: https://education.gov.scot/media/qhxmxnfq/literacy-english-eo.pdf
+  verified_by_fetch: true
+- id: psg-CUR-lit-2-11a-bm
+  source_id: src-CUR-lit-eng-benchmarks
+  locator: Section 'Second level, Reading' (printed heading uses a dash), benchmarks column beside LIT 2-11a; no
+    printed page numbers in the PDF
+  text: 'Two bullets, shared with LIT 1-11a: regularly choosing texts for enjoyment or information, and explaining
+    preferences for texts, authors or sources with supporting detail.'
+  excerpt_type: paraphrase
+  fetched_url: https://education.gov.scot/media/giljynmw/literacyenglishbenchmarks.pdf
+  verified_by_fetch: true
+- id: psg-CUR-lit-2-13a-eo
+  source_id: src-CUR-lit-eng-eo
+  locator: p.8, 'Reading, Tools for reading', LIT 2-13a
+  text: Learners select and use strategies and resources before and during reading to make the meaning of texts
+    clear, and give reasons for their choices.
+  excerpt_type: paraphrase
+  fetched_url: https://education.gov.scot/media/qhxmxnfq/literacy-english-eo.pdf
+  verified_by_fetch: true
+- id: psg-CUR-lit-2-13a-bm
+  source_id: src-CUR-lit-eng-benchmarks
+  locator: Section 'Second level, Reading' (printed heading uses a dash), benchmarks column beside LIT 2-13a; no
+    printed page numbers in the PDF
+  text: 'Three bullets in the Tools for reading row, which also carries ENG 2-12a (and third and fourth level ENG
+    12a), so they appear to be shared: fluent reading with suitable pace and tone, using context clues and layout
+    with unfamiliar texts, and applying strategies such as skimming, scanning, predicting and summarising.'
+  excerpt_type: paraphrase
+  fetched_url: https://education.gov.scot/media/giljynmw/literacyenglishbenchmarks.pdf
+  verified_by_fetch: true
+- id: psg-CUR-lit-2-14a-eo
+  source_id: src-CUR-lit-eng-eo
+  locator: p.9, 'Reading, Finding and using information', LIT 2-14a
+  text: Learners use their knowledge of how texts are set out to find, select and sort information from a range
+    of sources.
+  excerpt_type: paraphrase
+  fetched_url: https://education.gov.scot/media/qhxmxnfq/literacy-english-eo.pdf
+  verified_by_fetch: true
+- id: psg-CUR-lit-2-14a-bm
+  source_id: src-CUR-lit-eng-benchmarks
+  locator: Section 'Second level, Reading' (printed heading uses a dash), benchmarks column beside LIT 2-14a; no
+    printed page numbers in the PDF
+  text: 'Three bullets of its own: skimming to identify purpose and main ideas, scanning for key information, and
+    finding, selecting and sorting relevant information from varied sources.'
+  excerpt_type: paraphrase
+  fetched_url: https://education.gov.scot/media/giljynmw/literacyenglishbenchmarks.pdf
+  verified_by_fetch: true
+- id: psg-CUR-lit-2-28a-eo
+  source_id: src-CUR-lit-eng-eo
+  locator: p.16, 'Writing, Creating texts', LIT 2-28a
+  text: Learners write to convey information, describe events, explain processes or combine ideas in different ways.
+  excerpt_type: paraphrase
+  fetched_url: https://education.gov.scot/media/qhxmxnfq/literacy-english-eo.pdf
+  verified_by_fetch: true
+- id: psg-CUR-lit-2-28a-bm
+  source_id: src-CUR-lit-eng-benchmarks
+  locator: Section 'Second level, Writing' (printed heading uses a dash), benchmarks column beside LIT 2-28a; no
+    printed page numbers in the PDF
+  text: 'Four bullets of its own: choosing a style and format suited to purpose, including relevant information,
+    organising it logically, and using tone and vocabulary suited to purpose.'
+  excerpt_type: paraphrase
+  fetched_url: https://education.gov.scot/media/giljynmw/literacyenglishbenchmarks.pdf
+  verified_by_fetch: true
+- id: psg-CUR-eng-2-27a-eo
+  source_id: src-CUR-lit-eng-eo
+  locator: p.16, 'Writing, Creating texts', ENG 2-27a
+  text: Learners use language, style and tone deliberately to engage or influence their readers.
+  excerpt_type: paraphrase
+  fetched_url: https://education.gov.scot/media/qhxmxnfq/literacy-english-eo.pdf
+  verified_by_fetch: true
+- id: psg-CUR-eng-2-27a-bm
+  source_id: src-CUR-lit-eng-benchmarks
+  locator: Section 'Second level, Writing' (printed heading uses a dash), benchmarks column beside ENG 2-27a; no
+    printed page numbers in the PDF
+  text: 'Two bullets of its own: regularly producing short and extended texts for different purposes, and attempting
+    to engage or influence the reader through vocabulary and language suited to the genre.'
+  excerpt_type: paraphrase
+  fetched_url: https://education.gov.scot/media/giljynmw/literacyenglishbenchmarks.pdf
+  verified_by_fetch: true
+- id: psg-CUR-eng-2-30a-eo
+  source_id: src-CUR-lit-eng-eo
+  locator: p.17, 'Writing, Creating texts', ENG 2-30a
+  text: Learners describe and share their experiences in writing, expressing what those experiences made them think
+    and feel.
+  excerpt_type: paraphrase
+  fetched_url: https://education.gov.scot/media/qhxmxnfq/literacy-english-eo.pdf
+  verified_by_fetch: true
+- id: psg-CUR-eng-2-30a-bm
+  source_id: src-CUR-lit-eng-benchmarks
+  locator: Section 'Second level, Writing' (printed heading uses a dash), benchmarks column beside ENG 2-30a; no
+    printed page numbers in the PDF
+  text: 'Three bullets of its own: describing personal experiences with clear context and sequence of events, describing
+    thoughts and feelings about them, and attempting to engage or influence the reader through language.'
+  excerpt_type: paraphrase
+  fetched_url: https://education.gov.scot/media/giljynmw/literacyenglishbenchmarks.pdf
+  verified_by_fetch: true
+entries:
+- id: cur-CUR-lit-2-02a
+  type: curriculum_ref
+  title: 'LIT 2-02a: Group discussion: responding to and building on others'
+  summary: Second Level Literacy and English outcome (Listening and talking, Tools for listening and talking), paraphrased;
+    normally the P5 to P7 band, used here for the P7 cell.
+  body: "**Organiser:** Listening and talking, Tools for listening and talking  \n**Outcome (paraphrase):** Learners\
+    \ respond to others in ways that suit their role in the discussion, show that they value other people's contributions\
+    \ and use them to take their own thinking further.  \n**Benchmark evidence (paraphrase):** At second level the\
+    \ benchmarks look for several relevant ideas offered in discussion, respect for other views, building on what\
+    \ others say, use of verbal and non-verbal techniques, and some recognition of techniques used to influence\
+    \ a listener.  \nAlways read the full official statement in the source document; the wording here is a curator\
+    \ paraphrase."
+  status: draft
+  version: CfE E&Os and June 2017 Benchmarks, retrieved 2026-11-12; under CIC review
+  curated_by:
+  - CUR agent
+  reviewed_by: []
+  last_reviewed: null
+  facets:
+    jurisdiction:
+    - scotland
+    cfe_level:
+    - second
+    stage:
+    - p7
+    curriculum_area:
+    - languages
+    subject:
+    - english
+    - literacy
+    knowledge_type:
+    - procedural
+    artefact_type:
+    - slides
+    - worksheet
+    - form
+    - lesson_plan
+    - interaction
+  evidence:
+    rating: null
+    rationale: Statutory-style national curriculum reference, not an evidence claim about effectiveness.
+  relations:
+    caution_from:
+    - cau-CUR-cic-under-review
+    - cau-CUR-benchmarks-holistic-use
+  claims:
+  - clm-CUR-lit-2-02a-eo
+  - clm-CUR-lit-2-02a-bm
+  - clm-CUR-lit-2-02a-review
+- id: cur-CUR-lit-2-04a
+  type: curriculum_ref
+  title: 'LIT 2-04a: Listening for purpose, main ideas and detail'
+  summary: Second Level Literacy and English outcome (Listening and talking, Finding and using information), paraphrased;
+    normally the P5 to P7 band, used here for the P7 cell.
+  body: "**Organiser:** Listening and talking, Finding and using information  \n**Outcome (paraphrase):** Learners\
+    \ identify and talk about the purpose, main ideas and supporting detail in spoken or visual texts, and put that\
+    \ information to use for different purposes.  \n**Benchmark evidence (paraphrase):** The benchmarks expect learners\
+    \ to identify the purpose of a spoken text and its main ideas with supporting detail, and to make relevant notes\
+    \ that are mostly in their own words.  \nAlways read the full official statement in the source document; the\
+    \ wording here is a curator paraphrase."
+  status: draft
+  version: CfE E&Os and June 2017 Benchmarks, retrieved 2026-11-12; under CIC review
+  curated_by:
+  - CUR agent
+  reviewed_by: []
+  last_reviewed: null
+  facets:
+    jurisdiction:
+    - scotland
+    cfe_level:
+    - second
+    stage:
+    - p7
+    curriculum_area:
+    - languages
+    subject:
+    - english
+    - literacy
+    knowledge_type:
+    - procedural
+    - conceptual
+    artefact_type:
+    - slides
+    - worksheet
+    - form
+    - lesson_plan
+    - interaction
+  evidence:
+    rating: null
+    rationale: Statutory-style national curriculum reference, not an evidence claim about effectiveness.
+  relations:
+    caution_from:
+    - cau-CUR-cic-under-review
+    - cau-CUR-benchmarks-holistic-use
+  claims:
+  - clm-CUR-lit-2-04a-eo
+  - clm-CUR-lit-2-04a-bm
+  - clm-CUR-lit-2-04a-review
+- id: cur-CUR-lit-2-07a
+  type: curriculum_ref
+  title: 'LIT 2-07a: Questioning spoken texts (literal, inferential, evaluative)'
+  summary: Second Level Literacy and English outcome (Listening and talking, Understanding, analysing and evaluating),
+    paraphrased; normally the P5 to P7 band, used here for the P7 cell.
+  body: "**Organiser:** Listening and talking, Understanding, analysing and evaluating  \n**Outcome (paraphrase):**\
+    \ Learners show understanding of what they hear by answering literal, inferential and evaluative questions and\
+    \ by asking questions of their own.  \n**Benchmark evidence (paraphrase):** The benchmarks expect responses\
+    \ to literal, inferential and evaluative questions about spoken texts, learner-generated questions, and distinguishing\
+    \ fact from opinion.  \nAlways read the full official statement in the source document; the wording here is\
+    \ a curator paraphrase."
+  status: draft
+  version: CfE E&Os and June 2017 Benchmarks, retrieved 2026-11-12; under CIC review
+  curated_by:
+  - CUR agent
+  reviewed_by: []
+  last_reviewed: null
+  facets:
+    jurisdiction:
+    - scotland
+    cfe_level:
+    - second
+    stage:
+    - p7
+    curriculum_area:
+    - languages
+    subject:
+    - english
+    - literacy
+    knowledge_type:
+    - procedural
+    - conceptual
+    artefact_type:
+    - slides
+    - worksheet
+    - form
+    - lesson_plan
+    - interaction
+  evidence:
+    rating: null
+    rationale: Statutory-style national curriculum reference, not an evidence claim about effectiveness.
+  relations:
+    caution_from:
+    - cau-CUR-cic-under-review
+    - cau-CUR-benchmarks-holistic-use
+  claims:
+  - clm-CUR-lit-2-07a-eo
+  - clm-CUR-lit-2-07a-bm
+  - clm-CUR-lit-2-07a-review
+- id: cur-CUR-lit-2-09a
+  type: curriculum_ref
+  title: 'LIT 2-09a: Talking to inform, explain and summarise'
+  summary: Second Level Literacy and English outcome (Listening and talking, Creating texts), paraphrased; normally
+    the P5 to P7 band, used here for the P7 cell.
+  body: "**Organiser:** Listening and talking, Creating texts  \n**Outcome (paraphrase):** When talking, learners\
+    \ share information and opinions, explain processes, identify issues, summarise what they have found, and ask\
+    \ questions to clarify meaning.  \n**Benchmark evidence (paraphrase):** No bullets tagged to this code alone;\
+    \ see LIT 2-10a presentation bullets.  \nAlways read the full official statement in the source document; the\
+    \ wording here is a curator paraphrase."
+  status: draft
+  version: CfE E&Os and June 2017 Benchmarks, retrieved 2026-11-12; under CIC review
+  curated_by:
+  - CUR agent
+  reviewed_by: []
+  last_reviewed: null
+  facets:
+    jurisdiction:
+    - scotland
+    cfe_level:
+    - second
+    stage:
+    - p7
+    curriculum_area:
+    - languages
+    subject:
+    - english
+    - literacy
+    knowledge_type:
+    - procedural
+    artefact_type:
+    - slides
+    - worksheet
+    - form
+    - lesson_plan
+    - interaction
+  evidence:
+    rating: null
+    rationale: Statutory-style national curriculum reference, not an evidence claim about effectiveness.
+  relations:
+    caution_from:
+    - cau-CUR-cic-under-review
+    - cau-CUR-benchmarks-holistic-use
+  claims:
+  - clm-CUR-lit-2-09a-eo
+  - clm-CUR-lit-2-09a-bm
+  - clm-CUR-lit-2-09a-review
+- id: cur-CUR-eng-2-12a
+  type: curriculum_ref
+  title: 'ENG 2-12a: Fluent, expressive reading of unfamiliar texts'
+  summary: Second Level Literacy and English outcome (Reading, Tools for reading), paraphrased; normally the P5
+    to P7 band, used here for the P7 cell.
+  body: "**Organiser:** Reading, Tools for reading  \n**Outcome (paraphrase):** Learners read unfamiliar texts aloud\
+    \ with increasing fluency, understanding and expression, drawing on context clues, punctuation, grammar and\
+    \ layout.  \n**Benchmark evidence (paraphrase):** The benchmarks look for fluent, expressive reading using context\
+    \ clues, punctuation, grammar and layout, together with strategies such as skimming, scanning, predicting and\
+    \ summarising (bullets shared with LIT 2-13a and with third and fourth level ENG 12a).  \nAlways read the full\
+    \ official statement in the source document; the wording here is a curator paraphrase."
+  status: draft
+  version: CfE E&Os and June 2017 Benchmarks, retrieved 2026-11-12; under CIC review
+  curated_by:
+  - CUR agent
+  reviewed_by: []
+  last_reviewed: null
+  facets:
+    jurisdiction:
+    - scotland
+    cfe_level:
+    - second
+    stage:
+    - p7
+    curriculum_area:
+    - languages
+    subject:
+    - english
+    - literacy
+    knowledge_type:
+    - procedural
+    artefact_type:
+    - slides
+    - worksheet
+    - form
+    - lesson_plan
+    - interaction
+  evidence:
+    rating: null
+    rationale: Statutory-style national curriculum reference, not an evidence claim about effectiveness.
+  relations:
+    caution_from:
+    - cau-CUR-cic-under-review
+    - cau-CUR-benchmarks-holistic-use
+  claims:
+  - clm-CUR-eng-2-12a-eo
+  - clm-CUR-eng-2-12a-bm
+  - clm-CUR-eng-2-12a-review
+- id: cur-CUR-lit-2-16a
+  type: curriculum_ref
+  title: 'LIT 2-16a: Reading for purpose and main ideas across learning'
+  summary: Second Level Literacy and English outcome (Reading, Understanding, analysing and evaluating), paraphrased;
+    normally the P5 to P7 band, used here for the P7 cell.
+  body: "**Organiser:** Reading, Understanding, analysing and evaluating  \n**Outcome (paraphrase):** Across different\
+    \ areas of learning, learners show understanding of a text by identifying its purpose and main ideas and by\
+    \ using supporting detail.  \n**Benchmark evidence (paraphrase):** Benchmark bullets grouped with ENG 2-17a\
+    \ expect learners to identify purpose and main ideas with detail, comment on language features, answer literal,\
+    \ inferential and evaluative questions, create their own questions, distinguish fact from opinion and recognise\
+    \ persuasive techniques.  \nAlways read the full official statement in the source document; the wording here\
+    \ is a curator paraphrase."
+  status: draft
+  version: CfE E&Os and June 2017 Benchmarks, retrieved 2026-11-12; under CIC review
+  curated_by:
+  - CUR agent
+  reviewed_by: []
+  last_reviewed: null
+  facets:
+    jurisdiction:
+    - scotland
+    cfe_level:
+    - second
+    stage:
+    - p7
+    curriculum_area:
+    - languages
+    subject:
+    - english
+    - literacy
+    knowledge_type:
+    - procedural
+    - conceptual
+    artefact_type:
+    - slides
+    - worksheet
+    - form
+    - lesson_plan
+    - interaction
+  evidence:
+    rating: null
+    rationale: Statutory-style national curriculum reference, not an evidence claim about effectiveness.
+  relations:
+    caution_from:
+    - cau-CUR-cic-under-review
+    - cau-CUR-benchmarks-holistic-use
+  claims:
+  - clm-CUR-lit-2-16a-eo
+  - clm-CUR-lit-2-16a-bm
+  - clm-CUR-lit-2-16a-review
+- id: cur-CUR-eng-2-17a
+  type: curriculum_ref
+  title: 'ENG 2-17a: Close reading and question types'
+  summary: Second Level Literacy and English outcome (Reading, Understanding, analysing and evaluating), paraphrased;
+    normally the P5 to P7 band, used here for the P7 cell.
+  body: "**Organiser:** Reading, Understanding, analysing and evaluating  \n**Outcome (paraphrase):** Learners show\
+    \ understanding of texts by answering literal, inferential and evaluative questions and close reading tasks,\
+    \ and begin to create their own questions.  \n**Benchmark evidence (paraphrase):** Benchmark bullets grouped\
+    \ with LIT 2-16a expect answers to literal, inferential and evaluative questions, learner-created questions,\
+    \ and comment on the writer's use of language features.  \nAlways read the full official statement in the source\
+    \ document; the wording here is a curator paraphrase."
+  status: draft
+  version: CfE E&Os and June 2017 Benchmarks, retrieved 2026-11-12; under CIC review
+  curated_by:
+  - CUR agent
+  reviewed_by: []
+  last_reviewed: null
+  facets:
+    jurisdiction:
+    - scotland
+    cfe_level:
+    - second
+    stage:
+    - p7
+    curriculum_area:
+    - languages
+    subject:
+    - english
+    - literacy
+    knowledge_type:
+    - procedural
+    - conceptual
+    artefact_type:
+    - slides
+    - worksheet
+    - form
+    - lesson_plan
+    - interaction
+  evidence:
+    rating: null
+    rationale: Statutory-style national curriculum reference, not an evidence claim about effectiveness.
+  relations:
+    caution_from:
+    - cau-CUR-cic-under-review
+    - cau-CUR-benchmarks-holistic-use
+  claims:
+  - clm-CUR-eng-2-17a-eo
+  - clm-CUR-eng-2-17a-bm
+  - clm-CUR-eng-2-17a-review
+- id: cur-CUR-lit-2-18a
+  type: curriculum_ref
+  title: 'LIT 2-18a: Evaluating sources: fact, opinion, reliability'
+  summary: Second Level Literacy and English outcome (Reading, Understanding, analysing and evaluating), paraphrased;
+    normally the P5 to P7 band, used here for the P7 cell.
+  body: "**Organiser:** Reading, Understanding, analysing and evaluating  \n**Outcome (paraphrase):** Learners tell\
+    \ fact from opinion, recognise when a writer is trying to influence them, and judge how useful and believable\
+    \ different sources are.  \n**Benchmark evidence (paraphrase):** The benchmarks expect learners to explain how\
+    \ they decide which sources are most useful and reliable, and to recognise when a source is trying to influence\
+    \ the reader.  \nAlways read the full official statement in the source document; the wording here is a curator\
+    \ paraphrase."
+  status: draft
+  version: CfE E&Os and June 2017 Benchmarks, retrieved 2026-11-12; under CIC review
+  curated_by:
+  - CUR agent
+  reviewed_by: []
+  last_reviewed: null
+  facets:
+    jurisdiction:
+    - scotland
+    cfe_level:
+    - second
+    stage:
+    - p7
+    curriculum_area:
+    - languages
+    subject:
+    - english
+    - literacy
+    knowledge_type:
+    - disciplinary
+    - conceptual
+    artefact_type:
+    - slides
+    - worksheet
+    - form
+    - lesson_plan
+    - interaction
+  evidence:
+    rating: null
+    rationale: Statutory-style national curriculum reference, not an evidence claim about effectiveness.
+  relations:
+    caution_from:
+    - cau-CUR-cic-under-review
+    - cau-CUR-benchmarks-holistic-use
+  claims:
+  - clm-CUR-lit-2-18a-eo
+  - clm-CUR-lit-2-18a-bm
+  - clm-CUR-lit-2-18a-review
+- id: cur-CUR-eng-2-19a
+  type: curriculum_ref
+  title: 'ENG 2-19a: Responding to literature: structure, character, setting, theme, style'
+  summary: Second Level Literacy and English outcome (Reading, Understanding, analysing and evaluating), paraphrased;
+    normally the P5 to P7 band, used here for the P7 cell.
+  body: "**Organiser:** Reading, Understanding, analysing and evaluating  \n**Outcome (paraphrase):** Learners discuss\
+    \ a text's structure, characters and setting, relate its themes to their own experience, and comment on the\
+    \ writer's style and use of language.  \n**Benchmark evidence (paraphrase):** The benchmarks look for comment\
+    \ on structure, characterisation and setting, links between the writer's theme and the learner's experience,\
+    \ and comment on style and genre features.  \nAlways read the full official statement in the source document;\
+    \ the wording here is a curator paraphrase."
+  status: draft
+  version: CfE E&Os and June 2017 Benchmarks, retrieved 2026-11-12; under CIC review
+  curated_by:
+  - CUR agent
+  reviewed_by: []
+  last_reviewed: null
+  facets:
+    jurisdiction:
+    - scotland
+    cfe_level:
+    - second
+    stage:
+    - p7
+    curriculum_area:
+    - languages
+    subject:
+    - english
+    - literacy
+    knowledge_type:
+    - conceptual
+    artefact_type:
+    - slides
+    - worksheet
+    - form
+    - lesson_plan
+    - interaction
+  evidence:
+    rating: null
+    rationale: Statutory-style national curriculum reference, not an evidence claim about effectiveness.
+  relations:
+    caution_from:
+    - cau-CUR-cic-under-review
+    - cau-CUR-benchmarks-holistic-use
+  claims:
+  - clm-CUR-eng-2-19a-eo
+  - clm-CUR-eng-2-19a-bm
+  - clm-CUR-eng-2-19a-review
+- id: cur-CUR-lit-2-21a
+  type: curriculum_ref
+  title: 'LIT 2-21a: Spelling strategies in writing'
+  summary: Second Level Literacy and English outcome (Writing, Tools for writing), paraphrased; normally the P5
+    to P7 band, used here for the P7 cell.
+  body: "**Organiser:** Writing, Tools for writing  \n**Outcome (paraphrase):** Learners spell most of the words\
+    \ they need correctly, using spelling rules, specialist vocabulary, self-correction and resources.  \n**Benchmark\
+    \ evidence (paraphrase):** The writing tools benchmarks (shared across LIT 2-21a, 2-22a and 2-23a) look for\
+    \ most words spelled correctly, mainly accurate punctuation, grammatically accurate sentences of varied length\
+    \ and opening, linked sentences in paragraphs, and fluent, legible handwriting.  \nAlways read the full official\
+    \ statement in the source document; the wording here is a curator paraphrase."
+  status: draft
+  version: CfE E&Os and June 2017 Benchmarks, retrieved 2026-11-12; under CIC review
+  curated_by:
+  - CUR agent
+  reviewed_by: []
+  last_reviewed: null
+  facets:
+    jurisdiction:
+    - scotland
+    cfe_level:
+    - second
+    stage:
+    - p7
+    curriculum_area:
+    - languages
+    subject:
+    - english
+    - literacy
+    knowledge_type:
+    - procedural
+    artefact_type:
+    - slides
+    - worksheet
+    - form
+    - lesson_plan
+    - interaction
+  evidence:
+    rating: null
+    rationale: Statutory-style national curriculum reference, not an evidence claim about effectiveness.
+  relations:
+    caution_from:
+    - cau-CUR-cic-under-review
+    - cau-CUR-benchmarks-holistic-use
+  claims:
+  - clm-CUR-lit-2-21a-eo
+  - clm-CUR-lit-2-21a-bm
+  - clm-CUR-lit-2-21a-review
+- id: cur-CUR-lit-2-22a
+  type: curriculum_ref
+  title: 'LIT 2-22a: Punctuation, sentence variety and paragraphing'
+  summary: Second Level Literacy and English outcome (Writing, Tools for writing), paraphrased; normally the P5
+    to P7 band, used here for the P7 cell.
+  body: "**Organiser:** Writing, Tools for writing  \n**Outcome (paraphrase):** Learners use appropriate punctuation,\
+    \ vary sentence structures, and organise their writing into paragraphs so that it makes sense to the reader.\
+    \  \n**Benchmark evidence (paraphrase):** The shared writing tools benchmarks expect punctuation and paragraphing\
+    \ to be used in both short and extended texts.  \nAlways read the full official statement in the source document;\
+    \ the wording here is a curator paraphrase."
+  status: draft
+  version: CfE E&Os and June 2017 Benchmarks, retrieved 2026-11-12; under CIC review
+  curated_by:
+  - CUR agent
+  reviewed_by: []
+  last_reviewed: null
+  facets:
+    jurisdiction:
+    - scotland
+    cfe_level:
+    - second
+    stage:
+    - p7
+    curriculum_area:
+    - languages
+    subject:
+    - english
+    - literacy
+    knowledge_type:
+    - procedural
+    artefact_type:
+    - slides
+    - worksheet
+    - form
+    - lesson_plan
+    - interaction
+  evidence:
+    rating: null
+    rationale: Statutory-style national curriculum reference, not an evidence claim about effectiveness.
+  relations:
+    caution_from:
+    - cau-CUR-cic-under-review
+    - cau-CUR-benchmarks-holistic-use
+  claims:
+  - clm-CUR-lit-2-22a-eo
+  - clm-CUR-lit-2-22a-bm
+  - clm-CUR-lit-2-22a-review
+- id: cur-CUR-lit-2-23a
+  type: curriculum_ref
+  title: 'LIT 2-23a: Reviewing and editing own writing'
+  summary: Second Level Literacy and English outcome (Writing, Tools for writing), paraphrased; normally the P5
+    to P7 band, used here for the P7 cell.
+  body: "**Organiser:** Writing, Tools for writing  \n**Outcome (paraphrase):** Throughout the writing process,\
+    \ learners check that their writing makes sense and meets its purpose.  \n**Benchmark evidence (paraphrase):**\
+    \ The shared writing tools benchmarks expect learners to review and correct their work so that it makes sense,\
+    \ is accurate and meets its purpose, and to make suitable layout choices for print and digital texts.  \nAlways\
+    \ read the full official statement in the source document; the wording here is a curator paraphrase."
+  status: draft
+  version: CfE E&Os and June 2017 Benchmarks, retrieved 2026-11-12; under CIC review
+  curated_by:
+  - CUR agent
+  reviewed_by: []
+  last_reviewed: null
+  facets:
+    jurisdiction:
+    - scotland
+    cfe_level:
+    - second
+    stage:
+    - p7
+    curriculum_area:
+    - languages
+    subject:
+    - english
+    - literacy
+    knowledge_type:
+    - procedural
+    - metacognitive
+    artefact_type:
+    - slides
+    - worksheet
+    - form
+    - lesson_plan
+    - interaction
+  evidence:
+    rating: null
+    rationale: Statutory-style national curriculum reference, not an evidence claim about effectiveness.
+  relations:
+    caution_from:
+    - cau-CUR-cic-under-review
+    - cau-CUR-benchmarks-holistic-use
+  claims:
+  - clm-CUR-lit-2-23a-eo
+  - clm-CUR-lit-2-23a-bm
+  - clm-CUR-lit-2-23a-review
+- id: cur-CUR-lit-2-26a
+  type: curriculum_ref
+  title: 'LIT 2-26a: Selecting and organising ideas for purpose'
+  summary: Second Level Literacy and English outcome (Writing, Organising and using information), paraphrased; normally
+    the P5 to P7 band, used here for the P7 cell.
+  body: "**Organiser:** Writing, Organising and using information  \n**Outcome (paraphrase):** Learners select ideas\
+    \ and information and organise them in a way that suits the type of text and its purpose, using suitable vocabulary.\
+    \  \n**Benchmark evidence (paraphrase):** The benchmarks look for notes and sources used to develop ideas, sources\
+    \ acknowledged, information organised logically and selected for relevance, and vocabulary suited to purpose\
+    \ and audience.  \nAlways read the full official statement in the source document; the wording here is a curator\
+    \ paraphrase."
+  status: draft
+  version: CfE E&Os and June 2017 Benchmarks, retrieved 2026-11-12; under CIC review
+  curated_by:
+  - CUR agent
+  reviewed_by: []
+  last_reviewed: null
+  facets:
+    jurisdiction:
+    - scotland
+    cfe_level:
+    - second
+    stage:
+    - p7
+    curriculum_area:
+    - languages
+    subject:
+    - english
+    - literacy
+    knowledge_type:
+    - procedural
+    artefact_type:
+    - slides
+    - worksheet
+    - form
+    - lesson_plan
+    - interaction
+  evidence:
+    rating: null
+    rationale: Statutory-style national curriculum reference, not an evidence claim about effectiveness.
+  relations:
+    caution_from:
+    - cau-CUR-cic-under-review
+    - cau-CUR-benchmarks-holistic-use
+  claims:
+  - clm-CUR-lit-2-26a-eo
+  - clm-CUR-lit-2-26a-bm
+  - clm-CUR-lit-2-26a-review
+- id: cur-CUR-lit-2-29a
+  type: curriculum_ref
+  title: 'LIT 2-29a: Persuasive and argumentative writing'
+  summary: Second Level Literacy and English outcome (Writing, Creating texts), paraphrased; normally the P5 to
+    P7 band, used here for the P7 cell.
+  body: "**Organiser:** Writing, Creating texts  \n**Outcome (paraphrase):** Learners write to persuade, argue,\
+    \ explore issues or express an opinion, backing up their points with relevant detail or evidence.  \n**Benchmark\
+    \ evidence (paraphrase):** When writing to persuade or argue, the benchmarks look for relevant ideas with supporting\
+    \ detail, logical organisation, an introduction and conclusion, and an attempt to influence the reader.  \n\
+    Always read the full official statement in the source document; the wording here is a curator paraphrase."
+  status: draft
+  version: CfE E&Os and June 2017 Benchmarks, retrieved 2026-11-12; under CIC review
+  curated_by:
+  - CUR agent
+  reviewed_by: []
+  last_reviewed: null
+  facets:
+    jurisdiction:
+    - scotland
+    cfe_level:
+    - second
+    stage:
+    - p7
+    curriculum_area:
+    - languages
+    subject:
+    - english
+    - literacy
+    knowledge_type:
+    - procedural
+    artefact_type:
+    - slides
+    - worksheet
+    - form
+    - lesson_plan
+    - interaction
+  evidence:
+    rating: null
+    rationale: Statutory-style national curriculum reference, not an evidence claim about effectiveness.
+  relations:
+    caution_from:
+    - cau-CUR-cic-under-review
+    - cau-CUR-benchmarks-holistic-use
+  claims:
+  - clm-CUR-lit-2-29a-eo
+  - clm-CUR-lit-2-29a-bm
+  - clm-CUR-lit-2-29a-review
+- id: cur-CUR-eng-2-31a
+  type: curriculum_ref
+  title: 'ENG 2-31a: Imaginative writing: stories, poems, plays'
+  summary: Second Level Literacy and English outcome (Writing, Creating texts), paraphrased; normally the P5 to
+    P7 band, used here for the P7 cell.
+  body: "**Organiser:** Writing, Creating texts  \n**Outcome (paraphrase):** Learners create stories, poems and\
+    \ plays with interesting structures, characters and settings.  \n**Benchmark evidence (paraphrase):** In imaginative\
+    \ writing the benchmarks look for some genre features, developed characters and settings, attempts at figurative\
+    \ language, and plots with a clear structure.  \nAlways read the full official statement in the source document;\
+    \ the wording here is a curator paraphrase."
+  status: draft
+  version: CfE E&Os and June 2017 Benchmarks, retrieved 2026-11-12; under CIC review
+  curated_by:
+  - CUR agent
+  reviewed_by: []
+  last_reviewed: null
+  facets:
+    jurisdiction:
+    - scotland
+    cfe_level:
+    - second
+    stage:
+    - p7
+    curriculum_area:
+    - languages
+    subject:
+    - english
+    - literacy
+    knowledge_type:
+    - procedural
+    - conceptual
+    artefact_type:
+    - slides
+    - worksheet
+    - form
+    - lesson_plan
+    - interaction
+  evidence:
+    rating: null
+    rationale: Statutory-style national curriculum reference, not an evidence claim about effectiveness.
+  relations:
+    caution_from:
+    - cau-CUR-cic-under-review
+    - cau-CUR-benchmarks-holistic-use
+  claims:
+  - clm-CUR-eng-2-31a-eo
+  - clm-CUR-eng-2-31a-bm
+  - clm-CUR-eng-2-31a-review
+- id: cur-CUR-soc-3-01a
+  type: curriculum_ref
+  title: 'SOC 3-01a: Interpreting evidence from a historical period'
+  summary: Third Level Social Studies outcome (People, past events and societies), paraphrased; S1 to S3 band, used
+    here for the S1 history cell.
+  body: "**Organiser:** People, past events and societies  \n**Outcome (paraphrase):** Learners draw on their knowledge\
+    \ of a historical period to interpret evidence and present an informed, reasoned view.  \n**Benchmark evidence\
+    \ (paraphrase, curator alignment):** Compare a range of primary and secondary sources about a period and reach\
+    \ at least three valid conclusions.  \nRead the full official statement in the source; benchmark bullets in\
+    \ the PDF are not labelled by code."
+  status: draft
+  version: CfE E&Os and March 2017 Benchmarks, retrieved 2026-11-12; under CIC review
+  curated_by:
+  - CUR agent
+  reviewed_by: []
+  last_reviewed: null
+  facets:
+    jurisdiction:
+    - scotland
+    cfe_level:
+    - third
+    stage:
+    - s1
+    curriculum_area:
+    - social_studies
+    subject:
+    - history
+    knowledge_type:
+    - disciplinary
+    - declarative
+    artefact_type:
+    - slides
+    - worksheet
+    - form
+    - lesson_plan
+    - interaction
+  evidence:
+    rating: null
+    rationale: National curriculum reference, not an evidence claim about effectiveness.
+  relations:
+    caution_from:
+    - cau-CUR-cic-under-review
+    - cau-CUR-benchmarks-holistic-use
+  claims:
+  - clm-CUR-soc-3-01a-eo
+  - clm-CUR-soc-3-01a-bm
+  - clm-CUR-soc-3-01a-review
+- id: cur-CUR-soc-3-02a
+  type: curriculum_ref
+  title: 'SOC 3-02a: How people and events shaped Scotland'
+  summary: Third Level Social Studies outcome (People, past events and societies), paraphrased; S1 to S3 band, used
+    here for the S1 history cell.
+  body: "**Organiser:** People, past events and societies  \n**Outcome (paraphrase):** Learners link what they are\
+    \ learning now with earlier learning to explain how people and events have shaped the Scottish nation.  \n**Benchmark\
+    \ evidence (paraphrase, curator alignment):** Drawing on earlier work, give a simple account of how the Scottish\
+    \ nation was shaped, with at least two reasoned conclusions.  \nRead the full official statement in the source;\
+    \ benchmark bullets in the PDF are not labelled by code."
+  status: draft
+  version: CfE E&Os and March 2017 Benchmarks, retrieved 2026-11-12; under CIC review
+  curated_by:
+  - CUR agent
+  reviewed_by: []
+  last_reviewed: null
+  facets:
+    jurisdiction:
+    - scotland
+    cfe_level:
+    - third
+    stage:
+    - s1
+    curriculum_area:
+    - social_studies
+    subject:
+    - history
+    knowledge_type:
+    - declarative
+    - conceptual
+    artefact_type:
+    - slides
+    - worksheet
+    - form
+    - lesson_plan
+    - interaction
+  evidence:
+    rating: null
+    rationale: National curriculum reference, not an evidence claim about effectiveness.
+  relations:
+    caution_from:
+    - cau-CUR-cic-under-review
+    - cau-CUR-benchmarks-holistic-use
+  claims:
+  - clm-CUR-soc-3-02a-eo
+  - clm-CUR-soc-3-02a-bm
+  - clm-CUR-soc-3-02a-review
+- id: cur-CUR-soc-3-03a
+  type: curriculum_ref
+  title: 'SOC 3-03a: Migration to Scotland and its impact'
+  summary: Third Level Social Studies outcome (People, past events and societies), paraphrased; S1 to S3 band, used
+    here for the S1 history cell.
+  body: "**Organiser:** People, past events and societies  \n**Outcome (paraphrase):** Learners explain why a group\
+    \ of people from beyond Scotland settled here and evaluate the effect they had on Scottish life and culture.\
+    \  \n**Benchmark evidence (paraphrase, curator alignment):** Give at least two simple reasons why the group\
+    \ settled and describe at least two impacts on Scottish life and culture.  \nRead the full official statement\
+    \ in the source; benchmark bullets in the PDF are not labelled by code."
+  status: draft
+  version: CfE E&Os and March 2017 Benchmarks, retrieved 2026-11-12; under CIC review
+  curated_by:
+  - CUR agent
+  reviewed_by: []
+  last_reviewed: null
+  facets:
+    jurisdiction:
+    - scotland
+    cfe_level:
+    - third
+    stage:
+    - s1
+    curriculum_area:
+    - social_studies
+    subject:
+    - history
+    knowledge_type:
+    - declarative
+    - conceptual
+    artefact_type:
+    - slides
+    - worksheet
+    - form
+    - lesson_plan
+    - interaction
+  evidence:
+    rating: null
+    rationale: National curriculum reference, not an evidence claim about effectiveness.
+  relations:
+    caution_from:
+    - cau-CUR-cic-under-review
+    - cau-CUR-benchmarks-holistic-use
+  claims:
+  - clm-CUR-soc-3-03a-eo
+  - clm-CUR-soc-3-03a-bm
+  - clm-CUR-soc-3-03a-review
+- id: cur-CUR-soc-3-04a
+  type: curriculum_ref
+  title: 'SOC 3-04a: Comparing past societies: lifestyles, values, attitudes'
+  summary: Third Level Social Studies outcome (People, past events and societies), paraphrased; S1 to S3 band, used
+    here for the S1 history cell.
+  body: "**Organiser:** People, past events and societies  \n**Outcome (paraphrase):** Learners compare Scotland\
+    \ with a European or non-European society in the past to explain similarities and differences in lifestyles,\
+    \ values and attitudes.  \n**Benchmark evidence (paraphrase, curator alignment):** Give an account with at least\
+    \ two simple explanations of how and why the two societies developed differently.  \nRead the full official\
+    \ statement in the source; benchmark bullets in the PDF are not labelled by code."
+  status: draft
+  version: CfE E&Os and March 2017 Benchmarks, retrieved 2026-11-12; under CIC review
+  curated_by:
+  - CUR agent
+  reviewed_by: []
+  last_reviewed: null
+  facets:
+    jurisdiction:
+    - scotland
+    cfe_level:
+    - third
+    stage:
+    - s1
+    curriculum_area:
+    - social_studies
+    subject:
+    - history
+    knowledge_type:
+    - conceptual
+    - disciplinary
+    artefact_type:
+    - slides
+    - worksheet
+    - form
+    - lesson_plan
+    - interaction
+  evidence:
+    rating: null
+    rationale: National curriculum reference, not an evidence claim about effectiveness.
+  relations:
+    caution_from:
+    - cau-CUR-cic-under-review
+    - cau-CUR-benchmarks-holistic-use
+  claims:
+  - clm-CUR-soc-3-04a-eo
+  - clm-CUR-soc-3-04a-bm
+  - clm-CUR-soc-3-04a-review
+- id: cur-CUR-soc-3-05a
+  type: curriculum_ref
+  title: 'SOC 3-05a: Causes and impact of major change'
+  summary: Third Level Social Studies outcome (People, past events and societies), paraphrased; S1 to S3 band, used
+    here for the S1 history cell.
+  body: "**Organiser:** People, past events and societies  \n**Outcome (paraphrase):** Learners explain the factors\
+    \ that contributed to a major social, political or economic change in the past and assess its effect on people's\
+    \ lives.  \n**Benchmark evidence (paraphrase, curator alignment):** Identify at least three contributing factors\
+    \ and offer at least two valid opinions on the change's impact on people's lives.  \nRead the full official\
+    \ statement in the source; benchmark bullets in the PDF are not labelled by code."
+  status: draft
+  version: CfE E&Os and March 2017 Benchmarks, retrieved 2026-11-12; under CIC review
+  curated_by:
+  - CUR agent
+  reviewed_by: []
+  last_reviewed: null
+  facets:
+    jurisdiction:
+    - scotland
+    cfe_level:
+    - third
+    stage:
+    - s1
+    curriculum_area:
+    - social_studies
+    subject:
+    - history
+    knowledge_type:
+    - conceptual
+    - disciplinary
+    artefact_type:
+    - slides
+    - worksheet
+    - form
+    - lesson_plan
+    - interaction
+  evidence:
+    rating: null
+    rationale: National curriculum reference, not an evidence claim about effectiveness.
+  relations:
+    caution_from:
+    - cau-CUR-cic-under-review
+    - cau-CUR-benchmarks-holistic-use
+  claims:
+  - clm-CUR-soc-3-05a-eo
+  - clm-CUR-soc-3-05a-bm
+  - clm-CUR-soc-3-05a-review
+- id: cur-CUR-soc-3-06a
+  type: curriculum_ref
+  title: 'SOC 3-06a: Turning points: motives and consequences'
+  summary: Third Level Social Studies outcome (People, past events and societies), paraphrased; S1 to S3 band, used
+    here for the S1 history cell.
+  body: "**Organiser:** People, past events and societies  \n**Outcome (paraphrase):** Learners discuss the motives\
+    \ of people involved in a significant turning point in the past and assess its consequences then and since.\
+    \  \n**Benchmark evidence (paraphrase, curator alignment):** Give at least two valid opinions about the likely\
+    \ motives of those involved and a valid view of the event's impact.  \nRead the full official statement in the\
+    \ source; benchmark bullets in the PDF are not labelled by code."
+  status: draft
+  version: CfE E&Os and March 2017 Benchmarks, retrieved 2026-11-12; under CIC review
+  curated_by:
+  - CUR agent
+  reviewed_by: []
+  last_reviewed: null
+  facets:
+    jurisdiction:
+    - scotland
+    cfe_level:
+    - third
+    stage:
+    - s1
+    curriculum_area:
+    - social_studies
+    subject:
+    - history
+    knowledge_type:
+    - conceptual
+    - disciplinary
+    artefact_type:
+    - slides
+    - worksheet
+    - form
+    - lesson_plan
+    - interaction
+  evidence:
+    rating: null
+    rationale: National curriculum reference, not an evidence claim about effectiveness.
+  relations:
+    caution_from:
+    - cau-CUR-cic-under-review
+    - cau-CUR-benchmarks-holistic-use
+  claims:
+  - clm-CUR-soc-3-06a-eo
+  - clm-CUR-soc-3-06a-bm
+  - clm-CUR-soc-3-06a-review
+- id: cau-CUR-cic-under-review
+  type: caution
+  title: 'CfE E&Os and Benchmarks are under review (Curriculum Improvement Cycle): version every curriculum reference'
+  summary: The Literacy and English and Social Studies E&Os and Benchmarks cited in this library belong to a technical
+    framework that Education Scotland is reviewing; existing documents are due to be phased out from August 2028.
+  body: 'The Curriculum Improvement Cycle (CIC) is Education Scotland''s planned review of the curriculum. The current
+    phase focuses on the technical framework, including the Experiences and Outcomes. Phase 1 background and evidence
+    papers exist for Literacy and English, Languages and Social Studies (updated November 2026). Scottish Government
+    says current technical framework documents will be phased out from August 2028.
+
+
+    **Library rule:** every cur-CUR entry carries a version string naming the E&O and Benchmark edition and retrieval
+    date. When revised frameworks are published, retire or supersede these entries rather than editing them in place.'
+  status: draft
+  version: Status as at 2026-11-12
+  curated_by:
+  - CUR agent
+  reviewed_by: []
+  last_reviewed: null
+  facets:
+    jurisdiction:
+    - scotland
+    cfe_level:
+    - second
+    - third
+    stage:
+    - p7
+    - s1
+    curriculum_area:
+    - languages
+    - social_studies
+    subject:
+    - english
+    - literacy
+    - history
+  evidence:
+    rating: null
+    rationale: Policy status note, not an effectiveness claim.
+  risks:
+  - Teachers or generated artefacts citing superseded outcome wording after August 2028
+  - Draft CIC materials mistaken for adopted curriculum
+  relations: {}
+  claims:
+  - clm-CUR-cic-what
+  - clm-CUR-cic-eos
+  - clm-CUR-cic-2028
+  - clm-CUR-cic-areas
+  - clm-CUR-cic-version
+- id: cau-CUR-benchmarks-holistic-use
+  type: caution
+  title: Use Benchmarks holistically, not as tick lists
+  summary: Education Scotland guidance says Benchmarks support professional judgement and moderation; they are not
+    individual checklist items.
+  body: When generating assessment artefacts aligned to cur-CUR entries, gather a range of evidence and plan periodic
+    holistic assessment. Do not produce trackers that tick off single benchmark bullets as proof of achieving a
+    level.
+  status: draft
+  version: Benchmarks 2017 guidance, retrieved 2026-11-12
+  curated_by:
+  - CUR agent
+  reviewed_by: []
+  last_reviewed: null
+  facets:
+    jurisdiction:
+    - scotland
+    cfe_level:
+    - second
+    - third
+    stage:
+    - p7
+    - s1
+    curriculum_area:
+    - languages
+    - social_studies
+    lesson_purpose:
+    - assess_feedback
+    artefact_type:
+    - form
+    - worksheet
+    - lesson_plan
+  evidence:
+    rating: null
+    rationale: Official assessment guidance.
+  risks:
+  - Over-assessment and excessive evidence collection
+  relations: {}
+  claims:
+  - clm-CUR-bm-not-tick
+  - clm-CUR-bm-holistic
+  - clm-CUR-bm-judgement
+- id: cur-CUR-levels-p7-s1-transition
+  type: curriculum_ref
+  title: Levels and the P7 to S1 transition (second to third level)
+  summary: P7 sits in the second level band and S1 in the third/fourth level band of the Broad General Education;
+    official guidance stresses progression at the learner's own pace and continuity across sectors, but no fetched
+    source sets a specific P7 to S1 transition expectation.
+  body: '- Second level is the P5 to P7 band; third/fourth level spans S1 to S3; both are inside the BGE.
+
+    - Stages are a guide: a P7 pupil may still be working within second level, or beyond it, and S1 planning should
+    start from evidence of where the learner actually is.
+
+    - Literacy remains the responsibility of all staff in secondary, so S1 history is a literacy context as well
+    (social studies principles and practice).
+
+    - Gap: no official Education Scotland source fetched gives a specific P7 to S1 transition standard; the CIC
+    lists transitions as an area for revision.'
+  status: draft
+  version: Retrieved 2026-11-12
+  curated_by:
+  - CUR agent
+  reviewed_by: []
+  last_reviewed: null
+  facets:
+    jurisdiction:
+    - scotland
+    cfe_level:
+    - second
+    - third
+    stage:
+    - p7
+    - s1
+    curriculum_area:
+    - languages
+    - social_studies
+    - interdisciplinary
+    subject:
+    - english
+    - literacy
+    - history
+  evidence:
+    rating: null
+    rationale: Curriculum structure reference.
+  relations:
+    caution_from:
+    - cau-CUR-cic-under-review
+    aligns_to:
+    - cur-CUR-lit-2-16a
+    - cur-CUR-lit-2-18a
+    - cur-CUR-soc-3-01a
+  claims:
+  - clm-CUR-levels-bands
+  - clm-CUR-levels-pace
+  - clm-CUR-lit-no-ceiling
+  - clm-CUR-transition-evidence
+  - clm-CUR-literacy-all-staff
+  - clm-CUR-history-aims
+  - clm-CUR-transition-under-review
+- id: cur-CUR-lit-2-01a
+  type: curriculum_ref
+  title: 'LIT 2-01a: Enjoyment and choice in listening and talking'
+  summary: Second Level Literacy and English outcome (Listening and talking, Enjoyment and choice), paraphrased;
+    normally the P5 to P7 band, used here for the P7 cell.
+  body: "**Organiser:** Listening and talking, Enjoyment and choice  \n**Outcome (paraphrase):** Learners regularly\
+    \ choose spoken and other texts they enjoy, explain their preferences, and choose the subject, purpose, format\
+    \ and resources for texts they create.  \n**Benchmark evidence (paraphrase):** One bullet, shared with LIT 1-01a:\
+    \ the learner regularly chooses spoken texts for enjoyment or to find information for a purpose, and can explain\
+    \ their preferences.  \nAlways read the full official statement in the source document; the wording here is\
+    \ a curator paraphrase."
+  status: draft
+  version: CfE E&Os and June 2017 Benchmarks, retrieved 2026-11-12; under CIC review
+  curated_by:
+  - CUR agent
+  reviewed_by: []
+  last_reviewed: null
+  facets:
+    jurisdiction:
+    - scotland
+    cfe_level:
+    - second
+    stage:
+    - p7
+    curriculum_area:
+    - languages
+    subject:
+    - english
+    - literacy
+    knowledge_type:
+    - metacognitive
+    artefact_type:
+    - slides
+    - worksheet
+    - form
+    - lesson_plan
+    - interaction
+  evidence:
+    rating: null
+    rationale: National curriculum reference, not an evidence claim about effectiveness.
+  relations:
+    caution_from:
+    - cau-CUR-cic-under-review
+    - cau-CUR-benchmarks-holistic-use
+  claims:
+  - clm-CUR-lit-2-01a-eo
+  - clm-CUR-lit-2-01a-bm
+  - clm-CUR-lit-2-01a-review
+- id: cur-CUR-lit-2-10a
+  type: curriculum_ref
+  title: 'LIT 2-10a: Clear, confident talk and presentation'
+  summary: Second Level Literacy and English outcome (Listening and talking, Creating texts), paraphrased; normally
+    the P5 to P7 band, used here for the P7 cell.
+  body: "**Organiser:** Listening and talking, Creating texts  \n**Outcome (paraphrase):** Learners communicate\
+    \ clearly, audibly and with growing confidence, choosing and organising resources independently to support what\
+    \ they say.  \n**Benchmark evidence (paraphrase):** Four bullets, shared with LIT 3-10a: speaking clearly and\
+    \ expressively in a range of settings, giving a well-organised talk with suitable structure, choosing vocabulary\
+    \ for purpose and audience, and selecting resources to support communication.  \nAlways read the full official\
+    \ statement in the source document; the wording here is a curator paraphrase."
+  status: draft
+  version: CfE E&Os and June 2017 Benchmarks, retrieved 2026-11-12; under CIC review
+  curated_by:
+  - CUR agent
+  reviewed_by: []
+  last_reviewed: null
+  facets:
+    jurisdiction:
+    - scotland
+    cfe_level:
+    - second
+    stage:
+    - p7
+    curriculum_area:
+    - languages
+    subject:
+    - english
+    - literacy
+    knowledge_type:
+    - procedural
+    artefact_type:
+    - slides
+    - worksheet
+    - form
+    - lesson_plan
+    - interaction
+  evidence:
+    rating: null
+    rationale: National curriculum reference, not an evidence claim about effectiveness.
+  relations:
+    caution_from:
+    - cau-CUR-cic-under-review
+    - cau-CUR-benchmarks-holistic-use
+  claims:
+  - clm-CUR-lit-2-10a-eo
+  - clm-CUR-lit-2-10a-bm
+  - clm-CUR-lit-2-10a-review
+- id: cur-CUR-lit-2-11a
+  type: curriculum_ref
+  title: 'LIT 2-11a: Reading for enjoyment and choice'
+  summary: Second Level Literacy and English outcome (Reading, Enjoyment and choice), paraphrased; normally the
+    P5 to P7 band, used here for the P7 cell.
+  body: "**Organiser:** Reading, Enjoyment and choice  \n**Outcome (paraphrase):** Learners regularly choose texts\
+    \ they enjoy and can explain why they prefer particular texts and authors.  \n**Benchmark evidence (paraphrase):**\
+    \ Two bullets, shared with LIT 1-11a: regularly choosing texts for enjoyment or information, and explaining\
+    \ preferences for texts, authors or sources with supporting detail.  \nAlways read the full official statement\
+    \ in the source document; the wording here is a curator paraphrase."
+  status: draft
+  version: CfE E&Os and June 2017 Benchmarks, retrieved 2026-11-12; under CIC review
+  curated_by:
+  - CUR agent
+  reviewed_by: []
+  last_reviewed: null
+  facets:
+    jurisdiction:
+    - scotland
+    cfe_level:
+    - second
+    stage:
+    - p7
+    curriculum_area:
+    - languages
+    subject:
+    - english
+    - literacy
+    knowledge_type:
+    - metacognitive
+    artefact_type:
+    - slides
+    - worksheet
+    - form
+    - lesson_plan
+    - interaction
+  evidence:
+    rating: null
+    rationale: National curriculum reference, not an evidence claim about effectiveness.
+  relations:
+    caution_from:
+    - cau-CUR-cic-under-review
+    - cau-CUR-benchmarks-holistic-use
+  claims:
+  - clm-CUR-lit-2-11a-eo
+  - clm-CUR-lit-2-11a-bm
+  - clm-CUR-lit-2-11a-review
+- id: cur-CUR-lit-2-13a
+  type: curriculum_ref
+  title: 'LIT 2-13a: Reading strategies before and during reading'
+  summary: Second Level Literacy and English outcome (Reading, Tools for reading), paraphrased; normally the P5
+    to P7 band, used here for the P7 cell.
+  body: "**Organiser:** Reading, Tools for reading  \n**Outcome (paraphrase):** Learners select and use strategies\
+    \ and resources before and during reading to make the meaning of texts clear, and give reasons for their choices.\
+    \  \n**Benchmark evidence (paraphrase):** Three bullets in the Tools for reading row, which also carries ENG\
+    \ 2-12a (and third and fourth level ENG 12a), so they appear to be shared: fluent reading with suitable pace\
+    \ and tone, using context clues and layout with unfamiliar texts, and applying strategies such as skimming,\
+    \ scanning, predicting and summarising.  \nAlways read the full official statement in the source document; the\
+    \ wording here is a curator paraphrase."
+  status: draft
+  version: CfE E&Os and June 2017 Benchmarks, retrieved 2026-11-12; under CIC review
+  curated_by:
+  - CUR agent
+  reviewed_by: []
+  last_reviewed: null
+  facets:
+    jurisdiction:
+    - scotland
+    cfe_level:
+    - second
+    stage:
+    - p7
+    curriculum_area:
+    - languages
+    subject:
+    - english
+    - literacy
+    knowledge_type:
+    - procedural
+    - metacognitive
+    artefact_type:
+    - slides
+    - worksheet
+    - form
+    - lesson_plan
+    - interaction
+  evidence:
+    rating: null
+    rationale: National curriculum reference, not an evidence claim about effectiveness.
+  relations:
+    caution_from:
+    - cau-CUR-cic-under-review
+    - cau-CUR-benchmarks-holistic-use
+  claims:
+  - clm-CUR-lit-2-13a-eo
+  - clm-CUR-lit-2-13a-bm
+  - clm-CUR-lit-2-13a-review
+- id: cur-CUR-lit-2-14a
+  type: curriculum_ref
+  title: 'LIT 2-14a: Finding, selecting and sorting information'
+  summary: Second Level Literacy and English outcome (Reading, Finding and using information), paraphrased; normally
+    the P5 to P7 band, used here for the P7 cell.
+  body: "**Organiser:** Reading, Finding and using information  \n**Outcome (paraphrase):** Learners use their knowledge\
+    \ of how texts are set out to find, select and sort information from a range of sources.  \n**Benchmark evidence\
+    \ (paraphrase):** Three bullets of its own: skimming to identify purpose and main ideas, scanning for key information,\
+    \ and finding, selecting and sorting relevant information from varied sources.  \nAlways read the full official\
+    \ statement in the source document; the wording here is a curator paraphrase."
+  status: draft
+  version: CfE E&Os and June 2017 Benchmarks, retrieved 2026-11-12; under CIC review
+  curated_by:
+  - CUR agent
+  reviewed_by: []
+  last_reviewed: null
+  facets:
+    jurisdiction:
+    - scotland
+    cfe_level:
+    - second
+    stage:
+    - p7
+    curriculum_area:
+    - languages
+    subject:
+    - english
+    - literacy
+    knowledge_type:
+    - procedural
+    artefact_type:
+    - slides
+    - worksheet
+    - form
+    - lesson_plan
+    - interaction
+  evidence:
+    rating: null
+    rationale: National curriculum reference, not an evidence claim about effectiveness.
+  relations:
+    caution_from:
+    - cau-CUR-cic-under-review
+    - cau-CUR-benchmarks-holistic-use
+  claims:
+  - clm-CUR-lit-2-14a-eo
+  - clm-CUR-lit-2-14a-bm
+  - clm-CUR-lit-2-14a-review
+- id: cur-CUR-lit-2-28a
+  type: curriculum_ref
+  title: 'LIT 2-28a: Writing to inform, describe and explain'
+  summary: Second Level Literacy and English outcome (Writing, Creating texts), paraphrased; normally the P5 to
+    P7 band, used here for the P7 cell.
+  body: "**Organiser:** Writing, Creating texts  \n**Outcome (paraphrase):** Learners write to convey information,\
+    \ describe events, explain processes or combine ideas in different ways.  \n**Benchmark evidence (paraphrase):**\
+    \ Four bullets of its own: choosing a style and format suited to purpose, including relevant information, organising\
+    \ it logically, and using tone and vocabulary suited to purpose.  \nAlways read the full official statement\
+    \ in the source document; the wording here is a curator paraphrase."
+  status: draft
+  version: CfE E&Os and June 2017 Benchmarks, retrieved 2026-11-12; under CIC review
+  curated_by:
+  - CUR agent
+  reviewed_by: []
+  last_reviewed: null
+  facets:
+    jurisdiction:
+    - scotland
+    cfe_level:
+    - second
+    stage:
+    - p7
+    curriculum_area:
+    - languages
+    subject:
+    - english
+    - literacy
+    knowledge_type:
+    - procedural
+    artefact_type:
+    - slides
+    - worksheet
+    - form
+    - lesson_plan
+    - interaction
+  evidence:
+    rating: null
+    rationale: National curriculum reference, not an evidence claim about effectiveness.
+  relations:
+    caution_from:
+    - cau-CUR-cic-under-review
+    - cau-CUR-benchmarks-holistic-use
+  claims:
+  - clm-CUR-lit-2-28a-eo
+  - clm-CUR-lit-2-28a-bm
+  - clm-CUR-lit-2-28a-review
+- id: cur-CUR-eng-2-27a
+  type: curriculum_ref
+  title: 'ENG 2-27a: Language, style and tone to engage readers'
+  summary: Second Level Literacy and English outcome (Writing, Creating texts), paraphrased; normally the P5 to
+    P7 band, used here for the P7 cell.
+  body: "**Organiser:** Writing, Creating texts  \n**Outcome (paraphrase):** Learners use language, style and tone\
+    \ deliberately to engage or influence their readers.  \n**Benchmark evidence (paraphrase):** Two bullets of\
+    \ its own: regularly producing short and extended texts for different purposes, and attempting to engage or\
+    \ influence the reader through vocabulary and language suited to the genre.  \nAlways read the full official\
+    \ statement in the source document; the wording here is a curator paraphrase."
+  status: draft
+  version: CfE E&Os and June 2017 Benchmarks, retrieved 2026-11-12; under CIC review
+  curated_by:
+  - CUR agent
+  reviewed_by: []
+  last_reviewed: null
+  facets:
+    jurisdiction:
+    - scotland
+    cfe_level:
+    - second
+    stage:
+    - p7
+    curriculum_area:
+    - languages
+    subject:
+    - english
+    - literacy
+    knowledge_type:
+    - procedural
+    - conceptual
+    artefact_type:
+    - slides
+    - worksheet
+    - form
+    - lesson_plan
+    - interaction
+  evidence:
+    rating: null
+    rationale: National curriculum reference, not an evidence claim about effectiveness.
+  relations:
+    caution_from:
+    - cau-CUR-cic-under-review
+    - cau-CUR-benchmarks-holistic-use
+  claims:
+  - clm-CUR-eng-2-27a-eo
+  - clm-CUR-eng-2-27a-bm
+  - clm-CUR-eng-2-27a-review
+- id: cur-CUR-eng-2-30a
+  type: curriculum_ref
+  title: 'ENG 2-30a: Personal and reflective writing'
+  summary: Second Level Literacy and English outcome (Writing, Creating texts), paraphrased; normally the P5 to
+    P7 band, used here for the P7 cell.
+  body: "**Organiser:** Writing, Creating texts  \n**Outcome (paraphrase):** Learners describe and share their experiences\
+    \ in writing, expressing what those experiences made them think and feel.  \n**Benchmark evidence (paraphrase):**\
+    \ Three bullets of its own: describing personal experiences with clear context and sequence of events, describing\
+    \ thoughts and feelings about them, and attempting to engage or influence the reader through language.  \nAlways\
+    \ read the full official statement in the source document; the wording here is a curator paraphrase."
+  status: draft
+  version: CfE E&Os and June 2017 Benchmarks, retrieved 2026-11-12; under CIC review
+  curated_by:
+  - CUR agent
+  reviewed_by: []
+  last_reviewed: null
+  facets:
+    jurisdiction:
+    - scotland
+    cfe_level:
+    - second
+    stage:
+    - p7
+    curriculum_area:
+    - languages
+    subject:
+    - english
+    - literacy
+    knowledge_type:
+    - procedural
+    - metacognitive
+    artefact_type:
+    - slides
+    - worksheet
+    - form
+    - lesson_plan
+    - interaction
+  evidence:
+    rating: null
+    rationale: National curriculum reference, not an evidence claim about effectiveness.
+  relations:
+    caution_from:
+    - cau-CUR-cic-under-review
+    - cau-CUR-benchmarks-holistic-use
+  claims:
+  - clm-CUR-eng-2-30a-eo
+  - clm-CUR-eng-2-30a-bm
+  - clm-CUR-eng-2-30a-review
+claims:
+- id: clm-CUR-lit-2-02a-eo
+  entry_id: cur-CUR-lit-2-02a
+  text: 'LIT 2-02a is a Second Level outcome under Listening and talking, Tools for listening and talking: learners
+    respond to others in ways that suit their role in the discussion, show that they value other people''s contributions
+    and use them to take their own thinking further.'
+  supported_by:
+  - psg-CUR-lit-2-02a-eo
+  support_type: paraphrase
+- id: clm-CUR-lit-2-02a-bm
+  entry_id: cur-CUR-lit-2-02a
+  text: 'Evidence of achievement at Second Level: at second level the benchmarks look for several relevant ideas
+    offered in discussion, respect for other views, building on what others say, use of verbal and non-verbal techniques,
+    and some recognition of techniques used to influence a listener.'
+  supported_by:
+  - psg-CUR-lit-2-02a-bm
+  support_type: paraphrase
+- id: clm-CUR-lit-2-02a-review
+  entry_id: cur-CUR-lit-2-02a
+  text: LIT 2-02a belongs to the current CfE technical framework, which is under review, so this reference must
+    be checked against any revised Literacy and English framework.
+  supported_by:
+  - psg-CUR-cic-technical-framework
+  - psg-CUR-nif-phase-out-2028
+  support_type: inference_by_curator
+- id: clm-CUR-lit-2-04a-eo
+  entry_id: cur-CUR-lit-2-04a
+  text: 'LIT 2-04a is a Second Level outcome under Listening and talking, Finding and using information: learners
+    identify and talk about the purpose, main ideas and supporting detail in spoken or visual texts, and put that
+    information to use for different purposes.'
+  supported_by:
+  - psg-CUR-lit-2-04a-eo
+  support_type: paraphrase
+- id: clm-CUR-lit-2-04a-bm
+  entry_id: cur-CUR-lit-2-04a
+  text: 'Evidence of achievement at Second Level: the benchmarks expect learners to identify the purpose of a spoken
+    text and its main ideas with supporting detail, and to make relevant notes that are mostly in their own words.'
+  supported_by:
+  - psg-CUR-lit-2-04a-bm
+  support_type: paraphrase
+- id: clm-CUR-lit-2-04a-review
+  entry_id: cur-CUR-lit-2-04a
+  text: LIT 2-04a belongs to the current CfE technical framework, which is under review, so this reference must
+    be checked against any revised Literacy and English framework.
+  supported_by:
+  - psg-CUR-cic-technical-framework
+  - psg-CUR-nif-phase-out-2028
+  support_type: inference_by_curator
+- id: clm-CUR-lit-2-07a-eo
+  entry_id: cur-CUR-lit-2-07a
+  text: 'LIT 2-07a is a Second Level outcome under Listening and talking, Understanding, analysing and evaluating:
+    learners show understanding of what they hear by answering literal, inferential and evaluative questions and
+    by asking questions of their own.'
+  supported_by:
+  - psg-CUR-lit-2-07a-eo
+  support_type: paraphrase
+- id: clm-CUR-lit-2-07a-bm
+  entry_id: cur-CUR-lit-2-07a
+  text: 'Evidence of achievement at Second Level: the benchmarks expect responses to literal, inferential and evaluative
+    questions about spoken texts, learner-generated questions, and distinguishing fact from opinion.'
+  supported_by:
+  - psg-CUR-lit-2-07a-bm
+  support_type: paraphrase
+- id: clm-CUR-lit-2-07a-review
+  entry_id: cur-CUR-lit-2-07a
+  text: LIT 2-07a belongs to the current CfE technical framework, which is under review, so this reference must
+    be checked against any revised Literacy and English framework.
+  supported_by:
+  - psg-CUR-cic-technical-framework
+  - psg-CUR-nif-phase-out-2028
+  support_type: inference_by_curator
+- id: clm-CUR-lit-2-09a-eo
+  entry_id: cur-CUR-lit-2-09a
+  text: 'LIT 2-09a is a Second Level outcome under Listening and talking, Creating texts: when talking, learners
+    share information and opinions, explain processes, identify issues, summarise what they have found, and ask
+    questions to clarify meaning.'
+  supported_by:
+  - psg-CUR-lit-2-09a-eo
+  support_type: paraphrase
+- id: clm-CUR-lit-2-09a-bm
+  entry_id: cur-CUR-lit-2-09a
+  text: The Second Level benchmarks do not list bullets under LIT 2-09a alone; teachers should look to the presentation
+    bullets tagged to LIT 2-10a when judging talk for information and explanation.
+  supported_by:
+  - psg-CUR-lit-2-09a-bm-note
+  support_type: inference_by_curator
+- id: clm-CUR-lit-2-09a-review
+  entry_id: cur-CUR-lit-2-09a
+  text: LIT 2-09a belongs to the current CfE technical framework, which is under review, so this reference must
+    be checked against any revised Literacy and English framework.
+  supported_by:
+  - psg-CUR-cic-technical-framework
+  - psg-CUR-nif-phase-out-2028
+  support_type: inference_by_curator
+- id: clm-CUR-eng-2-12a-eo
+  entry_id: cur-CUR-eng-2-12a
+  text: 'ENG 2-12a is a Second Level outcome under Reading, Tools for reading: learners read unfamiliar texts aloud
+    with increasing fluency, understanding and expression, drawing on context clues, punctuation, grammar and layout.'
+  supported_by:
+  - psg-CUR-eng-2-12a-eo
+  support_type: paraphrase
+- id: clm-CUR-eng-2-12a-bm
+  entry_id: cur-CUR-eng-2-12a
+  text: 'Evidence of achievement at Second Level: the benchmarks look for fluent, expressive reading using context
+    clues, punctuation, grammar and layout, together with strategies such as skimming, scanning, predicting and
+    summarising (bullets shared with LIT 2-13a and with third and fourth level ENG 12a).'
+  supported_by:
+  - psg-CUR-eng-2-12a-bm
+  support_type: paraphrase
+- id: clm-CUR-eng-2-12a-review
+  entry_id: cur-CUR-eng-2-12a
+  text: ENG 2-12a belongs to the current CfE technical framework, which is under review, so this reference must
+    be checked against any revised Literacy and English framework.
+  supported_by:
+  - psg-CUR-cic-technical-framework
+  - psg-CUR-nif-phase-out-2028
+  support_type: inference_by_curator
+- id: clm-CUR-lit-2-16a-eo
+  entry_id: cur-CUR-lit-2-16a
+  text: 'LIT 2-16a is a Second Level outcome under Reading, Understanding, analysing and evaluating: across different
+    areas of learning, learners show understanding of a text by identifying its purpose and main ideas and by using
+    supporting detail.'
+  supported_by:
+  - psg-CUR-lit-2-16a-eo
+  support_type: paraphrase
+- id: clm-CUR-lit-2-16a-bm
+  entry_id: cur-CUR-lit-2-16a
+  text: 'Evidence of achievement at Second Level: benchmark bullets grouped with ENG 2-17a expect learners to identify
+    purpose and main ideas with detail, comment on language features, answer literal, inferential and evaluative
+    questions, create their own questions, distinguish fact from opinion and recognise persuasive techniques.'
+  supported_by:
+  - psg-CUR-lit-2-16a-bm
+  support_type: paraphrase
+- id: clm-CUR-lit-2-16a-review
+  entry_id: cur-CUR-lit-2-16a
+  text: LIT 2-16a belongs to the current CfE technical framework, which is under review, so this reference must
+    be checked against any revised Literacy and English framework.
+  supported_by:
+  - psg-CUR-cic-technical-framework
+  - psg-CUR-nif-phase-out-2028
+  support_type: inference_by_curator
+- id: clm-CUR-eng-2-17a-eo
+  entry_id: cur-CUR-eng-2-17a
+  text: 'ENG 2-17a is a Second Level outcome under Reading, Understanding, analysing and evaluating: learners show
+    understanding of texts by answering literal, inferential and evaluative questions and close reading tasks, and
+    begin to create their own questions.'
+  supported_by:
+  - psg-CUR-eng-2-17a-eo
+  support_type: paraphrase
+- id: clm-CUR-eng-2-17a-bm
+  entry_id: cur-CUR-eng-2-17a
+  text: 'Evidence of achievement at Second Level: benchmark bullets grouped with LIT 2-16a expect answers to literal,
+    inferential and evaluative questions, learner-created questions, and comment on the writer''s use of language
+    features.'
+  supported_by:
+  - psg-CUR-eng-2-17a-bm
+  support_type: paraphrase
+- id: clm-CUR-eng-2-17a-review
+  entry_id: cur-CUR-eng-2-17a
+  text: ENG 2-17a belongs to the current CfE technical framework, which is under review, so this reference must
+    be checked against any revised Literacy and English framework.
+  supported_by:
+  - psg-CUR-cic-technical-framework
+  - psg-CUR-nif-phase-out-2028
+  support_type: inference_by_curator
+- id: clm-CUR-lit-2-18a-eo
+  entry_id: cur-CUR-lit-2-18a
+  text: 'LIT 2-18a is a Second Level outcome under Reading, Understanding, analysing and evaluating: learners tell
+    fact from opinion, recognise when a writer is trying to influence them, and judge how useful and believable
+    different sources are.'
+  supported_by:
+  - psg-CUR-lit-2-18a-eo
+  support_type: paraphrase
+- id: clm-CUR-lit-2-18a-bm
+  entry_id: cur-CUR-lit-2-18a
+  text: 'Evidence of achievement at Second Level: the benchmarks expect learners to explain how they decide which
+    sources are most useful and reliable, and to recognise when a source is trying to influence the reader.'
+  supported_by:
+  - psg-CUR-lit-2-18a-bm
+  support_type: paraphrase
+- id: clm-CUR-lit-2-18a-review
+  entry_id: cur-CUR-lit-2-18a
+  text: LIT 2-18a belongs to the current CfE technical framework, which is under review, so this reference must
+    be checked against any revised Literacy and English framework.
+  supported_by:
+  - psg-CUR-cic-technical-framework
+  - psg-CUR-nif-phase-out-2028
+  support_type: inference_by_curator
+- id: clm-CUR-eng-2-19a-eo
+  entry_id: cur-CUR-eng-2-19a
+  text: 'ENG 2-19a is a Second Level outcome under Reading, Understanding, analysing and evaluating: learners discuss
+    a text''s structure, characters and setting, relate its themes to their own experience, and comment on the writer''s
+    style and use of language.'
+  supported_by:
+  - psg-CUR-eng-2-19a-eo
+  support_type: paraphrase
+- id: clm-CUR-eng-2-19a-bm
+  entry_id: cur-CUR-eng-2-19a
+  text: 'Evidence of achievement at Second Level: the benchmarks look for comment on structure, characterisation
+    and setting, links between the writer''s theme and the learner''s experience, and comment on style and genre
+    features.'
+  supported_by:
+  - psg-CUR-eng-2-19a-bm
+  support_type: paraphrase
+- id: clm-CUR-eng-2-19a-review
+  entry_id: cur-CUR-eng-2-19a
+  text: ENG 2-19a belongs to the current CfE technical framework, which is under review, so this reference must
+    be checked against any revised Literacy and English framework.
+  supported_by:
+  - psg-CUR-cic-technical-framework
+  - psg-CUR-nif-phase-out-2028
+  support_type: inference_by_curator
+- id: clm-CUR-lit-2-21a-eo
+  entry_id: cur-CUR-lit-2-21a
+  text: 'LIT 2-21a is a Second Level outcome under Writing, Tools for writing: learners spell most of the words
+    they need correctly, using spelling rules, specialist vocabulary, self-correction and resources.'
+  supported_by:
+  - psg-CUR-lit-2-21a-eo
+  support_type: paraphrase
+- id: clm-CUR-lit-2-21a-bm
+  entry_id: cur-CUR-lit-2-21a
+  text: 'Evidence of achievement at Second Level: the writing tools benchmarks (shared across LIT 2-21a, 2-22a and
+    2-23a) look for most words spelled correctly, mainly accurate punctuation, grammatically accurate sentences
+    of varied length and opening, linked sentences in paragraphs, and fluent, legible handwriting.'
+  supported_by:
+  - psg-CUR-lit-2-21a-bm
+  support_type: paraphrase
+- id: clm-CUR-lit-2-21a-review
+  entry_id: cur-CUR-lit-2-21a
+  text: LIT 2-21a belongs to the current CfE technical framework, which is under review, so this reference must
+    be checked against any revised Literacy and English framework.
+  supported_by:
+  - psg-CUR-cic-technical-framework
+  - psg-CUR-nif-phase-out-2028
+  support_type: inference_by_curator
+- id: clm-CUR-lit-2-22a-eo
+  entry_id: cur-CUR-lit-2-22a
+  text: 'LIT 2-22a is a Second Level outcome under Writing, Tools for writing: learners use appropriate punctuation,
+    vary sentence structures, and organise their writing into paragraphs so that it makes sense to the reader.'
+  supported_by:
+  - psg-CUR-lit-2-22a-eo
+  support_type: paraphrase
+- id: clm-CUR-lit-2-22a-bm
+  entry_id: cur-CUR-lit-2-22a
+  text: 'Evidence of achievement at Second Level: the shared writing tools benchmarks expect punctuation and paragraphing
+    to be used in both short and extended texts.'
+  supported_by:
+  - psg-CUR-lit-2-22a-bm
+  support_type: paraphrase
+- id: clm-CUR-lit-2-22a-review
+  entry_id: cur-CUR-lit-2-22a
+  text: LIT 2-22a belongs to the current CfE technical framework, which is under review, so this reference must
+    be checked against any revised Literacy and English framework.
+  supported_by:
+  - psg-CUR-cic-technical-framework
+  - psg-CUR-nif-phase-out-2028
+  support_type: inference_by_curator
+- id: clm-CUR-lit-2-23a-eo
+  entry_id: cur-CUR-lit-2-23a
+  text: 'LIT 2-23a is a Second Level outcome under Writing, Tools for writing: throughout the writing process, learners
+    check that their writing makes sense and meets its purpose.'
+  supported_by:
+  - psg-CUR-lit-2-23a-eo
+  support_type: paraphrase
+- id: clm-CUR-lit-2-23a-bm
+  entry_id: cur-CUR-lit-2-23a
+  text: 'Evidence of achievement at Second Level: the shared writing tools benchmarks expect learners to review
+    and correct their work so that it makes sense, is accurate and meets its purpose, and to make suitable layout
+    choices for print and digital texts.'
+  supported_by:
+  - psg-CUR-lit-2-23a-bm
+  support_type: paraphrase
+- id: clm-CUR-lit-2-23a-review
+  entry_id: cur-CUR-lit-2-23a
+  text: LIT 2-23a belongs to the current CfE technical framework, which is under review, so this reference must
+    be checked against any revised Literacy and English framework.
+  supported_by:
+  - psg-CUR-cic-technical-framework
+  - psg-CUR-nif-phase-out-2028
+  support_type: inference_by_curator
+- id: clm-CUR-lit-2-26a-eo
+  entry_id: cur-CUR-lit-2-26a
+  text: 'LIT 2-26a is a Second Level outcome under Writing, Organising and using information: learners select ideas
+    and information and organise them in a way that suits the type of text and its purpose, using suitable vocabulary.'
+  supported_by:
+  - psg-CUR-lit-2-26a-eo
+  support_type: paraphrase
+- id: clm-CUR-lit-2-26a-bm
+  entry_id: cur-CUR-lit-2-26a
+  text: 'Evidence of achievement at Second Level: the benchmarks look for notes and sources used to develop ideas,
+    sources acknowledged, information organised logically and selected for relevance, and vocabulary suited to purpose
+    and audience.'
+  supported_by:
+  - psg-CUR-lit-2-26a-bm
+  support_type: paraphrase
+- id: clm-CUR-lit-2-26a-review
+  entry_id: cur-CUR-lit-2-26a
+  text: LIT 2-26a belongs to the current CfE technical framework, which is under review, so this reference must
+    be checked against any revised Literacy and English framework.
+  supported_by:
+  - psg-CUR-cic-technical-framework
+  - psg-CUR-nif-phase-out-2028
+  support_type: inference_by_curator
+- id: clm-CUR-lit-2-29a-eo
+  entry_id: cur-CUR-lit-2-29a
+  text: 'LIT 2-29a is a Second Level outcome under Writing, Creating texts: learners write to persuade, argue, explore
+    issues or express an opinion, backing up their points with relevant detail or evidence.'
+  supported_by:
+  - psg-CUR-lit-2-29a-eo
+  support_type: paraphrase
+- id: clm-CUR-lit-2-29a-bm
+  entry_id: cur-CUR-lit-2-29a
+  text: 'Evidence of achievement at Second Level: when writing to persuade or argue, the benchmarks look for relevant
+    ideas with supporting detail, logical organisation, an introduction and conclusion, and an attempt to influence
+    the reader.'
+  supported_by:
+  - psg-CUR-lit-2-29a-bm
+  support_type: paraphrase
+- id: clm-CUR-lit-2-29a-review
+  entry_id: cur-CUR-lit-2-29a
+  text: LIT 2-29a belongs to the current CfE technical framework, which is under review, so this reference must
+    be checked against any revised Literacy and English framework.
+  supported_by:
+  - psg-CUR-cic-technical-framework
+  - psg-CUR-nif-phase-out-2028
+  support_type: inference_by_curator
+- id: clm-CUR-eng-2-31a-eo
+  entry_id: cur-CUR-eng-2-31a
+  text: 'ENG 2-31a is a Second Level outcome under Writing, Creating texts: learners create stories, poems and plays
+    with interesting structures, characters and settings.'
+  supported_by:
+  - psg-CUR-eng-2-31a-eo
+  support_type: paraphrase
+- id: clm-CUR-eng-2-31a-bm
+  entry_id: cur-CUR-eng-2-31a
+  text: 'Evidence of achievement at Second Level: in imaginative writing the benchmarks look for some genre features,
+    developed characters and settings, attempts at figurative language, and plots with a clear structure.'
+  supported_by:
+  - psg-CUR-eng-2-31a-bm
+  support_type: paraphrase
+- id: clm-CUR-eng-2-31a-review
+  entry_id: cur-CUR-eng-2-31a
+  text: ENG 2-31a belongs to the current CfE technical framework, which is under review, so this reference must
+    be checked against any revised Literacy and English framework.
+  supported_by:
+  - psg-CUR-cic-technical-framework
+  - psg-CUR-nif-phase-out-2028
+  support_type: inference_by_curator
+- id: clm-CUR-soc-3-01a-eo
+  entry_id: cur-CUR-soc-3-01a
+  text: 'SOC 3-01a is a Third Level outcome under People, past events and societies: learners draw on their knowledge
+    of a historical period to interpret evidence and present an informed, reasoned view.'
+  supported_by:
+  - psg-CUR-soc-3-01a-eo
+  support_type: paraphrase
+- id: clm-CUR-soc-3-01a-bm
+  entry_id: cur-CUR-soc-3-01a
+  text: 'The Third Level Social Studies benchmarks indicate evidence of the kind: compare a range of primary and
+    secondary sources about a period and reach at least three valid conclusions. (alignment of bullet to code is
+    the curator''s reading of an uncoded table).'
+  supported_by:
+  - psg-CUR-soc-3-01a-bm
+  support_type: inference_by_curator
+- id: clm-CUR-soc-3-01a-review
+  entry_id: cur-CUR-soc-3-01a
+  text: SOC 3-01a belongs to the current CfE technical framework, which is under review, so this reference must
+    be checked against any revised Social Studies framework.
+  supported_by:
+  - psg-CUR-cic-technical-framework
+  - psg-CUR-nif-phase-out-2028
+  support_type: inference_by_curator
+- id: clm-CUR-soc-3-02a-eo
+  entry_id: cur-CUR-soc-3-02a
+  text: 'SOC 3-02a is a Third Level outcome under People, past events and societies: learners link what they are
+    learning now with earlier learning to explain how people and events have shaped the Scottish nation.'
+  supported_by:
+  - psg-CUR-soc-3-02a-eo
+  support_type: paraphrase
+- id: clm-CUR-soc-3-02a-bm
+  entry_id: cur-CUR-soc-3-02a
+  text: 'The Third Level Social Studies benchmarks indicate evidence of the kind: drawing on earlier work, give
+    a simple account of how the Scottish nation was shaped, with at least two reasoned conclusions. (alignment of
+    bullet to code is the curator''s reading of an uncoded table).'
+  supported_by:
+  - psg-CUR-soc-3-02a-bm
+  support_type: inference_by_curator
+- id: clm-CUR-soc-3-02a-review
+  entry_id: cur-CUR-soc-3-02a
+  text: SOC 3-02a belongs to the current CfE technical framework, which is under review, so this reference must
+    be checked against any revised Social Studies framework.
+  supported_by:
+  - psg-CUR-cic-technical-framework
+  - psg-CUR-nif-phase-out-2028
+  support_type: inference_by_curator
+- id: clm-CUR-soc-3-03a-eo
+  entry_id: cur-CUR-soc-3-03a
+  text: 'SOC 3-03a is a Third Level outcome under People, past events and societies: learners explain why a group
+    of people from beyond Scotland settled here and evaluate the effect they had on Scottish life and culture.'
+  supported_by:
+  - psg-CUR-soc-3-03a-eo
+  support_type: paraphrase
+- id: clm-CUR-soc-3-03a-bm
+  entry_id: cur-CUR-soc-3-03a
+  text: 'The Third Level Social Studies benchmarks indicate evidence of the kind: give at least two simple reasons
+    why the group settled and describe at least two impacts on Scottish life and culture. (alignment of bullet to
+    code is the curator''s reading of an uncoded table).'
+  supported_by:
+  - psg-CUR-soc-3-03a-bm
+  support_type: inference_by_curator
+- id: clm-CUR-soc-3-03a-review
+  entry_id: cur-CUR-soc-3-03a
+  text: SOC 3-03a belongs to the current CfE technical framework, which is under review, so this reference must
+    be checked against any revised Social Studies framework.
+  supported_by:
+  - psg-CUR-cic-technical-framework
+  - psg-CUR-nif-phase-out-2028
+  support_type: inference_by_curator
+- id: clm-CUR-soc-3-04a-eo
+  entry_id: cur-CUR-soc-3-04a
+  text: 'SOC 3-04a is a Third Level outcome under People, past events and societies: learners compare Scotland with
+    a European or non-European society in the past to explain similarities and differences in lifestyles, values
+    and attitudes.'
+  supported_by:
+  - psg-CUR-soc-3-04a-eo
+  support_type: paraphrase
+- id: clm-CUR-soc-3-04a-bm
+  entry_id: cur-CUR-soc-3-04a
+  text: 'The Third Level Social Studies benchmarks indicate evidence of the kind: give an account with at least
+    two simple explanations of how and why the two societies developed differently. (alignment of bullet to code
+    is the curator''s reading of an uncoded table).'
+  supported_by:
+  - psg-CUR-soc-3-04a-bm
+  support_type: inference_by_curator
+- id: clm-CUR-soc-3-04a-review
+  entry_id: cur-CUR-soc-3-04a
+  text: SOC 3-04a belongs to the current CfE technical framework, which is under review, so this reference must
+    be checked against any revised Social Studies framework.
+  supported_by:
+  - psg-CUR-cic-technical-framework
+  - psg-CUR-nif-phase-out-2028
+  support_type: inference_by_curator
+- id: clm-CUR-soc-3-05a-eo
+  entry_id: cur-CUR-soc-3-05a
+  text: 'SOC 3-05a is a Third Level outcome under People, past events and societies: learners explain the factors
+    that contributed to a major social, political or economic change in the past and assess its effect on people''s
+    lives.'
+  supported_by:
+  - psg-CUR-soc-3-05a-eo
+  support_type: paraphrase
+- id: clm-CUR-soc-3-05a-bm
+  entry_id: cur-CUR-soc-3-05a
+  text: 'The Third Level Social Studies benchmarks indicate evidence of the kind: identify at least three contributing
+    factors and offer at least two valid opinions on the change''s impact on people''s lives. (alignment of bullet
+    to code is the curator''s reading of an uncoded table).'
+  supported_by:
+  - psg-CUR-soc-3-05a-bm
+  support_type: inference_by_curator
+- id: clm-CUR-soc-3-05a-review
+  entry_id: cur-CUR-soc-3-05a
+  text: SOC 3-05a belongs to the current CfE technical framework, which is under review, so this reference must
+    be checked against any revised Social Studies framework.
+  supported_by:
+  - psg-CUR-cic-technical-framework
+  - psg-CUR-nif-phase-out-2028
+  support_type: inference_by_curator
+- id: clm-CUR-soc-3-06a-eo
+  entry_id: cur-CUR-soc-3-06a
+  text: 'SOC 3-06a is a Third Level outcome under People, past events and societies: learners discuss the motives
+    of people involved in a significant turning point in the past and assess its consequences then and since.'
+  supported_by:
+  - psg-CUR-soc-3-06a-eo
+  support_type: paraphrase
+- id: clm-CUR-soc-3-06a-bm
+  entry_id: cur-CUR-soc-3-06a
+  text: 'The Third Level Social Studies benchmarks indicate evidence of the kind: give at least two valid opinions
+    about the likely motives of those involved and a valid view of the event''s impact. (alignment of bullet to
+    code is the curator''s reading of an uncoded table).'
+  supported_by:
+  - psg-CUR-soc-3-06a-bm
+  support_type: inference_by_curator
+- id: clm-CUR-soc-3-06a-review
+  entry_id: cur-CUR-soc-3-06a
+  text: SOC 3-06a belongs to the current CfE technical framework, which is under review, so this reference must
+    be checked against any revised Social Studies framework.
+  supported_by:
+  - psg-CUR-cic-technical-framework
+  - psg-CUR-nif-phase-out-2028
+  support_type: inference_by_curator
+- id: clm-CUR-cic-what
+  entry_id: cau-CUR-cic-under-review
+  text: The Curriculum Improvement Cycle is a planned, systematic review of Scotland's curriculum, led by Education
+    Scotland since April 2024 following the 2021 OECD review.
+  supported_by:
+  - psg-CUR-cic-origin
+  - psg-CUR-cic-news-definition
+  support_type: paraphrase
+- id: clm-CUR-cic-eos
+  entry_id: cau-CUR-cic-under-review
+  text: Education Scotland states that the BGE technical framework, including the Experiences and Outcomes, needs
+    to be revisited.
+  supported_by:
+  - psg-CUR-cic-technical-framework
+  support_type: direct_quote
+- id: clm-CUR-cic-2028
+  entry_id: cau-CUR-cic-under-review
+  text: Scottish Government plans to phase out the current technical framework documents and guidance from August
+    2028 and replace them with a new framework.
+  supported_by:
+  - psg-CUR-nif-phase-out-2028
+  support_type: paraphrase
+- id: clm-CUR-cic-areas
+  entry_id: cau-CUR-cic-under-review
+  text: Literacy and English, Languages and Social Studies each have Phase 1 CIC background and evidence papers,
+    so both sample cells are in scope of the review.
+  supported_by:
+  - psg-CUR-cic-evidence-papers
+  - psg-CUR-inspection-phases
+  support_type: paraphrase
+- id: clm-CUR-cic-version
+  entry_id: cau-CUR-cic-under-review
+  text: Because the frameworks are under review, every curriculum reference in the library should record its edition
+    and retrieval date and be superseded, not silently edited, when revised documents appear.
+  supported_by:
+  - psg-CUR-nif-phase-out-2028
+  - psg-CUR-bm-page-final
+  support_type: inference_by_curator
+- id: clm-CUR-bm-not-tick
+  entry_id: cau-CUR-benchmarks-holistic-use
+  text: The Social Studies benchmark guidance says benchmarks should not be ticked off individually for assessment.
+  supported_by:
+  - psg-CUR-soc-bm-not-tick
+  support_type: direct_quote
+- id: clm-CUR-bm-holistic
+  entry_id: cau-CUR-benchmarks-holistic-use
+  text: Practitioners are advised to avoid excessive evidence gathering and to plan periodic, holistic assessment.
+  supported_by:
+  - psg-CUR-soc-bm-holistic
+  support_type: paraphrase
+- id: clm-CUR-bm-judgement
+  entry_id: cau-CUR-benchmarks-holistic-use
+  text: Achieving a level in literacy is a matter of teacher professional judgement informed by a wide range of
+    evidence, with benchmarks supporting moderation dialogue.
+  supported_by:
+  - psg-CUR-lit-bm-holistic
+  support_type: paraphrase
+- id: clm-CUR-levels-bands
+  entry_id: cur-CUR-levels-p7-s1-transition
+  text: Second level normally covers P5 to P7 and third/fourth level covers S1 to S3, within a Broad General Education
+    that runs to the end of S3.
+  supported_by:
+  - psg-CUR-levels-table
+  support_type: paraphrase
+- id: clm-CUR-levels-pace
+  entry_id: cur-CUR-levels-p7-s1-transition
+  text: 'The stage bands are only a guide: learners progress at their own pace, with planning for those with additional
+    support needs and those who are highly able.'
+  supported_by:
+  - psg-CUR-levels-flex
+  - psg-CUR-soc-pp-continuum
+  support_type: paraphrase
+- id: clm-CUR-lit-no-ceiling
+  entry_id: cur-CUR-levels-p7-s1-transition
+  text: The Literacy and English outcomes set an expected proficiency for each level without capping what a learner
+    can achieve.
+  supported_by:
+  - psg-CUR-lit-pp-ceiling
+  - psg-CUR-lit-pp-progression
+  support_type: direct_quote
+- id: clm-CUR-transition-evidence
+  entry_id: cur-CUR-levels-p7-s1-transition
+  text: Specific assessment tasks are particularly useful for evidencing literacy progress at transitions, and dialogue
+    across sectors supports continuity.
+  supported_by:
+  - psg-CUR-lit-pp-transitions
+  - psg-CUR-lit-pp-continuity
+  support_type: paraphrase
+- id: clm-CUR-literacy-all-staff
+  entry_id: cur-CUR-levels-p7-s1-transition
+  text: In secondary, literacy is a shared responsibility of all practitioners, and social studies is named as an
+    important context for developing literacy.
+  supported_by:
+  - psg-CUR-lit-pp-all-staff
+  - psg-CUR-soc-pp-literacy
+  - psg-CUR-eo-page-def
+  support_type: paraphrase
+- id: clm-CUR-history-aims
+  entry_id: cur-CUR-levels-p7-s1-transition
+  text: Social studies aims for learners to locate periods, people and events in time and place, evaluate sources,
+    and develop a sense of chronology, which frames the S1 history outcomes.
+  supported_by:
+  - psg-CUR-soc-pp-history-aims
+  support_type: paraphrase
+- id: clm-CUR-transition-under-review
+  entry_id: cur-CUR-levels-p7-s1-transition
+  text: Transitions across early years, primary and secondary are named as an area the current curriculum revision
+    will address.
+  supported_by:
+  - psg-CUR-nif-cic-scope
+  support_type: paraphrase
+- id: clm-CUR-lit-2-01a-eo
+  entry_id: cur-CUR-lit-2-01a
+  text: 'LIT 2-01a is a Second Level outcome under Listening and talking, Enjoyment and choice: learners regularly
+    choose spoken and other texts they enjoy, explain their preferences, and choose the subject, purpose, format
+    and resources for texts they create.'
+  supported_by:
+  - psg-CUR-lit-2-01a-eo
+  support_type: paraphrase
+- id: clm-CUR-lit-2-01a-bm
+  entry_id: cur-CUR-lit-2-01a
+  text: 'Evidence of achievement at Second Level: one bullet, shared with LIT 1-01a: the learner regularly chooses
+    spoken texts for enjoyment or to find information for a purpose, and can explain their preferences.'
+  supported_by:
+  - psg-CUR-lit-2-01a-bm
+  support_type: paraphrase
+- id: clm-CUR-lit-2-01a-review
+  entry_id: cur-CUR-lit-2-01a
+  text: LIT 2-01a belongs to the current CfE technical framework, which is under review, so this reference must
+    be checked against any revised Literacy and English framework.
+  supported_by:
+  - psg-CUR-cic-technical-framework
+  - psg-CUR-nif-phase-out-2028
+  support_type: inference_by_curator
+- id: clm-CUR-lit-2-10a-eo
+  entry_id: cur-CUR-lit-2-10a
+  text: 'LIT 2-10a is a Second Level outcome under Listening and talking, Creating texts: learners communicate clearly,
+    audibly and with growing confidence, choosing and organising resources independently to support what they say.'
+  supported_by:
+  - psg-CUR-lit-2-10a-eo
+  support_type: paraphrase
+- id: clm-CUR-lit-2-10a-bm
+  entry_id: cur-CUR-lit-2-10a
+  text: 'Evidence of achievement at Second Level: four bullets, shared with LIT 3-10a: speaking clearly and expressively
+    in a range of settings, giving a well-organised talk with suitable structure, choosing vocabulary for purpose
+    and audience, and selecting resources to support communication.'
+  supported_by:
+  - psg-CUR-lit-2-10a-bm
+  support_type: paraphrase
+- id: clm-CUR-lit-2-10a-review
+  entry_id: cur-CUR-lit-2-10a
+  text: LIT 2-10a belongs to the current CfE technical framework, which is under review, so this reference must
+    be checked against any revised Literacy and English framework.
+  supported_by:
+  - psg-CUR-cic-technical-framework
+  - psg-CUR-nif-phase-out-2028
+  support_type: inference_by_curator
+- id: clm-CUR-lit-2-11a-eo
+  entry_id: cur-CUR-lit-2-11a
+  text: 'LIT 2-11a is a Second Level outcome under Reading, Enjoyment and choice: learners regularly choose texts
+    they enjoy and can explain why they prefer particular texts and authors.'
+  supported_by:
+  - psg-CUR-lit-2-11a-eo
+  support_type: paraphrase
+- id: clm-CUR-lit-2-11a-bm
+  entry_id: cur-CUR-lit-2-11a
+  text: 'Evidence of achievement at Second Level: two bullets, shared with LIT 1-11a: regularly choosing texts for
+    enjoyment or information, and explaining preferences for texts, authors or sources with supporting detail.'
+  supported_by:
+  - psg-CUR-lit-2-11a-bm
+  support_type: paraphrase
+- id: clm-CUR-lit-2-11a-review
+  entry_id: cur-CUR-lit-2-11a
+  text: LIT 2-11a belongs to the current CfE technical framework, which is under review, so this reference must
+    be checked against any revised Literacy and English framework.
+  supported_by:
+  - psg-CUR-cic-technical-framework
+  - psg-CUR-nif-phase-out-2028
+  support_type: inference_by_curator
+- id: clm-CUR-lit-2-13a-eo
+  entry_id: cur-CUR-lit-2-13a
+  text: 'LIT 2-13a is a Second Level outcome under Reading, Tools for reading: learners select and use strategies
+    and resources before and during reading to make the meaning of texts clear, and give reasons for their choices.'
+  supported_by:
+  - psg-CUR-lit-2-13a-eo
+  support_type: paraphrase
+- id: clm-CUR-lit-2-13a-bm
+  entry_id: cur-CUR-lit-2-13a
+  text: 'Evidence of achievement at Second Level: three bullets in the Tools for reading row, which also carries
+    ENG 2-12a (and third and fourth level ENG 12a), so they appear to be shared: fluent reading with suitable pace
+    and tone, using context clues and layout with unfamiliar texts, and applying strategies such as skimming, scanning,
+    predicting and summarising.'
+  supported_by:
+  - psg-CUR-lit-2-13a-bm
+  support_type: paraphrase
+- id: clm-CUR-lit-2-13a-review
+  entry_id: cur-CUR-lit-2-13a
+  text: LIT 2-13a belongs to the current CfE technical framework, which is under review, so this reference must
+    be checked against any revised Literacy and English framework.
+  supported_by:
+  - psg-CUR-cic-technical-framework
+  - psg-CUR-nif-phase-out-2028
+  support_type: inference_by_curator
+- id: clm-CUR-lit-2-14a-eo
+  entry_id: cur-CUR-lit-2-14a
+  text: 'LIT 2-14a is a Second Level outcome under Reading, Finding and using information: learners use their knowledge
+    of how texts are set out to find, select and sort information from a range of sources.'
+  supported_by:
+  - psg-CUR-lit-2-14a-eo
+  support_type: paraphrase
+- id: clm-CUR-lit-2-14a-bm
+  entry_id: cur-CUR-lit-2-14a
+  text: 'Evidence of achievement at Second Level: three bullets of its own: skimming to identify purpose and main
+    ideas, scanning for key information, and finding, selecting and sorting relevant information from varied sources.'
+  supported_by:
+  - psg-CUR-lit-2-14a-bm
+  support_type: paraphrase
+- id: clm-CUR-lit-2-14a-review
+  entry_id: cur-CUR-lit-2-14a
+  text: LIT 2-14a belongs to the current CfE technical framework, which is under review, so this reference must
+    be checked against any revised Literacy and English framework.
+  supported_by:
+  - psg-CUR-cic-technical-framework
+  - psg-CUR-nif-phase-out-2028
+  support_type: inference_by_curator
+- id: clm-CUR-lit-2-28a-eo
+  entry_id: cur-CUR-lit-2-28a
+  text: 'LIT 2-28a is a Second Level outcome under Writing, Creating texts: learners write to convey information,
+    describe events, explain processes or combine ideas in different ways.'
+  supported_by:
+  - psg-CUR-lit-2-28a-eo
+  support_type: paraphrase
+- id: clm-CUR-lit-2-28a-bm
+  entry_id: cur-CUR-lit-2-28a
+  text: 'Evidence of achievement at Second Level: four bullets of its own: choosing a style and format suited to
+    purpose, including relevant information, organising it logically, and using tone and vocabulary suited to purpose.'
+  supported_by:
+  - psg-CUR-lit-2-28a-bm
+  support_type: paraphrase
+- id: clm-CUR-lit-2-28a-review
+  entry_id: cur-CUR-lit-2-28a
+  text: LIT 2-28a belongs to the current CfE technical framework, which is under review, so this reference must
+    be checked against any revised Literacy and English framework.
+  supported_by:
+  - psg-CUR-cic-technical-framework
+  - psg-CUR-nif-phase-out-2028
+  support_type: inference_by_curator
+- id: clm-CUR-eng-2-27a-eo
+  entry_id: cur-CUR-eng-2-27a
+  text: 'ENG 2-27a is a Second Level outcome under Writing, Creating texts: learners use language, style and tone
+    deliberately to engage or influence their readers.'
+  supported_by:
+  - psg-CUR-eng-2-27a-eo
+  support_type: paraphrase
+- id: clm-CUR-eng-2-27a-bm
+  entry_id: cur-CUR-eng-2-27a
+  text: 'Evidence of achievement at Second Level: two bullets of its own: regularly producing short and extended
+    texts for different purposes, and attempting to engage or influence the reader through vocabulary and language
+    suited to the genre.'
+  supported_by:
+  - psg-CUR-eng-2-27a-bm
+  support_type: paraphrase
+- id: clm-CUR-eng-2-27a-review
+  entry_id: cur-CUR-eng-2-27a
+  text: ENG 2-27a belongs to the current CfE technical framework, which is under review, so this reference must
+    be checked against any revised Literacy and English framework.
+  supported_by:
+  - psg-CUR-cic-technical-framework
+  - psg-CUR-nif-phase-out-2028
+  support_type: inference_by_curator
+- id: clm-CUR-eng-2-30a-eo
+  entry_id: cur-CUR-eng-2-30a
+  text: 'ENG 2-30a is a Second Level outcome under Writing, Creating texts: learners describe and share their experiences
+    in writing, expressing what those experiences made them think and feel.'
+  supported_by:
+  - psg-CUR-eng-2-30a-eo
+  support_type: paraphrase
+- id: clm-CUR-eng-2-30a-bm
+  entry_id: cur-CUR-eng-2-30a
+  text: 'Evidence of achievement at Second Level: three bullets of its own: describing personal experiences with
+    clear context and sequence of events, describing thoughts and feelings about them, and attempting to engage
+    or influence the reader through language.'
+  supported_by:
+  - psg-CUR-eng-2-30a-bm
+  support_type: paraphrase
+- id: clm-CUR-eng-2-30a-review
+  entry_id: cur-CUR-eng-2-30a
+  text: ENG 2-30a belongs to the current CfE technical framework, which is under review, so this reference must
+    be checked against any revised Literacy and English framework.
+  supported_by:
+  - psg-CUR-cic-technical-framework
+  - psg-CUR-nif-phase-out-2028
+  support_type: inference_by_curator

@@ -1,0 +1,11 @@
+{
+  "id": "cfe-curriculum",
+  "kind": "curriculum",
+  "name": "Curriculum for Excellence (structured)",
+  "publisher": "Education Scotland",
+  "description": "Every experience and outcome by area, organiser and level, with the stages each level usually covers, and the benchmarks for Second level (P7) and Third level (S1), each tied to the codes of its row. Built from the E&O collection and the benchmark documents by `pnpm --filter @edw/library curriculum`.",
+  "licence": "Open Government Licence v3.0",
+  "licence_url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+  "homepage": "https://education.gov.scot/curriculum-for-excellence/benchmarks",
+  "sources": [{ "url": "https://education.gov.scot/curriculum-for-excellence/benchmarks", "description": "Benchmarks, one PDF per curriculum area" }]
+}

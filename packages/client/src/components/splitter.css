@@ -1,0 +1,16 @@
+/*
+ * The splitter's drag state (Splitter.tsx), which cannot be utilities: while a splitter is
+ * dragged the body has `resizing`, so the column cursor stays and no text is selected wherever
+ * the pointer goes, and the handle stays lit even when the pointer leaves it.
+ * Imported into the components layer from styles/index.css.
+ */
+body.resizing {
+  cursor: col-resize;
+  user-select: none;
+}
+body.resizing-rows {
+  cursor: row-resize;
+}
+body.resizing .splitter {
+  background: var(--primary);
+}

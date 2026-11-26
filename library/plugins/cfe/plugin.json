@@ -1,0 +1,26 @@
+{
+  "format": 1,
+  "id": "elm/cfe",
+  "version": "0.1.0",
+  "name": "Curriculum for Excellence",
+  "description": "Scotland's Curriculum for Excellence: every experience and outcome by area, organiser, level and stage, the benchmarks for Second level (P7) and Third level (S1) tied to their codes, and the full text of the experiences and outcomes documents to search and read. The assistant uses it to find the outcomes a worksheet covers and what achieving them looks like.",
+  "tags": ["curriculum", "experiences and outcomes", "benchmarks", "Scotland"],
+  "publisher": "Education Scotland",
+  "reuse": "adapt_with_credit",
+  "reuse_note": "Crown copyright, reused under the Open Government Licence v3.0: copy and adapt with the attribution in README.md. Education Scotland's logos, images and videos, and third-party material, are not covered, and none is included here.",
+  "collections": [
+    { "id": "cfe-curriculum", "kind": "curriculum", "path": "collections/cfe-curriculum" },
+    { "id": "education-scotland-eo", "kind": "documents", "path": "collections/education-scotland-eo" }
+  ],
+  "skills": [],
+  "tools": [
+    { "tool": "structure", "collection": "cfe-curriculum", "use_when": "to see the areas, organisers and levels, and which levels have benchmarks" },
+    { "tool": "outcomes", "collection": "cfe-curriculum", "use_when": "to find experiences and outcomes by level, stage, area, organiser, code or words" },
+    { "tool": "benchmarks", "collection": "cfe-curriculum", "use_when": "to see what achieving given codes looks like at Second or Third level" },
+    { "tool": "search", "collection": "education-scotland-eo", "use_when": "to find passages in the experiences and outcomes documents" },
+    { "tool": "read", "collection": "education-scotland-eo", "use_when": "to read a passage of an experiences and outcomes document in full" }
+  ],
+  "settings": {},
+  "browse": { "view": "curriculum", "collection": "cfe-curriculum" },
+  "use_in": ["class", "year_group"]
+}

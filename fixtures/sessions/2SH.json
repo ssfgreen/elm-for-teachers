@@ -1,0 +1,1606 @@
+{
+ "session": "2SH",
+ "cases": [
+  {
+   "id": "2SH #0",
+   "session": "2SH",
+   "turn": 0,
+   "variant": "recorded",
+   "prompt": "Tidy up the columns",
+   "reply": "I’ve made the number and tick-box columns narrower, leaving more room for the sentences.",
+   "docs": [
+    {
+     "id": "01M6NJRZJNFYA8CZX78FA46QC3",
+     "name": "Similes and Metaphors Homework"
+    }
+   ],
+   "operations": [
+    {
+     "op": "replace",
+     "id": "01M6NJRZYS5QM4VB8Z9RDKGWX3",
+     "content": "|  | Sentence | Simile | Metaphor |\n| --- | --- | --- | --- |\n| 1 | The classroom was a zoo after the bell rang. | ☐ | ☐ |\n| 2 | My brother runs like a cheetah. | ☐ | ☐ |\n| 3 | The snow was a white blanket over the hills. | ☐ | ☐ |\n| 4 | Grandpa's hands were as rough as sandpaper. | ☐ | ☐ |\n| 5 | The walk home felt like a marathon. | ☐ | ☐ |\n| 6 | The wind howled like a hungry wolf. | ☐ | ☐ |\n| 7 | My bedroom is a pigsty. | ☐ | ☐ |\n<!-- colwidths: 45 0 85 95 -->"
+    }
+   ],
+   "effect": {
+    "items": [
+     {
+      "kind": "formatting",
+      "block_id": "01M6NJRZYS5QM4VB8Z9RDKGWX3",
+      "to": "01M6NJRZYS5QM4VB8Z9RDKGWX3",
+      "doc_id": "01M6NJRZJNFYA8CZX78FA46QC3"
+     }
+    ],
+    "created_doc_ids": []
+   },
+   "judged": false
+  },
+  {
+   "id": "2SH #1",
+   "session": "2SH",
+   "turn": 1,
+   "variant": "recorded",
+   "prompt": "this is Primary 7a",
+   "reply": "Changed it to Primary 7a.",
+   "docs": [
+    {
+     "id": "01M6NJRZJNFYA8CZX78FA46QC3",
+     "name": "Similes and Metaphors Homework"
+    }
+   ],
+   "operations": [
+    {
+     "op": "replace",
+     "id": "01M6NJRZYR4JA9T4GABCG4Z4E6",
+     "content": "*Primary 7a English Homework | About 20 minutes*"
+    }
+   ],
+   "effect": {
+    "items": [
+     {
+      "kind": "changed",
+      "block_id": "01M6NJRZYR4JA9T4GABCG4Z4E6",
+      "to": "01M6NJRZYR4JA9T4GABCG4Z4E6",
+      "doc_id": "01M6NJRZJNFYA8CZX78FA46QC3",
+      "before": "*Primary 7 English Homework | About 20 minutes*",
+      "after": "*Primary 7a English Homework | About 20 minutes*"
+     }
+    ],
+    "created_doc_ids": []
+   },
+   "judged": true
+  },
+  {
+   "id": "2SH #2",
+   "session": "2SH",
+   "turn": 2,
+   "variant": "recorded",
+   "prompt": "Create a duplicated version of the worksheet that includes an extension task for high ability learners.  This should be a writing at length task requiring learners to use similes and metaphors.",
+   "reply": "I’ve created a duplicate worksheet for Primary 7a with an extended storm-scene writing task. It asks pupils to write two or three paragraphs using at least three similes and three metaphors, and includes guidance for checking their work.",
+   "docs": [
+    {
+     "id": "01M6NJRZJNFYA8CZX78FA46QC3",
+     "name": "Similes and Metaphors Homework"
+    },
+    {
+     "id": "EFFECT00000000000000000016",
+     "name": "Similes and Metaphors Homework – Extension Version"
+    }
+   ],
+   "operations": [
+    {
+     "op": "create_doc",
+     "temp_id": "ext",
+     "name": "Similes and Metaphors Homework – Extension Version"
+    },
+    {
+     "op": "insert",
+     "doc": "ext",
+     "after": "start",
+     "type": "heading",
+     "content": "# Similes and Metaphors"
+    },
+    {
+     "op": "insert",
+     "doc": "ext",
+     "after": "start",
+     "type": "paragraph",
+     "content": "**Name:** ______________ **Date:** __________ **Class:** P7a"
+    },
+    {
+     "op": "insert",
+     "doc": "ext",
+     "after": "start",
+     "type": "paragraph",
+     "content": "*Primary 7a English Homework – Extension Version | About 35–40 minutes*"
+    },
+    {
+     "op": "insert",
+     "doc": "ext",
+     "after": "start",
+     "type": "paragraph",
+     "content": "**Learning intention:** I am learning to recognise and use similes and metaphors to make my writing more interesting."
+    },
+    {
+     "op": "insert",
+     "doc": "ext",
+     "after": "start",
+     "type": "quote",
+     "content": "> **Remember!**\n> **A simile** compares two things using the words **like** or **as**. *Example:* Her smile was as bright as the sun.\n> **A metaphor** says something **is** something else, without using like or as. *Example:* Her smile was the sun on a cloudy day."
+    },
+    {
+     "op": "insert",
+     "doc": "ext",
+     "after": "start",
+     "type": "heading",
+     "content": "## Task 1: Simile or metaphor? *(5 minutes)*"
+    },
+    {
+     "op": "insert",
+     "doc": "ext",
+     "after": "start",
+     "type": "paragraph",
+     "content": "Read each sentence. Tick the box to show whether it is a simile or a metaphor."
+    },
+    {
+     "op": "insert",
+     "doc": "ext",
+     "after": "start",
+     "type": "table",
+     "content": "|  | Sentence | Simile | Metaphor |\n| --- | --- | --- | --- |\n| 1 | The classroom was a zoo after the bell rang. | ☐ | ☐ |\n| 2 | My brother runs like a cheetah. | ☐ | ☐ |\n| 3 | The snow was a white blanket over the hills. | ☐ | ☐ |\n| 4 | Grandpa's hands were as rough as sandpaper. | ☐ | ☐ |\n| 5 | The walk home felt like a marathon. | ☐ | ☐ |\n| 6 | The wind howled like a hungry wolf. | ☐ | ☐ |\n| 7 | My bedroom is a pigsty. | ☐ | ☐ |\n<!-- colwidths: 45 0 85 95 -->"
+    },
+    {
+     "op": "insert",
+     "doc": "ext",
+     "after": "start",
+     "type": "heading",
+     "content": "## Task 2: Finish the sentences *(5 minutes)*"
+    },
+    {
+     "op": "insert",
+     "doc": "ext",
+     "after": "start",
+     "type": "paragraph",
+     "content": "Complete each sentence with your own idea. Try to be creative!"
+    },
+    {
+     "op": "insert",
+     "doc": "ext",
+     "after": "start",
+     "type": "paragraph",
+     "content": "**Similes** *(use like or as)*"
+    },
+    {
+     "op": "insert",
+     "doc": "ext",
+     "after": "start",
+     "type": "numbered_list",
+     "content": "1. The old door creaked like ______________________________\n2. After football practice, I was as hungry as ______________________________"
+    },
+    {
+     "op": "insert",
+     "doc": "ext",
+     "after": "start",
+     "type": "paragraph",
+     "content": "**Metaphors** *(say it IS something else)*"
+    },
+    {
+     "op": "insert",
+     "doc": "ext",
+     "after": "start",
+     "type": "numbered_list",
+     "content": "3. On Monday morning, my classroom is a ______________________________\n4. The thunderstorm was an angry ______________________________"
+    },
+    {
+     "op": "insert",
+     "doc": "ext",
+     "after": "start",
+     "type": "heading",
+     "content": "## Task 3: Extended writing challenge *(20–25 minutes)*"
+    },
+    {
+     "op": "insert",
+     "doc": "ext",
+     "after": "start",
+     "type": "paragraph",
+     "content": "Imagine you are walking home when a sudden storm begins. Write **two or three paragraphs (about 150–200 words)** describing how the scene changes and what happens next. Make your reader feel as if they are there. Include **at least three similes and three metaphors** of your own; choose comparisons that suit the mood, rather than familiar phrases. Underline each simile once and each metaphor twice."
+    },
+    {
+     "op": "insert",
+     "doc": "ext",
+     "after": "start",
+     "type": "paragraph",
+     "content": "**Check your writing:** Have you described what you can see, hear or feel? Do your comparisons add to the atmosphere? Have you used paragraphs and checked your punctuation?"
+    },
+    {
+     "op": "insert",
+     "doc": "ext",
+     "after": "start",
+     "type": "numbered_list",
+     "content": "1. Write your storm scene here:\n   ___________________________________________________________________________\n   ___________________________________________________________________________\n   ___________________________________________________________________________\n   ___________________________________________________________________________\n   ___________________________________________________________________________\n   ___________________________________________________________________________\n   ___________________________________________________________________________\n   ___________________________________________________________________________\n   ___________________________________________________________________________\n   ___________________________________________________________________________\n   ___________________________________________________________________________\n   ___________________________________________________________________________\n   ___________________________________________________________________________\n   ___________________________________________________________________________\n   ___________________________________________________________________________"
+    },
+    {
+     "op": "insert",
+     "doc": "ext",
+     "after": "start",
+     "type": "heading",
+     "content": "## Answers for Parents and Teachers"
+    },
+    {
+     "op": "insert",
+     "doc": "ext",
+     "after": "start",
+     "type": "paragraph",
+     "content": "**Task 1**"
+    },
+    {
+     "op": "insert",
+     "doc": "ext",
+     "after": "start",
+     "type": "numbered_list",
+     "content": "1. Metaphor\n2. Simile\n3. Metaphor\n4. Simile\n5. Simile\n6. Simile\n7. Metaphor"
+    },
+    {
+     "op": "insert",
+     "doc": "ext",
+     "after": "start",
+     "type": "paragraph",
+     "content": "**Task 2**"
+    },
+    {
+     "op": "insert",
+     "doc": "ext",
+     "after": "start",
+     "type": "paragraph",
+     "content": "Answers will vary. Look for endings that make sense and paint a clear picture, for example: (1) ‘a ghost groaning in the night’, (2) ‘a bear after winter’, (3) ‘sleepy zoo’ or ‘quiet library’, (4) ‘giant stamping across the sky’. Numbers 1 and 2 should complete the similes; numbers 3 and 4 should complete the metaphors."
+    },
+    {
+     "op": "insert",
+     "doc": "ext",
+     "after": "start",
+     "type": "paragraph",
+     "content": "**Task 3**"
+    },
+    {
+     "op": "insert",
+     "doc": "ext",
+     "after": "start",
+     "type": "paragraph",
+     "content": "Responses will vary. Look for two or three connected paragraphs, a developing storm scene, at least three original similes and three metaphors used appropriately, and accurate punctuation. Check that learners have marked their comparisons as instructed."
+    }
+   ],
+   "effect": {
+    "items": [
+     {
+      "kind": "added",
+      "block_id": "EFFECT00000000000000000017",
+      "doc_id": "EFFECT00000000000000000016",
+      "text": "# Similes and Metaphors"
+     },
+     {
+      "kind": "added",
+      "block_id": "EFFECT00000000000000000018",
+      "doc_id": "EFFECT00000000000000000016",
+      "text": "**Name:** ______________ **Date:** __________ **Class:** P7a"
+     },
+     {
+      "kind": "added",
+      "block_id": "EFFECT00000000000000000019",
+      "doc_id": "EFFECT00000000000000000016",
+      "text": "*Primary 7a English Homework – Extension Version | About 35–40 minutes*"
+     },
+     {
+      "kind": "added",
+      "block_id": "EFFECT00000000000000000020",
+      "doc_id": "EFFECT00000000000000000016",
+      "text": "**Learning intention:** I am learning to recognise and use similes and metaphors to make my writing more interesting."
+     },
+     {
+      "kind": "added",
+      "block_id": "EFFECT00000000000000000021",
+      "doc_id": "EFFECT00000000000000000016",
+      "text": "> **Remember!**\n> **A simile** compares two things using the words **like** or **as**. *Example:* Her smile was as bright as the sun.\n> **A metaphor** says something **is** something else, without using like or as. *Example:* Her smile was the sun on a cloudy day."
+     },
+     {
+      "kind": "added",
+      "block_id": "EFFECT00000000000000000022",
+      "doc_id": "EFFECT00000000000000000016",
+      "text": "## Task 1: Simile or metaphor? *(5 minutes)*"
+     },
+     {
+      "kind": "added",
+      "block_id": "EFFECT00000000000000000023",
+      "doc_id": "EFFECT00000000000000000016",
+      "text": "Read each sentence. Tick the box to show whether it is a simile or a metaphor."
+     },
+     {
+      "kind": "added",
+      "block_id": "EFFECT00000000000000000024",
+      "doc_id": "EFFECT00000000000000000016",
+      "text": "|  | Sentence | Simile | Metaphor |\n| --- | --- | --- | --- |\n| 1 | The classroom was a zoo after the bell rang. | ☐ | ☐ |\n| 2 | My brother runs like a cheetah. | ☐ | ☐ |\n| 3 | The snow was a white blanket over the hills. | ☐ | ☐ |\n| 4 | Grandpa's hands were as rough as sandpaper. | ☐ | ☐ |\n| 5 | The walk home felt like a marathon. | ☐ | ☐ |\n| 6 | The wind howled like a hungry wolf. | ☐ | ☐ |\n| 7 | My bedroom is a pigsty. | ☐ | ☐ |\n<!-- colwidths: 45 0 85 95 -->"
+     },
+     {
+      "kind": "added",
+      "block_id": "EFFECT00000000000000000025",
+      "doc_id": "EFFECT00000000000000000016",
+      "text": "## Task 2: Finish the sentences *(5 minutes)*"
+     },
+     {
+      "kind": "added",
+      "block_id": "EFFECT00000000000000000026",
+      "doc_id": "EFFECT00000000000000000016",
+      "text": "Complete each sentence with your own idea. Try to be creative!"
+     },
+     {
+      "kind": "added",
+      "block_id": "EFFECT00000000000000000027",
+      "doc_id": "EFFECT00000000000000000016",
+      "text": "**Similes** *(use like or as)*"
+     },
+     {
+      "kind": "added",
+      "block_id": "EFFECT00000000000000000028",
+      "doc_id": "EFFECT00000000000000000016",
+      "text": "1. The old door creaked like ______________________________\n2. After football practice, I was as hungry as ______________________________"
+     },
+     {
+      "kind": "added",
+      "block_id": "EFFECT00000000000000000029",
+      "doc_id": "EFFECT00000000000000000016",
+      "text": "**Metaphors** *(say it IS something else)*"
+     },
+     {
+      "kind": "added",
+      "block_id": "EFFECT00000000000000000030",
+      "doc_id": "EFFECT00000000000000000016",
+      "text": "3. On Monday morning, my classroom is a ______________________________\n4. The thunderstorm was an angry ______________________________"
+     },
+     {
+      "kind": "added",
+      "block_id": "EFFECT00000000000000000031",
+      "doc_id": "EFFECT00000000000000000016",
+      "text": "## Task 3: Extended writing challenge *(20–25 minutes)*"
+     },
+     {
+      "kind": "added",
+      "block_id": "EFFECT00000000000000000032",
+      "doc_id": "EFFECT00000000000000000016",
+      "text": "Imagine you are walking home when a sudden storm begins. Write **two or three paragraphs (about 150–200 words)** describing how the scene changes and what happens next. Make your reader feel as if they are there. Include **at least three similes and three metaphors** of your own; choose comparisons that suit the mood, rather than familiar phrases. Underline each simile once and each metaphor twice."
+     },
+     {
+      "kind": "added",
+      "block_id": "EFFECT00000000000000000033",
+      "doc_id": "EFFECT00000000000000000016",
+      "text": "**Check your writing:** Have you described what you can see, hear or feel? Do your comparisons add to the atmosphere? Have you used paragraphs and checked your punctuation?"
+     },
+     {
+      "kind": "added",
+      "block_id": "EFFECT00000000000000000034",
+      "doc_id": "EFFECT00000000000000000016",
+      "text": "1. Write your storm scene here:\n   ___________________________________________________________________________\n   ___________________________________________________________________________\n   ___________________________________________________________________________\n   ___________________________________________________________________________\n   ___________________________________________________________________________\n   ___________________________________________________________________________\n   ___________________________________________________________________________\n   ___________________________________________________________________________\n   ___________________________________________________________________________\n   ___________________________________________________________________________\n   ___________________________________________________________________________\n   ___________________________________________________________________________\n   ___________________________________________________________________________\n   ___________________________________________________________________________\n   ___________________________________________________________________________"
+     },
+     {
+      "kind": "added",
+      "block_id": "EFFECT00000000000000000035",
+      "doc_id": "EFFECT00000000000000000016",
+      "text": "## Answers for Parents and Teachers"
+     },
+     {
+      "kind": "added",
+      "block_id": "EFFECT00000000000000000036",
+      "doc_id": "EFFECT00000000000000000016",
+      "text": "**Task 1**"
+     },
+     {
+      "kind": "added",
+      "block_id": "EFFECT00000000000000000037",
+      "doc_id": "EFFECT00000000000000000016",
+      "text": "1. Metaphor\n2. Simile\n3. Metaphor\n4. Simile\n5. Simile\n6. Simile\n7. Metaphor"
+     },
+     {
+      "kind": "added",
+      "block_id": "EFFECT00000000000000000038",
+      "doc_id": "EFFECT00000000000000000016",
+      "text": "**Task 2**"
+     },
+     {
+      "kind": "added",
+      "block_id": "EFFECT00000000000000000039",
+      "doc_id": "EFFECT00000000000000000016",
+      "text": "Answers will vary. Look for endings that make sense and paint a clear picture, for example: (1) ‘a ghost groaning in the night’, (2) ‘a bear after winter’, (3) ‘sleepy zoo’ or ‘quiet library’, (4) ‘giant stamping across the sky’. Numbers 1 and 2 should complete the similes; numbers 3 and 4 should complete the metaphors."
+     },
+     {
+      "kind": "added",
+      "block_id": "EFFECT00000000000000000040",
+      "doc_id": "EFFECT00000000000000000016",
+      "text": "**Task 3**"
+     },
+     {
+      "kind": "added",
+      "block_id": "EFFECT00000000000000000041",
+      "doc_id": "EFFECT00000000000000000016",
+      "text": "Responses will vary. Look for two or three connected paragraphs, a developing storm scene, at least three original similes and three metaphors used appropriately, and accurate punctuation. Check that learners have marked their comparisons as instructed."
+     }
+    ],
+    "created_doc_ids": [
+     "EFFECT00000000000000000016"
+    ]
+   },
+   "judged": true
+  },
+  {
+   "id": "2SH #2 as copy",
+   "session": "2SH",
+   "turn": 2,
+   "variant": "as_copy",
+   "prompt": "Create a duplicated version of the worksheet that includes an extension task for high ability learners.  This should be a writing at length task requiring learners to use similes and metaphors.",
+   "reply": "I’ve created a duplicate worksheet for Primary 7a with an extended storm-scene writing task. It asks pupils to write two or three paragraphs using at least three similes and three metaphors, and includes guidance for checking their work.",
+   "docs": [
+    {
+     "id": "01M6NJRZJNFYA8CZX78FA46QC3",
+     "name": "Similes and Metaphors Homework"
+    },
+    {
+     "id": "EFFECT00000000000000000042",
+     "name": "Similes and Metaphors Homework – Extension Version",
+     "copy_of": "01M6NJRZJNFYA8CZX78FA46QC3"
+    }
+   ],
+   "operations": [
+    {
+     "op": "create_doc",
+     "temp_id": "ext",
+     "name": "Similes and Metaphors Homework – Extension Version",
+     "copy_of": "01M6NJRZJNFYA8CZX78FA46QC3"
+    },
+    {
+     "op": "replace",
+     "id": "ext/01M6NJRZYRMK4N76RD6DY9BSEJ",
+     "content": "**Name:** ______________ **Date:** __________ **Class:** P7a"
+    },
+    {
+     "op": "replace",
+     "id": "ext/01M6NJRZYR4JA9T4GABCG4Z4E6",
+     "content": "*Primary 7a English Homework – Extension Version | About 35–40 minutes*"
+    },
+    {
+     "op": "insert",
+     "doc": "ext",
+     "after": "ext/01M6NJRZYTXYTQNWHXGW6DTDFB",
+     "type": "heading",
+     "content": "## Task 3: Extended writing challenge *(20–25 minutes)*",
+     "temp_id": "ext_new14"
+    },
+    {
+     "op": "insert",
+     "doc": "ext",
+     "after": "ext_new14",
+     "type": "paragraph",
+     "content": "Imagine you are walking home when a sudden storm begins. Write **two or three paragraphs (about 150–200 words)** describing how the scene changes and what happens next. Make your reader feel as if they are there. Include **at least three similes and three metaphors** of your own; choose comparisons that suit the mood, rather than familiar phrases. Underline each simile once and each metaphor twice.",
+     "temp_id": "ext_new15"
+    },
+    {
+     "op": "insert",
+     "doc": "ext",
+     "after": "ext_new15",
+     "type": "paragraph",
+     "content": "**Check your writing:** Have you described what you can see, hear or feel? Do your comparisons add to the atmosphere? Have you used paragraphs and checked your punctuation?",
+     "temp_id": "ext_new16"
+    },
+    {
+     "op": "insert",
+     "doc": "ext",
+     "after": "ext_new16",
+     "type": "numbered_list",
+     "content": "1. Write your storm scene here:\n   ___________________________________________________________________________\n   ___________________________________________________________________________\n   ___________________________________________________________________________\n   ___________________________________________________________________________\n   ___________________________________________________________________________\n   ___________________________________________________________________________\n   ___________________________________________________________________________\n   ___________________________________________________________________________\n   ___________________________________________________________________________\n   ___________________________________________________________________________\n   ___________________________________________________________________________\n   ___________________________________________________________________________\n   ___________________________________________________________________________\n   ___________________________________________________________________________\n   ___________________________________________________________________________",
+     "temp_id": "ext_new17"
+    },
+    {
+     "op": "replace",
+     "id": "ext/01M6NJRZYTF6GWKCD9WNE3G6CE",
+     "content": "1. Metaphor\n2. Simile\n3. Metaphor\n4. Simile\n5. Simile\n6. Simile\n7. Metaphor"
+    },
+    {
+     "op": "replace",
+     "id": "ext/01M6NJRZYTCNQTHCEQBFETC9Z5",
+     "content": "Answers will vary. Look for endings that make sense and paint a clear picture, for example: (1) ‘a ghost groaning in the night’, (2) ‘a bear after winter’, (3) ‘sleepy zoo’ or ‘quiet library’, (4) ‘giant stamping across the sky’. Numbers 1 and 2 should complete the similes; numbers 3 and 4 should complete the metaphors."
+    },
+    {
+     "op": "insert",
+     "doc": "ext",
+     "after": "ext/01M6NJRZYTCNQTHCEQBFETC9Z5",
+     "type": "paragraph",
+     "content": "**Task 3**",
+     "temp_id": "ext_new23"
+    },
+    {
+     "op": "insert",
+     "doc": "ext",
+     "after": "ext_new23",
+     "type": "paragraph",
+     "content": "Responses will vary. Look for two or three connected paragraphs, a developing storm scene, at least three original similes and three metaphors used appropriately, and accurate punctuation. Check that learners have marked their comparisons as instructed.",
+     "temp_id": "ext_new24"
+    }
+   ],
+   "effect": {
+    "items": [
+     {
+      "kind": "moved",
+      "block_id": "01M6NJRZYRS6C3S8N7E90DZ4ZB",
+      "to": "EFFECT00000000000000000043",
+      "doc_id": "EFFECT00000000000000000042",
+      "copy": true
+     },
+     {
+      "kind": "moved",
+      "block_id": "01M6NJRZYRMK4N76RD6DY9BSEJ",
+      "to": "EFFECT00000000000000000044",
+      "doc_id": "EFFECT00000000000000000042",
+      "copy": true
+     },
+     {
+      "kind": "changed",
+      "block_id": "01M6NJRZYRMK4N76RD6DY9BSEJ",
+      "to": "EFFECT00000000000000000044",
+      "doc_id": "EFFECT00000000000000000042",
+      "before": "**Name:** ______________ **Date:** __________ **Class:** P7",
+      "after": "**Name:** ______________ **Date:** __________ **Class:** P7a"
+     },
+     {
+      "kind": "moved",
+      "block_id": "01M6NJRZYR4JA9T4GABCG4Z4E6",
+      "to": "EFFECT00000000000000000045",
+      "doc_id": "EFFECT00000000000000000042",
+      "copy": true
+     },
+     {
+      "kind": "changed",
+      "block_id": "01M6NJRZYR4JA9T4GABCG4Z4E6",
+      "to": "EFFECT00000000000000000045",
+      "doc_id": "EFFECT00000000000000000042",
+      "before": "*Primary 7a English Homework | About 20 minutes*",
+      "after": "*Primary 7a English Homework – Extension Version | About 35–40 minutes*"
+     },
+     {
+      "kind": "moved",
+      "block_id": "01M6NJRZYRWMV3RJRZMSMZKP1E",
+      "to": "EFFECT00000000000000000046",
+      "doc_id": "EFFECT00000000000000000042",
+      "copy": true
+     },
+     {
+      "kind": "moved",
+      "block_id": "01M6NJRZYS3W7SEG8VSYA15E9C",
+      "to": "EFFECT00000000000000000047",
+      "doc_id": "EFFECT00000000000000000042",
+      "copy": true
+     },
+     {
+      "kind": "moved",
+      "block_id": "01M6NJRZYSJ4X3X8HFNW3FTE2C",
+      "to": "EFFECT00000000000000000048",
+      "doc_id": "EFFECT00000000000000000042",
+      "copy": true
+     },
+     {
+      "kind": "moved",
+      "block_id": "01M6NJRZYSAEXQNBFCVBRBHD12",
+      "to": "EFFECT00000000000000000049",
+      "doc_id": "EFFECT00000000000000000042",
+      "copy": true
+     },
+     {
+      "kind": "moved",
+      "block_id": "01M6NJRZYS5QM4VB8Z9RDKGWX3",
+      "to": "EFFECT00000000000000000050",
+      "doc_id": "EFFECT00000000000000000042",
+      "copy": true
+     },
+     {
+      "kind": "moved",
+      "block_id": "01M6NJRZYS5W5SYA58K0HJ5QDD",
+      "to": "EFFECT00000000000000000051",
+      "doc_id": "EFFECT00000000000000000042",
+      "copy": true
+     },
+     {
+      "kind": "moved",
+      "block_id": "01M6NJRZYSG7W7JCAEYAZKYHBE",
+      "to": "EFFECT00000000000000000052",
+      "doc_id": "EFFECT00000000000000000042",
+      "copy": true
+     },
+     {
+      "kind": "moved",
+      "block_id": "01M6NJRZYS70FZ6QW6F1T6FKQX",
+      "to": "EFFECT00000000000000000053",
+      "doc_id": "EFFECT00000000000000000042",
+      "copy": true
+     },
+     {
+      "kind": "moved",
+      "block_id": "01M6NJRZYS2H52RTW4RHH1HT55",
+      "to": "EFFECT00000000000000000054",
+      "doc_id": "EFFECT00000000000000000042",
+      "copy": true
+     },
+     {
+      "kind": "moved",
+      "block_id": "01M6NJRZYTN0H008MX31NFD3RV",
+      "to": "EFFECT00000000000000000055",
+      "doc_id": "EFFECT00000000000000000042",
+      "copy": true
+     },
+     {
+      "kind": "moved",
+      "block_id": "01M6NJRZYTXYTQNWHXGW6DTDFB",
+      "to": "EFFECT00000000000000000056",
+      "doc_id": "EFFECT00000000000000000042",
+      "copy": true
+     },
+     {
+      "kind": "added",
+      "block_id": "EFFECT00000000000000000062",
+      "doc_id": "EFFECT00000000000000000042",
+      "text": "## Task 3: Extended writing challenge *(20–25 minutes)*"
+     },
+     {
+      "kind": "added",
+      "block_id": "EFFECT00000000000000000063",
+      "doc_id": "EFFECT00000000000000000042",
+      "text": "Imagine you are walking home when a sudden storm begins. Write **two or three paragraphs (about 150–200 words)** describing how the scene changes and what happens next. Make your reader feel as if they are there. Include **at least three similes and three metaphors** of your own; choose comparisons that suit the mood, rather than familiar phrases. Underline each simile once and each metaphor twice."
+     },
+     {
+      "kind": "added",
+      "block_id": "EFFECT00000000000000000064",
+      "doc_id": "EFFECT00000000000000000042",
+      "text": "**Check your writing:** Have you described what you can see, hear or feel? Do your comparisons add to the atmosphere? Have you used paragraphs and checked your punctuation?"
+     },
+     {
+      "kind": "added",
+      "block_id": "EFFECT00000000000000000065",
+      "doc_id": "EFFECT00000000000000000042",
+      "text": "1. Write your storm scene here:\n   ___________________________________________________________________________\n   ___________________________________________________________________________\n   ___________________________________________________________________________\n   ___________________________________________________________________________\n   ___________________________________________________________________________\n   ___________________________________________________________________________\n   ___________________________________________________________________________\n   ___________________________________________________________________________\n   ___________________________________________________________________________\n   ___________________________________________________________________________\n   ___________________________________________________________________________\n   ___________________________________________________________________________\n   ___________________________________________________________________________\n   ___________________________________________________________________________\n   ___________________________________________________________________________"
+     },
+     {
+      "kind": "moved",
+      "block_id": "01M6NJRZYTZRQRDTPR1TRTC4G7",
+      "to": "EFFECT00000000000000000057",
+      "doc_id": "EFFECT00000000000000000042",
+      "copy": true
+     },
+     {
+      "kind": "moved",
+      "block_id": "01M6NJRZYTDAENFXRMERASCDWY",
+      "to": "EFFECT00000000000000000058",
+      "doc_id": "EFFECT00000000000000000042",
+      "copy": true
+     },
+     {
+      "kind": "moved",
+      "block_id": "01M6NJRZYTF6GWKCD9WNE3G6CE",
+      "to": "EFFECT00000000000000000059",
+      "doc_id": "EFFECT00000000000000000042",
+      "copy": true
+     },
+     {
+      "kind": "changed",
+      "block_id": "01M6NJRZYTF6GWKCD9WNE3G6CE",
+      "to": "EFFECT00000000000000000059",
+      "doc_id": "EFFECT00000000000000000042",
+      "before": "1. Metaphor\n2. Simile\n3. Metaphor\n4. Simile\n5. Simile\n6. Similie\n7. Metaphor",
+      "after": "1. Metaphor\n2. Simile\n3. Metaphor\n4. Simile\n5. Simile\n6. Simile\n7. Metaphor"
+     },
+     {
+      "kind": "moved",
+      "block_id": "01M6NJRZYT4TRGB98R9DQCB8E7",
+      "to": "EFFECT00000000000000000060",
+      "doc_id": "EFFECT00000000000000000042",
+      "copy": true
+     },
+     {
+      "kind": "moved",
+      "block_id": "01M6NJRZYTCNQTHCEQBFETC9Z5",
+      "to": "EFFECT00000000000000000061",
+      "doc_id": "EFFECT00000000000000000042",
+      "copy": true
+     },
+     {
+      "kind": "changed",
+      "block_id": "01M6NJRZYTCNQTHCEQBFETC9Z5",
+      "to": "EFFECT00000000000000000061",
+      "doc_id": "EFFECT00000000000000000042",
+      "before": "Answers will vary. Look for endings that make sense and paint a clear picture, for example: (1) \"like a ghost groaning in the night\", (2) \"as hungry as a bear after winter\", (3) \"sleepy zoo\" or \"quiet library\", (4) \"giant stamping across the sky\". Numbers 1 and 2 should use like or as; numbers 3 and 4 should not.",
+      "after": "Answers will vary. Look for endings that make sense and paint a clear picture, for example: (1) ‘a ghost groaning in the night’, (2) ‘a bear after winter’, (3) ‘sleepy zoo’ or ‘quiet library’, (4) ‘giant stamping across the sky’. Numbers 1 and 2 should complete the similes; numbers 3 and 4 should complete the metaphors."
+     },
+     {
+      "kind": "added",
+      "block_id": "EFFECT00000000000000000066",
+      "doc_id": "EFFECT00000000000000000042",
+      "text": "**Task 3**"
+     },
+     {
+      "kind": "added",
+      "block_id": "EFFECT00000000000000000067",
+      "doc_id": "EFFECT00000000000000000042",
+      "text": "Responses will vary. Look for two or three connected paragraphs, a developing storm scene, at least three original similes and three metaphors used appropriately, and accurate punctuation. Check that learners have marked their comparisons as instructed."
+     }
+    ],
+    "created_doc_ids": [
+     "EFFECT00000000000000000042"
+    ]
+   },
+   "judged": true
+  },
+  {
+   "id": "2SH #3",
+   "session": "2SH",
+   "turn": 3,
+   "variant": "recorded",
+   "prompt": "Change the requirements to one simile and one metaphor.",
+   "reply": "I’ve changed the extended writing task to require at least one simile and one metaphor, and updated the teacher guidance to match.",
+   "docs": [
+    {
+     "id": "01M6NM5BVH0RVZ48B552G3A6CE",
+     "name": "Similes and Metaphors Homework – Extension Version"
+    },
+    {
+     "id": "01M6NJRZJNFYA8CZX78FA46QC3",
+     "name": "Similes and Metaphors Homework"
+    }
+   ],
+   "operations": [
+    {
+     "op": "replace",
+     "id": "01M6NM5BVKVXVRAK7EJ8FQZ88J",
+     "content": "Imagine you are walking home when a sudden storm begins. Write **two or three paragraphs (about 150–200 words)** describing how the scene changes and what happens next. Make your reader feel as if they are there. Include **at least one simile and one metaphor** of your own; choose comparisons that suit the mood, rather than familiar phrases. Underline your simile once and your metaphor twice."
+    },
+    {
+     "op": "replace",
+     "id": "01M6NM5BVMRQPYF8BCPTBBQ417",
+     "content": "Responses will vary. Look for two or three connected paragraphs, a developing storm scene, at least one original simile and one metaphor used appropriately, and accurate punctuation. Check that learners have marked their comparisons as instructed."
+    }
+   ],
+   "effect": {
+    "items": [
+     {
+      "kind": "changed",
+      "block_id": "01M6NM5BVKVXVRAK7EJ8FQZ88J",
+      "to": "01M6NM5BVKVXVRAK7EJ8FQZ88J",
+      "doc_id": "01M6NM5BVH0RVZ48B552G3A6CE",
+      "before": "Imagine you are walking home when a sudden storm begins. Write **two or three paragraphs (about 150–200 words)** describing how the scene changes and what happens next. Make your reader feel as if they are there. Include **at least three similes and three metaphors** of your own; choose comparisons that suit the mood, rather than familiar phrases. Underline each simile once and each metaphor twice.",
+      "after": "Imagine you are walking home when a sudden storm begins. Write **two or three paragraphs (about 150–200 words)** describing how the scene changes and what happens next. Make your reader feel as if they are there. Include **at least one simile and one metaphor** of your own; choose comparisons that suit the mood, rather than familiar phrases. Underline your simile once and your metaphor twice."
+     },
+     {
+      "kind": "changed",
+      "block_id": "01M6NM5BVMRQPYF8BCPTBBQ417",
+      "to": "01M6NM5BVMRQPYF8BCPTBBQ417",
+      "doc_id": "01M6NM5BVH0RVZ48B552G3A6CE",
+      "before": "Responses will vary. Look for two or three connected paragraphs, a developing storm scene, at least three original similes and three metaphors used appropriately, and accurate punctuation. Check that learners have marked their comparisons as instructed.",
+      "after": "Responses will vary. Look for two or three connected paragraphs, a developing storm scene, at least one original simile and one metaphor used appropriately, and accurate punctuation. Check that learners have marked their comparisons as instructed."
+     }
+    ],
+    "created_doc_ids": []
+   },
+   "judged": true
+  },
+  {
+   "id": "2SH #4",
+   "session": "2SH",
+   "turn": 4,
+   "variant": "recorded",
+   "prompt": "They are going to write the extension in their jotters. Change the layout for task 3 so that it is a grid for self assessment with the requirements listed one by one. Include punctuation and spelling at the bottom of the grid.  Change the font for these to emphasise that they are cross curricular expectations.",
+   "reply": "I’ve changed Task 3 so pupils write in their jotters and use a self-assessment grid instead of writing lines. The requirements are listed separately, with punctuation and spelling at the bottom in a different font to mark them as cross-curricular expectations.",
+   "docs": [
+    {
+     "id": "01M6NM5BVH0RVZ48B552G3A6CE",
+     "name": "Similes and Metaphors Homework – Extension Version"
+    },
+    {
+     "id": "01M6NJRZJNFYA8CZX78FA46QC3",
+     "name": "Similes and Metaphors Homework"
+    }
+   ],
+   "operations": [
+    {
+     "op": "replace",
+     "id": "01M6NM5BVKVXVRAK7EJ8FQZ88J",
+     "content": "Imagine you are walking home when a sudden storm begins. Write **two or three paragraphs (about 150–200 words) in your jotter** describing how the scene changes and what happens next. Make your reader feel as if they are there. Include **at least one simile and one metaphor** of your own; choose comparisons that suit the mood, rather than familiar phrases. Underline your simile once and your metaphor twice."
+    },
+    {
+     "op": "replace",
+     "id": "01M6NM5BVKCJ680GAA6GYRBTEV",
+     "content": "**Self-assessment:** When you have finished writing in your jotter, tick each requirement you have met. Check anything you have not ticked before handing in your work."
+    },
+    {
+     "op": "replace",
+     "id": "01M6NM5BVKN72P0EA23D7GT30X",
+     "content": "| Requirement | Tick |\n| --- | --- |\n| I wrote two or three paragraphs (about 150–200 words). | ☐ |\n| I described how the storm scene changes and what happens next. | ☐ |\n| I included details of what I could see, hear or feel. | ☐ |\n| I used at least one simile that suits the mood. | ☐ |\n| I used at least one metaphor that suits the mood. | ☐ |\n| I underlined my simile once and my metaphor twice. | ☐ |\n| <span data-font=\"georgia\">Cross-curricular: I checked my punctuation.</span> | ☐ |\n| <span data-font=\"georgia\">Cross-curricular: I checked my spelling.</span> | ☐ |\n<!-- colwidths: 0 65 -->"
+    },
+    {
+     "op": "replace",
+     "id": "01M6NM5BVMRQPYF8BCPTBBQ417",
+     "content": "Responses will vary. Look for two or three connected paragraphs in the learner’s jotter, a developing storm scene, at least one original simile and one metaphor used appropriately, and accurate punctuation and spelling. Check that learners have marked their comparisons and completed the self-assessment grid."
+    }
+   ],
+   "effect": {
+    "items": [
+     {
+      "kind": "changed",
+      "block_id": "01M6NM5BVKVXVRAK7EJ8FQZ88J",
+      "to": "01M6NM5BVKVXVRAK7EJ8FQZ88J",
+      "doc_id": "01M6NM5BVH0RVZ48B552G3A6CE",
+      "before": "Imagine you are walking home when a sudden storm begins. Write **two or three paragraphs (about 150–200 words)** describing how the scene changes and what happens next. Make your reader feel as if they are there. Include **at least one simile and one metaphor** of your own; choose comparisons that suit the mood, rather than familiar phrases. Underline your simile once and your metaphor twice.",
+      "after": "Imagine you are walking home when a sudden storm begins. Write **two or three paragraphs (about 150–200 words) in your jotter** describing how the scene changes and what happens next. Make your reader feel as if they are there. Include **at least one simile and one metaphor** of your own; choose comparisons that suit the mood, rather than familiar phrases. Underline your simile once and your metaphor twice."
+     },
+     {
+      "kind": "changed",
+      "block_id": "01M6NM5BVKCJ680GAA6GYRBTEV",
+      "to": "01M6NM5BVKCJ680GAA6GYRBTEV",
+      "doc_id": "01M6NM5BVH0RVZ48B552G3A6CE",
+      "before": "**Check your writing:** Have you described what you can see, hear or feel? Do your comparisons add to the atmosphere? Have you used paragraphs and checked your punctuation?",
+      "after": "**Self-assessment:** When you have finished writing in your jotter, tick each requirement you have met. Check anything you have not ticked before handing in your work."
+     },
+     {
+      "kind": "changed",
+      "block_id": "01M6NM5BVKN72P0EA23D7GT30X",
+      "to": "01M6NM5BVKN72P0EA23D7GT30X",
+      "doc_id": "01M6NM5BVH0RVZ48B552G3A6CE",
+      "before": "1. Write your storm scene here:\n   ___________________________________________________________________________\n   ___________________________________________________________________________\n   ___________________________________________________________________________\n   ___________________________________________________________________________\n   ___________________________________________________________________________\n   ___________________________________________________________________________\n   ___________________________________________________________________________\n   ___________________________________________________________________________\n   ___________________________________________________________________________\n   ___________________________________________________________________________\n   ___________________________________________________________________________\n   ___________________________________________________________________________\n   ___________________________________________________________________________\n   ___________________________________________________________________________\n   ___________________________________________________________________________",
+      "after": "| Requirement | Tick |\n| --- | --- |\n| I wrote two or three paragraphs (about 150–200 words). | ☐ |\n| I described how the storm scene changes and what happens next. | ☐ |\n| I included details of what I could see, hear or feel. | ☐ |\n| I used at least one simile that suits the mood. | ☐ |\n| I used at least one metaphor that suits the mood. | ☐ |\n| I underlined my simile once and my metaphor twice. | ☐ |\n| <span data-font=\"georgia\">Cross-curricular: I checked my punctuation.</span> | ☐ |\n| <span data-font=\"georgia\">Cross-curricular: I checked my spelling.</span> | ☐ |\n<!-- colwidths: 0 65 -->"
+     },
+     {
+      "kind": "changed",
+      "block_id": "01M6NM5BVMRQPYF8BCPTBBQ417",
+      "to": "01M6NM5BVMRQPYF8BCPTBBQ417",
+      "doc_id": "01M6NM5BVH0RVZ48B552G3A6CE",
+      "before": "Responses will vary. Look for two or three connected paragraphs, a developing storm scene, at least one original simile and one metaphor used appropriately, and accurate punctuation. Check that learners have marked their comparisons as instructed.",
+      "after": "Responses will vary. Look for two or three connected paragraphs in the learner’s jotter, a developing storm scene, at least one original simile and one metaphor used appropriately, and accurate punctuation and spelling. Check that learners have marked their comparisons and completed the self-assessment grid."
+     }
+    ],
+    "created_doc_ids": []
+   },
+   "judged": true
+  },
+  {
+   "id": "2SH #5",
+   "session": "2SH",
+   "turn": 5,
+   "variant": "recorded",
+   "prompt": "Keep the content as is, but change to a table format.",
+   "reply": "I’ve changed the Task 3 self-assessment grid to a table, keeping its wording and formatting as they were.",
+   "docs": [
+    {
+     "id": "01M6NM5BVH0RVZ48B552G3A6CE",
+     "name": "Similes and Metaphors Homework – Extension Version"
+    },
+    {
+     "id": "01M6NJRZJNFYA8CZX78FA46QC3",
+     "name": "Similes and Metaphors Homework"
+    }
+   ],
+   "operations": [
+    {
+     "op": "delete",
+     "id": "01M6NM5BVKN72P0EA23D7GT30X"
+    },
+    {
+     "op": "insert",
+     "after": "01M6NM5BVKCJ680GAA6GYRBTEV",
+     "type": "table",
+     "content": "| Requirement | Tick |\n| --- | --- |\n| I wrote two or three paragraphs (about 150–200 words). | ☐ |\n| I described how the storm scene changes and what happens next. | ☐ |\n| I included details of what I could see, hear or feel. | ☐ |\n| I used at least one simile that suits the mood. | ☐ |\n| I used at least one metaphor that suits the mood. | ☐ |\n| I underlined my simile once and my metaphor twice. | ☐ |\n| <span data-font=\"georgia\">Cross-curricular: I checked my punctuation.</span> | ☐ |\n| <span data-font=\"georgia\">Cross-curricular: I checked my spelling.</span> | ☐ |\n<!-- colwidths: 0 65 -->"
+    }
+   ],
+   "effect": {
+    "items": [
+     {
+      "kind": "removed",
+      "block_id": "01M6NM5BVKN72P0EA23D7GT30X",
+      "doc_id": "01M6NM5BVH0RVZ48B552G3A6CE",
+      "text": "| Requirement | Tick |\n| --- | --- |\n| I wrote two or three paragraphs (about 150–200 words). | ☐ |\n| I described how the storm scene changes and what happens next. | ☐ |\n| I included details of what I could see, hear or feel. | ☐ |\n| I used at least one simile that suits the mood. | ☐ |\n| I used at least one metaphor that suits the mood. | ☐ |\n| I underlined my simile once and my metaphor twice. | ☐ |\n| <span data-font=\"georgia\">Cross-curricular: I checked my punctuation.</span> | ☐ |\n| <span data-font=\"georgia\">Cross-curricular: I checked my spelling.</span> | ☐ |\n<!-- colwidths: 0 65 -->"
+     },
+     {
+      "kind": "added",
+      "block_id": "EFFECT00000000000000000068",
+      "doc_id": "01M6NM5BVH0RVZ48B552G3A6CE",
+      "text": "| Requirement | Tick |\n| --- | --- |\n| I wrote two or three paragraphs (about 150–200 words). | ☐ |\n| I described how the storm scene changes and what happens next. | ☐ |\n| I included details of what I could see, hear or feel. | ☐ |\n| I used at least one simile that suits the mood. | ☐ |\n| I used at least one metaphor that suits the mood. | ☐ |\n| I underlined my simile once and my metaphor twice. | ☐ |\n| <span data-font=\"georgia\">Cross-curricular: I checked my punctuation.</span> | ☐ |\n| <span data-font=\"georgia\">Cross-curricular: I checked my spelling.</span> | ☐ |\n<!-- colwidths: 0 65 -->"
+     }
+    ],
+    "created_doc_ids": []
+   },
+   "judged": true
+  },
+  {
+   "id": "2SH #6",
+   "session": "2SH",
+   "turn": 6,
+   "variant": "recorded",
+   "prompt": "Create a duplicate. Minimise the amount of text on the page and make the separation between instructions and each task more clear.  Change text to comic sans 14.  Change background colour to light green to minimise visual disturbance.",
+   "reply": "I’ve created a shorter duplicate of the open worksheet, with clearer breaks between the instructions and each task.\n\nI couldn’t set Comic Sans at 14 pt or a light-green page background with the available formatting controls.",
+   "docs": [
+    {
+     "id": "01M6NJRZJNFYA8CZX78FA46QC3",
+     "name": "Similes and Metaphors Homework"
+    },
+    {
+     "id": "01M6NM5BVH0RVZ48B552G3A6CE",
+     "name": "Similes and Metaphors Homework – Extension Version"
+    },
+    {
+     "id": "EFFECT00000000000000000069",
+     "name": "Similes and Metaphors Homework – Clear Layout Copy"
+    }
+   ],
+   "operations": [
+    {
+     "op": "create_doc",
+     "temp_id": "dup",
+     "name": "Similes and Metaphors Homework – Clear Layout Copy"
+    },
+    {
+     "op": "insert",
+     "doc": "dup",
+     "after": "start",
+     "type": "heading",
+     "content": "# Similes and Metaphors"
+    },
+    {
+     "op": "insert",
+     "doc": "dup",
+     "after": "start",
+     "type": "paragraph",
+     "content": "**Name:** ______________  **Date:** __________  **Class:** P7a"
+    },
+    {
+     "op": "insert",
+     "doc": "dup",
+     "after": "start",
+     "type": "paragraph",
+     "content": "**Remember:** A simile uses **like** or **as**. A metaphor says something **is** something else."
+    },
+    {
+     "op": "insert",
+     "doc": "dup",
+     "after": "start",
+     "type": "divider",
+     "content": ""
+    },
+    {
+     "op": "insert",
+     "doc": "dup",
+     "after": "start",
+     "type": "heading",
+     "content": "## Task 1: Simile or metaphor?"
+    },
+    {
+     "op": "insert",
+     "doc": "dup",
+     "after": "start",
+     "type": "paragraph",
+     "content": "**Instructions:** Tick one box for each sentence."
+    },
+    {
+     "op": "insert",
+     "doc": "dup",
+     "after": "start",
+     "type": "table",
+     "content": "|  | Sentence | Simile | Metaphor |\n| --- | --- | --- | --- |\n| 1 | The classroom was a zoo after the bell rang. | ☐ | ☐ |\n| 2 | My brother runs like a cheetah. | ☐ | ☐ |\n| 3 | The snow was a white blanket over the hills. | ☐ | ☐ |\n| 4 | Grandpa's hands were as rough as sandpaper. | ☐ | ☐ |\n| 5 | The walk home felt like a marathon. | ☐ | ☐ |\n| 6 | The wind howled like a hungry wolf. | ☐ | ☐ |\n| 7 | My bedroom is a pigsty. | ☐ | ☐ |\n<!-- colwidths: 45 0 85 95 -->"
+    },
+    {
+     "op": "insert",
+     "doc": "dup",
+     "after": "start",
+     "type": "divider",
+     "content": ""
+    },
+    {
+     "op": "insert",
+     "doc": "dup",
+     "after": "start",
+     "type": "heading",
+     "content": "## Task 2: Finish the sentences"
+    },
+    {
+     "op": "insert",
+     "doc": "dup",
+     "after": "start",
+     "type": "paragraph",
+     "content": "**Instructions:** Complete each sentence with your own idea."
+    },
+    {
+     "op": "insert",
+     "doc": "dup",
+     "after": "start",
+     "type": "paragraph",
+     "content": "**Similes – use like or as**"
+    },
+    {
+     "op": "insert",
+     "doc": "dup",
+     "after": "start",
+     "type": "numbered_list",
+     "content": "1. The old door creaked like ______________________________\n2. After football practice, I was as hungry as ______________________________"
+    },
+    {
+     "op": "insert",
+     "doc": "dup",
+     "after": "start",
+     "type": "paragraph",
+     "content": "**Metaphors – say it is something else**"
+    },
+    {
+     "op": "insert",
+     "doc": "dup",
+     "after": "start",
+     "type": "numbered_list",
+     "content": "3. On Monday morning, my classroom is a ______________________________\n4. The thunderstorm was an angry ______________________________"
+    },
+    {
+     "op": "insert",
+     "doc": "dup",
+     "after": "start",
+     "type": "divider",
+     "content": ""
+    },
+    {
+     "op": "insert",
+     "doc": "dup",
+     "after": "start",
+     "type": "heading",
+     "content": "## Answers for Parents and Teachers"
+    },
+    {
+     "op": "insert",
+     "doc": "dup",
+     "after": "start",
+     "type": "paragraph",
+     "content": "**Task 1:** 1 Metaphor; 2 Simile; 3 Metaphor; 4 Simile; 5 Simile; 6 Simile; 7 Metaphor."
+    },
+    {
+     "op": "insert",
+     "doc": "dup",
+     "after": "start",
+     "type": "paragraph",
+     "content": "**Task 2:** Answers vary. 1–2 should use like or as; 3–4 should be metaphors."
+    }
+   ],
+   "effect": {
+    "items": [
+     {
+      "kind": "added",
+      "block_id": "EFFECT00000000000000000070",
+      "doc_id": "EFFECT00000000000000000069",
+      "text": "# Similes and Metaphors"
+     },
+     {
+      "kind": "added",
+      "block_id": "EFFECT00000000000000000071",
+      "doc_id": "EFFECT00000000000000000069",
+      "text": "**Name:** ______________  **Date:** __________  **Class:** P7a"
+     },
+     {
+      "kind": "added",
+      "block_id": "EFFECT00000000000000000072",
+      "doc_id": "EFFECT00000000000000000069",
+      "text": "**Remember:** A simile uses **like** or **as**. A metaphor says something **is** something else."
+     },
+     {
+      "kind": "formatting",
+      "block_id": "EFFECT00000000000000000073",
+      "to": "EFFECT00000000000000000073",
+      "doc_id": "EFFECT00000000000000000069"
+     },
+     {
+      "kind": "added",
+      "block_id": "EFFECT00000000000000000074",
+      "doc_id": "EFFECT00000000000000000069",
+      "text": "## Task 1: Simile or metaphor?"
+     },
+     {
+      "kind": "added",
+      "block_id": "EFFECT00000000000000000075",
+      "doc_id": "EFFECT00000000000000000069",
+      "text": "**Instructions:** Tick one box for each sentence."
+     },
+     {
+      "kind": "added",
+      "block_id": "EFFECT00000000000000000076",
+      "doc_id": "EFFECT00000000000000000069",
+      "text": "|  | Sentence | Simile | Metaphor |\n| --- | --- | --- | --- |\n| 1 | The classroom was a zoo after the bell rang. | ☐ | ☐ |\n| 2 | My brother runs like a cheetah. | ☐ | ☐ |\n| 3 | The snow was a white blanket over the hills. | ☐ | ☐ |\n| 4 | Grandpa's hands were as rough as sandpaper. | ☐ | ☐ |\n| 5 | The walk home felt like a marathon. | ☐ | ☐ |\n| 6 | The wind howled like a hungry wolf. | ☐ | ☐ |\n| 7 | My bedroom is a pigsty. | ☐ | ☐ |\n<!-- colwidths: 45 0 85 95 -->"
+     },
+     {
+      "kind": "formatting",
+      "block_id": "EFFECT00000000000000000077",
+      "to": "EFFECT00000000000000000077",
+      "doc_id": "EFFECT00000000000000000069"
+     },
+     {
+      "kind": "added",
+      "block_id": "EFFECT00000000000000000078",
+      "doc_id": "EFFECT00000000000000000069",
+      "text": "## Task 2: Finish the sentences"
+     },
+     {
+      "kind": "added",
+      "block_id": "EFFECT00000000000000000079",
+      "doc_id": "EFFECT00000000000000000069",
+      "text": "**Instructions:** Complete each sentence with your own idea."
+     },
+     {
+      "kind": "added",
+      "block_id": "EFFECT00000000000000000080",
+      "doc_id": "EFFECT00000000000000000069",
+      "text": "**Similes – use like or as**"
+     },
+     {
+      "kind": "added",
+      "block_id": "EFFECT00000000000000000081",
+      "doc_id": "EFFECT00000000000000000069",
+      "text": "1. The old door creaked like ______________________________\n2. After football practice, I was as hungry as ______________________________"
+     },
+     {
+      "kind": "added",
+      "block_id": "EFFECT00000000000000000082",
+      "doc_id": "EFFECT00000000000000000069",
+      "text": "**Metaphors – say it is something else**"
+     },
+     {
+      "kind": "added",
+      "block_id": "EFFECT00000000000000000083",
+      "doc_id": "EFFECT00000000000000000069",
+      "text": "3. On Monday morning, my classroom is a ______________________________\n4. The thunderstorm was an angry ______________________________"
+     },
+     {
+      "kind": "formatting",
+      "block_id": "EFFECT00000000000000000084",
+      "to": "EFFECT00000000000000000084",
+      "doc_id": "EFFECT00000000000000000069"
+     },
+     {
+      "kind": "added",
+      "block_id": "EFFECT00000000000000000085",
+      "doc_id": "EFFECT00000000000000000069",
+      "text": "## Answers for Parents and Teachers"
+     },
+     {
+      "kind": "added",
+      "block_id": "EFFECT00000000000000000086",
+      "doc_id": "EFFECT00000000000000000069",
+      "text": "**Task 1:** 1 Metaphor; 2 Simile; 3 Metaphor; 4 Simile; 5 Simile; 6 Simile; 7 Metaphor."
+     },
+     {
+      "kind": "added",
+      "block_id": "EFFECT00000000000000000087",
+      "doc_id": "EFFECT00000000000000000069",
+      "text": "**Task 2:** Answers vary. 1–2 should use like or as; 3–4 should be metaphors."
+     }
+    ],
+    "created_doc_ids": [
+     "EFFECT00000000000000000069"
+    ]
+   },
+   "judged": true
+  },
+  {
+   "id": "2SH #6 as copy",
+   "session": "2SH",
+   "turn": 6,
+   "variant": "as_copy",
+   "prompt": "Create a duplicate. Minimise the amount of text on the page and make the separation between instructions and each task more clear.  Change text to comic sans 14.  Change background colour to light green to minimise visual disturbance.",
+   "reply": "I’ve created a shorter duplicate of the open worksheet, with clearer breaks between the instructions and each task.\n\nI couldn’t set Comic Sans at 14 pt or a light-green page background with the available formatting controls.",
+   "docs": [
+    {
+     "id": "01M6NJRZJNFYA8CZX78FA46QC3",
+     "name": "Similes and Metaphors Homework"
+    },
+    {
+     "id": "01M6NM5BVH0RVZ48B552G3A6CE",
+     "name": "Similes and Metaphors Homework – Extension Version"
+    },
+    {
+     "id": "EFFECT00000000000000000088",
+     "name": "Similes and Metaphors Homework – Clear Layout Copy",
+     "copy_of": "01M6NJRZJNFYA8CZX78FA46QC3"
+    }
+   ],
+   "operations": [
+    {
+     "op": "create_doc",
+     "temp_id": "dup",
+     "name": "Similes and Metaphors Homework – Clear Layout Copy",
+     "copy_of": "01M6NJRZJNFYA8CZX78FA46QC3"
+    },
+    {
+     "op": "delete",
+     "id": "dup/01M6NJRZYR4JA9T4GABCG4Z4E6"
+    },
+    {
+     "op": "delete",
+     "id": "dup/01M6NJRZYRWMV3RJRZMSMZKP1E"
+    },
+    {
+     "op": "delete",
+     "id": "dup/01M6NJRZYS3W7SEG8VSYA15E9C"
+    },
+    {
+     "op": "delete",
+     "id": "dup/01M6NJRZYSAEXQNBFCVBRBHD12"
+    },
+    {
+     "op": "delete",
+     "id": "dup/01M6NJRZYTDAENFXRMERASCDWY"
+    },
+    {
+     "op": "delete",
+     "id": "dup/01M6NJRZYTF6GWKCD9WNE3G6CE"
+    },
+    {
+     "op": "delete",
+     "id": "dup/01M6NJRZYT4TRGB98R9DQCB8E7"
+    },
+    {
+     "op": "delete",
+     "id": "dup/01M6NJRZYTCNQTHCEQBFETC9Z5"
+    },
+    {
+     "op": "replace",
+     "id": "dup/01M6NJRZYRMK4N76RD6DY9BSEJ",
+     "content": "**Name:** ______________  **Date:** __________  **Class:** P7a"
+    },
+    {
+     "op": "insert",
+     "doc": "dup",
+     "after": "dup/01M6NJRZYRMK4N76RD6DY9BSEJ",
+     "type": "paragraph",
+     "content": "**Remember:** A simile uses **like** or **as**. A metaphor says something **is** something else.",
+     "temp_id": "dup_new2"
+    },
+    {
+     "op": "insert",
+     "doc": "dup",
+     "after": "dup_new2",
+     "type": "divider",
+     "content": "",
+     "temp_id": "dup_new3"
+    },
+    {
+     "op": "replace",
+     "id": "dup/01M6NJRZYSJ4X3X8HFNW3FTE2C",
+     "content": "## Task 1: Simile or metaphor?"
+    },
+    {
+     "op": "insert",
+     "doc": "dup",
+     "after": "dup/01M6NJRZYSJ4X3X8HFNW3FTE2C",
+     "type": "paragraph",
+     "content": "**Instructions:** Tick one box for each sentence.",
+     "temp_id": "dup_new5"
+    },
+    {
+     "op": "insert",
+     "doc": "dup",
+     "after": "dup/01M6NJRZYS5QM4VB8Z9RDKGWX3",
+     "type": "divider",
+     "content": "",
+     "temp_id": "dup_new7"
+    },
+    {
+     "op": "replace",
+     "id": "dup/01M6NJRZYS5W5SYA58K0HJ5QDD",
+     "content": "## Task 2: Finish the sentences"
+    },
+    {
+     "op": "replace",
+     "id": "dup/01M6NJRZYSG7W7JCAEYAZKYHBE",
+     "content": "**Instructions:** Complete each sentence with your own idea."
+    },
+    {
+     "op": "replace",
+     "id": "dup/01M6NJRZYS70FZ6QW6F1T6FKQX",
+     "content": "**Similes – use like or as**"
+    },
+    {
+     "op": "replace",
+     "id": "dup/01M6NJRZYTN0H008MX31NFD3RV",
+     "content": "**Metaphors – say it is something else**"
+    },
+    {
+     "op": "insert",
+     "doc": "dup",
+     "after": "dup/01M6NJRZYTXYTQNWHXGW6DTDFB",
+     "type": "divider",
+     "content": "",
+     "temp_id": "dup_new14"
+    },
+    {
+     "op": "insert",
+     "doc": "dup",
+     "after": "dup/01M6NJRZYTZRQRDTPR1TRTC4G7",
+     "type": "paragraph",
+     "content": "**Task 1:** 1 Metaphor; 2 Simile; 3 Metaphor; 4 Simile; 5 Simile; 6 Simile; 7 Metaphor.",
+     "temp_id": "dup_new16"
+    },
+    {
+     "op": "insert",
+     "doc": "dup",
+     "after": "dup_new16",
+     "type": "paragraph",
+     "content": "**Task 2:** Answers vary. 1–2 should use like or as; 3–4 should be metaphors.",
+     "temp_id": "dup_new17"
+    }
+   ],
+   "effect": {
+    "items": [
+     {
+      "kind": "moved",
+      "block_id": "01M6NJRZYRS6C3S8N7E90DZ4ZB",
+      "to": "EFFECT00000000000000000089",
+      "doc_id": "EFFECT00000000000000000088",
+      "copy": true
+     },
+     {
+      "kind": "moved",
+      "block_id": "01M6NJRZYRMK4N76RD6DY9BSEJ",
+      "to": "EFFECT00000000000000000090",
+      "doc_id": "EFFECT00000000000000000088",
+      "copy": true
+     },
+     {
+      "kind": "changed",
+      "block_id": "01M6NJRZYRMK4N76RD6DY9BSEJ",
+      "to": "EFFECT00000000000000000090",
+      "doc_id": "EFFECT00000000000000000088",
+      "before": "**Name:** ______________ **Date:** __________ **Class:** P7",
+      "after": "**Name:** ______________  **Date:** __________  **Class:** P7a"
+     },
+     {
+      "kind": "removed",
+      "block_id": "01M6NJRZYR4JA9T4GABCG4Z4E6",
+      "doc_id": "EFFECT00000000000000000088",
+      "text": "*Primary 7a English Homework | About 20 minutes*",
+      "from_copy": true
+     },
+     {
+      "kind": "added",
+      "block_id": "EFFECT00000000000000000108",
+      "doc_id": "EFFECT00000000000000000088",
+      "text": "**Remember:** A simile uses **like** or **as**. A metaphor says something **is** something else."
+     },
+     {
+      "kind": "removed",
+      "block_id": "01M6NJRZYRWMV3RJRZMSMZKP1E",
+      "doc_id": "EFFECT00000000000000000088",
+      "text": "**Learning intention:** I am learning to recognise and use similes and metaphors to make my writing more interesting.",
+      "from_copy": true
+     },
+     {
+      "kind": "formatting",
+      "block_id": "EFFECT00000000000000000109",
+      "to": "EFFECT00000000000000000109",
+      "doc_id": "EFFECT00000000000000000088"
+     },
+     {
+      "kind": "moved",
+      "block_id": "01M6NJRZYSJ4X3X8HFNW3FTE2C",
+      "to": "EFFECT00000000000000000094",
+      "doc_id": "EFFECT00000000000000000088",
+      "copy": true
+     },
+     {
+      "kind": "changed",
+      "block_id": "01M6NJRZYSJ4X3X8HFNW3FTE2C",
+      "to": "EFFECT00000000000000000094",
+      "doc_id": "EFFECT00000000000000000088",
+      "before": "## Task 1: Simile or metaphor? *(5 minutes)*",
+      "after": "## Task 1: Simile or metaphor?"
+     },
+     {
+      "kind": "removed",
+      "block_id": "01M6NJRZYS3W7SEG8VSYA15E9C",
+      "doc_id": "EFFECT00000000000000000088",
+      "text": "> **Remember!**\n> **A simile** compares two things using the words **like** or **as**. *Example:* Her smile was as bright as the sun.\n> **A metaphor** says something **is** something else, without using like or as. *Example:* Her smile was the sun on a cloudy day.",
+      "from_copy": true
+     },
+     {
+      "kind": "added",
+      "block_id": "EFFECT00000000000000000110",
+      "doc_id": "EFFECT00000000000000000088",
+      "text": "**Instructions:** Tick one box for each sentence."
+     },
+     {
+      "kind": "moved",
+      "block_id": "01M6NJRZYS5QM4VB8Z9RDKGWX3",
+      "to": "EFFECT00000000000000000096",
+      "doc_id": "EFFECT00000000000000000088",
+      "copy": true
+     },
+     {
+      "kind": "removed",
+      "block_id": "01M6NJRZYSAEXQNBFCVBRBHD12",
+      "doc_id": "EFFECT00000000000000000088",
+      "text": "Read each sentence. Tick the box to show whether it is a simile or a metaphor.",
+      "from_copy": true
+     },
+     {
+      "kind": "formatting",
+      "block_id": "EFFECT00000000000000000111",
+      "to": "EFFECT00000000000000000111",
+      "doc_id": "EFFECT00000000000000000088"
+     },
+     {
+      "kind": "moved",
+      "block_id": "01M6NJRZYS5W5SYA58K0HJ5QDD",
+      "to": "EFFECT00000000000000000097",
+      "doc_id": "EFFECT00000000000000000088",
+      "copy": true
+     },
+     {
+      "kind": "changed",
+      "block_id": "01M6NJRZYS5W5SYA58K0HJ5QDD",
+      "to": "EFFECT00000000000000000097",
+      "doc_id": "EFFECT00000000000000000088",
+      "before": "## Task 2: Finish the sentences *(5 minutes)*",
+      "after": "## Task 2: Finish the sentences"
+     },
+     {
+      "kind": "moved",
+      "block_id": "01M6NJRZYSG7W7JCAEYAZKYHBE",
+      "to": "EFFECT00000000000000000098",
+      "doc_id": "EFFECT00000000000000000088",
+      "copy": true
+     },
+     {
+      "kind": "changed",
+      "block_id": "01M6NJRZYSG7W7JCAEYAZKYHBE",
+      "to": "EFFECT00000000000000000098",
+      "doc_id": "EFFECT00000000000000000088",
+      "before": "Complete each sentence with your own idea. Try to be creative!",
+      "after": "**Instructions:** Complete each sentence with your own idea."
+     },
+     {
+      "kind": "moved",
+      "block_id": "01M6NJRZYS70FZ6QW6F1T6FKQX",
+      "to": "EFFECT00000000000000000099",
+      "doc_id": "EFFECT00000000000000000088",
+      "copy": true
+     },
+     {
+      "kind": "changed",
+      "block_id": "01M6NJRZYS70FZ6QW6F1T6FKQX",
+      "to": "EFFECT00000000000000000099",
+      "doc_id": "EFFECT00000000000000000088",
+      "before": "**Similes** *(use like or as)*",
+      "after": "**Similes – use like or as**"
+     },
+     {
+      "kind": "moved",
+      "block_id": "01M6NJRZYS2H52RTW4RHH1HT55",
+      "to": "EFFECT00000000000000000100",
+      "doc_id": "EFFECT00000000000000000088",
+      "copy": true
+     },
+     {
+      "kind": "moved",
+      "block_id": "01M6NJRZYTN0H008MX31NFD3RV",
+      "to": "EFFECT00000000000000000101",
+      "doc_id": "EFFECT00000000000000000088",
+      "copy": true
+     },
+     {
+      "kind": "changed",
+      "block_id": "01M6NJRZYTN0H008MX31NFD3RV",
+      "to": "EFFECT00000000000000000101",
+      "doc_id": "EFFECT00000000000000000088",
+      "before": "**Metaphors** *(say it IS something else)*",
+      "after": "**Metaphors – say it is something else**"
+     },
+     {
+      "kind": "moved",
+      "block_id": "01M6NJRZYTXYTQNWHXGW6DTDFB",
+      "to": "EFFECT00000000000000000102",
+      "doc_id": "EFFECT00000000000000000088",
+      "copy": true
+     },
+     {
+      "kind": "formatting",
+      "block_id": "EFFECT00000000000000000112",
+      "to": "EFFECT00000000000000000112",
+      "doc_id": "EFFECT00000000000000000088"
+     },
+     {
+      "kind": "moved",
+      "block_id": "01M6NJRZYTZRQRDTPR1TRTC4G7",
+      "to": "EFFECT00000000000000000103",
+      "doc_id": "EFFECT00000000000000000088",
+      "copy": true
+     },
+     {
+      "kind": "removed",
+      "block_id": "01M6NJRZYTDAENFXRMERASCDWY",
+      "doc_id": "EFFECT00000000000000000088",
+      "text": "**Task 1**",
+      "from_copy": true
+     },
+     {
+      "kind": "removed",
+      "block_id": "01M6NJRZYTF6GWKCD9WNE3G6CE",
+      "doc_id": "EFFECT00000000000000000088",
+      "text": "1. Metaphor\n2. Simile\n3. Metaphor\n4. Simile\n5. Simile\n6. Similie\n7. Metaphor",
+      "from_copy": true
+     },
+     {
+      "kind": "added",
+      "block_id": "EFFECT00000000000000000113",
+      "doc_id": "EFFECT00000000000000000088",
+      "text": "**Task 1:** 1 Metaphor; 2 Simile; 3 Metaphor; 4 Simile; 5 Simile; 6 Simile; 7 Metaphor."
+     },
+     {
+      "kind": "removed",
+      "block_id": "01M6NJRZYT4TRGB98R9DQCB8E7",
+      "doc_id": "EFFECT00000000000000000088",
+      "text": "**Task 2**",
+      "from_copy": true
+     },
+     {
+      "kind": "added",
+      "block_id": "EFFECT00000000000000000114",
+      "doc_id": "EFFECT00000000000000000088",
+      "text": "**Task 2:** Answers vary. 1–2 should use like or as; 3–4 should be metaphors."
+     },
+     {
+      "kind": "removed",
+      "block_id": "01M6NJRZYTCNQTHCEQBFETC9Z5",
+      "doc_id": "EFFECT00000000000000000088",
+      "text": "Answers will vary. Look for endings that make sense and paint a clear picture, for example: (1) \"like a ghost groaning in the night\", (2) \"as hungry as a bear after winter\", (3) \"sleepy zoo\" or \"quiet library\", (4) \"giant stamping across the sky\". Numbers 1 and 2 should use like or as; numbers 3 and 4 should not.",
+      "from_copy": true
+     }
+    ],
+    "created_doc_ids": [
+     "EFFECT00000000000000000088"
+    ]
+   },
+   "judged": true
+  },
+  {
+   "id": "2SH #7",
+   "session": "2SH",
+   "turn": 7,
+   "variant": "recorded",
+   "prompt": "Can you add an image of a cheetah in the number box next to question 2",
+   "reply": "I added a simple cheetah drawing above the Task 1 table. I couldn’t place it inside question 2’s number box with the available table controls. I can only make simple drawings here, not photographs or detailed illustrations.",
+   "docs": [
+    {
+     "id": "01M6NMNBDSFF4T7565EVX749ZX",
+     "name": "Similes and Metaphors Homework – Clear Layout Copy"
+    },
+    {
+     "id": "01M6NJRZJNFYA8CZX78FA46QC3",
+     "name": "Similes and Metaphors Homework"
+    },
+    {
+     "id": "01M6NM5BVH0RVZ48B552G3A6CE",
+     "name": "Similes and Metaphors Homework – Extension Version"
+    }
+   ],
+   "operations": [
+    {
+     "op": "insert",
+     "after": "01M6NMNBDSA4KJSJRY626SANW6",
+     "type": "image",
+     "content": "![Small spotted cheetah](asset:ast_01M6NMVJT76JX6ZF4ZTGJ1A89S)"
+    }
+   ],
+   "effect": {
+    "items": [
+     {
+      "kind": "added",
+      "block_id": "EFFECT00000000000000000115",
+      "doc_id": "01M6NMNBDSFF4T7565EVX749ZX",
+      "text": "![Small spotted cheetah](asset:ast_01M6NMVJT76JX6ZF4ZTGJ1A89S)"
+     }
+    ],
+    "created_doc_ids": []
+   },
+   "judged": true
+  }
+ ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "trails",
+  "name": "TRAILS: Teaching Responsible AI Literacy in Schools",
+  "publisher": "Data Education in Schools, University of Edinburgh",
+  "description": "Lessons, activities and guidance for teaching AI literacy in Scottish schools, from trails.scot, with curriculum area, level and topics, and the text of their slides, worksheets and guides (Word, PowerPoint, PDF, and those in zips) under files/.",
+  "licence": "All rights reserved",
+  "licence_url": null,
+  "licence_note": "The site footer reads \"© Data Education in Schools All Rights Reserved.\" Used in this library with the publisher's agreement (Sam Green, whose team publishes it, 8 Nov 2026). Ask before reusing it elsewhere.",
+  "homepage": "https://trails.scot/",
+  "sources": [
+    {
+      "url": "https://trails.scot/wp-json/wp/v2/resource",
+      "description": "The WordPress REST API: every resource, with its taxonomies."
+    }
+  ]
+}

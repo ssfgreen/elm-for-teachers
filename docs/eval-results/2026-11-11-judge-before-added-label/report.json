@@ -1,0 +1,136 @@
+{
+  "models": {
+    "gpt-6-luna": {
+      "runs": 21,
+      "valid": 0.9523809523809523,
+      "median_ms": 2146,
+      "p95_ms": 5872,
+      "input": 1182.3333333333333,
+      "output": 127.52380952380952,
+      "flags": 1.65,
+      "any": 0.6
+    },
+    "mistralai/Mistral-Small-4-119B-2603": {
+      "runs": 21,
+      "valid": 0.9523809523809523,
+      "median_ms": 910,
+      "p95_ms": 2278,
+      "input": 1286.6190476190477,
+      "output": 86.33333333333333,
+      "flags": 1.35,
+      "any": 0.85
+    }
+  },
+  "self": {
+    "gpt-6-luna": null,
+    "mistralai/Mistral-Small-4-119B-2603": null
+  },
+  "pairs": [
+    {
+      "a": "gpt-6-luna",
+      "b": "mistralai/Mistral-Small-4-119B-2603",
+      "agreement": {
+        "labelled": 0.2710795014100717,
+        "blocks": 0.6034986504723346,
+        "any": 0.7894736842105263
+      }
+    }
+  ],
+  "disagreements": [
+    {
+      "case": "1KC #9",
+      "pair": "gpt-6-luna / mistralai/Mistral-Small-4-119B-2603",
+      "labelled": 0
+    },
+    {
+      "case": "1KC #11",
+      "pair": "gpt-6-luna / mistralai/Mistral-Small-4-119B-2603",
+      "labelled": 0
+    },
+    {
+      "case": "1KC #12",
+      "pair": "gpt-6-luna / mistralai/Mistral-Small-4-119B-2603",
+      "labelled": 0
+    },
+    {
+      "case": "2SH #1",
+      "pair": "gpt-6-luna / mistralai/Mistral-Small-4-119B-2603",
+      "labelled": 0
+    },
+    {
+      "case": "2SH #2",
+      "pair": "gpt-6-luna / mistralai/Mistral-Small-4-119B-2603",
+      "labelled": 0
+    },
+    {
+      "case": "2SH #3",
+      "pair": "gpt-6-luna / mistralai/Mistral-Small-4-119B-2603",
+      "labelled": 0
+    },
+    {
+      "case": "3PD #0",
+      "pair": "gpt-6-luna / mistralai/Mistral-Small-4-119B-2603",
+      "labelled": 0
+    },
+    {
+      "case": "3PD #3",
+      "pair": "gpt-6-luna / mistralai/Mistral-Small-4-119B-2603",
+      "labelled": 0
+    },
+    {
+      "case": "3PD #2",
+      "pair": "gpt-6-luna / mistralai/Mistral-Small-4-119B-2603",
+      "labelled": 0.06451612903225806
+    },
+    {
+      "case": "2SH #6",
+      "pair": "gpt-6-luna / mistralai/Mistral-Small-4-119B-2603",
+      "labelled": 0.1
+    },
+    {
+      "case": "2SH #6 as copy",
+      "pair": "gpt-6-luna / mistralai/Mistral-Small-4-119B-2603",
+      "labelled": 0.14285714285714285
+    },
+    {
+      "case": "3PD #4 as copy",
+      "pair": "gpt-6-luna / mistralai/Mistral-Small-4-119B-2603",
+      "labelled": 0.16666666666666666
+    },
+    {
+      "case": "1KC #4",
+      "pair": "gpt-6-luna / mistralai/Mistral-Small-4-119B-2603",
+      "labelled": 0.17647058823529413
+    },
+    {
+      "case": "2SH #2 as copy",
+      "pair": "gpt-6-luna / mistralai/Mistral-Small-4-119B-2603",
+      "labelled": 0.25
+    },
+    {
+      "case": "2SH #4",
+      "pair": "gpt-6-luna / mistralai/Mistral-Small-4-119B-2603",
+      "labelled": 0.25
+    },
+    {
+      "case": "1KC #1",
+      "pair": "gpt-6-luna / mistralai/Mistral-Small-4-119B-2603",
+      "labelled": 1
+    },
+    {
+      "case": "2SH #5",
+      "pair": "gpt-6-luna / mistralai/Mistral-Small-4-119B-2603",
+      "labelled": 1
+    },
+    {
+      "case": "2SH #7",
+      "pair": "gpt-6-luna / mistralai/Mistral-Small-4-119B-2603",
+      "labelled": 1
+    },
+    {
+      "case": "3PD #1",
+      "pair": "gpt-6-luna / mistralai/Mistral-Small-4-119B-2603",
+      "labelled": 1
+    }
+  ]
+}

@@ -1,0 +1,3287 @@
+# Access layer (tag ACC): format rules, adaptations by barrier, Scottish ASL context.
+# All passages are paraphrases unless excerpt_type is quote (max one quote per source, max 15 words).
+
+sources:
+
+  - id: src-ACC-bda-style-guide-2023
+    title: "Dyslexia Style Guide 2023"
+    publisher: British Dyslexia Association
+    authors: [British Dyslexia Association]
+    year: 2023
+    url: https://www.bdadyslexia.org.uk/advice/employers/creating-a-dyslexia-friendly-workplace/dyslexia-friendly-style-guide
+    source_type: guidance
+    jurisdiction: [international]
+    evidence_weight: practitioner_wisdom
+    licence: "UNCONFIRMED: no licence statement seen on page"
+    reuse_rule: short_quote_only
+    version: "2023"
+    retrieved_at: 2026-11-12
+
+  - id: src-ACC-dysscot-typed-content-2025
+    title: "Dyslexia-friendly typed content (General information)"
+    publisher: Dyslexia Scotland
+    authors: [Dyslexia Scotland]
+    year: 2025
+    url: https://dyslexiascotland.org.uk/wp-content/uploads/2025/10/formats.pdf
+    source_type: practitioner_resource
+    jurisdiction: [scotland]
+    evidence_weight: practitioner_wisdom
+    licence: "Copyright Dyslexia Scotland (Charity SC000951)"
+    reuse_rule: short_quote_only
+    version: "Version 1, September 2025"
+    retrieved_at: 2026-11-12
+
+  - id: src-ACC-wcag-22
+    title: "Web Content Accessibility Guidelines (WCAG) 2.2"
+    publisher: World Wide Web Consortium (W3C)
+    authors: [W3C Accessibility Guidelines Working Group]
+    year: 2024
+    url: https://www.w3.org/TR/WCAG22/
+    source_type: guidance
+    jurisdiction: [international]
+    evidence_weight: high
+    licence: "W3C Document License"
+    reuse_rule: short_quote_only
+    version: "W3C Recommendation, 12 December 2024 (REC-WCAG22-20241212)"
+    retrieved_at: 2026-11-12
+
+  - id: src-ACC-eef-send-2020
+    title: "Special Educational Needs in Mainstream Schools: Guidance Report"
+    publisher: Education Endowment Foundation
+    authors: [Education Endowment Foundation]
+    year: 2020
+    url: https://educationendowmentfoundation.org.uk/education-evidence/guidance-reports/send
+    source_type: guidance
+    jurisdiction: [england]
+    evidence_weight: high
+    licence: "UNCONFIRMED: all rights reserved assumed"
+    reuse_rule: short_quote_only
+    version: "First edition (year not printed in fetched text; 2020 inferred from references and EEF listing)"
+    retrieved_at: 2026-11-12
+
+  - id: src-ACC-zorzi-2012
+    title: "Extra-large letter spacing improves reading in dyslexia"
+    publisher: Proceedings of the National Academy of Sciences of the USA
+    authors: [Zorzi M, Barbiero C, Facoetti A, Lonciari I, Carrozzi M, Montico M, Bravar L, George F, Pech-Georgel C, Ziegler JC]
+    year: 2012
+    url: https://doi.org/10.1073/pnas.1205566109
+    source_type: trial
+    jurisdiction: [international]
+    evidence_weight: moderate
+    licence: "UNCONFIRMED: free full text via PMC; licence not stated in fetched record"
+    reuse_rule: short_quote_only
+    version: "PNAS 109(28), 11455-11459"
+    retrieved_at: 2026-11-12
+
+  - id: src-ACC-wery-diliberto-2017
+    title: "The effect of a specialized dyslexia font, OpenDyslexic, on reading rate and accuracy"
+    publisher: Annals of Dyslexia (Springer)
+    authors: [Wery JJ, Diliberto JA]
+    year: 2017
+    url: https://link.springer.com/article/10.1007/s11881-016-0127-1
+    source_type: trial
+    jurisdiction: [us]
+    evidence_weight: low
+    licence: "CC BY 4.0"
+    reuse_rule: short_quote_only
+    version: "Annals of Dyslexia 67, 114-127"
+    retrieved_at: 2026-11-12
+
+  - id: src-ACC-kuster-2018
+    title: "Dyslexie font does not benefit reading in children with or without dyslexia"
+    publisher: Annals of Dyslexia (Springer)
+    authors: [Kuster SM, van Weerdenburg M, Gompel M, Bosman AMT]
+    year: 2018
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC5934461/
+    source_type: trial
+    jurisdiction: [international]
+    evidence_weight: moderate
+    licence: "CC BY 4.0"
+    reuse_rule: short_quote_only
+    version: "Annals of Dyslexia 68(1), 25-42 (online December 2017)"
+    retrieved_at: 2026-11-12
+
+  - id: src-ACC-adt-inclusive-education
+    title: "Addressing Dyslexia Toolkit: Inclusive Education"
+    publisher: Dyslexia Scotland (Addressing Dyslexia Toolkit Working Group, Scottish Government funded)
+    authors: [Addressing Dyslexia Toolkit Working Group]
+    year: 2025
+    url: https://addressingdyslexia.org/scottish-context/inclusive-education
+    source_type: practitioner_resource
+    jurisdiction: [scotland]
+    evidence_weight: practitioner_wisdom
+    licence: "UNCONFIRMED"
+    reuse_rule: short_quote_only
+    version: "UNCONFIRMED: live web page, retrieved 2026-11-12"
+    retrieved_at: 2026-11-12
+
+  - id: src-ACC-adt-definition-2025
+    title: "Addressing Dyslexia Toolkit: What is Dyslexia (2025 refreshed Scottish working definition)"
+    publisher: Dyslexia Scotland (Addressing Dyslexia Toolkit Working Group, Scottish Government funded)
+    authors: [Addressing Dyslexia Toolkit Working Group]
+    year: 2025
+    url: https://addressingdyslexia.org/what-is-dyslexia
+    source_type: practitioner_resource
+    jurisdiction: [scotland]
+    evidence_weight: moderate
+    licence: "UNCONFIRMED"
+    reuse_rule: short_quote_only
+    version: "2025 refreshed definition"
+    retrieved_at: 2026-11-12
+
+  - id: src-ACC-sg-asl-code-2017
+    title: "Supporting Children's Learning: Statutory Guidance on the Education (Additional Support for Learning) (Scotland) Act 2004 as amended. Code of Practice (Third Edition)"
+    publisher: Scottish Government
+    authors: [Scottish Government]
+    year: 2017
+    url: https://www.gov.scot/publications/supporting-childrens-learning-statutory-guidance-education-additional-support-learning-scotland/
+    source_type: policy
+    jurisdiction: [scotland]
+    evidence_weight: high
+    licence: "Open Government Licence v3.0"
+    reuse_rule: full_text_ok
+    version: "Third edition, December 2017. NOTE: gov.scot lists a fourth edition (2026) which could not be opened; check before publishing."
+    retrieved_at: 2026-11-12
+
+  - id: src-ACC-morgan-review-2020-summary
+    title: "Review of additional support for learning implementation: executive summary"
+    publisher: Scottish Government
+    authors: [Angela Morgan (Independent Chair)]
+    year: 2020
+    url: https://www.gov.scot/publications/review-additional-support-learning-implementation-executive-summary/pages/3/
+    source_type: review
+    jurisdiction: [scotland]
+    evidence_weight: high
+    licence: "Open Government Licence v3.0"
+    reuse_rule: full_text_ok
+    version: "Published 19 June 2020, ISBN 9781839608254"
+    retrieved_at: 2026-11-12
+
+  - id: src-ACC-morgan-review-2020-report
+    title: "Review of additional support for learning implementation: report (Support for Learning: All our Children and All their Potential)"
+    publisher: Scottish Government
+    authors: [Angela Morgan (Independent Chair)]
+    year: 2020
+    url: https://www.gov.scot/publications/review-additional-support-learning-implementation/
+    source_type: review
+    jurisdiction: [scotland]
+    evidence_weight: high
+    licence: "Open Government Licence v3.0"
+    reuse_rule: full_text_ok
+    version: "Published 19 June 2020, ISBN 9781839608247"
+    retrieved_at: 2026-11-12
+
+  - id: src-ACC-sg-girfec
+    title: "Getting it right for every child (GIRFEC)"
+    publisher: Scottish Government
+    authors: [Scottish Government]
+    year: 2022
+    url: https://www.gov.scot/policies/girfec/
+    source_type: policy
+    jurisdiction: [scotland]
+    evidence_weight: high
+    licence: "Open Government Licence v3.0"
+    reuse_rule: full_text_ok
+    version: "Policy page; refreshed GIRFEC materials published 2022"
+    retrieved_at: 2026-11-12
+
+  - id: src-ACC-edscot-iep-guidance
+    title: "Guidance for Individual Educational Programmes: Preparing an Individualised Educational Programme"
+    publisher: Education Scotland
+    authors: [Education Scotland]
+    year: 2024
+    url: https://education.gov.scot/resources/additional-support-for-learning/guidance-for-individual-educational-programmes/preparing-an-individualised-educational-programme/
+    source_type: guidance
+    jurisdiction: [scotland]
+    evidence_weight: high
+    licence: "UNCONFIRMED: likely Open Government Licence"
+    reuse_rule: short_quote_only
+    version: "UNCONFIRMED: no date shown on page; year field is a placeholder"
+    retrieved_at: 2026-11-12
+
+  - id: src-ACC-at-visual-supports
+    title: "Autism Toolbox: Visual Supports"
+    publisher: Autism Toolbox (Education Scotland managed, Scottish Government funded)
+    authors: [Autism Toolbox Working Group]
+    year: 2024
+    url: https://www.autismtoolbox.co.uk/supporting-learners-and-families/effective-partnerships-and-communication/visual-supports/
+    source_type: practitioner_resource
+    jurisdiction: [scotland]
+    evidence_weight: practitioner_wisdom
+    licence: "UNCONFIRMED"
+    reuse_rule: short_quote_only
+    version: "UNCONFIRMED: live web page, year is a placeholder"
+    retrieved_at: 2026-11-12
+
+  - id: src-ACC-at-communication
+    title: "Autism Toolbox: Communication"
+    publisher: Autism Toolbox (Education Scotland managed, Scottish Government funded)
+    authors: [Autism Toolbox Working Group]
+    year: 2024
+    url: https://www.autismtoolbox.co.uk/understanding-autism/communication/
+    source_type: practitioner_resource
+    jurisdiction: [scotland]
+    evidence_weight: practitioner_wisdom
+    licence: "UNCONFIRMED"
+    reuse_rule: short_quote_only
+    version: "UNCONFIRMED: live web page, year is a placeholder"
+    retrieved_at: 2026-11-12
+
+  - id: src-ACC-at-sensory
+    title: "Autism Toolbox: Sensory Differences"
+    publisher: Autism Toolbox (Education Scotland managed, Scottish Government funded)
+    authors: [Autism Toolbox Working Group]
+    year: 2024
+    url: https://www.autismtoolbox.co.uk/understanding-autism/sensory-differences/
+    source_type: practitioner_resource
+    jurisdiction: [scotland]
+    evidence_weight: practitioner_wisdom
+    licence: "UNCONFIRMED"
+    reuse_rule: short_quote_only
+    version: "UNCONFIRMED: live web page, year is a placeholder"
+    retrieved_at: 2026-11-12
+
+  - id: src-ACC-at-inclusive-classrooms
+    title: "Autism Toolbox: Inclusive Classrooms"
+    publisher: Autism Toolbox (Education Scotland managed, Scottish Government funded)
+    authors: [Autism Toolbox Working Group]
+    year: 2024
+    url: https://www.autismtoolbox.co.uk/scottish-context/inclusive-education/inclusive-classrooms/
+    source_type: practitioner_resource
+    jurisdiction: [scotland]
+    evidence_weight: practitioner_wisdom
+    licence: "UNCONFIRMED"
+    reuse_rule: short_quote_only
+    version: "UNCONFIRMED: live web page, year is a placeholder"
+    retrieved_at: 2026-11-12
+
+  - id: src-ACC-at-universal
+    title: "Autism Toolbox: Staged Levels of Intervention, Universal"
+    publisher: Autism Toolbox (Education Scotland managed, Scottish Government funded)
+    authors: [Autism Toolbox Working Group]
+    year: 2024
+    url: https://www.autismtoolbox.co.uk/supporting-learners-and-families/educational-support/universal/
+    source_type: practitioner_resource
+    jurisdiction: [scotland]
+    evidence_weight: practitioner_wisdom
+    licence: "UNCONFIRMED"
+    reuse_rule: short_quote_only
+    version: "UNCONFIRMED: live web page, year is a placeholder"
+    retrieved_at: 2026-11-12
+
+  - id: src-ACC-nas-communication-2022
+    title: "Tips for effective communication with autistic pupils"
+    publisher: National Autistic Society
+    authors: [Joe Butler]
+    year: 2022
+    url: https://www.autism.org.uk/advice-and-guidance/professional-practice/communication-pupils
+    source_type: practitioner_resource
+    jurisdiction: [england]
+    evidence_weight: practitioner_wisdom
+    licence: "UNCONFIRMED: all rights reserved assumed"
+    reuse_rule: short_quote_only
+    version: "Published 8 April 2022"
+    retrieved_at: 2026-11-12
+
+  - id: src-ACC-callscotland-home
+    title: "CALL Scotland (home page and resource links)"
+    publisher: CALL Scotland, University of Edinburgh
+    authors: [CALL Scotland]
+    year: 2026
+    url: https://www.callscotland.org.uk/
+    source_type: practitioner_resource
+    jurisdiction: [scotland]
+    evidence_weight: practitioner_wisdom
+    licence: "UNCONFIRMED"
+    reuse_rule: short_quote_only
+    version: "Live web page, retrieved 2026-11-12"
+    retrieved_at: 2026-11-12
+
+  - id: src-ACC-scottish-voice
+    title: "The Scottish Voice"
+    publisher: CALL Scotland (Scottish Government funded)
+    authors: [CALL Scotland]
+    year: 2026
+    url: https://www.thescottishvoice.org.uk/home/
+    source_type: practitioner_resource
+    jurisdiction: [scotland]
+    evidence_weight: practitioner_wisdom
+    licence: "UNCONFIRMED"
+    reuse_rule: short_quote_only
+    version: "Live web page, retrieved 2026-11-12"
+    retrieved_at: 2026-11-12
+
+  - id: src-ACC-aberdeenshire-eal-primary
+    title: "Aberdeenshire EAL Service: Strategies (Primary)"
+    publisher: Aberdeenshire EAL Service (Glow Blogs)
+    authors: [Shona Webster (compiler)]
+    year: 2026
+    url: https://blogs.glowscotland.org.uk/as/ealaberdeenshire/strategies-primary/
+    source_type: practitioner_resource
+    jurisdiction: [scotland]
+    evidence_weight: low
+    licence: "UNCONFIRMED"
+    reuse_rule: short_quote_only
+    version: "UNCONFIRMED: live blog page, date not shown"
+    retrieved_at: 2026-11-12
+
+  - id: src-ACC-bell-multilingual-support
+    title: "How to Provide Multilingual Support in the Classroom"
+    publisher: The Bell Foundation
+    authors: [The Bell Foundation]
+    year: 2026
+    url: https://www.bell-foundation.org.uk/eal-programme/guidance/multilingual-support/
+    source_type: guidance
+    jurisdiction: [england]
+    evidence_weight: practitioner_wisdom
+    licence: "UNCONFIRMED"
+    reuse_rule: short_quote_only
+    version: "UNCONFIRMED: live web page, date not shown"
+    retrieved_at: 2026-11-12
+
+  - id: src-ACC-htu-dld
+    title: "Developmental language disorder in the mainstream classroom"
+    publisher: Headteacher Update (MA Education)
+    authors: [Sue Marr]
+    year: 2020
+    url: https://www.headteacher-update.com/content/best-practice/developmental-language-disorder-in-the-mainstream-classroom
+    source_type: practitioner_resource
+    jurisdiction: [england]
+    evidence_weight: low
+    licence: "UNCONFIRMED: all rights reserved assumed"
+    reuse_rule: short_quote_only
+    version: "UNCONFIRMED: article date not shown; year field is a placeholder"
+    retrieved_at: 2026-11-12
+
+passages:
+
+  # --- BDA Dyslexia Style Guide 2023 ---
+  - id: psg-ACC-bda-fonts
+    source_id: src-ACC-bda-style-guide-2023
+    locator: "Section 'Readable fonts'"
+    text: >-
+      Recommends a sans serif font such as Arial or Comic Sans, with Verdana, Tahoma,
+      Century Gothic, Trebuchet, Calibri or Open Sans as alternatives, at 12 to 14 point
+      (about 16 to 19 px); some readers need larger text.
+    excerpt_type: paraphrase
+    fetched_url: https://www.bdadyslexia.org.uk/advice/employers/creating-a-dyslexia-friendly-workplace/dyslexia-friendly-style-guide
+    verified_by_fetch: true
+
+  - id: psg-ACC-bda-spacing
+    source_id: src-ACC-bda-style-guide-2023
+    locator: "Section 'Readable fonts'"
+    text: >-
+      Advises letter spacing of roughly 35% of the average letter width (more than this
+      harms readability), word spacing at least 3.5 times the letter spacing, and line
+      spacing of about 1.5, scaled with word spacing.
+    excerpt_type: paraphrase
+    fetched_url: https://www.bdadyslexia.org.uk/advice/employers/creating-a-dyslexia-friendly-workplace/dyslexia-friendly-style-guide
+    verified_by_fetch: true
+
+  - id: psg-ACC-bda-emphasis
+    source_id: src-ACC-bda-style-guide-2023
+    locator: "Section 'Readable fonts'"
+    text: >-
+      Advises against underlining and italics because they make text look crowded; bold
+      should be used for emphasis, and capitals should be avoided, especially in
+      continuous text.
+    excerpt_type: paraphrase
+    fetched_url: https://www.bdadyslexia.org.uk/advice/employers/creating-a-dyslexia-friendly-workplace/dyslexia-friendly-style-guide
+    verified_by_fetch: true
+
+  - id: psg-ACC-bda-headings
+    source_id: src-ACC-bda-style-guide-2023
+    locator: "Section 'Headings and structure'"
+    text: >-
+      Headings should be at least 20% larger than body text, optionally bold, built with
+      the word processor's heading styles so assistive technology can read the structure,
+      with extra space around headings and between paragraphs.
+    excerpt_type: paraphrase
+    fetched_url: https://www.bdadyslexia.org.uk/advice/employers/creating-a-dyslexia-friendly-workplace/dyslexia-friendly-style-guide
+    verified_by_fetch: true
+
+  - id: psg-ACC-bda-colour
+    source_id: src-ACC-bda-style-guide-2023
+    locator: "Section 'Colour'"
+    text: >-
+      Use a single plain background colour with no patterns or pictures, sufficient
+      contrast, and dark text on a light background that is not pure white (cream or a
+      soft pastel); avoid green with red or pink; prefer matt paper thick enough to stop
+      show-through.
+    excerpt_type: paraphrase
+    fetched_url: https://www.bdadyslexia.org.uk/advice/employers/creating-a-dyslexia-friendly-workplace/dyslexia-friendly-style-guide
+    verified_by_fetch: true
+
+  - id: psg-ACC-bda-layout
+    source_id: src-ACC-bda-style-guide-2023
+    locator: "Section 'Layout'"
+    text: >-
+      Left-align text and do not justify it; avoid multi-column layouts; keep text runs
+      short (around 60 to 70 characters); use white space to reduce clutter and group
+      related content; use regular headings in long documents.
+    excerpt_type: paraphrase
+    fetched_url: https://www.bdadyslexia.org.uk/advice/employers/creating-a-dyslexia-friendly-workplace/dyslexia-friendly-style-guide
+    verified_by_fetch: true
+
+  - id: psg-ACC-bda-writing
+    source_id: src-ACC-bda-style-guide-2023
+    locator: "Section 'Writing style'"
+    text: >-
+      Write in the active voice with short paragraphs and plain everyday language; give
+      clear instructions without double negatives; spell out abbreviations on first use
+      and provide a glossary of abbreviations and jargon.
+    excerpt_type: paraphrase
+    fetched_url: https://www.bdadyslexia.org.uk/advice/employers/creating-a-dyslexia-friendly-workplace/dyslexia-friendly-style-guide
+    verified_by_fetch: true
+
+  - id: psg-ACC-bda-lists-images
+    source_id: src-ACC-bda-style-guide-2023
+    locator: "Section 'Writing style'"
+    text: >-
+      Support text with images, flow charts for procedures and pictograms, and prefer
+      bullet points and numbered lists to continuous prose.
+    excerpt_type: paraphrase
+    fetched_url: https://www.bdadyslexia.org.uk/advice/employers/creating-a-dyslexia-friendly-workplace/dyslexia-friendly-style-guide
+    verified_by_fetch: true
+
+  # --- Dyslexia Scotland typed content 2025 ---
+  - id: psg-ACC-dysscot-spacing
+    source_id: src-ACC-dysscot-typed-content-2025
+    locator: "UNCONFIRMED: about p.2, spacing guidance (page numbers inferred from extracted text)"
+    text: >-
+      Increase letter and word spacing (a simple default is about 30 to 35% of font size,
+      adjusted to the reader's preference, with word spacing in proportion), avoid
+      excessive gaps, use 1.5 line spacing and clear paragraph breaks.
+    excerpt_type: paraphrase
+    fetched_url: https://dyslexiascotland.org.uk/wp-content/uploads/2025/10/formats.pdf
+    verified_by_fetch: true
+
+  - id: psg-ACC-dysscot-line-length
+    source_id: src-ACC-dysscot-typed-content-2025
+    locator: "UNCONFIRMED: about p.3, line length guidance"
+    text: >-
+      Aim for lines of roughly 50 to 75 characters; shorter lines often help dyslexic
+      readers.
+    excerpt_type: paraphrase
+    fetched_url: https://dyslexiascotland.org.uk/wp-content/uploads/2025/10/formats.pdf
+    verified_by_fetch: true
+
+  - id: psg-ACC-dysscot-typeface
+    source_id: src-ACC-dysscot-typed-content-2025
+    locator: "UNCONFIRMED: about pp.3 to 4, typeface and font size guidance"
+    text: >-
+      No single dyslexia-friendly font has been shown to be better; use a plain, evenly
+      spaced font without decorative or oblique styles; sans serif is often preferred
+      though evidence of advantage is inconsistent; specialist dyslexia fonts only if the
+      individual finds them helpful; at least 12 point body text, and let readers choose
+      larger text or their preferred font.
+    excerpt_type: paraphrase
+    fetched_url: https://dyslexiascotland.org.uk/wp-content/uploads/2025/10/formats.pdf
+    verified_by_fetch: true
+
+  - id: psg-ACC-dysscot-layout
+    source_id: src-ACC-dysscot-typed-content-2025
+    locator: "UNCONFIRMED: about p.5, alignment, layout and headings"
+    text: >-
+      Align text left and avoid full justification; keep layouts clean and uncluttered;
+      chunk content under clear headings and subheadings; headings bolder and larger than
+      body text, never smaller.
+    excerpt_type: paraphrase
+    fetched_url: https://dyslexiascotland.org.uk/wp-content/uploads/2025/10/formats.pdf
+    verified_by_fetch: true
+
+  - id: psg-ACC-dysscot-writing
+    source_id: src-ACC-dysscot-typed-content-2025
+    locator: "UNCONFIRMED: about pp.5 to 6, writing style and emphasis"
+    text: >-
+      Keep sentences to about 25 words or fewer and paragraphs to about five lines; put
+      key information first; make key information or actions visually distinct from the
+      surrounding text.
+    excerpt_type: paraphrase
+    fetched_url: https://dyslexiascotland.org.uk/wp-content/uploads/2025/10/formats.pdf
+    verified_by_fetch: true
+
+  - id: psg-ACC-dysscot-plain
+    source_id: src-ACC-dysscot-typed-content-2025
+    locator: "UNCONFIRMED: about p.6, writing style (language)"
+    text: >-
+      Write conversationally, avoid jargon the audience does not know, and for general
+      audiences aim at a low reading age (about eight years).
+    excerpt_type: paraphrase
+    fetched_url: https://dyslexiascotland.org.uk/wp-content/uploads/2025/10/formats.pdf
+    verified_by_fetch: true
+
+  - id: psg-ACC-dysscot-background
+    source_id: src-ACC-dysscot-typed-content-2025
+    locator: "UNCONFIRMED: about p.7, background colour, paper and contrast"
+    text: >-
+      Prefer off-white or tinted backgrounds (for example cream or peach) with dark text;
+      some readers prefer lower-contrast pairs such as navy on pale yellow and preferences
+      vary; use matte paper; meet at least a 4.5:1 contrast ratio.
+    excerpt_type: paraphrase
+    fetched_url: https://dyslexiascotland.org.uk/wp-content/uploads/2025/10/formats.pdf
+    verified_by_fetch: true
+
+  - id: psg-ACC-dysscot-slides-formats
+    source_id: src-ACC-dysscot-typed-content-2025
+    locator: "UNCONFIRMED: about p.8, slides, digital accessibility and format options"
+    text: >-
+      On slides use text sparingly (32 point suggested as a minimum); offer multiple or
+      customisable formats, text-to-speech and accessibility toolbars; add diagrams,
+      photos or video where helpful.
+    excerpt_type: paraphrase
+    fetched_url: https://dyslexiascotland.org.uk/wp-content/uploads/2025/10/formats.pdf
+    verified_by_fetch: true
+
+  # --- WCAG 2.2 ---
+  - id: psg-ACC-wcag-1-4-3
+    source_id: src-ACC-wcag-22
+    locator: "Success Criterion 1.4.3 Contrast (Minimum), Level AA"
+    text: >-
+      Text needs a contrast ratio of at least 4.5:1 against its background; large text
+      (18 point, or 14 point bold) needs at least 3:1.
+    excerpt_type: paraphrase
+    fetched_url: https://www.w3.org/TR/WCAG22/
+    verified_by_fetch: true
+
+  - id: psg-ACC-wcag-1-4-12
+    source_id: src-ACC-wcag-22
+    locator: "Success Criterion 1.4.12 Text Spacing, Level AA"
+    text: >-
+      Content must still work when users set line height to at least 1.5 times font size,
+      paragraph spacing to 2 times, letter spacing to 0.12 times and word spacing to 0.16
+      times font size.
+    excerpt_type: paraphrase
+    fetched_url: https://www.w3.org/TR/WCAG22/
+    verified_by_fetch: true
+
+  - id: psg-ACC-wcag-1-4-8
+    source_id: src-ACC-wcag-22
+    locator: "Success Criterion 1.4.8 Visual Presentation, Level AAA"
+    text: >-
+      Blocks of text should be no wider than 80 characters, not justified, with line
+      spacing of at least one and a half and paragraph spacing at least 1.5 times line
+      spacing, and should resize to 200% without loss.
+    excerpt_type: paraphrase
+    fetched_url: https://www.w3.org/TR/WCAG22/
+    verified_by_fetch: true
+
+  - id: psg-ACC-wcag-1-4-1
+    source_id: src-ACC-wcag-22
+    locator: "Success Criterion 1.4.1 Use of Color, Level A"
+    text: >-
+      Colour must not be the only way of conveying information, indicating an action or
+      prompting a response.
+    excerpt_type: paraphrase
+    fetched_url: https://www.w3.org/TR/WCAG22/
+    verified_by_fetch: true
+
+  - id: psg-ACC-wcag-1-3-1
+    source_id: src-ACC-wcag-22
+    locator: "Success Criterion 1.3.1 Info and Relationships, Level A"
+    text: >-
+      Structure and relationships shown visually (such as headings and lists) must be
+      programmatically determinable or available in text.
+    excerpt_type: paraphrase
+    fetched_url: https://www.w3.org/TR/WCAG22/
+    verified_by_fetch: true
+
+  - id: psg-ACC-wcag-2-4-6
+    source_id: src-ACC-wcag-22
+    locator: "Success Criterion 2.4.6 Headings and Labels, Level AA"
+    text: >-
+      Headings and labels must describe the topic or purpose of the content.
+    excerpt_type: paraphrase
+    fetched_url: https://www.w3.org/TR/WCAG22/
+    verified_by_fetch: true
+
+  - id: psg-ACC-wcag-3-2-4
+    source_id: src-ACC-wcag-22
+    locator: "Success Criterion 3.2.4 Consistent Identification, Level AA"
+    text: >-
+      Components that have the same functionality within a set of web pages are
+      identified consistently.
+    excerpt_type: quote
+    fetched_url: https://www.w3.org/TR/WCAG22/
+    verified_by_fetch: true
+
+  - id: psg-ACC-wcag-1-1-1
+    source_id: src-ACC-wcag-22
+    locator: "Success Criterion 1.1.1 Non-text Content, Level A"
+    text: >-
+      Non-text content such as images needs a text alternative serving the same purpose,
+      except pure decoration.
+    excerpt_type: paraphrase
+    fetched_url: https://www.w3.org/TR/WCAG22/
+    verified_by_fetch: true
+
+  - id: psg-ACC-wcag-3-3-2
+    source_id: src-ACC-wcag-22
+    locator: "Success Criterion 3.3.2 Labels or Instructions, Level A"
+    text: >-
+      Labels or instructions must be provided wherever content asks the user for input.
+    excerpt_type: paraphrase
+    fetched_url: https://www.w3.org/TR/WCAG22/
+    verified_by_fetch: true
+
+  - id: psg-ACC-wcag-3-1-5
+    source_id: src-ACC-wcag-22
+    locator: "Success Criterion 3.1.5 Reading Level, Level AAA"
+    text: >-
+      Where text needs reading ability beyond lower secondary level (ignoring proper names
+      and titles), supplementary content or a version at that lower level should be
+      available.
+    excerpt_type: paraphrase
+    fetched_url: https://www.w3.org/TR/WCAG22/
+    verified_by_fetch: true
+
+  # --- EEF SEND guidance report ---
+  - id: psg-ACC-eef-needs-not-diagnosis
+    source_id: src-ACC-eef-send-2020
+    locator: "p.15 (Recommendation 2)"
+    text: >-
+      For most day-to-day teaching decisions a diagnosis is less useful than knowing the
+      pupil's specific needs: diagnostic categories overlap, and two pupils with the same
+      diagnosis can have quite different needs.
+    excerpt_type: paraphrase
+    fetched_url: https://dera.ioe.ac.uk/37846/1/EEF_Special_Educational_Needs_in_Mainstream_Schools_Guidance_Report.pdf
+    verified_by_fetch: true
+
+  - id: psg-ACC-eef-key-question
+    source_id: src-ACC-eef-send-2020
+    locator: "p.7"
+    text: >-
+      The key question is what this individual pupil needs, not what works for a
+      diagnostic group such as dyslexia.
+    excerpt_type: paraphrase
+    fetched_url: https://dera.ioe.ac.uk/37846/1/EEF_Special_Educational_Needs_in_Mainstream_Schools_Guidance_Report.pdf
+    verified_by_fetch: true
+
+  - id: psg-ACC-eef-good-teaching-all
+    source_id: src-ACC-eef-send-2020
+    locator: "p.8"
+    text: "good teaching for pupils with SEND is good teaching for all"
+    excerpt_type: quote
+    fetched_url: https://dera.ioe.ac.uk/37846/1/EEF_Special_Educational_Needs_in_Mainstream_Schools_Guidance_Report.pdf
+    verified_by_fetch: true
+
+  - id: psg-ACC-eef-five-strategies
+    source_id: src-ACC-eef-send-2020
+    locator: "pp.20 to 26 (Recommendation 3)"
+    text: >-
+      Recommendation 3 names five strategies (flexible grouping, cognitive and
+      metacognitive strategies, explicit instruction, using technology, and scaffolding)
+      and advises using them as the starting point for classroom teaching for all pupils.
+    excerpt_type: paraphrase
+    fetched_url: https://dera.ioe.ac.uk/37846/1/EEF_Special_Educational_Needs_in_Mainstream_Schools_Guidance_Report.pdf
+    verified_by_fetch: true
+
+  - id: psg-ACC-eef-scaffolding
+    source_id: src-ACC-eef-send-2020
+    locator: "p.26 (Scaffolding)"
+    text: >-
+      Scaffolds are temporary supports (visual, verbal or written, such as a writing frame
+      or a task checklist) that the teacher removes gradually as the pupil becomes
+      independent; for pupils with SEND a scaffold may stay longer.
+    excerpt_type: paraphrase
+    fetched_url: https://dera.ioe.ac.uk/37846/1/EEF_Special_Educational_Needs_in_Mainstream_Schools_Guidance_Report.pdf
+    verified_by_fetch: true
+
+  - id: psg-ACC-eef-explicit
+    source_id: src-ACC-eef-send-2020
+    locator: "p.24 (Explicit instruction, Box 8)"
+    text: >-
+      Explicit instruction means teacher demonstration followed by guided then independent
+      practice, teaching in small steps with clear and unambiguous language, examples and
+      non-examples, and highlighting essential content.
+    excerpt_type: paraphrase
+    fetched_url: https://dera.ioe.ac.uk/37846/1/EEF_Special_Educational_Needs_in_Mainstream_Schools_Guidance_Report.pdf
+    verified_by_fetch: true
+
+  - id: psg-ACC-eef-small-steps
+    source_id: src-ACC-eef-send-2020
+    locator: "p.13"
+    text: >-
+      Breaking tasks into smaller steps is given as one way of making tasks manageable.
+    excerpt_type: paraphrase
+    fetched_url: https://dera.ioe.ac.uk/37846/1/EEF_Special_Educational_Needs_in_Mainstream_Schools_Guidance_Report.pdf
+    verified_by_fetch: true
+
+  - id: psg-ACC-eef-graphic-organisers
+    source_id: src-ACC-eef-send-2020
+    locator: "p.23 (Box 7 and Figure 3)"
+    text: >-
+      Graphic organisers such as Venn diagrams, T-charts, mind maps and the Frayer model
+      are given as examples of cognitive strategies.
+    excerpt_type: paraphrase
+    fetched_url: https://dera.ioe.ac.uk/37846/1/EEF_Special_Educational_Needs_in_Mainstream_Schools_Guidance_Report.pdf
+    verified_by_fetch: true
+
+  - id: psg-ACC-eef-vocab
+    source_id: src-ACC-eef-send-2020
+    locator: "p.14 and p.16 (case example)"
+    text: >-
+      Pre-teaching of vocabulary, and direct vocabulary instruction for an individual
+      pupil, are given as examples of responding to identified needs.
+    excerpt_type: paraphrase
+    fetched_url: https://dera.ioe.ac.uk/37846/1/EEF_Special_Educational_Needs_in_Mainstream_Schools_Guidance_Report.pdf
+    verified_by_fetch: true
+
+  - id: psg-ACC-eef-technology
+    source_id: src-ACC-eef-send-2020
+    locator: "p.25 (Using technology)"
+    text: >-
+      Technology can support pupils with SEND through instructional apps, non-instructional
+      tools such as note-taking apps, and speech-generating apps for pupils with
+      communication difficulties.
+    excerpt_type: paraphrase
+    fetched_url: https://dera.ioe.ac.uk/37846/1/EEF_Special_Educational_Needs_in_Mainstream_Schools_Guidance_Report.pdf
+    verified_by_fetch: true
+
+  - id: psg-ACC-eef-flexible-grouping
+    source_id: src-ACC-eef-send-2020
+    locator: "p.22 (Flexible grouping)"
+    text: >-
+      Flexible grouping places pupils together temporarily around a shared need and
+      disbands the group once its purpose is met, as an alternative to fixed streaming.
+    excerpt_type: paraphrase
+    fetched_url: https://dera.ioe.ac.uk/37846/1/EEF_Special_Educational_Needs_in_Mainstream_Schools_Guidance_Report.pdf
+    verified_by_fetch: true
+
+  - id: psg-ACC-eef-high-expectations
+    source_id: src-ACC-eef-send-2020
+    locator: "p.5, p.22 and p.34"
+    text: >-
+      Calls for high expectations for the learning of all pupils and an appropriate level
+      of challenge, and warns that some support can leave pupils with undemanding tasks.
+    excerpt_type: paraphrase
+    fetched_url: https://dera.ioe.ac.uk/37846/1/EEF_Special_Educational_Needs_in_Mainstream_Schools_Guidance_Report.pdf
+    verified_by_fetch: true
+
+  # --- Font and spacing research ---
+  - id: psg-ACC-zorzi-abstract
+    source_id: src-ACC-zorzi-2012
+    locator: "Abstract"
+    text: >-
+      In a large unselected sample of Italian and French children with dyslexia, simply
+      increasing letter spacing substantially improved text reading without any training;
+      the authors link this to greater sensitivity to crowding between neighbouring
+      letters.
+    excerpt_type: paraphrase
+    fetched_url: https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1073/pnas.1205566109&resultType=core&format=json
+    verified_by_fetch: true
+
+  - id: psg-ACC-wery-abstract
+    source_id: src-ACC-wery-diliberto-2017
+    locator: "Abstract"
+    text: >-
+      In a single-subject alternating treatment study of 12 primary-aged pupils with
+      dyslexia, OpenDyslexic produced no gains in reading rate or accuracy compared with
+      Arial or Times New Roman, and no pupil preferred it.
+    excerpt_type: paraphrase
+    fetched_url: https://link.springer.com/article/10.1007/s11881-016-0127-1
+    verified_by_fetch: true
+
+  - id: psg-ACC-kuster-findings
+    source_id: src-ACC-kuster-2018
+    locator: "Abstract and Results (Experiments 1 and 2)"
+    text: >-
+      Across two experiments with Dutch children aged about 7 to 12 (170 with dyslexia in
+      the first; 102 with and 45 without in the second), Dyslexie did not improve reading
+      speed or accuracy; most children preferred Arial or Times New Roman, and preference
+      was unrelated to performance. Children who like it need not be discouraged.
+    excerpt_type: paraphrase
+    fetched_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC5934461/
+    verified_by_fetch: true
+
+  - id: psg-ACC-kuster-spacing
+    source_id: src-ACC-kuster-2018
+    locator: "UNCONFIRMED: Discussion (horizontal spacing and Marinus et al. 2016)"
+    text: >-
+      The authors note that horizontal letter spacing was not controlled and cite earlier
+      work in which Dyslexie's apparent advantage disappeared once spacing was matched,
+      suggesting spacing rather than letter shape drives such effects.
+    excerpt_type: paraphrase
+    fetched_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC5934461/
+    verified_by_fetch: true
+
+  # --- Addressing Dyslexia Toolkit ---
+  - id: psg-ACC-adt-inclusion-meaning
+    source_id: src-ACC-adt-inclusive-education
+    locator: "Section 'What does Inclusive education mean?'"
+    text: >-
+      Inclusion means that the needs of all children, including those needing additional
+      support, are built into curriculum planning, resources and approaches across the
+      whole life of the school, and is judged by features such as being present,
+      participating and achieving.
+    excerpt_type: paraphrase
+    fetched_url: https://addressingdyslexia.org/scottish-context/inclusive-education
+    verified_by_fetch: true
+
+  - id: psg-ACC-adt-def-quote
+    source_id: src-ACC-adt-definition-2025
+    locator: "Scottish working definition of dyslexia (2025), opening sentence"
+    text: "a continuum of difficulties in learning to read, write and/or spell"
+    excerpt_type: quote
+    fetched_url: https://addressingdyslexia.org/what-is-dyslexia
+    verified_by_fetch: true
+
+  - id: psg-ACC-adt-def-context
+    source_id: src-ACC-adt-definition-2025
+    locator: "Scottish working definition of dyslexia (2025)"
+    text: >-
+      The impact of dyslexia varies with the task, the learning environment and the
+      support or coping strategies in place, and it often co-occurs with difficulties in
+      areas such as working memory, fluency, sequencing and organisation.
+    excerpt_type: paraphrase
+    fetched_url: https://addressingdyslexia.org/what-is-dyslexia
+    verified_by_fetch: true
+
+  - id: psg-ACC-adt-def-no-label
+    source_id: src-ACC-adt-definition-2025
+    locator: "What is Dyslexia page, text following the definition"
+    text: >-
+      Additional support does not depend on a formal diagnosis such as dyslexia, though
+      formal identification is valued because the information gathered supports
+      monitoring and planning.
+    excerpt_type: paraphrase
+    fetched_url: https://addressingdyslexia.org/what-is-dyslexia
+    verified_by_fetch: true
+
+  # --- ASL Code of Practice 2017 ---
+  - id: psg-ACC-code-ch1-purpose
+    source_id: src-ACC-sg-asl-code-2017
+    locator: "Introduction, paras 1, 3 and 5"
+    text: >-
+      The 2004 Act (as amended) is the legal framework for identifying and addressing the
+      additional support needs of children facing barriers to learning; education
+      authorities must have regard to the code; it should be read alongside GIRFEC and
+      Curriculum for Excellence.
+    excerpt_type: paraphrase
+    fetched_url: https://www.gov.scot/publications/supporting-childrens-learning-statutory-guidance-education-additional-support-learning-scotland/
+    verified_by_fetch: true
+
+  - id: psg-ACC-code-ch2-definition
+    source_id: src-ACC-sg-asl-code-2017
+    locator: "Chapter 2, para 1 (section 1(1) of the Act) and para 7"
+    text: >-
+      A child has additional support needs where, for whatever reason, they are or are
+      likely to be unable to benefit from school education without additional support;
+      additional support means provision additional to, or different from, that generally
+      made for peers of the same age.
+    excerpt_type: paraphrase
+    fetched_url: https://www.gov.scot/publications/supporting-childrens-learning-statutory-guidance-education-additional-support-learning-scotland/pages/3/
+    verified_by_fetch: true
+
+  - id: psg-ACC-code-ch2-support-types
+    source_id: src-ACC-sg-asl-code-2017
+    locator: "Chapter 2, para 12"
+    text: >-
+      Additional support falls into three overlapping areas: approaches to learning and
+      teaching, support from personnel, and provision of resources.
+    excerpt_type: paraphrase
+    fetched_url: https://www.gov.scot/publications/supporting-childrens-learning-statutory-guidance-education-additional-support-learning-scotland/pages/3/
+    verified_by_fetch: true
+
+  - id: psg-ACC-code-ch2-factors
+    source_id: src-ACC-sg-asl-code-2017
+    locator: "Chapter 2, paras 16 to 22"
+    text: >-
+      Needs can arise from the learning environment (including teaching that does not take
+      account of needs), family circumstances, disability or health, or social and
+      emotional factors; a child may be affected by more than one, and needs may be short
+      or long term.
+    excerpt_type: paraphrase
+    fetched_url: https://www.gov.scot/publications/supporting-childrens-learning-statutory-guidance-education-additional-support-learning-scotland/pages/3/
+    verified_by_fetch: true
+
+  - id: psg-ACC-code-ch2-labels
+    source_id: src-ACC-sg-asl-code-2017
+    locator: "Chapter 2, paras 23 to 25"
+    text: >-
+      The same factor affects children differently; some families find labels such as
+      dyslexia or autism helpful while others find them limiting or stigmatising, so
+      children should be seen as individuals with support tailored to their needs,
+      provided early and without singling them out.
+    excerpt_type: paraphrase
+    fetched_url: https://dera.ioe.ac.uk/id/eprint/30765/1/00529411.pdf
+    verified_by_fetch: true
+
+  - id: psg-ACC-code-ch2-examples
+    source_id: src-ACC-sg-asl-code-2017
+    locator: "Chapter 2, paras 13 and 24"
+    text: >-
+      Examples of additional support include in-class support from an EAL teacher and
+      communication symbols for an autistic child; a lack of English should be addressed
+      within a learning programme that reflects the child's existing skills.
+    excerpt_type: paraphrase
+    fetched_url: https://www.gov.scot/publications/supporting-childrens-learning-statutory-guidance-education-additional-support-learning-scotland/pages/3/
+    verified_by_fetch: true
+
+  - id: psg-ACC-code-ch3-staged
+    source_id: src-ACC-sg-asl-code-2017
+    locator: "Chapter 3, paras 30 to 31"
+    text: >-
+      Authorities commonly use staged approaches (usually three to six stages) to resolve
+      difficulties early with the least intrusive action; the Act does not prescribe a
+      particular model.
+    excerpt_type: paraphrase
+    fetched_url: https://dera.ioe.ac.uk/id/eprint/30765/1/00529411.pdf
+    verified_by_fetch: true
+
+  - id: psg-ACC-code-ch3-iep
+    source_id: src-ACC-sg-asl-code-2017
+    locator: "Chapter 3, para 9"
+    text: >-
+      An individualised educational programme may provide more detailed planning for a
+      child, usually within school, and should incorporate any educational objectives from
+      a co-ordinated support plan.
+    excerpt_type: paraphrase
+    fetched_url: https://dera.ioe.ac.uk/id/eprint/30765/1/00529411.pdf
+    verified_by_fetch: true
+
+  - id: psg-ACC-code-ch3-girfec
+    source_id: src-ACC-sg-asl-code-2017
+    locator: "Chapter 3, paras 5 to 9"
+    text: >-
+      GIRFEC puts children's rights and wellbeing at the centre; a Child's Plan,
+      coordinated by a Lead Professional where agencies are involved, can record support;
+      the views of children and parents should be sought, taken into account and noted.
+    excerpt_type: paraphrase
+    fetched_url: https://dera.ioe.ac.uk/id/eprint/30765/1/00529411.pdf
+    verified_by_fetch: true
+
+  # --- Morgan review 2020 ---
+  - id: psg-ACC-morgan-legislation
+    source_id: src-ACC-morgan-review-2020-summary
+    locator: "Executive summary, 'Overview of findings'"
+    text: >-
+      The review found no fundamental flaw in the principles of the legislation; the
+      problem lies in putting them into practice, which is fragmented, inconsistent and
+      overly dependent on individuals.
+    excerpt_type: paraphrase
+    fetched_url: https://www.gov.scot/publications/review-additional-support-learning-implementation-executive-summary/pages/3/
+    verified_by_fetch: true
+
+  - id: psg-ACC-morgan-diagnosis
+    source_id: src-ACC-morgan-review-2020-summary
+    locator: "Executive summary, 'Overview of findings'"
+    text: >-
+      Access to support is often made conditional on a diagnosis, which operates as a way
+      of rationing scarce resources, and individual planning can produce plans that do not
+      lead to the support they describe.
+    excerpt_type: paraphrase
+    fetched_url: https://www.gov.scot/publications/review-additional-support-learning-implementation-executive-summary/pages/3/
+    verified_by_fetch: true
+
+  - id: psg-ACC-morgan-visibility
+    source_id: src-ACC-morgan-review-2020-summary
+    locator: "Executive summary, 'Overview of findings'"
+    text: >-
+      Additional support for learning is not visible or equally valued in the system,
+      although around 30.9% of pupils were identified with an additional support need;
+      the review calls for relationships to come before processes.
+    excerpt_type: paraphrase
+    fetched_url: https://www.gov.scot/publications/review-additional-support-learning-implementation-executive-summary/pages/3/
+    verified_by_fetch: true
+
+  - id: psg-ACC-morgan-mainstreaming
+    source_id: src-ACC-morgan-review-2020-summary
+    locator: "Executive summary, 'Overview of findings'"
+    text: >-
+      There was no assurance that all professionals accept inclusion and the presumption
+      of mainstreaming; some saw additional support as someone else's responsibility.
+    excerpt_type: paraphrase
+    fetched_url: https://www.gov.scot/publications/review-additional-support-learning-implementation-executive-summary/pages/3/
+    verified_by_fetch: true
+
+  - id: psg-ACC-morgan-themes
+    source_id: src-ACC-morgan-review-2020-report
+    locator: "Report contents, 'Themes'"
+    text: >-
+      The full report is organised under nine themes including vision and visibility,
+      mainstreaming and inclusion, workforce development, relationships and behaviour, and
+      understanding rights, and it reports what children and young people told the review.
+    excerpt_type: paraphrase
+    fetched_url: https://www.gov.scot/publications/review-additional-support-learning-implementation/
+    verified_by_fetch: true
+
+  # --- GIRFEC ---
+  - id: psg-ACC-girfec-what
+    source_id: src-ACC-sg-girfec
+    locator: "GIRFEC policy page, opening sections"
+    text: >-
+      GIRFEC is Scotland's national, rights-based approach to giving children and families
+      the right support at the right time; it uses eight wellbeing indicators (SHANARRI),
+      a clear point of contact (named person) and a child's plan coordinated by a lead
+      professional.
+    excerpt_type: paraphrase
+    fetched_url: https://www.gov.scot/policies/girfec/
+    verified_by_fetch: true
+
+  # --- Education Scotland IEP guidance ---
+  - id: psg-ACC-iep-who
+    source_id: src-ACC-edscot-iep-guidance
+    locator: "Section 'Processes needed for an IEP'"
+    text: >-
+      An IEP is a non-statutory working document for learners whose outcomes cannot be met
+      through universal class or group planning alone; it is coordinated by a key person
+      with the team around the child.
+    excerpt_type: paraphrase
+    fetched_url: https://education.gov.scot/resources/additional-support-for-learning/guidance-for-individual-educational-programmes/preparing-an-individualised-educational-programme/
+    verified_by_fetch: true
+
+  - id: psg-ACC-iep-contents
+    source_id: src-ACC-edscot-iep-guidance
+    locator: "Sections 'Processes needed for an IEP' and 'Effective use of ASL plans and IEPs'"
+    text: >-
+      An IEP holds a current profile of needs, prioritised measurable outcomes, a named
+      coordinator and review dates; the child and parents are involved in drafting and
+      review; short-term outcomes are reviewed at least termly and long-term targets at
+      least annually.
+    excerpt_type: paraphrase
+    fetched_url: https://education.gov.scot/resources/additional-support-for-learning/guidance-for-individual-educational-programmes/preparing-an-individualised-educational-programme/
+    verified_by_fetch: true
+
+  - id: psg-ACC-iep-staged
+    source_id: src-ACC-edscot-iep-guidance
+    locator: "Section 'Effective use of ASL plans and IEPs'"
+    text: >-
+      Local authorities should set out where each level of planning sits in their staged
+      intervention approach, which is used to decide the appropriate level of planning.
+    excerpt_type: paraphrase
+    fetched_url: https://education.gov.scot/resources/additional-support-for-learning/guidance-for-individual-educational-programmes/preparing-an-individualised-educational-programme/
+    verified_by_fetch: true
+
+  # --- Autism Toolbox ---
+  - id: psg-ACC-at-visual-quote
+    source_id: src-ACC-at-visual-supports
+    locator: "Visual Supports page, introductory section"
+    text: "All autistic learners are likely to benefit from developmentally appropriate visual supports"
+    excerpt_type: quote
+    fetched_url: https://www.autismtoolbox.co.uk/supporting-learners-and-families/effective-partnerships-and-communication/visual-supports/
+    verified_by_fetch: true
+
+  - id: psg-ACC-at-visual-purposes
+    source_id: src-ACC-at-visual-supports
+    locator: "Visual Supports page, body"
+    text: >-
+      Visual supports (timetables, schedules, choice boards, symbols, photos, objects)
+      give predictability, reduce anxiety and build independence and understanding; they
+      should match the learner's stage of communication, be used consistently and can help
+      learners with a range of additional support needs.
+    excerpt_type: paraphrase
+    fetched_url: https://www.autismtoolbox.co.uk/supporting-learners-and-families/effective-partnerships-and-communication/visual-supports/
+    verified_by_fetch: true
+
+  - id: psg-ACC-at-comm-literal
+    source_id: src-ACC-at-communication
+    locator: "Communication page"
+    text: >-
+      Autistic learners can be overliteral and may miss it when someone says one thing but
+      means another; tone of voice can change meaning and lead to misunderstanding.
+    excerpt_type: paraphrase
+    fetched_url: https://www.autismtoolbox.co.uk/understanding-autism/communication/
+    verified_by_fetch: true
+
+  - id: psg-ACC-at-comm-time
+    source_id: src-ACC-at-communication
+    locator: "Communication page"
+    text: >-
+      Learners may struggle to respond in the expected time or to organise several spoken
+      instructions given together; allow time and wait, and reduce language, especially
+      when a learner is anxious.
+    excerpt_type: paraphrase
+    fetched_url: https://www.autismtoolbox.co.uk/understanding-autism/communication/
+    verified_by_fetch: true
+
+  - id: psg-ACC-at-comm-groups
+    source_id: src-ACC-at-communication
+    locator: "Communication page, reasonable adjustments"
+    text: >-
+      Reasonable adjustments in group work include clear roles and scripts, and visual
+      supports can help peer interaction and group work.
+    excerpt_type: paraphrase
+    fetched_url: https://www.autismtoolbox.co.uk/understanding-autism/communication/
+    verified_by_fetch: true
+
+  - id: psg-ACC-at-sensory-env
+    source_id: src-ACC-at-sensory
+    locator: "Sensory Differences page"
+    text: >-
+      Reduce visual clutter, soften lighting, manage noise (switch off noisy equipment,
+      muffle bells) and allow headphones where noise cannot be reduced; consider which seats
+      or areas are easier for the child.
+    excerpt_type: paraphrase
+    fetched_url: https://www.autismtoolbox.co.uk/understanding-autism/sensory-differences/
+    verified_by_fetch: true
+
+  - id: psg-ACC-at-sensory-breaks
+    source_id: src-ACC-at-sensory
+    locator: "Sensory Differences page, practical adjustments"
+    text: >-
+      Agree a safe space to step away and regulate, schedule regular movement breaks even
+      when the child seems calm, and provide a visible timetable kept to as far as
+      possible.
+    excerpt_type: paraphrase
+    fetched_url: https://www.autismtoolbox.co.uk/understanding-autism/sensory-differences/
+    verified_by_fetch: true
+
+  - id: psg-ACC-at-incl-universal
+    source_id: src-ACC-at-inclusive-classrooms
+    locator: "Inclusive Classrooms page"
+    text: >-
+      Inclusive classrooms benefit all learners; clear labels and visual supports help
+      learners with language and communication difficulties and those learning English as
+      an additional language; adjustments should be anticipatory and the learning day
+      predictable.
+    excerpt_type: paraphrase
+    fetched_url: https://www.autismtoolbox.co.uk/scottish-context/inclusive-education/inclusive-classrooms/
+    verified_by_fetch: true
+
+  - id: psg-ACC-at-universal-quote
+    source_id: src-ACC-at-universal
+    locator: "Universal page, staged intervention introduction"
+    text: "at the earliest opportunity and with the least intrusive level of intervention"
+    excerpt_type: quote
+    fetched_url: https://www.autismtoolbox.co.uk/supporting-learners-and-families/educational-support/universal/
+    verified_by_fetch: true
+
+  - id: psg-ACC-at-universal-supports
+    source_id: src-ACC-at-universal
+    locator: "Universal page"
+    text: >-
+      Most needs are met at the universal level, where the class teacher has first
+      responsibility; universal supports include visual timetables and supports, quiet
+      spaces and digital resources; councils vary in their number of stages.
+    excerpt_type: paraphrase
+    fetched_url: https://www.autismtoolbox.co.uk/supporting-learners-and-families/educational-support/universal/
+    verified_by_fetch: true
+
+  # --- NAS ---
+  - id: psg-ACC-nas-figurative
+    source_id: src-ACC-nas-communication-2022
+    locator: "Section 'Avoid confusing language'"
+    text: >-
+      Figurative phrases and vague time or size words can be misread; give realistic
+      timings and keep to them.
+    excerpt_type: paraphrase
+    fetched_url: https://www.autism.org.uk/advice-and-guidance/professional-practice/communication-pupils
+    verified_by_fetch: true
+
+  - id: psg-ACC-nas-name-first
+    source_id: src-ACC-nas-communication-2022
+    locator: "Section 'Make it personal'"
+    text: >-
+      Say the pupil's name first so they know they are being addressed; in groups an
+      individual prompt may be needed.
+    excerpt_type: paraphrase
+    fetched_url: https://www.autism.org.uk/advice-and-guidance/professional-practice/communication-pupils
+    verified_by_fetch: true
+
+  - id: psg-ACC-nas-processing
+    source_id: src-ACC-nas-communication-2022
+    locator: "Section 'Allow processing time'"
+    text: >-
+      Pause for at least ten seconds without adding words; if repeating, use the same
+      words, ideally with visual support.
+    excerpt_type: paraphrase
+    fetched_url: https://www.autism.org.uk/advice-and-guidance/professional-practice/communication-pupils
+    verified_by_fetch: true
+
+  - id: psg-ACC-nas-visual
+    source_id: src-ACC-nas-communication-2022
+    locator: "Section 'Make it visual'"
+    text: >-
+      Many autistic pupils process visual information more easily than speech, so use
+      objects, pictures, symbols, written words or apps.
+    excerpt_type: paraphrase
+    fetched_url: https://www.autism.org.uk/advice-and-guidance/professional-practice/communication-pupils
+    verified_by_fetch: true
+
+  - id: psg-ACC-nas-chunk
+    source_id: src-ACC-nas-communication-2022
+    locator: "Sections 'Slow down' and 'Short and manageable questions and instructions'"
+    text: >-
+      Slow down, keep to the key message, give one piece of information at a time in small
+      chunks, and check understanding before moving on.
+    excerpt_type: paraphrase
+    fetched_url: https://www.autism.org.uk/advice-and-guidance/professional-practice/communication-pupils
+    verified_by_fetch: true
+
+  - id: psg-ACC-nas-questions
+    source_id: src-ACC-nas-communication-2022
+    locator: "Section 'Short and manageable questions and instructions'"
+    text: >-
+      Keep questions clear and direct, limit how many are asked, avoid very open questions
+      and offer limited choices where possible.
+    excerpt_type: paraphrase
+    fetched_url: https://www.autism.org.uk/advice-and-guidance/professional-practice/communication-pupils
+    verified_by_fetch: true
+
+  - id: psg-ACC-nas-positive-alt
+    source_id: src-ACC-nas-communication-2022
+    locator: "Sections on positive instructions and validating different ways of communicating"
+    text: >-
+      Say what to do rather than what not to do, and accept writing or pictures as
+      alternatives to speech.
+    excerpt_type: paraphrase
+    fetched_url: https://www.autism.org.uk/advice-and-guidance/professional-practice/communication-pupils
+    verified_by_fetch: true
+
+  # --- CALL Scotland ---
+  - id: psg-ACC-call-resources
+    source_id: src-ACC-callscotland-home
+    locator: "Home page, resource links"
+    text: >-
+      CALL Scotland (University of Edinburgh) offers Books for All (accessible curriculum
+      books), Symbols for All (symbolised curriculum resources), WordTalk (free text-to-
+      speech for Word), MyStudyBar (literacy support tools), Adapted Digital Exams and an
+      assistive technology loan bank.
+    excerpt_type: paraphrase
+    fetched_url: https://www.callscotland.org.uk/
+    verified_by_fetch: true
+
+  - id: psg-ACC-scotvoice
+    source_id: src-ACC-scottish-voice
+    locator: "Home page"
+    text: >-
+      The Scottish Voice provides Scottish-accented computer voices (adult, teenage and
+      child English voices and a Gaelic voice), funded by the Scottish Government and free
+      to the Scottish public sector, for listening to resources such as e-books.
+    excerpt_type: paraphrase
+    fetched_url: https://www.thescottishvoice.org.uk/home/
+    verified_by_fetch: true
+
+  # --- EAL ---
+  - id: psg-ACC-abd-visuals-vocab
+    source_id: src-ACC-aberdeenshire-eal-primary
+    locator: "Strategies (Primary) page, vocabulary and visuals"
+    text: >-
+      Pre-teach key words with visuals and extra small-group practice, teach words in
+      context, and keep visual dictionaries and word banks at hand during writing.
+    excerpt_type: paraphrase
+    fetched_url: https://blogs.glowscotland.org.uk/as/ealaberdeenshire/strategies-primary/
+    verified_by_fetch: true
+
+  - id: psg-ACC-abd-l1
+    source_id: src-ACC-aberdeenshire-eal-primary
+    locator: "Strategies (Primary) page, home language"
+    text: >-
+      Use dual-language books and audio books, learn a few words of the pupil's language,
+      and let pupils build their own illustrated topic glossaries.
+    excerpt_type: paraphrase
+    fetched_url: https://blogs.glowscotland.org.uk/as/ealaberdeenshire/strategies-primary/
+    verified_by_fetch: true
+
+  - id: psg-ACC-abd-frames
+    source_id: src-ACC-aberdeenshire-eal-primary
+    locator: "Strategies (Primary) page, writing and talk"
+    text: >-
+      Model tasks before pupils try them, provide sentence starters and sentence-building
+      scaffolds, and use paired talk such as think-pair-share and supportive buddies.
+    excerpt_type: paraphrase
+    fetched_url: https://blogs.glowscotland.org.uk/as/ealaberdeenshire/strategies-primary/
+    verified_by_fetch: true
+
+  - id: psg-ACC-bell-glossary
+    source_id: src-ACC-bell-multilingual-support
+    locator: "Sections on bilingual glossaries, bilingual dictionaries and pre-teaching"
+    text: >-
+      Learners can make bilingual glossaries of key topic words and use bilingual
+      dictionaries; concepts can be pre-taught in the first language; skills transfer
+      across languages, so first-language use supports access to the curriculum and the
+      learning of English rather than replacing it.
+    excerpt_type: paraphrase
+    fetched_url: https://www.bell-foundation.org.uk/eal-programme/guidance/multilingual-support/
+    verified_by_fetch: true
+
+  - id: psg-ACC-bell-quote
+    source_id: src-ACC-bell-multilingual-support
+    locator: "Section on codeswitching and translanguaging"
+    text: "extremely useful in the classroom"
+    excerpt_type: quote
+    fetched_url: https://www.bell-foundation.org.uk/eal-programme/guidance/multilingual-support/
+    verified_by_fetch: true
+
+  # --- DLD ---
+  - id: psg-ACC-dld-vocab
+    source_id: src-ACC-htu-dld
+    locator: "Section on vocabulary"
+    text: >-
+      Pupils with DLD know fewer words and do not pick up new vocabulary incidentally, so
+      key subject words should be taught explicitly, for example in a short vocabulary slot
+      at the start of lessons.
+    excerpt_type: paraphrase
+    fetched_url: https://www.headteacher-update.com/content/best-practice/developmental-language-disorder-in-the-mainstream-classroom
+    verified_by_fetch: true
+
+  - id: psg-ACC-dld-instructions
+    source_id: src-ACC-htu-dld
+    locator: "Section on giving instructions"
+    text: >-
+      Give one instruction at a time in short sentences, pause between chunks, put steps in
+      the order they happen, and use literal language because idioms and metaphors are
+      often hard for pupils with DLD.
+    excerpt_type: paraphrase
+    fetched_url: https://www.headteacher-update.com/content/best-practice/developmental-language-disorder-in-the-mainstream-classroom
+    verified_by_fetch: true
+
+  - id: psg-ACC-dld-time-check
+    source_id: src-ACC-htu-dld
+    locator: "Sections on processing time and checking understanding"
+    text: >-
+      Allow extra time to understand and to formulate answers, recap prior learning, ask
+      pupils to repeat instructions back, and model useful phrases and sentence structures.
+    excerpt_type: paraphrase
+    fetched_url: https://www.headteacher-update.com/content/best-practice/developmental-language-disorder-in-the-mainstream-classroom
+    verified_by_fetch: true
+
+  - id: psg-ACC-dld-visual
+    source_id: src-ACC-htu-dld
+    locator: "Section on visual support"
+    text: >-
+      Use visual prompts such as pictures on worksheets, visual timetables and real objects
+      to signpost activities and support memory.
+    excerpt_type: paraphrase
+    fetched_url: https://www.headteacher-update.com/content/best-practice/developmental-language-disorder-in-the-mainstream-classroom
+    verified_by_fetch: true
+
+entries:
+
+  # =====================================================================
+  # A. FORMAT RULES (baseline for every artefact)
+  # =====================================================================
+
+  - id: fmt-ACC-emphasis-bold
+    type: format_rule
+    title: "Emphasise with bold, not italics, underlining or capitals"
+    summary: "Use bold for key words and actions; never italics, underlining or blocks of capitals."
+    body: |
+      - Use **bold** for key vocabulary, command words and the action a pupil must take.
+      - Do not use italics or underlining for emphasis; underlining is reserved for links in digital artefacts.
+      - Do not write words or sentences in capitals for emphasis.
+      - Keep emphasis sparing so the key action still stands out.
+    status: draft
+    version: "0.1"
+    curated_by: [ACC]
+    facets:
+      jurisdiction: [scotland]
+      cfe_level: [early, first, second, third, fourth, senior]
+      curriculum_area: [all]
+      artefact_type: [slides, worksheet, form, lesson_plan]
+      barrier: [decoding, reading_fluency, attention]
+      access_dimension: layout
+      changes_goal: false
+    evidence:
+      rating: practitioner_wisdom
+      rationale: "BDA and Dyslexia Scotland style guidance (clm-ACC-emph-bold)."
+    render_settings:
+      emphasis: bold
+      italics: false
+      underline: false
+      all_caps_for_emphasis: false
+      max_bold_phrases_per_block: 3
+    claims: [clm-ACC-emph-bold, clm-ACC-emph-no-caps, clm-ACC-emph-key-actions]
+
+  - id: fmt-ACC-left-aligned-ragged-right
+    type: format_rule
+    title: "Left aligned, ragged right, single column, short lines"
+    summary: "Align text left without justification, in one column, with lines of about 60 to 70 characters."
+    body: |
+      - Left align all body text; never justify (uneven word gaps create 'rivers').
+      - Use one column; avoid newspaper-style columns on worksheets.
+      - Keep lines short (about 60 to 70 characters, never more than 80).
+      - Turn off automatic hyphenation.
+    status: draft
+    version: "0.1"
+    curated_by: [ACC]
+    facets:
+      jurisdiction: [scotland]
+      cfe_level: [early, first, second, third, fourth, senior]
+      curriculum_area: [all]
+      artefact_type: [slides, worksheet, form]
+      barrier: [decoding, reading_fluency, visual_tracking]
+      access_dimension: layout
+      changes_goal: false
+    evidence:
+      rating: practitioner_wisdom
+      rationale: "BDA, Dyslexia Scotland and WCAG 1.4.8 agree (clm-ACC-align-left, clm-ACC-align-wcag)."
+    render_settings:
+      text_align: left
+      justify: false
+      hyphenation: false
+      columns: 1
+      max_line_length_chars: 70
+    claims: [clm-ACC-align-left, clm-ACC-align-wcag, clm-ACC-line-length]
+
+  - id: fmt-ACC-readable-font-size
+    type: format_rule
+    title: "Plain sans serif font at a readable size"
+    summary: "Use a plain, evenly spaced sans serif font, at least 12 point in print (14 preferred for pupils)."
+    body: |
+      - Default font: a plain sans serif such as Arial, Verdana, Calibri, Century Gothic or Tahoma.
+      - Body text at least 12 point in print; 14 point is a sensible default for P7 and S1 worksheets.
+      - No decorative, handwriting-style or oblique fonts; avoid ligatures.
+      - Do not switch a whole class to a specialist "dyslexia font": research shows no reading benefit (see cau-ACC-dyslexia-fonts). An individual pupil may use a preferred font.
+    status: draft
+    version: "0.1"
+    curated_by: [ACC]
+    facets:
+      jurisdiction: [scotland]
+      cfe_level: [early, first, second, third, fourth, senior]
+      curriculum_area: [all]
+      artefact_type: [slides, worksheet, form]
+      barrier: [decoding, reading_fluency, visual_access]
+      access_dimension: layout
+      changes_goal: false
+    evidence:
+      rating: practitioner_wisdom
+      rationale: "Style guides recommend sans serif; trials find no advantage for specialist fonts (clm-ACC-font-no-special-advantage)."
+    relations:
+      caution_from: [cau-ACC-dyslexia-fonts]
+    render_settings:
+      font_family: [Arial, Verdana, Calibri, Century Gothic, Tahoma]
+      font_class: sans-serif
+      body_size_pt_min: 12
+      body_size_pt_default: 14
+      body_size_px_screen_min: 16
+      decorative_fonts: false
+      ligatures: false
+      learner_override_allowed: true
+    claims: [clm-ACC-font-sans, clm-ACC-font-no-special-advantage, clm-ACC-font-size]
+
+  - id: fmt-ACC-text-spacing
+    type: format_rule
+    title: "Generous line and paragraph spacing; tolerate user spacing"
+    summary: "1.5 line spacing, clear space between paragraphs, and layouts that survive increased letter and word spacing."
+    body: |
+      - Line spacing 1.5 for all body text.
+      - Paragraph spacing about twice the font size; extra space before headings.
+      - Build artefacts (text boxes, tables, answer lines) so they do not break if letter spacing is raised to 0.12 em or more and word spacing to 0.16 em or more. Individual pupils may need wider letter spacing (see adp-ACC-individual-spacing-background).
+    status: draft
+    version: "0.1"
+    curated_by: [ACC]
+    facets:
+      jurisdiction: [scotland]
+      cfe_level: [early, first, second, third, fourth, senior]
+      curriculum_area: [all]
+      artefact_type: [slides, worksheet, form]
+      barrier: [decoding, reading_fluency, visual_tracking]
+      access_dimension: layout
+      changes_goal: false
+    evidence:
+      rating: moderate
+      rationale: "WCAG 2.2 standard plus dyslexia style guides (clm-ACC-spacing-line, clm-ACC-spacing-tolerate)."
+    render_settings:
+      line_spacing: 1.5
+      paragraph_spacing_em: 2.0
+      space_before_heading_em: 1.0
+      must_tolerate_letter_spacing_em: 0.12
+      must_tolerate_word_spacing_em: 0.16
+      fixed_height_text_boxes: false
+    claims: [clm-ACC-spacing-line, clm-ACC-spacing-tolerate, clm-ACC-spacing-paragraph]
+
+  - id: fmt-ACC-uncluttered-white-space
+    type: format_rule
+    title: "Uncluttered layout with white space"
+    summary: "Plain background, no decorative images, white space grouping related content."
+    body: |
+      - Plain single-colour background; no watermarks, borders of clip art or background photos.
+      - Only include images that carry meaning (a source, a labelled diagram, a vocabulary picture).
+      - Use white space to group a question with its answer area and separate tasks.
+      - Avoid multi-column layouts and text wrapped around images.
+    status: draft
+    version: "0.1"
+    curated_by: [ACC]
+    facets:
+      jurisdiction: [scotland]
+      cfe_level: [early, first, second, third, fourth, senior]
+      curriculum_area: [all]
+      artefact_type: [slides, worksheet, form]
+      barrier: [sensory_load, attention, visual_tracking]
+      access_dimension: layout
+      changes_goal: false
+    evidence:
+      rating: practitioner_wisdom
+      rationale: "Dyslexia style guides and Autism Toolbox sensory guidance (clm-ACC-clutter-white-space)."
+    render_settings:
+      background_images: false
+      decorative_images: false
+      watermark: false
+      columns: 1
+      text_wrap_around_images: false
+      block_gap_em: 1.5
+    claims: [clm-ACC-clutter-white-space, clm-ACC-clutter-plain-background, clm-ACC-clutter-sensory]
+
+  - id: fmt-ACC-one-task-per-block
+    type: format_rule
+    title: "One task per block (chunking)"
+    summary: "Each numbered block holds one task, short sentences, key information first."
+    body: |
+      - One task per numbered block, with its answer space directly beneath.
+      - Sentences of about 25 words or fewer; paragraphs of about five lines or fewer.
+      - Put the key information or action first in each block.
+      - Break long tasks into smaller, sequenced steps under clear sub-headings.
+    status: draft
+    version: "0.1"
+    curated_by: [ACC]
+    facets:
+      jurisdiction: [scotland]
+      cfe_level: [early, first, second, third, fourth, senior]
+      curriculum_area: [all]
+      artefact_type: [worksheet, form, slides]
+      barrier: [working_memory, attention, reading_fluency]
+      access_dimension: structure
+      changes_goal: false
+    evidence:
+      rating: practitioner_wisdom
+      rationale: "Style guidance and EEF advice on small steps (clm-ACC-chunk-headings, clm-ACC-chunk-small-steps)."
+    relations:
+      uses_principle: [prn-EVD-explicit-instruction, prn-EVD-scaffolding]
+    render_settings:
+      tasks_per_block: 1
+      number_tasks: true
+      answer_space_below_task: true
+      max_sentence_words: 25
+      max_paragraph_lines: 5
+      key_information_first: true
+    claims: [clm-ACC-chunk-headings, clm-ACC-chunk-short-sentences, clm-ACC-chunk-small-steps, clm-ACC-chunk-one-at-a-time]
+
+  - id: fmt-ACC-plain-language-instructions
+    type: format_rule
+    title: "Plain language instructions"
+    summary: "Active, positive, numbered instructions in everyday words, with every input clearly labelled."
+    body: |
+      - Write instructions in the active voice, starting with the verb ("Underline", "Write", "Compare").
+      - Say what to do, not what not to do; no double negatives.
+      - Use a numbered list for multi-step instructions.
+      - Spell out abbreviations on first use; put subject terms in a glossary or word bank.
+      - Label every answer space or form field.
+    status: draft
+    version: "0.1"
+    curated_by: [ACC]
+    facets:
+      jurisdiction: [scotland]
+      cfe_level: [early, first, second, third, fourth, senior]
+      curriculum_area: [all]
+      artefact_type: [slides, worksheet, form, lesson_plan, interaction]
+      barrier: [language_comprehension, working_memory, figurative_language]
+      access_dimension: instructions
+      changes_goal: false
+    evidence:
+      rating: practitioner_wisdom
+      rationale: "BDA writing guidance, NAS, WCAG 3.3.2, EEF explicit instruction (clm-ACC-plain-active)."
+    render_settings:
+      voice: active
+      double_negatives: false
+      negative_instructions: avoid
+      multi_step_format: numbered_list
+      abbreviations_expanded_first_use: true
+      field_labels_required: true
+    claims: [clm-ACC-plain-active, clm-ACC-plain-lists, clm-ACC-plain-positive, clm-ACC-plain-labels, clm-ACC-plain-unambiguous]
+
+  - id: fmt-ACC-colour-contrast-background
+    type: format_rule
+    title: "Colour, contrast and background"
+    summary: "Dark text on an off-white background with at least 4.5:1 contrast; never rely on colour alone."
+    body: |
+      - Default: dark grey or black text on off-white or cream, not pure white.
+      - Contrast at least 4.5:1 for body text (3:1 for large text).
+      - Never use colour as the only signal (for example "the red answers are wrong"); add a label, symbol or bold word.
+      - Avoid red and green pairings.
+      - Print on matt paper where possible.
+    status: draft
+    version: "0.1"
+    curated_by: [ACC]
+    facets:
+      jurisdiction: [scotland]
+      cfe_level: [early, first, second, third, fourth, senior]
+      curriculum_area: [all]
+      artefact_type: [slides, worksheet, form]
+      barrier: [visual_access, sensory_load, decoding]
+      access_dimension: sensory
+      changes_goal: false
+    evidence:
+      rating: moderate
+      rationale: "WCAG 2.2 contrast and colour criteria plus dyslexia guidance (clm-ACC-colour-contrast)."
+    render_settings:
+      background_colour: "#FFFBEF"
+      text_colour: "#1A1A1A"
+      pure_white_background: false
+      min_contrast_ratio: 4.5
+      min_contrast_ratio_large_text: 3.0
+      colour_only_meaning: false
+      avoid_red_green_pairs: true
+      paper_finish: matt
+    claims: [clm-ACC-colour-contrast, clm-ACC-colour-not-white, clm-ACC-colour-not-sole, clm-ACC-colour-red-green]
+
+  - id: fmt-ACC-heading-hierarchy
+    type: format_rule
+    title: "Consistent heading hierarchy"
+    summary: "Real, descriptive headings, larger and bolder than body text, used the same way across a lesson's artefacts."
+    body: |
+      - Use built-in heading styles (Heading 1, 2, 3), not just bigger text, so screen readers and text-to-speech can navigate.
+      - Headings at least 20% larger than body text and bold; never smaller than body text.
+      - Headings describe content ("Task 2: Compare the two sources"), not "Part B".
+      - Use the same labels and icons for the same things across slides, worksheet and form (for example "Talk partner" always means the same routine).
+    status: draft
+    version: "0.1"
+    curated_by: [ACC]
+    facets:
+      jurisdiction: [scotland]
+      cfe_level: [early, first, second, third, fourth, senior]
+      curriculum_area: [all]
+      artefact_type: [slides, worksheet, form, lesson_plan]
+      barrier: [predictability, working_memory, visual_access]
+      access_dimension: structure
+      changes_goal: false
+    evidence:
+      rating: moderate
+      rationale: "WCAG 1.3.1, 2.4.6, 3.2.4 and dyslexia style guidance (clm-ACC-head-styles)."
+    render_settings:
+      semantic_headings: true
+      heading_min_scale: 1.2
+      heading_weight: bold
+      skip_heading_levels: false
+      consistent_labels_across_artefacts: true
+    claims: [clm-ACC-head-size, clm-ACC-head-styles, clm-ACC-head-descriptive, clm-ACC-head-consistent]
+
+  - id: fmt-ACC-accessible-slides
+    type: format_rule
+    title: "Accessible slides"
+    summary: "Sparse, large text, one idea per slide, alt text on meaningful images, and a shareable accessible copy."
+    body: |
+      - One idea per slide; text sparing and large (32 point suggested minimum for slide text).
+      - Use the slide's title placeholder for a unique, descriptive title.
+      - Give meaningful images alt text; mark decorative images as decorative.
+      - Pair key words with an image or diagram, not decoration.
+      - Share the deck in an editable format so pupils can use text-to-speech or change font and colour.
+    status: draft
+    version: "0.1"
+    curated_by: [ACC]
+    facets:
+      jurisdiction: [scotland]
+      cfe_level: [early, first, second, third, fourth, senior]
+      curriculum_area: [all]
+      artefact_type: [slides]
+      barrier: [visual_access, reading_fluency, sensory_load, working_memory]
+      access_dimension: representation
+      changes_goal: false
+    evidence:
+      rating: practitioner_wisdom
+      rationale: "Dyslexia Scotland format guidance and WCAG 1.1.1 (clm-ACC-slides-sparse)."
+    render_settings:
+      min_slide_font_pt: 32
+      ideas_per_slide: 1
+      unique_slide_titles: true
+      alt_text_required: true
+      decorative_images_marked: true
+      shared_format: editable
+      background: plain
+    claims: [clm-ACC-slides-sparse, clm-ACC-slides-alt-text, clm-ACC-slides-formats, clm-ACC-slides-dual]
+
+  # =====================================================================
+  # B. ADAPTATIONS (chosen per pupil, organised by barrier)
+  # =====================================================================
+
+  - id: adp-ACC-text-to-speech
+    type: adaptation
+    title: "Text-to-speech and read aloud"
+    summary: "Let the pupil hear text read aloud, using a Scottish computer voice or an adult reader, so decoding does not block access to content."
+    body: |
+      Provide the text digitally (editable Word, Google Doc or accessible PDF) so a text-to-speech tool can read it. In Scotland, Scottish-accented voices are free to schools through CALL Scotland. Check the pupil can start, pause and replay. Where the purpose of the task is decoding practice, use text-to-speech for instructions only.
+    status: draft
+    version: "0.1"
+    curated_by: [ACC]
+    facets:
+      jurisdiction: [scotland]
+      cfe_level: [second, third]
+      stage: [p7, s1]
+      curriculum_area: [all]
+      artefact_type: [worksheet, slides, form]
+      barrier: [decoding, reading_fluency, visual_access]
+      access_dimension: representation
+      changes_goal: false
+      often_relevant_to: [dyslexia, visual impairment, EAL, developmental language disorder]
+    evidence:
+      rating: practitioner_wisdom
+      rationale: "Scottish assistive technology provision and dyslexia format guidance (clm-ACC-tts-scottish-voice)."
+    risks:
+      - "In a P7 reading lesson where independent decoding is the goal, reading the text aloud changes the task; restrict to instructions."
+      - "Scanned images of text cannot be read aloud; supply real text."
+    render_settings: { tts_compatible: true, provide_editable_copy: true, scanned_text_images: false }
+    artefact_recipes:
+      worksheet: "Supply an editable copy alongside print; put each task's text in real text, not images."
+      slides: "Share the deck in an editable format so it can be read aloud."
+      interaction: "S1 history: pupil listens to the primary source through headphones while peers read silently."
+    claims: [clm-ACC-tts-scottish-voice, clm-ACC-tts-call-tools, clm-ACC-tts-offer, clm-ACC-tts-technology]
+
+  - id: adp-ACC-individual-spacing-background
+    type: adaptation
+    title: "Individual letter spacing, font size and background preferences"
+    summary: "Widen letter and word spacing and change background tint for a pupil, tuned to what they find easiest."
+    body: |
+      Start from the baseline format rules, then trial with the pupil: wider letter spacing (towards 0.35 em), word spacing in proportion, larger text, and a tinted background such as cream or pale yellow. Record what works in the pupil's profile as overrides. Preferences vary, so ask rather than assume.
+    status: draft
+    version: "0.1"
+    curated_by: [ACC]
+    facets:
+      jurisdiction: [scotland]
+      cfe_level: [second, third]
+      stage: [p7, s1]
+      curriculum_area: [all]
+      artefact_type: [worksheet, slides, form]
+      barrier: [decoding, reading_fluency, sensory_load, visual_crowding]
+      access_dimension: layout
+      changes_goal: false
+      often_relevant_to: [dyslexia, visual impairment]
+    evidence:
+      rating: moderate
+      rationale: "Trial evidence that extra letter spacing helps children with dyslexia (clm-ACC-spacing-zorzi)."
+    risks:
+      - "Very wide spacing can reduce readability; tune to the reader."
+      - "Coloured backgrounds are a comfort preference, not a treatment for dyslexia."
+    render_settings:
+      letter_spacing_em_options: [0.12, 0.35]
+      word_spacing_ratio_to_letter: 3.5
+      line_spacing: 1.5
+      background_options: [cream, pale_yellow, off_white, pastel_blue]
+      font_size_pt_options: [14, 16, 18]
+      learner_override: true
+    artefact_recipes:
+      worksheet: "Generate a personal copy with the pupil's stored spacing, size and tint; keep page breaks at task boundaries."
+      slides: "Give the pupil a digital copy they can view with their own settings."
+    claims: [clm-ACC-spacing-zorzi, clm-ACC-spacing-preference, clm-ACC-spacing-not-font, clm-ACC-bg-preference]
+
+  - id: adp-ACC-preferred-font
+    type: adaptation
+    title: "Pupil-preferred font"
+    summary: "Allow an individual pupil to use a font they find comfortable, without assuming a dyslexia font will help."
+    body: |
+      Offer a choice of plain fonts in digital copies. If a pupil prefers a specialist font, they may use it, but do not change class materials for it and do not treat it as support for reading difficulties.
+    status: draft
+    version: "0.1"
+    curated_by: [ACC]
+    facets:
+      jurisdiction: [scotland]
+      cfe_level: [second, third]
+      stage: [p7, s1]
+      curriculum_area: [all]
+      artefact_type: [worksheet, slides, form]
+      barrier: [decoding, reading_fluency]
+      access_dimension: layout
+      changes_goal: false
+      often_relevant_to: [dyslexia]
+    evidence:
+      rating: practitioner_wisdom
+      rationale: "Preference is acceptable but trials show no reading benefit from specialist fonts (clm-ACC-font-preference-ok)."
+    relations:
+      caution_from: [cau-ACC-dyslexia-fonts]
+    render_settings: { learner_font_choice: true, class_default_font_unchanged: true }
+    claims: [clm-ACC-font-preference-ok, clm-ACC-font-opendyslexic, clm-ACC-font-dyslexie]
+
+  - id: adp-ACC-pre-taught-vocab-word-bank
+    type: adaptation
+    title: "Pre-taught vocabulary and word banks"
+    summary: "Teach the key words before the lesson or task and keep a word bank visible during it."
+    body: |
+      Select five to eight key words. Pre-teach them (small group or start of lesson) with a pupil-friendly definition, an example and an image. Keep a word bank on the worksheet or desk during the task.
+    status: draft
+    version: "0.1"
+    curated_by: [ACC]
+    facets:
+      jurisdiction: [scotland]
+      cfe_level: [second, third]
+      stage: [p7, s1]
+      curriculum_area: [all]
+      artefact_type: [worksheet, slides, lesson_plan]
+      barrier: [vocabulary, language_comprehension, working_memory]
+      access_dimension: language
+      changes_goal: false
+      often_relevant_to: [developmental language disorder, EAL, dyslexia]
+    evidence:
+      rating: moderate
+      rationale: "EEF lists pre-teaching vocabulary as a needs-based response; DLD and EAL guidance concur (clm-ACC-vocab-eef)."
+    relations:
+      uses_principle: [prn-EVD-explicit-instruction, prn-EVD-scaffolding]
+    risks:
+      - "A word bank used in a vocabulary assessment changes what is assessed."
+    render_settings: { word_bank_position: top_of_task, word_bank_images: true, max_words: 8 }
+    artefact_recipes:
+      worksheet: "S1 history (for example Scottish Wars of Independence): boxed word bank at top with 'siege', 'treaty', 'guardian', each with a picture and one-line meaning."
+      slides: "P7 English: opening slide pre-teaches four words from the class novel chapter, each with image and example sentence."
+      lesson_plan: "Five-minute pre-teach with the targeted group during the starter."
+    claims: [clm-ACC-vocab-eef, clm-ACC-vocab-dld, clm-ACC-vocab-wordbank, clm-ACC-vocab-glossary]
+
+  - id: adp-ACC-images-with-vocabulary
+    type: adaptation
+    title: "Images alongside new vocabulary"
+    summary: "Pair each new word or concept with a meaningful picture, symbol or diagram."
+    body: |
+      Choose images that show the meaning (a photograph of a motte and bailey castle, not a cartoon knight). Label images with the word. Provide alt text in digital copies.
+    status: draft
+    version: "0.1"
+    curated_by: [ACC]
+    facets:
+      jurisdiction: [scotland]
+      cfe_level: [second, third]
+      stage: [p7, s1]
+      curriculum_area: [all]
+      artefact_type: [slides, worksheet]
+      barrier: [vocabulary, language_comprehension]
+      access_dimension: representation
+      changes_goal: false
+      often_relevant_to: [EAL, developmental language disorder, autism]
+    evidence:
+      rating: practitioner_wisdom
+      rationale: "EAL, DLD and Autism Toolbox guidance (clm-ACC-img-eal)."
+    relations:
+      uses_principle: [prn-EVD-dual-coding]
+    render_settings: { image_per_new_term: true, image_label: true, alt_text_required: true, decorative_images: false }
+    artefact_recipes:
+      slides: "Key term slides: word, image, one-sentence meaning."
+      worksheet: "Picture glossary strip in the margin beside the paragraph where each word first appears."
+    claims: [clm-ACC-img-eal, clm-ACC-img-dld, clm-ACC-img-labels, clm-ACC-img-alt]
+
+  - id: adp-ACC-literal-language
+    type: adaptation
+    title: "Literal language and explaining figurative language"
+    summary: "Say exactly what you mean in instructions, and explicitly explain idioms and figurative phrases when they appear."
+    body: |
+      In instructions and feedback avoid idioms, sarcasm and vague words ("in a bit", "a big paragraph"); use exact times and quantities. When figurative language is part of the text or the learning (P7 English imagery work), keep it but teach it: name the phrase, give the literal meaning and the intended meaning side by side.
+    status: draft
+    version: "0.1"
+    curated_by: [ACC]
+    facets:
+      jurisdiction: [scotland]
+      cfe_level: [second, third]
+      stage: [p7, s1]
+      curriculum_area: [all]
+      artefact_type: [worksheet, slides, interaction, lesson_plan]
+      barrier: [figurative_language, language_comprehension]
+      access_dimension: language
+      changes_goal: false
+      often_relevant_to: [autism, developmental language disorder, EAL]
+    evidence:
+      rating: practitioner_wisdom
+      rationale: "Autism Toolbox, NAS and DLD guidance (clm-ACC-literal-overliteral)."
+    risks:
+      - "Do not strip figurative language out of P7 texts where understanding it is the learning intention; explain it instead."
+    render_settings: { idioms_in_instructions: false, exact_times_and_quantities: true, figurative_gloss_table: true }
+    artefact_recipes:
+      worksheet: "Two-column 'What it says / What it means' table for figurative phrases in the extract."
+      interaction: "Replace 'Wrap it up' with 'Finish your sentence. You have 2 minutes.'"
+    claims: [clm-ACC-literal-overliteral, clm-ACC-literal-idioms, clm-ACC-literal-dld, clm-ACC-literal-teach]
+
+  - id: adp-ACC-visual-schedule
+    type: adaptation
+    title: "Visual schedule and visible lesson structure"
+    summary: "Show the lesson's steps visually with approximate timings, and mark progress through them."
+    body: |
+      Display a numbered lesson strip (symbols or icons plus words) on the board or desk, with realistic timings. Tick off each step. Warn in advance of changes. For individual pupils, a personal desk copy or now-and-next card can be used.
+    status: draft
+    version: "0.1"
+    curated_by: [ACC]
+    facets:
+      jurisdiction: [scotland]
+      cfe_level: [second, third]
+      stage: [p7, s1]
+      curriculum_area: [all]
+      artefact_type: [slides, lesson_plan, worksheet]
+      barrier: [predictability, anxiety, attention, working_memory]
+      access_dimension: structure
+      changes_goal: false
+      often_relevant_to: [autism, ADHD, anxiety, developmental language disorder, EAL]
+    evidence:
+      rating: practitioner_wisdom
+      rationale: "Autism Toolbox describes visual supports as likely beneficial and a universal support (clm-ACC-sched-benefit)."
+    render_settings: { lesson_strip: true, step_icons: true, show_timings: true, mark_progress: true }
+    artefact_recipes:
+      slides: "Agenda slide reused as a header strip on every slide with the current step highlighted."
+      lesson_plan: "List lesson phases with minutes; note when to tick off each phase."
+      worksheet: "Numbered task strip at the top matching the board."
+    claims: [clm-ACC-sched-benefit, clm-ACC-sched-purposes, clm-ACC-sched-universal, clm-ACC-sched-predictable, clm-ACC-sched-timings]
+
+  - id: adp-ACC-numbered-steps-with-model
+    type: adaptation
+    title: "Step-numbered instructions with a finished example"
+    summary: "Break the task into numbered steps, one action each, and show a completed model of the expected output."
+    body: |
+      Write each step as one action, in order. Show a finished example (a model answer or completed paragraph) and talk through how it was made. Leave the steps visible as a checklist the pupil ticks.
+    status: draft
+    version: "0.1"
+    curated_by: [ACC]
+    facets:
+      jurisdiction: [scotland]
+      cfe_level: [second, third]
+      stage: [p7, s1]
+      curriculum_area: [all]
+      artefact_type: [worksheet, slides, lesson_plan]
+      barrier: [working_memory, language_comprehension, attention]
+      access_dimension: instructions
+      changes_goal: false
+      often_relevant_to: [ADHD, developmental language disorder, dyslexia, autism, EAL]
+    evidence:
+      rating: moderate
+      rationale: "EEF explicit instruction and scaffolding guidance (clm-ACC-steps-model)."
+    relations:
+      uses_principle: [prn-EVD-worked-examples, prn-EVD-explicit-instruction, prn-EVD-scaffolding]
+    render_settings: { steps_numbered: true, actions_per_step: 1, checkbox_per_step: true, model_answer_included: true }
+    artefact_recipes:
+      worksheet: "S1 history source analysis: 1. Read the caption. 2. Underline who made the source. 3. Write when it was made. Model answer for a different source shown in a box."
+      slides: "P7 persuasive writing: one slide shows the finished model paragraph with its parts labelled."
+    claims: [clm-ACC-steps-lists, clm-ACC-steps-checklist, clm-ACC-steps-model, clm-ACC-steps-one-action]
+
+  - id: adp-ACC-alternative-response-modes
+    type: adaptation
+    title: "Alternative response modes (dictation, drawing, oral, symbols)"
+    summary: "Let the pupil show understanding by speaking, dictating, drawing, labelling or using a device when writing is not the target skill."
+    body: |
+      Decide first what is being assessed. If it is historical understanding or comprehension, accept a recorded oral answer, dictation to a scribe or speech-to-text, a labelled diagram, or a storyboard. If writing itself is the target, keep writing but add scaffolds instead.
+    status: draft
+    version: "0.1"
+    curated_by: [ACC]
+    facets:
+      jurisdiction: [scotland]
+      cfe_level: [second, third]
+      stage: [p7, s1]
+      curriculum_area: [all]
+      artefact_type: [worksheet, form, interaction]
+      barrier: [written_expression, fine_motor, decoding, expressive_language]
+      access_dimension: response_mode
+      changes_goal: false
+      often_relevant_to: [dyslexia, developmental language disorder, autism, EAL, developmental coordination disorder]
+    evidence:
+      rating: practitioner_wisdom
+      rationale: "NAS and EEF technology guidance; dictation use is curator inference (clm-ACC-resp-alternatives)."
+    risks:
+      - "If the experience and outcome being assessed is about writing, a non-written response changes the goal."
+    render_settings: { response_options: [written, oral_recording, dictation, drawing, labelled_diagram] }
+    artefact_recipes:
+      worksheet: "Answer box with icons: write, record, draw. Pupil ticks which they used."
+      form: "Allow audio upload or a drawing in place of free-text fields."
+    claims: [clm-ACC-resp-alternatives, clm-ACC-resp-technology, clm-ACC-resp-goal-check]
+
+  - id: adp-ACC-extra-processing-time
+    type: adaptation
+    title: "Extra processing time"
+    summary: "Wait longer after questions and instructions, without adding more words."
+    body: |
+      After asking or instructing, wait at least ten seconds before rephrasing. If you repeat, use the same words. Allow extra time for written tasks by reducing quantity rather than rushing.
+    status: draft
+    version: "0.1"
+    curated_by: [ACC]
+    facets:
+      jurisdiction: [scotland]
+      cfe_level: [second, third]
+      stage: [p7, s1]
+      curriculum_area: [all]
+      artefact_type: [interaction, lesson_plan]
+      barrier: [processing_speed, language_comprehension, anxiety]
+      access_dimension: time
+      changes_goal: false
+      often_relevant_to: [developmental language disorder, autism, EAL, dyslexia, anxiety]
+    evidence:
+      rating: practitioner_wisdom
+      rationale: "NAS, Autism Toolbox and DLD guidance (clm-ACC-time-wait)."
+    render_settings: { min_wait_seconds: 10, repeat_same_words: true }
+    artefact_recipes:
+      interaction: "Ask, count ten silently, then offer the same question with a visual prompt."
+      lesson_plan: "Mark questions where think time is planned and timed tasks where time is extended."
+    claims: [clm-ACC-time-wait, clm-ACC-time-respond, clm-ACC-time-dld]
+
+  - id: adp-ACC-warned-questioning
+    type: adaptation
+    title: "Warned questioning instead of cold call"
+    summary: "Tell the pupil the question in advance, cue them with their name, and offer clear or choice-based questions."
+    body: |
+      Before whole-class questioning, quietly tell the pupil the question they will be asked, or let them rehearse with a partner. Use their name first, keep the question short and direct, and offer a choice ("Was it the king or the barons?") if needed. Avoid unannounced cold calling for this pupil.
+    status: draft
+    version: "0.1"
+    curated_by: [ACC]
+    facets:
+      jurisdiction: [scotland]
+      cfe_level: [second, third]
+      stage: [p7, s1]
+      curriculum_area: [all]
+      artefact_type: [interaction, lesson_plan]
+      barrier: [anxiety, processing_speed, attention, expressive_language]
+      access_dimension: interaction
+      changes_goal: false
+      often_relevant_to: [anxiety, autism, developmental language disorder, EAL]
+    evidence:
+      rating: practitioner_wisdom
+      rationale: "NAS guidance on name-first, short questions and processing time; advance warning is curator inference (clm-ACC-warn-name)."
+    render_settings: { cold_call: false, advance_question: true, name_first: true, choice_questions_allowed: true }
+    artefact_recipes:
+      interaction: "During paired talk say: 'Aisha, in two minutes I'll ask you which source is more useful.'"
+      lesson_plan: "Note pre-warned questions next to named pupils in the questioning plan."
+    claims: [clm-ACC-warn-name, clm-ACC-warn-questions, clm-ACC-warn-wait, clm-ACC-warn-advance]
+
+  - id: adp-ACC-defined-group-roles
+    type: adaptation
+    title: "Defined group roles with scripts"
+    summary: "Give each group member a clear role card with what to do and what to say."
+    body: |
+      Use fixed role cards (reader, scribe, timekeeper, reporter) with two or three sentence stems each. Keep roles consistent across lessons so the routine becomes predictable. Let the pupil choose or practise a role first.
+    status: draft
+    version: "0.1"
+    curated_by: [ACC]
+    facets:
+      jurisdiction: [scotland]
+      cfe_level: [second, third]
+      stage: [p7, s1]
+      curriculum_area: [all]
+      artefact_type: [interaction, lesson_plan, worksheet]
+      barrier: [social_interaction, predictability, anxiety, attention]
+      access_dimension: interaction
+      changes_goal: false
+      often_relevant_to: [autism, ADHD, anxiety, developmental language disorder]
+    evidence:
+      rating: practitioner_wisdom
+      rationale: "Autism Toolbox lists clear roles and scripts as a group work adjustment (clm-ACC-roles-scripts)."
+    relations:
+      uses_principle: [prn-EVD-collaborative-learning]
+    render_settings: { role_cards: true, sentence_stems_per_role: 3, roles_consistent_across_lessons: true }
+    artefact_recipes:
+      interaction: "S1 history: groups of four analyse a source; reporter card says 'Our group thinks... because...'."
+      worksheet: "Role card strip printed at the foot of the group task sheet."
+    claims: [clm-ACC-roles-scripts, clm-ACC-roles-visual, clm-ACC-roles-flexible]
+
+  - id: adp-ACC-low-stimulus-slides
+    type: adaptation
+    title: "Low-stimulus slide version"
+    summary: "A plain version of the deck with no animation, decoration or background images, and one item per slide."
+    body: |
+      Produce a copy of the slides with a plain background, no transitions or animations, no decorative images, no auto-playing media, and one idea per slide. Share it on the pupil's device or print it.
+    status: draft
+    version: "0.1"
+    curated_by: [ACC]
+    facets:
+      jurisdiction: [scotland]
+      cfe_level: [second, third]
+      stage: [p7, s1]
+      curriculum_area: [all]
+      artefact_type: [slides]
+      barrier: [sensory_load, attention, visual_access]
+      access_dimension: sensory
+      changes_goal: false
+      often_relevant_to: [autism, ADHD, visual impairment, dyslexia]
+    evidence:
+      rating: practitioner_wisdom
+      rationale: "Autism Toolbox sensory guidance and dyslexia style guides (clm-ACC-lowstim-clutter)."
+    render_settings: { background: plain, animations: false, transitions: false, decorative_images: false, autoplay_media: false, ideas_per_slide: 1 }
+    artefact_recipes:
+      slides: "Export a second deck variant with the settings above; keep slide numbering identical to the main deck."
+    claims: [clm-ACC-lowstim-clutter, clm-ACC-lowstim-background, clm-ACC-lowstim-sparse]
+
+  - id: adp-ACC-chunked-reading-checks
+    type: adaptation
+    title: "Chunked reading with comprehension checks"
+    summary: "Split a long text into short sections, each followed by a quick check question."
+    body: |
+      Divide the text into numbered chunks of a paragraph or so. After each chunk add one short check (a choice or one-line answer). Pupils move on once the check is right; the teacher can spot misunderstanding early.
+    status: draft
+    version: "0.1"
+    curated_by: [ACC]
+    facets:
+      jurisdiction: [scotland]
+      cfe_level: [second, third]
+      stage: [p7, s1]
+      curriculum_area: [languages, social_studies]
+      artefact_type: [worksheet, slides, interaction]
+      barrier: [working_memory, reading_fluency, language_comprehension, attention]
+      access_dimension: structure
+      changes_goal: false
+      often_relevant_to: [dyslexia, developmental language disorder, ADHD, EAL]
+    evidence:
+      rating: practitioner_wisdom
+      rationale: "EEF small steps, NAS and DLD guidance on checking understanding (clm-ACC-chunkread-check)."
+    relations:
+      uses_principle: [prn-EVD-reading-comprehension-strategies, prn-EVD-formative-assessment]
+    render_settings: { chunk_max_lines: 5, check_after_each_chunk: true, chunk_numbering: true }
+    artefact_recipes:
+      worksheet: "P7 English: novel extract in four numbered chunks, each followed by one 'Who/What/Why' check."
+      slides: "S1 history: account of the Battle of Bannockburn shown one chunk per slide with a hinge question."
+    claims: [clm-ACC-chunkread-check, clm-ACC-chunkread-steps, clm-ACC-chunkread-recap, clm-ACC-chunkread-paragraphs]
+
+  - id: adp-ACC-graphic-organisers
+    type: adaptation
+    title: "Graphic organisers"
+    summary: "Give a pre-structured visual frame (timeline, Venn, T-chart, Frayer model, flow chart) to organise ideas."
+    body: |
+      Choose the organiser that matches the thinking: a T-chart for two sides, a Venn for comparison, a flow chart for cause and consequence, a Frayer model for a key concept. Pre-fill part of it at first and remove the pre-filled parts over time.
+    status: draft
+    version: "0.1"
+    curated_by: [ACC]
+    facets:
+      jurisdiction: [scotland]
+      cfe_level: [second, third]
+      stage: [p7, s1]
+      curriculum_area: [all]
+      artefact_type: [worksheet, slides]
+      barrier: [working_memory, organisation, language_comprehension]
+      access_dimension: representation
+      changes_goal: false
+      often_relevant_to: [dyslexia, developmental language disorder, ADHD, EAL]
+    evidence:
+      rating: moderate
+      rationale: "EEF cites graphic organisers among cognitive strategies (clm-ACC-go-eef)."
+    relations:
+      uses_principle: [prn-EVD-dual-coding, prn-EVD-scaffolding]
+    render_settings: { organiser_types: [t_chart, venn, flow_chart, frayer, timeline], prefill_level_options: [high, partial, none] }
+    artefact_recipes:
+      worksheet: "S1 history: cause and consequence flow chart for the Declaration of Arbroath with first box completed."
+      slides: "P7 English: Frayer model for 'metaphor' built live with the class."
+    claims: [clm-ACC-go-eef, clm-ACC-go-flowcharts, clm-ACC-go-fade]
+
+  - id: adp-ACC-home-language-glossary
+    type: adaptation
+    title: "Home-language glossaries and first-language use"
+    summary: "Give EAL learners key topic words with home-language equivalents, and let them think and talk in their first language."
+    body: |
+      Prepare or co-create a bilingual glossary of key topic words (with images). Allow bilingual dictionaries, dual-language texts and talk with same-language peers. Use first-language rehearsal before English output, not instead of it.
+    status: draft
+    version: "0.1"
+    curated_by: [ACC]
+    facets:
+      jurisdiction: [scotland]
+      cfe_level: [second, third]
+      stage: [p7, s1]
+      curriculum_area: [all]
+      artefact_type: [worksheet, interaction, lesson_plan]
+      barrier: [vocabulary, language_comprehension]
+      access_dimension: language
+      changes_goal: false
+      often_relevant_to: [EAL]
+    evidence:
+      rating: practitioner_wisdom
+      rationale: "Bell Foundation and Scottish local authority EAL guidance (clm-ACC-l1-glossary)."
+    risks:
+      - "Machine translation of subject terms can be inaccurate; check with a bilingual adult where possible."
+    render_settings: { bilingual_glossary: true, glossary_columns: [english, home_language, image] }
+    artefact_recipes:
+      worksheet: "Glossary table: English word, home-language word, picture, for 'clan', 'chief', 'rebellion'."
+      interaction: "Same-language pairs plan an answer in their first language, then write in English."
+    claims: [clm-ACC-l1-glossary, clm-ACC-l1-transfer, clm-ACC-l1-translanguaging, clm-ACC-l1-dual-books, clm-ACC-l1-code]
+
+  - id: adp-ACC-writing-frames-sentence-starters
+    type: adaptation
+    title: "Writing frames and sentence starters"
+    summary: "Provide a frame with headings and sentence stems so the pupil can focus on content."
+    body: |
+      Give a frame with section headings and two or three sentence starters per section, matched to the text type. Model one section first. Plan to fade: move headings to the board, then remove stems.
+    status: draft
+    version: "0.1"
+    curated_by: [ACC]
+    facets:
+      jurisdiction: [scotland]
+      cfe_level: [second, third]
+      stage: [p7, s1]
+      curriculum_area: [all]
+      artefact_type: [worksheet, form]
+      barrier: [written_expression, working_memory, language_comprehension, organisation]
+      access_dimension: response_mode
+      changes_goal: false
+      often_relevant_to: [EAL, developmental language disorder, dyslexia]
+    evidence:
+      rating: moderate
+      rationale: "EEF gives writing frames as a scaffold to be faded (clm-ACC-frame-eef)."
+    relations:
+      uses_principle: [prn-EVD-scaffolding]
+    render_settings: { section_headings: true, stems_per_section: 3, fade_plan: true }
+    artefact_recipes:
+      worksheet: "S1 history: 'The source is useful because... However, it is limited because... Overall...'."
+      form: "Digital form with stems pre-filled in each response box."
+    claims: [clm-ACC-frame-eef, clm-ACC-frame-eal, clm-ACC-frame-model]
+
+  - id: adp-ACC-quiet-space-noise
+    type: adaptation
+    title: "Reduced noise and access to a quiet space"
+    summary: "Lower noise around the pupil, allow ear defenders or headphones, and agree a quiet place to regulate."
+    body: |
+      Seat the pupil away from noise sources. Allow ear defenders during independent work. Agree a quiet space and a signal to use it, and plan how they rejoin the lesson.
+    status: draft
+    version: "0.1"
+    curated_by: [ACC]
+    facets:
+      jurisdiction: [scotland]
+      cfe_level: [second, third]
+      stage: [p7, s1]
+      curriculum_area: [all]
+      artefact_type: [lesson_plan, interaction]
+      barrier: [sensory_load, anxiety, attention]
+      access_dimension: sensory
+      changes_goal: false
+      often_relevant_to: [autism, ADHD, anxiety]
+    evidence:
+      rating: practitioner_wisdom
+      rationale: "Autism Toolbox sensory and universal support guidance (clm-ACC-quiet-noise)."
+    render_settings: { headphones_allowed: true, quiet_space_agreed: true, exit_signal: card }
+    artefact_recipes:
+      lesson_plan: "Note seating and a pre-agreed exit card for the pupil."
+    claims: [clm-ACC-quiet-noise, clm-ACC-quiet-space]
+
+  - id: adp-ACC-movement-breaks
+    type: adaptation
+    title: "Planned movement breaks"
+    summary: "Build short, planned movement into the lesson, including when the pupil seems settled."
+    body: |
+      Schedule a brief movement task (handing out resources, a stand-up pair talk, a walk to a resource station) at planned points rather than waiting for restlessness.
+    status: draft
+    version: "0.1"
+    curated_by: [ACC]
+    facets:
+      jurisdiction: [scotland]
+      cfe_level: [second, third]
+      stage: [p7, s1]
+      curriculum_area: [all]
+      artefact_type: [lesson_plan, interaction]
+      barrier: [attention, sensory_load]
+      access_dimension: sensory
+      changes_goal: false
+      often_relevant_to: [ADHD, autism]
+    evidence:
+      rating: practitioner_wisdom
+      rationale: "Autism Toolbox recommends regular movement breaks (clm-ACC-move-breaks)."
+    render_settings: { movement_break_interval_minutes: 15 }
+    artefact_recipes:
+      lesson_plan: "S1 history carousel: sources placed at stations so pupils move every few minutes."
+    claims: [clm-ACC-move-breaks]
+
+  - id: adp-ACC-accessible-digital-texts
+    type: adaptation
+    title: "Accessible digital copies of texts"
+    summary: "Provide the class text or source as an accessible digital file the pupil can enlarge, recolour or listen to."
+    body: |
+      Check Books for All for accessible versions of curriculum books before scanning. Make sure the file is real text, can be enlarged to at least 200% without breaking, and works with the pupil's reader.
+    status: draft
+    version: "0.1"
+    curated_by: [ACC]
+    facets:
+      jurisdiction: [scotland]
+      cfe_level: [second, third]
+      stage: [p7, s1]
+      curriculum_area: [all]
+      artefact_type: [worksheet, slides]
+      barrier: [decoding, visual_access, reading_fluency]
+      access_dimension: representation
+      changes_goal: false
+      often_relevant_to: [dyslexia, visual impairment]
+    evidence:
+      rating: practitioner_wisdom
+      rationale: "CALL Scotland provision and WCAG resizing criterion (clm-ACC-digital-books)."
+    render_settings: { real_text: true, resize_to_percent: 200, reflow: true }
+    artefact_recipes:
+      worksheet: "Link the digital class novel for P7 so the pupil can follow on a device."
+    claims: [clm-ACC-digital-books, clm-ACC-digital-resize]
+
+  - id: adp-ACC-symbol-supported-text
+    type: adaptation
+    title: "Symbol-supported text"
+    summary: "Add consistent symbols to key words in instructions and short texts."
+    body: |
+      Use one consistent symbol set for instructions (read, write, talk, draw) and key words. Match the level of support to the pupil's communication stage; do not symbolise every word for a fluent reader.
+    status: draft
+    version: "0.1"
+    curated_by: [ACC]
+    facets:
+      jurisdiction: [scotland]
+      cfe_level: [second, third]
+      stage: [p7, s1]
+      curriculum_area: [all]
+      artefact_type: [worksheet, slides, form]
+      barrier: [language_comprehension, decoding]
+      access_dimension: representation
+      changes_goal: false
+      often_relevant_to: [autism, developmental language disorder, EAL, learning disability]
+    evidence:
+      rating: practitioner_wisdom
+      rationale: "ASL Code example and CALL Scotland Symbols for All (clm-ACC-symbols-code)."
+    render_settings: { symbol_set_consistent: true, symbolise: [instruction_verbs, key_terms] }
+    artefact_recipes:
+      worksheet: "Instruction icons (pencil, speech bubble, eye) beside each numbered step."
+    claims: [clm-ACC-symbols-code, clm-ACC-symbols-call, clm-ACC-symbols-stage]
+
+  - id: adp-ACC-repeat-and-check-instructions
+    type: adaptation
+    title: "Repeat, check back and leave instructions visible"
+    summary: "Repeat instructions in the same words, ask the pupil to say them back, and keep them written up."
+    body: |
+      After giving instructions, check one or two pupils can say them back. If repeating, keep the same wording. Leave the numbered steps on the board or desk for the whole task.
+    status: draft
+    version: "0.1"
+    curated_by: [ACC]
+    facets:
+      jurisdiction: [scotland]
+      cfe_level: [second, third]
+      stage: [p7, s1]
+      curriculum_area: [all]
+      artefact_type: [interaction, slides]
+      barrier: [working_memory, language_comprehension, attention]
+      access_dimension: instructions
+      changes_goal: false
+      often_relevant_to: [developmental language disorder, ADHD, EAL, autism]
+    evidence:
+      rating: practitioner_wisdom
+      rationale: "NAS and DLD guidance (clm-ACC-repeat-same)."
+    render_settings: { instructions_persist_on_screen: true, check_back: true }
+    artefact_recipes:
+      interaction: "'Jamie, tell me step one.' Then 'What comes after that?'"
+      slides: "Instruction slide stays visible (or is pinned) during the task."
+    claims: [clm-ACC-repeat-same, clm-ACC-repeat-back, clm-ACC-repeat-visible]
+
+  - id: adp-ACC-lower-reading-level-version
+    type: adaptation
+    title: "Lower reading-level version of a text"
+    summary: "Provide a version of a text in simpler language alongside the original. Flags as a possible change to the goal."
+    body: |
+      Rewrite with shorter sentences, common words and key terms kept and glossed. In S1 history, where the goal is historical understanding, this is usually access only. In P7 English, where reading that text is the goal, it modifies the task: use it as a pre-read before the original, not a replacement. Flagged changes_goal true so a teacher must decide.
+    status: draft
+    version: "0.1"
+    curated_by: [ACC]
+    facets:
+      jurisdiction: [scotland]
+      cfe_level: [second, third]
+      stage: [p7, s1]
+      curriculum_area: [languages, social_studies]
+      artefact_type: [worksheet, slides]
+      barrier: [decoding, language_comprehension, vocabulary]
+      access_dimension: language
+      changes_goal: true
+      often_relevant_to: [EAL, developmental language disorder, dyslexia]
+    evidence:
+      rating: practitioner_wisdom
+      rationale: "WCAG 3.1.5 supports supplementary simpler versions; goal check is curator inference (clm-ACC-lrl-wcag)."
+    relations:
+      caution_from: [cau-ACC-scaffolds-temporary-high-expectations]
+    risks:
+      - "Replacing rather than supplementing the original can lower expectations and remove the challenge pupils need."
+    render_settings: { keep_original_available: true, key_terms_retained: true, max_sentence_words: 15 }
+    artefact_recipes:
+      worksheet: "S1 history: original source extract on the left, plain version on the right, key terms bold in both."
+    claims: [clm-ACC-lrl-wcag, clm-ACC-lrl-plain, clm-ACC-lrl-goal]
+
+  # =====================================================================
+  # C. SCOTTISH CONTEXT (cautions the model must respect)
+  # =====================================================================
+
+  - id: cau-ACC-asl-act-code-of-practice
+    type: caution
+    title: "Education (Additional Support for Learning) (Scotland) Act 2004 and Code of Practice"
+    summary: "Scotland's legal framework defines additional support needs broadly: any barrier, any reason, short or long term, with support in teaching approaches, people and resources."
+    body: |
+      Any pupil who for whatever reason needs support beyond what is generally provided to peers has additional support needs. Barriers include the learning environment itself, so adapting teaching is part of meeting the duty. Adaptations in this library are "approaches to learning and teaching". The code cited here is the third edition (2017); gov.scot lists a fourth edition (2026) that should be checked before publishing.
+    status: draft
+    version: "0.1"
+    curated_by: [ACC]
+    facets:
+      jurisdiction: [scotland]
+      cfe_level: [early, first, second, third, fourth, senior]
+      curriculum_area: [all]
+      artefact_type: [lesson_plan]
+    evidence:
+      rating: strong
+      rationale: "Statutory guidance (clm-ACC-asl-definition)."
+    claims: [clm-ACC-asl-definition, clm-ACC-asl-factors, clm-ACC-asl-regard, clm-ACC-asl-support-types]
+
+  - id: cau-ACC-girfec
+    type: caution
+    title: "Getting it right for every child (GIRFEC)"
+    summary: "Support sits within GIRFEC: rights-based, wellbeing-focused, with the child's and family's views sought."
+    body: |
+      Classroom adaptations are part of the wider GIRFEC approach. Where several agencies are involved a Child's Plan may coordinate support. The pupil's own views on what helps should be sought and recorded (store them in the school system, not this library).
+    status: draft
+    version: "0.1"
+    curated_by: [ACC]
+    facets:
+      jurisdiction: [scotland]
+      cfe_level: [early, first, second, third, fourth, senior]
+      curriculum_area: [all]
+      artefact_type: [lesson_plan]
+    evidence:
+      rating: strong
+      rationale: "Scottish Government policy and statutory guidance (clm-ACC-girfec-what)."
+    claims: [clm-ACC-girfec-what, clm-ACC-girfec-childplan, clm-ACC-girfec-views]
+
+  - id: cau-ACC-staged-intervention
+    type: caution
+    title: "Staged intervention: universal support first"
+    summary: "Needs are met early and with the least intrusive support; most are met at the universal level by the class teacher."
+    body: |
+      Start with universal classroom adaptations (format rules and light-touch adaptations). Escalate only when these are not enough. Local authorities use different numbers of stages; the Act does not prescribe one model.
+    status: draft
+    version: "0.1"
+    curated_by: [ACC]
+    facets:
+      jurisdiction: [scotland]
+      cfe_level: [early, first, second, third, fourth, senior]
+      curriculum_area: [all]
+      artefact_type: [lesson_plan]
+    evidence:
+      rating: strong
+      rationale: "Statutory guidance and Education Scotland managed resource (clm-ACC-staged-least)."
+    claims: [clm-ACC-staged-least, clm-ACC-staged-models, clm-ACC-staged-universal]
+
+  - id: cau-ACC-iep
+    type: caution
+    title: "Individualised educational programmes (IEPs)"
+    summary: "IEPs are non-statutory working plans for pupils whose needs universal planning cannot meet; they set measurable outcomes reviewed at least termly."
+    body: |
+      When a pupil has an IEP, artefacts and adaptations should serve its outcomes. The library does not store IEP content; a pupil profile can reference adaptation entry ids.
+    status: draft
+    version: "0.1"
+    curated_by: [ACC]
+    facets:
+      jurisdiction: [scotland]
+      cfe_level: [early, first, second, third, fourth, senior]
+      curriculum_area: [all]
+      artefact_type: [lesson_plan]
+    evidence:
+      rating: strong
+      rationale: "Education Scotland guidance and statutory code (clm-ACC-iep-who)."
+    claims: [clm-ACC-iep-who, clm-ACC-iep-content, clm-ACC-iep-staged, clm-ACC-iep-code]
+
+  - id: cau-ACC-morgan-review
+    type: caution
+    title: "Morgan review of ASL implementation (2020)"
+    summary: "The legislation is sound but implementation is inconsistent; reliance on diagnosis to unlock support is a problem."
+    body: |
+      Use as context when planning: do not make classroom adaptations conditional on a diagnosis; treat inclusion as every teacher's responsibility; put relationships before process.
+    status: draft
+    version: "0.1"
+    curated_by: [ACC]
+    facets:
+      jurisdiction: [scotland]
+      cfe_level: [early, first, second, third, fourth, senior]
+      curriculum_area: [all]
+      artefact_type: [lesson_plan]
+    evidence:
+      rating: strong
+      rationale: "Independent review commissioned by Scottish Ministers (clm-ACC-morgan-implementation)."
+    claims: [clm-ACC-morgan-implementation, clm-ACC-morgan-diagnosis, clm-ACC-morgan-visibility, clm-ACC-morgan-inclusion, clm-ACC-morgan-themes]
+
+  - id: cau-ACC-needs-not-labels
+    type: caution
+    title: "Plan from the individual's needs, not from labels"
+    summary: "Choose adaptations by barrier and by what works for this pupil; diagnostic labels are hints only."
+    body: |
+      The often_relevant_to field on adaptations is a hint, never a rule. Start from the observed barrier (for example decoding, processing speed, sensory load), trial an adaptation, ask the pupil, and keep what works. Do not wait for a diagnosis before adapting, and do not assume every pupil with a label needs the same adaptations.
+    status: draft
+    version: "0.1"
+    curated_by: [ACC]
+    facets:
+      jurisdiction: [scotland]
+      cfe_level: [early, first, second, third, fourth, senior]
+      curriculum_area: [all]
+      artefact_type: [lesson_plan, worksheet, slides, form, interaction]
+    evidence:
+      rating: strong
+      rationale: "EEF guidance, ASL Code and Scottish dyslexia definition agree (clm-ACC-needs-eef)."
+    claims: [clm-ACC-needs-eef, clm-ACC-needs-question, clm-ACC-needs-code, clm-ACC-needs-adt, clm-ACC-needs-dyslexia-continuum, clm-ACC-needs-hints]
+
+  - id: cau-ACC-dyslexia-fonts
+    type: caution
+    title: "Specialist dyslexia fonts: no reading benefit"
+    summary: "Trials of OpenDyslexic and Dyslexie found no gains in reading speed or accuracy; spacing, not letter shape, is the likely active ingredient."
+    body: |
+      Do not convert class materials to a specialist dyslexia font or present it as support. Use plain fonts with good spacing; allow an individual's preferred font.
+    status: draft
+    version: "0.1"
+    curated_by: [ACC]
+    facets:
+      jurisdiction: [scotland]
+      cfe_level: [early, first, second, third, fourth, senior]
+      curriculum_area: [all]
+      artefact_type: [worksheet, slides, form]
+    evidence:
+      rating: not_recommended
+      rationale: "Two trials found no benefit (clm-ACC-font-opendyslexic, clm-ACC-font-dyslexie)."
+    claims: [clm-ACC-font-opendyslexic, clm-ACC-font-dyslexie, clm-ACC-font-spacing-confound, clm-ACC-font-preference-ok]
+
+  - id: cau-ACC-scaffolds-temporary-high-expectations
+    type: caution
+    title: "Adaptations keep expectations high; scaffolds fade"
+    summary: "Access adaptations should keep the same learning goal; scaffolds are temporary and planned to be removed."
+    body: |
+      For each adaptation check: does the pupil still meet the learning intention? If an adaptation changes the goal (changes_goal true) a teacher must approve it. Plan how each scaffold will be faded. Inclusive practice is built into planning for all, not bolted on.
+    status: draft
+    version: "0.1"
+    curated_by: [ACC]
+    facets:
+      jurisdiction: [scotland]
+      cfe_level: [early, first, second, third, fourth, senior]
+      curriculum_area: [all]
+      artefact_type: [lesson_plan, worksheet, slides, form, interaction]
+    evidence:
+      rating: strong
+      rationale: "EEF guidance report (clm-ACC-scaf-temporary)."
+    relations:
+      uses_principle: [prn-EVD-scaffolding]
+    claims: [clm-ACC-scaf-temporary, clm-ACC-scaf-expectations, clm-ACC-scaf-five, clm-ACC-scaf-all, clm-ACC-scaf-inclusion]
+
+claims:
+
+  # --- format rules ---
+  - id: clm-ACC-emph-bold
+    entry_id: fmt-ACC-emphasis-bold
+    text: "Use bold for emphasis; italics and underlining make text look crowded for many readers."
+    supported_by: [psg-ACC-bda-emphasis]
+    support_type: paraphrase
+  - id: clm-ACC-emph-no-caps
+    entry_id: fmt-ACC-emphasis-bold
+    text: "Avoid writing in capitals for emphasis, especially in continuous text."
+    supported_by: [psg-ACC-bda-emphasis]
+    support_type: paraphrase
+  - id: clm-ACC-emph-key-actions
+    entry_id: fmt-ACC-emphasis-bold
+    text: "Key information and actions should be made visually distinct from the surrounding text."
+    supported_by: [psg-ACC-dysscot-writing]
+    support_type: paraphrase
+
+  - id: clm-ACC-align-left
+    entry_id: fmt-ACC-left-aligned-ragged-right
+    text: "Text should be left aligned and not justified, in a single column rather than multiple columns."
+    supported_by: [psg-ACC-bda-layout, psg-ACC-dysscot-layout]
+    support_type: paraphrase
+  - id: clm-ACC-align-wcag
+    entry_id: fmt-ACC-left-aligned-ragged-right
+    text: "WCAG 2.2 advises that blocks of text are not justified and are no wider than 80 characters."
+    supported_by: [psg-ACC-wcag-1-4-8]
+    support_type: paraphrase
+  - id: clm-ACC-line-length
+    entry_id: fmt-ACC-left-aligned-ragged-right
+    text: "Shorter lines, roughly 50 to 75 characters, are recommended and often help dyslexic readers."
+    supported_by: [psg-ACC-dysscot-line-length, psg-ACC-bda-layout]
+    support_type: paraphrase
+
+  - id: clm-ACC-font-sans
+    entry_id: fmt-ACC-readable-font-size
+    text: "A plain, evenly spaced sans serif font such as Arial, Verdana or Calibri is the recommended default."
+    supported_by: [psg-ACC-bda-fonts, psg-ACC-dysscot-typeface]
+    support_type: paraphrase
+  - id: clm-ACC-font-no-special-advantage
+    entry_id: fmt-ACC-readable-font-size
+    text: "No single font has been shown to be best for dyslexic readers, and specialist dyslexia fonts did not improve reading in trials."
+    supported_by: [psg-ACC-dysscot-typeface, psg-ACC-wery-abstract, psg-ACC-kuster-findings]
+    support_type: paraphrase
+  - id: clm-ACC-font-size
+    entry_id: fmt-ACC-readable-font-size
+    text: "Body text should be at least 12 point, with 12 to 14 point recommended and larger text for readers who need it."
+    supported_by: [psg-ACC-bda-fonts, psg-ACC-dysscot-typeface]
+    support_type: paraphrase
+
+  - id: clm-ACC-spacing-line
+    entry_id: fmt-ACC-text-spacing
+    text: "Line spacing of about 1.5 is recommended."
+    supported_by: [psg-ACC-bda-spacing, psg-ACC-dysscot-spacing, psg-ACC-wcag-1-4-8]
+    support_type: paraphrase
+  - id: clm-ACC-spacing-tolerate
+    entry_id: fmt-ACC-text-spacing
+    text: "Digital content should keep working when users raise line height to 1.5, paragraph spacing to 2, letter spacing to 0.12 and word spacing to 0.16 times the font size."
+    supported_by: [psg-ACC-wcag-1-4-12]
+    support_type: paraphrase
+  - id: clm-ACC-spacing-paragraph
+    entry_id: fmt-ACC-text-spacing
+    text: "Extra space should separate paragraphs and surround headings."
+    supported_by: [psg-ACC-bda-headings, psg-ACC-dysscot-spacing]
+    support_type: paraphrase
+
+  - id: clm-ACC-clutter-white-space
+    entry_id: fmt-ACC-uncluttered-white-space
+    text: "Clean, uncluttered layouts that use white space to group related content are recommended."
+    supported_by: [psg-ACC-bda-layout, psg-ACC-dysscot-layout]
+    support_type: paraphrase
+  - id: clm-ACC-clutter-plain-background
+    entry_id: fmt-ACC-uncluttered-white-space
+    text: "Backgrounds should be a single plain colour without patterns or pictures."
+    supported_by: [psg-ACC-bda-colour]
+    support_type: paraphrase
+  - id: clm-ACC-clutter-sensory
+    entry_id: fmt-ACC-uncluttered-white-space
+    text: "Reducing visual clutter also lowers sensory load for learners who are sensitive to it."
+    supported_by: [psg-ACC-at-sensory-env]
+    support_type: inference_by_curator
+
+  - id: clm-ACC-chunk-headings
+    entry_id: fmt-ACC-one-task-per-block
+    text: "Content should be chunked under clear headings and subheadings."
+    supported_by: [psg-ACC-dysscot-layout]
+    support_type: paraphrase
+  - id: clm-ACC-chunk-short-sentences
+    entry_id: fmt-ACC-one-task-per-block
+    text: "Sentences of about 25 words or fewer and paragraphs of about five lines, with key information first, are recommended."
+    supported_by: [psg-ACC-dysscot-writing]
+    support_type: paraphrase
+  - id: clm-ACC-chunk-small-steps
+    entry_id: fmt-ACC-one-task-per-block
+    text: "Breaking tasks and teaching into small steps is part of explicit instruction for pupils with SEND."
+    supported_by: [psg-ACC-eef-explicit, psg-ACC-eef-small-steps]
+    support_type: paraphrase
+  - id: clm-ACC-chunk-one-at-a-time
+    entry_id: fmt-ACC-one-task-per-block
+    text: "Giving one piece of information or one instruction at a time helps pupils with communication needs."
+    supported_by: [psg-ACC-nas-chunk, psg-ACC-dld-instructions]
+    support_type: paraphrase
+
+  - id: clm-ACC-plain-active
+    entry_id: fmt-ACC-plain-language-instructions
+    text: "Instructions should use the active voice and plain everyday words, without double negatives."
+    supported_by: [psg-ACC-bda-writing]
+    support_type: paraphrase
+  - id: clm-ACC-plain-lists
+    entry_id: fmt-ACC-plain-language-instructions
+    text: "Numbered lists and bullet points are preferable to continuous prose for procedures."
+    supported_by: [psg-ACC-bda-lists-images]
+    support_type: paraphrase
+  - id: clm-ACC-plain-positive
+    entry_id: fmt-ACC-plain-language-instructions
+    text: "Telling pupils what to do is clearer than telling them what not to do."
+    supported_by: [psg-ACC-nas-positive-alt]
+    support_type: paraphrase
+  - id: clm-ACC-plain-labels
+    entry_id: fmt-ACC-plain-language-instructions
+    text: "Every place where a pupil must respond should carry a label or instruction."
+    supported_by: [psg-ACC-wcag-3-3-2]
+    support_type: paraphrase
+  - id: clm-ACC-plain-unambiguous
+    entry_id: fmt-ACC-plain-language-instructions
+    text: "Explicit instruction for pupils with SEND uses clear and unambiguous language."
+    supported_by: [psg-ACC-eef-explicit]
+    support_type: paraphrase
+
+  - id: clm-ACC-colour-contrast
+    entry_id: fmt-ACC-colour-contrast-background
+    text: "Body text should have a contrast ratio of at least 4.5:1 with its background (3:1 for large text)."
+    supported_by: [psg-ACC-wcag-1-4-3, psg-ACC-dysscot-background]
+    support_type: paraphrase
+  - id: clm-ACC-colour-not-white
+    entry_id: fmt-ACC-colour-contrast-background
+    text: "Dark text on an off-white or cream background is preferred to stark white."
+    supported_by: [psg-ACC-bda-colour, psg-ACC-dysscot-background]
+    support_type: paraphrase
+  - id: clm-ACC-colour-not-sole
+    entry_id: fmt-ACC-colour-contrast-background
+    text: "Colour must never be the only way information or an action is signalled."
+    supported_by: [psg-ACC-wcag-1-4-1]
+    support_type: paraphrase
+  - id: clm-ACC-colour-red-green
+    entry_id: fmt-ACC-colour-contrast-background
+    text: "Green with red or pink should be avoided because these are hard to tell apart for people with colour vision deficiency."
+    supported_by: [psg-ACC-bda-colour]
+    support_type: paraphrase
+
+  - id: clm-ACC-head-size
+    entry_id: fmt-ACC-heading-hierarchy
+    text: "Headings should be at least 20% larger than body text, bold, and never smaller than body text."
+    supported_by: [psg-ACC-bda-headings, psg-ACC-dysscot-layout]
+    support_type: paraphrase
+  - id: clm-ACC-head-styles
+    entry_id: fmt-ACC-heading-hierarchy
+    text: "Headings should be created with built-in heading styles so their structure is available to assistive technology."
+    supported_by: [psg-ACC-bda-headings, psg-ACC-wcag-1-3-1]
+    support_type: paraphrase
+  - id: clm-ACC-head-descriptive
+    entry_id: fmt-ACC-heading-hierarchy
+    text: "Headings and labels should describe the topic or purpose of the content."
+    supported_by: [psg-ACC-wcag-2-4-6]
+    support_type: paraphrase
+  - id: clm-ACC-head-consistent
+    entry_id: fmt-ACC-heading-hierarchy
+    text: "Elements that do the same job should be identified the same way throughout a set of materials."
+    supported_by: [psg-ACC-wcag-3-2-4]
+    support_type: direct_quote
+
+  - id: clm-ACC-slides-sparse
+    entry_id: fmt-ACC-accessible-slides
+    text: "Slides should use text sparingly at a large size, with 32 point suggested as a minimum."
+    supported_by: [psg-ACC-dysscot-slides-formats]
+    support_type: paraphrase
+  - id: clm-ACC-slides-alt-text
+    entry_id: fmt-ACC-accessible-slides
+    text: "Meaningful images need a text alternative; purely decorative images do not."
+    supported_by: [psg-ACC-wcag-1-1-1]
+    support_type: paraphrase
+  - id: clm-ACC-slides-formats
+    entry_id: fmt-ACC-accessible-slides
+    text: "Offering materials in customisable formats that work with text-to-speech is recommended."
+    supported_by: [psg-ACC-dysscot-slides-formats]
+    support_type: paraphrase
+  - id: clm-ACC-slides-dual
+    entry_id: fmt-ACC-accessible-slides
+    text: "Text should be supported with images, diagrams and flow charts."
+    supported_by: [psg-ACC-bda-lists-images, psg-ACC-dysscot-slides-formats]
+    support_type: paraphrase
+
+  # --- adaptations ---
+  - id: clm-ACC-tts-scottish-voice
+    entry_id: adp-ACC-text-to-speech
+    text: "Scottish-accented computer voices for reading resources aloud are free to the Scottish public sector through CALL Scotland."
+    supported_by: [psg-ACC-scotvoice]
+    support_type: paraphrase
+  - id: clm-ACC-tts-call-tools
+    entry_id: adp-ACC-text-to-speech
+    text: "CALL Scotland provides free text-to-speech and literacy support tools and accessible curriculum books for Scottish learners."
+    supported_by: [psg-ACC-call-resources]
+    support_type: paraphrase
+  - id: clm-ACC-tts-offer
+    entry_id: adp-ACC-text-to-speech
+    text: "Dyslexia Scotland recommends offering text-to-speech and customisable formats."
+    supported_by: [psg-ACC-dysscot-slides-formats]
+    support_type: paraphrase
+  - id: clm-ACC-tts-technology
+    entry_id: adp-ACC-text-to-speech
+    text: "Using technology to support access is one of the EEF's five recommended classroom strategies for pupils with SEND."
+    supported_by: [psg-ACC-eef-five-strategies, psg-ACC-eef-technology]
+    support_type: paraphrase
+
+  - id: clm-ACC-spacing-zorzi
+    entry_id: adp-ACC-individual-spacing-background
+    text: "Increasing letter spacing improved text reading in a large sample of Italian and French children with dyslexia, without any training."
+    supported_by: [psg-ACC-zorzi-abstract]
+    support_type: paraphrase
+  - id: clm-ACC-spacing-preference
+    entry_id: adp-ACC-individual-spacing-background
+    text: "Wider letter and word spacing should be adjusted to the individual reader's preference, avoiding excessive gaps."
+    supported_by: [psg-ACC-dysscot-spacing, psg-ACC-bda-spacing]
+    support_type: paraphrase
+  - id: clm-ACC-spacing-not-font
+    entry_id: adp-ACC-individual-spacing-background
+    text: "Spacing, rather than letter shape, may explain benefits once attributed to dyslexia fonts."
+    supported_by: [psg-ACC-kuster-spacing]
+    support_type: paraphrase
+  - id: clm-ACC-bg-preference
+    entry_id: adp-ACC-individual-spacing-background
+    text: "Background colour preferences vary between readers; some prefer tinted or lower-contrast combinations."
+    supported_by: [psg-ACC-dysscot-background]
+    support_type: paraphrase
+
+  - id: clm-ACC-font-preference-ok
+    entry_id: adp-ACC-preferred-font
+    text: "Readers may use a preferred font, including a specialist one, if they find it helpful, but most children in one trial preferred standard fonts."
+    supported_by: [psg-ACC-dysscot-typeface, psg-ACC-kuster-findings]
+    support_type: paraphrase
+  - id: clm-ACC-font-opendyslexic
+    entry_id: cau-ACC-dyslexia-fonts
+    text: "OpenDyslexic produced no gains in reading rate or accuracy compared with Arial or Times New Roman in a small study of pupils with dyslexia."
+    supported_by: [psg-ACC-wery-abstract]
+    support_type: paraphrase
+  - id: clm-ACC-font-dyslexie
+    entry_id: cau-ACC-dyslexia-fonts
+    text: "The Dyslexie font did not improve reading speed or accuracy for children with or without dyslexia."
+    supported_by: [psg-ACC-kuster-findings]
+    support_type: paraphrase
+  - id: clm-ACC-font-spacing-confound
+    entry_id: cau-ACC-dyslexia-fonts
+    text: "Apparent advantages of dyslexia fonts may be due to their wider spacing rather than their letter shapes."
+    supported_by: [psg-ACC-kuster-spacing, psg-ACC-zorzi-abstract]
+    support_type: inference_by_curator
+
+  - id: clm-ACC-vocab-eef
+    entry_id: adp-ACC-pre-taught-vocab-word-bank
+    text: "Pre-teaching vocabulary is given by the EEF as an example of responding to identified needs."
+    supported_by: [psg-ACC-eef-vocab]
+    support_type: paraphrase
+  - id: clm-ACC-vocab-dld
+    entry_id: adp-ACC-pre-taught-vocab-word-bank
+    text: "Pupils with developmental language disorder do not pick up new words incidentally and benefit from explicit teaching of key subject vocabulary."
+    supported_by: [psg-ACC-dld-vocab]
+    support_type: paraphrase
+  - id: clm-ACC-vocab-wordbank
+    entry_id: adp-ACC-pre-taught-vocab-word-bank
+    text: "For EAL learners, key words can be pre-taught with visuals and word banks kept to hand during writing."
+    supported_by: [psg-ACC-abd-visuals-vocab]
+    support_type: paraphrase
+  - id: clm-ACC-vocab-glossary
+    entry_id: adp-ACC-pre-taught-vocab-word-bank
+    text: "A glossary of jargon and abbreviations supports readers."
+    supported_by: [psg-ACC-bda-writing]
+    support_type: paraphrase
+
+  - id: clm-ACC-img-eal
+    entry_id: adp-ACC-images-with-vocabulary
+    text: "Visuals, pictorial flashcards and visual dictionaries support EAL learners with new vocabulary."
+    supported_by: [psg-ACC-abd-visuals-vocab]
+    support_type: paraphrase
+  - id: clm-ACC-img-dld
+    entry_id: adp-ACC-images-with-vocabulary
+    text: "Pictures on worksheets and other visual prompts support memory and understanding for pupils with language difficulties."
+    supported_by: [psg-ACC-dld-visual, psg-ACC-nas-visual]
+    support_type: paraphrase
+  - id: clm-ACC-img-labels
+    entry_id: adp-ACC-images-with-vocabulary
+    text: "Clear labels and visual supports help learners with language and communication difficulties and learners of English as an additional language."
+    supported_by: [psg-ACC-at-incl-universal]
+    support_type: paraphrase
+  - id: clm-ACC-img-alt
+    entry_id: adp-ACC-images-with-vocabulary
+    text: "Images that carry meaning in digital materials need a text alternative."
+    supported_by: [psg-ACC-wcag-1-1-1]
+    support_type: paraphrase
+
+  - id: clm-ACC-literal-overliteral
+    entry_id: adp-ACC-literal-language
+    text: "Autistic learners can interpret language literally and may miss meaning that differs from the words said."
+    supported_by: [psg-ACC-at-comm-literal]
+    support_type: paraphrase
+  - id: clm-ACC-literal-idioms
+    entry_id: adp-ACC-literal-language
+    text: "Figurative phrases and vague words about time or size can be misunderstood, so realistic, exact timings help."
+    supported_by: [psg-ACC-nas-figurative]
+    support_type: paraphrase
+  - id: clm-ACC-literal-dld
+    entry_id: adp-ACC-literal-language
+    text: "Pupils with developmental language disorder often struggle with idioms and metaphors, so instructions should be literal."
+    supported_by: [psg-ACC-dld-instructions]
+    support_type: paraphrase
+  - id: clm-ACC-literal-teach
+    entry_id: adp-ACC-literal-language
+    text: "Where figurative language is part of the learning, explaining it explicitly is preferable to removing it."
+    supported_by: [psg-ACC-nas-figurative, psg-ACC-eef-explicit, psg-ACC-eef-high-expectations]
+    support_type: inference_by_curator
+
+  - id: clm-ACC-sched-benefit
+    entry_id: adp-ACC-visual-schedule
+    text: "Autistic learners are likely to benefit from visual supports matched to their developmental stage."
+    supported_by: [psg-ACC-at-visual-quote]
+    support_type: direct_quote
+  - id: clm-ACC-sched-purposes
+    entry_id: adp-ACC-visual-schedule
+    text: "Visual timetables and schedules provide predictability, reduce anxiety and build independence, and work best when used consistently."
+    supported_by: [psg-ACC-at-visual-purposes]
+    support_type: paraphrase
+  - id: clm-ACC-sched-universal
+    entry_id: adp-ACC-visual-schedule
+    text: "Visual timetables are listed as a universal support in Scottish staged intervention."
+    supported_by: [psg-ACC-at-universal-supports, psg-ACC-at-sensory-breaks]
+    support_type: paraphrase
+  - id: clm-ACC-sched-predictable
+    entry_id: adp-ACC-visual-schedule
+    text: "Making the learning day predictable and planning adjustments in advance are key messages for inclusive classrooms."
+    supported_by: [psg-ACC-at-incl-universal]
+    support_type: paraphrase
+  - id: clm-ACC-sched-timings
+    entry_id: adp-ACC-visual-schedule
+    text: "Give realistic timings and keep to them."
+    supported_by: [psg-ACC-nas-figurative]
+    support_type: paraphrase
+
+  - id: clm-ACC-steps-lists
+    entry_id: adp-ACC-numbered-steps-with-model
+    text: "Numbered lists and flow charts make procedures easier to follow than continuous prose."
+    supported_by: [psg-ACC-bda-lists-images]
+    support_type: paraphrase
+  - id: clm-ACC-steps-checklist
+    entry_id: adp-ACC-numbered-steps-with-model
+    text: "Task checklists are an example of a visual scaffold for pupils with SEND."
+    supported_by: [psg-ACC-eef-scaffolding]
+    support_type: paraphrase
+  - id: clm-ACC-steps-model
+    entry_id: adp-ACC-numbered-steps-with-model
+    text: "Demonstrating and modelling a task before guided and independent practice is central to explicit instruction."
+    supported_by: [psg-ACC-eef-explicit, psg-ACC-abd-frames]
+    support_type: paraphrase
+  - id: clm-ACC-steps-one-action
+    entry_id: adp-ACC-numbered-steps-with-model
+    text: "Several spoken instructions given together are hard for some learners to organise, so give one at a time in the order they happen."
+    supported_by: [psg-ACC-dld-instructions, psg-ACC-at-comm-time]
+    support_type: paraphrase
+
+  - id: clm-ACC-resp-alternatives
+    entry_id: adp-ACC-alternative-response-modes
+    text: "Writing or pictures can be accepted as alternatives to speech, and different ways of communicating should be validated."
+    supported_by: [psg-ACC-nas-positive-alt]
+    support_type: paraphrase
+  - id: clm-ACC-resp-technology
+    entry_id: adp-ACC-alternative-response-modes
+    text: "Technology such as note-taking and speech-generating apps can support pupils with SEND to respond and communicate."
+    supported_by: [psg-ACC-eef-technology]
+    support_type: paraphrase
+  - id: clm-ACC-resp-goal-check
+    entry_id: adp-ACC-alternative-response-modes
+    text: "Before changing the response mode, check whether the response mode itself is what is being taught or assessed, to keep expectations high."
+    supported_by: [psg-ACC-eef-high-expectations]
+    support_type: inference_by_curator
+
+  - id: clm-ACC-time-wait
+    entry_id: adp-ACC-extra-processing-time
+    text: "Pause for at least ten seconds after a question or instruction without adding words, and repeat using the same words."
+    supported_by: [psg-ACC-nas-processing]
+    support_type: paraphrase
+  - id: clm-ACC-time-respond
+    entry_id: adp-ACC-extra-processing-time
+    text: "Some learners struggle to respond in the expected time, so adults should allow time and wait."
+    supported_by: [psg-ACC-at-comm-time]
+    support_type: paraphrase
+  - id: clm-ACC-time-dld
+    entry_id: adp-ACC-extra-processing-time
+    text: "Pupils with language difficulties need extra time both to understand instructions and to put answers into words."
+    supported_by: [psg-ACC-dld-time-check]
+    support_type: paraphrase
+
+  - id: clm-ACC-warn-name
+    entry_id: adp-ACC-warned-questioning
+    text: "Using the pupil's name first lets them know they are being addressed."
+    supported_by: [psg-ACC-nas-name-first]
+    support_type: paraphrase
+  - id: clm-ACC-warn-questions
+    entry_id: adp-ACC-warned-questioning
+    text: "Questions should be clear, direct and limited in number, with limited choices offered where possible."
+    supported_by: [psg-ACC-nas-questions]
+    support_type: paraphrase
+  - id: clm-ACC-warn-wait
+    entry_id: adp-ACC-warned-questioning
+    text: "Processing time after a question should not be filled with more talk."
+    supported_by: [psg-ACC-nas-processing]
+    support_type: paraphrase
+  - id: clm-ACC-warn-advance
+    entry_id: adp-ACC-warned-questioning
+    text: "Telling an anxious pupil in advance what they will be asked is a reasonable extension of guidance to reduce demands and allow time when learners are anxious."
+    supported_by: [psg-ACC-at-comm-time, psg-ACC-nas-processing]
+    support_type: inference_by_curator
+
+  - id: clm-ACC-roles-scripts
+    entry_id: adp-ACC-defined-group-roles
+    text: "Clear roles and scripts are a reasonable adjustment for autistic learners in group work."
+    supported_by: [psg-ACC-at-comm-groups]
+    support_type: paraphrase
+  - id: clm-ACC-roles-visual
+    entry_id: adp-ACC-defined-group-roles
+    text: "Visual supports can help peer interaction during group work."
+    supported_by: [psg-ACC-at-comm-groups]
+    support_type: paraphrase
+  - id: clm-ACC-roles-flexible
+    entry_id: adp-ACC-defined-group-roles
+    text: "Groupings should be flexible and temporary, formed around a shared need and disbanded when done."
+    supported_by: [psg-ACC-eef-flexible-grouping]
+    support_type: paraphrase
+
+  - id: clm-ACC-lowstim-clutter
+    entry_id: adp-ACC-low-stimulus-slides
+    text: "Reducing visual clutter and softening the sensory environment helps learners who are sensitive to sensory input."
+    supported_by: [psg-ACC-at-sensory-env]
+    support_type: paraphrase
+  - id: clm-ACC-lowstim-background
+    entry_id: adp-ACC-low-stimulus-slides
+    text: "Plain backgrounds without patterns or pictures are recommended."
+    supported_by: [psg-ACC-bda-colour]
+    support_type: paraphrase
+  - id: clm-ACC-lowstim-sparse
+    entry_id: adp-ACC-low-stimulus-slides
+    text: "Slides should carry little text."
+    supported_by: [psg-ACC-dysscot-slides-formats]
+    support_type: paraphrase
+
+  - id: clm-ACC-chunkread-check
+    entry_id: adp-ACC-chunked-reading-checks
+    text: "Information should be given in small chunks with understanding checked before moving on."
+    supported_by: [psg-ACC-nas-chunk]
+    support_type: paraphrase
+  - id: clm-ACC-chunkread-steps
+    entry_id: adp-ACC-chunked-reading-checks
+    text: "Teaching in small steps is a feature of explicit instruction for pupils with SEND."
+    supported_by: [psg-ACC-eef-explicit]
+    support_type: paraphrase
+  - id: clm-ACC-chunkread-recap
+    entry_id: adp-ACC-chunked-reading-checks
+    text: "Recapping and asking pupils to repeat back supports pupils with working memory and language difficulties."
+    supported_by: [psg-ACC-dld-time-check]
+    support_type: paraphrase
+  - id: clm-ACC-chunkread-paragraphs
+    entry_id: adp-ACC-chunked-reading-checks
+    text: "Short paragraphs of around five lines are recommended for dyslexic readers."
+    supported_by: [psg-ACC-dysscot-writing]
+    support_type: paraphrase
+
+  - id: clm-ACC-go-eef
+    entry_id: adp-ACC-graphic-organisers
+    text: "The EEF gives graphic organisers such as Venn diagrams, T-charts, mind maps and the Frayer model as cognitive strategies."
+    supported_by: [psg-ACC-eef-graphic-organisers]
+    support_type: paraphrase
+  - id: clm-ACC-go-flowcharts
+    entry_id: adp-ACC-graphic-organisers
+    text: "Flow charts help readers follow procedures and sequences."
+    supported_by: [psg-ACC-bda-lists-images]
+    support_type: paraphrase
+  - id: clm-ACC-go-fade
+    entry_id: adp-ACC-graphic-organisers
+    text: "Scaffolds such as pre-filled organisers should be removed gradually as pupils become independent."
+    supported_by: [psg-ACC-eef-scaffolding]
+    support_type: paraphrase
+
+  - id: clm-ACC-l1-glossary
+    entry_id: adp-ACC-home-language-glossary
+    text: "EAL learners can create bilingual glossaries of key topic words and use bilingual dictionaries."
+    supported_by: [psg-ACC-bell-glossary]
+    support_type: paraphrase
+  - id: clm-ACC-l1-transfer
+    entry_id: adp-ACC-home-language-glossary
+    text: "Skills transfer across languages, so using the first language supports curriculum access and the learning of English rather than replacing it."
+    supported_by: [psg-ACC-bell-glossary]
+    support_type: paraphrase
+  - id: clm-ACC-l1-translanguaging
+    entry_id: adp-ACC-home-language-glossary
+    text: "The Bell Foundation describes codeswitching and translanguaging as very useful in the classroom."
+    supported_by: [psg-ACC-bell-quote]
+    support_type: direct_quote
+  - id: clm-ACC-l1-dual-books
+    entry_id: adp-ACC-home-language-glossary
+    text: "Dual-language books and pupil-made illustrated glossaries are recommended EAL strategies in Scottish primary schools."
+    supported_by: [psg-ACC-abd-l1]
+    support_type: paraphrase
+  - id: clm-ACC-l1-code
+    entry_id: adp-ACC-home-language-glossary
+    text: "Scottish statutory guidance says a lack of English should be addressed in a programme that reflects the child's existing skills."
+    supported_by: [psg-ACC-code-ch2-examples]
+    support_type: paraphrase
+
+  - id: clm-ACC-frame-eef
+    entry_id: adp-ACC-writing-frames-sentence-starters
+    text: "Writing frames are an example of a scaffold, which can later be reduced, for example by moving headings to the board."
+    supported_by: [psg-ACC-eef-scaffolding]
+    support_type: paraphrase
+  - id: clm-ACC-frame-eal
+    entry_id: adp-ACC-writing-frames-sentence-starters
+    text: "Sentence starters and sentence-building scaffolds support EAL learners' writing."
+    supported_by: [psg-ACC-abd-frames]
+    support_type: paraphrase
+  - id: clm-ACC-frame-model
+    entry_id: adp-ACC-writing-frames-sentence-starters
+    text: "Modelling useful phrases and sentence structures helps pupils with language difficulties answer questions."
+    supported_by: [psg-ACC-dld-time-check]
+    support_type: paraphrase
+
+  - id: clm-ACC-quiet-noise
+    entry_id: adp-ACC-quiet-space-noise
+    text: "Managing classroom noise and allowing headphones where noise cannot be reduced help learners with sensory sensitivities."
+    supported_by: [psg-ACC-at-sensory-env]
+    support_type: paraphrase
+  - id: clm-ACC-quiet-space
+    entry_id: adp-ACC-quiet-space-noise
+    text: "An agreed safe or quiet space to regulate is a recommended adjustment and a universal support."
+    supported_by: [psg-ACC-at-sensory-breaks, psg-ACC-at-universal-supports]
+    support_type: paraphrase
+
+  - id: clm-ACC-move-breaks
+    entry_id: adp-ACC-movement-breaks
+    text: "Regular movement breaks should be scheduled even when the child appears calm."
+    supported_by: [psg-ACC-at-sensory-breaks]
+    support_type: paraphrase
+
+  - id: clm-ACC-digital-books
+    entry_id: adp-ACC-accessible-digital-texts
+    text: "Books for All provides accessible digital versions of books used in the Scottish curriculum."
+    supported_by: [psg-ACC-call-resources]
+    support_type: paraphrase
+  - id: clm-ACC-digital-resize
+    entry_id: adp-ACC-accessible-digital-texts
+    text: "Digital text should resize to 200% without loss of content."
+    supported_by: [psg-ACC-wcag-1-4-8]
+    support_type: paraphrase
+
+  - id: clm-ACC-symbols-code
+    entry_id: adp-ACC-symbol-supported-text
+    text: "Communication symbols are given in Scottish statutory guidance as an example of additional support."
+    supported_by: [psg-ACC-code-ch2-examples]
+    support_type: paraphrase
+  - id: clm-ACC-symbols-call
+    entry_id: adp-ACC-symbol-supported-text
+    text: "CALL Scotland's Symbols for All provides printable symbolised curriculum resources."
+    supported_by: [psg-ACC-call-resources]
+    support_type: paraphrase
+  - id: clm-ACC-symbols-stage
+    entry_id: adp-ACC-symbol-supported-text
+    text: "Visual supports should match the learner's stage of communication."
+    supported_by: [psg-ACC-at-visual-purposes]
+    support_type: paraphrase
+
+  - id: clm-ACC-repeat-same
+    entry_id: adp-ACC-repeat-and-check-instructions
+    text: "When an instruction is repeated, the same words should be used, ideally with visual support."
+    supported_by: [psg-ACC-nas-processing]
+    support_type: paraphrase
+  - id: clm-ACC-repeat-back
+    entry_id: adp-ACC-repeat-and-check-instructions
+    text: "Asking pupils to repeat instructions back checks understanding."
+    supported_by: [psg-ACC-dld-time-check]
+    support_type: paraphrase
+  - id: clm-ACC-repeat-visible
+    entry_id: adp-ACC-repeat-and-check-instructions
+    text: "Keeping numbered written steps visible reduces the load of remembering spoken instructions."
+    supported_by: [psg-ACC-bda-lists-images, psg-ACC-at-comm-time]
+    support_type: inference_by_curator
+
+  - id: clm-ACC-lrl-wcag
+    entry_id: adp-ACC-lower-reading-level-version
+    text: "Where text needs a reading level above lower secondary, a supplementary simpler version should be available."
+    supported_by: [psg-ACC-wcag-3-1-5]
+    support_type: paraphrase
+  - id: clm-ACC-lrl-plain
+    entry_id: adp-ACC-lower-reading-level-version
+    text: "Conversational language without unfamiliar jargon makes text easier to read."
+    supported_by: [psg-ACC-dysscot-plain]
+    support_type: paraphrase
+  - id: clm-ACC-lrl-goal
+    entry_id: adp-ACC-lower-reading-level-version
+    text: "A simplified text should supplement rather than replace the original where reading that text is the learning goal, to keep challenge appropriate."
+    supported_by: [psg-ACC-eef-high-expectations]
+    support_type: inference_by_curator
+
+  # --- Scottish context ---
+  - id: clm-ACC-asl-definition
+    entry_id: cau-ACC-asl-act-code-of-practice
+    text: "In Scotland a child has additional support needs if, for any reason, they need support beyond what is generally provided to peers to benefit from school education."
+    supported_by: [psg-ACC-code-ch2-definition]
+    support_type: paraphrase
+  - id: clm-ACC-asl-factors
+    entry_id: cau-ACC-asl-act-code-of-practice
+    text: "Additional support needs can arise from the learning environment, family circumstances, disability or health, or social and emotional factors, and can be short or long term."
+    supported_by: [psg-ACC-code-ch2-factors]
+    support_type: paraphrase
+  - id: clm-ACC-asl-regard
+    entry_id: cau-ACC-asl-act-code-of-practice
+    text: "Education authorities must have regard to the Code of Practice, which should be read alongside GIRFEC and Curriculum for Excellence."
+    supported_by: [psg-ACC-code-ch1-purpose]
+    support_type: paraphrase
+  - id: clm-ACC-asl-support-types
+    entry_id: cau-ACC-asl-act-code-of-practice
+    text: "Additional support includes approaches to learning and teaching, support from personnel and provision of resources."
+    supported_by: [psg-ACC-code-ch2-support-types]
+    support_type: paraphrase
+
+  - id: clm-ACC-girfec-what
+    entry_id: cau-ACC-girfec
+    text: "GIRFEC is Scotland's rights-based national approach to giving children the right support at the right time, using eight wellbeing indicators."
+    supported_by: [psg-ACC-girfec-what]
+    support_type: paraphrase
+  - id: clm-ACC-girfec-childplan
+    entry_id: cau-ACC-girfec
+    text: "Where several agencies are involved, a Child's Plan coordinated by a Lead Professional can record and coordinate support."
+    supported_by: [psg-ACC-code-ch3-girfec, psg-ACC-girfec-what]
+    support_type: paraphrase
+  - id: clm-ACC-girfec-views
+    entry_id: cau-ACC-girfec
+    text: "The views of children and parents should be sought, taken into account and recorded."
+    supported_by: [psg-ACC-code-ch3-girfec, psg-ACC-iep-contents]
+    support_type: paraphrase
+
+  - id: clm-ACC-staged-least
+    entry_id: cau-ACC-staged-intervention
+    text: "Staged intervention aims to meet needs early and with the least intrusive level of intervention."
+    supported_by: [psg-ACC-at-universal-quote, psg-ACC-code-ch3-staged]
+    support_type: direct_quote
+  - id: clm-ACC-staged-models
+    entry_id: cau-ACC-staged-intervention
+    text: "Local authorities use different staged models, typically three to six stages; the Act does not prescribe one."
+    supported_by: [psg-ACC-code-ch3-staged, psg-ACC-at-universal-supports]
+    support_type: paraphrase
+  - id: clm-ACC-staged-universal
+    entry_id: cau-ACC-staged-intervention
+    text: "Most additional support needs are met at the universal level, where the class teacher has first responsibility."
+    supported_by: [psg-ACC-at-universal-supports]
+    support_type: paraphrase
+
+  - id: clm-ACC-iep-who
+    entry_id: cau-ACC-iep
+    text: "An IEP is a non-statutory working plan for learners whose outcomes cannot be met through universal class or group planning alone."
+    supported_by: [psg-ACC-iep-who]
+    support_type: paraphrase
+  - id: clm-ACC-iep-content
+    entry_id: cau-ACC-iep
+    text: "An IEP sets prioritised, measurable outcomes with the child and family, reviewed at least termly for short-term outcomes and annually for long-term targets."
+    supported_by: [psg-ACC-iep-contents]
+    support_type: paraphrase
+  - id: clm-ACC-iep-staged
+    entry_id: cau-ACC-iep
+    text: "Staged intervention is used to decide the appropriate level of planning, including whether an IEP is needed."
+    supported_by: [psg-ACC-iep-staged]
+    support_type: paraphrase
+  - id: clm-ACC-iep-code
+    entry_id: cau-ACC-iep
+    text: "An IEP should include the educational objectives of any co-ordinated support plan."
+    supported_by: [psg-ACC-code-ch3-iep]
+    support_type: paraphrase
+
+  - id: clm-ACC-morgan-implementation
+    entry_id: cau-ACC-morgan-review
+    text: "The 2020 Morgan review found the principles of the ASL legislation sound but their implementation fragmented and inconsistent."
+    supported_by: [psg-ACC-morgan-legislation]
+    support_type: paraphrase
+  - id: clm-ACC-morgan-diagnosis
+    entry_id: cau-ACC-morgan-review
+    text: "The review found access to support was often made dependent on a diagnosis, acting as a way of rationing resources."
+    supported_by: [psg-ACC-morgan-diagnosis]
+    support_type: paraphrase
+  - id: clm-ACC-morgan-visibility
+    entry_id: cau-ACC-morgan-review
+    text: "The review found additional support for learning was not visible or equally valued, although around 30.9% of pupils had an identified additional support need."
+    supported_by: [psg-ACC-morgan-visibility]
+    support_type: paraphrase
+  - id: clm-ACC-morgan-inclusion
+    entry_id: cau-ACC-morgan-review
+    text: "The review found no assurance that all professionals accept inclusion and the presumption of mainstreaming as part of their role."
+    supported_by: [psg-ACC-morgan-mainstreaming]
+    support_type: paraphrase
+  - id: clm-ACC-morgan-themes
+    entry_id: cau-ACC-morgan-review
+    text: "The review report is organised around nine themes, including vision and visibility, mainstreaming and inclusion, and workforce development."
+    supported_by: [psg-ACC-morgan-themes]
+    support_type: paraphrase
+
+  - id: clm-ACC-needs-eef
+    entry_id: cau-ACC-needs-not-labels
+    text: "For day-to-day teaching, knowing a pupil's specific needs is more useful than knowing their diagnosis, because categories overlap and pupils with the same diagnosis differ."
+    supported_by: [psg-ACC-eef-needs-not-diagnosis]
+    support_type: paraphrase
+  - id: clm-ACC-needs-question
+    entry_id: cau-ACC-needs-not-labels
+    text: "The key question is what this individual pupil needs, not what works for a diagnostic group."
+    supported_by: [psg-ACC-eef-key-question]
+    support_type: paraphrase
+  - id: clm-ACC-needs-code
+    entry_id: cau-ACC-needs-not-labels
+    text: "Scottish statutory guidance says children should be seen as individuals and support tailored to their needs, since labels help some families and limit others."
+    supported_by: [psg-ACC-code-ch2-labels]
+    support_type: paraphrase
+  - id: clm-ACC-needs-adt
+    entry_id: cau-ACC-needs-not-labels
+    text: "In Scotland, receiving additional support does not depend on a formal diagnosis of dyslexia."
+    supported_by: [psg-ACC-adt-def-no-label]
+    support_type: paraphrase
+  - id: clm-ACC-needs-dyslexia-continuum
+    entry_id: cau-ACC-needs-not-labels
+    text: "The Scottish working definition describes dyslexia as a continuum whose impact depends on the task, environment and support."
+    supported_by: [psg-ACC-adt-def-quote, psg-ACC-adt-def-context]
+    support_type: direct_quote
+  - id: clm-ACC-needs-hints
+    entry_id: cau-ACC-needs-not-labels
+    text: "Diagnostic labels attached to adaptations in this library are hints only; selection should start from the observed barrier and what works for the pupil."
+    supported_by: [psg-ACC-eef-needs-not-diagnosis, psg-ACC-code-ch2-labels, psg-ACC-morgan-diagnosis]
+    support_type: inference_by_curator
+
+  - id: clm-ACC-scaf-temporary
+    entry_id: cau-ACC-scaffolds-temporary-high-expectations
+    text: "Scaffolds are temporary and should be removed gradually, though they may stay longer for some pupils with SEND."
+    supported_by: [psg-ACC-eef-scaffolding]
+    support_type: paraphrase
+  - id: clm-ACC-scaf-expectations
+    entry_id: cau-ACC-scaffolds-temporary-high-expectations
+    text: "Teachers should hold high expectations for all pupils and guard against support that leaves pupils with undemanding tasks."
+    supported_by: [psg-ACC-eef-high-expectations]
+    support_type: paraphrase
+  - id: clm-ACC-scaf-five
+    entry_id: cau-ACC-scaffolds-temporary-high-expectations
+    text: "Flexible grouping, cognitive and metacognitive strategies, explicit instruction, technology and scaffolding are the EEF's starting point for teaching all pupils."
+    supported_by: [psg-ACC-eef-five-strategies]
+    support_type: paraphrase
+  - id: clm-ACC-scaf-all
+    entry_id: cau-ACC-scaffolds-temporary-high-expectations
+    text: "Good teaching for pupils with SEND is good teaching for all."
+    supported_by: [psg-ACC-eef-good-teaching-all]
+    support_type: direct_quote
+  - id: clm-ACC-scaf-inclusion
+    entry_id: cau-ACC-scaffolds-temporary-high-expectations
+    text: "In Scotland, inclusion means building the needs of all learners into curriculum planning, resources and approaches."
+    supported_by: [psg-ACC-adt-inclusion-meaning]
+    support_type: paraphrase

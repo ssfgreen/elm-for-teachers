@@ -1,0 +1,123 @@
+{
+  "about": "Cases for the plugin passport, schema passport/1. Each case is the base passport with the fields in `change` replaced; a key may be a dotted path such as `sections.risks`, and null sets the field to null. `check` cases list the problem codes publishCheck gives at `level`, in order; `refuse` cases must fail to parse with a message containing `error`; `covers` cases ask whether the base covers a version and hash. Copy this file to check another reader agrees.",
+  "base": {
+    "schema": "passport/1",
+    "plugin": { "id": "elm/pedagogy", "version": "1.0.0" },
+    "covers": [
+      { "version": "1.0.0", "content_hash": "sha256:1111111111111111111111111111111111111111111111111111111111111111" }
+    ],
+    "authors": [
+      { "id": "author_a", "name": "Ada Teacher" },
+      { "id": "author_b", "name": "Ben Teacher" }
+    ],
+    "issuer": null,
+    "sections": {
+      "contents": { "text": "Strategies for reading.", "written_by": ["author_a"], "approved_by": ["author_b"], "drafted_by_assistant": false },
+      "expected_use": { "text": "Planning P7 literacy.", "written_by": ["author_a"], "approved_by": ["author_a"], "drafted_by_assistant": true },
+      "tested_use": { "text": "Tried in two classes.", "written_by": ["author_b"], "approved_by": ["author_a", "author_b"], "drafted_by_assistant": false },
+      "risks": { "text": "Not for assessment.", "written_by": ["author_a", "author_b"], "approved_by": ["author_b"], "drafted_by_assistant": false }
+    }
+  },
+  "check": [
+    { "name": "the base, private", "level": "private", "change": {}, "blocking": [], "suggestions": [] },
+    { "name": "the base, limited", "level": "limited", "change": {}, "blocking": [], "suggestions": [] },
+    { "name": "the base, public", "level": "public", "change": {}, "blocking": [], "suggestions": [] },
+    { "name": "no passport, private", "level": "private", "change": "no passport", "blocking": [], "suggestions": [] },
+    { "name": "no passport, limited", "level": "limited", "change": "no passport", "blocking": [], "suggestions": ["no_passport"] },
+    { "name": "no passport, public", "level": "public", "change": "no passport", "blocking": ["no_passport"], "suggestions": [] },
+    {
+      "name": "an empty passport, private",
+      "level": "private",
+      "change": { "authors": [], "sections": { "contents": null, "expected_use": null, "tested_use": null, "risks": null } },
+      "blocking": [],
+      "suggestions": []
+    },
+    {
+      "name": "an empty passport, limited",
+      "level": "limited",
+      "change": { "authors": [], "sections": { "contents": null, "expected_use": null, "tested_use": null, "risks": null } },
+      "blocking": [],
+      "suggestions": ["no_authors", "not_answered", "not_answered", "not_answered", "not_answered"]
+    },
+    {
+      "name": "an empty passport, public",
+      "level": "public",
+      "change": { "authors": [], "sections": { "contents": null, "expected_use": null, "tested_use": null, "risks": null } },
+      "blocking": ["no_authors", "not_answered", "not_answered", "not_answered", "not_answered"],
+      "suggestions": []
+    },
+    { "name": "no covers, private", "level": "private", "change": { "covers": [] }, "blocking": [], "suggestions": [] },
+    { "name": "no covers, limited", "level": "limited", "change": { "covers": [] }, "blocking": [], "suggestions": ["no_covers"] },
+    { "name": "no covers, public", "level": "public", "change": { "covers": [] }, "blocking": ["no_covers"], "suggestions": [] },
+    {
+      "name": "no authors and no covers, public",
+      "level": "public",
+      "change": { "authors": [], "covers": [], "sections": { "contents": null, "expected_use": null, "tested_use": null, "risks": null } },
+      "blocking": ["no_authors", "no_covers", "not_answered", "not_answered", "not_answered", "not_answered"],
+      "suggestions": []
+    },
+    { "name": "a section not answered, limited", "level": "limited", "change": { "sections.risks": null }, "blocking": [], "suggestions": ["not_answered"] },
+    { "name": "a section not answered, public", "level": "public", "change": { "sections.risks": null }, "blocking": ["not_answered"], "suggestions": [] },
+    { "name": "a section not approved, limited", "level": "limited", "change": { "sections.contents.approved_by": [] }, "blocking": [], "suggestions": ["not_approved"] },
+    { "name": "a section not approved, public", "level": "public", "change": { "sections.contents.approved_by": [] }, "blocking": ["not_approved"], "suggestions": [] },
+    {
+      "name": "drafted by an assistant and not approved, public",
+      "level": "public",
+      "change": { "sections.expected_use.approved_by": [] },
+      "blocking": ["not_approved"],
+      "suggestions": []
+    },
+    { "name": "a writer who is not an author, limited", "level": "limited", "change": { "sections.contents.written_by": ["author_z"] }, "blocking": ["unknown_writer"], "suggestions": [] },
+    { "name": "a writer who is not an author, public", "level": "public", "change": { "sections.contents.written_by": ["author_z"] }, "blocking": ["unknown_writer"], "suggestions": [] },
+    { "name": "a writer who is not an author, private", "level": "private", "change": { "sections.contents.written_by": ["author_z"] }, "blocking": [], "suggestions": [] },
+    {
+      "name": "approved only by someone who is not an author, public",
+      "level": "public",
+      "change": { "sections.risks.approved_by": ["author_z"] },
+      "blocking": ["unknown_approver", "not_approved"],
+      "suggestions": []
+    },
+    {
+      "name": "approved only by someone who is not an author, limited",
+      "level": "limited",
+      "change": { "sections.risks.approved_by": ["author_z"] },
+      "blocking": ["unknown_approver"],
+      "suggestions": ["not_approved"]
+    },
+    {
+      "name": "approved by an author and a non-author, public",
+      "level": "public",
+      "change": { "sections.risks.approved_by": ["author_b", "author_z"] },
+      "blocking": ["unknown_approver"],
+      "suggestions": []
+    },
+    {
+      "name": "an author removed who still wrote and approved sections, public",
+      "level": "public",
+      "change": { "authors": [{ "id": "author_a", "name": "Ada Teacher" }] },
+      "blocking": ["unknown_approver", "not_approved", "unknown_writer", "unknown_approver", "unknown_writer", "unknown_approver", "not_approved"],
+      "suggestions": []
+    }
+  ],
+  "refuse": [
+    { "name": "another schema", "change": { "schema": "passport/2" }, "error": "schema" },
+    { "name": "a territory field", "change": { "territory": { "country": "Scotland" } }, "error": "Unrecognized key" },
+    { "name": "an issuer", "change": { "issuer": { "id": "uoe", "name": "University of Edinburgh" } }, "error": "issuer" },
+    { "name": "an email as an author id", "change": { "authors": [{ "id": "ada@example.org", "name": "Ada" }] }, "error": "never an email" },
+    { "name": "an email as a writer", "change": { "sections.contents.written_by": ["ada@example.org"] }, "error": "never an email" },
+    { "name": "an author listed twice", "change": { "authors": [{ "id": "author_a", "name": "Ada" }, { "id": "author_a", "name": "Ada again" }] }, "error": "listed twice" },
+    { "name": "an author with no name", "change": { "authors": [{ "id": "author_a", "name": " " }] }, "error": "name is empty" },
+    { "name": "an empty section text", "change": { "sections.risks.text": "  " }, "error": "text is empty" },
+    { "name": "a section missing", "change": { "sections": { "contents": null, "expected_use": null, "tested_use": null } }, "error": "sections.risks" },
+    { "name": "an unknown section", "change": { "sections.identity": null }, "error": "Unrecognized key" },
+    { "name": "drafted_by_assistant missing", "change": { "sections.risks": { "text": "x", "written_by": [], "approved_by": [] } }, "error": "drafted_by_assistant" },
+    { "name": "a bad content hash", "change": { "covers": [{ "version": "1.0.0", "content_hash": "abc" }] }, "error": "content_hash" },
+    { "name": "a bad version", "change": { "plugin": { "id": "elm/pedagogy", "version": "one" } }, "error": "plugin.version" },
+    { "name": "a bad plugin id", "change": { "plugin": { "id": "Pedagogy", "version": "1.0.0" } }, "error": "plugin.id" }
+  ],
+  "covers": [
+    { "name": "the listed version and hash", "version": "1.0.0", "content_hash": "sha256:1111111111111111111111111111111111111111111111111111111111111111", "covered": true },
+    { "name": "the listed version with another hash", "version": "1.0.0", "content_hash": "sha256:2222222222222222222222222222222222222222222222222222222222222222", "covered": false },
+    { "name": "another version with the listed hash", "version": "1.0.1", "content_hash": "sha256:1111111111111111111111111111111111111111111111111111111111111111", "covered": false }
+  ]
+}

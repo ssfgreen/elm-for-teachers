@@ -1,0 +1,88 @@
+/* ---- suggestions: tracked changes, as in a word processor ----
+   Words the assistant adds are underlined and words it takes out struck through, in the
+   suggestion colour (trackChanges.ts); a new block is underlined throughout and a block it
+   would delete struck through. A thin line in the right margin marks each suggestion, so one
+   that only changes formatting or moves a block still shows. They are decided on their cards in
+   the comments column (SuggestionCard.tsx), which tints the block while a card is hovered. */
+.canvas-pm > .st-proposed::after,
+.canvas-pm > [class*="pending-"]::after {
+  content: "";
+  position: absolute;
+  top: 3px;
+  bottom: 3px;
+  right: -8px;
+  width: 2px;
+  border-radius: 1px;
+  background: var(--suggest);
+  opacity: 0.6;
+  pointer-events: none;
+  transition: opacity 120ms ease, width 120ms ease;
+}
+.canvas-pm .sg-ins,
+.canvas-pm > .st-proposed {
+  color: var(--suggest);
+  text-decoration: underline;
+  text-decoration-color: var(--suggest);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+.canvas-pm .sg-del,
+.canvas-pm > .pending-delete {
+  color: var(--suggest-del);
+  text-decoration: line-through;
+  text-decoration-color: var(--suggest-del);
+}
+.canvas-pm .sg-del {
+  user-select: none;
+}
+.canvas-pm > .st-proposed img,
+.canvas-pm > .pending-replace.blk-image img {
+  outline: 2px solid var(--suggest);
+  outline-offset: 2px;
+}
+.canvas-pm > .blk {
+  transition: background 120ms ease;
+}
+/* Accept all and Reject all in the doc header tint every suggestion in the doc. */
+.workspace:has(.proposal-toolbar .accept-all:hover, .proposal-toolbar .accept-all:focus-visible) .canvas-pm > :is(.st-proposed, [class*="pending-"]) {
+  background: var(--success-soft);
+}
+.workspace:has(.proposal-toolbar .reject-all:hover, .proposal-toolbar .reject-all:focus-visible) .canvas-pm > :is(.st-proposed, [class*="pending-"]) {
+  background: var(--destructive-soft);
+}
+
+
+/* ---- the look the teacher chose under the chat box (state/assistantMode.ts) ----
+   With no choice (the replay, and anything else that draws the editor) suggestions look as
+   above, as they always did. Suggesting: only the words added show, in green and not underlined,
+   so the doc reads as it would once accepted; what is taken out is on the suggestion's card, and
+   a thin mark is left where words go with nothing in their place. Track changes: as above, with
+   the words added and taken out both in red. */
+.workspace[data-suggest-view='inline'] .canvas-pm .sg-ins,
+.workspace[data-suggest-view='inline'] .canvas-pm > .st-proposed {
+  text-decoration: none;
+}
+.workspace[data-suggest-view='inline'] .canvas-pm .sg-del {
+  display: none;
+}
+.workspace[data-suggest-view='inline'] .canvas-pm .sg-del.sg-del-only {
+  display: inline-block;
+  width: 2px;
+  height: 1.1em;
+  margin: 0 1px;
+  overflow: hidden;
+  vertical-align: text-bottom;
+  color: transparent;
+  text-decoration: none;
+  background: var(--suggest-del);
+  border-radius: 1px;
+}
+/* A block to delete stays in place, faded and struck through, so its card has something to point at. */
+.workspace[data-suggest-view='inline'] .canvas-pm > .pending-delete {
+  opacity: 0.5;
+}
+.workspace[data-suggest-view='track'] .canvas-pm {
+  --suggest: var(--track);
+  --suggest-del: var(--track);
+  --suggest-soft: var(--track-soft);
+}

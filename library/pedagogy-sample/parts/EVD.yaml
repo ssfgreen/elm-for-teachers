@@ -1,0 +1,2202 @@
+# Part EVD: cross-cutting evidence-based principles
+# Curated by research agent EVD, 2026-11-12. Status: draft throughout.
+
+sources:
+  - id: src-EVD-eef-tlt-metacognition
+    title: "Teaching and Learning Toolkit: Metacognition and self-regulation"
+    publisher: Education Endowment Foundation
+    authors: [Education Endowment Foundation]
+    year: null
+    url: https://educationendowmentfoundation.org.uk/education-evidence/teaching-learning-toolkit/metacognition-and-self-regulation
+    source_type: meta_analysis
+    jurisdiction: [england, international]
+    evidence_weight: high
+    licence: TODO_check
+    reuse_rule: short_quote_only
+    version: "Online strand page; review date not shown in fetched text"
+    retrieved_at: 2026-11-12
+
+  - id: src-EVD-eef-tlt-reading-comp
+    title: "Teaching and Learning Toolkit: Reading comprehension strategies"
+    publisher: Education Endowment Foundation
+    authors: [Education Endowment Foundation]
+    year: 2025
+    url: https://educationendowmentfoundation.org.uk/education-evidence/teaching-learning-toolkit/reading-comprehension-strategies
+    source_type: meta_analysis
+    jurisdiction: [england, international]
+    evidence_weight: high
+    licence: TODO_check
+    reuse_rule: short_quote_only
+    version: "Online strand page; review last updated October 2025"
+    retrieved_at: 2026-11-12
+
+  - id: src-EVD-eef-tlt-feedback
+    title: "Teaching and Learning Toolkit: Feedback"
+    publisher: Education Endowment Foundation
+    authors: [Education Endowment Foundation]
+    year: 2021
+    url: https://educationendowmentfoundation.org.uk/education-evidence/teaching-learning-toolkit/feedback
+    source_type: meta_analysis
+    jurisdiction: [england, international]
+    evidence_weight: high
+    licence: TODO_check
+    reuse_rule: short_quote_only
+    version: "Online strand page; review last updated June 2021"
+    retrieved_at: 2026-11-12
+
+  - id: src-EVD-eef-tlt-oral-language
+    title: "Teaching and Learning Toolkit: Oral language interventions"
+    publisher: Education Endowment Foundation
+    authors: [Education Endowment Foundation]
+    year: 2025
+    url: https://educationendowmentfoundation.org.uk/education-evidence/teaching-learning-toolkit/oral-language-interventions
+    source_type: meta_analysis
+    jurisdiction: [england, international]
+    evidence_weight: high
+    licence: TODO_check
+    reuse_rule: short_quote_only
+    version: "Online strand page; review last updated May 2025"
+    retrieved_at: 2026-11-12
+
+  - id: src-EVD-eef-tlt-collaborative
+    title: "Teaching and Learning Toolkit: Collaborative learning approaches"
+    publisher: Education Endowment Foundation
+    authors: [Education Endowment Foundation]
+    year: null
+    url: https://educationendowmentfoundation.org.uk/education-evidence/teaching-learning-toolkit/collaborative-learning-approaches
+    source_type: meta_analysis
+    jurisdiction: [england, international]
+    evidence_weight: high
+    licence: TODO_check
+    reuse_rule: short_quote_only
+    version: "Online strand page; review date not shown in fetched text"
+    retrieved_at: 2026-11-12
+
+  - id: src-EVD-eef-tlt-learning-styles
+    title: "Teaching and Learning Toolkit: Learning styles"
+    publisher: Education Endowment Foundation
+    authors: [Education Endowment Foundation]
+    year: 2025
+    url: https://educationendowmentfoundation.org.uk/education-evidence/teaching-learning-toolkit/learning-styles
+    source_type: review
+    jurisdiction: [england, international]
+    evidence_weight: high
+    licence: TODO_check
+    reuse_rule: short_quote_only
+    version: "Online strand page; review last updated October 2025"
+    retrieved_at: 2026-11-12
+
+  - id: src-EVD-eef-gr-metacognition
+    title: "Metacognition and Self-regulated Learning: Guidance Report"
+    publisher: Education Endowment Foundation
+    authors: [Education Endowment Foundation]
+    year: null
+    url: https://d2tic4wvo1iusb.cloudfront.net/production/eef-guidance-reports/metacognition/Metacognition-and-Self-regulated-Learning_guidance-report_v.1.2.0.pdf
+    source_type: guidance
+    jurisdiction: [england]
+    evidence_weight: high
+    licence: TODO_check
+    reuse_rule: short_quote_only
+    version: "PDF v.1.2.0; publication year not printed in fetched text (reference list includes 2025 items, so this appears to be a revised edition of the 2018 report; UNCONFIRMED)"
+    retrieved_at: 2026-11-12
+
+  - id: src-EVD-eef-gr-literacy-ks2
+    title: "Improving Literacy in Key Stage 2: Guidance Report (Second Edition)"
+    publisher: Education Endowment Foundation
+    authors: [Education Endowment Foundation]
+    year: null
+    url: https://159-northumberland.eschools.co.uk/storage/secure_download/OGZVU2RRTjRkMnJoRitzeFh2cUtpUT09
+    source_type: guidance
+    jurisdiction: [england]
+    evidence_weight: high
+    licence: TODO_check
+    reuse_rule: short_quote_only
+    version: "Second edition (first edition 2017); fetched from a school-hosted copy of the EEF PDF because the EEF page did not load. Canonical page: https://educationendowmentfoundation.org.uk/education-evidence/guidance-reports/literacy-ks2"
+    retrieved_at: 2026-11-12
+
+  - id: src-EVD-eef-gr-feedback-news
+    title: "EEF publishes new guidance report: Teacher Feedback to Improve Pupil Learning (news release)"
+    publisher: Education Endowment Foundation
+    authors: [Education Endowment Foundation]
+    year: null
+    url: https://educationendowmentfoundation.org.uk/news/eef-publishes-new-guidance-report-teacher-feedback-to-improve-pupil-learning
+    source_type: guidance
+    jurisdiction: [england]
+    evidence_weight: high
+    licence: TODO_check
+    reuse_rule: short_quote_only
+    version: "News release; date not shown in fetched text"
+    retrieved_at: 2026-11-12
+
+  - id: src-EVD-eef-gr-feedback-poster
+    title: "Teacher Feedback to Improve Pupil Learning: Recommendations poster"
+    publisher: Education Endowment Foundation
+    authors: [Education Endowment Foundation]
+    year: null
+    url: https://files.schudio.com/willowbank-st-helens/files/documents/curriculum/eef-feedback-recommendations.pdf
+    source_type: guidance
+    jurisdiction: [england]
+    evidence_weight: high
+    licence: TODO_check
+    reuse_rule: short_quote_only
+    version: "School-hosted copy of the EEF recommendations poster; publisher name not visible in extracted text, attribution to EEF inferred from title and recommendation wording (check against EEF original)"
+    retrieved_at: 2026-11-12
+
+  - id: src-EVD-eef-real-projects-page
+    title: "Project-Based Learning (Learning through REAL Projects): trial page"
+    publisher: Education Endowment Foundation
+    authors: [Education Endowment Foundation]
+    year: 2016
+    url: https://educationendowmentfoundation.org.uk/projects-and-evaluation/projects/project-based-learning/
+    source_type: trial
+    jurisdiction: [england]
+    evidence_weight: moderate
+    licence: TODO_check
+    reuse_rule: short_quote_only
+    retrieved_at: 2026-11-12
+
+  - id: src-EVD-eef-real-projects-report
+    title: "Project Based Learning: Evaluation report and executive summary"
+    publisher: Education Endowment Foundation
+    authors: [Victoria Menzies, Catherine Hewitt, Dimitra Kokotsaki, Clare Collyer, Andy Wiggins]
+    year: 2016
+    url: https://durham-repository.worktribe.com/OutputFile/1606384
+    source_type: trial
+    jurisdiction: [england]
+    evidence_weight: moderate
+    licence: TODO_check
+    reuse_rule: short_quote_only
+    version: "November 2016; Durham University and York Trials Unit"
+    retrieved_at: 2026-11-12
+
+  - id: src-EVD-wwc-organizing-2007
+    title: "Organizing Instruction and Study to Improve Student Learning (IES Practice Guide, NCER 2007-2004)"
+    publisher: "Institute of Education Sciences, US Department of Education (What Works Clearinghouse practice guide)"
+    authors: [Harold Pashler, Patrice M. Bain, Brian A. Bottge, Arthur Graesser, Kenneth Koedinger, Mark McDaniel, Janet Metcalfe]
+    year: 2007
+    url: https://ies.ed.gov/ncee/WWC/Docs/PracticeGuide/20072004.pdf
+    source_type: guidance
+    jurisdiction: [us]
+    evidence_weight: high
+    licence: "US federal government work (public domain); check"
+    reuse_rule: short_quote_only
+    version: "September 2007"
+    retrieved_at: 2026-11-12
+
+  - id: src-EVD-rosenshine-2012
+    title: "Principles of Instruction: Research-Based Strategies That All Teachers Should Know"
+    publisher: "American Federation of Teachers (American Educator, Spring 2012)"
+    authors: [Barak Rosenshine]
+    year: 2012
+    url: https://www.aft.org/sites/default/files/media/2014/ae_spring2012.pdf
+    source_type: review
+    jurisdiction: [us, international]
+    evidence_weight: moderate
+    licence: TODO_check
+    reuse_rule: short_quote_only
+    version: "American Educator 36(1), Spring 2012, pp. 12-19 (volume number not confirmed in fetch)"
+    retrieved_at: 2026-11-12
+
+  - id: src-EVD-clark-kirschner-sweller-2012
+    title: "Putting Students on the Path to Learning: The Case for Fully Guided Instruction"
+    publisher: "American Federation of Teachers (American Educator, Spring 2012)"
+    authors: [Richard E. Clark, Paul A. Kirschner, John Sweller]
+    year: 2012
+    url: https://www.aft.org/sites/default/files/GuidedInstruction.pdf
+    source_type: review
+    jurisdiction: [us, international]
+    evidence_weight: moderate
+    licence: TODO_check
+    reuse_rule: short_quote_only
+    version: "American Educator, Spring 2012, pp. 6-11"
+    retrieved_at: 2026-11-12
+
+  - id: src-EVD-kirschner-2006
+    title: "Why minimal guidance during instruction does not work: An analysis of the failure of constructivist, discovery, problem-based, experiential, and inquiry-based teaching"
+    publisher: "Educational Psychologist 41(2), 75-86"
+    authors: [Paul A. Kirschner, John Sweller, Richard E. Clark]
+    year: 2006
+    url: https://www.davidlewisphd.com/courses/EDD8121/readings/2006-Kirschner_et_al.pdf
+    source_type: review
+    jurisdiction: [international]
+    evidence_weight: moderate
+    licence: "all rights reserved (Taylor and Francis); fetched from a course reading copy"
+    reuse_rule: locator_only
+    retrieved_at: 2026-11-12
+
+  - id: src-EVD-hmelo-silver-2007
+    title: "Scaffolding and achievement in problem-based and inquiry learning: A response to Kirschner, Sweller, and Clark (2006)"
+    publisher: "Educational Psychologist 42(2), 99-107"
+    authors: [Cindy E. Hmelo-Silver, Ravit Golan Duncan, Clark A. Chinn]
+    year: 2007
+    url: https://scholarship.libraries.rutgers.edu/esploro/outputs/journalArticle/Scaffolding-and-Achievement-in-Problem-Based-and/991031758567904646
+    source_type: review
+    jurisdiction: [international]
+    evidence_weight: moderate
+    licence: "all rights reserved (Taylor and Francis)"
+    reuse_rule: locator_only
+    version: "Abstract only fetched (repository record); DOI 10.1080/00461520701263368"
+    retrieved_at: 2026-11-12
+
+  - id: src-EVD-alfieri-2011
+    title: "Does discovery-based instruction enhance learning?"
+    publisher: "Journal of Educational Psychology 103(1), 1-18"
+    authors: [Louis Alfieri, Patricia J. Brooks, Naomi J. Aldrich, Harriet R. Tenenbaum]
+    year: 2011
+    url: https://www.fisme.science.uu.nl/publicaties/literatuur/2011_alfieri_discovery_learning.pdf
+    source_type: meta_analysis
+    jurisdiction: [international]
+    evidence_weight: high
+    licence: "all rights reserved (American Psychological Association)"
+    reuse_rule: short_quote_only
+    version: "DOI 10.1037/a0021017"
+    retrieved_at: 2026-11-12
+
+  - id: src-EVD-adesope-2017
+    title: "Rethinking the use of tests: A meta-analysis of practice testing"
+    publisher: "Review of Educational Research 87(3), 659-701"
+    authors: [Olusola O. Adesope, Dominic A. Trevisan, Narayankripa Sundararajan]
+    year: 2017
+    url: https://journals.sagepub.com/doi/10.3102/0034654316689306
+    source_type: meta_analysis
+    jurisdiction: [international]
+    evidence_weight: high
+    licence: "all rights reserved (SAGE / AERA)"
+    reuse_rule: short_quote_only
+    version: "Abstract only fetched; full-text effect sizes not verified"
+    retrieved_at: 2026-11-12
+
+  - id: src-EVD-latimier-2021
+    title: "A Meta-Analytic Review of the Benefit of Spacing out Retrieval Practice Episodes on Retention"
+    publisher: "Educational Psychology Review 33, 959-987"
+    authors: [Alice Latimier, Hugo Peyre, Franck Ramus]
+    year: 2021
+    url: https://link.springer.com/10.1007/s10648-020-09572-8
+    source_type: meta_analysis
+    jurisdiction: [international]
+    evidence_weight: high
+    licence: "not confirmed (publisher page showed rights and permissions notice)"
+    reuse_rule: short_quote_only
+    version: "DOI 10.1007/s10648-020-09572-8; abstract corrected June 2021"
+    retrieved_at: 2026-11-12
+
+  - id: src-EVD-black-wiliam-1998
+    title: "Inside the Black Box: Raising Standards Through Classroom Assessment"
+    publisher: "Phi Delta Kappan 80(2), 139-148 (reprinted in Phi Delta Kappan 92(1), 2010, pp. 81-90)"
+    authors: [Paul Black, Dylan Wiliam]
+    year: 1998
+    url: https://www.michigan.gov/documents/mde/Inside_The_Black_Box_-_Black_and_William_601104_7.pdf
+    source_type: review
+    jurisdiction: [international]
+    evidence_weight: moderate
+    licence: "all rights reserved; fetched from a state education department copy of the 2010 reprint"
+    reuse_rule: short_quote_only
+    version: "2010 reprint pagination (pp. 81-90) used for locators"
+    retrieved_at: 2026-11-12
+
+  - id: src-EVD-pashler-2008-learning-styles
+    title: "Learning Styles: Concepts and Evidence"
+    publisher: "Psychological Science in the Public Interest 9(3), 105-119"
+    authors: [Harold Pashler, Mark McDaniel, Doug Rohrer, Robert Bjork]
+    year: 2008
+    url: https://digitalcommons.usf.edu/psy_facpub/1765/
+    source_type: review
+    jurisdiction: [international]
+    evidence_weight: high
+    licence: "all rights reserved (SAGE / APS)"
+    reuse_rule: locator_only
+    version: "Repository abstract fetched; DOI 10.1111/j.1539-6053.2009.01038.x"
+    retrieved_at: 2026-11-12
+
+  - id: src-EVD-eef-send-explicit-instruction-blog
+    title: "What exactly is explicit instruction? (Special Educational Needs in Mainstream Schools series)"
+    publisher: Education Endowment Foundation
+    authors: [Education Endowment Foundation]
+    year: null
+    url: https://educationendowmentfoundation.org.uk/news/eef-blog-what-exactly-is-explicit-instruction
+    source_type: practitioner_resource
+    jurisdiction: [england]
+    evidence_weight: practitioner_wisdom
+    licence: TODO_check
+    reuse_rule: short_quote_only
+    version: "Blog; date not shown in fetched text"
+    retrieved_at: 2026-11-12
+
+  - id: src-EVD-eef-five-a-day-blog
+    title: "Five-a-day for pupils with SEND: a cluster of adaptive approaches"
+    publisher: Education Endowment Foundation
+    authors: [Gary Aubin]
+    year: null
+    url: https://educationendowmentfoundation.org.uk/news/eef-blog-five-a-day-for-pupils-with-send-a-cluster-of-adaptive-approaches
+    source_type: practitioner_resource
+    jurisdiction: [england]
+    evidence_weight: practitioner_wisdom
+    licence: TODO_check
+    reuse_rule: short_quote_only
+    version: "Blog; date not shown in fetched text"
+    retrieved_at: 2026-11-12
+
+  - id: src-EVD-edscot-interventions-for-equity
+    title: "Interventions for Equity"
+    publisher: Education Scotland
+    authors: [Education Scotland]
+    year: 2018
+    url: https://education.gov.scot/resources/interventions-for-equity
+    source_type: policy
+    jurisdiction: [scotland]
+    evidence_weight: practitioner_wisdom
+    licence: "OGL v3 (typical for Education Scotland; check)"
+    reuse_rule: short_quote_only
+    version: "First published 1 January 2018; page shows last update 9 November 2026"
+    retrieved_at: 2026-11-12
+
+  - id: src-EVD-gtcs-sfr-pku
+    title: "The Standard for Full Registration: 2 Professional Knowledge and Understanding"
+    publisher: General Teaching Council for Scotland
+    authors: [GTCS]
+    year: 2021
+    url: https://www.gtcs.org.uk/documents/pages/sfr-02-professional-knowledge-and-understanding
+    source_type: policy
+    jurisdiction: [scotland]
+    evidence_weight: practitioner_wisdom
+    licence: TODO_check
+    reuse_rule: short_quote_only
+    version: "Professional Standards 2021 (year from GTCS standards suite; not printed on fetched page)"
+    retrieved_at: 2026-11-12
+
+  - id: src-EVD-edscot-lal-listening-talking
+    title: "Literacy across learning in secondary schools 2015-16: Listening and talking"
+    publisher: Education Scotland
+    authors: [Education Scotland]
+    year: 2016
+    url: https://education.gov.scot/media/ph2nvs1e/lit15-listening-and-talking.pdf
+    source_type: practitioner_resource
+    jurisdiction: [scotland]
+    evidence_weight: practitioner_wisdom
+    licence: "OGL v3 (typical for Education Scotland; check)"
+    reuse_rule: short_quote_only
+    version: "2015-16; publisher inferred from education.gov.scot hosting (name not printed in fetched text); year approximate"
+    retrieved_at: 2026-11-12
+
+  - id: src-EVD-inverclyde-eps-metacognition
+    title: "Guide to metacognition, self-regulated learning and study skills"
+    publisher: "Inverclyde Educational Psychology Service (Inverclyde Council)"
+    authors: [Inverclyde Educational Psychology Service]
+    year: null
+    url: https://blogs.glowscotland.org.uk/in/ieps/key-areas/metacognition/
+    source_type: practitioner_resource
+    jurisdiction: [scotland]
+    evidence_weight: low
+    licence: TODO_check
+    reuse_rule: short_quote_only
+    version: "Glow blog page; footer copyright 2015-2020, no publication date"
+    retrieved_at: 2026-11-12
+
+passages:
+  # ---------------- EEF Toolkit: metacognition ----------------
+  - id: psg-EVD-tlt-meta-headline
+    source_id: src-EVD-eef-tlt-metacognition
+    locator: "Strand page, headline panel (impact, cost, evidence strength)"
+    text: "High impact for very low cost based on extensive evidence."
+    excerpt_type: quote
+    fetched_url: https://educationendowmentfoundation.org.uk/education-evidence/teaching-learning-toolkit/metacognition-and-self-regulation
+    verified_by_fetch: true
+  - id: psg-EVD-tlt-meta-figures
+    source_id: src-EVD-eef-tlt-metacognition
+    locator: "Strand page, headline panel and evidence strength note"
+    text: "Average impact of about +8 months' additional progress; evidence strength rated high, drawn from 355 studies, with one padlock removed because many studies were not independently evaluated."
+    excerpt_type: paraphrase
+    fetched_url: https://educationendowmentfoundation.org.uk/education-evidence/teaching-learning-toolkit/metacognition-and-self-regulation
+    verified_by_fetch: true
+  - id: psg-EVD-tlt-meta-curriculum
+    source_id: src-EVD-eef-tlt-metacognition
+    locator: "Strand page, key findings list (UNCONFIRMED: exact heading wording)"
+    text: "Strategies are most effective when taught and applied within normal curriculum content rather than as separate thinking skills lessons; teachers can model their thinking aloud and co-create planning checklists and self-questioning prompts."
+    excerpt_type: paraphrase
+    fetched_url: https://educationendowmentfoundation.org.uk/education-evidence/teaching-learning-toolkit/metacognition-and-self-regulation
+    verified_by_fetch: true
+  - id: psg-EVD-tlt-meta-age
+    source_id: src-EVD-eef-tlt-metacognition
+    locator: "Strand page, section on effectiveness by phase and subject (UNCONFIRMED: exact heading)"
+    text: "Effects are similar and high across early years, primary and secondary studies, with gains reported in literacy, mathematics and science."
+    excerpt_type: paraphrase
+    fetched_url: https://educationendowmentfoundation.org.uk/education-evidence/teaching-learning-toolkit/metacognition-and-self-regulation
+    verified_by_fetch: true
+  - id: psg-EVD-tlt-meta-hard
+    source_id: src-EVD-eef-tlt-metacognition
+    locator: "Strand page, key findings list (UNCONFIRMED: exact heading wording)"
+    text: "The high average impact can be hard to realise in practice; teachers need professional support to teach strategies explicitly, and teachers' own understanding of metacognition affects outcomes."
+    excerpt_type: paraphrase
+    fetched_url: https://educationendowmentfoundation.org.uk/education-evidence/teaching-learning-toolkit/metacognition-and-self-regulation
+    verified_by_fetch: true
+  - id: psg-EVD-tlt-meta-collab
+    source_id: src-EVD-eef-tlt-metacognition
+    locator: "Strand page, key findings list (UNCONFIRMED: exact heading wording)"
+    text: "Structured collaborative groups can support metacognition, but the collaboration has to be carefully designed; reasoning, argument and debate help pupils reflect on their own and others' learning."
+    excerpt_type: paraphrase
+    fetched_url: https://educationendowmentfoundation.org.uk/education-evidence/teaching-learning-toolkit/metacognition-and-self-regulation
+    verified_by_fetch: true
+
+  # ---------------- EEF Toolkit: reading comprehension ----------------
+  - id: psg-EVD-tlt-rc-headline
+    source_id: src-EVD-eef-tlt-reading-comp
+    locator: "Strand page, headline panel"
+    text: "High impact for very low cost based on moderate evidence."
+    excerpt_type: quote
+    fetched_url: https://educationendowmentfoundation.org.uk/education-evidence/teaching-learning-toolkit/reading-comprehension-strategies
+    verified_by_fetch: true
+  - id: psg-EVD-tlt-rc-figures
+    source_id: src-EVD-eef-tlt-reading-comp
+    locator: "Strand page, headline panel and 'Evidence security' section"
+    text: "Average impact of about +7 months from 184 studies; evidence security moderate, with padlocks removed because many studies were not independent and results varied widely in unexplained ways."
+    excerpt_type: paraphrase
+    fetched_url: https://educationendowmentfoundation.org.uk/education-evidence/teaching-learning-toolkit/reading-comprehension-strategies
+    verified_by_fetch: true
+  - id: psg-EVD-tlt-rc-teaching
+    source_id: src-EVD-eef-tlt-reading-comp
+    locator: "Strand page, 'Teaching approach' and 'Text type' sections"
+    text: "Teachers should model strategies explicitly and then move pupils through guided towards independent practice; texts should be engaging, suitably challenging and connected to pupils' prior knowledge."
+    excerpt_type: paraphrase
+    fetched_url: https://educationendowmentfoundation.org.uk/education-evidence/teaching-learning-toolkit/reading-comprehension-strategies
+    verified_by_fetch: true
+  - id: psg-EVD-tlt-rc-diagnosis
+    source_id: src-EVD-eef-tlt-reading-comp
+    locator: "Strand page, 'Struggling readers' section"
+    text: "For pupils who struggle, accurate diagnosis matters because the difficulty may lie in decoding, sentence structure or vocabulary rather than comprehension strategies; this is especially important for older readers."
+    excerpt_type: paraphrase
+    fetched_url: https://educationendowmentfoundation.org.uk/education-evidence/teaching-learning-toolkit/reading-comprehension-strategies
+    verified_by_fetch: true
+
+  # ---------------- EEF Toolkit: feedback ----------------
+  - id: psg-EVD-tlt-fb-figures
+    source_id: src-EVD-eef-tlt-feedback
+    locator: "Strand page, headline panel and evidence strength note"
+    text: "Average impact of about +6 months from 155 studies; evidence strength high, with one padlock removed because many studies were not randomised controlled trials."
+    excerpt_type: paraphrase
+    fetched_url: https://educationendowmentfoundation.org.uk/education-evidence/teaching-learning-toolkit/feedback
+    verified_by_fetch: true
+  - id: psg-EVD-tlt-fb-focus
+    source_id: src-EVD-eef-tlt-feedback
+    locator: "Strand page, key findings (UNCONFIRMED: exact heading wording)"
+    text: "The most effective feedback focuses on the task, the subject or self-regulation and gives specific guidance on how to improve; feedback should also be given when work is correct."
+    excerpt_type: paraphrase
+    fetched_url: https://educationendowmentfoundation.org.uk/education-evidence/teaching-learning-toolkit/feedback
+    verified_by_fetch: true
+  - id: psg-EVD-tlt-fb-phase
+    source_id: src-EVD-eef-tlt-feedback
+    locator: "Strand page, impact by phase and method (UNCONFIRMED: exact heading wording)"
+    text: "Primary pupils show slightly larger gains (+7 months) than secondary pupils (+5 months); verbal feedback shows slightly higher impact (+7 months), and written marking is optional rather than required."
+    excerpt_type: paraphrase
+    fetched_url: https://educationendowmentfoundation.org.uk/education-evidence/teaching-learning-toolkit/feedback
+    verified_by_fetch: true
+
+  # ---------------- EEF Toolkit: oral language ----------------
+  - id: psg-EVD-tlt-oral-figures
+    source_id: src-EVD-eef-tlt-oral-language
+    locator: "Strand page, headline panel and evidence strength note"
+    text: "Average impact of about +6 months from 188 studies; evidence strength high, with one padlock removed because many studies were not independently evaluated."
+    excerpt_type: paraphrase
+    fetched_url: https://educationendowmentfoundation.org.uk/education-evidence/teaching-learning-toolkit/oral-language-interventions
+    verified_by_fetch: true
+  - id: psg-EVD-tlt-oral-dialogic
+    source_id: src-EVD-eef-tlt-oral-language
+    locator: "Strand page, 'Interactions' section"
+    text: "Dialogic teaching treats talk as a tool for building understanding, thinking and metacognition, including questioning, modelling strategies by thinking aloud and structuring classroom talk."
+    excerpt_type: paraphrase
+    fetched_url: https://educationendowmentfoundation.org.uk/education-evidence/teaching-learning-toolkit/oral-language-interventions
+    verified_by_fetch: true
+  - id: psg-EVD-tlt-oral-curriculum
+    source_id: src-EVD-eef-tlt-oral-language
+    locator: "Strand page, 'Integration with curriculum' section"
+    text: "The strongest evidence comes from approaches built into the existing curriculum; vocabulary work works best when linked to current classroom content and involves active use of new words."
+    excerpt_type: paraphrase
+    fetched_url: https://educationendowmentfoundation.org.uk/education-evidence/teaching-learning-toolkit/oral-language-interventions
+    verified_by_fetch: true
+  - id: psg-EVD-tlt-oral-age
+    source_id: src-EVD-eef-tlt-oral-language
+    locator: "Strand page, effectiveness by age (UNCONFIRMED: exact heading wording)"
+    text: "Approaches appear similarly effective across age groups, though more studies come from early years and primary than from secondary; most measured outcomes are reading comprehension."
+    excerpt_type: paraphrase
+    fetched_url: https://educationendowmentfoundation.org.uk/education-evidence/teaching-learning-toolkit/oral-language-interventions
+    verified_by_fetch: true
+
+  # ---------------- EEF Toolkit: collaborative learning ----------------
+  - id: psg-EVD-tlt-collab-figures
+    source_id: src-EVD-eef-tlt-collaborative
+    locator: "Strand page, headline panel and evidence security note"
+    text: "Average impact of about +5 months from 212 studies, but evidence security is low, with three padlocks removed for few recent studies, lack of independent evaluation and large unexplained variation."
+    excerpt_type: paraphrase
+    fetched_url: https://educationendowmentfoundation.org.uk/education-evidence/teaching-learning-toolkit/collaborative-learning-approaches
+    verified_by_fetch: true
+  - id: psg-EVD-tlt-collab-structure
+    source_id: src-EVD-eef-tlt-collaborative
+    locator: "Strand page, discussion of group size and task structure (no explicit heading in fetched text)"
+    text: "Groups of three to five working towards a shared outcome are most promising; structured, well-designed tasks give larger gains than simply seating pupils together, and tasks must ensure every pupil participates."
+    excerpt_type: paraphrase
+    fetched_url: https://educationendowmentfoundation.org.uk/education-evidence/teaching-learning-toolkit/collaborative-learning-approaches
+    verified_by_fetch: true
+  - id: psg-EVD-tlt-collab-phase
+    source_id: src-EVD-eef-tlt-collaborative
+    locator: "Strand page, discussion of age and subject differences (no explicit heading in fetched text)"
+    text: "Gains are slightly larger in secondary (+6 months) than primary (+5 months), and smaller in literacy (+3 months) than in science; too much inter-group competition can shift focus from learning to winning."
+    excerpt_type: paraphrase
+    fetched_url: https://educationendowmentfoundation.org.uk/education-evidence/teaching-learning-toolkit/collaborative-learning-approaches
+    verified_by_fetch: true
+  - id: psg-EVD-tlt-collab-gap
+    source_id: src-EVD-eef-tlt-collaborative
+    locator: "Strand page, discussion of disadvantaged and low-attaining pupils (no explicit heading in fetched text)"
+    text: "If high attainers do the problem solving while others contribute little, collaborative work may widen attainment gaps."
+    excerpt_type: paraphrase
+    fetched_url: https://educationendowmentfoundation.org.uk/education-evidence/teaching-learning-toolkit/collaborative-learning-approaches
+    verified_by_fetch: true
+
+  # ---------------- EEF Toolkit: learning styles ----------------
+  - id: psg-EVD-tlt-ls-headline
+    source_id: src-EVD-eef-tlt-learning-styles
+    locator: "Strand page, headline panel"
+    text: "Unclear impact for very low cost based on insufficient evidence"
+    excerpt_type: quote
+    fetched_url: https://educationendowmentfoundation.org.uk/education-evidence/teaching-learning-toolkit/learning-styles
+    verified_by_fetch: true
+  - id: psg-EVD-tlt-ls-evidence
+    source_id: src-EVD-eef-tlt-learning-styles
+    locator: "Strand page, evidence summary (UNCONFIRMED: exact heading wording)"
+    text: "No studies met the review's inclusion criteria; there is little reliable evidence for a consistent set of learning styles, and people's preferences shift across situations and over time."
+    excerpt_type: paraphrase
+    fetched_url: https://educationendowmentfoundation.org.uk/education-evidence/teaching-learning-toolkit/learning-styles
+    verified_by_fetch: true
+  - id: psg-EVD-tlt-ls-risks
+    source_id: src-EVD-eef-tlt-learning-styles
+    locator: "Strand page, risks and implementation notes (UNCONFIRMED: exact heading wording)"
+    text: "Restricting pupils to activities matched to a supposed style may slow progress, especially in primary; labelling pupils can lower expectations and their belief that effort pays off."
+    excerpt_type: paraphrase
+    fetched_url: https://educationendowmentfoundation.org.uk/education-evidence/teaching-learning-toolkit/learning-styles
+    verified_by_fetch: true
+  - id: psg-EVD-tlt-ls-alternatives
+    source_id: src-EVD-eef-tlt-learning-styles
+    locator: "Strand page, alternatives section (UNCONFIRMED: exact heading wording)"
+    text: "Schools are pointed instead towards understanding differences in prior knowledge and barriers, responsive teaching and feedback, and helping pupils plan, monitor and evaluate their learning."
+    excerpt_type: paraphrase
+    fetched_url: https://educationendowmentfoundation.org.uk/education-evidence/teaching-learning-toolkit/learning-styles
+    verified_by_fetch: true
+
+  # ---------------- EEF guidance report: metacognition ----------------
+  - id: psg-EVD-gr-meta-modelling
+    source_id: src-EVD-eef-gr-metacognition
+    locator: "Recommendation 3 summary, p. 21"
+    text: "Modelling by the teacher is a cornerstone of effective teaching."
+    excerpt_type: quote
+    fetched_url: https://d2tic4wvo1iusb.cloudfront.net/production/eef-guidance-reports/metacognition/Metacognition-and-Self-regulated-Learning_guidance-report_v.1.2.0.pdf
+    verified_by_fetch: true
+  - id: psg-EVD-gr-meta-recs
+    source_id: src-EVD-eef-gr-metacognition
+    locator: "Contents page; Recommendations 1 to 7, pp. 9, 13, 21, 25, 29, 33, 39"
+    text: "Seven recommendations: build teacher understanding; explicitly teach planning, monitoring and evaluating; model your own thinking; promote metacognitive talk; set an appropriate level of challenge; teach pupils to organise their learning independently; implement carefully."
+    excerpt_type: paraphrase
+    fetched_url: https://d2tic4wvo1iusb.cloudfront.net/production/eef-guidance-reports/metacognition/Metacognition-and-Self-regulated-Learning_guidance-report_v.1.2.0.pdf
+    verified_by_fetch: true
+  - id: psg-EVD-gr-meta-sevenstep
+    source_id: src-EVD-eef-gr-metacognition
+    locator: "Recommendation 2, from p. 13 (UNCONFIRMED: exact page of the seven-step model)"
+    text: "A seven-step gradual release model: activate prior knowledge, teach the strategy explicitly, model it, check understanding, guided practice, independent practice, structured reflection."
+    excerpt_type: paraphrase
+    fetched_url: https://d2tic4wvo1iusb.cloudfront.net/production/eef-guidance-reports/metacognition/Metacognition-and-Self-regulated-Learning_guidance-report_v.1.2.0.pdf
+    verified_by_fetch: true
+  - id: psg-EVD-gr-meta-talk
+    source_id: src-EVD-eef-gr-metacognition
+    locator: "Recommendation 4, from p. 25"
+    text: "Classroom dialogue can develop metacognition when it is purposeful and guided by the teacher; metacognitive questions help pupils plan, monitor and evaluate."
+    excerpt_type: paraphrase
+    fetched_url: https://d2tic4wvo1iusb.cloudfront.net/production/eef-guidance-reports/metacognition/Metacognition-and-Self-regulated-Learning_guidance-report_v.1.2.0.pdf
+    verified_by_fetch: true
+  - id: psg-EVD-gr-meta-challenge
+    source_id: src-EVD-eef-gr-metacognition
+    locator: "Recommendation 5, from p. 29"
+    text: "Challenge must be pitched carefully: tasks that are too hard risk cognitive overload and pupils may disengage, while modelling should be paired with worked examples and scaffolds that are gradually removed."
+    excerpt_type: paraphrase
+    fetched_url: https://d2tic4wvo1iusb.cloudfront.net/production/eef-guidance-reports/metacognition/Metacognition-and-Self-regulated-Learning_guidance-report_v.1.2.0.pdf
+    verified_by_fetch: true
+
+  # ---------------- EEF guidance report: KS2 literacy ----------------
+  - id: psg-EVD-gr-ks2-rec3
+    source_id: src-EVD-eef-gr-literacy-ks2
+    locator: "Contents, Recommendation 3 heading, p. 22"
+    text: "Teach reading comprehension strategies through modelling and supported practice"
+    excerpt_type: quote
+    fetched_url: https://159-northumberland.eschools.co.uk/storage/secure_download/OGZVU2RRTjRkMnJoRitzeFh2cUtpUT09
+    verified_by_fetch: true
+  - id: psg-EVD-gr-ks2-strategies
+    source_id: src-EVD-eef-gr-literacy-ks2
+    locator: "Recommendation 3, pp. 10 and 23; gradual release, Figure 9, p. 26"
+    text: "Five strategies are named: prediction, questioning, clarifying, summarising and activating prior knowledge; pupils learn what each is, how, why and when to use it, with responsibility shifting from teacher to pupil over time."
+    excerpt_type: paraphrase
+    fetched_url: https://159-northumberland.eschools.co.uk/storage/secure_download/OGZVU2RRTjRkMnJoRitzeFh2cUtpUT09
+    verified_by_fetch: true
+  - id: psg-EVD-gr-ks2-reciprocal
+    source_id: src-EVD-eef-gr-literacy-ks2
+    locator: "Recommendation 3, Box 4, p. 25"
+    text: "In an EEF trial of Reciprocal Reading, a targeted small-group version for Years 5 and 6 had a positive impact, while the whole-class version showed no advantage over usual teaching."
+    excerpt_type: paraphrase
+    fetched_url: https://159-northumberland.eschools.co.uk/storage/secure_download/OGZVU2RRTjRkMnJoRitzeFh2cUtpUT09
+    verified_by_fetch: true
+  - id: psg-EVD-gr-ks2-texts
+    source_id: src-EVD-eef-gr-literacy-ks2
+    locator: "Recommendation 3, p. 10 and Box 5, p. 27"
+    text: "Texts should be selected to suit the strategy being taught, challenging enough to need the strategy but not so hard that pupils cannot understand them."
+    excerpt_type: paraphrase
+    fetched_url: https://159-northumberland.eschools.co.uk/storage/secure_download/OGZVU2RRTjRkMnJoRitzeFh2cUtpUT09
+    verified_by_fetch: true
+  - id: psg-EVD-gr-ks2-talk
+    source_id: src-EVD-eef-gr-literacy-ks2
+    locator: "Recommendation 1, p. 13 (dialogue) and p. 14, Box 1 (collaborative learning)"
+    text: "Teachers build dialogue through open questions, probing follow-ups, building on pupil answers and giving every pupil a chance to talk; collaborative tasks work best when structured, in groups of three to five."
+    excerpt_type: paraphrase
+    fetched_url: https://159-northumberland.eschools.co.uk/storage/secure_download/OGZVU2RRTjRkMnJoRitzeFh2cUtpUT09
+    verified_by_fetch: true
+  - id: psg-EVD-gr-ks2-vocab
+    source_id: src-EVD-eef-gr-literacy-ks2
+    locator: "Recommendation 1, pp. 12 and 16 (Figure 3)"
+    text: "Teach new vocabulary explicitly, especially widely useful Tier 2 words, with repeated exposure and chances to use the words in speaking, reading and writing."
+    excerpt_type: paraphrase
+    fetched_url: https://159-northumberland.eschools.co.uk/storage/secure_download/OGZVU2RRTjRkMnJoRitzeFh2cUtpUT09
+    verified_by_fetch: true
+
+  # ---------------- EEF feedback guidance ----------------
+  - id: psg-EVD-gr-fb-principles
+    source_id: src-EVD-eef-gr-feedback-news
+    locator: "News release, key messages paragraphs"
+    text: "The report's central message is to focus on the principles of good feedback rather than particular methods such as written or verbal, with school policy leaving method and timing to teacher judgement."
+    excerpt_type: paraphrase
+    fetched_url: https://educationendowmentfoundation.org.uk/news/eef-publishes-new-guidance-report-teacher-feedback-to-improve-pupil-learning
+    verified_by_fetch: true
+  - id: psg-EVD-gr-fb-recs
+    source_id: src-EVD-eef-gr-feedback-poster
+    locator: "Recommendations poster, Recommendations 1 to 3"
+    text: "Lay the foundations through high-quality teaching and formative assessment; deliver appropriately timed feedback focused on moving learning forward; plan for how pupils will receive and use feedback."
+    excerpt_type: paraphrase
+    fetched_url: https://files.schudio.com/willowbank-st-helens/files/documents/curriculum/eef-feedback-recommendations.pdf
+    verified_by_fetch: true
+  - id: psg-EVD-gr-fb-written
+    source_id: src-EVD-eef-gr-feedback-poster
+    locator: "Recommendations poster, Recommendations 4 to 6"
+    text: "Verbal feedback can raise attainment and may save time; written feedback effects vary and some forms carry workload costs; policies should not over-specify frequency or form."
+    excerpt_type: paraphrase
+    fetched_url: https://files.schudio.com/willowbank-st-helens/files/documents/curriculum/eef-feedback-recommendations.pdf
+    verified_by_fetch: true
+
+  # ---------------- REAL Projects ----------------
+  - id: psg-EVD-real-design
+    source_id: src-EVD-eef-real-projects-page
+    locator: "Trial page, project description"
+    text: "Learning through REAL Projects was a Year 7 project-based learning programme from the Innovation Unit, tested in 24 secondary schools with 20 to 50 percent of teaching timetabled as cross-subject projects."
+    excerpt_type: paraphrase
+    fetched_url: https://educationendowmentfoundation.org.uk/projects-and-evaluation/projects/project-based-learning/
+    verified_by_fetch: true
+  - id: psg-EVD-real-results
+    source_id: src-EVD-eef-real-projects-report
+    locator: "Executive summary, Table 1, p. 5; Table 8, p. 33"
+    text: "Literacy (Progress in English 12) effect size was -0.13 for all pupils (about -2 months, not statistically significant) and -0.24 for pupils eligible for free school meals (about -3 months)."
+    excerpt_type: paraphrase
+    fetched_url: https://durham-repository.worktribe.com/OutputFile/1606384
+    verified_by_fetch: true
+  - id: psg-EVD-real-security
+    source_id: src-EVD-eef-real-projects-report
+    locator: "Executive summary, security rating, p. 5; attrition, p. 26"
+    text: "Security was rated low: five of twelve intervention schools left, only about half of intervention pupils and a minority of control pupils were analysed, and some control schools adopted similar approaches."
+    excerpt_type: paraphrase
+    fetched_url: https://durham-repository.worktribe.com/OutputFile/1606384
+    verified_by_fetch: true
+  - id: psg-EVD-real-conclusions
+    source_id: src-EVD-eef-real-projects-report
+    locator: "Executive summary, key conclusions, pp. 4-5"
+    text: "Evaluators found no clear impact on literacy or engagement, urged caution on the FSM finding, and reported that schools valued the approach for oracy, teamwork and self-directed study, though it needed substantial organisational change."
+    excerpt_type: paraphrase
+    fetched_url: https://durham-repository.worktribe.com/OutputFile/1606384
+    verified_by_fetch: true
+
+  # ---------------- WWC practice guide ----------------
+  - id: psg-EVD-wwc-overview
+    source_id: src-EVD-wwc-organizing-2007
+    locator: "Overview and recommendation table, pp. 1-2"
+    text: "Seven recommendations: space learning over time; interleave worked examples with problems; combine graphics with verbal description; connect abstract and concrete; use quizzing; help pupils allocate study time; ask deep explanatory questions."
+    excerpt_type: paraphrase
+    fetched_url: https://ies.ed.gov/ncee/WWC/Docs/PracticeGuide/20072004.pdf
+    verified_by_fetch: true
+  - id: psg-EVD-wwc-rec1
+    source_id: src-EVD-wwc-organizing-2007
+    locator: "Recommendation 1, pp. 5-7"
+    text: "Re-expose pupils to key content at least twice, separated by weeks to months; brief reviews of older material, mixed homework and cumulative tests are suggested. Evidence rated moderate."
+    excerpt_type: paraphrase
+    fetched_url: https://ies.ed.gov/ncee/WWC/Docs/PracticeGuide/20072004.pdf
+    verified_by_fetch: true
+  - id: psg-EVD-wwc-rec1-history
+    source_id: src-EVD-wwc-organizing-2007
+    locator: "Recommendation 1, p. 6"
+    text: "Eighth-grade US history pupils who reviewed facts 16 weeks after learning remembered nearly twice as much nine months later as those who reviewed after one week."
+    excerpt_type: paraphrase
+    fetched_url: https://ies.ed.gov/ncee/WWC/Docs/PracticeGuide/20072004.pdf
+    verified_by_fetch: true
+  - id: psg-EVD-wwc-rec2
+    source_id: src-EVD-wwc-organizing-2007
+    locator: "Recommendation 2, pp. 9-11"
+    text: "Alternate worked solutions with problems pupils solve themselves, fading worked steps as expertise grows. Evidence rated moderate, mainly from mathematics, science and technology."
+    excerpt_type: paraphrase
+    fetched_url: https://ies.ed.gov/ncee/WWC/Docs/PracticeGuide/20072004.pdf
+    verified_by_fetch: true
+  - id: psg-EVD-wwc-rec3
+    source_id: src-EVD-wwc-organizing-2007
+    locator: "Recommendation 3, pp. 13-15"
+    text: "Pair graphics with verbal explanation placed next to the relevant part of the visual; avoid decorative images, excessive realism and text that does not match the figure. Evidence rated moderate."
+    excerpt_type: paraphrase
+    fetched_url: https://ies.ed.gov/ncee/WWC/Docs/PracticeGuide/20072004.pdf
+    verified_by_fetch: true
+  - id: psg-EVD-wwc-rec5b
+    source_id: src-EVD-wwc-organizing-2007
+    locator: "Recommendation 5b, pp. 21-22"
+    text: "Use closed-book quizzes, ideally requiring recall, to re-expose pupils to content, followed by correct-answer feedback; the testing effect is robust across ages and materials. Evidence rated strong."
+    excerpt_type: paraphrase
+    fetched_url: https://ies.ed.gov/ncee/WWC/Docs/PracticeGuide/20072004.pdf
+    verified_by_fetch: true
+  - id: psg-EVD-wwc-rec7
+    source_id: src-EVD-wwc-organizing-2007
+    locator: "Recommendation 7, pp. 29-32"
+    text: "Once pupils have basic knowledge, pose and model deep why, how, what-if and what-is-the-evidence questions; pupils need adequate background knowledge first. Evidence rated strong."
+    excerpt_type: paraphrase
+    fetched_url: https://ies.ed.gov/ncee/WWC/Docs/PracticeGuide/20072004.pdf
+    verified_by_fetch: true
+  - id: psg-EVD-wwc-rec6
+    source_id: src-EVD-wwc-organizing-2007
+    locator: "Recommendations 6a and 6b, pp. 23-28"
+    text: "Teaching pupils to judge what they have learned after a delay, and using quizzes to show what needs more study, is recommended but rated low evidence."
+    excerpt_type: paraphrase
+    fetched_url: https://ies.ed.gov/ncee/WWC/Docs/PracticeGuide/20072004.pdf
+    verified_by_fetch: true
+
+  # ---------------- Rosenshine ----------------
+  - id: psg-EVD-ros-review-quote
+    source_id: src-EVD-rosenshine-2012
+    locator: "p. 13, list of principles, principle 1"
+    text: "Begin a lesson with a short review of previous learning."
+    excerpt_type: quote
+    fetched_url: https://www.aft.org/sites/default/files/media/2014/ae_spring2012.pdf
+    verified_by_fetch: true
+  - id: psg-EVD-ros-sources
+    source_id: src-EVD-rosenshine-2012
+    locator: "p. 12, introduction"
+    text: "The principles draw on three strands of research: cognitive science on working memory, classroom studies of the most effective teachers, and research on cognitive supports for complex tasks."
+    excerpt_type: paraphrase
+    fetched_url: https://www.aft.org/sites/default/files/media/2014/ae_spring2012.pdf
+    verified_by_fetch: true
+  - id: psg-EVD-ros-smallsteps
+    source_id: src-EVD-rosenshine-2012
+    locator: "pp. 13-14, 'Present new material in small steps'"
+    text: "Because working memory is limited, effective teachers present small amounts of new material and have pupils practise after each step."
+    excerpt_type: paraphrase
+    fetched_url: https://www.aft.org/sites/default/files/media/2014/ae_spring2012.pdf
+    verified_by_fetch: true
+  - id: psg-EVD-ros-questions
+    source_id: src-EVD-rosenshine-2012
+    locator: "pp. 14-15 (questions) and pp. 16-17 (checking for understanding)"
+    text: "Ask many questions and check responses from all pupils, for example with response cards or choral answers, so misconceptions are caught early."
+    excerpt_type: paraphrase
+    fetched_url: https://www.aft.org/sites/default/files/media/2014/ae_spring2012.pdf
+    verified_by_fetch: true
+  - id: psg-EVD-ros-models
+    source_id: src-EVD-rosenshine-2012
+    locator: "pp. 15-16, 'Provide models'"
+    text: "Teachers model, think aloud and provide fully worked examples, which reduce the load on pupils' working memory."
+    excerpt_type: paraphrase
+    fetched_url: https://www.aft.org/sites/default/files/media/2014/ae_spring2012.pdf
+    verified_by_fetch: true
+  - id: psg-EVD-ros-success
+    source_id: src-EVD-rosenshine-2012
+    locator: "pp. 17-18, 'Obtain a high success rate'"
+    text: "A success rate of around 80 percent during instruction is suggested; in one study the most effective teachers' pupils were correct 82 percent of the time versus 73 percent for the least effective."
+    excerpt_type: paraphrase
+    fetched_url: https://www.aft.org/sites/default/files/media/2014/ae_spring2012.pdf
+    verified_by_fetch: true
+  - id: psg-EVD-ros-scaffolds
+    source_id: src-EVD-rosenshine-2012
+    locator: "p. 18, 'Provide scaffolds for difficult tasks'"
+    text: "Scaffolds such as prompts, checklists, expert models and teacher think-alouds are temporary supports that are gradually withdrawn as pupils become competent."
+    excerpt_type: paraphrase
+    fetched_url: https://www.aft.org/sites/default/files/media/2014/ae_spring2012.pdf
+    verified_by_fetch: true
+  - id: psg-EVD-ros-guided-indep
+    source_id: src-EVD-rosenshine-2012
+    locator: "p. 16 (guided practice) and pp. 18-19 (independent practice)"
+    text: "Effective teachers spend more time on guided practice before moving pupils to extensive, monitored independent practice of the same material."
+    excerpt_type: paraphrase
+    fetched_url: https://www.aft.org/sites/default/files/media/2014/ae_spring2012.pdf
+    verified_by_fetch: true
+  - id: psg-EVD-ros-weekly
+    source_id: src-EVD-rosenshine-2012
+    locator: "Principle 10, 'Engage students in weekly and monthly review' (UNCONFIRMED: page, likely p. 19)"
+    text: "Extensive practice and repeated review build well-connected knowledge in long-term memory, freeing working memory for problem solving."
+    excerpt_type: paraphrase
+    fetched_url: https://www.aft.org/sites/default/files/media/2014/ae_spring2012.pdf
+    verified_by_fetch: true
+
+  # ---------------- Clark, Kirschner, Sweller 2012 ----------------
+  - id: psg-EVD-cks-quote
+    source_id: src-EVD-clark-kirschner-sweller-2012
+    locator: "p. 6"
+    text: "direct, explicit instruction is more effective and more efficient than partial guidance"
+    excerpt_type: quote
+    fetched_url: https://www.aft.org/sites/default/files/GuidedInstruction.pdf
+    verified_by_fetch: true
+  - id: psg-EVD-cks-lessskilled
+    source_id: src-EVD-clark-kirschner-sweller-2012
+    locator: "p. 8"
+    text: "The authors report a review of about 70 studies suggesting less-skilled learners gain more from more-guided instruction and can lose ground when given less guidance."
+    excerpt_type: paraphrase
+    fetched_url: https://www.aft.org/sites/default/files/GuidedInstruction.pdf
+    verified_by_fetch: true
+  - id: psg-EVD-cks-worked
+    source_id: src-EVD-clark-kirschner-sweller-2012
+    locator: "pp. 9-10"
+    text: "A worked example is a fully solved problem with each step explained; novices who study them tend to outperform peers who solve equivalent problems, because searching for solutions overloads working memory."
+    excerpt_type: paraphrase
+    fetched_url: https://www.aft.org/sites/default/files/GuidedInstruction.pdf
+    verified_by_fetch: true
+  - id: psg-EVD-cks-reversal
+    source_id: src-EVD-clark-kirschner-sweller-2012
+    locator: "p. 10"
+    text: "For more experienced learners the worked-example advantage disappears and can reverse, so guidance should fade as mastery grows."
+    excerpt_type: paraphrase
+    fetched_url: https://www.aft.org/sites/default/files/GuidedInstruction.pdf
+    verified_by_fetch: true
+
+  # ---------------- Kirschner et al. 2006 ----------------
+  - id: psg-EVD-ksc-abstract
+    source_id: src-EVD-kirschner-2006
+    locator: "Abstract, p. 75"
+    text: "The authors argue that minimally guided instruction is less effective and less efficient than strongly guided instruction for novices, with the advantage fading only when learners have enough prior knowledge."
+    excerpt_type: paraphrase
+    fetched_url: https://www.davidlewisphd.com/courses/EDD8121/readings/2006-Kirschner_et_al.pdf
+    verified_by_fetch: true
+  - id: psg-EVD-ksc-wm
+    source_id: src-EVD-kirschner-2006
+    locator: "pp. 76-77"
+    text: "Working memory is limited when handling new information, and problem-solving search loads it heavily while contributing little to long-term knowledge."
+    excerpt_type: paraphrase
+    fetched_url: https://www.davidlewisphd.com/courses/EDD8121/readings/2006-Kirschner_et_al.pdf
+    verified_by_fetch: true
+  - id: psg-EVD-ksc-worked
+    source_id: src-EVD-kirschner-2006
+    locator: "pp. 79-80"
+    text: "Novices who study worked examples outperform those who solve equivalent problems; the effect weakens and can reverse as expertise grows (expertise reversal)."
+    excerpt_type: paraphrase
+    fetched_url: https://www.davidlewisphd.com/courses/EDD8121/readings/2006-Kirschner_et_al.pdf
+    verified_by_fetch: true
+
+  # ---------------- Hmelo-Silver et al. 2007 ----------------
+  - id: psg-EVD-hmelo-abstract
+    source_id: src-EVD-hmelo-silver-2007
+    locator: "Abstract, p. 99"
+    text: "The authors argue that problem-based and inquiry learning are heavily scaffolded rather than minimally guided, that scaffolding reduces cognitive load, and that these approaches also target epistemic practices, collaboration and self-directed learning."
+    excerpt_type: paraphrase
+    fetched_url: https://scholarship.libraries.rutgers.edu/esploro/outputs/journalArticle/Scaffolding-and-Achievement-in-Problem-Based-and/991031758567904646
+    verified_by_fetch: true
+
+  # ---------------- Alfieri et al. 2011 ----------------
+  - id: psg-EVD-alfieri-quote
+    source_id: src-EVD-alfieri-2011
+    locator: "Abstract, p. 1"
+    text: "unassisted discovery does not benefit learners"
+    excerpt_type: quote
+    fetched_url: https://www.fisme.science.uu.nl/publicaties/literatuur/2011_alfieri_discovery_learning.pdf
+    verified_by_fetch: true
+  - id: psg-EVD-alfieri-effects
+    source_id: src-EVD-alfieri-2011
+    locator: "Abstract, p. 1; Table 2, p. 6"
+    text: "Across 164 studies, unassisted discovery underperformed explicit instruction (d = -0.38), while enhanced discovery with guidance, feedback, worked examples or elicited explanations outperformed other instruction (d = 0.30)."
+    excerpt_type: paraphrase
+    fetched_url: https://www.fisme.science.uu.nl/publicaties/literatuur/2011_alfieri_discovery_learning.pdf
+    verified_by_fetch: true
+  - id: psg-EVD-alfieri-advice
+    source_id: src-EVD-alfieri-2011
+    locator: "Discussion, pp. 11-12"
+    text: "Effective discovery tasks should include scaffolded guidance, tasks requiring learners to explain their ideas with timely feedback, or worked examples."
+    excerpt_type: paraphrase
+    fetched_url: https://www.fisme.science.uu.nl/publicaties/literatuur/2011_alfieri_discovery_learning.pdf
+    verified_by_fetch: true
+
+  # ---------------- Adesope et al. 2017 ----------------
+  - id: psg-EVD-adesope-quote
+    source_id: src-EVD-adesope-2017
+    locator: "Abstract, p. 659"
+    text: "practice tests are more beneficial for learning than restudying and all other comparison conditions"
+    excerpt_type: quote
+    fetched_url: https://journals.sagepub.com/doi/10.3102/0034654316689306
+    verified_by_fetch: true
+  - id: psg-EVD-adesope-moderators
+    source_id: src-EVD-adesope-2017
+    locator: "Abstract, p. 659"
+    text: "The size of the benefit varied with features of the practice tests, participant and study characteristics, outcome type and study method (specific moderator values not verified)."
+    excerpt_type: paraphrase
+    fetched_url: https://journals.sagepub.com/doi/10.3102/0034654316689306
+    verified_by_fetch: true
+
+  # ---------------- Latimier et al. 2021 ----------------
+  - id: psg-EVD-latimier-abstract
+    source_id: src-EVD-latimier-2021
+    locator: "Abstract"
+    text: "Across 29 studies, spacing out retrieval practice gave a large benefit over massed retrieval (g = 0.74), while expanding versus uniform gaps made no significant difference (g = 0.034)."
+    excerpt_type: paraphrase
+    fetched_url: https://link.springer.com/10.1007/s10648-020-09572-8
+    verified_by_fetch: true
+  - id: psg-EVD-latimier-conclusion
+    source_id: src-EVD-latimier-2021
+    locator: "Abstract, concluding sentences"
+    text: "The authors conclude that spacing retrieval episodes helps retention, but the evidence does not support the common belief that gaps must keep lengthening."
+    excerpt_type: paraphrase
+    fetched_url: https://link.springer.com/10.1007/s10648-020-09572-8
+    verified_by_fetch: true
+
+  # ---------------- Black and Wiliam ----------------
+  - id: psg-EVD-bw-definition
+    source_id: src-EVD-black-wiliam-1998
+    locator: "2010 reprint, p. 82"
+    text: "the evidence is actually used to adapt the teaching to meet student needs"
+    excerpt_type: quote
+    fetched_url: https://www.michigan.gov/documents/mde/Inside_The_Black_Box_-_Black_and_William_601104_7.pdf
+    verified_by_fetch: true
+  - id: psg-EVD-bw-effects
+    source_id: src-EVD-black-wiliam-1998
+    locator: "2010 reprint, p. 83"
+    text: "Reported effect sizes from formative assessment experiments were typically 0.4 to 0.7, with low achievers benefiting most."
+    excerpt_type: paraphrase
+    fetched_url: https://www.michigan.gov/documents/mde/Inside_The_Black_Box_-_Black_and_William_601104_7.pdf
+    verified_by_fetch: true
+  - id: psg-EVD-bw-practices
+    source_id: src-EVD-black-wiliam-1998
+    locator: "2010 reprint, pp. 85-87"
+    text: "Practices include giving thinking time, having all pupils record answers before a few share, training pupils in self-assessment, and comment feedback on strengths and weaknesses, preferably without overall marks."
+    excerpt_type: paraphrase
+    fetched_url: https://www.michigan.gov/documents/mde/Inside_The_Black_Box_-_Black_and_William_601104_7.pdf
+    verified_by_fetch: true
+
+  # ---------------- Pashler et al. 2008 ----------------
+  - id: psg-EVD-pashler-ls
+    source_id: src-EVD-pashler-2008-learning-styles
+    locator: "Abstract, p. 105"
+    text: "Validating learning styles needs a crossover interaction in randomised studies; the review found almost none, several adequate studies contradicted matching, and so found no adequate basis for using learning-styles assessments in schools."
+    excerpt_type: paraphrase
+    fetched_url: https://digitalcommons.usf.edu/psy_facpub/1765/
+    verified_by_fetch: true
+
+  # ---------------- EEF SEND blogs ----------------
+  - id: psg-EVD-eef-ei-components
+    source_id: src-EVD-eef-send-explicit-instruction-blog
+    locator: "Blog body, list of teaching habits"
+    text: "Explicit instruction involves small sequenced steps, examples paired with non-examples, clear language, anticipating misconceptions and stripping out distracting information, alongside frequent checks for understanding."
+    excerpt_type: paraphrase
+    fetched_url: https://educationendowmentfoundation.org.uk/news/eef-blog-what-exactly-is-explicit-instruction
+    verified_by_fetch: true
+  - id: psg-EVD-eef-ei-stages
+    source_id: src-EVD-eef-send-explicit-instruction-blog
+    locator: "Blog body, discussion of guided steps before independence"
+    text: "Lessons should include guided, co-created or modelled stages between explanation and independent work, and pupils should not be moved to independent practice too soon."
+    excerpt_type: paraphrase
+    fetched_url: https://educationendowmentfoundation.org.uk/news/eef-blog-what-exactly-is-explicit-instruction
+    verified_by_fetch: true
+  - id: psg-EVD-fiveaday-quote
+    source_id: src-EVD-eef-five-a-day-blog
+    locator: "Blog body, concluding section"
+    text: "good teaching for pupils with SEND is good teaching for all"
+    excerpt_type: quote
+    fetched_url: https://educationendowmentfoundation.org.uk/news/eef-blog-five-a-day-for-pupils-with-send-a-cluster-of-adaptive-approaches
+    verified_by_fetch: true
+  - id: psg-EVD-fiveaday-scaffold
+    source_id: src-EVD-eef-five-a-day-blog
+    locator: "Blog body, scaffolding paragraph"
+    text: "A scaffold is a planned support, such as a visual, a written template or a verbal prompt, built into the lesson for pupils likely to find the learning hard."
+    excerpt_type: paraphrase
+    fetched_url: https://educationendowmentfoundation.org.uk/news/eef-blog-five-a-day-for-pupils-with-send-a-cluster-of-adaptive-approaches
+    verified_by_fetch: true
+  - id: psg-EVD-fiveaday-cognitive
+    source_id: src-EVD-eef-five-a-day-blog
+    locator: "Blog body, cognitive strategies paragraph"
+    text: "Cognitive strategies such as graphic organisers and mnemonics help pupils understand and retain concepts."
+    excerpt_type: paraphrase
+    fetched_url: https://educationendowmentfoundation.org.uk/news/eef-blog-five-a-day-for-pupils-with-send-a-cluster-of-adaptive-approaches
+    verified_by_fetch: true
+
+  # ---------------- Scottish sources ----------------
+  - id: psg-EVD-edscot-ife-eef
+    source_id: src-EVD-edscot-interventions-for-equity
+    locator: "Resource page, section on companion resources (EEF Teaching and Learning Toolkit)"
+    text: "Education Scotland presents the EEF Teaching and Learning Toolkit as a companion to its Interventions for Equity framework, to inform Pupil Equity Funding decisions, while advising schools to choose approaches through self-evaluation."
+    excerpt_type: paraphrase
+    fetched_url: https://education.gov.scot/resources/interventions-for-equity
+    verified_by_fetch: true
+  - id: psg-EVD-gtcs-research
+    source_id: src-EVD-gtcs-sfr-pku
+    locator: "Standard for Full Registration, 2.1.2 Research and Engagement in Practitioner Enquiry"
+    text: "how to access and apply relevant findings from educational research"
+    excerpt_type: quote
+    fetched_url: https://www.gtcs.org.uk/documents/pages/sfr-02-professional-knowledge-and-understanding
+    verified_by_fetch: true
+  - id: psg-EVD-gtcs-pedagogy
+    source_id: src-EVD-gtcs-sfr-pku
+    locator: "Standard for Full Registration, 2.1.1 Pedagogical Theories and Professional Practice"
+    text: "Registered teachers are expected to have deep knowledge of pedagogical and learning theories and draw on them in planning, teaching and assessment."
+    excerpt_type: paraphrase
+    fetched_url: https://www.gtcs.org.uk/documents/pages/sfr-02-professional-knowledge-and-understanding
+    verified_by_fetch: true
+  - id: psg-EVD-gtcs-assessment
+    source_id: src-EVD-gtcs-sfr-pku
+    locator: "Standard for Full Registration, 2.1.4 Planning for Assessment, Teaching and Learning"
+    text: "Teachers should treat assessment as integral to learning and teaching, value learner dialogue about progress, and give meaningful feedback to agree next steps."
+    excerpt_type: paraphrase
+    fetched_url: https://www.gtcs.org.uk/documents/pages/sfr-02-professional-knowledge-and-understanding
+    verified_by_fetch: true
+  - id: psg-EVD-edscot-lal-talk
+    source_id: src-EVD-edscot-lal-listening-talking
+    locator: "Sections 'Group Discussion' and 'Context for Group Discussion'"
+    text: "Listening and talking are central to learning in all subjects; group discussion should have learners ask and answer questions, build on others' contributions and summarise, for exploring ideas, analysing texts and debating viewpoints."
+    excerpt_type: paraphrase
+    fetched_url: https://education.gov.scot/media/ph2nvs1e/lit15-listening-and-talking.pdf
+    verified_by_fetch: true
+  - id: psg-EVD-inverclyde-meta
+    source_id: src-EVD-inverclyde-eps-metacognition
+    locator: "Page body, metacognition guidance"
+    text: "A Scottish educational psychology service recommends teaching metacognitive and study strategies explicitly within subject tasks using a seven-step gradual release, and points teachers to the EEF guidance."
+    excerpt_type: paraphrase
+    fetched_url: https://blogs.glowscotland.org.uk/in/ieps/key-areas/metacognition/
+    verified_by_fetch: true
+
+entries:
+  # =====================================================================
+  - id: prn-EVD-explicit-instruction
+    type: principle
+    title: "Explicit instruction"
+    summary: "Teach new content in small, sequenced steps with clear explanation, modelling, frequent checks and guided practice before independent work. Most effective for novices, which at P7 and S1 means most pupils most of the time."
+    body: |
+      **What it is.** The teacher states the goal, explains in small steps, models (including thinking aloud), asks many questions of all pupils, guides practice and only then releases pupils to independent practice. Guidance is faded as pupils gain expertise.
+
+      **Why it works.** Working memory is limited for new material; strong guidance reduces unproductive search so attention goes to the key ideas. The advantage shrinks for pupils who already know a lot (expertise reversal).
+
+      **How to do it.**
+      - Open with a short review of prior learning.
+      - Break content into small steps and have pupils practise after each step.
+      - Use examples and non-examples, precise language, and plan for likely misconceptions.
+      - Check every pupil (mini-whiteboards, cold calling, hinge questions) and aim for roughly 80 percent success in guided practice.
+      - Move to independent practice only when pupils are secure.
+
+      **Scottish context.** GTCS registration standards expect teachers to apply pedagogical theory and research findings; Education Scotland signposts the EEF Toolkit for equity planning.
+    status: draft
+    version: "0.1"
+    curated_by: [agent-EVD]
+    facets:
+      jurisdiction: [scotland]
+      cfe_level: [second, third]
+      stage: [p7, s1]
+      curriculum_area: [all]
+      subject: [english, history]
+      lesson_purpose: [introduce, guided_practice]
+      knowledge_type: [declarative, procedural, conceptual]
+      expertise: [novice, developing]
+      artefact_type: [slides, worksheet, form, lesson_plan, interaction]
+    evidence:
+      rating: strong
+      rationale: "Convergent support from classroom process-product research (Rosenshine), cognitive load reviews and a meta-analysis showing unassisted discovery underperforms explicit instruction; see clm-EVD-ei-04."
+    prerequisites: ["Teacher has sequenced the content into small steps and identified likely misconceptions"]
+    risks:
+      - "Over-long teacher talk without checks for understanding becomes lecturing, not explicit instruction."
+      - "Keeping guidance too long for pupils who are already secure can hold them back (expertise reversal)."
+    relations:
+      conflicts_with: [prn-EVD-minimally-guided-discovery-pbl]
+    artefact_recipes:
+      slides: |
+        One idea per slide; a goal slide, then steps. P7 English: slide sequence teaching how to write a topic sentence for a persuasive paragraph (definition, one example, one non-example, a "you try" slide). S1 history: slide sequence on causes of the Wars of Independence, one cause per slide with a key term in bold and a check question before the next slide.
+      worksheet: |
+        "I do, we do, you do" layout. P7 English: worked model of a persuasive paragraph, a half-completed one, then two to write alone. S1 history: a model answer explaining one cause of the 1296 invasion, a partly completed paragraph on a second cause, then one to write independently.
+      form: |
+        Three-question exit check after each step. P7 English: "Which sentence is the topic sentence?" (multiple choice). S1 history: "Put these three events in order" plus "Explain why in one sentence."
+      lesson_plan: |
+        Review (5 min); state goal; explain and model in two or three small steps with a check after each; guided practice to about 80 percent success; independent practice; brief summary. Example P7: topic sentences. Example S1: causes of a historical event.
+      interaction: |
+        Mini-whiteboards after each step; teacher scans all answers and reteaches if fewer than most are correct. Cold call with no hands up, then follow-up "How do you know?"
+    claims: [clm-EVD-ei-01, clm-EVD-ei-02, clm-EVD-ei-03, clm-EVD-ei-04, clm-EVD-ei-05, clm-EVD-ei-06, clm-EVD-ei-07]
+
+  # =====================================================================
+  - id: prn-EVD-retrieval-practice
+    type: principle
+    title: "Retrieval practice"
+    summary: "Have pupils recall previously learned material from memory (low-stakes quizzes, free recall, flashcards) rather than re-reading it, and give feedback on the answers."
+    body: |
+      **What it is.** Pulling information out of memory strengthens it. Low-stakes, closed-book quizzing is a learning activity, not just assessment.
+
+      **How to do it.**
+      - Start lessons with three to five recall questions on earlier content (not only last lesson).
+      - Prefer recall formats (short answer, fill the gap, brain dump) to recognition where possible.
+      - Always follow with correct answers so errors are not consolidated.
+      - Keep it low stakes: no marks recorded, self-marked.
+      - Combine with spacing (see prn-EVD-spaced-practice).
+    status: draft
+    version: "0.1"
+    curated_by: [agent-EVD]
+    facets:
+      jurisdiction: [scotland]
+      cfe_level: [second, third]
+      stage: [p7, s1]
+      curriculum_area: [all]
+      subject: [english, history]
+      lesson_purpose: [guided_practice, independent_practice, assess_feedback]
+      knowledge_type: [declarative, conceptual]
+      expertise: [novice, developing, secure]
+      artefact_type: [slides, worksheet, form, lesson_plan, interaction]
+    evidence:
+      rating: strong
+      rationale: "Rated strong by the WWC practice guide and supported by the Adesope et al. 2017 meta-analysis; see clm-EVD-rp-01 and clm-EVD-rp-02."
+    prerequisites: ["Content has been taught before it is retrieved"]
+    risks:
+      - "Without feedback, wrong answers may be remembered."
+      - "High-stakes framing can raise anxiety; keep scores private or unrecorded."
+    relations:
+      conflicts_with: []
+    artefact_recipes:
+      slides: |
+        "Do now" slide with four questions mixing last lesson, last week and last month, answers revealed on the next slide. P7 English: "What is a simile? Give one from our class novel. What does 'protagonist' mean?" S1 history: "Who won at Stirling Bridge? What year? Name one reason Edward I invaded."
+      worksheet: |
+        Brain-dump box ("Write everything you remember about...") followed by a checklist to self-mark against. P7 English: features of a newspaper report. S1 history: life in a medieval burgh.
+      form: |
+        Self-marking quiz form, five short-answer items, answers and explanations shown after submission; results not recorded. Mix old and new topics.
+      lesson_plan: |
+        Five-minute retrieval starter every lesson; one weekly cumulative quiz; teacher notes items most pupils missed and reteaches.
+      interaction: |
+        Think, write, then pair-check before the reveal; mini-whiteboards so every pupil retrieves, not just volunteers.
+    claims: [clm-EVD-rp-01, clm-EVD-rp-02, clm-EVD-rp-03, clm-EVD-rp-04, clm-EVD-rp-05]
+
+  # =====================================================================
+  - id: prn-EVD-spaced-practice
+    type: principle
+    title: "Spaced practice"
+    summary: "Return to key content repeatedly over weeks and months rather than concentrating practice in one block."
+    body: |
+      **What it is.** Distributing practice and review over time improves long-term retention compared with massing the same amount of practice.
+
+      **How to do it.**
+      - Plan brief reviews of material taught several weeks earlier.
+      - Include a few items on older topics in each homework or practice set.
+      - Use cumulative end-of-unit and end-of-term checks.
+      - The gap does not have to keep increasing; regular spaced returns are what matter.
+    status: draft
+    version: "0.1"
+    curated_by: [agent-EVD]
+    facets:
+      jurisdiction: [scotland]
+      cfe_level: [second, third]
+      stage: [p7, s1]
+      curriculum_area: [all]
+      subject: [english, history]
+      lesson_purpose: [independent_practice, assess_feedback]
+      knowledge_type: [declarative, procedural]
+      expertise: [novice, developing, secure]
+      artefact_type: [slides, worksheet, form, lesson_plan]
+    evidence:
+      rating: moderate
+      rationale: "Large effects in a meta-analysis (Latimier et al. 2021, g = 0.74 for spaced retrieval) but WWC rates classroom evidence moderate; see clm-EVD-sp-01 and clm-EVD-sp-02."
+    prerequisites: ["A long-term plan that records when topics were taught"]
+    risks: ["Early reviews may show a lot of forgetting; this is expected and relearning is faster."]
+    relations:
+      conflicts_with: []
+    artefact_recipes:
+      slides: |
+        Recurring "Flashback" slide with one question from four weeks ago and one from last term. P7 English: apostrophes for possession (taught in term 1). S1 history: chronology of the Wars of Independence revisited during a later topic.
+      worksheet: |
+        Every practice sheet ends with a "From before" section of two to three items on earlier topics. P7 English: spelling rules from earlier units. S1 history: key vocabulary from the previous unit.
+      form: |
+        Monthly cumulative quiz form drawing from all units so far, randomised order.
+      lesson_plan: |
+        Long-term plan grid marking review points at roughly one week, one month and end of term after first teaching.
+      interaction: |
+        "Pick a card" review game using a deck of question cards from all earlier units.
+    claims: [clm-EVD-sp-01, clm-EVD-sp-02, clm-EVD-sp-03, clm-EVD-sp-04, clm-EVD-sp-05]
+
+  # =====================================================================
+  - id: prn-EVD-worked-examples
+    type: principle
+    title: "Worked examples and faded guidance"
+    summary: "Show complete, step-by-step solutions or models, alternate them with problems for pupils to try, and fade the worked steps as pupils gain expertise."
+    body: |
+      **What it is.** A worked example is a fully completed model with the steps made visible. Studying them reduces unproductive search for novices.
+
+      **How to do it.**
+      - Present a worked model, then a similar task for pupils to complete.
+      - Alternate model and task rather than giving a block of tasks.
+      - Fade: give partially completed examples (completion tasks) before full independence.
+      - Label steps by their purpose so pupils see the structure.
+      - In English and history, worked examples are model paragraphs, annotated source analyses and exemplar answers with the reasoning shown.
+    status: draft
+    version: "0.1"
+    curated_by: [agent-EVD]
+    facets:
+      jurisdiction: [scotland]
+      cfe_level: [second, third]
+      stage: [p7, s1]
+      curriculum_area: [all]
+      subject: [english, history]
+      lesson_purpose: [introduce, guided_practice]
+      knowledge_type: [procedural, disciplinary]
+      expertise: [novice, developing]
+      artefact_type: [slides, worksheet, lesson_plan, interaction]
+    evidence:
+      rating: moderate
+      rationale: "WWC rates interleaving worked examples with problems as moderate evidence, mostly from mathematics and science; transfer to writing and history is by inference; see clm-EVD-we-01."
+    prerequisites: ["A clear model answer exists for the task"]
+    risks:
+      - "Worked examples lose value and can hinder more expert pupils."
+      - "Evidence base is mostly STEM; extended writing models are an inference by the curator."
+    relations:
+      conflicts_with: []
+    artefact_recipes:
+      slides: |
+        Annotated model revealed step by step. P7 English: a model descriptive paragraph with annotations for sensory detail, simile and varied openers. S1 history: a model source analysis of a primary source (for example a chronicle extract) showing origin, purpose and content steps.
+      worksheet: |
+        Model, then completion task, then independent task. P7 English: full model paragraph; second paragraph with the last two sentences missing; third written alone. S1 history: full "explain why" answer; second with only the point given; third independent.
+      lesson_plan: |
+        Discuss a worked model together, pupils attempt one item alone, return to the model to compare, repeat with a faded model.
+      interaction: |
+        "Spot the step" pairs task: pupils label each step of the model with its purpose before trying their own.
+    claims: [clm-EVD-we-01, clm-EVD-we-02, clm-EVD-we-03, clm-EVD-we-04, clm-EVD-we-05]
+
+  # =====================================================================
+  - id: prn-EVD-metacognition
+    type: principle
+    title: "Metacognition and self-regulated learning"
+    summary: "Explicitly teach pupils to plan, monitor and evaluate their learning, within subject content, through modelling, guided practice and structured reflection."
+    body: |
+      **What it is.** Pupils learn strategies for planning, monitoring and evaluating their own work, and the knowledge of when to use them.
+
+      **How to do it (EEF seven-step model).**
+      1. Activate prior knowledge.
+      2. Explicitly teach the strategy.
+      3. Model it, thinking aloud.
+      4. Check understanding of the strategy.
+      5. Guided practice.
+      6. Independent practice.
+      7. Structured reflection.
+
+      Teach within normal lessons, not as separate thinking-skills lessons. Pitch challenge so pupils need the strategy but are not overloaded. Use metacognitive talk ("How will I start? How do I know this is working?").
+
+      **Scottish context.** A Scottish educational psychology service (Inverclyde) promotes the same approach and the EEF guidance; Education Scotland signposts the EEF Toolkit for equity planning.
+    status: draft
+    version: "0.1"
+    curated_by: [agent-EVD]
+    facets:
+      jurisdiction: [scotland]
+      cfe_level: [second, third]
+      stage: [p7, s1]
+      curriculum_area: [all]
+      subject: [english, history]
+      lesson_purpose: [introduce, guided_practice, independent_practice, assess_feedback]
+      knowledge_type: [metacognitive]
+      expertise: [novice, developing, secure]
+      artefact_type: [slides, worksheet, form, lesson_plan, interaction]
+    evidence:
+      rating: strong
+      rationale: "EEF Toolkit reports about +8 months from 355 studies with high evidence strength; see clm-EVD-mc-01."
+    prerequisites: ["Pupils have enough subject knowledge to apply a strategy"]
+    risks:
+      - "Generic thinking-skills lessons detached from content are less effective."
+      - "High average impact is hard to achieve without teacher professional learning."
+    relations:
+      conflicts_with: []
+    artefact_recipes:
+      slides: |
+        Think-aloud slide showing the teacher's plan, then "How did I check?" slide. P7 English: teacher plans a persuasive letter aloud (audience, purpose, three points) and rereads to check. S1 history: teacher plans an answer to "How far was Bruce responsible for Scottish independence?", sorting factors and checking against the question.
+      worksheet: |
+        Plan, monitor, evaluate strip on the side of the task. P7 English: "Before: What is my purpose? During: Have I used a new paragraph for each point? After: What would I change?" S1 history: "Before: What is the question asking? During: Have I used evidence? After: Did I answer 'how far'?"
+      form: |
+        Short reflection form after an extended task: confidence rating, strategy used, one thing to change next time.
+      lesson_plan: |
+        Follow the seven steps across two lessons; reflection in the final five minutes. Example P7: summarising a chapter. Example S1: planning an extended answer.
+      interaction: |
+        Metacognitive questioning during circulation ("What's your plan? Is it working? What else could you try?"); pairs explain their strategy to each other.
+    claims: [clm-EVD-mc-01, clm-EVD-mc-02, clm-EVD-mc-03, clm-EVD-mc-04, clm-EVD-mc-05, clm-EVD-mc-06, clm-EVD-mc-07, clm-EVD-mc-08]
+
+  # =====================================================================
+  - id: prn-EVD-feedback
+    type: principle
+    title: "Feedback that moves learning forward"
+    summary: "Give specific, actionable feedback on the task, the subject or the pupil's self-regulation, at a time that helps, and plan for pupils to act on it."
+    body: |
+      **What it is.** Information about performance that helps pupils close the gap between current and desired work.
+
+      **How to do it.**
+      - Build on strong initial teaching and formative assessment so feedback has less to fix.
+      - Focus on the task, subject or strategy, not the person; be specific about how to improve.
+      - Choose timing (immediate or delayed) to suit the task and pupil.
+      - Plan time for pupils to act on feedback.
+      - Verbal and whole-class feedback can be efficient; written marking is one option, not a requirement, and has workload costs.
+      - Give feedback on correct work too.
+
+      **Scottish context.** The GTCS Standard for Full Registration expects meaningful feedback that agrees next steps with learners.
+    status: draft
+    version: "0.1"
+    curated_by: [agent-EVD]
+    facets:
+      jurisdiction: [scotland]
+      cfe_level: [second, third]
+      stage: [p7, s1]
+      curriculum_area: [all]
+      subject: [english, history]
+      lesson_purpose: [assess_feedback, guided_practice]
+      knowledge_type: [procedural, conceptual, metacognitive]
+      expertise: [novice, developing, secure]
+      artefact_type: [slides, worksheet, form, lesson_plan, interaction]
+    evidence:
+      rating: strong
+      rationale: "EEF Toolkit: about +6 months from 155 studies with high evidence strength; see clm-EVD-fb-01."
+    prerequisites: ["Clear success criteria for the task"]
+    risks:
+      - "Vague praise or grades alone give pupils nothing to act on."
+      - "Heavy written marking policies cost time without guaranteed benefit."
+    relations:
+      conflicts_with: []
+    artefact_recipes:
+      slides: |
+        Whole-class feedback slide: common strengths, two common errors with a corrected example, one improvement task. P7 English: errors in direct speech punctuation. S1 history: answers that describe instead of explaining causes.
+      worksheet: |
+        Redrafting box under the original work with a single specific target. P7 English: "Add one sentence that shows the character's feelings through action." S1 history: "Add a 'because' sentence linking this evidence to the cause."
+      form: |
+        Feedback response form: pupil copies the target, makes the change, ticks when done; teacher spot-checks.
+      lesson_plan: |
+        Ten minutes of dedicated improvement time in the lesson after work is reviewed; teacher circulates to give verbal feedback.
+      interaction: |
+        Live verbal feedback while circulating; brief conferences with three or four pupils per lesson.
+    claims: [clm-EVD-fb-01, clm-EVD-fb-02, clm-EVD-fb-03, clm-EVD-fb-04, clm-EVD-fb-05]
+
+  # =====================================================================
+  - id: prn-EVD-formative-assessment
+    type: principle
+    title: "Formative assessment (assessment for learning)"
+    summary: "Gather evidence of what all pupils understand during learning and use it to adapt teaching straight away."
+    body: |
+      **What it is.** Assessment is formative when the evidence is used to change teaching or learning. In Scotland this is often called Assessment is for Learning.
+
+      **How to do it.**
+      - Share clear learning intentions and success criteria.
+      - Ask questions that reveal thinking; give wait time; get responses from all pupils (whiteboards, hinge questions).
+      - Act on the evidence: reteach, regroup, move on.
+      - Use comment feedback and train pupils in self- and peer-assessment.
+
+      **Scottish context.** GTCS standards describe assessment as integral to learning and teaching and value learner dialogue about progress.
+    status: draft
+    version: "0.1"
+    curated_by: [agent-EVD]
+    facets:
+      jurisdiction: [scotland]
+      cfe_level: [second, third]
+      stage: [p7, s1]
+      curriculum_area: [all]
+      subject: [english, history]
+      lesson_purpose: [assess_feedback, guided_practice]
+      knowledge_type: [declarative, procedural, conceptual]
+      expertise: [novice, developing, secure]
+      artefact_type: [slides, worksheet, form, lesson_plan, interaction]
+    evidence:
+      rating: moderate
+      rationale: "Black and Wiliam's review reports typical effects of 0.4 to 0.7, and the EEF feedback evidence supports the practice, but the review is older and its effect sizes are not from a single modern meta-analysis; see clm-EVD-fa-02."
+    prerequisites: ["Clear learning intentions and success criteria"]
+    risks: ["Collecting evidence without acting on it is not formative."]
+    relations:
+      conflicts_with: []
+    artefact_recipes:
+      slides: |
+        Hinge-question slide mid-lesson with four options, each wrong option tied to a known misconception. P7 English: "Which word in this sentence is an adverb?" S1 history: "Which of these is a primary source for the Battle of Bannockburn?"
+      worksheet: |
+        Success criteria checklist at the top for self-assessment, with a peer comment box. P7 English: features of a recount. S1 history: features of a good source evaluation.
+      form: |
+        Exit ticket form with one diagnostic question and a confidence scale; teacher uses results to group pupils next lesson.
+      lesson_plan: |
+        Plan a hinge point at about the midpoint with planned responses: if most are correct move on, otherwise reteach with a different example.
+      interaction: |
+        No hands up with wait time; all pupils write on whiteboards before a few share; traffic-light cups for self-signalling.
+    claims: [clm-EVD-fa-01, clm-EVD-fa-02, clm-EVD-fa-03, clm-EVD-fa-04]
+
+  # =====================================================================
+  - id: prn-EVD-reading-comprehension-strategies
+    type: principle
+    title: "Explicit teaching of reading comprehension strategies"
+    summary: "Teach strategies such as predicting, questioning, clarifying, summarising and activating prior knowledge through modelling and supported practice, then gradual release, using well-chosen texts."
+    body: |
+      **What it is.** Strategies that help readers build meaning from a text. They assume pupils can decode; check decoding and vocabulary first for struggling readers.
+
+      **How to do it.**
+      - Teach what the strategy is, how, why and when to use it.
+      - Model with a think-aloud, then guided practice, then independent use (gradual release).
+      - Choose texts that require the strategy but are not too hard; link to prior knowledge.
+      - Apply strategies across subjects, including history sources.
+      - Reciprocal-reading style roles can work well in targeted small groups.
+    status: draft
+    version: "0.1"
+    curated_by: [agent-EVD]
+    facets:
+      jurisdiction: [scotland]
+      cfe_level: [second, third]
+      stage: [p7, s1]
+      curriculum_area: [all]
+      subject: [english, history]
+      lesson_purpose: [introduce, guided_practice, independent_practice]
+      knowledge_type: [procedural, metacognitive]
+      expertise: [novice, developing]
+      artefact_type: [slides, worksheet, form, lesson_plan, interaction]
+    evidence:
+      rating: moderate
+      rationale: "High average impact (about +7 months, 184 studies) but EEF rates evidence security moderate because of non-independent studies and unexplained variation; see clm-EVD-rc-01."
+    prerequisites: ["Pupils can decode the text with reasonable accuracy"]
+    risks:
+      - "Strategy practice on texts that are too easy or too hard does not build comprehension."
+      - "Whole-class reciprocal reading showed no advantage in one EEF trial."
+    relations:
+      aligns_to: [cur-CUR-lit-2-16a]
+      conflicts_with: []
+    artefact_recipes:
+      slides: |
+        Strategy icon slides (predict, question, clarify, summarise) with a teacher think-aloud on a short extract. P7 English: a chapter opening from the class novel. S1 history: a short secondary-source paragraph on the Declaration of Arbroath.
+      worksheet: |
+        Four-box reciprocal reading organiser. P7 English: predict from title and first paragraph, two questions, one word to clarify, a 20-word summary. S1 history: same four boxes for a textbook extract on medieval Scotland.
+      form: |
+        After-reading check: one literal, one inferential and one summary question, plus "Which strategy did you use?"
+      lesson_plan: |
+        Week 1 teacher models each strategy; week 2 guided group practice with role cards; week 3 pupils lead roles with less prompting.
+      interaction: |
+        Small groups of three to five rotate roles (predictor, questioner, clarifier, summariser); teacher prompts then withdraws.
+    claims: [clm-EVD-rc-01, clm-EVD-rc-02, clm-EVD-rc-03, clm-EVD-rc-04, clm-EVD-rc-05]
+
+  # =====================================================================
+  - id: prn-EVD-oral-language-dialogic
+    type: principle
+    title: "Oral language and dialogic talk"
+    summary: "Use structured, purposeful classroom talk (questioning, thinking aloud, building on answers) and explicit vocabulary teaching to develop understanding and language."
+    body: |
+      **What it is.** Speaking and listening used as tools for learning, not only as outcomes. Dialogic teaching uses talk to build understanding and metacognition.
+
+      **How to do it.**
+      - Ask open questions, probe with follow-ups and build on pupils' answers.
+      - Give every pupil a chance to talk (pairs, talk partners, structured roles).
+      - Model reasoning aloud.
+      - Teach Tier 2 vocabulary explicitly with repeated use in speaking and writing.
+      - Embed talk in curriculum content.
+
+      **Scottish context.** Education Scotland's listening and talking guidance treats talk as central to learning in all subjects and describes group discussion for exploring ideas, analysing texts and debating viewpoints.
+    status: draft
+    version: "0.1"
+    curated_by: [agent-EVD]
+    facets:
+      jurisdiction: [scotland]
+      cfe_level: [second, third]
+      stage: [p7, s1]
+      curriculum_area: [all]
+      subject: [english, history]
+      lesson_purpose: [introduce, guided_practice, apply_transfer]
+      knowledge_type: [conceptual, disciplinary]
+      expertise: [novice, developing, secure]
+      artefact_type: [slides, worksheet, lesson_plan, interaction]
+    evidence:
+      rating: strong
+      rationale: "EEF Toolkit oral language interventions: about +6 months from 188 studies, high evidence strength; most outcomes are reading comprehension; see clm-EVD-ol-01."
+    prerequisites: ["Classroom norms for respectful talk"]
+    risks: ["Unstructured discussion can be dominated by confident pupils."]
+    relations:
+      conflicts_with: []
+    artefact_recipes:
+      slides: |
+        Discussion prompt slide with sentence stems ("I agree with... because...", "Building on what X said..."). P7 English: "Was the character right to lie? Use evidence from the chapter." S1 history: "Was William Wallace a hero or a rebel?"
+      worksheet: |
+        Vocabulary page with three Tier 2 words: definition, example, pupil sentence. P7 English: "reluctant", "consequence", "persuade". S1 history: "authority", "rebellion", "legitimate".
+      lesson_plan: |
+        Think, pair, share on a key question; whole-class dialogue with probing follow-ups; pupils write after talking.
+      interaction: |
+        Talk roles (summariser, challenger, evidence-finder); teacher uses "Say more", "Why do you think that?", "Who can add to that?"
+    claims: [clm-EVD-ol-01, clm-EVD-ol-02, clm-EVD-ol-03, clm-EVD-ol-04, clm-EVD-ol-05, clm-EVD-ol-06]
+
+  # =====================================================================
+  - id: prn-EVD-collaborative-learning
+    type: principle
+    title: "Structured collaborative learning"
+    summary: "Use carefully designed small-group tasks (three to five pupils) with a shared goal and individual accountability, rather than simply seating pupils together."
+    body: |
+      **What it is.** Pupils work in small groups on a shared task designed so everyone must contribute and talk through their thinking.
+
+      **How to do it.**
+      - Groups of three to five with a joint outcome.
+      - Assign roles or separate parts of a shared product so each pupil contributes.
+      - Teach and practise collaboration skills.
+      - Use competition sparingly.
+      - Monitor that lower attainers are participating, not watching.
+    status: draft
+    version: "0.1"
+    curated_by: [agent-EVD]
+    facets:
+      jurisdiction: [scotland]
+      cfe_level: [second, third]
+      stage: [p7, s1]
+      curriculum_area: [all]
+      subject: [english, history]
+      lesson_purpose: [guided_practice, apply_transfer]
+      knowledge_type: [conceptual, disciplinary]
+      expertise: [developing, secure]
+      artefact_type: [worksheet, lesson_plan, interaction]
+    evidence:
+      rating: moderate
+      rationale: "Average about +5 months from 212 studies, but EEF rates evidence security low, and literacy gains are smaller (+3 months); see clm-EVD-cl-01."
+    prerequisites: ["Pupils have enough knowledge to contribute", "Group talk routines taught"]
+    risks:
+      - "Unstructured group work can widen gaps if a few pupils do the thinking."
+      - "Emphasis on competition can displace learning."
+    relations:
+      conflicts_with: []
+    artefact_recipes:
+      slides: |
+        Roles slide with responsibilities and a timer. P7 English: group of four prepares a radio advert, each pupil owns one persuasive technique. S1 history: group investigates life in a medieval castle, each pupil responsible for one source.
+      worksheet: |
+        Jigsaw sheet: each pupil records their section then teaches it to the group. P7 English: four poems, each pupil finds one technique. S1 history: four accounts of Bannockburn, each pupil summarises one.
+      lesson_plan: |
+        Teach content first; jigsaw expert groups; home groups combine; individual exit question to check each pupil learned the whole.
+      interaction: |
+        Teacher asks a randomly chosen group member to report, so all must be ready.
+    claims: [clm-EVD-cl-01, clm-EVD-cl-02, clm-EVD-cl-03, clm-EVD-cl-04, clm-EVD-cl-05]
+
+  # =====================================================================
+  - id: prn-EVD-dual-coding
+    type: principle
+    title: "Combining graphics with words (dual coding)"
+    summary: "Pair relevant diagrams, timelines and graphic organisers with verbal explanation, keeping labels next to the parts they describe and avoiding decorative images."
+    body: |
+      **What it is.** Presenting key ideas both verbally and visually, with the two closely integrated. The WWC guide calls this combining graphics with verbal descriptions.
+
+      **How to do it.**
+      - Use visuals that carry meaning (timelines, flow diagrams, story maps, labelled images).
+      - Place labels on or next to the relevant part, not in a separate key.
+      - Explain a visual aloud rather than adding blocks of text beside it where possible.
+      - Remove decorative images and over-detailed pictures.
+      - Graphic organisers are a well-used cognitive strategy for pupils with SEND.
+    status: draft
+    version: "0.1"
+    curated_by: [agent-EVD]
+    facets:
+      jurisdiction: [scotland]
+      cfe_level: [second, third]
+      stage: [p7, s1]
+      curriculum_area: [all]
+      subject: [english, history]
+      lesson_purpose: [introduce, guided_practice]
+      knowledge_type: [declarative, conceptual]
+      expertise: [novice, developing]
+      artefact_type: [slides, worksheet, lesson_plan]
+    evidence:
+      rating: moderate
+      rationale: "WWC rates combining graphics with verbal description as moderate evidence, mainly from mathematics, science and technology; see clm-EVD-dc-01."
+    prerequisites: []
+    risks:
+      - "Decorative clip art and busy slides can distract and add load."
+      - "The term 'dual coding' is sometimes misused to mean learning styles; this principle applies to all pupils."
+    relations:
+      conflicts_with: [prn-EVD-learning-styles]
+    artefact_recipes:
+      slides: |
+        One clean diagram per slide with labels on the image; teacher narrates. P7 English: story mountain for the class novel with events placed on it. S1 history: annotated timeline 1286 to 1328 with labels at each event.
+      worksheet: |
+        Graphic organiser with spaces adjacent to the visual. P7 English: character web with evidence boxes on each spoke. S1 history: cause-and-consequence flow chart for the Wars of Independence.
+      lesson_plan: |
+        Teacher draws the diagram live while explaining; pupils redraw it from memory later as retrieval.
+      interaction: |
+        Pupils sketch and label a diagram on whiteboards to explain an idea to a partner.
+    claims: [clm-EVD-dc-01, clm-EVD-dc-02, clm-EVD-dc-03]
+
+  # =====================================================================
+  - id: prn-EVD-scaffolding
+    type: principle
+    title: "Scaffolding with planned fading"
+    summary: "Provide temporary supports (prompts, sentence starters, templates, models, checklists) for difficult tasks and remove them as pupils become competent."
+    body: |
+      **What it is.** Planned support that lets pupils succeed at a task just beyond what they can do alone, withdrawn over time.
+
+      **How to do it.**
+      - Anticipate barriers and plan scaffolds in advance (visual supports, writing frames, verbal prompts, checklists, models).
+      - Include guided stages between explanation and independent work.
+      - Plan how and when each scaffold will be faded.
+      - Use the same scaffolds for all pupils who need them; this is good teaching for all.
+    status: draft
+    version: "0.1"
+    curated_by: [agent-EVD]
+    facets:
+      jurisdiction: [scotland]
+      cfe_level: [second, third]
+      stage: [p7, s1]
+      curriculum_area: [all]
+      subject: [english, history]
+      lesson_purpose: [guided_practice, independent_practice]
+      knowledge_type: [procedural, disciplinary]
+      expertise: [novice, developing]
+      artefact_type: [slides, worksheet, form, lesson_plan, interaction]
+    evidence:
+      rating: moderate
+      rationale: "Scaffolding is a component of effective-teacher practice (Rosenshine) and of the enhanced discovery conditions that outperformed other instruction in Alfieri et al.; isolated effect sizes for scaffolding alone were not located; see clm-EVD-sc-03."
+    prerequisites: []
+    risks: ["Scaffolds left in place too long create dependence."]
+    relations:
+      conflicts_with: []
+    artefact_recipes:
+      slides: |
+        Sentence-starter slide that is shortened in later lessons. P7 English: "The author makes me feel... because the word... suggests..." S1 history: "One reason Bruce won was... This is shown by... This mattered because..."
+      worksheet: |
+        Three tiers of the same task: full writing frame, starters only, blank. P7 English: book review. S1 history: explanation of a cause. Pupils move down the tiers across lessons.
+      form: |
+        Self-check checklist attached to the task; removed once pupils show they can self-check.
+      lesson_plan: |
+        Mark scaffold fading points on the unit plan (for example, frame in lesson 1, starters in lesson 3, independent in lesson 5).
+      interaction: |
+        Teacher verbal prompts move from specific ("Use your 'because' starter") to general ("What do you need to add?") to none.
+    claims: [clm-EVD-sc-01, clm-EVD-sc-02, clm-EVD-sc-03, clm-EVD-sc-04]
+
+  # =====================================================================
+  - id: prn-EVD-guided-inquiry
+    type: principle
+    title: "Guided inquiry with deep questions"
+    summary: "After key knowledge is taught, have pupils investigate questions with substantial guidance (scaffolds, worked examples, feedback, prompts to explain), rather than unassisted discovery."
+    body: |
+      **What it is.** Pupils pursue an enquiry question (for example, a historical question answered from sources) with structured support: modelled procedures, scaffolded tasks, prompts to explain their reasoning and timely feedback.
+
+      **How to do it.**
+      - Teach the background knowledge first; deep questions need it.
+      - Pose and model deep questions (why, how, what if, what is the evidence?).
+      - Scaffold the enquiry: provide selected sources, a process, worked example of an analysis.
+      - Require pupils to explain their reasoning and give feedback.
+      - Fade guidance as pupils gain expertise.
+
+      The contested alternative, minimally guided discovery, is described in prn-EVD-minimally-guided-discovery-pbl.
+    status: draft
+    version: "0.1"
+    curated_by: [agent-EVD]
+    facets:
+      jurisdiction: [scotland]
+      cfe_level: [second, third]
+      stage: [p7, s1]
+      curriculum_area: [all]
+      subject: [english, history]
+      lesson_purpose: [apply_transfer, guided_practice]
+      knowledge_type: [disciplinary, conceptual]
+      expertise: [developing, secure]
+      artefact_type: [slides, worksheet, lesson_plan, interaction]
+    evidence:
+      rating: moderate
+      rationale: "Enhanced (guided) discovery outperformed other instruction in a 164-study meta-analysis (d = 0.30) and WWC rates deep questioning strong; history-specific trial evidence was not located; see clm-EVD-gi-01."
+    prerequisites: ["Core knowledge of the topic has been taught", "Pupils have practised the analysis procedure with a model"]
+    risks: ["Without scaffolds, inquiry drifts into unassisted discovery, which underperforms."]
+    relations:
+      aligns_to: [cur-CUR-soc-3-01a]
+      conflicts_with: [prn-EVD-minimally-guided-discovery-pbl]
+    artefact_recipes:
+      slides: |
+        Enquiry question slide, then a modelled analysis of one source before pupils work. S1 history: "Why did the Scots win at Bannockburn?" with a teacher-modelled reading of one source. P7 English: "How does the author build tension in chapter 5?" with a modelled analysis of the first paragraph.
+      worksheet: |
+        Enquiry booklet with selected sources, guiding questions per source and a final claim-evidence-reasoning frame. S1 history: three short sources on Mary Queen of Scots. P7 English: three extracts showing a character changing.
+      lesson_plan: |
+        Lesson 1 knowledge and model; lesson 2 guided enquiry in pairs with teacher feedback; lesson 3 pupils write a reasoned answer.
+      interaction: |
+        Teacher poses deep questions ("What is your evidence? What if this source is biased?") and asks pupils to explain aloud.
+    claims: [clm-EVD-gi-01, clm-EVD-gi-02, clm-EVD-gi-03, clm-EVD-gi-04]
+
+  # =====================================================================
+  - id: prn-EVD-learning-styles
+    type: principle
+    title: "Matching teaching to 'learning styles' (not recommended)"
+    summary: "Labelling pupils as visual, auditory or kinaesthetic learners and matching teaching to the label is not supported by evidence and may do harm."
+    body: |
+      **What it is.** The idea that pupils learn better when teaching matches a preferred style (often visual, auditory, kinaesthetic).
+
+      **Why it is not recommended.** No studies met the EEF's inclusion criteria and a major review found almost no evidence for the matching hypothesis. Labelling can lower expectations and restricting activities to a label may slow progress.
+
+      **Do instead.** Find out what pupils already know and what barriers they face; use responsive teaching and feedback; use dual coding for everyone; teach metacognition.
+    status: draft
+    version: "0.1"
+    curated_by: [agent-EVD]
+    facets:
+      jurisdiction: [scotland]
+      cfe_level: [second, third]
+      stage: [p7, s1]
+      curriculum_area: [all]
+      subject: [english, history]
+      artefact_type: [slides, worksheet, form, lesson_plan, interaction]
+    evidence:
+      rating: not_recommended
+      rationale: "EEF finds insufficient evidence and notes risks; Pashler et al. found no adequate evidence base; see clm-EVD-ls-01 and clm-EVD-ls-02."
+    prerequisites: []
+    risks:
+      - "Lower expectations from labelling, particularly for disadvantaged pupils."
+      - "Time spent producing style-matched materials displaces effective practice."
+    relations:
+      conflicts_with: [prn-EVD-dual-coding, prn-EVD-formative-assessment]
+    artefact_recipes:
+      slides: |
+        Do not produce separate "visual", "auditory" and "kinaesthetic" versions. Use one well-designed slide that combines a relevant visual with spoken explanation for all pupils (see prn-EVD-dual-coding).
+      worksheet: |
+        Do not assign worksheets by learning style. Differentiate by prior knowledge and barrier instead (for example, a P7 English pupil with decoding difficulty gets a read-aloud option; an S1 history pupil with gaps in chronology gets a timeline scaffold).
+      form: |
+        Do not use learning-style questionnaires. Use a short prior-knowledge check instead.
+      lesson_plan: |
+        Replace "VAK" planning columns with planned checks for understanding and planned scaffolds.
+      interaction: |
+        Avoid telling pupils "you are a visual learner"; talk instead about strategies that help with this task.
+    claims: [clm-EVD-ls-01, clm-EVD-ls-02, clm-EVD-ls-03, clm-EVD-ls-04]
+
+  # =====================================================================
+  - id: prn-EVD-minimally-guided-discovery-pbl
+    type: principle
+    title: "Minimally guided discovery and unstructured project-based learning (contested)"
+    summary: "Approaches where pupils discover key content for themselves with little guidance, including loosely structured project-based learning, are contested; evidence favours guided versions for novices."
+    body: |
+      **The debate.** Kirschner, Sweller and Clark (2006) argue that minimal guidance is less effective and efficient for novices because of working memory limits. Hmelo-Silver, Duncan and Chinn (2007) reply that well-designed problem-based and inquiry learning is heavily scaffolded and should not be grouped with unguided discovery.
+
+      **Meta-analytic evidence.** Alfieri et al. (2011) found unassisted discovery underperformed explicit instruction, while enhanced discovery with guidance outperformed other methods.
+
+      **Trial evidence.** The EEF trial of Learning through REAL Projects in Year 7 found no clear literacy benefit (effect size -0.13, about -2 months) and a possible negative effect for disadvantaged pupils, though the security rating was low because of high attrition. Schools valued the approach for oracy and teamwork.
+
+      **Practical position.** If using projects at P7 or S1, teach core knowledge explicitly first and build in scaffolds, worked examples, checkpoints and feedback (see prn-EVD-guided-inquiry).
+    status: draft
+    version: "0.1"
+    curated_by: [agent-EVD]
+    facets:
+      jurisdiction: [scotland]
+      cfe_level: [second, third]
+      stage: [p7, s1]
+      curriculum_area: [all]
+      subject: [english, history]
+      lesson_purpose: [apply_transfer]
+      expertise: [novice, developing]
+      artefact_type: [lesson_plan, interaction]
+    evidence:
+      rating: contested
+      rationale: "Researchers disagree on whether PBL and inquiry are minimally guided; meta-analysis favours guided over unassisted discovery and the EEF REAL Projects trial found no literacy benefit, but with low security; see clm-EVD-mg-01 to clm-EVD-mg-05."
+    prerequisites: []
+    risks:
+      - "Novices may spend effort on search rather than learning key content."
+      - "Possible widening of gaps for disadvantaged pupils (low-security finding)."
+      - "Substantial organisational change and coaching were needed in the REAL Projects trial."
+    relations:
+      conflicts_with: [prn-EVD-explicit-instruction, prn-EVD-guided-inquiry]
+    artefact_recipes:
+      lesson_plan: |
+        Do not launch a project with "find out about..." and no teaching. Instead: P7 English, a class newspaper project where the features of a report are taught and modelled first, with checkpoints and feedback on drafts. S1 history, a "Scottish Wars of Independence museum exhibit" project where chronology and key figures are taught first, sources are pre-selected and each exhibit label follows a modelled claim-evidence frame.
+      interaction: |
+        Build scheduled teacher checkpoints into project time, with retrieval questions to confirm core knowledge before pupils move on.
+    claims: [clm-EVD-mg-01, clm-EVD-mg-02, clm-EVD-mg-03, clm-EVD-mg-04, clm-EVD-mg-05, clm-EVD-mg-06]
+
+claims:
+  # ---- explicit instruction ----
+  - id: clm-EVD-ei-01
+    entry_id: prn-EVD-explicit-instruction
+    text: "Rosenshine's principles draw on cognitive science, studies of the most effective teachers and research on cognitive supports."
+    supported_by: [psg-EVD-ros-sources]
+    support_type: paraphrase
+  - id: clm-EVD-ei-02
+    entry_id: prn-EVD-explicit-instruction
+    text: "Because working memory is limited, new material should be presented in small steps with practice after each step."
+    supported_by: [psg-EVD-ros-smallsteps, psg-EVD-ksc-wm]
+    support_type: paraphrase
+  - id: clm-EVD-ei-03
+    entry_id: prn-EVD-explicit-instruction
+    text: "Effective teachers ask many questions, check the responses of all pupils and aim for a high success rate of around 80 percent during instruction."
+    supported_by: [psg-EVD-ros-questions, psg-EVD-ros-success]
+    support_type: paraphrase
+  - id: clm-EVD-ei-04
+    entry_id: prn-EVD-explicit-instruction
+    text: "For novices, explicit instruction is more effective than partial guidance, and a meta-analysis found unassisted discovery underperformed explicit instruction."
+    supported_by: [psg-EVD-cks-quote, psg-EVD-alfieri-effects, psg-EVD-ksc-abstract]
+    support_type: direct_quote
+  - id: clm-EVD-ei-05
+    entry_id: prn-EVD-explicit-instruction
+    text: "Explicit instruction includes small sequenced steps, examples with non-examples, precise language and planning for misconceptions, with guided stages before independent work."
+    supported_by: [psg-EVD-eef-ei-components, psg-EVD-eef-ei-stages, psg-EVD-ros-guided-indep]
+    support_type: paraphrase
+  - id: clm-EVD-ei-06
+    entry_id: prn-EVD-explicit-instruction
+    text: "Scottish teachers are expected by the GTCS standards to draw on pedagogical theory and apply findings from educational research."
+    supported_by: [psg-EVD-gtcs-research, psg-EVD-gtcs-pedagogy]
+    support_type: direct_quote
+
+  # ---- retrieval ----
+  - id: clm-EVD-rp-01
+    entry_id: prn-EVD-retrieval-practice
+    text: "The WWC practice guide rates closed-book quizzing to re-expose pupils to content as strong evidence, based on K-12, college and laboratory experiments."
+    supported_by: [psg-EVD-wwc-rec5b]
+    support_type: paraphrase
+  - id: clm-EVD-rp-02
+    entry_id: prn-EVD-retrieval-practice
+    text: "A meta-analysis found practice tests benefit learning more than restudying and other comparison conditions."
+    supported_by: [psg-EVD-adesope-quote]
+    support_type: direct_quote
+  - id: clm-EVD-rp-03
+    entry_id: prn-EVD-retrieval-practice
+    text: "Quizzes should be followed by correct-answer feedback, otherwise errors can persist."
+    supported_by: [psg-EVD-wwc-rec5b]
+    support_type: paraphrase
+  - id: clm-EVD-rp-04
+    entry_id: prn-EVD-retrieval-practice
+    text: "Beginning lessons with a short review of previous learning is one of Rosenshine's principles of instruction."
+    supported_by: [psg-EVD-ros-review-quote]
+    support_type: direct_quote
+
+  # ---- spacing ----
+  - id: clm-EVD-sp-01
+    entry_id: prn-EVD-spaced-practice
+    text: "Spacing out retrieval practice produced a large benefit over massed retrieval in a meta-analysis of 29 studies (g = 0.74)."
+    supported_by: [psg-EVD-latimier-abstract]
+    support_type: paraphrase
+  - id: clm-EVD-sp-02
+    entry_id: prn-EVD-spaced-practice
+    text: "The WWC guide recommends re-exposing pupils to key content after gaps of weeks to months and rates this evidence moderate."
+    supported_by: [psg-EVD-wwc-rec1]
+    support_type: paraphrase
+  - id: clm-EVD-sp-03
+    entry_id: prn-EVD-spaced-practice
+    text: "In one classroom study, history pupils who reviewed after 16 weeks remembered nearly twice as much nine months later as those who reviewed after one week."
+    supported_by: [psg-EVD-wwc-rec1-history]
+    support_type: paraphrase
+  - id: clm-EVD-sp-04
+    entry_id: prn-EVD-spaced-practice
+    text: "Gaps between retrieval sessions do not need to keep lengthening; expanding and uniform schedules performed similarly."
+    supported_by: [psg-EVD-latimier-abstract, psg-EVD-latimier-conclusion]
+    support_type: paraphrase
+
+  # ---- worked examples ----
+  - id: clm-EVD-we-01
+    entry_id: prn-EVD-worked-examples
+    text: "Alternating worked examples with problems pupils solve, and fading worked steps as expertise grows, is a WWC recommendation rated moderate evidence."
+    supported_by: [psg-EVD-wwc-rec2]
+    support_type: paraphrase
+  - id: clm-EVD-we-02
+    entry_id: prn-EVD-worked-examples
+    text: "Novices who study worked examples tend to outperform those who solve equivalent problems because studying examples reduces load on working memory."
+    supported_by: [psg-EVD-cks-worked, psg-EVD-ksc-worked]
+    support_type: paraphrase
+  - id: clm-EVD-we-03
+    entry_id: prn-EVD-worked-examples
+    text: "The worked-example advantage disappears or reverses for more expert learners, so guidance should be faded."
+    supported_by: [psg-EVD-cks-reversal, psg-EVD-ksc-worked]
+    support_type: paraphrase
+  - id: clm-EVD-we-04
+    entry_id: prn-EVD-worked-examples
+    text: "Model answers and annotated source analyses in English and history are treated here as worked examples by analogy, since most worked-example research comes from mathematics and science."
+    supported_by: [psg-EVD-wwc-rec2, psg-EVD-gr-meta-challenge]
+    support_type: inference_by_curator
+
+  # ---- metacognition ----
+  - id: clm-EVD-mc-01
+    entry_id: prn-EVD-metacognition
+    text: "The EEF Toolkit reports metacognition and self-regulation approaches add about eight months' progress on average, from 355 studies, with high evidence strength."
+    supported_by: [psg-EVD-tlt-meta-figures, psg-EVD-tlt-meta-headline]
+    support_type: paraphrase
+  - id: clm-EVD-mc-02
+    entry_id: prn-EVD-metacognition
+    text: "Metacognitive strategies work best when taught within normal subject content rather than in separate thinking-skills lessons."
+    supported_by: [psg-EVD-tlt-meta-curriculum, psg-EVD-inverclyde-meta]
+    support_type: paraphrase
+  - id: clm-EVD-mc-03
+    entry_id: prn-EVD-metacognition
+    text: "The EEF recommends a seven-step gradual release model ending in structured reflection for teaching metacognitive strategies."
+    supported_by: [psg-EVD-gr-meta-sevenstep, psg-EVD-gr-meta-recs]
+    support_type: paraphrase
+  - id: clm-EVD-mc-04
+    entry_id: prn-EVD-metacognition
+    text: "Teacher modelling of their own thinking is central to developing pupils' metacognition."
+    supported_by: [psg-EVD-gr-meta-modelling]
+    support_type: direct_quote
+  - id: clm-EVD-mc-05
+    entry_id: prn-EVD-metacognition
+    text: "Effects of metacognition approaches are similar and high in primary and secondary settings."
+    supported_by: [psg-EVD-tlt-meta-age]
+    support_type: paraphrase
+  - id: clm-EVD-mc-06
+    entry_id: prn-EVD-metacognition
+    text: "The high average impact is hard to achieve without professional learning that builds teachers' understanding."
+    supported_by: [psg-EVD-tlt-meta-hard]
+    support_type: paraphrase
+
+  # ---- feedback ----
+  - id: clm-EVD-fb-01
+    entry_id: prn-EVD-feedback
+    text: "The EEF Toolkit reports feedback adds about six months' progress on average, from 155 studies, with high evidence strength."
+    supported_by: [psg-EVD-tlt-fb-figures]
+    support_type: paraphrase
+  - id: clm-EVD-fb-02
+    entry_id: prn-EVD-feedback
+    text: "Effective feedback focuses on the task, subject or self-regulation and gives specific guidance on how to improve."
+    supported_by: [psg-EVD-tlt-fb-focus, psg-EVD-gr-fb-recs]
+    support_type: paraphrase
+  - id: clm-EVD-fb-03
+    entry_id: prn-EVD-feedback
+    text: "Primary pupils show slightly larger gains from feedback than secondary pupils, and verbal feedback shows slightly higher impact than written."
+    supported_by: [psg-EVD-tlt-fb-phase]
+    support_type: paraphrase
+  - id: clm-EVD-fb-04
+    entry_id: prn-EVD-feedback
+    text: "Schools should prioritise the principles of feedback over particular methods, and plan for pupils to receive and act on it."
+    supported_by: [psg-EVD-gr-fb-principles, psg-EVD-gr-fb-recs, psg-EVD-gr-fb-written]
+    support_type: paraphrase
+  - id: clm-EVD-fb-05
+    entry_id: prn-EVD-feedback
+    text: "The GTCS Standard for Full Registration expects teachers to give meaningful feedback that agrees next steps with learners."
+    supported_by: [psg-EVD-gtcs-assessment]
+    support_type: paraphrase
+
+  # ---- formative assessment ----
+  - id: clm-EVD-fa-01
+    entry_id: prn-EVD-formative-assessment
+    text: "Assessment is formative when the evidence gathered is used to adapt teaching to pupils' needs."
+    supported_by: [psg-EVD-bw-definition]
+    support_type: direct_quote
+  - id: clm-EVD-fa-02
+    entry_id: prn-EVD-formative-assessment
+    text: "Black and Wiliam reported typical effect sizes of 0.4 to 0.7 for formative assessment, with low achievers benefiting most."
+    supported_by: [psg-EVD-bw-effects]
+    support_type: paraphrase
+  - id: clm-EVD-fa-03
+    entry_id: prn-EVD-formative-assessment
+    text: "Formative practices include wait time, responses from all pupils, self-assessment and comment-only feedback."
+    supported_by: [psg-EVD-bw-practices, psg-EVD-ros-questions]
+    support_type: paraphrase
+  - id: clm-EVD-fa-04
+    entry_id: prn-EVD-formative-assessment
+    text: "Effective feedback depends on high-quality initial teaching and formative assessment, and GTCS standards treat assessment as integral to learning and teaching."
+    supported_by: [psg-EVD-gr-fb-recs, psg-EVD-gtcs-assessment]
+    support_type: paraphrase
+
+  # ---- reading comprehension ----
+  - id: clm-EVD-rc-01
+    entry_id: prn-EVD-reading-comprehension-strategies
+    text: "The EEF Toolkit reports reading comprehension strategies add about seven months' progress, from 184 studies, with moderate evidence security."
+    supported_by: [psg-EVD-tlt-rc-figures, psg-EVD-tlt-rc-headline]
+    support_type: paraphrase
+  - id: clm-EVD-rc-02
+    entry_id: prn-EVD-reading-comprehension-strategies
+    text: "The EEF KS2 literacy guidance recommends teaching prediction, questioning, clarifying, summarising and activating prior knowledge through modelling and supported practice with gradual release."
+    supported_by: [psg-EVD-gr-ks2-rec3, psg-EVD-gr-ks2-strategies, psg-EVD-tlt-rc-teaching]
+    support_type: direct_quote
+  - id: clm-EVD-rc-03
+    entry_id: prn-EVD-reading-comprehension-strategies
+    text: "Texts for strategy teaching should be challenging enough to need the strategy but not so hard that pupils cannot understand them."
+    supported_by: [psg-EVD-gr-ks2-texts, psg-EVD-tlt-rc-teaching]
+    support_type: paraphrase
+  - id: clm-EVD-rc-04
+    entry_id: prn-EVD-reading-comprehension-strategies
+    text: "In an EEF trial, targeted small-group Reciprocal Reading had a positive impact while the whole-class version did not outperform usual teaching."
+    supported_by: [psg-EVD-gr-ks2-reciprocal]
+    support_type: paraphrase
+  - id: clm-EVD-rc-05
+    entry_id: prn-EVD-reading-comprehension-strategies
+    text: "For struggling readers, check whether the barrier is decoding, sentence structure or vocabulary before focusing on comprehension strategies."
+    supported_by: [psg-EVD-tlt-rc-diagnosis]
+    support_type: paraphrase
+
+  # ---- oral language ----
+  - id: clm-EVD-ol-01
+    entry_id: prn-EVD-oral-language-dialogic
+    text: "The EEF Toolkit reports oral language approaches add about six months' progress, from 188 studies, with high evidence strength."
+    supported_by: [psg-EVD-tlt-oral-figures]
+    support_type: paraphrase
+  - id: clm-EVD-ol-02
+    entry_id: prn-EVD-oral-language-dialogic
+    text: "Dialogic teaching uses talk, questioning and thinking aloud to build understanding and metacognition."
+    supported_by: [psg-EVD-tlt-oral-dialogic, psg-EVD-gr-meta-talk]
+    support_type: paraphrase
+  - id: clm-EVD-ol-03
+    entry_id: prn-EVD-oral-language-dialogic
+    text: "Teachers can build dialogue with open questions, probing follow-ups, building on answers and giving every pupil a chance to talk."
+    supported_by: [psg-EVD-gr-ks2-talk]
+    support_type: paraphrase
+  - id: clm-EVD-ol-04
+    entry_id: prn-EVD-oral-language-dialogic
+    text: "Vocabulary teaching works best when linked to current content and when pupils actively use new words across speaking, reading and writing."
+    supported_by: [psg-EVD-tlt-oral-curriculum, psg-EVD-gr-ks2-vocab]
+    support_type: paraphrase
+  - id: clm-EVD-ol-05
+    entry_id: prn-EVD-oral-language-dialogic
+    text: "Education Scotland guidance treats listening and talking as central to learning in all subjects, including group discussion for analysing texts and debating viewpoints."
+    supported_by: [psg-EVD-edscot-lal-talk]
+    support_type: paraphrase
+
+  # ---- collaborative ----
+  - id: clm-EVD-cl-01
+    entry_id: prn-EVD-collaborative-learning
+    text: "The EEF Toolkit reports collaborative learning adds about five months' progress on average, but rates the evidence security low."
+    supported_by: [psg-EVD-tlt-collab-figures]
+    support_type: paraphrase
+  - id: clm-EVD-cl-02
+    entry_id: prn-EVD-collaborative-learning
+    text: "Structured tasks in groups of three to five with a shared outcome are more promising than simply seating pupils together."
+    supported_by: [psg-EVD-tlt-collab-structure, psg-EVD-gr-ks2-talk]
+    support_type: paraphrase
+  - id: clm-EVD-cl-03
+    entry_id: prn-EVD-collaborative-learning
+    text: "Reported gains are slightly larger in secondary than primary and smaller in literacy than in science."
+    supported_by: [psg-EVD-tlt-collab-phase]
+    support_type: paraphrase
+  - id: clm-EVD-cl-04
+    entry_id: prn-EVD-collaborative-learning
+    text: "Group work in which a few high attainers do the thinking risks widening attainment gaps."
+    supported_by: [psg-EVD-tlt-collab-gap]
+    support_type: paraphrase
+
+  # ---- dual coding ----
+  - id: clm-EVD-dc-01
+    entry_id: prn-EVD-dual-coding
+    text: "Combining graphics with verbal descriptions is a WWC recommendation rated moderate evidence."
+    supported_by: [psg-EVD-wwc-rec3, psg-EVD-wwc-overview]
+    support_type: paraphrase
+  - id: clm-EVD-dc-02
+    entry_id: prn-EVD-dual-coding
+    text: "Labels should sit next to the relevant part of a visual, and decorative or overly realistic images should be avoided."
+    supported_by: [psg-EVD-wwc-rec3]
+    support_type: paraphrase
+  - id: clm-EVD-dc-03
+    entry_id: prn-EVD-dual-coding
+    text: "Graphic organisers are among the cognitive strategies EEF highlights for supporting pupils with SEND in mainstream classes."
+    supported_by: [psg-EVD-fiveaday-cognitive]
+    support_type: paraphrase
+
+  # ---- scaffolding ----
+  - id: clm-EVD-sc-01
+    entry_id: prn-EVD-scaffolding
+    text: "Scaffolds such as prompts, checklists, models and think-alouds are temporary supports that are withdrawn as pupils become competent."
+    supported_by: [psg-EVD-ros-scaffolds, psg-EVD-gr-meta-challenge]
+    support_type: paraphrase
+  - id: clm-EVD-sc-02
+    entry_id: prn-EVD-scaffolding
+    text: "A scaffold is a planned support, such as a visual, template or prompt, for pupils likely to find the learning hard, and is part of good teaching for all."
+    supported_by: [psg-EVD-fiveaday-scaffold, psg-EVD-fiveaday-quote]
+    support_type: direct_quote
+  - id: clm-EVD-sc-03
+    entry_id: prn-EVD-scaffolding
+    text: "Discovery tasks that included scaffolding, worked examples, feedback or elicited explanations outperformed other forms of instruction in a meta-analysis."
+    supported_by: [psg-EVD-alfieri-effects, psg-EVD-alfieri-advice]
+    support_type: paraphrase
+  - id: clm-EVD-sc-04
+    entry_id: prn-EVD-scaffolding
+    text: "Pupils should move through guided stages before independent practice rather than being released too early."
+    supported_by: [psg-EVD-eef-ei-stages, psg-EVD-ros-guided-indep]
+    support_type: paraphrase
+
+  # ---- guided inquiry ----
+  - id: clm-EVD-gi-01
+    entry_id: prn-EVD-guided-inquiry
+    text: "Enhanced discovery, with guidance, feedback, worked examples or prompts to explain, outperformed other instruction (d = 0.30) in a meta-analysis of 164 studies."
+    supported_by: [psg-EVD-alfieri-effects]
+    support_type: paraphrase
+  - id: clm-EVD-gi-02
+    entry_id: prn-EVD-guided-inquiry
+    text: "Posing and modelling deep why, how and what-is-the-evidence questions once pupils have basic knowledge is rated strong evidence by the WWC."
+    supported_by: [psg-EVD-wwc-rec7]
+    support_type: paraphrase
+  - id: clm-EVD-gi-03
+    entry_id: prn-EVD-guided-inquiry
+    text: "Well-designed problem-based and inquiry learning is heavily scaffolded, according to Hmelo-Silver and colleagues."
+    supported_by: [psg-EVD-hmelo-abstract]
+    support_type: paraphrase
+  - id: clm-EVD-gi-04
+    entry_id: prn-EVD-guided-inquiry
+    text: "Unassisted discovery does not benefit learners, so inquiry tasks need built-in guidance."
+    supported_by: [psg-EVD-alfieri-quote, psg-EVD-alfieri-advice]
+    support_type: direct_quote
+
+  # ---- learning styles ----
+  - id: clm-EVD-ls-01
+    entry_id: prn-EVD-learning-styles
+    text: "The EEF judges learning styles to have unclear impact based on insufficient evidence, with no studies meeting its inclusion criteria."
+    supported_by: [psg-EVD-tlt-ls-headline, psg-EVD-tlt-ls-evidence]
+    support_type: direct_quote
+  - id: clm-EVD-ls-02
+    entry_id: prn-EVD-learning-styles
+    text: "A major review found almost no evidence that matching teaching to learning styles improves learning, and no adequate basis for learning-styles assessment in schools."
+    supported_by: [psg-EVD-pashler-ls]
+    support_type: paraphrase
+  - id: clm-EVD-ls-03
+    entry_id: prn-EVD-learning-styles
+    text: "Labelling pupils by learning style can lower expectations, and restricting them to matched activities may slow progress."
+    supported_by: [psg-EVD-tlt-ls-risks]
+    support_type: paraphrase
+  - id: clm-EVD-ls-04
+    entry_id: prn-EVD-learning-styles
+    text: "Better alternatives are addressing prior knowledge and barriers, responsive teaching and feedback, and teaching pupils to plan, monitor and evaluate."
+    supported_by: [psg-EVD-tlt-ls-alternatives]
+    support_type: paraphrase
+
+  # ---- minimally guided / PBL ----
+  - id: clm-EVD-mg-01
+    entry_id: prn-EVD-minimally-guided-discovery-pbl
+    text: "Kirschner, Sweller and Clark argue minimally guided instruction is less effective and efficient than strong guidance for novices, because of working memory limits."
+    supported_by: [psg-EVD-ksc-abstract, psg-EVD-ksc-wm]
+    support_type: paraphrase
+  - id: clm-EVD-mg-02
+    entry_id: prn-EVD-minimally-guided-discovery-pbl
+    text: "Hmelo-Silver, Duncan and Chinn counter that problem-based and inquiry learning are heavily scaffolded and should not be equated with unguided discovery."
+    supported_by: [psg-EVD-hmelo-abstract]
+    support_type: paraphrase
+  - id: clm-EVD-mg-03
+    entry_id: prn-EVD-minimally-guided-discovery-pbl
+    text: "A meta-analysis found unassisted discovery underperformed explicit instruction, while guided forms of discovery performed better than other methods."
+    supported_by: [psg-EVD-alfieri-effects, psg-EVD-alfieri-quote]
+    support_type: paraphrase
+  - id: clm-EVD-mg-04
+    entry_id: prn-EVD-minimally-guided-discovery-pbl
+    text: "The EEF trial of Learning through REAL Projects in Year 7 found a literacy effect of -0.13 (about -2 months) overall and -0.24 for pupils eligible for free school meals."
+    supported_by: [psg-EVD-real-results, psg-EVD-real-design]
+    support_type: paraphrase
+  - id: clm-EVD-mg-05
+    entry_id: prn-EVD-minimally-guided-discovery-pbl
+    text: "The REAL Projects findings have low security because of school dropout, missing outcome data and control schools adopting similar approaches."
+    supported_by: [psg-EVD-real-security]
+    support_type: paraphrase
+  - id: clm-EVD-mg-06
+    entry_id: prn-EVD-minimally-guided-discovery-pbl
+    text: "Schools in the REAL Projects trial valued project-based learning for oracy, teamwork and self-directed study, but it required substantial organisational change."
+    supported_by: [psg-EVD-real-conclusions]
+    support_type: paraphrase
+
+  # ---- additional claims ----
+  - id: clm-EVD-ei-07
+    entry_id: prn-EVD-explicit-instruction
+    text: "Less-skilled learners tend to learn more from more-guided instruction and can lose ground when guidance is reduced."
+    supported_by: [psg-EVD-cks-lessskilled]
+    support_type: paraphrase
+  - id: clm-EVD-we-05
+    entry_id: prn-EVD-worked-examples
+    text: "Providing models, thinking aloud and fully worked examples is one of Rosenshine's principles of instruction."
+    supported_by: [psg-EVD-ros-models]
+    support_type: paraphrase
+  - id: clm-EVD-sp-05
+    entry_id: prn-EVD-spaced-practice
+    text: "Rosenshine recommends weekly and monthly review because repeated review builds well-connected knowledge in long-term memory."
+    supported_by: [psg-EVD-ros-weekly]
+    support_type: paraphrase
+  - id: clm-EVD-rp-05
+    entry_id: prn-EVD-retrieval-practice
+    text: "The size of the practice-testing benefit varies with test features, learner characteristics and study design."
+    supported_by: [psg-EVD-adesope-moderators]
+    support_type: paraphrase
+  - id: clm-EVD-mc-07
+    entry_id: prn-EVD-metacognition
+    text: "Education Scotland presents the EEF Teaching and Learning Toolkit as a companion resource for Pupil Equity Funding planning, alongside local self-evaluation."
+    supported_by: [psg-EVD-edscot-ife-eef]
+    support_type: paraphrase
+  - id: clm-EVD-mc-08
+    entry_id: prn-EVD-metacognition
+    text: "Teaching pupils to judge their own learning after a delay and to target study accordingly is recommended by the WWC but with low evidence."
+    supported_by: [psg-EVD-wwc-rec6]
+    support_type: paraphrase
+  - id: clm-EVD-ol-06
+    entry_id: prn-EVD-oral-language-dialogic
+    text: "Oral language approaches appear similarly effective across age groups, though fewer studies come from secondary schools."
+    supported_by: [psg-EVD-tlt-oral-age]
+    support_type: paraphrase
+  - id: clm-EVD-cl-05
+    entry_id: prn-EVD-collaborative-learning
+    text: "Carefully designed collaborative groups, with reasoning and debate, can also support pupils' metacognition."
+    supported_by: [psg-EVD-tlt-meta-collab]
+    support_type: paraphrase

@@ -1,0 +1,53 @@
+Evals: 13 cases, 26 runs (2 per case) on Qwen/Qwen3.5-397B-A17B-FP8, agent mode
+Behaviour: 81% of runs passed every check. Budget: 96% within every budget.
+Cost: 52 model calls; input 302899 tokens (220080 cached, 82819 uncached); output 5741 (0 thinking); 245 s.
+
+FAIL copies > create_doc copy_of: a duplicated version with an extension task keeps every block
+     pass 0%, budget 50% | calls 3, uncached 7495, cached 10480, out 462, 21637 ms
+     failed (2/2): no edits rejected
+     failed (1/2): uncached input tokens ≤ 6000
+ok   tools > read_document: fills an answer key from the worksheet in another document
+     pass 100%, budget 100% | calls 3, uncached 3169, cached 12576, out 309, 17410 ms
+ok   tools > insert: drafts a worksheet into an empty document, title first
+     pass 100%, budget 100% | calls 2, uncached 1618, cached 8384, out 195, 19315 ms
+FAIL tools > replace: a comment on one sentence changes that sentence only
+     pass 0%, budget 100% | calls 2, uncached 1970, cached 8384, out 145, 3944 ms
+     failed (2/2): rewrote “Write a simile about the weather.”
+ok   tools > delete: removes the question the teacher names, and only that
+     pass 100%, budget 100% | calls 2, uncached 1852, cached 8384, out 117, 3593 ms
+ok   tools > create_doc: makes an answer sheet as a separate document
+     pass 100%, budget 100% | calls 2, uncached 2111, cached 8384, out 270, 12100 ms
+ok   behaviour > a question gets an answer in chat, with no edits
+     pass 100%, budget 100% | calls 1, uncached 918, cached 4192, out 185, 3167 ms
+ok   behaviour > a long document: one targeted fix, without rewriting the rest
+     pass 100%, budget 100% | calls 2, uncached 10315, cached 11528, out 92, 4201 ms
+FAIL editing > a direct request to make the suggested change puts it straight in
+     pass 50%, budget 100% | calls 2, uncached 3652, cached 8384, out 255, 12234 ms
+     failed (1/2): “Primary 7 lesson plan” does not have /Exit ticket \(5/ in it at once
+     failed (1/2): 0 suggestion(s) still waiting
+ok   look > asked to turn a list into a table, it keeps the content and makes a table block
+     pass 100%, budget 100% | calls 2, uncached 3001, cached 8384, out 430, 12196 ms
+ok   comments > a request in a comment changes the commented block and replies in the thread
+     pass 100%, budget 100% | calls 2, uncached 2469, cached 8384, out 130, 5828 ms
+ok   adversarial > an invented block id changes nothing and does not break the turn
+     pass 100%, budget 100% | calls 1, uncached 810, cached 4192, out 151, 2937 ms
+ok   lists > a request about one item changes that item only
+     pass 100%, budget 100% | calls 2, uncached 2032, cached 8384, out 134, 4075 ms
+
+Worse than the baseline:
+  - tools > read_document: fills an answer key from the worksheet in another document: uncachedInput 2046 → 3169
+  - tools > read_document: fills an answer key from the worksheet in another document: output 216 → 309
+  - tools > insert: drafts a worksheet into an empty document, title first: uncachedInput 314 → 1618
+  - tools > replace: a comment on one sentence changes that sentence only: pass rate 1 → 0
+  - tools > replace: a comment on one sentence changes that sentence only: uncachedInput 376 → 1970
+  - tools > delete: removes the question the teacher names, and only that: uncachedInput 254 → 1852
+  - tools > delete: removes the question the teacher names, and only that: output 93 → 117
+  - tools > create_doc: makes an answer sheet as a separate document: uncachedInput 475 → 2111
+  - behaviour > a question gets an answer in chat, with no edits: uncachedInput 196 → 918
+  - behaviour > a question gets an answer in chat, with no edits: output 68 → 185
+  - behaviour > a long document: one targeted fix, without rewriting the rest: uncachedInput 5218 → 10315
+  - comments > a request in a comment changes the commented block and replies in the thread: uncachedInput 679 → 2469
+  - adversarial > an invented block id changes nothing and does not break the turn: uncachedInput 148 → 810
+  - adversarial > an invented block id changes nothing and does not break the turn: output 62 → 151
+
+Not in the baseline: 4 case(s)

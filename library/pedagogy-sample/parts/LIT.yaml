@@ -1,0 +1,1985 @@
+# Pedagogy library part: LIT (P7 Literacy and English, CfE Second Level)
+# Curated by research agent LIT, status draft. Retrieved 2026-11-12.
+
+sources:
+  - id: src-LIT-eef-ks2-literacy
+    title: "Improving Literacy in Key Stage 2 (second edition)"
+    publisher: Education Endowment Foundation
+    authors: [Caroline Bilton, Aoife Duff]
+    year: 2021
+    url: https://educationendowmentfoundation.org.uk/education-evidence/guidance-reports/literacy-ks2
+    source_type: guidance
+    jurisdiction: [england]
+    evidence_weight: high
+    licence: "UNCONFIRMED: EEF copyright, terms not checked"
+    reuse_rule: short_quote_only
+    version: >-
+      Second edition (recommendations unchanged from the 2017 first edition by Higgins,
+      Martell, Waugh, Henderson and Sharples). Year 2021 not shown in fetched text. The
+      EEF site refused automated fetch, so the full report was read from a school-hosted
+      copy (see passage fetched_url); recommendation list read from the EEF news release.
+    retrieved_at: 2026-11-12
+
+  - id: src-LIT-eef-toolkit-reading-comprehension
+    title: "Teaching and Learning Toolkit: Reading comprehension strategies"
+    publisher: Education Endowment Foundation
+    authors: [Education Endowment Foundation]
+    year: 2021
+    url: https://educationendowmentfoundation.org.uk/education-evidence/teaching-learning-toolkit/reading-comprehension-strategies
+    source_type: meta_analysis
+    jurisdiction: [international]
+    evidence_weight: high
+    licence: "UNCONFIRMED: EEF copyright"
+    reuse_rule: short_quote_only
+    version: "Live web page; year UNCONFIRMED (page undated in fetch)"
+    retrieved_at: 2026-11-12
+
+  - id: src-LIT-eef-toolkit-oral-language
+    title: "Teaching and Learning Toolkit: Oral language interventions"
+    publisher: Education Endowment Foundation
+    authors: [Education Endowment Foundation]
+    year: 2021
+    url: https://educationendowmentfoundation.org.uk/education-evidence/teaching-learning-toolkit/oral-language-interventions
+    source_type: meta_analysis
+    jurisdiction: [international]
+    evidence_weight: high
+    licence: "UNCONFIRMED: EEF copyright"
+    reuse_rule: short_quote_only
+    version: "Live web page; year UNCONFIRMED (page undated in fetch)"
+    retrieved_at: 2026-11-12
+
+  - id: src-LIT-palincsar-brown-1983
+    title: "Reciprocal Teaching of Comprehension-Monitoring Activities (Technical Report No. 269)"
+    publisher: "Center for the Study of Reading, University of Illinois at Urbana-Champaign (Bolt, Beranek and Newman); ERIC ED225135"
+    authors: [Annemarie Sullivan Palincsar, Ann L. Brown]
+    year: 1983
+    url: https://files.eric.ed.gov/fulltext/ED225135.pdf
+    source_type: trial
+    jurisdiction: [us]
+    evidence_weight: moderate
+    licence: "ERIC full text; copyright status not checked"
+    reuse_rule: short_quote_only
+    version: >-
+      Technical report that preceded the peer-reviewed 1984 article in Cognition and
+      Instruction (1(2), 117-175), which was not itself fetched.
+    retrieved_at: 2026-11-12
+
+  - id: src-LIT-graham-perin-2007
+    title: "Writing Next: Effective Strategies to Improve Writing of Adolescents in Middle and High Schools"
+    publisher: "Alliance for Excellent Education (commissioned by Carnegie Corporation of New York)"
+    authors: [Steve Graham, Dolores Perin]
+    year: 2007
+    url: https://carnegie.org/wp-content/uploads/2026/01/ccny_report_2007_writing.pdf
+    source_type: meta_analysis
+    jurisdiction: [us]
+    evidence_weight: high
+    licence: "UNCONFIRMED: all rights reserved assumed"
+    reuse_rule: short_quote_only
+    version: "2007 report (grades 4 to 12)"
+    retrieved_at: 2026-11-12
+
+  - id: src-LIT-voice21-oracy-framework
+    title: "The Oracy Framework"
+    publisher: "Voice 21 with Oracy Cambridge"
+    authors: [Voice 21, Oracy Cambridge]
+    year: 2020
+    url: https://membership-hub.voice21.org/the-oracy-framework
+    source_type: practitioner_resource
+    jurisdiction: [england]
+    evidence_weight: practitioner_wisdom
+    licence: "Copyright Voice 21, all rights reserved"
+    reuse_rule: locator_only
+    version: "Membership hub page, fetched 2026"
+    retrieved_at: 2026-11-12
+
+  - id: src-LIT-voice21-student-framework
+    title: "Student-friendly Oracy Framework"
+    publisher: "Voice 21 (developed in partnership with Oracy Cambridge)"
+    authors: [Voice 21]
+    year: 2020
+    url: https://voice21.org/wp-content/uploads/2023/01/Voice21-Student-Friendly-Oracy-Framework-Final.pdf
+    source_type: practitioner_resource
+    jurisdiction: [england]
+    evidence_weight: practitioner_wisdom
+    licence: "Copyright Voice 21 2020"
+    reuse_rule: locator_only
+    version: "2020 framework, PDF uploaded 2023"
+    retrieved_at: 2026-11-12
+
+  - id: src-LIT-ourfp-home
+    title: "Reading for Pleasure: Open University Research and Practice Coalition (home page)"
+    publisher: The Open University
+    authors: [Teresa Cremin]
+    year: 2026
+    url: https://ourfp.org/
+    source_type: practitioner_resource
+    jurisdiction: [england]
+    evidence_weight: moderate
+    licence: "UNCONFIRMED"
+    reuse_rule: short_quote_only
+    version: "Live web page; year is fetch year, not publication year"
+    retrieved_at: 2026-11-12
+
+  - id: src-LIT-ref-ou-reading-pleasure
+    title: "REF 2014 Impact case study: Reading for pleasure in the 21st Century (The Open University)"
+    publisher: "Research Excellence Framework (UKRI)"
+    authors: [The Open University]
+    year: 2014
+    url: https://impact.ref.ac.uk/casestudies/CaseStudy.aspx?Id=6027
+    source_type: review
+    jurisdiction: [england]
+    evidence_weight: moderate
+    licence: "UNCONFIRMED: REF case studies typically CC BY 4.0, not checked"
+    reuse_rule: short_quote_only
+    version: "REF 2014 case study"
+    retrieved_at: 2026-11-12
+
+  - id: src-LIT-sbt-fmrc
+    title: "First Minister's Reading Challenge (evaluation summary page)"
+    publisher: Scottish Book Trust
+    authors: [Scottish Book Trust]
+    year: 2022
+    url: https://www.scottishbooktrust.com/learning-and-resources/first-ministers-reading-challenge
+    source_type: practitioner_resource
+    jurisdiction: [scotland]
+    evidence_weight: low
+    licence: "UNCONFIRMED"
+    reuse_rule: short_quote_only
+    version: "Page reports independent evaluation of 2021/22 programme by The Lines Between; publication year UNCONFIRMED"
+    retrieved_at: 2026-11-12
+
+  - id: src-LIT-fmrc-site
+    title: "First Minister's Reading Challenge (programme website)"
+    publisher: Scottish Book Trust
+    authors: [Scottish Book Trust]
+    year: 2026
+    url: https://www.readingchallenge.scot/
+    source_type: practitioner_resource
+    jurisdiction: [scotland]
+    evidence_weight: practitioner_wisdom
+    licence: "UNCONFIRMED"
+    reuse_rule: short_quote_only
+    version: "Live web page"
+    retrieved_at: 2026-11-12
+
+  - id: src-LIT-chambers-tell-me
+    title: "Tell Me: Children, Reading & Talk, with The Reading Environment"
+    publisher: "The Thimble Press (digital edition: Estate of Aidan Chambers)"
+    authors: [Aidan Chambers]
+    year: 2011
+    url: https://aidanchambers.co.uk/tellme.pdf
+    source_type: book
+    jurisdiction: [international]
+    evidence_weight: practitioner_wisdom
+    licence: "CC BY-NC-ND 4.0 (digital version, Estate of Aidan Chambers)"
+    reuse_rule: short_quote_only
+    version: "Combined volume first published 2011 (Tell Me first published 1993); ISBN 978-0903355-54-4"
+    retrieved_at: 2026-11-12
+
+  - id: src-LIT-vic-tell-me
+    title: "ESL Developmental Continuum P-10: Teaching strategy, Tell me (Aidan Chambers)"
+    publisher: "Department of Education and Early Childhood Development, Victoria (Australia)"
+    authors: [Department of Education and Early Childhood Development Victoria]
+    year: 2008
+    url: https://www.education.vic.gov.au/Documents/school/teachers/teachingresources/diversity/eal/continuum/tellme.pdf
+    source_type: practitioner_resource
+    jurisdiction: [international]
+    evidence_weight: practitioner_wisdom
+    licence: "UNCONFIRMED: Victorian Government copyright"
+    reuse_rule: short_quote_only
+    version: "Last updated 05-08-08"
+    retrieved_at: 2026-11-12
+
+  - id: src-LIT-iris-frayer
+    title: "Secondary Reading Instruction (Part 1), Page 7: Building Vocabulary and Conceptual Knowledge Using the Frayer Model"
+    publisher: "IRIS Center, Peabody College, Vanderbilt University"
+    authors: [IRIS Center]
+    year: 2026
+    url: https://iris.peabody.vanderbilt.edu/module/sec-rdng/cresource/q2/p07/
+    source_type: practitioner_resource
+    jurisdiction: [us]
+    evidence_weight: moderate
+    licence: "UNCONFIRMED"
+    reuse_rule: short_quote_only
+    version: "Live module page; year is fetch year"
+    retrieved_at: 2026-11-12
+
+  - id: src-LIT-iris-frayer-template
+    title: "Frayer Model Template"
+    publisher: "IRIS Center, Vanderbilt University"
+    authors: [IRIS Center]
+    year: 2026
+    url: https://iris.peabody.vanderbilt.edu/wp-content/uploads/modules/sec-rdng/pdfs/sec_rdng_07_link_Frayer.pdf
+    source_type: practitioner_resource
+    jurisdiction: [us]
+    evidence_weight: practitioner_wisdom
+    licence: "UNCONFIRMED"
+    reuse_rule: short_quote_only
+    version: "Template PDF; credits Frayer, Frederick and Klausmeier (1969), Technical Report No. 16"
+    retrieved_at: 2026-11-12
+
+  - id: src-LIT-shotton-twr
+    title: "Reading reflection: The Writing Revolution"
+    publisher: "Shotton Hall Research School (Research Schools Network)"
+    authors: [Susan Ingram]
+    year: 2026
+    url: https://researchschool.org.uk/shottonhall/news/reading-reflection-the-writing-revolution
+    source_type: practitioner_resource
+    jurisdiction: [england]
+    evidence_weight: low
+    licence: "UNCONFIRMED"
+    reuse_rule: short_quote_only
+    version: "Undated blog post; year is fetch year"
+    retrieved_at: 2026-11-12
+
+  - id: src-LIT-cfe-literacy-eo
+    title: "Curriculum for Excellence: Literacy and English, Experiences and Outcomes"
+    publisher: Education Scotland
+    authors: [Education Scotland]
+    year: 2009
+    url: https://education.gov.scot/media/qhxmxnfq/literacy-english-eo.pdf
+    source_type: curriculum_document
+    jurisdiction: [scotland]
+    evidence_weight: high
+    licence: "UNCONFIRMED: likely Open Government Licence"
+    reuse_rule: short_quote_only
+    version: "Year UNCONFIRMED (CfE E&Os published 2009)"
+    retrieved_at: 2026-11-12
+
+  - id: src-LIT-fisher-frey-2012
+    title: "Close reading in elementary schools"
+    publisher: "The Reading Teacher, 66(3), 179-188 (International Literacy Association / Wiley)"
+    authors: [Douglas Fisher, Nancy Frey]
+    year: 2012
+    url: https://s3-us-west-1.amazonaws.com/fisher-and-frey/documents/close_reading_elem.pdf
+    source_type: review
+    jurisdiction: [us]
+    evidence_weight: moderate
+    licence: "All rights reserved (author-hosted copy)"
+    reuse_rule: short_quote_only
+    version: "DOI 10.1002/TRTR.01117"
+    retrieved_at: 2026-11-12
+
+  - id: src-LIT-fisher-frey-2015
+    title: "Common core: Improve reading with complex texts"
+    publisher: "Phi Delta Kappan, 96(5), 56-61"
+    authors: [Douglas Fisher, Nancy Frey]
+    year: 2015
+    url: https://www.readinghalloffame.org/sites/default/files/kappan_close_read.pdf
+    source_type: review
+    jurisdiction: [us]
+    evidence_weight: moderate
+    licence: "All rights reserved"
+    reuse_rule: short_quote_only
+    version: "Journal article"
+    retrieved_at: 2026-11-12
+
+  - id: src-LIT-cremin-2006-drama-writing
+    title: "Connecting drama and writing: seizing the moment to write"
+    publisher: "Research in Drama Education, 11(3), 273-291"
+    authors: [Teresa Cremin, Kathy Goouch, Louise Blakemore, Emma Goff, Roger Macdonald]
+    year: 2006
+    url: https://oro.open.ac.uk/9778
+    source_type: trial
+    jurisdiction: [england]
+    evidence_weight: low
+    licence: "All rights reserved (repository abstract)"
+    reuse_rule: short_quote_only
+    version: "DOI 10.1080/13569780600900636; non-experimental case study"
+    retrieved_at: 2026-11-12
+
+  - id: src-LIT-artsedsearch-cremin-2006
+    title: "Study summary: Connecting drama and writing: seizing the moment to write"
+    publisher: "ArtsEdSearch (Arts Education Partnership, publisher not stated on fetched page)"
+    authors: [ArtsEdSearch]
+    year: 2026
+    url: https://www.artsedsearch.org/study/connecting-drama-and-writing-seizing-the-moment-to-write/
+    source_type: review
+    jurisdiction: [us]
+    evidence_weight: low
+    licence: "UNCONFIRMED"
+    reuse_rule: short_quote_only
+    version: "Study summary page; year is fetch year"
+    retrieved_at: 2026-11-12
+
+  - id: src-LIT-ukla-drama-viewpoint
+    title: "UKLA Viewpoints: Drama"
+    publisher: United Kingdom Literacy Association
+    authors: [Teresa Cremin, Roger MacDonald]
+    year: 2017
+    url: https://ukla.org/wp-content/uploads/2020/01/View_Drama.pdf
+    source_type: practitioner_resource
+    jurisdiction: [england]
+    evidence_weight: practitioner_wisdom
+    licence: "UNCONFIRMED"
+    reuse_rule: short_quote_only
+    version: "Undated; year UNCONFIRMED (latest citation 2017, uploaded 2020)"
+    retrieved_at: 2026-11-12
+
+  - id: src-LIT-edinburgh-hub-comprehension
+    title: "Teaching Reading Comprehension P5-S3: Teachers' Guide to Reading Comprehension Strategies"
+    publisher: "Edinburgh Literacy Hub with six councils (hosted by Education Scotland)"
+    authors: [Edinburgh Literacy Hub]
+    year: 2014
+    url: https://education.gov.scot/media/vaapuk03/lit13_teachingreadingcomprehensionfinaldraft.pdf
+    source_type: practitioner_resource
+    jurisdiction: [scotland]
+    evidence_weight: practitioner_wisdom
+    licence: "UNCONFIRMED"
+    reuse_rule: short_quote_only
+    version: "Final draft; funded 2013-2014; publication year UNCONFIRMED"
+    retrieved_at: 2026-11-12
+
+  - id: src-LIT-es-reciprocal-reading-programme
+    title: "Reciprocal Reading (professional learning programme)"
+    publisher: Education Scotland
+    authors: [Forth Valley and West Lothian Regional Improvement Collaborative]
+    year: 2026
+    url: https://education.gov.scot/professional-learning/learn/programmes/reciprocal-reading
+    source_type: practitioner_resource
+    jurisdiction: [scotland]
+    evidence_weight: practitioner_wisdom
+    licence: "UNCONFIRMED"
+    reuse_rule: short_quote_only
+    version: "Live web page; year is fetch year"
+    retrieved_at: 2026-11-12
+
+passages:
+  # --- EEF KS2 guidance -----------------------------------------------------
+  - id: psg-LIT-eefks2-recs
+    source_id: src-LIT-eef-ks2-literacy
+    locator: "EEF news release 'EEF publishes updated Key Stage 2 literacy guidance', list of recommendations"
+    excerpt_type: paraphrase
+    text: >-
+      The guidance makes seven recommendations: develop pupils' language; support fluent
+      reading; teach comprehension strategies through modelling and guided practice; teach
+      writing composition strategies the same way; build transcription and sentence
+      construction through regular practice; target teaching through accurate assessment;
+      and use high-quality structured interventions for struggling pupils. The second
+      edition keeps the recommendations and adds models and classroom examples.
+    fetched_url: https://educationendowmentfoundation.org.uk/news/eef-publishes-updated-key-stage-2-literacy-guidance
+    verified_by_fetch: true
+
+  - id: psg-LIT-eefks2-tier2-quote
+    source_id: src-LIT-eef-ks2-literacy
+    locator: "p.16, Recommendation 1, Figure 3 (tiers of vocabulary)"
+    excerpt_type: quote
+    text: "Explicit teaching may best focus on Tier 2 words."
+    fetched_url: https://159-northumberland.eschools.co.uk/storage/secure_download/OGZVU2RRTjRkMnJoRitzeFh2cUtpUT09
+    verified_by_fetch: true
+
+  - id: psg-LIT-eefks2-vocab-method
+    source_id: src-LIT-eef-ks2-literacy
+    locator: "p.16, Recommendation 1 (vocabulary)"
+    excerpt_type: paraphrase
+    text: >-
+      Tier 2 words are ambitious words met across many subjects; Tier 3 words are less
+      common and topic-specific. The report advises pre-teaching new words that support
+      comprehension, giving repeated encounters in speaking, reading and writing, and
+      having pupils use new words actively.
+    fetched_url: https://159-northumberland.eschools.co.uk/storage/secure_download/OGZVU2RRTjRkMnJoRitzeFh2cUtpUT09
+    verified_by_fetch: true
+
+  - id: psg-LIT-eefks2-fluency-gor
+    source_id: src-LIT-eef-ks2-literacy
+    locator: "p.19, Recommendation 2 (fluent reading)"
+    excerpt_type: paraphrase
+    text: >-
+      In guided oral reading an adult or peer models fluent reading of a passage, then
+      pupils read the same text aloud and receive feedback. In repeated reading pupils
+      re-read a short, meaningful passage a set number of times or until they reach a
+      suitable level of fluency.
+    fetched_url: https://159-northumberland.eschools.co.uk/storage/secure_download/OGZVU2RRTjRkMnJoRitzeFh2cUtpUT09
+    verified_by_fetch: true
+
+  - id: psg-LIT-eefks2-readers-theatre
+    source_id: src-LIT-eef-ks2-literacy
+    locator: "pp.19-20, Recommendation 2, Figure 6 (Reader's Theatre)"
+    excerpt_type: paraphrase
+    text: >-
+      Figure 6 gives a nine-step guide to Reader's Theatre that moves from adult modelling
+      and echo reading of a script, through paired and group rehearsal, to performance and
+      reflection.
+    fetched_url: https://159-northumberland.eschools.co.uk/storage/secure_download/OGZVU2RRTjRkMnJoRitzeFh2cUtpUT09
+    verified_by_fetch: true
+
+  - id: psg-LIT-eefks2-comp-strategies
+    source_id: src-LIT-eef-ks2-literacy
+    locator: "pp.23-24 and p.26 (Figure 9), Recommendation 3"
+    excerpt_type: paraphrase
+    text: >-
+      Pupils should be taught prediction, questioning, clarifying, summarising and
+      activating prior knowledge. Each strategy is modelled and then practised until
+      embedded, with a gradual release model shifting responsibility from teacher to pupil.
+    fetched_url: https://159-northumberland.eschools.co.uk/storage/secure_download/OGZVU2RRTjRkMnJoRitzeFh2cUtpUT09
+    verified_by_fetch: true
+
+  - id: psg-LIT-eefks2-reciprocal-box4
+    source_id: src-LIT-eef-ks2-literacy
+    locator: "p.25, Box 4 (Reciprocal Reading)"
+    excerpt_type: paraphrase
+    text: >-
+      Box 4 describes a 12-week Reciprocal Reading programme teaching predict, clarify,
+      question and summarise. In the EEF trial the targeted version, delivered by teaching
+      assistants to small groups of Year 5 and 6 pupils, improved reading comprehension
+      and overall reading, but the whole-class version in Year 4 did no better than usual
+      provision.
+    fetched_url: https://159-northumberland.eschools.co.uk/storage/secure_download/OGZVU2RRTjRkMnJoRitzeFh2cUtpUT09
+    verified_by_fetch: true
+
+  - id: psg-LIT-eefks2-writing-stages
+    source_id: src-LIT-eef-ks2-literacy
+    locator: "pp.30-31, Recommendation 4 (writing composition)"
+    excerpt_type: paraphrase
+    text: >-
+      Writing is presented in five stages: planning, drafting, revising, editing and
+      publishing. Strategies for each are taught by gradual release: the teacher explains
+      how and when to use a strategy, then models it. Shared writing lets the teacher
+      think aloud. The process is not strictly linear, so aspects may need re-modelling.
+    fetched_url: https://159-northumberland.eschools.co.uk/storage/secure_download/OGZVU2RRTjRkMnJoRitzeFh2cUtpUT09
+    verified_by_fetch: true
+
+  - id: psg-LIT-eefks2-self-reg
+    source_id: src-LIT-eef-ks2-literacy
+    locator: "pp.29-30, Recommendation 4 (Simple View of Writing; planning and revising)"
+    excerpt_type: paraphrase
+    text: >-
+      Self-regulation, planning and monitoring are treated as essential to writing.
+      Suggested moves include pupils writing goals to refer back to, drafting checklists
+      that pupils eventually create themselves, and re-reading to check whether goals are
+      met. Over time pupils should take more responsibility for choosing strategies.
+    fetched_url: https://159-northumberland.eschools.co.uk/storage/secure_download/OGZVU2RRTjRkMnJoRitzeFh2cUtpUT09
+    verified_by_fetch: true
+
+  - id: psg-LIT-eefks2-sentence-combining
+    source_id: src-LIT-eef-ks2-literacy
+    locator: "p.37, Recommendation 5 (sentence construction)"
+    excerpt_type: paraphrase
+    text: >-
+      Sentence combining joins simple sentences into a more complex one (for example two
+      short sentences joined with a 'because' clause); sentence expanding adds detail such
+      as an adjective or adverb. The teacher models first, then pupils practise together
+      and independently.
+    fetched_url: https://159-northumberland.eschools.co.uk/storage/secure_download/OGZVU2RRTjRkMnJoRitzeFh2cUtpUT09
+    verified_by_fetch: true
+
+  - id: psg-LIT-eefks2-talk
+    source_id: src-LIT-eef-ks2-literacy
+    locator: "pp.13-14, Recommendation 1 (speaking and listening; Box 1)"
+    excerpt_type: paraphrase
+    text: >-
+      Speaking and listening underpin reading and writing, and pupils should articulate
+      ideas orally before writing. Quality talk uses open questions, probing follow-ups,
+      building on answers and ensuring every pupil is heard. Structured approaches with
+      well-designed tasks are reported to give the largest gains; Box 1 gives a jigsaw
+      group example.
+    fetched_url: https://159-northumberland.eschools.co.uk/storage/secure_download/OGZVU2RRTjRkMnJoRitzeFh2cUtpUT09
+    verified_by_fetch: true
+
+  - id: psg-LIT-eefks2-motivation
+    source_id: src-LIT-eef-ks2-literacy
+    locator: "p.15, Recommendation 1 (motivation and engagement; Box 2)"
+    excerpt_type: paraphrase
+    text: >-
+      Reading motivation is linked to a school culture that puts reading and discussion
+      of texts at its centre. Box 2 describes the PEER framework and CROWD prompts for
+      dialogue during shared reading.
+    fetched_url: https://159-northumberland.eschools.co.uk/storage/secure_download/OGZVU2RRTjRkMnJoRitzeFh2cUtpUT09
+    verified_by_fetch: true
+
+  # --- EEF Toolkit ----------------------------------------------------------
+  - id: psg-LIT-eeftk-rcs-impact
+    source_id: src-LIT-eef-toolkit-reading-comprehension
+    locator: "Headline summary and 'Key findings'"
+    excerpt_type: paraphrase
+    text: >-
+      Reading comprehension strategies are estimated at about seven months' additional
+      progress for very low cost, with moderate evidence security (184 studies). They are
+      usually taught through explicit instruction and modelling of how an expert reader
+      uses them, aiming for pupils to apply them automatically and independently.
+    fetched_url: https://educationendowmentfoundation.org.uk/education-evidence/teaching-learning-toolkit/reading-comprehension-strategies
+    verified_by_fetch: true
+
+  - id: psg-LIT-eeftk-rcs-text-quote
+    source_id: src-LIT-eef-toolkit-reading-comprehension
+    locator: "UNCONFIRMED: main page body, paragraph on choosing texts"
+    excerpt_type: quote
+    text: "effective, but not overwhelming"
+    fetched_url: https://educationendowmentfoundation.org.uk/education-evidence/teaching-learning-toolkit/reading-comprehension-strategies
+    verified_by_fetch: true
+
+  - id: psg-LIT-eeftk-rcs-caution
+    source_id: src-LIT-eef-toolkit-reading-comprehension
+    locator: "UNCONFIRMED: 'Key findings' and evidence-strength notes"
+    excerpt_type: paraphrase
+    text: >-
+      Strategies should be applied across tasks and subjects, not only practised in
+      isolation. For whole-class teaching, more sustained and frequent teaching appears
+      better. Some studies were not independently evaluated, so the average impact should
+      be read with care.
+    fetched_url: https://educationendowmentfoundation.org.uk/education-evidence/teaching-learning-toolkit/reading-comprehension-strategies
+    verified_by_fetch: true
+
+  - id: psg-LIT-eeftk-oral-impact
+    source_id: src-LIT-eef-toolkit-oral-language
+    locator: "Headline summary and 'Key findings'"
+    excerpt_type: paraphrase
+    text: >-
+      Oral language interventions are estimated at about six months' additional progress
+      for very low cost, with high evidence security (188 studies). The strongest effects
+      come from approaches integrated with the curriculum, especially literacy, and most
+      outcomes measured are reading comprehension.
+    fetched_url: https://educationendowmentfoundation.org.uk/education-evidence/teaching-learning-toolkit/oral-language-interventions
+    verified_by_fetch: true
+
+  - id: psg-LIT-eeftk-oral-structured-quote
+    source_id: src-LIT-eef-toolkit-oral-language
+    locator: "UNCONFIRMED: section 'What is it?' list of approaches"
+    excerpt_type: quote
+    text: "structured questioning to develop reading comprehension"
+    fetched_url: https://educationendowmentfoundation.org.uk/education-evidence/teaching-learning-toolkit/oral-language-interventions
+    verified_by_fetch: true
+
+  - id: psg-LIT-eeftk-oral-vocab
+    source_id: src-LIT-eef-toolkit-oral-language
+    locator: "UNCONFIRMED: section 'What is it?' and 'Key findings' (vocabulary)"
+    excerpt_type: paraphrase
+    text: >-
+      Explicitly extending pupils' spoken vocabulary works best when the words connect to
+      current classroom content and pupils use them actively and meaningfully.
+    fetched_url: https://educationendowmentfoundation.org.uk/education-evidence/teaching-learning-toolkit/oral-language-interventions
+    verified_by_fetch: true
+
+  # --- Palincsar and Brown ---------------------------------------------------
+  - id: psg-LIT-pb-four
+    source_id: src-LIT-palincsar-brown-1983
+    locator: "pp.3-4 and p.13"
+    excerpt_type: paraphrase
+    text: >-
+      The four activities (summarising, questioning, clarifying, predicting) were chosen
+      because each can both improve comprehension and let the reader check whether
+      comprehension is happening.
+    fetched_url: https://files.eric.ed.gov/fulltext/ED225135.pdf
+    verified_by_fetch: true
+
+  - id: psg-LIT-pb-dialogue
+    source_id: src-LIT-palincsar-brown-1983
+    locator: "pp.13-14 and pp.21-23"
+    excerpt_type: paraphrase
+    text: >-
+      Adult and pupils take turns leading a dialogue on each segment of text: the leader
+      asks a question, summarises, predicts and clarifies. The adult supports with prompts,
+      brief instruction, modelling and specific praise, modelling heavily at first and
+      handing over as pupils' contributions improve.
+    fetched_url: https://files.eric.ed.gov/fulltext/ED225135.pdf
+    verified_by_fetch: true
+
+  - id: psg-LIT-pb-results
+    source_id: src-LIT-palincsar-brown-1983
+    locator: "pp.10, 17-19, 46-50"
+    excerpt_type: paraphrase
+    text: >-
+      Participants were seventh graders (about 12 to 13) who decoded adequately but
+      comprehended poorly. In Study 1 daily comprehension scores rose from about 15 per
+      cent to about 80 per cent and were largely maintained; in Study 3 classroom teachers
+      working with reading groups obtained gains similar to the investigator's.
+    fetched_url: https://files.eric.ed.gov/fulltext/ED225135.pdf
+    verified_by_fetch: true
+
+  # --- Writing Next -----------------------------------------------------------
+  - id: psg-LIT-wn-elements
+    source_id: src-LIT-graham-perin-2007
+    locator: "p.11 (list of eleven elements); p.15 (Writing Strategies)"
+    excerpt_type: paraphrase
+    text: >-
+      The meta-analysis identifies eleven elements of writing instruction for grades 4 to
+      12. Explicit teaching of strategies for planning, revising and editing had the
+      largest average effect (effect size 0.82).
+    fetched_url: https://carnegie.org/wp-content/uploads/2026/01/ccny_report_2007_writing.pdf
+    verified_by_fetch: true
+
+  - id: psg-LIT-wn-sentence
+    source_id: src-LIT-graham-perin-2007
+    locator: "p.18 (Sentence Combining); p.21 (Grammar)"
+    excerpt_type: paraphrase
+    text: >-
+      Sentence combining instruction had an average effect size of 0.50, while
+      traditional grammar instruction showed a small but statistically significant
+      negative effect on writing quality.
+    fetched_url: https://carnegie.org/wp-content/uploads/2026/01/ccny_report_2007_writing.pdf
+    verified_by_fetch: true
+
+  - id: psg-LIT-wn-models-process
+    source_id: src-LIT-graham-perin-2007
+    locator: "pp.16-20 (Collaborative Writing, Specific Product Goals, Prewriting, Process Writing Approach, Study of Models)"
+    excerpt_type: paraphrase
+    text: >-
+      Average effect sizes: collaborative writing 0.75, specific product goals 0.70,
+      prewriting 0.32, process writing approach 0.32, study of models 0.25.
+    fetched_url: https://carnegie.org/wp-content/uploads/2026/01/ccny_report_2007_writing.pdf
+    verified_by_fetch: true
+
+  # --- Voice 21 ---------------------------------------------------------------
+  - id: psg-LIT-v21-strands
+    source_id: src-LIT-voice21-oracy-framework
+    locator: "The Oracy Framework page, introductory text"
+    excerpt_type: paraphrase
+    text: >-
+      The framework, from Voice 21 and Oracy Cambridge, describes good speaking and
+      listening in four interlinked strands (physical, linguistic, cognitive, social and
+      emotional) and is meant to give a shared language for talk, set expectations and
+      help diagnose skills and plan explicit oracy teaching.
+    fetched_url: https://membership-hub.voice21.org/the-oracy-framework
+    verified_by_fetch: true
+
+  - id: psg-LIT-v21-ks2
+    source_id: src-LIT-voice21-student-framework
+    locator: "Student-friendly framework, KS2 column (and KS1 linguistic strand for sentence stems)"
+    excerpt_type: paraphrase
+    text: >-
+      For upper primary the framework names, among others: adjusting tone, pace and
+      volume; choosing vocabulary for the audience; building on others' points, probing
+      questions, summarising and giving reasons and evidence; managing group dynamics,
+      inviting others' opinions and listening actively. Sentence stems for linking to
+      others' ideas appear in the earlier stage.
+    fetched_url: https://voice21.org/wp-content/uploads/2023/01/Voice21-Student-Friendly-Oracy-Framework-Final.pdf
+    verified_by_fetch: true
+
+  # --- Reading for pleasure ---------------------------------------------------
+  - id: psg-LIT-ourfp-quote
+    source_id: src-LIT-ourfp-home
+    locator: "Home page, introductory statement"
+    excerpt_type: quote
+    text: "Reading for Pleasure is the right of every child."
+    fetched_url: https://ourfp.org/
+    verified_by_fetch: true
+
+  - id: psg-LIT-ourfp-elements
+    source_id: src-LIT-ourfp-home
+    locator: "Home page, 'RfP Pedagogy' and 'The Reading Teacher' sections"
+    excerpt_type: paraphrase
+    text: >-
+      Reading for pleasure pedagogy is set out as four elements: social reading
+      environments; reading aloud; independent reading time; and informal book talk,
+      inside-text talk and recommendations. Teachers are framed as Reading Teachers,
+      teachers who read and readers who teach.
+    fetched_url: https://ourfp.org/
+    verified_by_fetch: true
+
+  - id: psg-LIT-ref-findings
+    source_id: src-LIT-ref-ou-reading-pleasure
+    locator: "Sections 2 (Underpinning research) and 4 (Details of impact)"
+    excerpt_type: paraphrase
+    text: >-
+      The Teachers as Readers research (2006-11) found primary teachers' knowledge of
+      children's literature was too narrow to support reader development and that they
+      underestimated children's home reading. When teachers explored pupils' informal
+      reading, they came to see reading as more social and introduced more talk-based
+      activities.
+    fetched_url: https://impact.ref.ac.uk/casestudies/CaseStudy.aspx?Id=6027
+    verified_by_fetch: true
+
+  - id: psg-LIT-sbt-fmrc
+    source_id: src-LIT-sbt-fmrc
+    locator: "Evaluation summary page (2021/22 evaluation by The Lines Between)"
+    excerpt_type: paraphrase
+    text: >-
+      The Challenge was set up to encourage pupils to read for pleasure. In the
+      independent evaluation, 97 per cent of participating schools reported more reading
+      for pleasure and an improved reading culture; personal choice of reading is listed
+      as a success factor.
+    fetched_url: https://www.scottishbooktrust.com/learning-and-resources/first-ministers-reading-challenge
+    verified_by_fetch: true
+
+  - id: psg-LIT-fmrc-site
+    source_id: src-LIT-fmrc-site
+    locator: "Home page, 'Primary schools' section"
+    excerpt_type: paraphrase
+    text: >-
+      The Challenge is open to anyone working with young people aged 5 to 18 and aims to
+      build a reading culture. Primary schools receive resources, reading passports and
+      book suggestions.
+    fetched_url: https://www.readingchallenge.scot/
+    verified_by_fetch: true
+
+  # --- Tell Me ---------------------------------------------------------------
+  - id: psg-LIT-chambers-quote
+    source_id: src-LIT-chambers-tell-me
+    locator: "Part Two, Chapter 25 'Why Tell me?', pp.137-138"
+    excerpt_type: quote
+    text: "conversational glottal stop"
+    fetched_url: https://aidanchambers.co.uk/tellme.pdf
+    verified_by_fetch: true
+
+  - id: psg-LIT-chambers-why
+    source_id: src-LIT-chambers-tell-me
+    locator: "Part Two, Chapter 25 'Why Tell me?', pp.137-138"
+    excerpt_type: paraphrase
+    text: >-
+      Chambers avoids asking 'Why?' because it can sound like an interrogation or test,
+      demands a complete explanation at once and gives no specific detail to start from,
+      so children fall back on words like 'boring'. 'Tell me' signals genuine interest in
+      the reader's view and invites conversation.
+    fetched_url: https://aidanchambers.co.uk/tellme.pdf
+    verified_by_fetch: true
+
+  - id: psg-LIT-chambers-sharings
+    source_id: src-LIT-chambers-tell-me
+    locator: "Part Two, Chapter 20 'The Three Sharings', p.104"
+    excerpt_type: paraphrase
+    text: >-
+      Booktalk is organised as three sharings: sharing enthusiasms (likes and dislikes),
+      sharing puzzles (what confused readers, where meaning is negotiated) and sharing
+      connections (patterns within the text, to other texts and to the reader's life).
+    fetched_url: https://aidanchambers.co.uk/tellme.pdf
+    verified_by_fetch: true
+
+  - id: psg-LIT-chambers-framework
+    source_id: src-LIT-chambers-tell-me
+    locator: "Part Two, Chapter 31 'The Framework of Tell me Questions', p.178"
+    excerpt_type: paraphrase
+    text: >-
+      The four basic questions ask what readers liked, what they disliked, what puzzled
+      them and what patterns or connections they noticed. Experienced groups often move
+      straight to puzzles and patterns.
+    fetched_url: https://aidanchambers.co.uk/tellme.pdf
+    verified_by_fetch: true
+
+  - id: psg-LIT-vic-tellme-run
+    source_id: src-LIT-vic-tell-me
+    locator: "Section 'How to use this strategy'"
+    excerpt_type: paraphrase
+    text: >-
+      Teachers use the questions as prompts rather than a checklist, allow thinking time,
+      model a response only if pupils are unsure and hold back their own opinions so they
+      do not carry special authority. Sentence starters and words for possibility and
+      certainty support pupils' talk.
+    fetched_url: https://www.education.vic.gov.au/Documents/school/teachers/teachingresources/diversity/eal/continuum/tellme.pdf
+    verified_by_fetch: true
+
+  # --- Frayer -----------------------------------------------------------------
+  - id: psg-LIT-iris-frayer-structure
+    source_id: src-LIT-iris-frayer
+    locator: "Page 7, opening section on the Frayer Model"
+    excerpt_type: paraphrase
+    text: >-
+      The Frayer Model is a graphic organiser for key terms central to a unit: the term
+      sits in the centre surrounded by four boxes for definition, characteristics,
+      examples and non-examples. Initial teaching is teacher-directed with the teacher
+      modelling their thinking.
+    fetched_url: https://iris.peabody.vanderbilt.edu/module/sec-rdng/cresource/q2/p07/
+    verified_by_fetch: true
+
+  - id: psg-LIT-iris-frayer-practice
+    source_id: src-LIT-iris-frayer
+    locator: "Page 7, guided practice, independent practice and cautions sections"
+    excerpt_type: paraphrase
+    text: >-
+      After modelling, the class discusses the definition together and the teacher guides
+      the other boxes; later pupils complete boxes alone or in pairs and explain their
+      reasoning. The model need not be finished in one lesson, should not be set as a
+      homework worksheet because discussion is essential, and on first use the teacher
+      should supply a pupil-friendly definition.
+    fetched_url: https://iris.peabody.vanderbilt.edu/module/sec-rdng/cresource/q2/p07/
+    verified_by_fetch: true
+
+  - id: psg-LIT-iris-frayer-origin
+    source_id: src-LIT-iris-frayer-template
+    locator: "Template page, citation line"
+    excerpt_type: paraphrase
+    text: >-
+      The template credits Frayer, Frederick and Klausmeier (1969), 'A schema for testing
+      the level of concept mastery', Technical Report No. 16, University of Wisconsin
+      Research and Development Center for Cognitive Learning.
+    fetched_url: https://iris.peabody.vanderbilt.edu/wp-content/uploads/modules/sec-rdng/pdfs/sec_rdng_07_link_Frayer.pdf
+    verified_by_fetch: true
+
+  # --- Because, but, so -------------------------------------------------------
+  - id: psg-LIT-twr-bbs
+    source_id: src-LIT-shotton-twr
+    locator: "Section on 'because, but, so'"
+    excerpt_type: paraphrase
+    text: >-
+      In the because/but/so activity from The Writing Revolution (Hochman and Wexler) the
+      teacher gives a sentence stem and pupils complete it three ways: 'because' prompts
+      explanation, 'but' a change of direction and 'so' a consequence. The author found it
+      quick to plan and revealing of understanding; the evidence offered is her own
+      classroom experience.
+    fetched_url: https://researchschool.org.uk/shottonhall/news/reading-reflection-the-writing-revolution
+    verified_by_fetch: true
+
+  # --- CfE E&Os ---------------------------------------------------------------
+  - id: psg-LIT-cfe-eng212
+    source_id: src-LIT-cfe-literacy-eo
+    locator: "Reading, Tools for reading, ENG 2-12a"
+    excerpt_type: paraphrase
+    text: >-
+      At Second Level pupils use context clues, punctuation, grammar and layout to read
+      unfamiliar texts with increasing fluency, understanding and expression.
+    fetched_url: https://education.gov.scot/media/qhxmxnfq/literacy-english-eo.pdf
+    verified_by_fetch: true
+
+  - id: psg-LIT-cfe-eng219
+    source_id: src-LIT-cfe-literacy-eo
+    locator: "Reading, Understanding, analysing and evaluating, ENG 2-19a; Enjoyment and choice, LIT 2-11a"
+    excerpt_type: paraphrase
+    text: >-
+      Second Level outcomes include discussing a text's structure, characters or setting
+      and relating its theme to the reader's own experience (ENG 2-19a), and choosing
+      texts and authors for enjoyment and explaining those preferences (LIT 2-11a).
+    fetched_url: https://education.gov.scot/media/qhxmxnfq/literacy-english-eo.pdf
+    verified_by_fetch: true
+
+  # --- Close reading ----------------------------------------------------------
+  - id: psg-LIT-ff12-features
+    source_id: src-LIT-fisher-frey-2012
+    locator: "pp.180-182 and p.185 (question categories figure)"
+    excerpt_type: paraphrase
+    text: >-
+      Close reading uses short, complex passages (often at or above grade level), limited
+      frontloading, several rereadings each with a new purpose, text-dependent questions
+      that require evidence from the text, annotation, and partner or small-group
+      discussion. Question types run from general understanding and key details through
+      vocabulary and structure and author's purpose to inference and opinion.
+    fetched_url: https://s3-us-west-1.amazonaws.com/fisher-and-frey/documents/close_reading_elem.pdf
+    verified_by_fetch: true
+
+  - id: psg-LIT-ff12-cautions
+    source_id: src-LIT-fisher-frey-2012
+    locator: "p.180 and pp.180-181, 187"
+    excerpt_type: paraphrase
+    text: >-
+      Close reading should sit alongside read-alouds, modelling, guided reading,
+      discussion and independent reading, not replace them, and not every text warrants
+      it. The findings come from an early, small study (14 primary teachers and
+      observations in secondary classrooms).
+    fetched_url: https://s3-us-west-1.amazonaws.com/fisher-and-frey/documents/close_reading_elem.pdf
+    verified_by_fetch: true
+
+  - id: psg-LIT-ff15-evidence
+    source_id: src-LIT-fisher-frey-2015
+    locator: "p.57"
+    excerpt_type: paraphrase
+    text: >-
+      The authors acknowledge little agreement on the essential components of close
+      reading or on whether it works, with some critics calling it untested; early
+      studies with older struggling readers and younger pupils are cited as promising.
+    fetched_url: https://www.readinghalloffame.org/sites/default/files/kappan_close_read.pdf
+    verified_by_fetch: true
+
+  - id: psg-LIT-ff15-annotation
+    source_id: src-LIT-fisher-frey-2015
+    locator: "pp.59-60 (rereading and annotating; action after reading)"
+    excerpt_type: paraphrase
+    text: >-
+      Three annotation marks are suggested: underline key ideas, circle unclear words and
+      write margin notes in your own words. Close reading should lead on to writing,
+      debate, investigation or presentation.
+    fetched_url: https://www.readinghalloffame.org/sites/default/files/kappan_close_read.pdf
+    verified_by_fetch: true
+
+  - id: psg-LIT-ff15-rr-caution
+    source_id: src-LIT-fisher-frey-2015
+    locator: "p.60"
+    excerpt_type: paraphrase
+    text: >-
+      Citing Nichols, Rupley and Rasinski (2009), the authors warn that repeated reading
+      without guidance can reduce engagement and fail to show pupils how fluency serves
+      meaning, so rereading needs scaffolding and conversation.
+    fetched_url: https://www.readinghalloffame.org/sites/default/files/kappan_close_read.pdf
+    verified_by_fetch: true
+
+  # --- Drama and writing in role ---------------------------------------------
+  - id: psg-LIT-cremin06-abstract
+    source_id: src-LIT-cremin-2006-drama-writing
+    locator: "Abstract (ORO repository record)"
+    excerpt_type: paraphrase
+    text: >-
+      A pilot compared drama aimed at a specific genre with a 'seize the moment' approach
+      allowing spontaneity and choice; the main study used the latter and identified
+      elements of drama that supported children's writing, concluding that drama has much
+      to offer primary composition.
+    fetched_url: https://oro.open.ac.uk/9778
+    verified_by_fetch: true
+
+  - id: psg-LIT-aes-cremin06
+    source_id: src-LIT-artsedsearch-cremin-2006
+    locator: "Study summary: findings and limitations"
+    excerpt_type: paraphrase
+    text: >-
+      In three classes (two of 10 to 11 year olds), writing from a character's
+      perspective after process drama was more focused and used setting, character and
+      event detail more effectively; dramatic tension and sustained engagement also
+      appeared to help. The study was non-experimental, so it cannot show drama caused
+      the gains, and novelty may have played a part.
+    fetched_url: https://www.artsedsearch.org/study/connecting-drama-and-writing-seizing-the-moment-to-write/
+    verified_by_fetch: true
+
+  - id: psg-LIT-ukla-drama
+    source_id: src-LIT-ukla-drama-viewpoint
+    locator: "pp.2-3"
+    excerpt_type: paraphrase
+    text: >-
+      Drama is linked to children's idea generation, fluency and motivation to write.
+      Conventions such as freeze frame, hot seating and decision alley, and teacher in
+      role, help children explore language and meaning; worked examples end with pupils
+      writing a letter or diary entry in role after role-play.
+    fetched_url: https://ukla.org/wp-content/uploads/2020/01/View_Drama.pdf
+    verified_by_fetch: true
+
+  # --- Scottish reciprocal reading sources -----------------------------------
+  - id: psg-LIT-edhub-reciprocal
+    source_id: src-LIT-edinburgh-hub-comprehension
+    locator: "p.8 and p.10"
+    excerpt_type: paraphrase
+    text: >-
+      The guide calls the model reciprocal because teacher control is reduced step by
+      step as pupils move from groups to pairs to working alone, built on expert
+      modelling, peer support and self-monitoring. It draws on Palincsar and Brown (1984).
+    fetched_url: https://education.gov.scot/media/vaapuk03/lit13_teachingreadingcomprehensionfinaldraft.pdf
+    verified_by_fetch: true
+
+  - id: psg-LIT-edhub-prompts
+    source_id: src-LIT-edinburgh-hub-comprehension
+    locator: "pp.12-15 (prompt cards for predicting, questioning, clarifying, summarising)"
+    excerpt_type: paraphrase
+    text: >-
+      Prompt cards give sentence starters such as 'I predict...'; pupils write a question
+      before reading so they read with purpose; clarifying is modelled through rereading,
+      reading on and breaking words into parts; summarising uses summary wheels and asks
+      for few words.
+    fetched_url: https://education.gov.scot/media/vaapuk03/lit13_teachingreadingcomprehensionfinaldraft.pdf
+    verified_by_fetch: true
+
+  - id: psg-LIT-edhub-model-try
+    source_id: src-LIT-edinburgh-hub-comprehension
+    locator: "pp.27, 30, 32 (lesson plan structure)"
+    excerpt_type: paraphrase
+    text: >-
+      Lessons follow Model (teacher-led), Try (with peers), Apply (independent) and Secure
+      (plenary), with talk partners and cooperative groups throughout.
+    fetched_url: https://education.gov.scot/media/vaapuk03/lit13_teachingreadingcomprehensionfinaldraft.pdf
+    verified_by_fetch: true
+
+  - id: psg-LIT-es-rr-programme
+    source_id: src-LIT-es-reciprocal-reading-programme
+    locator: "Programme page, overview"
+    excerpt_type: paraphrase
+    text: >-
+      Education Scotland lists a Reciprocal Reading professional learning programme for
+      primary and English teachers in the Forth Valley and West Lothian Regional
+      Improvement Collaborative, developed with the University of Stirling and running
+      for 6 to 12 weeks.
+    fetched_url: https://education.gov.scot/professional-learning/learn/programmes/reciprocal-reading
+    verified_by_fetch: true
+
+entries:
+  # 1 ---------------------------------------------------------------------------
+  - id: sig-LIT-reciprocal-reading
+    type: signature_pedagogy
+    title: "Reciprocal reading (predict, question, clarify, summarise)"
+    summary: >-
+      Pupils learn four comprehension moves through teacher modelling, then take turns
+      leading small-group dialogue about a text while the teacher fades support.
+    body: |
+      **What it is.** A structured dialogue about a text, segment by segment, using four
+      moves: predict, question, clarify, summarise. The teacher models all four, then
+      pupils take turns as discussion leader.
+
+      **How to run it at P7.**
+      1. Model each move with think-aloud on a short text (one move per lesson at first).
+      2. Give role cards with sentence starters ("I predict... because...", "I wonder why...",
+         "A word I need to clarify is... I worked it out by...", "In a few words, this part is about...").
+      3. Groups of four read a section, each leading one move; rotate roles.
+      4. Fade: whole-class modelling, then groups, then pairs, then individual use.
+
+      **Evidence in brief.** Strong underlying evidence for comprehension strategy
+      teaching; the EEF trial suggests the targeted small-group version is more reliable
+      than a whole-class roll-out.
+    status: draft
+    version: "0.1"
+    curated_by: [agent-LIT]
+    reviewed_by: []
+    facets:
+      jurisdiction: [scotland]
+      cfe_level: [second]
+      stage: [p7]
+      curriculum_area: [languages]
+      subject: [literacy and English, reading]
+      lesson_purpose: [introduce, guided_practice, independent_practice]
+      knowledge_type: [procedural, metacognitive]
+      expertise: [novice, developing]
+      artefact_type: [slides, worksheet, lesson_plan, interaction]
+    evidence:
+      rating: moderate
+      rationale: "Original reciprocal teaching studies and EEF Toolkit support strategy teaching; EEF trial mixed for whole-class use (clm-LIT-rr-eef-trial)."
+    prerequisites:
+      - "Pupils decode the chosen text accurately enough to focus on meaning"
+      - "Teacher has modelled each move at least once"
+    risks:
+      - "Whole-class delivery without sustained modelling may add little (EEF trial with Year 4)."
+      - "Roles can become a box-ticking routine; keep the focus on meaning, not the cards."
+      - "aligns_to ids follow the CUR naming convention; codes verified against the E&O document but the CUR entries are owned by another agent."
+    relations:
+      uses_principle: [prn-EVD-reading-comprehension-strategies, prn-EVD-metacognition, prn-EVD-scaffolding, prn-EVD-collaborative-learning, prn-EVD-explicit-instruction]
+      demonstrated_by: [exm-LIT-reciprocal-reading-group-session]
+      aligns_to: [cur-CUR-lit-2-13a, cur-CUR-eng-2-17a, cur-CUR-lit-2-16a]
+    artefact_recipes:
+      slides: >-
+        Slide per move with icon, purpose and one starter; a short extract from the class
+        novel with the teacher's think-aloud annotations revealed step by step.
+      worksheet: >-
+        Four-quadrant reading log (Predict, Question, Clarify, Summarise) beside a
+        numbered text extract; summary box limited to 20 words.
+      form: >-
+        Exit form: "Which move helped you most today and where in the text?" plus a
+        one-line summary of the chapter.
+      lesson_plan: >-
+        Model (10 min think-aloud) then Try (groups of four with role cards, 20 min) then
+        Apply (pairs on next section) then Secure (plenary comparing summaries).
+      interaction: >-
+        Rotating discussion leader; teacher circulates prompting "How did you work that
+        out?" and steps back as groups become fluent.
+    claims: [clm-LIT-rr-four-strategies, clm-LIT-rr-turn-taking, clm-LIT-rr-original-results, clm-LIT-rr-eef-trial, clm-LIT-rr-comp-strategies-impact, clm-LIT-rr-scotland, clm-LIT-rr-sustained]
+
+  # 2 ---------------------------------------------------------------------------
+  - id: sig-LIT-explicit-vocabulary-tier2
+    type: signature_pedagogy
+    title: "Explicit vocabulary instruction focused on Tier 2 words"
+    summary: >-
+      Select ambitious, widely useful words from class texts, pre-teach them, then give
+      repeated, active encounters across talk, reading and writing.
+    body: |
+      **Selecting words.** From the next chapter or text, pick 5 to 8 Tier 2 words (for
+      example *reluctant*, *consequence*, *reveal*) that matter for comprehension and will
+      recur across subjects. Tier 3 words (subject-specific) are taught in context as needed.
+
+      **Teaching routine.** Say it, read it, pupil-friendly definition, example in the
+      text, pupils' own example, non-example, then use it in talk that day. Revisit the
+      words across the week in reading, discussion and writing.
+
+      **Tools.** The Frayer model (act-LIT-frayer-model) suits conceptually rich words.
+    status: draft
+    version: "0.1"
+    curated_by: [agent-LIT]
+    reviewed_by: []
+    facets:
+      jurisdiction: [scotland]
+      cfe_level: [second]
+      stage: [p7]
+      curriculum_area: [languages]
+      subject: [literacy and English, vocabulary]
+      lesson_purpose: [introduce, guided_practice, apply_transfer]
+      knowledge_type: [declarative, conceptual]
+      expertise: [novice, developing]
+      artefact_type: [slides, worksheet, lesson_plan, interaction]
+    evidence:
+      rating: moderate
+      rationale: "EEF KS2 guidance and EEF oral language evidence support explicit, active vocabulary teaching (clm-LIT-vocab-tier2, clm-LIT-vocab-oral-link)."
+    prerequisites: ["A shared class text or topic text from which words are drawn"]
+    risks:
+      - "Word lists taught in isolation, without repeated use in context, are unlikely to stick."
+      - "Tier labels are a planning heuristic, not a fixed property of a word."
+    relations:
+      uses_principle: [prn-EVD-explicit-instruction, prn-EVD-spaced-practice, prn-EVD-retrieval-practice, prn-EVD-oral-language-dialogic]
+      demonstrated_by: [act-LIT-frayer-model]
+      aligns_to: [cur-CUR-eng-2-12a, cur-CUR-lit-2-13a, cur-CUR-lit-2-26a]
+    artefact_recipes:
+      slides: >-
+        One slide per word: word, syllables, pupil-friendly definition, sentence from the
+        class novel with the word in bold, image, "Your turn" prompt.
+      worksheet: >-
+        Word bank with definitions; match-the-sentence task; "use two of this week's
+        words in a sentence about the main character".
+      form: >-
+        Quick retrieval quiz at the start of later lessons: choose the word that fits
+        each gap (spaced over two weeks).
+      lesson_plan: >-
+        Pre-teach 5 words before reading (10 min), read, pause to notice each word in
+        context, close with pupils using two words orally in a paired summary.
+      interaction: >-
+        "Word of the day" challenge: pupils earn recognition for using the word
+        accurately in class talk; teacher recasts near-misses.
+    claims: [clm-LIT-vocab-tier2, clm-LIT-vocab-exposure, clm-LIT-vocab-oral-link]
+
+  # 3 ---------------------------------------------------------------------------
+  - id: act-LIT-frayer-model
+    type: activity_type
+    title: "Frayer model for key vocabulary"
+    summary: >-
+      A four-box organiser (definition, characteristics, examples, non-examples) used,
+      with discussion, to build understanding of a concept-rich word.
+    body: |
+      Use for a small number of concept-rich words (for example *theme*, *persuade*,
+      *metaphor*, *justice* in a class novel). Teacher models one completed Frayer with
+      think-aloud, the class completes a second together, then pairs complete a third and
+      justify their examples and non-examples. Supply a pupil-friendly definition on first
+      use. Spread completion over more than one lesson if needed.
+    status: draft
+    version: "0.1"
+    curated_by: [agent-LIT]
+    reviewed_by: []
+    facets:
+      jurisdiction: [scotland]
+      cfe_level: [second]
+      stage: [p7]
+      curriculum_area: [languages]
+      subject: [literacy and English, vocabulary]
+      lesson_purpose: [introduce, guided_practice]
+      knowledge_type: [conceptual, declarative]
+      expertise: [novice, developing]
+      artefact_type: [worksheet, slides, interaction]
+    evidence:
+      rating: practitioner_wisdom
+      rationale: "Widely recommended organiser (IRIS Center); no trial evidence on the Frayer model itself was fetched (clm-LIT-frayer-structure)."
+    prerequisites: ["Teacher has selected a concept-rich word worth the time"]
+    risks:
+      - "Set as a silent worksheet or homework it loses the discussion that does the work."
+      - "Too slow for every word; reserve for a few key concepts."
+    relations:
+      uses_principle: [prn-EVD-dual-coding, prn-EVD-worked-examples, prn-EVD-explicit-instruction, prn-EVD-scaffolding]
+      aligns_to: [cur-CUR-lit-2-13a]
+    artefact_recipes:
+      slides: "Animated Frayer grid filled box by box as the teacher thinks aloud on the word 'theme'."
+      worksheet: >-
+        Frayer grid with the word centred; definition box pre-filled on first use;
+        examples and non-examples boxes ask "Why?" beside each entry.
+      form: "Sort card task: drag 8 items into Example or Non-example for the target word."
+      lesson_plan: "I do (teacher Frayer), we do (class Frayer), you do (paired Frayer with justification), share two non-examples."
+      interaction: "Pairs swap non-examples and challenge each other: 'Convince me this is not an example.'"
+    claims: [clm-LIT-frayer-structure, clm-LIT-frayer-release, clm-LIT-frayer-discussion]
+
+  # 4 ---------------------------------------------------------------------------
+  - id: act-LIT-fluency-guided-repeated-reading
+    type: activity_type
+    title: "Fluency practice: guided oral reading, repeated, echo and paired reading"
+    summary: >-
+      An adult or peer models a short passage, pupils echo and re-read it aloud with
+      feedback until it is accurate, well paced and expressive.
+    body: |
+      **Routine (10 to 15 minutes, several times a week).**
+      1. Choose a short, meaningful passage (around 150 to 250 words) from the class text.
+      2. Teacher reads it aloud fluently, drawing attention to phrasing and expression.
+      3. Echo reading: pupils repeat sentence by sentence.
+      4. Paired repeated reading: partners take turns re-reading, giving one specific piece of feedback.
+      5. Final read focusing on meaning: "What does the way you read it show about the character?"
+
+      Keep the purpose meaningful (performance, recording, reading to younger pupils).
+    status: draft
+    version: "0.1"
+    curated_by: [agent-LIT]
+    reviewed_by: []
+    facets:
+      jurisdiction: [scotland]
+      cfe_level: [second]
+      stage: [p7]
+      curriculum_area: [languages]
+      subject: [literacy and English, reading]
+      lesson_purpose: [guided_practice, independent_practice]
+      knowledge_type: [procedural]
+      expertise: [novice, developing]
+      artefact_type: [slides, worksheet, lesson_plan, interaction]
+    evidence:
+      rating: moderate
+      rationale: "Fluency is an EEF KS2 recommendation with guided oral reading and repeated reading described as core practices (clm-LIT-flu-gor)."
+    prerequisites: ["Pupils can decode most words in the passage"]
+    risks:
+      - "Unguided repetition can reduce engagement; always link expression to meaning."
+      - "Reading aloud can cause anxiety; allow rehearsal in pairs before any audience."
+    relations:
+      uses_principle: [prn-EVD-explicit-instruction, prn-EVD-feedback, prn-EVD-scaffolding]
+      demonstrated_by: [exm-LIT-readers-theatre-p7]
+      aligns_to: [cur-CUR-eng-2-12a]
+    artefact_recipes:
+      slides: "Passage on screen with phrase breaks marked by slashes for the model read; second slide without marks for the final read."
+      worksheet: "Passage with phrasing marks, a self-rating strip (accuracy, pace, expression) for each of three reads, and a partner feedback line."
+      form: "Pupil records their own read and rates expression 1 to 4 with one improvement target."
+      lesson_plan: "Model read, echo read, three paired re-reads with feedback, meaning-focused final read, brief reflection."
+      interaction: "Partners use the stem 'Your reading showed... next time try...' for feedback."
+    claims: [clm-LIT-flu-gor, clm-LIT-flu-rec, clm-LIT-flu-cfe, clm-LIT-flu-guidance-caution]
+
+  # 5 ---------------------------------------------------------------------------
+  - id: exm-LIT-readers-theatre-p7
+    type: exemplar
+    title: "Exemplar: Reader's Theatre week on a P7 class novel"
+    summary: >-
+      A one-week fluency sequence turning a dialogue-rich chapter into a script that
+      groups rehearse and perform, following the EEF Reader's Theatre steps.
+    body: |
+      **Day 1.** Teacher models reading the script; class echo reads key lines; discuss how
+      punctuation and character feelings shape expression.
+      **Day 2.** Groups allocate parts; paired repeated reading of each part with feedback.
+      **Day 3.** Group rehearsal; teacher coaches phrasing and pace.
+      **Day 4.** Dress rehearsal and peer feedback using a fluency checklist.
+      **Day 5.** Performance (to another class or recorded), then reflection on what changed.
+    status: draft
+    version: "0.1"
+    curated_by: [agent-LIT]
+    reviewed_by: []
+    facets:
+      jurisdiction: [scotland]
+      cfe_level: [second]
+      stage: [p7]
+      curriculum_area: [languages]
+      subject: [literacy and English, reading]
+      lesson_purpose: [guided_practice, apply_transfer]
+      knowledge_type: [procedural]
+      expertise: [developing]
+      artefact_type: [lesson_plan, worksheet]
+    evidence:
+      rating: moderate
+      rationale: "Sequence follows the Reader's Theatre steps in EEF KS2 guidance (clm-LIT-rt-steps)."
+    prerequisites: ["A chapter with plenty of dialogue converted into a script"]
+    risks: ["Avoid assigning parts that place weak decoders in front of an audience without rehearsal."]
+    relations:
+      uses_principle: [prn-EVD-feedback, prn-EVD-collaborative-learning]
+      aligns_to: [cur-CUR-eng-2-12a, cur-CUR-lit-2-10a]
+    artefact_recipes:
+      lesson_plan: "Five-day plan as in body, 20 minutes per day."
+      worksheet: "Script with character colour-coding, phrasing marks and a peer fluency checklist (accuracy, pace, expression, volume)."
+    claims: [clm-LIT-rt-steps]
+
+  # 6 ---------------------------------------------------------------------------
+  - id: sig-LIT-modelled-shared-writing
+    type: signature_pedagogy
+    title: "Modelled and shared writing with think-aloud"
+    summary: >-
+      The teacher composes live in front of pupils, voicing decisions aloud, then
+      composes with them before pupils write independently.
+    body: |
+      **Modelled writing (I do).** Teacher writes a short section (for example the opening
+      of a persuasive letter) and thinks aloud about audience, word choice, sentence
+      structure and rereading.
+      **Shared writing (we do).** Pupils suggest, teacher questions and refines ("Is
+      there a more precise word? Does this sentence do what we want?").
+      **Guided and independent writing (you do).** Pupils write the next section, using
+      the shared text as a model.
+
+      Re-model as needed: the writing process is not linear.
+    status: draft
+    version: "0.1"
+    curated_by: [agent-LIT]
+    reviewed_by: []
+    facets:
+      jurisdiction: [scotland]
+      cfe_level: [second]
+      stage: [p7]
+      curriculum_area: [languages]
+      subject: [literacy and English, writing]
+      lesson_purpose: [introduce, guided_practice]
+      knowledge_type: [procedural, metacognitive]
+      expertise: [novice, developing]
+      artefact_type: [slides, lesson_plan, interaction]
+    evidence:
+      rating: moderate
+      rationale: "EEF KS2 recommends modelling writing strategies with think-aloud through gradual release (clm-LIT-msw-gradual)."
+    prerequisites: ["Pupils know the purpose and audience of the text type"]
+    risks:
+      - "Showing a finished model without the thinking gives pupils less to copy than live composition."
+      - "Over-long modelling leaves too little time for pupils to write."
+    relations:
+      uses_principle: [prn-EVD-worked-examples, prn-EVD-explicit-instruction, prn-EVD-metacognition, prn-EVD-scaffolding]
+      aligns_to: [cur-CUR-lit-2-26a, cur-CUR-lit-2-23a, cur-CUR-eng-2-27a]
+    artefact_recipes:
+      slides: "Blank slide for live composition; a second slide listing the decisions the teacher voiced (audience, word choice, sentence variety)."
+      worksheet: "Shared paragraph printed with space beneath for pupils to write the next paragraph using the same moves."
+      form: "Pupil reflection: 'One decision the teacher made that I used in my writing.'"
+      lesson_plan: "Model (10 min) then shared composition (10 min) then independent writing (20 min) then reread against the modelled moves."
+      interaction: "Teacher invites suggestions, thinks aloud about each one, and accepts or improves it with reasons."
+    claims: [clm-LIT-msw-gradual, clm-LIT-msw-thinkaloud, clm-LIT-msw-models-es]
+
+  # 7 ---------------------------------------------------------------------------
+  - id: sig-LIT-writing-strategy-instruction
+    type: signature_pedagogy
+    title: "Writing process with explicit planning and revision strategies"
+    summary: >-
+      Teach pupils named strategies for planning, drafting, revising and editing, with
+      clear product goals and checklists they gradually own.
+    body: |
+      1. Set specific product goals (for example "give three reasons with evidence").
+      2. Teach a planning strategy (for example a boxed plan for a persuasive text) by
+         modelling, then guided practice.
+      3. Draft from the plan.
+      4. Revise against the goals: reread, check each goal, improve one paragraph.
+      5. Edit for spelling and punctuation separately from revising for meaning.
+      6. Fade support: pupils write their own goals and checklists.
+
+      Collaborative planning and peer revision partners add further benefit.
+    status: draft
+    version: "0.1"
+    curated_by: [agent-LIT]
+    reviewed_by: []
+    facets:
+      jurisdiction: [scotland]
+      cfe_level: [second]
+      stage: [p7]
+      curriculum_area: [languages]
+      subject: [literacy and English, writing]
+      lesson_purpose: [introduce, guided_practice, independent_practice]
+      knowledge_type: [procedural, metacognitive]
+      expertise: [novice, developing, secure]
+      artefact_type: [worksheet, lesson_plan, form, interaction]
+    evidence:
+      rating: strong
+      rationale: "Writing strategy instruction had the largest effect in Writing Next and is central to EEF KS2 recommendation 4 (clm-LIT-ws-es)."
+    prerequisites: ["Pupils have seen a model of the target text type"]
+    risks:
+      - "A rigid one-pass plan-draft-publish cycle misrepresents writing; allow movement between stages."
+      - "Writing Next effect sizes come mostly from US grades 4 to 12 studies."
+    relations:
+      uses_principle: [prn-EVD-metacognition, prn-EVD-explicit-instruction, prn-EVD-feedback, prn-EVD-collaborative-learning]
+      aligns_to: [cur-CUR-lit-2-23a, cur-CUR-lit-2-26a, cur-CUR-lit-2-29a]
+    artefact_recipes:
+      slides: "Process wheel (plan, draft, revise, edit, publish) with today's stage highlighted and the strategy for it."
+      worksheet: "Planning frame plus a revision checklist built from the lesson's product goals, each with a tick box and 'evidence in my writing' column."
+      form: "Self-assessment form: for each goal, quote the sentence that meets it."
+      lesson_plan: "Goal setting, modelled plan, paired planning, drafting, revision against goals in the next lesson."
+      interaction: "Revision partners read each other's work aloud and give one 'goal met' and one 'goal next' comment."
+    claims: [clm-LIT-ws-stages, clm-LIT-ws-selfreg, clm-LIT-ws-es, clm-LIT-ws-goals]
+
+  # 8 ---------------------------------------------------------------------------
+  - id: act-LIT-sentence-combining
+    type: activity_type
+    title: "Sentence-level instruction: combining, expanding and 'because, but, so'"
+    summary: >-
+      Short, frequent practice joining and expanding sentences, including completing a
+      stem three ways with because, but and so, to build syntactic range and reasoning.
+    body: |
+      **Sentence combining.** Give two or three short sentences from a topic or the class
+      novel; pupils join them in different ways (conjunctions, relative clauses, fronted
+      adverbials) and discuss which version works best.
+
+      **Because, but, so.** Give a stem tied to content, for example "Charlotte hid the
+      letter...". Pupils complete it three times: because (explanation), but (contrast),
+      so (consequence).
+
+      **Sentence expanding.** Add who, what, when, where, why detail to a kernel sentence.
+
+      Model first, then pairs, then independent; keep it to 10 minutes and connect to the
+      writing in hand.
+    status: draft
+    version: "0.1"
+    curated_by: [agent-LIT]
+    reviewed_by: []
+    facets:
+      jurisdiction: [scotland]
+      cfe_level: [second]
+      stage: [p7]
+      curriculum_area: [languages]
+      subject: [literacy and English, writing, grammar]
+      lesson_purpose: [guided_practice, independent_practice, assess_feedback]
+      knowledge_type: [procedural]
+      expertise: [novice, developing]
+      artefact_type: [worksheet, slides, form, interaction]
+    evidence:
+      rating: moderate
+      rationale: "Sentence combining shows a positive average effect in Writing Next and features in EEF KS2 guidance; 'because, but, so' itself rests on practitioner reports (clm-LIT-sc-wn, clm-LIT-sc-bbs)."
+    prerequisites: ["Pupils can write simple sentences with full stops"]
+    risks:
+      - "Decontextualised grammar drills show no benefit or harm; keep practice tied to meaning and real writing."
+      - "Because, but, so evidence is practitioner-level only (low weight source)."
+    relations:
+      uses_principle: [prn-EVD-explicit-instruction, prn-EVD-worked-examples, prn-EVD-retrieval-practice]
+      aligns_to: [cur-CUR-lit-2-22a, cur-CUR-lit-2-28a]
+    artefact_recipes:
+      slides: "Three short sentences on screen; reveal two teacher combinations and ask which is clearer and why."
+      worksheet: "Five sets of sentences to combine; then three 'because, but, so' stems about the class novel."
+      form: "Exit ticket: complete one stem with because, but and so."
+      lesson_plan: "10-minute starter: model one combination, pairs do two, individuals do two, share best versions."
+      interaction: "Mini-whiteboards: pupils hold up their combined sentence; teacher selects contrasting versions to discuss."
+    claims: [clm-LIT-sc-eef, clm-LIT-sc-wn, clm-LIT-sc-bbs]
+
+  # 9 ---------------------------------------------------------------------------
+  - id: act-LIT-structured-talk-oracy
+    type: activity_type
+    title: "Structured talk routines with talk stems and roles (oracy framework)"
+    summary: >-
+      Planned, explicitly taught talk: clear tasks, roles and sentence stems drawn from
+      an oracy framework, so every pupil reasons aloud before reading or writing.
+    body: |
+      **Set up.** Agree class discussion guidelines; teach one oracy skill at a time using
+      the four strands (physical, linguistic, cognitive, social and emotional).
+
+      **Talk stems at P7.** "I agree with... because...", "Building on what X said...",
+      "I'd like to challenge that because...", "Can you give an example?", "So, to
+      summarise...".
+
+      **Roles.** Instigator, builder, challenger, summariser rotate in groups of four.
+
+      **Use.** Talk before writing (oral rehearsal), jigsaw groups on non-fiction, and
+      structured discussion of the class novel.
+    status: draft
+    version: "0.1"
+    curated_by: [agent-LIT]
+    reviewed_by: []
+    facets:
+      jurisdiction: [scotland]
+      cfe_level: [second]
+      stage: [p7]
+      curriculum_area: [languages]
+      subject: [literacy and English, listening and talking]
+      lesson_purpose: [guided_practice, apply_transfer]
+      knowledge_type: [procedural, metacognitive]
+      expertise: [novice, developing]
+      artefact_type: [slides, worksheet, interaction, lesson_plan]
+    evidence:
+      rating: moderate
+      rationale: "Oral language approaches have high-security EEF evidence; specific frameworks such as Voice 21 are practitioner tools (clm-LIT-talk-oral-impact)."
+    prerequisites: ["Class discussion guidelines agreed with pupils"]
+    risks:
+      - "Stems can become scripts; aim for pupils to drop them as fluency grows."
+      - "The named talk roles are common oracy practice but were not confirmed in the fetched Voice 21 pages."
+      - "Unstructured group talk often lets a few pupils dominate."
+    relations:
+      uses_principle: [prn-EVD-oral-language-dialogic, prn-EVD-collaborative-learning, prn-EVD-scaffolding]
+      aligns_to: [cur-CUR-lit-2-02a, cur-CUR-lit-2-09a, cur-CUR-lit-2-10a]
+    artefact_recipes:
+      slides: "Talk task slide: question, time, roles, and three stems; a final slide for the summariser's report."
+      worksheet: "Talk-stem bookmark grouped by purpose (agree, build, challenge, clarify, summarise)."
+      form: "Self-assessment against two oracy strand targets, for example 'I built on someone's idea' and 'I invited a quiet member to speak'."
+      lesson_plan: "Teach the stem, model with a fishbowl group, groups practise, summarisers report, reflect on the oracy target."
+      interaction: "Talk roles rotate each session; teacher listens in and names good use of stems."
+    claims: [clm-LIT-talk-eef, clm-LIT-talk-oral-impact, clm-LIT-talk-structured, clm-LIT-talk-v21-strands, clm-LIT-talk-v21-ks2]
+
+  # 10 --------------------------------------------------------------------------
+  - id: sig-LIT-tell-me-booktalk
+    type: signature_pedagogy
+    title: "Book talk with Aidan Chambers' 'Tell me' framework"
+    summary: >-
+      Open, genuinely curious book discussion built on likes, dislikes, puzzles and
+      patterns, using 'Tell me...' rather than 'Why?'.
+    body: |
+      1. After reading, collect responses on four lists: likes, dislikes, puzzles, patterns.
+      2. Look for links across the lists; puzzles usually drive the richest talk.
+      3. Use "Tell me..." prompts ("Tell me about the part that puzzled you", "Tell me
+         where you noticed that pattern") and follow up with "How do you know that?"
+      4. Give thinking time; hold back your own interpretation until later.
+      5. Offer stems and language of possibility (perhaps, it might be, definitely).
+    status: draft
+    version: "0.1"
+    curated_by: [agent-LIT]
+    reviewed_by: []
+    facets:
+      jurisdiction: [scotland]
+      cfe_level: [second]
+      stage: [p7]
+      curriculum_area: [languages]
+      subject: [literacy and English, reading, listening and talking]
+      lesson_purpose: [apply_transfer, assess_feedback]
+      knowledge_type: [conceptual, disciplinary]
+      expertise: [developing, secure]
+      artefact_type: [slides, worksheet, interaction, lesson_plan]
+    evidence:
+      rating: practitioner_wisdom
+      rationale: "Long-established practitioner framework by Chambers; supported indirectly by evidence on dialogic talk (clm-LIT-tm-questions)."
+    prerequisites: ["Pupils have read or heard the whole text or a substantial part"]
+    risks:
+      - "Teacher 'right answer' questioning can return; keep the teacher's view back."
+      - "No direct trial evidence for the framework itself was found."
+    relations:
+      uses_principle: [prn-EVD-oral-language-dialogic, prn-EVD-collaborative-learning, prn-EVD-reading-comprehension-strategies]
+      aligns_to: [cur-CUR-eng-2-19a, cur-CUR-lit-2-11a, cur-CUR-lit-2-02a]
+    artefact_recipes:
+      slides: "Four-box slide (Likes, Dislikes, Puzzles, Patterns) used as a live recording space during discussion."
+      worksheet: "'Tell me' reading journal page: one entry per box with a page reference for each."
+      form: "Pre-discussion form where each pupil posts one puzzle; teacher groups puzzles to open the session."
+      lesson_plan: "Silent jotting (5 min), lists compiled (10 min), discussion of linked puzzles and patterns (20 min), short written reflection."
+      interaction: "Teacher prompts start with 'Tell me...'; follow-up 'How do you know that?'; no evaluative praise of interpretations."
+    claims: [clm-LIT-tm-questions, clm-LIT-tm-why, clm-LIT-tm-glottal, clm-LIT-tm-sharings, clm-LIT-tm-holdback, clm-LIT-tm-cfe]
+
+  # 11 --------------------------------------------------------------------------
+  - id: sig-LIT-reading-for-pleasure
+    type: signature_pedagogy
+    title: "Reading for pleasure pedagogy and reading communities"
+    summary: >-
+      Deliberate classroom practices (reading aloud, free choice reading time, informal
+      book talk and recommendations, social reading spaces) led by a teacher who reads.
+    body: |
+      **Four elements** (Open University RfP): reading aloud; independent reading time
+      with genuine choice; informal book talk and recommendations; social reading
+      environments.
+
+      **Reading Teacher.** Teachers read children's literature widely, share their own
+      reading and know pupils as readers.
+
+      **Scottish context.** The First Minister's Reading Challenge (Scottish Book Trust)
+      provides reading passports, book suggestions and a framework for a school reading
+      culture; it is about personal choice, not book counts.
+    status: draft
+    version: "0.1"
+    curated_by: [agent-LIT]
+    reviewed_by: []
+    facets:
+      jurisdiction: [scotland]
+      cfe_level: [second]
+      stage: [p7]
+      curriculum_area: [languages]
+      subject: [literacy and English, reading]
+      lesson_purpose: [apply_transfer]
+      knowledge_type: [disciplinary]
+      expertise: [novice, developing, secure, expert]
+      artefact_type: [lesson_plan, interaction, form]
+    evidence:
+      rating: emerging
+      rationale: "Mainly qualitative and practitioner research (Open University) plus self-reported programme evaluation (clm-LIT-rfp-teacher-knowledge, clm-LIT-rfp-fmrc)."
+    prerequisites: ["A well-stocked, current class library"]
+    risks:
+      - "Turning choice reading into tests or logs can undermine pleasure."
+      - "FMRC impact figures are school self-reports, not attainment measures."
+    relations:
+      uses_principle: [prn-EVD-oral-language-dialogic, prn-EVD-collaborative-learning]
+      aligns_to: [cur-CUR-lit-2-11a, cur-CUR-lit-2-01a]
+    artefact_recipes:
+      slides: "Weekly 'book blether' slide: three book covers recommended by pupils and the teacher's current read."
+      worksheet: "Optional reading passport page with space for a one-line recommendation, not a summary or quiz."
+      form: "Reader survey at start and end of term: what pupils like to read, where and with whom."
+      lesson_plan: "Daily 10-15 minute read-aloud of a whole novel; weekly protected independent reading with informal book talk."
+      interaction: "Teacher reads alongside pupils and shares honest reactions; pupils recommend books to named classmates."
+    claims: [clm-LIT-rfp-elements, clm-LIT-rfp-right, clm-LIT-rfp-teacher-knowledge, clm-LIT-rfp-fmrc, clm-LIT-rfp-eef-culture]
+
+  # 12 --------------------------------------------------------------------------
+  - id: act-LIT-close-reading
+    type: activity_type
+    title: "Close reading of a short complex passage (bridge to S1)"
+    summary: >-
+      Repeated, purposeful rereading of a short, challenging extract with annotation,
+      text-dependent questions and discussion, preparing pupils for secondary analysis.
+    body: |
+      1. Choose a short extract (a few paragraphs) that is demanding but not overwhelming.
+      2. First read: what is it about? (minimal frontloading)
+      3. Second read with annotation: underline key ideas, circle unclear words, margin notes.
+      4. Text-dependent questions in sequence: what it says, how it works (word choice,
+         structure), what it means (inference, author's purpose).
+      5. Pair and group discussion requiring evidence ("Which words show that?").
+      6. Short written response using a quotation.
+
+      Use alongside, not instead of, read-alouds, guided reading and independent reading.
+    status: draft
+    version: "0.1"
+    curated_by: [agent-LIT]
+    reviewed_by: []
+    facets:
+      jurisdiction: [scotland]
+      cfe_level: [second, third]
+      stage: [p7, s1]
+      curriculum_area: [languages]
+      subject: [literacy and English, reading]
+      lesson_purpose: [guided_practice, apply_transfer]
+      knowledge_type: [procedural, disciplinary]
+      expertise: [developing, secure]
+      artefact_type: [worksheet, slides, lesson_plan, interaction]
+    evidence:
+      rating: emerging
+      rationale: "Promising early studies but no agreed definition or strong trial base (clm-LIT-cr-contested)."
+    prerequisites: ["Fluent decoding of the extract", "Some experience of comprehension strategies"]
+    risks:
+      - "Texts that are too hard without support can overwhelm weaker readers; scaffold with modelling."
+      - "Over-use makes reading feel like dissection; keep a balance with reading for pleasure."
+      - "Link to S1 is the curator's inference, not a source claim."
+    relations:
+      uses_principle: [prn-EVD-reading-comprehension-strategies, prn-EVD-oral-language-dialogic, prn-EVD-scaffolding]
+      aligns_to: [cur-CUR-eng-2-17a, cur-CUR-lit-2-16a, cur-CUR-eng-2-19a]
+    artefact_recipes:
+      slides: "Extract on screen; each reread introduced by a new question; teacher annotations revealed only after pupils annotate."
+      worksheet: "Extract with wide margins and numbered lines; annotation key; six text-dependent questions ordered from literal to inferential."
+      form: "Exit form: one inference about the character with a quotation as evidence."
+      lesson_plan: "Read 1 gist, read 2 annotate, read 3 questions in pairs, discussion, written response."
+      interaction: "Teacher asks only questions answerable from the text; follow-up 'Show me where'."
+    claims: [clm-LIT-cr-features, clm-LIT-cr-annotation, clm-LIT-cr-not-only, clm-LIT-cr-contested, clm-LIT-cr-text-challenge]
+
+  # 13 --------------------------------------------------------------------------
+  - id: act-LIT-writing-in-role
+    type: activity_type
+    title: "Writing in role (for example a letter or diary entry as a character)"
+    summary: >-
+      Pupils write from a character's perspective straight after drama work such as hot
+      seating or freeze frame, to deepen engagement and detail.
+    body: |
+      **When it helps.** After drama has built tension and a strong sense of the
+      character's situation; for narrative, recount and persuasive purposes where voice
+      and viewpoint matter; with pupils who struggle to generate ideas.
+
+      **When it helps less.** As a stand-alone writing prompt with no preparatory talk or
+      drama; when the learning goal is a non-fiction feature the role does not require.
+
+      **Routine.** Drama convention (hot seat the character at a decision point), then
+      "seize the moment": pupils write a letter, diary entry or message in role while
+      engagement is high; follow with revision using writing goals.
+    status: draft
+    version: "0.1"
+    curated_by: [agent-LIT]
+    reviewed_by: []
+    facets:
+      jurisdiction: [scotland]
+      cfe_level: [second]
+      stage: [p7]
+      curriculum_area: [languages]
+      subject: [literacy and English, writing, drama]
+      lesson_purpose: [apply_transfer]
+      knowledge_type: [procedural, conceptual]
+      expertise: [developing, secure]
+      artefact_type: [lesson_plan, worksheet, interaction]
+    evidence:
+      rating: emerging
+      rationale: "Small non-experimental case studies report more focused, detailed writing in role after drama (clm-LIT-wir-focus)."
+    prerequisites: ["Pupils know the character's situation well from the text or drama"]
+    risks:
+      - "Evidence is small-scale and non-causal."
+      - "Writing in role as a real person who suffered (history contexts) needs separate caution; this entry is for fiction."
+    relations:
+      uses_principle: [prn-EVD-oral-language-dialogic, prn-EVD-scaffolding]
+      aligns_to: [cur-CUR-eng-2-31a, cur-CUR-eng-2-30a, cur-CUR-eng-2-27a]
+    artefact_recipes:
+      slides: "Image of the story's turning point; hot-seating question prompts; then the writing task in role with audience named."
+      worksheet: "Letter frame in role: who you are writing to, what has just happened, how you feel, what you will do; word bank of feeling words."
+      form: "Pupils note two details from the drama they used in their writing."
+      lesson_plan: "Recap text, freeze frame and hot seat (20 min), immediate writing in role (20 min), share and revise next lesson."
+      interaction: "Teacher in role answers questions as a minor character to build tension before writing."
+    claims: [clm-LIT-wir-focus, clm-LIT-wir-limits, clm-LIT-wir-drama]
+
+  # 14 --------------------------------------------------------------------------
+  - id: exm-LIT-reciprocal-reading-group-session
+    type: exemplar
+    title: "Exemplar: 40-minute reciprocal reading session for a P7 group"
+    summary: >-
+      A Model, Try, Apply, Secure lesson using role cards and sentence starters on a
+      short information text.
+    body: |
+      **Text.** Two-page non-fiction article on a P7 topic, split into four sections.
+
+      **Model (10 min).** Teacher reads section 1 aloud and thinks aloud through predict,
+      question, clarify, summarise.
+
+      **Try (15 min).** Groups of four, one role card each (Predictor, Questioner,
+      Clarifier, Summariser) with sentence starters; section 2; roles rotate for section 3.
+
+      **Apply (10 min).** Pairs read section 4 and complete a summary wheel in few words.
+
+      **Secure (5 min).** Groups share one clarified word and how they worked it out; one
+      summary is compared with the teacher's.
+    status: draft
+    version: "0.1"
+    curated_by: [agent-LIT]
+    reviewed_by: []
+    facets:
+      jurisdiction: [scotland]
+      cfe_level: [second]
+      stage: [p7]
+      curriculum_area: [languages]
+      subject: [literacy and English, reading]
+      lesson_purpose: [guided_practice]
+      knowledge_type: [procedural, metacognitive]
+      expertise: [novice, developing]
+      artefact_type: [lesson_plan, worksheet]
+    evidence:
+      rating: practitioner_wisdom
+      rationale: "Structure taken from the Edinburgh Literacy Hub guide hosted by Education Scotland (clm-LIT-exrr-model-try)."
+    prerequisites: ["Each move modelled in earlier lessons"]
+    risks: ["Group size and roles may need adjusting for pupils who find group talk difficult."]
+    relations:
+      uses_principle: [prn-EVD-reading-comprehension-strategies, prn-EVD-collaborative-learning, prn-EVD-scaffolding]
+      aligns_to: [cur-CUR-lit-2-13a, cur-CUR-lit-2-14a]
+    artefact_recipes:
+      lesson_plan: "As in body: Model, Try, Apply, Secure."
+      worksheet: "Four role cards with starters ('I predict...', 'I wonder...', 'I clarified... by...', 'This part is about...') and a summary wheel."
+    claims: [clm-LIT-exrr-prompts, clm-LIT-exrr-model-try]
+
+claims:
+  # reciprocal reading
+  - id: clm-LIT-rr-four-strategies
+    entry_id: sig-LIT-reciprocal-reading
+    text: "Reciprocal teaching uses four activities (predicting, questioning, clarifying, summarising) chosen because each both supports comprehension and lets readers check their own understanding."
+    supported_by: [psg-LIT-pb-four]
+    support_type: paraphrase
+  - id: clm-LIT-rr-turn-taking
+    entry_id: sig-LIT-reciprocal-reading
+    text: "Teacher and pupils take turns leading the dialogue on each section of text, with the teacher modelling heavily at first and handing responsibility to pupils over time."
+    supported_by: [psg-LIT-pb-dialogue, psg-LIT-edhub-reciprocal]
+    support_type: paraphrase
+  - id: clm-LIT-rr-original-results
+    entry_id: sig-LIT-reciprocal-reading
+    text: "In the original studies with weak comprehenders aged about 12 to 13, comprehension scores rose substantially and classroom teachers achieved gains similar to the researcher's."
+    supported_by: [psg-LIT-pb-results]
+    support_type: paraphrase
+  - id: clm-LIT-rr-eef-trial
+    entry_id: sig-LIT-reciprocal-reading
+    text: "In an EEF trial, a targeted small-group version for upper primary pupils improved reading comprehension, but a whole-class version for younger pupils did no better than usual teaching."
+    supported_by: [psg-LIT-eefks2-reciprocal-box4]
+    support_type: paraphrase
+  - id: clm-LIT-rr-comp-strategies-impact
+    entry_id: sig-LIT-reciprocal-reading
+    text: "The EEF Toolkit estimates that teaching reading comprehension strategies adds about seven months' progress at very low cost, with moderate evidence security."
+    supported_by: [psg-LIT-eeftk-rcs-impact, psg-LIT-eefks2-comp-strategies]
+    support_type: paraphrase
+  - id: clm-LIT-rr-scotland
+    entry_id: sig-LIT-reciprocal-reading
+    text: "Reciprocal reading is promoted in Scottish professional learning, including a Regional Improvement Collaborative programme developed with the University of Stirling."
+    supported_by: [psg-LIT-es-rr-programme]
+    support_type: paraphrase
+
+  - id: clm-LIT-rr-sustained
+    entry_id: sig-LIT-reciprocal-reading
+    text: "Comprehension strategies should be applied across texts and subjects rather than practised in isolation, and whole-class teaching appears to work better when sustained and frequent."
+    supported_by: [psg-LIT-eeftk-rcs-caution]
+    support_type: paraphrase
+
+  # vocabulary
+  - id: clm-LIT-vocab-tier2
+    entry_id: sig-LIT-explicit-vocabulary-tier2
+    text: "EEF guidance suggests explicit vocabulary teaching may best focus on Tier 2 words, the ambitious words pupils meet across many subjects."
+    supported_by: [psg-LIT-eefks2-tier2-quote, psg-LIT-eefks2-vocab-method]
+    support_type: direct_quote
+  - id: clm-LIT-vocab-exposure
+    entry_id: sig-LIT-explicit-vocabulary-tier2
+    text: "New words should be pre-taught where they aid comprehension, met repeatedly across speaking, reading and writing, and used actively by pupils."
+    supported_by: [psg-LIT-eefks2-vocab-method]
+    support_type: paraphrase
+  - id: clm-LIT-vocab-oral-link
+    entry_id: sig-LIT-explicit-vocabulary-tier2
+    text: "Extending spoken vocabulary works best when words connect to current classroom content and pupils use them actively."
+    supported_by: [psg-LIT-eeftk-oral-vocab]
+    support_type: paraphrase
+
+  # frayer
+  - id: clm-LIT-frayer-structure
+    entry_id: act-LIT-frayer-model
+    text: "The Frayer model places a key term at the centre of four boxes (definition, characteristics, examples, non-examples) and dates from a 1969 University of Wisconsin technical report."
+    supported_by: [psg-LIT-iris-frayer-structure, psg-LIT-iris-frayer-origin]
+    support_type: paraphrase
+  - id: clm-LIT-frayer-release
+    entry_id: act-LIT-frayer-model
+    text: "The teacher models a Frayer model first, then guides the class, before pupils complete one in pairs or alone and explain their reasoning."
+    supported_by: [psg-LIT-iris-frayer-structure, psg-LIT-iris-frayer-practice]
+    support_type: paraphrase
+  - id: clm-LIT-frayer-discussion
+    entry_id: act-LIT-frayer-model
+    text: "Discussion is essential to the Frayer model, so it should not be set as a homework worksheet, and on first use the teacher should supply a pupil-friendly definition."
+    supported_by: [psg-LIT-iris-frayer-practice]
+    support_type: paraphrase
+
+  # fluency
+  - id: clm-LIT-flu-gor
+    entry_id: act-LIT-fluency-guided-repeated-reading
+    text: "In guided oral reading an adult or peer models a passage and pupils read it aloud with feedback; in repeated reading pupils re-read a short passage until fluent."
+    supported_by: [psg-LIT-eefks2-fluency-gor]
+    support_type: paraphrase
+  - id: clm-LIT-flu-rec
+    entry_id: act-LIT-fluency-guided-repeated-reading
+    text: "Developing fluent reading is one of the seven recommendations in the EEF guidance on literacy for pupils aged 7 to 11."
+    supported_by: [psg-LIT-eefks2-recs]
+    support_type: paraphrase
+  - id: clm-LIT-flu-cfe
+    entry_id: act-LIT-fluency-guided-repeated-reading
+    text: "Second Level outcomes expect pupils to read unfamiliar texts with increasing fluency, understanding and expression."
+    supported_by: [psg-LIT-cfe-eng212]
+    support_type: paraphrase
+  - id: clm-LIT-flu-guidance-caution
+    entry_id: act-LIT-fluency-guided-repeated-reading
+    text: "Repeated reading without guidance can reduce engagement, so rereading should be scaffolded and linked to meaning."
+    supported_by: [psg-LIT-ff15-rr-caution]
+    support_type: paraphrase
+
+  # readers theatre
+  - id: clm-LIT-rt-steps
+    entry_id: exm-LIT-readers-theatre-p7
+    text: "EEF guidance sets out Reader's Theatre as a sequence from adult modelling and echo reading, through rehearsal, to performance and reflection."
+    supported_by: [psg-LIT-eefks2-readers-theatre]
+    support_type: paraphrase
+
+  # modelled writing
+  - id: clm-LIT-msw-gradual
+    entry_id: sig-LIT-modelled-shared-writing
+    text: "Writing strategies should be taught by gradual release, with the teacher explaining when and how to use a strategy and then modelling it."
+    supported_by: [psg-LIT-eefks2-writing-stages]
+    support_type: paraphrase
+  - id: clm-LIT-msw-thinkaloud
+    entry_id: sig-LIT-modelled-shared-writing
+    text: "Shared writing lets teachers think aloud as they compose, and because writing is not linear, aspects may need to be modelled more than once."
+    supported_by: [psg-LIT-eefks2-writing-stages]
+    support_type: paraphrase
+  - id: clm-LIT-msw-models-es
+    entry_id: sig-LIT-modelled-shared-writing
+    text: "Studying finished model texts alone had a small average effect in Writing Next compared with explicit strategy instruction, which suggests models work best alongside modelled strategies."
+    supported_by: [psg-LIT-wn-models-process, psg-LIT-wn-elements]
+    support_type: inference_by_curator
+
+  # writing strategy instruction
+  - id: clm-LIT-ws-stages
+    entry_id: sig-LIT-writing-strategy-instruction
+    text: "EEF guidance frames writing as planning, drafting, revising, editing and publishing, with strategies for each stage taught explicitly."
+    supported_by: [psg-LIT-eefks2-writing-stages]
+    support_type: paraphrase
+  - id: clm-LIT-ws-selfreg
+    entry_id: sig-LIT-writing-strategy-instruction
+    text: "Pupils can set writing goals, use checklists and reread against their goals, taking increasing responsibility for choosing strategies over time."
+    supported_by: [psg-LIT-eefks2-self-reg]
+    support_type: paraphrase
+  - id: clm-LIT-ws-es
+    entry_id: sig-LIT-writing-strategy-instruction
+    text: "In the Writing Next meta-analysis for grades 4 to 12, explicit teaching of planning, revising and editing strategies had the largest average effect (0.82)."
+    supported_by: [psg-LIT-wn-elements]
+    support_type: paraphrase
+  - id: clm-LIT-ws-goals
+    entry_id: sig-LIT-writing-strategy-instruction
+    text: "Collaborative writing and specific product goals also showed sizeable average effects, larger than a general process writing approach."
+    supported_by: [psg-LIT-wn-models-process]
+    support_type: paraphrase
+
+  # sentence combining
+  - id: clm-LIT-sc-eef
+    entry_id: act-LIT-sentence-combining
+    text: "Sentence combining and sentence expanding should be modelled by the teacher, then practised collaboratively and independently."
+    supported_by: [psg-LIT-eefks2-sentence-combining]
+    support_type: paraphrase
+  - id: clm-LIT-sc-wn
+    entry_id: act-LIT-sentence-combining
+    text: "Sentence combining had a positive average effect on writing quality (0.50), whereas traditional grammar teaching showed a small negative effect."
+    supported_by: [psg-LIT-wn-sentence]
+    support_type: paraphrase
+  - id: clm-LIT-sc-bbs
+    entry_id: act-LIT-sentence-combining
+    text: "Practitioners report that completing a stem with because, but and so prompts explanation, contrast and consequence and quickly reveals understanding, though this is not trial evidence."
+    supported_by: [psg-LIT-twr-bbs]
+    support_type: paraphrase
+
+  # structured talk
+  - id: clm-LIT-talk-eef
+    entry_id: act-LIT-structured-talk-oracy
+    text: "Speaking and listening underpin reading and writing, and structured talk tasks with clear design are associated with the largest learning gains."
+    supported_by: [psg-LIT-eefks2-talk]
+    support_type: paraphrase
+  - id: clm-LIT-talk-oral-impact
+    entry_id: act-LIT-structured-talk-oracy
+    text: "Oral language interventions are estimated at around six months' additional progress, with high evidence security and strongest effects when integrated with literacy teaching."
+    supported_by: [psg-LIT-eeftk-oral-impact]
+    support_type: paraphrase
+  - id: clm-LIT-talk-structured
+    entry_id: act-LIT-structured-talk-oracy
+    text: "Effective oral language approaches include adults using structured questioning to develop reading comprehension."
+    supported_by: [psg-LIT-eeftk-oral-structured-quote]
+    support_type: direct_quote
+  - id: clm-LIT-talk-v21-strands
+    entry_id: act-LIT-structured-talk-oracy
+    text: "The Voice 21 Oracy Framework describes talk in four strands (physical, linguistic, cognitive, social and emotional) to support explicit teaching of oracy."
+    supported_by: [psg-LIT-v21-strands]
+    support_type: paraphrase
+  - id: clm-LIT-talk-v21-ks2
+    entry_id: act-LIT-structured-talk-oracy
+    text: "Upper primary oracy targets include building on others' points, asking probing questions, summarising, giving reasons and evidence, and inviting others to contribute."
+    supported_by: [psg-LIT-v21-ks2]
+    support_type: paraphrase
+
+  # tell me
+  - id: clm-LIT-tm-questions
+    entry_id: sig-LIT-tell-me-booktalk
+    text: "The 'Tell me' framework starts from four basic questions about what readers liked, disliked, found puzzling and noticed as patterns."
+    supported_by: [psg-LIT-chambers-framework]
+    support_type: paraphrase
+  - id: clm-LIT-tm-why
+    entry_id: sig-LIT-tell-me-booktalk
+    text: "Chambers avoids 'Why?' because it can feel like a test and demands a full explanation at once, whereas 'Tell me' invites conversation."
+    supported_by: [psg-LIT-chambers-why]
+    support_type: paraphrase
+  - id: clm-LIT-tm-glottal
+    entry_id: sig-LIT-tell-me-booktalk
+    text: "Chambers describes 'Tell me' as a conversational glottal stop that gives readers time to think."
+    supported_by: [psg-LIT-chambers-quote]
+    support_type: direct_quote
+  - id: clm-LIT-tm-sharings
+    entry_id: sig-LIT-tell-me-booktalk
+    text: "Book talk can be organised as sharing enthusiasms, sharing puzzles and sharing connections."
+    supported_by: [psg-LIT-chambers-sharings]
+    support_type: paraphrase
+  - id: clm-LIT-tm-holdback
+    entry_id: sig-LIT-tell-me-booktalk
+    text: "Teachers should use the questions as prompts not a checklist, give thinking time and hold back their own opinions so they do not dominate."
+    supported_by: [psg-LIT-vic-tellme-run]
+    support_type: paraphrase
+  - id: clm-LIT-tm-cfe
+    entry_id: sig-LIT-tell-me-booktalk
+    text: "Second Level outcomes include discussing characters, setting and structure, relating themes to experience, and explaining reading preferences."
+    supported_by: [psg-LIT-cfe-eng219]
+    support_type: paraphrase
+
+  # reading for pleasure
+  - id: clm-LIT-rfp-elements
+    entry_id: sig-LIT-reading-for-pleasure
+    text: "Open University research sets out reading for pleasure pedagogy as reading aloud, independent reading time, informal book talk and recommendations, and social reading environments."
+    supported_by: [psg-LIT-ourfp-elements]
+    support_type: paraphrase
+  - id: clm-LIT-rfp-right
+    entry_id: sig-LIT-reading-for-pleasure
+    text: "The Open University coalition presents reading for pleasure as a right of every child."
+    supported_by: [psg-LIT-ourfp-quote]
+    support_type: direct_quote
+  - id: clm-LIT-rfp-teacher-knowledge
+    entry_id: sig-LIT-reading-for-pleasure
+    text: "Research with primary teachers found their knowledge of children's literature was often too narrow to support reader development, and exploring pupils' informal reading led to more social, talk-based practice."
+    supported_by: [psg-LIT-ref-findings]
+    support_type: paraphrase
+  - id: clm-LIT-rfp-fmrc
+    entry_id: sig-LIT-reading-for-pleasure
+    text: "The First Minister's Reading Challenge encourages reading for pleasure in Scottish schools, and almost all participating schools reported an improved reading culture in its evaluation."
+    supported_by: [psg-LIT-sbt-fmrc, psg-LIT-fmrc-site]
+    support_type: paraphrase
+  - id: clm-LIT-rfp-eef-culture
+    entry_id: sig-LIT-reading-for-pleasure
+    text: "EEF guidance links pupils' reading motivation to a school culture that places reading and discussion of texts at its centre."
+    supported_by: [psg-LIT-eefks2-motivation]
+    support_type: paraphrase
+
+  # close reading
+  - id: clm-LIT-cr-features
+    entry_id: act-LIT-close-reading
+    text: "Close reading uses short complex passages, limited frontloading, several purposeful rereadings, text-dependent questions, annotation and discussion."
+    supported_by: [psg-LIT-ff12-features]
+    support_type: paraphrase
+  - id: clm-LIT-cr-annotation
+    entry_id: act-LIT-close-reading
+    text: "A simple annotation routine is to underline key ideas, circle unclear words and write margin notes in your own words, and close reading should lead on to writing or discussion."
+    supported_by: [psg-LIT-ff15-annotation]
+    support_type: paraphrase
+  - id: clm-LIT-cr-not-only
+    entry_id: act-LIT-close-reading
+    text: "Close reading should complement, not replace, read-alouds, guided reading and independent reading, and not every text needs it."
+    supported_by: [psg-LIT-ff12-cautions]
+    support_type: paraphrase
+  - id: clm-LIT-cr-contested
+    entry_id: act-LIT-close-reading
+    text: "There is little agreement on the essential components of close reading or whether it works, although early studies are promising."
+    supported_by: [psg-LIT-ff15-evidence, psg-LIT-ff12-cautions]
+    support_type: paraphrase
+  - id: clm-LIT-cr-text-challenge
+    entry_id: act-LIT-close-reading
+    text: "Texts used for comprehension work should offer a challenge that is effective but not overwhelming."
+    supported_by: [psg-LIT-eeftk-rcs-text-quote]
+    support_type: direct_quote
+
+  # writing in role
+  - id: clm-LIT-wir-focus
+    entry_id: act-LIT-writing-in-role
+    text: "In a case study including two classes of 10 to 11 year olds, writing in role after process drama was more focused and used setting, character and event detail more effectively."
+    supported_by: [psg-LIT-aes-cremin06, psg-LIT-cremin06-abstract]
+    support_type: paraphrase
+  - id: clm-LIT-wir-limits
+    entry_id: act-LIT-writing-in-role
+    text: "The drama and writing study was non-experimental, so it cannot show that drama caused the improvements."
+    supported_by: [psg-LIT-aes-cremin06]
+    support_type: paraphrase
+  - id: clm-LIT-wir-drama
+    entry_id: act-LIT-writing-in-role
+    text: "Drama conventions such as hot seating, freeze frame and teacher in role are linked to children's idea generation and motivation to write, and can lead into letters or diaries written in role."
+    supported_by: [psg-LIT-ukla-drama]
+    support_type: paraphrase
+
+  # reciprocal reading exemplar
+  - id: clm-LIT-exrr-prompts
+    entry_id: exm-LIT-reciprocal-reading-group-session
+    text: "Prompt cards with sentence starters, writing a question before reading, and short summary tasks support each reciprocal reading move."
+    supported_by: [psg-LIT-edhub-prompts]
+    support_type: paraphrase
+  - id: clm-LIT-exrr-model-try
+    entry_id: exm-LIT-reciprocal-reading-group-session
+    text: "A Scottish reading comprehension guide structures lessons as Model, Try, Apply and Secure, with paired and group talk throughout."
+    supported_by: [psg-LIT-edhub-model-try]
+    support_type: paraphrase

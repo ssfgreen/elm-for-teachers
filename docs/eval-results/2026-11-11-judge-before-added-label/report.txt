@@ -1,0 +1,22 @@
+Judge experiment: 21 cases, 1 run(s) each per model.
+
+Per model:
+  GPT-6 Luna: 95% usable answers; 2.1 s median, 5.9 s at the 95th percentile; 1182 tokens in, 128 out; 1.6 flags a run, something flagged in 60% of runs.
+  Mistral Small 4: 95% usable answers; 0.9 s median, 2.3 s at the 95th percentile; 1287 tokens in, 86 out; 1.4 flags a run, something flagged in 85% of runs.
+
+Agreement with itself (mean over cases):
+  GPT-6 Luna: no answers
+  Mistral Small 4: no answers
+
+Agreement between models (mean over cases):
+  GPT-6 Luna and Mistral Small 4: 0.27 labelled, 0.60 blocks, 79% same on whether to flag
+
+Where they agree least (labelled):
+  0.00  1KC #9  (GPT-6 Luna and Mistral Small 4)
+  0.00  1KC #11  (GPT-6 Luna and Mistral Small 4)
+  0.00  1KC #12  (GPT-6 Luna and Mistral Small 4)
+  0.00  2SH #1  (GPT-6 Luna and Mistral Small 4)
+  0.00  2SH #2  (GPT-6 Luna and Mistral Small 4)
+  0.00  2SH #3  (GPT-6 Luna and Mistral Small 4)
+  0.00  3PD #0  (GPT-6 Luna and Mistral Small 4)
+  0.00  3PD #3  (GPT-6 Luna and Mistral Small 4)

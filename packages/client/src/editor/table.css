@@ -1,0 +1,65 @@
+/* Tables in the editor: borders, the header row, the selected cells and column resizing. */
+.canvas-pm .tableWrapper {
+  overflow-x: auto;
+}
+.canvas-pm table {
+  border-collapse: collapse;
+  width: 100%;
+  table-layout: fixed;
+  margin: 0;
+}
+.canvas-pm td,
+.canvas-pm th {
+  border: 1px solid var(--border-strong);
+  padding: 4px 8px;
+  vertical-align: top;
+  position: relative;
+  min-width: 3em;
+}
+.canvas-pm th {
+  background: var(--panel);
+  font-weight: 600;
+  text-align: left;
+}
+.canvas-pm td > p,
+.canvas-pm th > p {
+  margin: 0;
+}
+.canvas-pm .selectedCell::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: var(--ring);
+  pointer-events: none;
+}
+
+/* ---- table column resizing ---- */
+.canvas-pm td,
+.canvas-pm th {
+  overflow-wrap: anywhere;
+}
+.canvas-pm .column-resize-handle {
+  position: absolute;
+  top: 0;
+  bottom: -1px;
+  right: -2px;
+  width: 3px;
+  background: var(--primary);
+  pointer-events: none;
+  z-index: 2;
+}
+.canvas-pm.resize-cursor,
+.canvas-pm.resize-cursor * {
+  cursor: col-resize;
+}
+
+/* A header row colour (extensions/tableHeaderColor.ts): the text colour as a light fill, in both themes. */
+.canvas-pm [data-header-color] th {
+  background: color-mix(in srgb, var(--header-fill) 18%, var(--card));
+}
+.canvas-pm [data-header-color='red'] { --header-fill: var(--text-red); }
+.canvas-pm [data-header-color='yellow'] { --header-fill: var(--text-yellow); }
+.canvas-pm [data-header-color='green'] { --header-fill: var(--text-green); }
+.canvas-pm [data-header-color='blue'] { --header-fill: var(--text-blue); }
+.canvas-pm [data-header-color='teal'] { --header-fill: var(--text-teal); }
+.canvas-pm [data-header-color='purple'] { --header-fill: var(--text-purple); }

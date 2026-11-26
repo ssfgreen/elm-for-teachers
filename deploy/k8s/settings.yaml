@@ -1,0 +1,32 @@
+# Settings that are not secret. Secrets (edw-app, edw-backup) are made by hand: DEPLOY.md, section 13.
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: edw-settings
+data:
+  # The database (sqld.yaml) and the library runner (runner.yaml), inside the cluster only.
+  DATABASE_URL: http://sqld:8080
+  LIBRARY_URL: http://runner:8787
+  # Migrations run as their own Job (migrate-job.yaml) before the new copies take traffic.
+  MIGRATE_ON_START: 'false'
+  PROVIDER: elm
+  ELM_PROXY_BASE_URL: https://elm.edina.ac.uk/api/v1
+  PUBLIC_BASE_URL: https://elm.example.org
+  # The gateway gives a chat turn 300 s (gateway.yaml). A change here needs a rollout restart (DEPLOY.md).
+  FUNCTION_LIMIT_MS: '300000'
+  # Image storage, outside the University (Google Cloud Storage or R2). Its keys are in edw-app.
+  # S3_ENDPOINT: https://storage.googleapis.com
+  # S3_BUCKET: edw-files
+  # S3_REGION: auto
+---
+# Where database backups go: University storage, S3-compatible. Never the file bucket above
+# (litestream-start.sh refuses it). Its keys are in the edw-backup Secret.
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: edw-backup-settings
+data:
+  BACKUP_S3_ENDPOINT: https://s3.example.ed.ac.uk
+  BACKUP_S3_BUCKET: edw-db-backups
+  BACKUP_S3_PATH: edw
+  BACKUP_S3_REGION: us-east-1
